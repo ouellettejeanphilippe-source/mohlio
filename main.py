@@ -78,15 +78,51 @@ def fetch_show_image(show_id):
 
     time.sleep(0.3)
 
+    # Try getting the canonical URL first, which is needed to load the correct HTML on Ohdio
+    canonical_url = None
+    query_prog = """
+    query GetProgramme($params: ProgrammeByIdInput!) {
+      programmeById(params: $params) {
+        ... on EmissionBalado {
+          canonicalUrl
+        }
+      }
+    }
+    """
+    variables_prog = {"params": {"id": show_id, "forceWithoutCueSheet": False}}
     try:
-        url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
+        resp_prog = session.post(GRAPHQL_URL, json={"query": query_prog, "variables": variables_prog}, headers=HEADERS, timeout=10)
+        if resp_prog.status_code == 200:
+            data_prog = resp_prog.json()
+            canonical_url = data_prog.get('data', {}).get('programmeById', {}).get('canonicalUrl')
+    except Exception:
+        pass
+
+    # Fallback to base url if canonicalUrl not found
+    url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
+    if canonical_url:
+        slug = canonical_url.split('/')[-1]
+        if slug:
+            url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}/{slug}"
+
+    try:
         response = session.get(url, headers=HEADERS, timeout=10)
         if response.status_code == 200:
+            # 1. Try og:image first
             match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', response.text)
             if not match:
                 match = re.search(r'content="([^"]+)"\s+property="og:image"', response.text)
             if match:
                 return match.group(1)
+
+            # 2. Extract from page HTML (excluding fallbacks)
+            imgs = re.findall(r'https://images\.radio-canada\.ca[^"\']+', response.text)
+            for img in imgs:
+                # filter out curly brackets (from templates like {ratio}) and generic fallbacks
+                if '{' not in img and '\\' not in img and 'fallback' not in img and 'erreur' not in img and 'molecule' not in img and 'tuile-rechercher' not in img and 'balado' in img:
+                    # Clean up any trailing HTML parts if regex captured too much
+                    img_clean = img.split('>')[0].split('<')[0]
+                    return img_clean
     except Exception:
         pass
 
@@ -351,7 +387,7 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
     description.text = channel_data.get("description", title_text)
 
     link = ET.SubElement(channel, "link")
-    link.text = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
+    link.text = "https://example.com"
 
     # Try channel image, then fallback image
     img_data = channel_data.get("image")
@@ -365,7 +401,7 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         image = ET.SubElement(channel, "image")
         ET.SubElement(image, "url").text = img_url
         ET.SubElement(image, "title").text = title_text
-        ET.SubElement(image, "link").text = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
+        ET.SubElement(image, "link").text = "https://example.com"
 
         itunes_image = ET.SubElement(channel, "itunes:image")
         itunes_image.set("href", img_url)
