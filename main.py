@@ -1,5 +1,17 @@
 import requests
 import time
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+
+# Create a session with retry for more robust requests
+session = requests.Session()
+retry = Retry(connect=3, backoff_factor=0.5)
+adapter = HTTPAdapter(max_retries=retry)
+session.mount('http://', adapter)
+session.mount('https://', adapter)
+
+
+import time
 import re
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
@@ -52,7 +64,7 @@ def fetch_show_image(show_id):
     variables = {"globalId": str(show_id)}
 
     try:
-        response = requests.post(GRAPHQL_URL, json={"query": query, "variables": variables}, headers=HEADERS, timeout=10)
+        response = session.post(GRAPHQL_URL, json={"query": query, "variables": variables}, headers=HEADERS, timeout=10)
         if response.status_code == 200:
             data = response.json()
             if "data" in data and "show" in data["data"] and data["data"]["show"]:
@@ -66,7 +78,7 @@ def fetch_show_image(show_id):
 
     try:
         url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
-        response = requests.get(url, headers=HEADERS, timeout=10)
+        response = session.get(url, headers=HEADERS, timeout=10)
         if response.status_code == 200:
             match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', response.text)
             if not match:
@@ -77,6 +89,147 @@ def fetch_show_image(show_id):
         pass
 
     return ""
+
+
+import json
+from email.utils import format_datetime
+from datetime import datetime
+
+def fetch_aac_url_from_media_id(media_id):
+    validation_url = f"https://services.radio-canada.ca/media/validation/v2/?appCode=medianet&deviceType=ipad&connectionType=wifi&idMedia={media_id}&output=json"
+    try:
+        resp = session.get(validation_url, headers=HEADERS, timeout=10)
+        if resp.status_code == 429:
+            print(f"429 Too Many Requests for media {media_id}. Sleeping 2 seconds.")
+            time.sleep(5)
+            resp = session.get(validation_url, headers=HEADERS, timeout=10)
+
+        try:
+            data = resp.json()
+        except ValueError:
+            print(f"Invalid JSON for media {media_id}. Status: {resp.status_code}")
+            return None, 0
+        m3u8_url = data.get("url")
+        if not m3u8_url:
+            return None, 0
+
+        m3u8_resp = session.get(m3u8_url, headers=HEADERS, timeout=10)
+        variant_m3u8 = ""
+        for line in reversed(m3u8_resp.text.strip().split('\n')):
+            if line.endswith('.m3u8') and not line.startswith('#'):
+                variant_m3u8 = line
+                break
+
+        if variant_m3u8:
+            base_url = m3u8_url.rsplit('/', 1)[0] + '/'
+            aac_filename = variant_m3u8.replace('.m3u8', '.aac')
+            full_aac_url = base_url + aac_filename
+
+            # Optionally check HEAD for size
+            size = 0
+            try:
+                head_resp = session.head(full_aac_url, headers=HEADERS, timeout=5)
+                size = int(head_resp.headers.get("Content-Length", 0))
+            except:
+                pass
+
+            return full_aac_url, size
+    except Exception as e:
+        print(f"Error fetching media {media_id}: {e}")
+    return None, 0
+
+def fetch_fallback_show_data(show_id):
+    # 1. Find canonical URL
+    query = """
+    query GetProgramme($params: ProgrammeByIdInput!) {
+      programmeById(params: $params) {
+        ... on EmissionBalado {
+          id
+          canonicalUrl
+        }
+      }
+    }
+    """
+    variables = {"params": {"id": show_id, "forceWithoutCueSheet": False}}
+    try:
+        resp = session.post(GRAPHQL_URL, json={"query": query, "variables": variables}, headers=HEADERS, timeout=10)
+        data = resp.json()
+        canonical_url = data.get('data', {}).get('programmeById', {}).get('canonicalUrl')
+        if not canonical_url:
+            return None, f"[{show_id}] Could not find canonical URL for fallback."
+
+        slug = canonical_url.split('/')[-1]
+        page_url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}/{slug}"
+
+        # 2. Fetch page and extract state
+        page_resp = session.get(page_url, headers=HEADERS, timeout=15)
+        m = re.search(r'window\._rcState_\s*=\s*(.*?);</script>', page_resp.text)
+        if not m:
+            return None, f"[{show_id}] Could not find state data in page HTML."
+
+        state = json.loads(m.group(1))
+        pages = state.get('pages', {}).get('pages', {})
+
+        target_path = f"/ohdio/balados/{show_id}/{slug}"
+        page_data = None
+        for p, d in pages.items():
+            if p.startswith(target_path):
+                page_data = d.get('data', {})
+                break
+
+        if not page_data:
+            return None, f"[{show_id}] Could not find page data in state for path {target_path}."
+
+        program = page_data.get('program', {})
+        episodes = page_data.get('episodes', [])
+
+        if not episodes:
+            return None, f"[{show_id}] Found state data but no episodes."
+
+        channel_data = {
+            "title": program.get('title') or SHOW_TITLES.get(show_id, f"Show {show_id}"),
+            "description": program.get('summary') or program.get('description') or SHOW_TITLES.get(show_id, ""),
+            "image": {"url": program.get('picture', {}).get('url', '')},
+            "items": []
+        }
+
+        # Process first ~50 episodes we found
+        for ep in episodes[:15]:
+            media_ids = ep.get('mediaIds', [])
+            if not media_ids:
+                continue
+
+            time.sleep(2.0)
+            aac_url, size = fetch_aac_url_from_media_id(media_ids[0])
+            if not aac_url:
+                continue
+
+            pub_date_str = ep.get('broadcastedFirstTimeAt')
+            rfc2822_date = pub_date_str
+            if pub_date_str:
+                try:
+                    d = datetime.fromisoformat(pub_date_str.replace("Z", "+00:00"))
+                    rfc2822_date = format_datetime(d)
+                except:
+                    pass
+
+            item = {
+                "title": ep.get('title', ''),
+                "description": ep.get('summary', ''),
+                "pubDate": rfc2822_date,
+                "itunesDuration": ep.get('duration', {}).get('durationInSeconds', 0),
+                "enclosure": {
+                    "url": aac_url,
+                    "length": size,
+                    "type": "audio/aac"
+                }
+            }
+            channel_data["items"].append(item)
+
+        return channel_data, None
+
+    except Exception as e:
+        return None, f"[{show_id}] Fallback error: {e}"
 
 def fetch_show_rss_data(show_id):
     query = """
@@ -113,7 +266,7 @@ def fetch_show_rss_data(show_id):
     }
 
     try:
-        response = requests.post(
+        response = session.post(
             GRAPHQL_URL,
             json={"query": query, "variables": variables},
             headers=HEADERS,
@@ -128,9 +281,23 @@ def fetch_show_rss_data(show_id):
             return None, f"[{show_id}] GraphQL Error (Show might be missing). Skipping."
 
         channel = data.get("data", {}).get("podcastByProgrammeId", {}).get("channel")
+        if not channel or not channel.get("items"):
+            # Use fallback scraper
+            fallback_channel, fallback_err = fetch_fallback_show_data(show_id)
+            if fallback_channel and fallback_channel.get("items"):
+                return fallback_channel, None
+            else:
+                if fallback_err:
+                    return None, fallback_err
+                return None, f"[{show_id}] GraphQL and fallback both returned no data."
+
         return channel, None
     except Exception as e:
-        return None, f"[{show_id}] Network or unexpected error: {e}. Skipping."
+        # If network error in GraphQL, try fallback too
+        fallback_channel, fallback_err = fetch_fallback_show_data(show_id)
+        if fallback_channel and fallback_channel.get("items"):
+            return fallback_channel, None
+        return None, f"[{show_id}] Network or unexpected error: {e}. Skipping. (Fallback also failed: {fallback_err})"
 
 def create_rss_xml(show_id, channel_data, fallback_image_url):
     if not channel_data:
