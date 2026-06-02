@@ -33,7 +33,8 @@ SHOW_IDS = [
     12095, # Olivier Niquet 24/7 (en jaquette)
     302,   # À la une
     6056,  # Moteur de recherche
-    7791   # Pouvez-vous répéter la question?
+    7791,  # Pouvez-vous répéter la question?
+    6104   # Tellement hockey
 ]
 
 SHOW_TITLES = {
@@ -44,7 +45,8 @@ SHOW_TITLES = {
     12095: "Olivier Niquet 24/7 (en jaquette)",
     302: "À la une",
     6056: "Moteur de recherche",
-    7791: "Pouvez-vous répéter la question?"
+    7791: "Pouvez-vous répéter la question?",
+    6104: "Tellement hockey"
 }
 
 def fetch_show_image(show_id):
