@@ -3,7 +3,13 @@
   <channel>
     <title>Décrypteurs : le balado</title>
     <description>Décrypteurs : le balado</description>
-    <link>https://ici.radio-canada.ca/ohdio/balados/11099</link>
+    <link>https://example.com</link>
+    <image>
+      <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/les-decrypteurs-nouveau-visuel-balado-ohdio-moteur.jpg</url>
+      <title>Décrypteurs : le balado</title>
+      <link>https://example.com</link>
+    </image>
+    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/les-decrypteurs-nouveau-visuel-balado-ohdio-moteur.jpg"/>
     <item>
       <title>Extrémistes, les détracteurs de l’IA?</title>
       <description>&lt;p&gt;Les personnes critiques de l’intelligence artificielle sont dans la mire des forces de l’ordre aux États-Unis, au moment où s’amplifie la grogne contre l’implantation de centres de données; le pape Léon XIV entre en croisade contre les dérives de l’IA; une ex-influenceuse MAGA déchante et règle ses comptes; et Google et Apple réitèrent leur opposition à certaines dispositions du projet de loi C-22 sur l’accès légal à des données numériques personnelles. &lt;/p&gt;</description>

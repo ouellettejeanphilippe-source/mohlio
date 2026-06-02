@@ -3,13 +3,21 @@
   <channel>
     <title>La journée (est encore jeune)</title>
     <description>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</description>
-    <link>https://ici.radio-canada.ca/ohdio/balados/9887</link>
+    <link>https://example.com</link>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
-      <link>https://ici.radio-canada.ca/ohdio/balados/9887</link>
+      <link>https://example.com</link>
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
+    <item>
+      <title>Mardi 2 juin 2026 : Les meilleurs moments, avec David Thibodeau et Marc Cassivi</title>
+      <description>&lt;p&gt;Olivier nous rappelle la menace d’apocalypse nucléaire, lorsque Donald Trump a affirmé vouloir anéantir l’Iran. David Thibodeau parle des Jeux d’hiver de l’Arctique et de ses disciplines, dont le saut sur les jointures. Et Marc Cassivi démolit le film &lt;em&gt;Le dîner de cons&lt;/em&gt;.&lt;/p&gt;</description>
+      <pubDate>Tue, 02 Jun 2026 18:28:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_128.aac" length="28346825" type="audio/aac"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_128.aac</guid>
+      <itunes:duration>1770</itunes:duration>
+    </item>
     <item>
       <title>Lundi 1er juin 2026 : Les meilleurs moments, avec Charles Beauchesne et Dominic LeBlanc</title>
       <description>&lt;p&gt;Jean-Philippe remercie Rose-Aimée Automne T. Morin et Suzie Bouchard en leur dédiant un acrostiche et un slam. Olivier nous fait entendre les caquistes qui rendent hommage à François Legault en chantant du Céline Dion. Dominic LeBlanc explique pourquoi le PLC n’accepterait pas que Jacques Gourde rejoigne ses rangs. Et Charles Beauchesne raconte sa très érotique sortie à la cabane à sucre.&lt;/p&gt;</description>
@@ -465,14 +473,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/af6ed741-b5bc-43f2-9401-29c03a33d969/2026-04-02_16_00_00_lajourneeestencorejeuneohdio_0000_128.aac" length="30565718" type="audio/aac"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/af6ed741-b5bc-43f2-9401-29c03a33d969/2026-04-02_16_00_00_lajourneeestencorejeuneohdio_0000_128.aac</guid>
       <itunes:duration>1908</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 2 avr. 2026 : Jean-Sébastien Girard, Pierre Brassard, Nathalie Petrowski et Gaétan Pouliot</title>
-      <description>&lt;p&gt;Jean-Sébastien Girard révèle quelques nouveautés de &lt;em&gt;Bonsoir, bonsoir!&lt;/em&gt; Gaétan Pouliot parle de sirop d’érable falsifié. Pierre Brassard nous emmène dans les coulisses du party des Olivier. Et Nathalie Petrowski nous dit si elle ira voir Céline à Paris.&lt;/p&gt;</description>
-      <pubDate>Thu, 02 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/13e3909f-2a19-4001-8893-b4b4904453d6/2026-04-02_14_25_00_lajourneeestencorejeuneohdio_0000_128.aac" length="28342843" type="audio/aac"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/13e3909f-2a19-4001-8893-b4b4904453d6/2026-04-02_14_25_00_lajourneeestencorejeuneohdio_0000_128.aac</guid>
-      <itunes:duration>1769</itunes:duration>
     </item>
     <item>
       <title>Jeudi 2 avr. 2026 : Jean-Sébastien Girard, Pierre Brassard, Nathalie Petrowski et Gaétan Pouliot</title>

@@ -3,7 +3,13 @@
   <channel>
     <title>Olivier Niquet 24/7 (en jaquette)</title>
     <description>Olivier Niquet 24/7 (en jaquette)</description>
-    <link>https://ici.radio-canada.ca/ohdio/balados/12095</link>
+    <link>https://example.com</link>
+    <image>
+      <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
+      <title>Olivier Niquet 24/7 (en jaquette)</title>
+      <link>https://example.com</link>
+    </image>
+    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
       <title>Départ de Jonathan Trudeau de Cogeco Média, et augmentation des soins médicaux inutiles </title>
       <description/>

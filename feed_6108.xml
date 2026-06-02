@@ -3,11 +3,11 @@
   <channel>
     <title>Ça s'explique</title>
     <description>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</description>
-    <link>https://ici.radio-canada.ca/ohdio/balados/6108</link>
+    <link>https://example.com</link>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
-      <link>https://ici.radio-canada.ca/ohdio/balados/6108</link>
+      <link>https://example.com</link>
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg"/>
     <item>

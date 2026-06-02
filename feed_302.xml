@@ -3,11 +3,11 @@
   <channel>
     <title>À la une</title>
     <description>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</description>
-    <link>https://ici.radio-canada.ca/ohdio/balados/302</link>
+    <link>https://example.com</link>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
-      <link>https://ici.radio-canada.ca/ohdio/balados/302</link>
+      <link>https://example.com</link>
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
