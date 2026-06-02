@@ -138,8 +138,13 @@ def fetch_aac_url_from_media_id(media_id):
         print(f"Error fetching media {media_id}: {e}")
     return None, 0
 
-def fetch_fallback_show_data(show_id):
-    # 1. Find canonical URL
+def fetch_all_media_from_page(show_id):
+    """
+    Finds all media ids on the page by recursively searching window._rcState_
+    """
+    items = []
+
+    # First find canonical URL
     query = """
     query GetProgramme($params: ProgrammeByIdInput!) {
       programmeById(params: $params) {
@@ -155,81 +160,85 @@ def fetch_fallback_show_data(show_id):
         resp = session.post(GRAPHQL_URL, json={"query": query, "variables": variables}, headers=HEADERS, timeout=10)
         data = resp.json()
         canonical_url = data.get('data', {}).get('programmeById', {}).get('canonicalUrl')
-        if not canonical_url:
-            return None, f"[{show_id}] Could not find canonical URL for fallback."
 
-        slug = canonical_url.split('/')[-1]
-        page_url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}/{slug}"
+        if canonical_url:
+            slug = canonical_url.split('/')[-1]
+            page_url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}/{slug}"
+        else:
+            # Fallback to generic URL if canonicalUrl is not available
+            page_url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
 
-        # 2. Fetch page and extract state
         page_resp = session.get(page_url, headers=HEADERS, timeout=15)
         m = re.search(r'window\._rcState_\s*=\s*(.*?);</script>', page_resp.text)
         if not m:
-            return None, f"[{show_id}] Could not find state data in page HTML."
+            return items, f"[{show_id}] Could not find state data in page HTML."
 
+        import json
         state = json.loads(m.group(1))
-        pages = state.get('pages', {}).get('pages', {})
 
-        target_path = f"/ohdio/balados/{show_id}/{slug}"
-        page_data = None
-        for p, d in pages.items():
-            if p.startswith(target_path):
-                page_data = d.get('data', {})
-                break
+        # recursive search for objects with mediaIds
+        media_objs = []
+        def find_media_ids(obj):
+            if isinstance(obj, dict):
+                if 'mediaIds' in obj and obj['mediaIds']:
+                    media_objs.append(obj)
+                for k, v in obj.items():
+                    find_media_ids(v)
+            elif isinstance(obj, list):
+                for v in obj:
+                    find_media_ids(v)
 
-        if not page_data:
-            return None, f"[{show_id}] Could not find page data in state for path {target_path}."
+        find_media_ids(state)
 
-        program = page_data.get('program', {})
-        episodes = page_data.get('episodes', [])
-
-        if not episodes:
-            return None, f"[{show_id}] Found state data but no episodes."
-
-        channel_data = {
-            "title": program.get('title') or SHOW_TITLES.get(show_id, f"Show {show_id}"),
-            "description": program.get('summary') or program.get('description') or SHOW_TITLES.get(show_id, ""),
-            "image": {"url": program.get('picture', {}).get('url', '')},
-            "items": []
-        }
-
-        # Process first ~50 episodes we found
-        for ep in episodes[:15]:
-            media_ids = ep.get('mediaIds', [])
+        for obj in media_objs:
+            media_ids = obj.get('mediaIds', [])
             if not media_ids:
                 continue
 
-            time.sleep(2.0)
-            aac_url, size = fetch_aac_url_from_media_id(media_ids[0])
+            media_id = media_ids[0]
+            time.sleep(1.0)
+            aac_url, size = fetch_aac_url_from_media_id(media_id)
             if not aac_url:
                 continue
 
-            pub_date_str = ep.get('broadcastedFirstTimeAt')
+            # Find date
+            pub_date_str = obj.get('broadcastedFirstTimeAt') or obj.get('publishedAt') or obj.get('updatedAt')
             rfc2822_date = pub_date_str
             if pub_date_str:
                 try:
+                    from datetime import datetime
+                    from email.utils import format_datetime
                     d = datetime.fromisoformat(pub_date_str.replace("Z", "+00:00"))
                     rfc2822_date = format_datetime(d)
                 except:
                     pass
 
+            # Find duration
+            duration = 0
+            if 'duration' in obj:
+                d = obj['duration']
+                if isinstance(d, dict):
+                    duration = d.get('durationInSeconds', 0)
+                elif isinstance(d, (int, float)):
+                    duration = int(d)
+
             item = {
-                "title": ep.get('title', ''),
-                "description": ep.get('summary', ''),
+                "title": obj.get('title', ''),
+                "description": obj.get('summary') or obj.get('description') or '',
                 "pubDate": rfc2822_date,
-                "itunesDuration": ep.get('duration', {}).get('durationInSeconds', 0),
+                "itunesDuration": duration,
                 "enclosure": {
                     "url": aac_url,
                     "length": size,
                     "type": "audio/aac"
-                }
+                },
+                "_media_id": media_id
             }
-            channel_data["items"].append(item)
+            items.append(item)
 
-        return channel_data, None
-
+        return items, None
     except Exception as e:
-        return None, f"[{show_id}] Fallback error: {e}"
+        return items, f"[{show_id}] Fallback error: {e}"
 
 def fetch_show_rss_data(show_id):
     query = """
@@ -265,6 +274,13 @@ def fetch_show_rss_data(show_id):
         }
     }
 
+    graphql_items = []
+    channel_info = {
+        "title": SHOW_TITLES.get(show_id, f"Show {show_id}"),
+        "description": SHOW_TITLES.get(show_id, ""),
+        "image": {"url": ""}
+    }
+
     try:
         response = session.post(
             GRAPHQL_URL,
@@ -273,31 +289,47 @@ def fetch_show_rss_data(show_id):
             timeout=15
         )
 
-        if response.status_code == 403:
-            return None, f"[{show_id}] 403 Forbidden. Skipping."
-
-        data = response.json()
-        if "errors" in data:
-            return None, f"[{show_id}] GraphQL Error (Show might be missing). Skipping."
-
-        channel = data.get("data", {}).get("podcastByProgrammeId", {}).get("channel")
-        if not channel or not channel.get("items"):
-            # Use fallback scraper
-            fallback_channel, fallback_err = fetch_fallback_show_data(show_id)
-            if fallback_channel and fallback_channel.get("items"):
-                return fallback_channel, None
-            else:
-                if fallback_err:
-                    return None, fallback_err
-                return None, f"[{show_id}] GraphQL and fallback both returned no data."
-
-        return channel, None
+        if response.status_code == 200:
+            data = response.json()
+            channel = data.get("data", {}).get("podcastByProgrammeId", {}).get("channel")
+            if channel:
+                channel_info["title"] = channel.get("title") or channel_info["title"]
+                channel_info["description"] = channel.get("description") or channel_info["description"]
+                if channel.get("image"):
+                    channel_info["image"] = channel.get("image")
+                if channel.get("items"):
+                    graphql_items = channel.get("items")
     except Exception as e:
-        # If network error in GraphQL, try fallback too
-        fallback_channel, fallback_err = fetch_fallback_show_data(show_id)
-        if fallback_channel and fallback_channel.get("items"):
-            return fallback_channel, None
-        return None, f"[{show_id}] Network or unexpected error: {e}. Skipping. (Fallback also failed: {fallback_err})"
+        print(f"[{show_id}] GraphQL request failed: {e}")
+        pass
+
+    # Fetch from page
+    page_items, page_err = fetch_all_media_from_page(show_id)
+    if page_err:
+        print(page_err)
+
+    # Combine items uniquely
+    all_items = []
+    seen_urls = set()
+
+    # Process page items first as they might be more accurate or have extra clips
+    for item in page_items:
+        url = item.get("enclosure", {}).get("url")
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            all_items.append(item)
+
+    for item in graphql_items:
+        url = item.get("enclosure", {}).get("url")
+        if url and url not in seen_urls:
+            seen_urls.add(url)
+            all_items.append(item)
+
+    if not all_items:
+        return None, f"[{show_id}] No items found from GraphQL or page."
+
+    channel_info["items"] = all_items
+    return channel_info, None
 
 def create_rss_xml(show_id, channel_data, fallback_image_url):
     if not channel_data:
@@ -336,8 +368,24 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         itunes_image = ET.SubElement(channel, "itunes:image")
         itunes_image.set("href", img_url)
 
-    # Add items
+
     items = channel_data.get("items", [])
+
+    # Sort items chronologically by pubDate if possible (newest first)
+    def get_date(item):
+        d_str = item.get("pubDate", "")
+        if d_str:
+            try:
+                # e.g., "Wed, 01 Jan 2025 12:00:00 -0000"
+                from email.utils import parsedate_to_datetime
+                dt = parsedate_to_datetime(d_str)
+                return dt.timestamp()
+            except:
+                pass
+        return 0
+
+    items.sort(key=get_date, reverse=True)
+
     for item_data in items:
         item = ET.SubElement(channel, "item")
 
