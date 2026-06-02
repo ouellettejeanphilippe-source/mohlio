@@ -268,7 +268,7 @@ def fetch_all_media_from_page(show_id):
                 "enclosure": {
                     "url": aac_url,
                     "length": size,
-                    "type": "audio/aac"
+                    "type": "audio/mp4"
                 },
                 "_media_id": media_id
             }
@@ -436,7 +436,14 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
             enclosure = ET.SubElement(item, "enclosure")
             enclosure.set("url", enclosure_data["url"])
             enclosure.set("length", str(enclosure_data.get("length", 0)))
-            enclosure.set("type", enclosure_data.get("type", "audio/mpeg"))
+
+            # If the URL is an .aac file, use audio/mp4 instead of audio/aac or audio/mpeg
+            # to improve compatibility with podcast players like Pocket Casts.
+            enc_type = enclosure_data.get("type", "audio/mpeg")
+            if "aac" in enc_type.lower() or enclosure_data["url"].lower().endswith(".aac"):
+                enc_type = "audio/mp4"
+
+            enclosure.set("type", enc_type)
 
             guid = ET.SubElement(item, "guid")
             guid.set("isPermaLink", "false")
@@ -444,7 +451,18 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
 
         itunes_duration = item_data.get("itunesDuration")
         if itunes_duration:
-            ET.SubElement(item, "itunes:duration").text = str(itunes_duration)
+            try:
+                seconds = int(itunes_duration)
+                h = seconds // 3600
+                m = (seconds % 3600) // 60
+                s = seconds % 60
+                if h > 0:
+                    formatted_duration = f"{h:02d}:{m:02d}:{s:02d}"
+                else:
+                    formatted_duration = f"{m:02d}:{s:02d}"
+                ET.SubElement(item, "itunes:duration").text = formatted_duration
+            except ValueError:
+                ET.SubElement(item, "itunes:duration").text = str(itunes_duration)
 
     rough_string = ET.tostring(rss, "utf-8")
     reparsed = minidom.parseString(rough_string)
