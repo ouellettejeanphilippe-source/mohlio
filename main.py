@@ -121,19 +121,16 @@ def fetch_show_rss_data(show_id):
         )
 
         if response.status_code == 403:
-            print(f"[{show_id}] 403 Forbidden. Skipping.")
-            return None
+            return None, f"[{show_id}] 403 Forbidden. Skipping."
 
         data = response.json()
         if "errors" in data:
-            print(f"[{show_id}] GraphQL Error (Show might be missing). Skipping.")
-            return None
+            return None, f"[{show_id}] GraphQL Error (Show might be missing). Skipping."
 
         channel = data.get("data", {}).get("podcastByProgrammeId", {}).get("channel")
-        return channel
+        return channel, None
     except Exception as e:
-        print(f"[{show_id}] Network or unexpected error: {e}. Skipping.")
-        return None
+        return None, f"[{show_id}] Network or unexpected error: {e}. Skipping."
 
 def create_rss_xml(show_id, channel_data, fallback_image_url):
     if not channel_data:
@@ -210,9 +207,54 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         f.write(pretty_xml_as_string)
 
     print(f"[{show_id}] Generated {filename} with {len(items)} episodes.")
+    return filename
+
+def update_readme_log(logs):
+    readme_path = "README.md"
+    try:
+        with open(readme_path, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        start_marker = "<!-- RUN_LOG_START -->"
+        end_marker = "<!-- RUN_LOG_END -->"
+
+        if start_marker in content and end_marker in content:
+            before = content.split(start_marker)[0]
+            after = content.split(end_marker)[1]
+
+            # Using timezone-aware datetime per deprecation warning
+            try:
+                from datetime import timezone
+                timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+            except ImportError:
+                timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+
+            log_content = f"\nLast Run: {timestamp}\n\n"
+
+            if logs["success"]:
+                log_content += "### Successfully Generated\n"
+                for success in logs["success"]:
+                    log_content += f"- [{success}]({success})\n"
+                log_content += "\n"
+
+            if logs["errors"]:
+                log_content += "### Errors\n```\n"
+                for err in logs["errors"]:
+                    log_content += f"{err}\n"
+                log_content += "```\n"
+
+            new_content = f"{before}{start_marker}{log_content}{end_marker}{after}"
+
+            with open(readme_path, "w", encoding="utf-8") as f:
+                f.write(new_content)
+            print("README.md updated with run log.")
+    except Exception as e:
+        print(f"Failed to update README.md: {e}")
 
 def main():
     print(f"Starting feed generation for {len(SHOW_IDS)} shows...")
+
+    logs = {"success": [], "errors": []}
 
     for show_id in SHOW_IDS:
         print(f"[{show_id}] Processing {SHOW_TITLES.get(show_id, show_id)}...")
@@ -222,12 +264,22 @@ def main():
         # 0.3s delay per constraints
         time.sleep(0.3)
 
-        channel_data = fetch_show_rss_data(show_id)
+        channel_data, error_msg = fetch_show_rss_data(show_id)
 
         if channel_data:
-            create_rss_xml(show_id, channel_data, fallback_image_url)
+            filename = create_rss_xml(show_id, channel_data, fallback_image_url)
+            if filename:
+                logs["success"].append(filename)
+            else:
+                msg = f"[{show_id}] Failed to create XML file."
+                print(msg)
+                logs["errors"].append(msg)
         else:
-            print(f"[{show_id}] No channel data returned. Show may be deleted/unavailable.")
+            msg = error_msg if error_msg else f"[{show_id}] No channel data returned. Show may be deleted/unavailable."
+            print(msg)
+            logs["errors"].append(msg)
+
+    update_readme_log(logs)
 
 if __name__ == "__main__":
     main()
