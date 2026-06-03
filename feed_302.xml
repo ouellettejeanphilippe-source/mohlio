@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Investissements majeurs de 10 milliards $ pour les infrastructures</title>
+      <description>&amp;lt;p&amp;gt;Le premier ministre du Canada, Mark Carney, était dans la région de Montréal mardi avec la première ministre du Québec, Christine Fréchette, pour annoncer des investissements majeurs en infrastructure. Après des mois de négociations, Ottawa et Québec ont conclu des ententes qui totalisent 10 milliards de dollars sur 10 ans pour développer le transport collectif de la province, rénover ses hôpitaux et construire des logements étudiants.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Wed, 03 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/59ab0242-4ff3-4293-8aac-032473f1b87b/2026-06-03_05_06_00_alaunebaladoexterne_0000.mp3" length="33092963" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/59ab0242-4ff3-4293-8aac-032473f1b87b/2026-06-03_05_06_00_alaunebaladoexterne_0000.mp3</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Entente sur le financement du transport collectif</title>
       <description>&amp;lt;p&amp;gt;Après de longues négociations, Ottawa et Québec annoncent un accord de 6 milliards pour le transport collectif. Ces fonds financeront la ligne bleue à Montréal et le tramway de Québec. Des investissements en infrastructures seront aussi confirmés par Carney et Fréchette. Les conditions fédérales restent toutefois à préciser.&amp;lt;/p&amp;gt;</description>
       <pubDate>Tue, 02 Jun 2026 05:06:00 -0400</pubDate>
@@ -2801,14 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/9c7b3181-b09c-4b35-b978-bb0e0a1417fe/2024-10-23_05_06_00_alaunebaladoexterne_0000.mp3" length="33036905" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/9c7b3181-b09c-4b35-b978-bb0e0a1417fe/2024-10-23_05_06_00_alaunebaladoexterne_0000.mp3</guid>
       <itunes:duration>00:22:56</itunes:duration>
-    </item>
-    <item>
-      <title>Justin Trudeau perd quatre ministres de plus</title>
-      <description>&amp;lt;p&amp;gt;Les ministres ont annoncé au premier ministre qu'ils ne se représenteront pas aux prochaines élections au moment où un groupe de députés conteste son leadership.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Fri, 18 Oct 2024 05:06:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1df8fc00-3905-4317-a01e-b13f68f6e6dd/2024-10-18_05_06_00_alaunebaladoexterne_0000.mp3" length="33082061" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1df8fc00-3905-4317-a01e-b13f68f6e6dd/2024-10-18_05_06_00_alaunebaladoexterne_0000.mp3</guid>
-      <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
 </rss>
