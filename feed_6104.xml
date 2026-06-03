@@ -3,64 +3,78 @@
   <channel>
     <title>Tellement hockey</title>
     <description>Tellement hockey</description>
-    <link>https://ici.radio-canada.ca/ohdio/balados/6104</link>
+    <link>https://example.com</link>
+    <image>
+      <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/tellement-hockey-balado-premier.jpg</url>
+      <title>Tellement hockey</title>
+      <link>https://example.com</link>
+    </image>
+    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/tellement-hockey-balado-premier.jpg"/>
+    <item>
+      <title>Les adieux d’un guerrier</title>
+      <description>&lt;p&gt;Lors du bilan de fin de saison, on a appris le départ de Brendan Gallagher, un joueur qui a été une partie de l&amp;#x27;identité du CH dans les dernières années. Emmènera-t-il l&amp;#x27;âme de l&amp;#x27;équipe? Qui d&amp;#x27;autre quittera le Canadien? La haute direction saura-t-elle faire des constats lucides sur le Tricolore, puisque les attentes pour l&amp;#x27;an prochain sont déjà très élevées?&lt;/p&gt;</description>
+      <pubDate>Tue, 02 Jun 2026 20:45:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a868d44d-de6d-4d8f-b823-bb82d64af571/2026-06-02_16_30_00_tellementhockey_0000_128.aac" length="57109511" type="audio/mp4"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a868d44d-de6d-4d8f-b823-bb82d64af571/2026-06-02_16_30_00_tellementhockey_0000_128.aac</guid>
+      <itunes:duration>59:25</itunes:duration>
+    </item>
     <item>
       <title>Le Canadien emporté par l’ouragan</title>
       <description>&lt;p&gt;La logique a prévalu dans la série entre Montréal et la Caroline en finale de l&amp;#x27;Est. Le Canadien a connu une saison exceptionnelle et un parcours éliminatoire des plus inspirants. Mais, en plus de la fatigue et de l&amp;#x27;inexpérience dans les rondes de championnat, la confiance semble avoir abandonné les hommes de Martin St-Louis après le premier but controversé des Hurricanes. Il restera à l&amp;#x27;équipe montréalaise à faire un bilan en début de semaine, puis à tourner le regard vers la saison prochaine.&lt;/p&gt;</description>
       <pubDate>Sat, 30 May 2026 11:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/16e5d49d-b355-428f-a1ae-4ec24950341b/2026-05-30_07_18_54_tellementhockey_0000_128.aac" length="35526830" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/16e5d49d-b355-428f-a1ae-4ec24950341b/2026-05-30_07_18_54_tellementhockey_0000_128.aac" length="35526830" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/16e5d49d-b355-428f-a1ae-4ec24950341b/2026-05-30_07_18_54_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2218</itunes:duration>
+      <itunes:duration>36:58</itunes:duration>
     </item>
     <item>
       <title>Les carottes sont al dente</title>
       <description>&lt;p&gt;Le Canadien n&amp;#x27;a plus le droit à l&amp;#x27;erreur. Après un autre match où les Hurricanes ne cessaient d&amp;#x27;étouffer leurs efforts et leurs espoirs, les hommes de Martin St-Louis doivent trouver une façon de revenir dans cette série. Le Tricolore ayant causé la surprise toute la saison, qui sait quel tour la troupe de Nick Suzuki a encore dans son sac? La série se déplace en Caroline pour le 5e match.&lt;/p&gt;</description>
       <pubDate>Thu, 28 May 2026 10:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e9cf9f4-f80a-46b4-96f9-0fb124bcc83b/2026-05-28_05_56_51_tellementhockey_0000_128.aac" length="26565771" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e9cf9f4-f80a-46b4-96f9-0fb124bcc83b/2026-05-28_05_56_51_tellementhockey_0000_128.aac" length="26565771" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1e9cf9f4-f80a-46b4-96f9-0fb124bcc83b/2026-05-28_05_56_51_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>1658</itunes:duration>
+      <itunes:duration>27:38</itunes:duration>
     </item>
     <item>
       <title>Le Canadien, si près et si loin</title>
       <description>&lt;p&gt;Dans une guerre d&amp;#x27;usure, le Canadien a tenu tête aux Hurricanes. Toujours résilients, les hommes de Martin St-Louis ont rendu le troisième match de cette série très difficile pour ceux de Rod Brind&amp;#x27;Amour en bloquant énormément de tirs et en répliquant coup pour coup. Malgré la performance spectaculaire du gardien Jakub Dobeš, la Caroline a eu le dessus en prolongation et prend les devants 2 à 1 dans la série.&lt;/p&gt;</description>
       <pubDate>Tue, 26 May 2026 10:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/75249a00-123c-4502-98db-fdb639c6db15/2026-05-26_06_06_55_tellementhockey_0000_128.aac" length="37486212" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/75249a00-123c-4502-98db-fdb639c6db15/2026-05-26_06_06_55_tellementhockey_0000_128.aac" length="37486212" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/75249a00-123c-4502-98db-fdb639c6db15/2026-05-26_06_06_55_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2340</itunes:duration>
+      <itunes:duration>39:00</itunes:duration>
     </item>
     <item>
       <title>Une guerre de tranchées</title>
       <description>&lt;p&gt;Le deuxième match de la série Canadien-Hurricanes a été plus serré que le premier. Le duel s&amp;#x27;est réglé en prolongation après une lutte acharnée où la Caroline a souvent contrôlé la rondelle.&lt;/p&gt;&lt;p&gt;La série se déplace maintenant à Montréal, où l&amp;#x27;atmosphère sera survoltée et il faudra que les hommes de Martin St-Louis contrôlent leurs émotions afin de réussir à percer le mystère des Hurricanes. &lt;/p&gt;</description>
       <pubDate>Sun, 24 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0cc7bb88-cdc8-4f0d-9138-d8ad3a73067f/2026-05-24_07_10_00_tellementhockey_0000_128.aac" length="30332302" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0cc7bb88-cdc8-4f0d-9138-d8ad3a73067f/2026-05-24_07_10_00_tellementhockey_0000_128.aac" length="30332302" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0cc7bb88-cdc8-4f0d-9138-d8ad3a73067f/2026-05-24_07_10_00_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>1893</itunes:duration>
+      <itunes:duration>31:33</itunes:duration>
     </item>
     <item>
       <title>Dans l’œil de l’ouragan
 </title>
       <description>&lt;p&gt;La série qui oppose le Canadien aux Hurricanes a commencé de façon endiablée et on a rapidement compris que le niveau de jeu serait élevé. Les hommes de Rod Brind&amp;#x27;Amour entrent en territoire inconnu, eux qui ont survolé les deux premières séries d&amp;#x27;après-saison. Chez le Tricolore, on ne sent pas de nervosité, mais les longues confrontations des tours précédents vont-elles finir par rattraper l&amp;#x27;équipe de Martin St-Louis?&lt;/p&gt;</description>
       <pubDate>Fri, 22 May 2026 10:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/26199159-543e-4196-86a8-8f98ad242972/2026-05-22_06_03_19_tellementhockey_0000_128.aac" length="29887427" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/26199159-543e-4196-86a8-8f98ad242972/2026-05-22_06_03_19_tellementhockey_0000_128.aac" length="29887427" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/26199159-543e-4196-86a8-8f98ad242972/2026-05-22_06_03_19_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>1866</itunes:duration>
+      <itunes:duration>31:06</itunes:duration>
     </item>
     <item>
       <title>Le Canadien élimine les Sabres&amp;nbsp;: direction la Caroline</title>
       <description>&lt;p&gt;Le Tricolore a fait face à toute une tempête, mais à la fin, il a triomphé des Sabres de Buffalo. Et maintenant, les yeux se tournent vers Raleigh pour la finale de l&amp;#x27;Association de l&amp;#x27;Est. Les Hurricanes de la Caroline, qui n&amp;#x27;ont joué que huit matchs en séries éliminatoires, seront les adversaires des Glorieux. Et c&amp;#x27;est une nouvelle série qui commence pour le CH, et un rêve qui se poursuit pour toute une province.&lt;/p&gt;</description>
       <pubDate>Tue, 19 May 2026 10:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bd786c6b-9813-4868-8312-5cb3320afc09/2026-05-19_06_08_16_tellementhockey_0000_128.aac" length="43795735" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bd786c6b-9813-4868-8312-5cb3320afc09/2026-05-19_06_08_16_tellementhockey_0000_128.aac" length="43795735" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bd786c6b-9813-4868-8312-5cb3320afc09/2026-05-19_06_08_16_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2734</itunes:duration>
+      <itunes:duration>45:34</itunes:duration>
     </item>
     <item>
       <title>Lane Hutson est bon!
 </title>
       <description>&lt;p&gt;Au début du cinquième match, les hommes de Martin St-Louis semblaient chercher leurs repères. Mais, avec toute la résilience qui les caractérise, ils ont pris la partie en main. Tout à coup, le Canadien de Montréal est à une victoire de la finale de l&amp;#x27;Est. Un des responsables des succès de l&amp;#x27;équipe est le défenseur Lane Hutson, qui joue à un niveau stratosphérique, comparable à celui de grands joueurs de l&amp;#x27;histoire du club. Maintenant que la série se déplace dans la métropole, les Glorieux pourront-ils en finir avec les Sabres? Les buts des premiers trios sont-ils annonciateurs du réveil de la machine offensive du CH?&lt;/p&gt;</description>
       <pubDate>Fri, 15 May 2026 10:55:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1c401ddf-d70a-4c92-96f4-ddfe1f18c28d/2026-05-15_06_01_01_tellementhockey_0000_128.aac" length="38488073" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1c401ddf-d70a-4c92-96f4-ddfe1f18c28d/2026-05-15_06_01_01_tellementhockey_0000_128.aac" length="38488073" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1c401ddf-d70a-4c92-96f4-ddfe1f18c28d/2026-05-15_06_01_01_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2403</itunes:duration>
+      <itunes:duration>40:03</itunes:duration>
     </item>
     <item>
       <title>Les Sabres mouvants
@@ -68,349 +82,341 @@
       <description>&lt;p&gt;Le scénario était parfait pour une victoire du Canadien : de nombreuses punitions décernées aux Sabres, dont la confiance était ébranlée, et une foule déchaînée au Centre Bell. Or, il a suffi d&amp;#x27;un mauvais rebond de rondelle pour que le vent tourne et que les Sabres remportent le quatrième match de la série qui les oppose au Canadien. On est maintenant à égalité 2 à 2, et les hommes de Martin St-Louis devront maintenant jouer avec plus d&amp;#x27;urgence pour espérer remporter cette série contre l&amp;#x27;une des meilleures équipes de la LNH.
 &lt;/p&gt;</description>
       <pubDate>Wed, 13 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/227deb3f-908c-43a3-80de-2d0ac4f666ad/2026-05-13_06_05_48_tellementhockey_0000_128.aac" length="41022190" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/227deb3f-908c-43a3-80de-2d0ac4f666ad/2026-05-13_06_05_48_tellementhockey_0000_128.aac" length="41022190" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/227deb3f-908c-43a3-80de-2d0ac4f666ad/2026-05-13_06_05_48_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2561</itunes:duration>
+      <itunes:duration>42:41</itunes:duration>
     </item>
     <item>
       <title>Le Tricolore en pleine maîtrise
 </title>
       <description>&lt;p&gt;Plus la série avance, plus le Canadien de Montréal prend ses aises face aux Sabres. Dans une ambiance survoltée, le CH est non seulement revenu de l&amp;#x27;arrière, mais a tué tout espoir pour Buffalo de revenir dans le troisième match de la série. Cole Caufield et Juraj Slafkovsky ont marqué, les joueurs de soutien ont continué leur bon travail et la machine du Bleu-blanc-rouge roule à plein régime.&lt;/p&gt;</description>
       <pubDate>Mon, 11 May 2026 10:55:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/54a80f60-105f-4a97-9ab0-5bf8e4a74b78/2026-05-11_06_04_44_tellementhockey_0000_128.aac" length="41258887" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/54a80f60-105f-4a97-9ab0-5bf8e4a74b78/2026-05-11_06_04_44_tellementhockey_0000_128.aac" length="41258887" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/54a80f60-105f-4a97-9ab0-5bf8e4a74b78/2026-05-11_06_04_44_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2576</itunes:duration>
+      <itunes:duration>42:56</itunes:duration>
     </item>
     <item>
       <title>Le Canadien réplique coup pour coup</title>
       <description>&lt;p&gt;Le Canadien a fait oublier le dernier match avec une performance inspirée contre Buffalo. Mais les Sabres représentent tout de même un défi et n&amp;#x27;ont pas été déclassés. Et ils ont continuellement frappé les vedettes de Montréal. La résilience des hommes de Martin St-Louis se transportera-t-elle au Centre Bell? Où le Tricolore puisera-t-il l&amp;#x27;énergie nécessaire pour survivre à une série aussi exigeante?&lt;/p&gt;</description>
       <pubDate>Sat, 09 May 2026 11:25:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/28ab7da0-1a4e-4098-9eaf-08b7d56a2c71/2026-05-09_07_13_25_tellementhockey_0000_128.aac" length="40638755" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/28ab7da0-1a4e-4098-9eaf-08b7d56a2c71/2026-05-09_07_13_25_tellementhockey_0000_128.aac" length="40638755" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/28ab7da0-1a4e-4098-9eaf-08b7d56a2c71/2026-05-09_07_13_25_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2537</itunes:duration>
+      <itunes:duration>42:17</itunes:duration>
     </item>
     <item>
       <title>Une nouvelle série, de nouveaux défis pour les Canadiens</title>
       <description>&lt;p&gt;Les Canadiens de Montréal ont pris la mesure de leur adversaire, les Sabres de Buffalo, dans le premier match de la série. Et ce qui ressort de ce premier duel, c&amp;#x27;est que les Sabres sont en pleine possession de leurs moyens. La rapidité et la confiance de cette jeune équipe seront des défis pour le Tricolore. Et parmi les questions centrales revient celle de la production du premier trio, celui de Nick Suzuki, Cole Caufield et Juraj Slafkovsky.&lt;/p&gt;</description>
       <pubDate>Thu, 07 May 2026 10:50:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/aeb12050-fad7-4744-9484-7e8f203a7f12/2026-05-07_05_58_23_tellementhockey_0000_128.aac" length="42106159" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/aeb12050-fad7-4744-9484-7e8f203a7f12/2026-05-07_05_58_23_tellementhockey_0000_128.aac" length="42106159" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/aeb12050-fad7-4744-9484-7e8f203a7f12/2026-05-07_05_58_23_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2629</itunes:duration>
+      <itunes:duration>43:49</itunes:duration>
     </item>
     <item>
       <title>Au voleur!</title>
       <description>&lt;p&gt;Les Canadiens de Montréal ont eu le dessus sur le Lightning dans un match au cours duquel ils ont été dominés. Au bout du compte, ce sont les Glorieux qui passeront au second tour. Le gardien de but Jakub Dobeš est en train de se révéler comme un homme des grandes occasions. Et maintenant, les jeunes joueurs de Martin St-Louis tournent leur regard vers les Sabres de Buffalo et leur machine offensive.
 &lt;/p&gt;</description>
       <pubDate>Mon, 04 May 2026 10:25:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ffaa3fde-619c-4b4f-8100-5813c6a4841e/2026-05-04_05_48_27_tellementhockey_0000_128.aac" length="49202537" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ffaa3fde-619c-4b4f-8100-5813c6a4841e/2026-05-04_05_48_27_tellementhockey_0000_128.aac" length="49202537" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ffaa3fde-619c-4b4f-8100-5813c6a4841e/2026-05-04_05_48_27_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3072</itunes:duration>
+      <itunes:duration>51:12</itunes:duration>
     </item>
     <item>
       <title> Face au destin</title>
       <description>&lt;p&gt;Tout était en place pour un moment magique, mais les hommes de Jon Cooper ont réussi à vaincre les Glorieux et à pousser l&amp;#x27;affrontement jusqu&amp;#x27;au bout. La série entre le Canadien et le Lightning se décidera dans un septième match dimanche. Les jeunes Montréalais seront-ils capables d&amp;#x27;emmener l&amp;#x27;émotion et la hargne qu&amp;#x27;ils ont démontrées vendredi soir dans le match ultime? Le gagnant de cette série affrontera Buffalo dans le second tour. &lt;/p&gt;</description>
       <pubDate>Sat, 02 May 2026 11:33:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4bb7c4ab-76d2-4d7a-b381-0a9427c1ea4f/2026-05-02_07_16_29_tellementhockey_0000_128.aac" length="42510415" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4bb7c4ab-76d2-4d7a-b381-0a9427c1ea4f/2026-05-02_07_16_29_tellementhockey_0000_128.aac" length="42510415" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4bb7c4ab-76d2-4d7a-b381-0a9427c1ea4f/2026-05-02_07_16_29_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2654</itunes:duration>
+      <itunes:duration>44:14</itunes:duration>
     </item>
     <item>
       <title>Tout près de l’exploit</title>
       <description>&lt;p&gt;Les joueurs de Martin St-Louis ont mené toute une bataille et remporté le cinquième match de la série contre le Lightning, une victoire cruciale à Tampa. L&amp;#x27;entraîneur a imposé son rythme et le gardien de but Jakub Dobeš a fermé la porte. Tout à coup, les Canadiens de Montréal sont sur le point de réaliser un exploit important, et ensuite, sans s&amp;#x27;emballer, tous les espoirs sont permis.&lt;/p&gt;</description>
       <pubDate>Thu, 30 Apr 2026 10:50:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/15cdbc1f-462d-4322-b5d3-8389054fbfb6/2026-04-30_06_04_20_tellementhockey_0000_128.aac" length="36905145" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/15cdbc1f-462d-4322-b5d3-8389054fbfb6/2026-04-30_06_04_20_tellementhockey_0000_128.aac" length="36905145" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/15cdbc1f-462d-4322-b5d3-8389054fbfb6/2026-04-30_06_04_20_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2304</itunes:duration>
+      <itunes:duration>38:24</itunes:duration>
     </item>
     <item>
       <title>Le sac à malice du Lightning
 </title>
       <description>&lt;p&gt;Le Canadien de Montréal avait pourtant commencé en lion. Mais après une mise en échec percutante contre Juraj Slafkovský, le vent a tourné et le Lightning a comblé un retard pour remporter le quatrième match et égaliser la série 2-2. Comment les hommes de Martin St-Louis feront-ils pour se remettre de leur défaite à un match clé? Les protégés de Jon Cooper ont-ils trouvé le moyen de jouer avec les émotions des jeunes joueurs du Tricolore?&lt;/p&gt;</description>
       <pubDate>Mon, 27 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/09f61034-2ec8-48ca-8865-d039ddd0faf8/2026-04-27_06_01_56_tellementhockey_0000_128.aac" length="45596586" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/09f61034-2ec8-48ca-8865-d039ddd0faf8/2026-04-27_06_01_56_tellementhockey_0000_128.aac" length="45596586" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/09f61034-2ec8-48ca-8865-d039ddd0faf8/2026-04-27_06_01_56_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2847</itunes:duration>
+      <itunes:duration>47:27</itunes:duration>
     </item>
     <item>
       <title>Bienvenue à Montréal!</title>
       <description>&lt;p&gt;Pour le premier match des séries 2026 à Montréal, les partisans du Canadien ont été servis. Dans une ambiance survoltée, les Glorieux l&amp;#x27;ont emporté, en prolongation, contre le Lightning. Et alors que c&amp;#x27;est le premier trio qui a porté le Tricolore pendant la saison, ce sont les joueurs de soutien qui ont fait la différence dans le troisième match.				&lt;/p&gt;</description>
       <pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2259a6b4-c9d8-4074-80b5-5caa8c7cf776/2026-04-25_07_49_03_tellementhockey_0000_128.aac" length="49126949" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2259a6b4-c9d8-4074-80b5-5caa8c7cf776/2026-04-25_07_49_03_tellementhockey_0000_128.aac" length="49126949" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2259a6b4-c9d8-4074-80b5-5caa8c7cf776/2026-04-25_07_49_03_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3067</itunes:duration>
+      <itunes:duration>51:07</itunes:duration>
     </item>
     <item>
       <title>De l’électricité dans l’air</title>
       <description>&lt;p&gt;Le deuxième match de la série entre le Lightning de Tampa Bay et les Canadiens de Montréal a été très robuste. Et après l&amp;#x27;avalanche de pénalités, les accrochages, les escarmouches et la prolongation, il pourrait laisser des séquelles. Malgré des performances excitantes de plusieurs jeunes joueurs, dont Jakub Dobeš, les deux équipes sont à égalité dans la série, ayant chacune une victoire. Force est d&amp;#x27;admettre qu&amp;#x27;à partir d&amp;#x27;ici, certains membres du Tricolore devront monter leur jeu d&amp;#x27;un cran.
 &lt;/p&gt;</description>
       <pubDate>Wed, 22 Apr 2026 10:55:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/70b44753-5dd1-4a3a-98a2-6a5b86c62938/2026-04-22_06_15_02_tellementhockey_0000_128.aac" length="29188447" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/70b44753-5dd1-4a3a-98a2-6a5b86c62938/2026-04-22_06_15_02_tellementhockey_0000_128.aac" length="29188447" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/70b44753-5dd1-4a3a-98a2-6a5b86c62938/2026-04-22_06_15_02_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>1822</itunes:duration>
+      <itunes:duration>30:22</itunes:duration>
     </item>
     <item>
       <title>Coup de tonnerre à Tampa</title>
       <description>&lt;p&gt;Dans le premier match de la série du Canadien contre le Lightning, les Glorieux ont fait preuve d&amp;#x27;une grande détermination. Juraj Slafkovsky, le héros du match pour Montréal, a montré qu&amp;#x27;il savait être l&amp;#x27;homme des grandes occasions.&lt;/p&gt;&lt;p&gt;Mais cette victoire très serrée, en prolongation, a aussi révélé quelques lacunes défensives et certains petits accrocs qu&amp;#x27;il faudra rapidement corriger en vue du prochain match. A-t-on assisté aux premiers pas d&amp;#x27;un long parcours du Tricolore au printemps 2026?&lt;/p&gt;</description>
       <pubDate>Mon, 20 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b77007d7-038d-449e-b4d5-ed9bb3a6bd02/2026-04-20_07_33_52_tellementhockey_0000_128.aac" length="32972574" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b77007d7-038d-449e-b4d5-ed9bb3a6bd02/2026-04-20_07_33_52_tellementhockey_0000_128.aac" length="32972574" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b77007d7-038d-449e-b4d5-ed9bb3a6bd02/2026-04-20_07_33_52_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2058</itunes:duration>
+      <itunes:duration>34:18</itunes:duration>
     </item>
     <item>
       <title>Le Canadien face à la tempête</title>
       <description>&lt;p&gt;L&amp;#x27;adversaire du Canadien au premier tour, le Lightning de Tampa Bay, a l&amp;#x27;expérience et l&amp;#x27;habitude des séries, mais les hommes de Martin St-Louis ont l&amp;#x27;impétuosité de la jeunesse. Aussi, le Lightning n&amp;#x27;est plus ce qu&amp;#x27;il était. La fin de saison des deux équipes a été diamétralement opposée, mais qu&amp;#x27;en sera-t-il en séries?&lt;/p&gt;&lt;p&gt;Ailleurs dans la ligue, plusieurs équipes pourraient surprendre. Dans cette nouvelle étape de la saison, les certitudes n&amp;#x27;existent pas.&lt;/p&gt;</description>
       <pubDate>Fri, 17 Apr 2026 20:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d2ca29d0-8546-4bbd-820d-fb4fbe059d01/2026-04-17_15_27_46_tellementhockey_0000_128.aac" length="57044999" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d2ca29d0-8546-4bbd-820d-fb4fbe059d01/2026-04-17_15_27_46_tellementhockey_0000_128.aac" length="57044999" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d2ca29d0-8546-4bbd-820d-fb4fbe059d01/2026-04-17_15_27_46_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3561</itunes:duration>
+      <itunes:duration>59:21</itunes:duration>
     </item>
     <item>
       <title>Y’en aura pas de facile</title>
       <description>&lt;p&gt;Le Canadien de Montréal connaît l&amp;#x27;identité de son adversaire pour le premier tour des séries. Plusieurs personnes pensent que Tampa Bay représente un adversaire à la mesure du CH. Pourtant, le Lightning demeure un adversaire dangereux et expérimenté, malgré les nombreuses blessures qui plombent la formation. &lt;/p&gt;&lt;p&gt;Le jeune défenseur autrichien David Reinbacher a connu un bon début dans la grande ligue dimanche. Est-il celui vers qui se tournera Martin St-Louis si l&amp;#x27;absence de Noah Dobson se prolonge?&lt;/p&gt;</description>
       <pubDate>Tue, 14 Apr 2026 21:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/47e7aab4-8f63-45bc-a9bc-28dd60210407/2026-04-14_16_53_22_tellementhockey_0000_128.aac" length="57340406" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/47e7aab4-8f63-45bc-a9bc-28dd60210407/2026-04-14_16_53_22_tellementhockey_0000_128.aac" length="57340406" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/47e7aab4-8f63-45bc-a9bc-28dd60210407/2026-04-14_16_53_22_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3580</itunes:duration>
+      <itunes:duration>59:40</itunes:duration>
     </item>
     <item>
       <title>Liberté 50 pour Cole Caufield</title>
       <description>&lt;p&gt;Dans une ambiance de séries, le Canadien a montré qu&amp;#x27;il était capable de faire face à une équipe robuste et vicieuse. Le Lightning sera-t-il l&amp;#x27;adversaire des Glorieux au premier tour? Avec un premier marqueur de 50 buts en 36 ans, la possibilité d&amp;#x27;une récolte de 100 points pour Suzuki et le record de mentions d&amp;#x27;aide de Larry Robinson dans la ligne de mire de Lane Hutson, les supporteurs du CH vivent une période historique, un territoire inconnu depuis la dynastie des années 70.&lt;/p&gt;&lt;p&gt;Dans toute cette effervescence, certains joueurs doivent céder leur place. Brendan Gallagher est-il en train de s&amp;#x27;effacer doucement de la formation?&lt;/p&gt;</description>
       <pubDate>Fri, 10 Apr 2026 16:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fcaf6528-d775-4a2d-b77d-5c79c84a6727/2026-04-10_15_58_40_tellementhockey_0000_128.aac" length="54627277" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fcaf6528-d775-4a2d-b77d-5c79c84a6727/2026-04-10_15_58_40_tellementhockey_0000_128.aac" length="54627277" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fcaf6528-d775-4a2d-b77d-5c79c84a6727/2026-04-10_15_58_40_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3410</itunes:duration>
+      <itunes:duration>56:50</itunes:duration>
     </item>
     <item>
       <title>Le Canadien doit garder le pied au plancher</title>
       <description>&lt;p&gt;Pendant que le Canadien célèbre son accession aux séries, la quête du 50e but de Cole Caufield occupe beaucoup d&amp;#x27;espace. L&amp;#x27;atteinte de ce plateau devient-elle une distraction pour l&amp;#x27;équipe? Par ailleurs, les Glorieux viennent d’accomplir une belle séquence de victoires, mais la performance de Jakub Dobes a peut-être masqué des lacunes qui pourraient coûter cher au cours des éliminatoires.&lt;/p&gt;&lt;p&gt;À New York, Patrick Roy a perdu son emploi en pleine course aux séries au profit de Peter DeBoer. Cette décision du DG Mathieu Darche permettra-t-elle aux Islanders d’en sortir gagnants?&lt;/p&gt;</description>
       <pubDate>Tue, 07 Apr 2026 19:50:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ca4beda4-1415-465f-86b4-2beb7035afb3/2026-04-07_15_37_45_tellementhockey_0000_128.aac" length="54616354" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ca4beda4-1415-465f-86b4-2beb7035afb3/2026-04-07_15_37_45_tellementhockey_0000_128.aac" length="54616354" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ca4beda4-1415-465f-86b4-2beb7035afb3/2026-04-07_15_37_45_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3410</itunes:duration>
+      <itunes:duration>56:50</itunes:duration>
     </item>
     <item>
       <title>50 nuances de Cole Caufield</title>
       <description>&lt;p&gt;Cole Caufield est sur le point d&amp;#x27;atteindre un plateau exceptionnel, mais le petit ailier n&amp;#x27;est pas seul à connaître une saison formidable.&lt;/p&gt;&lt;p&gt;Outre les marques spectaculaires dont s&amp;#x27;approchent Nick Suzuki et Lane Hutson, d&amp;#x27;autres joueurs plus discrets connaissent les meilleurs moments de leur carrière. Jusqu&amp;#x27;où le Canadien de Montréal ira-t-il?&lt;/p&gt;&lt;p&gt;Pendant que les Sénateurs d&amp;#x27;Ottawa reviennent dans le portrait des séries, malgré plusieurs distractions à l&amp;#x27;extérieur de la patinoire, les propos du président des Maple Leafs n&amp;#x27;ont rien pour rassurer les partisans torontois.&lt;/p&gt;</description>
       <pubDate>Fri, 03 Apr 2026 16:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bb0cbbc9-98d4-4146-8d11-ebfa902fbbf3/2026-04-03_13_59_16_tellementhockey_0000_128.aac" length="55109357" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bb0cbbc9-98d4-4146-8d11-ebfa902fbbf3/2026-04-03_13_59_16_tellementhockey_0000_128.aac" length="55109357" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bb0cbbc9-98d4-4146-8d11-ebfa902fbbf3/2026-04-03_13_59_16_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3441</itunes:duration>
+      <itunes:duration>57:21</itunes:duration>
     </item>
     <item>
       <title>Le Canadien, tout feu, tout flamme</title>
       <description>&lt;p&gt;Les hommes de Martin St-Louis ont choisi le bon moment pour livrer l&amp;#x27;une de leurs meilleures séquences de la saison. Avec moins de dix matchs à jouer, il reste à souhaiter que l&amp;#x27;élan généré par l’équipe pourra la propulser aussi lors des séries éliminatoires. Dans toute cette effervescence, qu&amp;#x27;adviendra-t-il des blessés et d&amp;#x27;Arber Xhekaj?&lt;/p&gt;&lt;p&gt;Les Maple Leafs de Toronto ont renvoyé leur directeur général, Brad Treliving. On se demande maintenant comment l&amp;#x27;équipe de la Ville Reine arrivera à se relever après une saison décevante.&lt;/p&gt;</description>
       <pubDate>Tue, 31 Mar 2026 21:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/67a65887-195b-42a9-9823-e2a1535168f6/2026-03-31_17_16_21_tellementhockey_0000_128.aac" length="62196861" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/67a65887-195b-42a9-9823-e2a1535168f6/2026-03-31_17_16_21_tellementhockey_0000_128.aac" length="62196861" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/67a65887-195b-42a9-9823-e2a1535168f6/2026-03-31_17_16_21_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3883</itunes:duration>
+      <itunes:duration>01:04:43</itunes:duration>
     </item>
     <item>
       <title>Le Canadien n’a peur de personne</title>
       <description>&lt;p&gt;Le Canadien a trouvé une façon de remporter des matchs importants dans le sprint final vers les séries. L&amp;#x27;un des acteurs importants de cette réussite est le gardien recrue Jakub Dobes. Avec une conscience défensive accrue, l&amp;#x27;équipe montréalaise est-elle en voie de réunir les conditions favorables à une bonne performance pendant les séries? Zachary Bolduc a enfin trouvé le fond du filet. Le jeune attaquant est-il en train de créer une belle complicité avec son compagnon de trio Jake Evans?&lt;/p&gt;</description>
       <pubDate>Fri, 27 Mar 2026 20:21:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e72c1337-3679-4efc-b5f8-e00f461b3072/2026-03-27_15_46_17_tellementhockey_0000_128.aac" length="61844146" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e72c1337-3679-4efc-b5f8-e00f461b3072/2026-03-27_15_46_17_tellementhockey_0000_128.aac" length="61844146" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e72c1337-3679-4efc-b5f8-e00f461b3072/2026-03-27_15_46_17_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3861</itunes:duration>
+      <itunes:duration>01:04:21</itunes:duration>
     </item>
     <item>
       <title>Côtoyer l’excellence</title>
       <description>&lt;p&gt;Les paramètres sont nombreux pour évaluer la progression d’un joueur de hockey. L’évolution de Nick Suzuki demeure impressionnante et le joueur de centre pourrait atteindre des sommets statistiques cette saison. On s’intéresse aussi au sort qui attend certains joueurs réservistes du CH, dont l’attaquant Joe Veleno. À Edmonton, les commentaires de Connor McDavid à propos de l’entraîneur-chef du Lightning, Jon Cooper, causent quelques grincements de dents.&lt;/p&gt;</description>
       <pubDate>Tue, 24 Mar 2026 20:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/89780c9b-0ead-4b16-aab1-9535f4648cb9/2026-03-24_16_20_41_tellementhockey_0000_128.aac" length="56563107" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/89780c9b-0ead-4b16-aab1-9535f4648cb9/2026-03-24_16_20_41_tellementhockey_0000_128.aac" length="56563107" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/89780c9b-0ead-4b16-aab1-9535f4648cb9/2026-03-24_16_20_41_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3531</itunes:duration>
+      <itunes:duration>58:51</itunes:duration>
     </item>
     <item>
       <title>La ligne est fine</title>
       <description>&lt;p&gt;En quelques matchs, le Canadien sent le tapis lui glisser sous les pieds. La course aux séries est à ce point serrée qu&amp;#x27;une défaite contre un rival a une incidence directe sur les chances de l&amp;#x27;équipe d&amp;#x27;accéder aux éliminatoires. Dans les circonstances, il commence à se faire tard pour prendre de bonnes habitudes. Comment redresser la barre?&lt;/p&gt;</description>
       <pubDate>Fri, 20 Mar 2026 19:40:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8dfb0b61-01e8-4354-9509-7d5d08c882ed/2026-03-20_15_13_17_tellementhockey_0000_128.aac" length="45749315" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8dfb0b61-01e8-4354-9509-7d5d08c882ed/2026-03-20_15_13_17_tellementhockey_0000_128.aac" length="45749315" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8dfb0b61-01e8-4354-9509-7d5d08c882ed/2026-03-20_15_13_17_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2856</itunes:duration>
+      <itunes:duration>47:36</itunes:duration>
     </item>
     <item>
       <title>Le Canadien joue avec le feu</title>
       <description>&lt;p&gt;Pendant que l&amp;#x27;intensité monte d&amp;#x27;un cran vers la dernière ligne droite de la saison, les jeunes athlètes du Tricolore semblent toujours aussi désintéressés par le jeu défensif.&lt;/p&gt;&lt;p&gt;Une séquence cruciale s’amorce pour le Canadien face à ses rivaux directs. À moins de resserrer son jeu, il pourrait se réveiller hors du portrait des séries la semaine prochaine. &lt;/p&gt;&lt;p&gt;Pendant ce temps, la LNH définit son projet de tournoi international de hockey et pourrait cannibaliser le Championnat du monde organisé par la Fédération internationale de hockey sur glace.&lt;/p&gt;</description>
       <pubDate>Tue, 17 Mar 2026 20:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9a1cb825-0caf-41bd-a341-706df22fbbc8/2026-03-17_16_06_56_tellementhockey_0000_128.aac" length="54817705" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9a1cb825-0caf-41bd-a341-706df22fbbc8/2026-03-17_16_06_56_tellementhockey_0000_128.aac" length="54817705" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9a1cb825-0caf-41bd-a341-706df22fbbc8/2026-03-17_16_06_56_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3422</itunes:duration>
+      <itunes:duration>57:02</itunes:duration>
     </item>
     <item>
       <title>Jakub ou Jacob?</title>
       <description>&lt;p&gt;Le Canadien a rappelé Jacob Fowler pour renforcer la position de gardien de but. Et cette décision place Martin St-Louis dans une situation difficile, spécialement avec Montembeault, alors qu&amp;#x27;il est reconnu comme un entraîneur près de ses joueurs. Une grande question se pose maintenant sur Montembeault. Malgré tous les services qu&amp;#x27;il a rendus au club, a-t-il encore un avenir à Montréal?&lt;/p&gt;&lt;p&gt;Dans la dernière ligne droite de la saison, la course est très serrée dans l&amp;#x27;Est et encore ouverte dans l&amp;#x27;Ouest. Mais surtout, on semble assister à un changement de garde.&lt;/p&gt;</description>
       <pubDate>Fri, 13 Mar 2026 16:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4462ac64-5ca2-42e0-ab88-85a10f157341/2026-03-13_14_35_13_tellementhockey_0000_128.aac" length="50371651" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4462ac64-5ca2-42e0-ab88-85a10f157341/2026-03-13_14_35_13_tellementhockey_0000_128.aac" length="50371651" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4462ac64-5ca2-42e0-ab88-85a10f157341/2026-03-13_14_35_13_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3145</itunes:duration>
+      <itunes:duration>52:25</itunes:duration>
     </item>
     <item>
       <title>Le Canadien : jeune et impétueux</title>
       <description>&lt;p&gt;Les jeunes joueurs du Canadien forment une bonne équipe, mais leur jeunesse s’accompagne de certains défis. Les récents matchs du CH ont révélé une attaque redoutable, mais démontrent en contrepartie un désintérêt pour la défense et un certain abandon des gardiens. Cette tendance peut-elle être inversée en cette fin de saison?&lt;/p&gt;&lt;p&gt;Après un match historique contre le Lightning, les Sabres confirment leur montée au classement, tandis que les Leafs semblent avoir baissé les bras.&lt;/p&gt;</description>
       <pubDate>Tue, 10 Mar 2026 19:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/07d69e0d-e703-43e3-9c4b-06889d04cee1/2026-03-10_14_32_39_tellementhockey_0000_128.aac" length="49898104" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/07d69e0d-e703-43e3-9c4b-06889d04cee1/2026-03-10_14_32_39_tellementhockey_0000_128.aac" length="49898104" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/07d69e0d-e703-43e3-9c4b-06889d04cee1/2026-03-10_14_32_39_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3115</itunes:duration>
+      <itunes:duration>51:55</itunes:duration>
     </item>
     <item>
       <title>Le Canadien garde le cap à la date limite des échanges</title>
       <description>&lt;p&gt;Au cœur d&amp;#x27;un voyage dans l&amp;#x27;Ouest, Kent Hughes n&amp;#x27;a pas conclu d&amp;#x27;entente avec une autre équipe de la LNH pour améliorer son effectif, malgré certaines tentatives. Est-ce que ce statu quo sera suffisant pour le Tricolore dans une course aux éliminatoires encore très féroce dans l’Est?&lt;/p&gt;</description>
       <pubDate>Sat, 07 Mar 2026 15:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d825597f-ad05-4ac9-8c68-f1542a2b928f/2026-03-07_09_47_02_tellementhockey_0000_128.aac" length="52985803" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d825597f-ad05-4ac9-8c68-f1542a2b928f/2026-03-07_09_47_02_tellementhockey_0000_128.aac" length="52985803" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d825597f-ad05-4ac9-8c68-f1542a2b928f/2026-03-07_09_47_02_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3308</itunes:duration>
+      <itunes:duration>55:08</itunes:duration>
     </item>
     <item>
       <title>Quelles sont les options pour le Canadien avant la date limite des échanges?</title>
       <description>&lt;p&gt;Le Tricolore a su se tenir debout devant les Capitals de Washington dans une victoire convaincante de 6-2, samedi dernier, au Centre Bell. La date limite des échanges plane au-dessus de la LNH au moment où la formation montréalaise amorce un voyage dans l’Ouest. Ce pourrait être l’occasion pour Kent Hughes d’améliorer la composition de son équipe. Est-ce que ses décisions se prendront aux dépens de la reconstruction en cours?&lt;/p&gt;</description>
       <pubDate>Tue, 03 Mar 2026 21:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4ce2674c-7331-4ecc-91b2-69e2d6d8d467/2026-03-03_16_31_19_tellementhockey_0000_128.aac" length="57188701" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4ce2674c-7331-4ecc-91b2-69e2d6d8d467/2026-03-03_16_31_19_tellementhockey_0000_128.aac" length="57188701" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4ce2674c-7331-4ecc-91b2-69e2d6d8d467/2026-03-03_16_31_19_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>3570</itunes:duration>
+      <itunes:duration>59:30</itunes:duration>
     </item>
     <item>
       <title>Faux départ pour le Canadien</title>
       <description>&lt;p&gt;Après la pause olympique, le retour de certains blessés s&amp;#x27;est fait aux dépens de jeunes joueurs, mais la composition de l&amp;#x27;équipe ne semble pas complètement déterminée. Le Canadien a encore perdu une avance et a dû se contenter d&amp;#x27;un seul point dans une défaite en prolongation. Ces mauvaises habitudes risquent-elles de nuire aux chances de l&amp;#x27;équipe d&amp;#x27;accéder aux séries? À l&amp;#x27;approche de la date limite des échanges, et avec l&amp;#x27;augmentation spectaculaire du plafond salarial prévue pour les prochaines années, verra-t-on des joueurs étoiles changer de camp?&lt;/p&gt;</description>
       <pubDate>Fri, 27 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3f51cfaa-1ef2-422d-9c5a-0adb9dd94b17/2026-02-27_14_30_35_tellementhockey_0000_128.aac" length="46426108" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3f51cfaa-1ef2-422d-9c5a-0adb9dd94b17/2026-02-27_14_30_35_tellementhockey_0000_128.aac" length="46426108" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3f51cfaa-1ef2-422d-9c5a-0adb9dd94b17/2026-02-27_14_30_35_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2898</itunes:duration>
+      <itunes:duration>48:18</itunes:duration>
     </item>
     <item>
       <title>Les États-Unis volent l’or au Canada</title>
       <description>&lt;p&gt;Dans le match ultime, c&amp;#x27;est Jack Hughes qui a tranché. Quarante-six ans jour pour jour après le miracle sur glace de Lake Placid et malgré une domination du Canada pendant presque deux périodes, les hommes de Mike Sullivan ont réussi l&amp;#x27;exploit. À la fin d&amp;#x27;un tournoi olympique enlevant, l&amp;#x27;heure est au bilan pour l&amp;#x27;IIHF. Le retour des joueurs de la LNH a monté le niveau de compétition à la hauteur des attentes, le hockey européen se rapproche du hockey nord-américain et la finale aura offert tout un spectacle.&lt;/p&gt;</description>
       <pubDate>Sun, 22 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b08f461b-dda3-4619-97e7-5203ec410dc6/2026-02-22_14_57_49_tellementhockey_0000_128.aac" length="26885565" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b08f461b-dda3-4619-97e7-5203ec410dc6/2026-02-22_14_57_49_tellementhockey_0000_128.aac" length="26885565" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b08f461b-dda3-4619-97e7-5203ec410dc6/2026-02-22_14_57_49_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>1678</itunes:duration>
+      <itunes:duration>27:58</itunes:duration>
     </item>
     <item>
       <title>Les yeux rivés sur la finale</title>
       <description>&lt;p&gt;C&amp;#x27;est dimanche matin qu&amp;#x27;aura lieu le match le plus important des Jeux de Milan-Cortina pour l&amp;#x27;équipe canadienne. Après un parcours difficile, le Canada aura fort à faire contre les États-Unis, qui ont placé une cible sur leurs rivaux depuis longtemps. Dans le match pour la médaille de bronze, la Slovaquie de Juraj Slafkovsky a baissé pavillon devant la Finlande et Oliver Kapanen qui a disputé son premier match.&lt;/p&gt;</description>
       <pubDate>Sat, 21 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3cbcf57b-62a4-48ff-ab5b-6ff75f983281/2026-02-21_19_10_07_tellementhockey_0000_128.aac" length="37169490" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3cbcf57b-62a4-48ff-ab5b-6ff75f983281/2026-02-21_19_10_07_tellementhockey_0000_128.aac" length="37169490" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3cbcf57b-62a4-48ff-ab5b-6ff75f983281/2026-02-21_19_10_07_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2320</itunes:duration>
+      <itunes:duration>38:40</itunes:duration>
     </item>
     <item>
       <title>Canada c. États-Unis : la ruée vers l’or</title>
       <description>&lt;p&gt;La finale en hockey masculin opposera le Canada aux États-Unis. Rien n&amp;#x27;est joué pour les Canadiens, dont le parcours olympique a été plus ardu que celui des Américains. Ces derniers n&amp;#x27;ont pas caché qu&amp;#x27;ils cherchaient à se venger de leur revers subi à la Confrontation des 4 nations. Juraj Slafkovsky et la Slovaquie affronteront la Finlande pour la médaille de bronze dans un match qui s&amp;#x27;annonce relevé vu la façon dont ces deux équipes ont tenu tête aux rouleaux compresseurs nord-américains.&lt;/p&gt;</description>
       <pubDate>Fri, 20 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e04a6900-9c9f-4ade-8134-0b30d525a4b9/2026-02-20_20_14_31_tellementhockey_0000_128.aac" length="46367399" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e04a6900-9c9f-4ade-8134-0b30d525a4b9/2026-02-20_20_14_31_tellementhockey_0000_128.aac" length="46367399" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e04a6900-9c9f-4ade-8134-0b30d525a4b9/2026-02-20_20_14_31_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2895</itunes:duration>
+      <itunes:duration>48:15</itunes:duration>
     </item>
     <item>
       <title>Les Canadiennes échappent l’or</title>
       <description>&lt;p&gt;Le duel entre le Canada et les États-Unis en finale olympique a été le plus serré entre les deux équipes en plus d&amp;#x27;un an. Au bout du compte, ce sont les Américaines qui ont arraché la victoire aux Canadiennes en prolongation à Milan. Quelles sont les leçons à retenir de cette défaite? Y a-t-il une conclusion à en tirer pour le hockey canadien? Qu&amp;#x27;en est-il de la relève canadienne?&lt;/p&gt;</description>
       <pubDate>Thu, 19 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/83b303dd-a4b8-4270-bfed-e44a3664cb58/2026-02-19_19_56_22_tellementhockey_0000_128.aac" length="34817951" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/83b303dd-a4b8-4270-bfed-e44a3664cb58/2026-02-19_19_56_22_tellementhockey_0000_128.aac" length="34817951" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/83b303dd-a4b8-4270-bfed-e44a3664cb58/2026-02-19_19_56_22_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2174</itunes:duration>
+      <itunes:duration>36:14</itunes:duration>
     </item>
     <item>
       <title>Mitch Marner sauve le Canada</title>
       <description>&lt;p&gt;Dans un match très serré entre la Tchéquie et le Canada, Mitch Marner s&amp;#x27;est révélé être le héros de l&amp;#x27;unifolié en prolongation.&lt;/p&gt;&lt;p&gt;Maintenant que le Canada passe en demi-finales, l&amp;#x27;équipe a encore beaucoup de doutes à dissiper. Quels seront les ajustements en vue du prochain match?&lt;/p&gt;&lt;p&gt;Alors que le carré d&amp;#x27;as se précise, la Slovaquie du jeune Juraj Slafkovsky poursuit sa route après une victoire contre l&amp;#x27;Allemagne. Le pays atteint les demi-finales pour la deuxième fois en deux JO.&lt;/p&gt;</description>
       <pubDate>Thu, 19 Feb 2026 01:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8af205ee-c7c6-46cc-9f1e-127f797e95c0/2026-02-18_20_04_48_tellementhockey_0000_128.aac" length="41549668" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8af205ee-c7c6-46cc-9f1e-127f797e95c0/2026-02-18_20_04_48_tellementhockey_0000_128.aac" length="41549668" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8af205ee-c7c6-46cc-9f1e-127f797e95c0/2026-02-18_20_04_48_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2594</itunes:duration>
+      <itunes:duration>43:14</itunes:duration>
     </item>
     <item>
       <title>La Tchéquie en entrée</title>
       <description>&lt;p&gt;On aura droit à un second match Canada-Tchéquie. À l&amp;#x27;entraînement, Nick Suzuki continuait à errer de trio en trio. Pourquoi le capitaine du Canadien n&amp;#x27;a-t-il toujours pas trouvé de stabilité dans l&amp;#x27;équipe canadienne? Le tour préliminaire du tournoi masculin est terminé et plusieurs équipes se sont vu montrer la sortie. C&amp;#x27;est la fin du tournoi pour des vétérans comme Pierre-Édouard Bellemare, qui a vécu l&amp;#x27;un des grands moments de sa carrière à Milan-Cortina.&lt;/p&gt;</description>
       <pubDate>Wed, 18 Feb 2026 00:50:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f6221948-43c8-4545-8bcb-79fbd6186a5b/2026-02-17_19_24_54_tellementhockey_0000_128.aac" length="33201914" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f6221948-43c8-4545-8bcb-79fbd6186a5b/2026-02-17_19_24_54_tellementhockey_0000_128.aac" length="33201914" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f6221948-43c8-4545-8bcb-79fbd6186a5b/2026-02-17_19_24_54_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2073</itunes:duration>
+      <itunes:duration>34:33</itunes:duration>
     </item>
     <item>
       <title>Menées par Marie-Philip Poulin, les Canadiennes joueront pour l’or</title>
       <description>&lt;p&gt;Peu importe la façon, l&amp;#x27;important, c&amp;#x27;est le résultat, et les Canadiennes ont rendez-vous avec les États-Unis pour le match de la médaille d&amp;#x27;or. Marie-Philip Poulin a pris les choses en main en marquant les deux buts du Canada. Toutefois, les joueuses de Troy Ryan n&amp;#x27;ont pas dissipé les doutes entretenus à leur endroit, et le match ultime des JO s&amp;#x27;annonce comme l&amp;#x27;occasion d&amp;#x27;une prise de conscience pour Équipe Canada. Car de leur côté, les Américaines sont très convaincantes et promettent d’être des adversaires coriaces.&lt;/p&gt;</description>
       <pubDate>Tue, 17 Feb 2026 00:45:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c14f276d-95c4-48de-b139-d811ade32613/2026-02-16_19_35_40_tellementhockey_0000_128.aac" length="33302266" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c14f276d-95c4-48de-b139-d811ade32613/2026-02-16_19_35_40_tellementhockey_0000_128.aac" length="33302266" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c14f276d-95c4-48de-b139-d811ade32613/2026-02-16_19_35_40_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2079</itunes:duration>
+      <itunes:duration>34:39</itunes:duration>
     </item>
     <item>
       <title>Le Canada s’impose sans forcer</title>
       <description>&lt;p&gt;Il n&amp;#x27;y a pas eu de surprise lors du match Canada-France, outre le fait qu&amp;#x27;une bagarre est venue assombrir la victoire des représentants de l&amp;#x27;unifolié. On est maintenant prêts pour les duels de barrage en vue des quarts de finale. Le Canada connaîtra son prochain adversaire sous peu, mais en attendant, malgré tous les éléments positifs, on veut porter attention à la défense.&lt;/p&gt;</description>
       <pubDate>Sun, 15 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2fa30e19-03eb-4fbd-9318-70221185afb2/2026-02-15_19_46_41_tellementhockey_0000_128.aac" length="41605305" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2fa30e19-03eb-4fbd-9318-70221185afb2/2026-02-15_19_46_41_tellementhockey_0000_128.aac" length="41605305" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2fa30e19-03eb-4fbd-9318-70221185afb2/2026-02-15_19_46_41_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2597</itunes:duration>
+      <itunes:duration>43:17</itunes:duration>
     </item>
     <item>
       <title>Équipe Canada : jusqu’ici, tout va bien</title>
       <description>&lt;p&gt;Marie-Philip Poulin est revenue dans la compétition face à l&amp;#x27;Allemagne et le Canada a remporté le match de façon convaincante. Mais l&amp;#x27;équipe canadienne n&amp;#x27;a pas l&amp;#x27;aura d&amp;#x27;une superpuissance et devra augmenter l&amp;#x27;intensité en demi-finales. Chez les hommes, Juraj Slafkovsky et la Slovaquie sont qualifiés, alors que la Suisse se remet du match contre le Canada et devra continuer sans Kevin Fiala jusqu&amp;#x27;à la fin du tournoi.&lt;/p&gt;</description>
       <pubDate>Sat, 14 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a41fecb0-10a7-43d7-87a2-4b66e90abd15/2026-02-14_20_09_55_tellementhockey_0000_128.aac" length="42004441" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a41fecb0-10a7-43d7-87a2-4b66e90abd15/2026-02-14_20_09_55_tellementhockey_0000_128.aac" length="42004441" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a41fecb0-10a7-43d7-87a2-4b66e90abd15/2026-02-14_20_09_55_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2622</itunes:duration>
+      <itunes:duration>43:42</itunes:duration>
     </item>
     <item>
       <title>Avec Celebrini, l’avenir, c’est maintenant</title>
       <description>&lt;p&gt;Le Canada a remporté son match contre la Suisse, un adversaire relevé. On remarque peu de faiblesses dans l&amp;#x27;équipe canadienne, et dans ce tournoi, on assiste à l&amp;#x27;éclosion de Macklin Celebrini. La seule interrogation qui persiste est celle de l&amp;#x27;identité du gardien no&amp;nbsp;1. Chez les femmes, Marie-Philip Poulin s&amp;#x27;est entraînée avec l&amp;#x27;équipe et pourrait être disponible pour les siennes en quarts de finale contre l&amp;#x27;Allemagne.&lt;/p&gt;</description>
       <pubDate>Fri, 13 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/38859c65-f7aa-4c2f-b756-1c7e71ba2da7/2026-02-13_19_51_02_tellementhockey_0000_128.aac" length="42567418" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/38859c65-f7aa-4c2f-b756-1c7e71ba2da7/2026-02-13_19_51_02_tellementhockey_0000_128.aac" length="42567418" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/38859c65-f7aa-4c2f-b756-1c7e71ba2da7/2026-02-13_19_51_02_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2657</itunes:duration>
+      <itunes:duration>44:17</itunes:duration>
     </item>
     <item>
       <title>Journée parfaite pour le Canada</title>
       <description>&lt;p&gt;Le Canada a réussi son entrée dans le tournoi masculin. Outre l&amp;#x27;état de santé du défenseur Josh Morrissey, rien n&amp;#x27;a semblé inquiéter les représentants de l&amp;#x27;unifolié dans cette première rencontre. La Suisse et les États-Unis ont remporté leur premier match et la logique a été respectée. À quoi ressemblera le reste du tournoi?&amp;nbsp;De leur côté, les Canadiennes se sont replacées contre les Finlandaises. Ont-elles réussi à dissiper les doutes suscités par la défaite contre les Américaines?&lt;/p&gt;</description>
       <pubDate>Thu, 12 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ef9fa107-5bab-484b-9f51-1622e944de24/2026-02-12_20_32_01_tellementhockey_0000_128.aac" length="40527669" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ef9fa107-5bab-484b-9f51-1622e944de24/2026-02-12_20_32_01_tellementhockey_0000_128.aac" length="40527669" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ef9fa107-5bab-484b-9f51-1622e944de24/2026-02-12_20_32_01_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2530</itunes:duration>
+      <itunes:duration>42:10</itunes:duration>
     </item>
     <item>
       <title>Juraj Slafkovsky étincelant</title>
       <description>&lt;p&gt;Le jeune Juraj Slafkovsky a commencé le tournoi avec force. Il a pris en main l&amp;#x27;attaque de la Slovaquie dans une première victoire convaincante contre la Finlande.&lt;/p&gt;&lt;p&gt;Le Canada entre en scène jeudi et l’on a pu voir certains ajustements dans la formation lors de l&amp;#x27;entraînement de mercredi. Aussi, dans une rencontre avec les médias, le directeur général de la formation canadienne a tenté d&amp;#x27;esquiver les questions entourant le logement des Canadiens.&lt;/p&gt;&lt;p&gt;Les autres équipes masculines préparent aussi leur entrée, dont la Tchéquie, qui pourrait être la formation surprise du tournoi.&lt;/p&gt;</description>
       <pubDate>Thu, 12 Feb 2026 01:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/36827b61-0d1d-4a0a-afd2-424441e9ba1c/2026-02-11_20_05_39_tellementhockey_0000_128.aac" length="45926620" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/36827b61-0d1d-4a0a-afd2-424441e9ba1c/2026-02-11_20_05_39_tellementhockey_0000_128.aac" length="45926620" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/36827b61-0d1d-4a0a-afd2-424441e9ba1c/2026-02-11_20_05_39_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2867</itunes:duration>
+      <itunes:duration>47:47</itunes:duration>
     </item>
     <item>
       <title>Le déclin de l’empire canadien</title>
       <description>&lt;p&gt;En battant sèchement les Canadiennes, les Américaines ont passé un message fort. Elles forment nettement l&amp;#x27;équipe à battre dans ce tournoi. &lt;/p&gt;&lt;p&gt;Sans Marie-Philip Poulin, la sélection canadienne pourra-t-elle trouver des solutions? La formation nationale reverra-t-elle sa capitaine?Le tournoi masculin commence mercredi, notamment avec un choc entre la Slovaquie et la Finlande. Il faudra attendre à jeudi pour l&amp;#x27;entrée en scène du Canada contre la Tchéquie.&lt;/p&gt;</description>
       <pubDate>Wed, 11 Feb 2026 01:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/59d55d6d-4185-4b7a-9bc2-7e9af80182ee/2026-02-10_19_53_13_tellementhockey_0000_128.aac" length="39759057" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/59d55d6d-4185-4b7a-9bc2-7e9af80182ee/2026-02-10_19_53_13_tellementhockey_0000_128.aac" length="39759057" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/59d55d6d-4185-4b7a-9bc2-7e9af80182ee/2026-02-10_19_53_13_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2482</itunes:duration>
+      <itunes:duration>41:22</itunes:duration>
     </item>
     <item>
       <title>Une victoire qui pourrait coûter cher au Canada</title>
       <description>&lt;p&gt;Les Canadiennes ont aisément vaincu les Tchèques, mais cette victoire n&amp;#x27;est pas venue sans sacrifice. Marie-Philip Poulin a quitté le match en première période après avoir été victime d&amp;#x27;une rude mise en échec de Kristýna Kaltounková. Le tournoi olympique de la capitaine canadienne est-il en péril?&lt;/p&gt;&lt;p&gt;Du côté masculin, la préparation se poursuit à Milan. Comment créer une chimie entre les joueurs dans un si court délai? Outre le Canada, les autres équipes masculines présentent des formations impressionnantes.&lt;/p&gt;</description>
       <pubDate>Tue, 10 Feb 2026 01:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/484507cc-372e-46e0-883c-96ae7f169399/2026-02-09_20_10_24_tellementhockey_0000_128.aac" length="43007855" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/484507cc-372e-46e0-883c-96ae7f169399/2026-02-09_20_10_24_tellementhockey_0000_128.aac" length="43007855" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/484507cc-372e-46e0-883c-96ae7f169399/2026-02-09_20_10_24_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2685</itunes:duration>
+      <itunes:duration>44:45</itunes:duration>
     </item>
     <item>
       <title>Capitaine Crosby</title>
       <description>&lt;p&gt;L&amp;#x27;équipe canadienne masculine de hockey est arrivée à Milan en vue du tournoi olympique qui commencera jeudi. C&amp;#x27;est Sidney Crosby qui a été nommé capitaine de la formation sur laquelle reposent beaucoup d&amp;#x27;espoirs. Et les trios de l&amp;#x27;équipe font déjà jaser. Au tournoi féminin, les plus grandes puissances européennes se sont affrontées, pendant que les Canadiennes profitaient d&amp;#x27;une journée de congé au lendemain de leur victoire contre les Suisses.&lt;/p&gt;</description>
       <pubDate>Sun, 08 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d62eb481-a6c0-40f1-a445-3e67080122ff/2026-02-08_19_37_23_tellementhockey_0000_128.aac" length="42793004" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d62eb481-a6c0-40f1-a445-3e67080122ff/2026-02-08_19_37_23_tellementhockey_0000_128.aac" length="42793004" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d62eb481-a6c0-40f1-a445-3e67080122ff/2026-02-08_19_37_23_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2672</itunes:duration>
+      <itunes:duration>44:32</itunes:duration>
     </item>
     <item>
       <title>Victoire tiède du Canada</title>
       <description>&lt;p&gt;Les Canadiennes ont remporté leur premier match du tournoi olympique de hockey contre une équipe suisse hargneuse. Est-ce que le niveau de jeu de la Suisse a augmenté, ou est-ce le Canada qui a connu un départ lent? La compétition se poursuit, et tant l&amp;#x27;Italie que la Finlande ont offert une belle résistance malgré la défaite. L&amp;#x27;écart entre les formations européennes et les deux grandes puissances nord-américaines est-il en train de se rétrécir? Enfin, les joueurs de la Ligue nationale de hockey commencent à arriver à Milan.&lt;/p&gt;</description>
       <pubDate>Sat, 07 Feb 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a3e4ef98-9e40-4f5e-ad71-42ecdf99f50d/2026-02-07_20_14_58_tellementhockey_0000_128.aac" length="45903751" type="audio/aac"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a3e4ef98-9e40-4f5e-ad71-42ecdf99f50d/2026-02-07_20_14_58_tellementhockey_0000_128.aac" length="45903751" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a3e4ef98-9e40-4f5e-ad71-42ecdf99f50d/2026-02-07_20_14_58_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2866</itunes:duration>
-    </item>
-    <item>
-      <title>Faux départ pour le Canada</title>
-      <description>&lt;p&gt;Le tournoi olympique devait commencer jeudi pour l&amp;#x27;équipe féminine canadienne, mais son premier match a plutôt été reporté en raison du virus de la gastro-entérite qui touche l&amp;#x27;équipe finlandaise. L&amp;#x27;action a toutefois commencé pour les autres équipes et la glace de l&amp;#x27;Aréna Rho de Milan a tenu le coup. L&amp;#x27;absence de Brayden Point de l&amp;#x27;équipe canadienne profitera-t-elle à Nick Suzuki?&lt;/p&gt;</description>
-      <pubDate>Fri, 06 Feb 2026 20:50:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d578ac08-4a10-435e-8bdb-bffc8705423f/2026-02-06_15_27_00_tellementhockey_0000_128.aac" length="43824066" type="audio/aac"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d578ac08-4a10-435e-8bdb-bffc8705423f/2026-02-06_15_27_00_tellementhockey_0000_128.aac</guid>
-      <itunes:duration>2736</itunes:duration>
+      <itunes:duration>47:46</itunes:duration>
     </item>
   </channel>
 </rss>
