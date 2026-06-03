@@ -3,11 +3,11 @@
   <channel>
     <title>Moteur de recherche</title>
     <description>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</description>
-    <link>https://example.com</link>
+    <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml</link>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg</url>
       <title>Moteur de recherche</title>
-      <link>https://example.com</link>
+      <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml</link>
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg"/>
     <item>

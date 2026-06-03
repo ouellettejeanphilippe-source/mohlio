@@ -379,8 +379,10 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
     description = ET.SubElement(channel, "description")
     description.text = channel_data.get("description", title_text)
 
+    feed_url = f"https://ouellettejeanphilippe-source.github.io/mohlio/feed_{show_id}.xml"
+
     link = ET.SubElement(channel, "link")
-    link.text = "https://example.com"
+    link.text = feed_url
 
     # Try channel image, then fallback image
     img_data = channel_data.get("image")
@@ -394,7 +396,7 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         image = ET.SubElement(channel, "image")
         ET.SubElement(image, "url").text = img_url
         ET.SubElement(image, "title").text = title_text
-        ET.SubElement(image, "link").text = "https://example.com"
+        ET.SubElement(image, "link").text = feed_url
 
         itunes_image = ET.SubElement(channel, "itunes:image")
         itunes_image.set("href", img_url)
@@ -433,7 +435,8 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
             enc_type = enclosure_data.get("type", "audio/mpeg")
             if "m3u8" in enclosure_data["url"].lower():
                 # Apple Podcasts and standard RSS spec support application/x-mpegURL or audio/mpeg for HLS
-                enc_type = "application/x-mpegURL"
+                # Setting to audio/mpeg helps mobile apps like Pocket Casts use native media players for HLS seeking
+                enc_type = "audio/mpeg"
 
             enclosure.set("type", enc_type)
 

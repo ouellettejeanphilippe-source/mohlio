@@ -3,18 +3,26 @@
   <channel>
     <title>La journée (est encore jeune)</title>
     <description>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</description>
-    <link>https://example.com</link>
+    <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml</link>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
-      <link>https://example.com</link>
+      <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml</link>
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
+    <item>
+      <title>Mercredi 3 juin 2026 : Les meilleurs moments, avec Simon et Tyler, et Alain Crête</title>
+      <description>&lt;p&gt;Olivier se fait réprimander par le chef du Parti vert du Québec, Alex Tyrrell. Alain Crête, qui a annoncé sa retraite, revient sur sa carrière de journaliste sportif. Et Simon et Tyler expliquent que les Canadiens de Montréal vont faire les séries.&lt;/p&gt;</description>
+      <pubDate>Wed, 03 Jun 2026 18:28:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5db90f42-6d68-4dcb-ba21-1e78c5f422ca/2026-06-03_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5db90f42-6d68-4dcb-ba21-1e78c5f422ca/2026-06-03_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
+      <itunes:duration>29:30</itunes:duration>
+    </item>
     <item>
       <title>Mardi 2 juin 2026 : Les meilleurs moments, avec David Thibodeau et Marc Cassivi</title>
       <description>&lt;p&gt;Olivier nous rappelle la menace d’apocalypse nucléaire, lorsque Donald Trump a affirmé vouloir anéantir l’Iran. David Thibodeau parle des Jeux d’hiver de l’Arctique et de ses disciplines, dont le saut sur les jointures. Et Marc Cassivi démolit le film &lt;em&gt;Le dîner de cons&lt;/em&gt;.&lt;/p&gt;</description>
       <pubDate>Tue, 02 Jun 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -22,7 +30,7 @@
       <title>Lundi 1er juin 2026 : Les meilleurs moments, avec Charles Beauchesne et Dominic LeBlanc</title>
       <description>&lt;p&gt;Jean-Philippe remercie Rose-Aimée Automne T. Morin et Suzie Bouchard en leur dédiant un acrostiche et un slam. Olivier nous fait entendre les caquistes qui rendent hommage à François Legault en chantant du Céline Dion. Dominic LeBlanc explique pourquoi le PLC n’accepterait pas que Jacques Gourde rejoigne ses rangs. Et Charles Beauchesne raconte sa très érotique sortie à la cabane à sucre.&lt;/p&gt;</description>
       <pubDate>Mon, 01 Jun 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cf9e5f1f-027e-4f31-935d-bdccb15735d2/2026-06-01_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cf9e5f1f-027e-4f31-935d-bdccb15735d2/2026-06-01_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cf9e5f1f-027e-4f31-935d-bdccb15735d2/2026-06-01_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -30,7 +38,7 @@
       <title>Samedi 30 mai 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Stéphane Gendron qualifie Paul St-Pierre Plamondon de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;mini-Trump &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;mini-Trump &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;mini-Trump&lt;/span&gt;&lt;/q&gt;; Pierre Poilievre encourage les Habitants; et Olivier Niquet se fait insulter par d’autres médias. &lt;/p&gt;</description>
       <pubDate>Sat, 30 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b52d2175-a3f0-4ce1-a315-b0436affd668/2026-05-29_11_50_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b52d2175-a3f0-4ce1-a315-b0436affd668/2026-05-29_11_50_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b52d2175-a3f0-4ce1-a315-b0436affd668/2026-05-29_11_50_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>40:31</itunes:duration>
     </item>
@@ -38,7 +46,7 @@
       <title>Vendredi 29 mai 2026 : Steven Guilbeault, Pierre Brassard et Suzie Bouchard</title>
       <description>&lt;p&gt;Olivier nous fait entendre ce qu’on a dit de lui dans les médias. Steven Guilbeault se rappelle ses bons coups en politique. Et Pierre Brassard présente sa version d’&lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Olivier Niquet 24/7 &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Olivier Niquet 24/7 &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;Olivier Niquet 24/7&lt;/span&gt;&lt;/q&gt;.&lt;/p&gt;</description>
       <pubDate>Fri, 29 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/873dc713-d64c-4fd9-a6b3-0eeeea9b696e/2026-05-29_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/873dc713-d64c-4fd9-a6b3-0eeeea9b696e/2026-05-29_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/873dc713-d64c-4fd9-a6b3-0eeeea9b696e/2026-05-29_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -46,7 +54,7 @@
       <title>Jeudi 28 mai 2026 : Nathalie Petrowski, Hugo Dumas et Louis Blouin</title>
       <description>&lt;p&gt;Louis Blouin parle de la santé de Donald Trump et des plans du président pour son anniversaire. Nathalie Petrowski déplore qu’on ne voie pas le visage de Pedro Pascal dans &lt;em&gt;Le Mandalorian et Grogu&lt;/em&gt;. Et Hugo Dumas affirme avoir «&amp;nbsp;failli se défenestrer&amp;nbsp;» en regardant l&amp;#x27;émission &lt;em&gt;Planter avec Marthe&lt;/em&gt;.&lt;/p&gt;</description>
       <pubDate>Thu, 28 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/843aee3c-323a-4422-bcc1-dfbf2957ca0d/2026-05-28_14_28_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/843aee3c-323a-4422-bcc1-dfbf2957ca0d/2026-05-28_14_28_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/843aee3c-323a-4422-bcc1-dfbf2957ca0d/2026-05-28_14_28_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -54,7 +62,7 @@
       <title>Mercredi 27 mai 2026 : Jean-Sébastien Girard, Josée Boileau et Paul Journet</title>
       <description>&lt;p&gt;Éric Duhaime explique pourquoi il veut se présenter dans Bellechasse. Jean-Sébastien Girard présente un «&amp;nbsp;Allô Bobo&amp;nbsp;» sur la gélotophobie. Et Paul Journet et Josée Boileau parlent du projet indépendantiste albertain et du départ de la politique de Steven Guilbeault.&lt;/p&gt;</description>
       <pubDate>Wed, 27 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2e29a684-2efc-4fa4-a68c-d07c0a017704/2026-05-27_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2e29a684-2efc-4fa4-a68c-d07c0a017704/2026-05-27_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2e29a684-2efc-4fa4-a68c-d07c0a017704/2026-05-27_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -70,7 +78,7 @@
       <title>Mardi 26 mai 2026 : Dominic Tardif et Marie-Christine Bergeron</title>
       <description>&lt;p&gt;Lors du congrès de la CAQ, Ian Lafrenière distribuait des tatouages à son effigie. Dominic Tardif parle d’un vidéoclip de Marie-Chantal Toupin. Et Marie-Christine Bergeron raconte comment, grâce à son documentaire &lt;em&gt;L’appartement&lt;/em&gt;&amp;nbsp;&lt;em&gt;5&lt;/em&gt;, elle a aidé à résoudre un crime vieux de 30 ans.&lt;/p&gt;</description>
       <pubDate>Tue, 26 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f629e64-dfb6-49d4-a334-3f2ef1c67e1f/2026-05-26_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f629e64-dfb6-49d4-a334-3f2ef1c67e1f/2026-05-26_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1f629e64-dfb6-49d4-a334-3f2ef1c67e1f/2026-05-26_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -78,7 +86,7 @@
       <title>Lundi 25 mai 2026 : Magali Saint-Vincent et Eric St-Pierre</title>
       <description>&lt;p&gt;Le député libéral Eric St-Pierre parle du demi-marathon qu’il a couru avec un costume de tour. Et Magali Saint-Vincent se propose pour rédiger la question référendaire albertaine.&lt;/p&gt;</description>
       <pubDate>Mon, 25 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b9fb28f-9461-400b-a5d0-d2784c922eb1/2026-05-25_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b9fb28f-9461-400b-a5d0-d2784c922eb1/2026-05-25_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b9fb28f-9461-400b-a5d0-d2784c922eb1/2026-05-25_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -86,7 +94,7 @@
       <title>Samedi 23 mai 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Monique Jérôme-Forget ressort sa fameuse sacoche; Stephan Dupont, du FM93, a honte de Jérôme Landry, qui refuse de tourner la page sur les &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;ostis de Nordiques &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;ostis de Nordiques &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;ostis de Nordiques&lt;/span&gt;&lt;/q&gt;; et des animateurs et animatrices de radio imitent le bruit d’un orignal.&lt;/p&gt;</description>
       <pubDate>Sat, 23 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a5094722-675c-425a-bd4c-bc805e52986f/2026-05-22_14_50_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a5094722-675c-425a-bd4c-bc805e52986f/2026-05-22_14_50_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a5094722-675c-425a-bd4c-bc805e52986f/2026-05-22_14_50_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>28:56</itunes:duration>
     </item>
@@ -94,7 +102,7 @@
       <title>Vendredi 22 mai 2026 : Alec Castonguay, Justine Philie et Simon-Olivier Lorange</title>
       <description>&lt;p&gt;Olivier parle de l’orignal qui est entré dans une maison à Trois-Rivières. Simon-Olivier Lorange se dit surpris de la victoire du Canadien. Alec Castonguay fait sa visite annuelle en studio. Et Justine Philie est en colère contre l’avocat de Patrick Bruel. &lt;/p&gt;</description>
       <pubDate>Fri, 22 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d3a1f90e-5f1c-48bf-b579-4524c6b666a9/2026-05-22_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d3a1f90e-5f1c-48bf-b579-4524c6b666a9/2026-05-22_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d3a1f90e-5f1c-48bf-b579-4524c6b666a9/2026-05-22_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -102,7 +110,7 @@
       <title>Jeudi 21 mai 2026 : Nathalie Petrowski, Hugo Dumas et Karine Ménard</title>
       <description>&lt;p&gt;La cheffe de police de Laval, Karine Ménard, explique ce que fait son équipe pour contrer l’extorsion. Nathalie Petrowski cherche la vraie raison de la fin du &lt;em&gt;Late Show&lt;/em&gt;, animé par Stephen Colbert. Et Hugo Dumas fait part de son coup de cœur télé printanier&amp;nbsp;:&amp;nbsp;&lt;em&gt;L&amp;#x27;effet Lara&lt;/em&gt;.&lt;/p&gt;</description>
       <pubDate>Thu, 21 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1341015e-715e-45b5-acca-1c814aadef5a/2026-05-21_14_28_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1341015e-715e-45b5-acca-1c814aadef5a/2026-05-21_14_28_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1341015e-715e-45b5-acca-1c814aadef5a/2026-05-21_14_28_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -110,7 +118,7 @@
       <title>Mercredi 20 mai 2026 : Josée Boileau, Paul Journet et Marc Cassivi</title>
       <description>&lt;p&gt;Bernard Drainville protège Mark Carney de la pluie lors d&amp;#x27;une conférence de presse. Marc Cassivi qualifie de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;cru moyen &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;cru moyen &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;cru moyen&lt;/span&gt;&lt;/q&gt; le 79e Festival de Cannes. Et Paul Journet et Josée Boileau parlent de l’entente de Churchill Falls que Terre-Neuve-et-Labrador veut renégocier.&lt;/p&gt;</description>
       <pubDate>Wed, 20 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/155bcf49-0189-4fde-92d4-ff9063383800/2026-05-20_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/155bcf49-0189-4fde-92d4-ff9063383800/2026-05-20_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/155bcf49-0189-4fde-92d4-ff9063383800/2026-05-20_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -118,7 +126,7 @@
       <title>Mardi 19 mai 2026 : Simon et Tyler, David Thibodeau et Simon-Olivier Lorange</title>
       <description>&lt;p&gt;Jean-Philippe raconte sa drôle de soirée à regarder le hockey avec Nathalie Petrowski. Simon-Olivier Lorange défend les performances du Canadien face à un Jean-Philippe défaitiste. À l&amp;#x27;occasion de la fête de la Reine, Simon et Tyler rendent hommage à l&amp;#x27;Angleterre. Et David Thibodeau nous fait voyager à Vancouver.&lt;/p&gt;</description>
       <pubDate>Tue, 19 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d10a3732-a1c1-44fb-83dc-84b8920675e7/2026-05-19_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d10a3732-a1c1-44fb-83dc-84b8920675e7/2026-05-19_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d10a3732-a1c1-44fb-83dc-84b8920675e7/2026-05-19_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -134,7 +142,7 @@
       <title>Samedi 16 mai 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Olivier remet les pendules à l’heure sur la chicane entre François Lambert et Québec solidaire; il tente également de comprendre ce qu’est une &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;candidature vedette &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;candidature vedette &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;candidature vedette&lt;/span&gt;&lt;/q&gt;; et Jean-François Lisée admet qu’il serait déçu si le Parti québécois n’était pas espionné par le gouvernement fédéral.&lt;/p&gt;</description>
       <pubDate>Sat, 16 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c4a036ec-3c84-4347-844a-40e8b9a59e39/2026-05-15_15_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c4a036ec-3c84-4347-844a-40e8b9a59e39/2026-05-15_15_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c4a036ec-3c84-4347-844a-40e8b9a59e39/2026-05-15_15_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>37:10</itunes:duration>
     </item>
@@ -142,7 +150,7 @@
       <title>Vendredi 15 mai 2026 : Pierre Brassard et Charles Emond</title>
       <description>&lt;p&gt;Une guerre de clémentines congelées a éclaté à Saint-Honoré. Charles Emond parle de la nouvelle antenne du REM et de son rendement. Et Pierre Brassard raconte sa vie à la manière d’un commentateur de hockey.&lt;/p&gt;</description>
       <pubDate>Fri, 15 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e9b28cbf-2e2d-42ca-809d-28a9e1b24978/2026-05-15_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e9b28cbf-2e2d-42ca-809d-28a9e1b24978/2026-05-15_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e9b28cbf-2e2d-42ca-809d-28a9e1b24978/2026-05-15_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -150,7 +158,7 @@
       <title>Jeudi 14 mai 2026 : Nathalie Petrowski, Hugo Dumas et Stéphanie Poirier</title>
       <description>&lt;p&gt;Stéphanie Poirier parle de la Victoire de Montréal, qui est en finale, et de la crainte concernant l’expansion de la LPHF. Nathalie Petrowski s&amp;#x27;emporte contre Gemini. Et Hugo Dumas nous dit quoi regarder et ne pas regarder à la télé.&lt;/p&gt;</description>
       <pubDate>Thu, 14 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b589aece-07c9-42dc-9695-c9e1db630be5/2026-05-14_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b589aece-07c9-42dc-9695-c9e1db630be5/2026-05-14_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b589aece-07c9-42dc-9695-c9e1db630be5/2026-05-14_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -158,7 +166,7 @@
       <title>Mercredi 13 mai 2026 : Charles Beauchesne et Paul Journet</title>
       <description>&lt;p&gt;Maxime Bernier nous fait part de sa solution très simple pour éviter d’acheter du bœuf vacciné. Paul Journet commente les sondages, notamment en lien avec la remontée de la CAQ. Et Charles Beauchesne se demande où est Cristobal Huet.&lt;/p&gt;</description>
       <pubDate>Wed, 13 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fc3bf5f8-0bd0-4fa5-86df-ae84214a1cf0/2026-05-13_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fc3bf5f8-0bd0-4fa5-86df-ae84214a1cf0/2026-05-13_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fc3bf5f8-0bd0-4fa5-86df-ae84214a1cf0/2026-05-13_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -166,7 +174,7 @@
       <title>Mardi 12 mai 2026 : Louis T et Marie Plourde</title>
       <description>&lt;p&gt;Marie Plourde parle de son rôle dans l’opposition à Projet Montréal et nous dit combien de temps tiennent les réparations d’un nid-de-poule. Et Louis T s’intéresse aux jeunes du cégep qui utilisent l’IA.&lt;/p&gt;</description>
       <pubDate>Tue, 12 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e6a2652-4de5-4732-9bd6-d029c1e30b12/2026-05-12_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e6a2652-4de5-4732-9bd6-d029c1e30b12/2026-05-12_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1e6a2652-4de5-4732-9bd6-d029c1e30b12/2026-05-12_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -174,7 +182,7 @@
       <title>Lundi 11 mai 2026 : Jean-Sébastien Girard, Jean-Philippe Pleau et Magali Saint-Vincent</title>
       <description>&lt;p&gt;Jeff Filion s&amp;#x27;identifie comme séparatiste albertain. Jean-Philippe Pleau rend hommage à Serge Bouchard, cinq ans après son décès. Et Magali Saint-Vincent est excitée de répondre au questionnaire du recensement, qu’elle compare à celui du magazine&lt;em&gt; Cool!&lt;/em&gt;&lt;/p&gt;</description>
       <pubDate>Mon, 11 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0b8d186c-8b35-4caa-9503-c0d3c7398a06/2026-05-11_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0b8d186c-8b35-4caa-9503-c0d3c7398a06/2026-05-11_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0b8d186c-8b35-4caa-9503-c0d3c7398a06/2026-05-11_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -198,7 +206,7 @@
       <title>Samedi 9 mai 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Olivier compare la chimie entre l’équipe des Canadiens de Montréal à celle au sein des partis politiques; la vidéo controversée du conseiller municipal Timmy Jutras pour dénoncer les conditions de vie des personnes en situation d’itinérance; et les messages politiques à l’Assemblée nationale en clin d’œil aux séries éliminatoires du hockey.&lt;/p&gt;</description>
       <pubDate>Sat, 09 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cc87cd60-9ec3-4263-9e7b-03a5e5904488/2026-05-08_16_02_02_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cc87cd60-9ec3-4263-9e7b-03a5e5904488/2026-05-08_16_02_02_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cc87cd60-9ec3-4263-9e7b-03a5e5904488/2026-05-08_16_02_02_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>37:37</itunes:duration>
     </item>
@@ -206,7 +214,7 @@
       <title>Vendredi 8 mai 2026 : Sol Zanetti et Pierre Brassard</title>
       <description>&lt;p&gt;Olivier Niquet rappelle la différence entre un nid de poule et un trou de pet. Sol Zanetti parle du congrès d’adoption de la plateforme électorale. Et Pierre Brassard veut célébrer l’anniversaire de son iPhone.&lt;/p&gt;</description>
       <pubDate>Fri, 08 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b940352-9d71-4b69-81f0-ae29a9b833b7/2026-05-08_14_02_10_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b940352-9d71-4b69-81f0-ae29a9b833b7/2026-05-08_14_02_10_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9b940352-9d71-4b69-81f0-ae29a9b833b7/2026-05-08_14_02_10_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -214,7 +222,7 @@
       <title>Jeudi 7 mai 2026 : Patrick Taillon, Nathalie Petrowski et Hugo Dumas</title>
       <description>&lt;p&gt;Olivier Niquet décrit la guerre médiatique qui oppose les chaînes d’information en continu pour savoir qui aime le plus le Canadien de Montréal. Patrick Taillon nous explique l’histoire de la fameuse clause dérogatoire. Nathalie Petrowski est très déçue par la pièce &lt;em&gt;Un nouveau jour,&lt;/em&gt; de Jean-Philippe Baril Guérard. Et Hugo Dumas nous dit ce qu’il a pensé du film &lt;em&gt;Le diable s’habille en Prada 2&lt;/em&gt;.&lt;/p&gt;</description>
       <pubDate>Thu, 07 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/eaf25549-8db2-4d2f-858a-9b42f0cb46de/2026-05-07_14_16_34_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/eaf25549-8db2-4d2f-858a-9b42f0cb46de/2026-05-07_14_16_34_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/eaf25549-8db2-4d2f-858a-9b42f0cb46de/2026-05-07_14_16_34_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -222,7 +230,7 @@
       <title>Mercredi 6 mai 2026 : Josée Boileau et Paul Journet</title>
       <description>&lt;p&gt;Olivier Niquet parle de la liberté d’expression telle que définie selon le Parti conservateur. Marie-Michèle Sioui nous fait part des échos au parlement après le discours inaugural de Christine Fréchette. Et Josée Boileau et Paul Journet se demandent à quel point le gouvernement de la CAQ a changé.&lt;/p&gt;</description>
       <pubDate>Wed, 06 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7d10509c-559c-4af1-b952-df74e8edf9c3/2026-05-06_14_16_16_ljeejeune_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7d10509c-559c-4af1-b952-df74e8edf9c3/2026-05-06_14_16_16_ljeejeune_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7d10509c-559c-4af1-b952-df74e8edf9c3/2026-05-06_14_16_16_ljeejeune_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -230,7 +238,7 @@
       <title>Mardi 5 mai 2026 : Patrick Taillon et Suzie Bouchard</title>
       <description>&lt;p&gt;Olivier Niquet nous dit pourquoi ça brasse au conseil municipal de Gatineau. Patrick Taillon nous explique ce qu’implique la nomination de la nouvelle gouverneure générale. Et Suzie Bouchard rend hommage à la fièvre des séries dans un slam sportif. &lt;/p&gt;</description>
       <pubDate>Tue, 05 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9621b511-5fb9-41b5-83e0-e9f7e53e3703/2026-05-05_14_09_19_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9621b511-5fb9-41b5-83e0-e9f7e53e3703/2026-05-05_14_09_19_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9621b511-5fb9-41b5-83e0-e9f7e53e3703/2026-05-05_14_09_19_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -238,7 +246,7 @@
       <title>Lundi 4 mai 2026 : Simon-Olivier Lorange et Julien Corriveau</title>
       <description>&lt;p&gt;Jean-Philippe ramène tout au hockey. Olivier revient sur la réaction de Martin St-Louis après la victoire des Canadiens à Tampa Bay. Simon-Olivier Lorange nous informe sur la série à venir contre les Sabres de Buffalo. Et Julien Corriveau nous raconte ce qui s’est passé dans les médias quand tout le monde regardait le hockey. &lt;/p&gt;</description>
       <pubDate>Mon, 04 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -246,7 +254,7 @@
       <title>Vendredi 1er mai 2026 : Pierre Brassard et Caroline Senneville</title>
       <description>&lt;p&gt;Pierre Brassard raconte son party de fête. Pierre Poilievre qualifie le fonds souverain de patente à gosses. Et la présidente de la CSN, Caroline Senneville, déplore que le gouvernement considère les syndicats comme des adversaires.&lt;/p&gt;</description>
       <pubDate>Fri, 01 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dc54aa50-c3ba-4cad-a7dc-774628288857/2026-05-01_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dc54aa50-c3ba-4cad-a7dc-774628288857/2026-05-01_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dc54aa50-c3ba-4cad-a7dc-774628288857/2026-05-01_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -254,7 +262,7 @@
       <title>Samedi 2 mai 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Pouf! Pouf! Pouf! Marc Tanguay dénonce tous les lapins que Christine Fréchette sort de son chapeau; l’interdiction de tondre sa pelouse après 17&amp;nbsp;h fait polémique à Saint-Tite; et des gens sont en colère contre le projet de construction d’éoliennes en Mauricie.&lt;/p&gt;</description>
       <pubDate>Fri, 01 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/97760110-fa87-4c76-b2c6-3543f1305c51/2026-05-01_15_29_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/97760110-fa87-4c76-b2c6-3543f1305c51/2026-05-01_15_29_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/97760110-fa87-4c76-b2c6-3543f1305c51/2026-05-01_15_29_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>35:25</itunes:duration>
     </item>
@@ -270,7 +278,7 @@
       <title>Jeudi 30 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Simon-Olivier Lorange</title>
       <description>&lt;p&gt;Olivier Niquet explique le gros scandale des pelouses à Saint-Tite. Simon-Olivier Lorange commente la dernière victoire du Canadien dans sa série contre le Lightning. Nathalie Petrowski nous recommande de regarder la série &lt;em&gt;Vitrerie Joyal&lt;/em&gt;. Et Hugo Dumas parle de &lt;em&gt;Michael.&lt;/em&gt;&amp;nbsp;&lt;/p&gt;</description>
       <pubDate>Thu, 30 Apr 2026 18:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/288becbe-87e7-4114-908f-6aa0b33d0114/2026-04-30_14_04_01_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/288becbe-87e7-4114-908f-6aa0b33d0114/2026-04-30_14_04_01_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/288becbe-87e7-4114-908f-6aa0b33d0114/2026-04-30_14_04_01_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -278,7 +286,7 @@
       <title>Mercredi 29 avr. 2026 : Louise Beaudoin, Kristina Michaud et Pasquale Harrison-Julien</title>
       <description>&lt;p&gt;Pasquale Harrison-Julien s’intéresse aux groupes d’extrême gauche et d’extrême droite en France. Et Louise Beaudoin et Kristina Michaud commentent les premiers jours de Christine Fréchette à la tête du Québec.&lt;/p&gt;</description>
       <pubDate>Wed, 29 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d074b19-44dc-4d40-9396-4b22b40aed29/2026-04-29_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d074b19-44dc-4d40-9396-4b22b40aed29/2026-04-29_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9d074b19-44dc-4d40-9396-4b22b40aed29/2026-04-29_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -286,7 +294,7 @@
       <title>Mardi 28 avr. 2026 : François Létourneau et Marc Cassivi</title>
       <description>&lt;p&gt;François-Philippe Champagne est très excité par l&amp;#x27;annonce du fonds souverain. Et Marc Cassivi anime une discussion sur la trilogie Batman, de Christopher Nolan, à laquelle participe François Létourneau.&lt;/p&gt;</description>
       <pubDate>Tue, 28 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6c6f9f64-029f-4ab9-8f41-95b6bbbba459/2026-04-28_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6c6f9f64-029f-4ab9-8f41-95b6bbbba459/2026-04-28_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6c6f9f64-029f-4ab9-8f41-95b6bbbba459/2026-04-28_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -294,7 +302,7 @@
       <title>Lundi 27 avr. 2026 : Alexandre Boulerice et Louis T </title>
       <description>&lt;p&gt;Olivier s’intéresse au mouvement de protestation contre le projet d’usine d’hydrogène en Mauricie. Alexandre Boulerice défend sa position indépendantiste. Et Louis T parle des trois tentatives d’assassinat sur Donald Trump. &lt;/p&gt;</description>
       <pubDate>Mon, 27 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2916ad1e-6fa5-4da5-b84e-27c305483a51/2026-04-27_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2916ad1e-6fa5-4da5-b84e-27c305483a51/2026-04-27_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2916ad1e-6fa5-4da5-b84e-27c305483a51/2026-04-27_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -302,7 +310,7 @@
       <title>Samedi 25 avr. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Martin St-Louis explique que les joueurs du Canadien doivent prendre soin de la rondelle pour gagner; la nouvelle ministre de l’Environnement, Pascale Déry, parle de sa priorité&amp;nbsp;: réduire la bureaucratie; et Mark Carney présente une de ses figurines.&lt;/p&gt;</description>
       <pubDate>Sat, 25 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cd7a9101-c9a9-4756-8733-592704dd93b9/2026-04-24_14_35_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cd7a9101-c9a9-4756-8733-592704dd93b9/2026-04-24_14_35_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cd7a9101-c9a9-4756-8733-592704dd93b9/2026-04-24_14_35_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>37:45</itunes:duration>
     </item>
@@ -310,7 +318,7 @@
       <title>Vendredi 24 avr. 2026 : Pierre Brassard, Gabrielle Côté, Carole Gagnon et Stéphane Leclerc</title>
       <description>&lt;p&gt;Carole Gagnon, de la SAQ, célèbre les 60&amp;nbsp;ans de Pierre Brassard. Gabrielle Côté fait une déclaration-choc sur sa sexualité. Et le PDG de l’entreprise Menthe Rito, Stéphane Leclerc, explique comment se porte le marché de la paparmane.&lt;/p&gt;</description>
       <pubDate>Fri, 24 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b6be3098-749b-4829-b6ef-3f27c0889e22/2026-04-24_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b6be3098-749b-4829-b6ef-3f27c0889e22/2026-04-24_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b6be3098-749b-4829-b6ef-3f27c0889e22/2026-04-24_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -326,7 +334,7 @@
       <title>Jeudi 23 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Benoît Heppell</title>
       <description>&lt;p&gt;Le Dr Benoît Heppell nous dit si le Coke diète est mauvais pour la santé. Nathalie Petrowski explique pourquoi il faut regarder la série américaine &lt;em&gt;DTF St-Louis&lt;/em&gt;. Et Hugo Dumas parle d’&lt;em&gt;Indéfendable&lt;/em&gt;.&lt;/p&gt;</description>
       <pubDate>Thu, 23 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c644a8cd-0900-4843-8413-742cbee1dfbf/2026-04-23_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c644a8cd-0900-4843-8413-742cbee1dfbf/2026-04-23_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c644a8cd-0900-4843-8413-742cbee1dfbf/2026-04-23_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -334,7 +342,7 @@
       <title>Mercredi 22 avr. 2026 : Jean-Sébastien Girard, Josée Boileau et Paul Journet</title>
       <description>&lt;p&gt;Une lectrice de nouvelles se trompe de nom lorsqu’elle nomme la nouvelle première ministre du Québec. Et Paul Journet et Josée Boileau commentent le nouveau Conseil des ministres et les sondages.&lt;/p&gt;</description>
       <pubDate>Wed, 22 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/803a2c6d-f8ac-4b33-aeff-c6d5c3ea00d0/2026-04-22_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/803a2c6d-f8ac-4b33-aeff-c6d5c3ea00d0/2026-04-22_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/803a2c6d-f8ac-4b33-aeff-c6d5c3ea00d0/2026-04-22_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -342,7 +350,7 @@
       <title>Mardi 21 avr. 2026 : Dominic Tardif et Yves Boisvert </title>
       <description>&lt;p&gt;Yves Boisvert raconte les déboires du directeur du FBI, Kash Patel, et parle des scandales entourant l’ex-secrétaire au Travail Lori Chavez DeRemer. Et Dominic Tardif s’intéresse à un combat de lutte dont le gagnant est un homme invisible.&lt;/p&gt;</description>
       <pubDate>Tue, 21 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cf700d1d-b622-4ac7-9de3-9a73b3007898/2026-04-21_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cf700d1d-b622-4ac7-9de3-9a73b3007898/2026-04-21_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cf700d1d-b622-4ac7-9de3-9a73b3007898/2026-04-21_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -350,7 +358,7 @@
       <title>Lundi 20 avr. 2026 : Simon et Tyler, et Chloé Sondervorst </title>
       <description>&lt;p&gt;Jean-Charles Lajoie compare la qualification des Sabres de Buffalo en séries à une première relation sexuelle. Chloé Sondervorst s&amp;#x27;intéresse à Claude Mythos, un modèle d’IA conçu pour la cybersécurité. Et Simon et Tyler parlent du Canadien qui fait les séries.&lt;/p&gt;</description>
       <pubDate>Mon, 20 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c51969b7-bc52-43ec-ad12-cc0dd8bee997/2026-04-20_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c51969b7-bc52-43ec-ad12-cc0dd8bee997/2026-04-20_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c51969b7-bc52-43ec-ad12-cc0dd8bee997/2026-04-20_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -358,7 +366,7 @@
       <title>Samedi 18 avr. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Les caquistes rendent hommage à François Legault en chantant &lt;em&gt;Tout l’or des hommes&lt;/em&gt;, de Céline Dion, l’ancienne députée conservatrice et maintenant libérale Marilyn Gladu révèle qu’elle est désormais pro-choix, et le député conservateur Andrew Sheer fait un drôle de lapsus.&lt;/p&gt;</description>
       <pubDate>Sat, 18 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2260cfba-1495-4b73-b5a7-e2902002efff/2026-04-17_15_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2260cfba-1495-4b73-b5a7-e2902002efff/2026-04-17_15_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2260cfba-1495-4b73-b5a7-e2902002efff/2026-04-17_15_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>44:47</itunes:duration>
     </item>
@@ -366,7 +374,7 @@
       <title>Vendredi 17 avr. 2026 : Pierre Brassard, Jérôme Tremblay et Gabrielle Côté</title>
       <description>&lt;p&gt;Jacques Gourde utilise sa petite-fille pour attaquer le gouvernement libéral. Le facteur Jérôme Tremblay explique comment Postes Canada aurait pu empêcher qu’on abandonne le courrier à domicile. Et Pierre Brassard se demande s&amp;#x27;il est vieux, lui qui aura 60&amp;nbsp;ans.&lt;/p&gt;</description>
       <pubDate>Fri, 17 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d5436b78-cb93-4667-a8b6-7589e5b6ae72/2026-04-17_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d5436b78-cb93-4667-a8b6-7589e5b6ae72/2026-04-17_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d5436b78-cb93-4667-a8b6-7589e5b6ae72/2026-04-17_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -374,7 +382,7 @@
       <title>Jeudi 16 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Catherine Moreau</title>
       <description>&lt;p&gt;Catherine Moreau raconte l’histoire de la fondation de l’entreprise Princess Auto. Nathalie Petrowski explique pourquoi elle n’a pas beaucoup aimé le film &lt;em&gt;Mile End Kicks&lt;/em&gt;. Et Hugo Dumas parle de &lt;em&gt;Si on s&amp;#x27;aimait encore&lt;/em&gt;, où plus rien ne va.&lt;/p&gt;</description>
       <pubDate>Thu, 16 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b662297-db9f-41d7-a600-ee2c1afa1662/2026-04-16_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b662297-db9f-41d7-a600-ee2c1afa1662/2026-04-16_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b662297-db9f-41d7-a600-ee2c1afa1662/2026-04-16_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -382,7 +390,7 @@
       <title>Mercredi 15 avr. 2026 : Marc Cassivi et Farnell Morisset</title>
       <description>&lt;p&gt;Le créateur de contenu Farnell Morisset explique pourquoi il fait le saut en politique provinciale. Et Marc Cassivi démolit la comédie française &lt;em&gt;Le dîner de cons&lt;/em&gt;.&lt;/p&gt;</description>
       <pubDate>Wed, 15 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0cc794eb-be70-4692-b9eb-12b0108028a7/2026-04-15_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0cc794eb-be70-4692-b9eb-12b0108028a7/2026-04-15_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0cc794eb-be70-4692-b9eb-12b0108028a7/2026-04-15_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -390,7 +398,7 @@
       <title>Mardi 14 avr. 2026 : Dominic LeBlanc et Justine Philie</title>
       <description>&lt;p&gt;Dominic LeBlanc explique pourquoi le PLC n’accepterait pas que Jacques Gourde rejoigne ses rangs. Et Justine Philie se fâche contre les épiceries qui ne reprennent plus les contenants consignés. &lt;/p&gt;</description>
       <pubDate>Tue, 14 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0455b081-78b2-43d7-9d65-a8f228d57a24/2026-04-14_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0455b081-78b2-43d7-9d65-a8f228d57a24/2026-04-14_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0455b081-78b2-43d7-9d65-a8f228d57a24/2026-04-14_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -406,7 +414,7 @@
       <title>Lundi 13 avr. 2026 : Julien Corriveau et Marie-Michèle Sioui</title>
       <description>&lt;p&gt;Jean-Philippe est scandalisé par la chorale en hommage à François Legault. Marie-Michèle Sioui se penche sur les propositions politiques de la prochaine première ministre, Christine Fréchette. Et Julien Corriveau parle d’une course sur des chaises de bureau au Japon.&lt;/p&gt;</description>
       <pubDate>Mon, 13 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c2004504-9928-4ddd-b56a-34f6002b7302/2026-04-13_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c2004504-9928-4ddd-b56a-34f6002b7302/2026-04-13_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c2004504-9928-4ddd-b56a-34f6002b7302/2026-04-13_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -414,7 +422,7 @@
       <title>Samedi 11 avr. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Dimitri Soudas traite Paul St-Pierre Plamondon de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;trou de cul &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;trou de cul &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;trou de cul&lt;/span&gt;&lt;/q&gt;, la ministre de l’Habitation, Caroline Proulx, affirme qu’une sécheuse aurait pu être élue à sa place, et Paul St-Pierre Plamondon accorde une entrevue à Rebel News.&lt;/p&gt;</description>
       <pubDate>Sat, 11 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d2447cb6-4714-4bad-84c4-9d9fd9cfea86/2026-04-10_16_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d2447cb6-4714-4bad-84c4-9d9fd9cfea86/2026-04-10_16_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d2447cb6-4714-4bad-84c4-9d9fd9cfea86/2026-04-10_16_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>42:06</itunes:duration>
     </item>
@@ -422,7 +430,7 @@
       <title>Vendredi 10 avr. 2026 : Pierre Brassard et Alain Crête </title>
       <description>&lt;p&gt;En chicane avec Bruno Marchand, Éric Duhaime se défend d’être &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;alcoolique &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;alcoolique &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;alcoolique&lt;/span&gt;&lt;/q&gt;. Alain Crête, qui a annoncé sa retraite, revient sur sa carrière de journaliste sportif. Et Pierre Brassard imite Fabrice Luchini et Claude Dubois.&lt;/p&gt;</description>
       <pubDate>Fri, 10 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e9ed61f-d1e5-4543-bd73-ff8ebfdd3111/2026-04-10_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e9ed61f-d1e5-4543-bd73-ff8ebfdd3111/2026-04-10_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1e9ed61f-d1e5-4543-bd73-ff8ebfdd3111/2026-04-10_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -430,7 +438,7 @@
       <title>Jeudi 9 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Nathalie Sinclair Desgagné</title>
       <description>&lt;p&gt;Marilyn Gladu, nouvelle députée du PLC, est qualifiée de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;paquet de troubles &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;paquet de troubles &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;paquet de troubles&lt;/span&gt;&lt;/q&gt;. Nathalie Sinclair Desgagné, candidate du Bloc québécois dans Terrebonne, raconte son étrange soirée électorale de 2025. Nathalie Petrowski parle de &lt;em&gt;Survivor Québec &lt;/em&gt;et des «&amp;nbsp;18 nonos en mal de sensations fortes&amp;nbsp;». Et Hugo Dumas critique la série &lt;em&gt;Detective Hole&lt;/em&gt;.&lt;/p&gt;</description>
       <pubDate>Thu, 09 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5e921a74-2f09-437e-931c-428b99fc7e99/2026-04-09_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5e921a74-2f09-437e-931c-428b99fc7e99/2026-04-09_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5e921a74-2f09-437e-931c-428b99fc7e99/2026-04-09_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -438,7 +446,7 @@
       <title>Mercredi 8 avr. 2026 : Jean-Sébastien Girard, Josée Boileau et Maxime Beaudoin</title>
       <description>&lt;p&gt;Josée Boileau critique l’absence de leadership de Mark Carney et de Pierre Poilievre en lien avec la guerre en Iran. Et on apprend à connaître le candidat du NPD dans Terrebonne, Maxime Beaudoin.&lt;/p&gt;</description>
       <pubDate>Wed, 08 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7c8d3ebe-c15e-4341-90b7-6d7a79aba7e3/2026-04-08_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7c8d3ebe-c15e-4341-90b7-6d7a79aba7e3/2026-04-08_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7c8d3ebe-c15e-4341-90b7-6d7a79aba7e3/2026-04-08_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
@@ -454,7 +462,7 @@
       <title>Mardi 7 avr. 2026 : Marie-Michèle Sioui et Jean-Philippe Perreault</title>
       <description>&lt;p&gt;Pierre Poilievre s’inquiète pour les grands-mamans, les soudeurs et les électriciens. Marie-Michèle Sioui s’intéresse aux derniers jours de la course à la chefferie de la CAQ. Et Jean-Philippe Perreault explique que la religion est plus présente qu&amp;#x27;avant sur les réseaux sociaux.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
       <pubDate>Tue, 07 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6f041bc2-70f1-4fdb-81ea-f5fd33ec613a/2026-04-07_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6f041bc2-70f1-4fdb-81ea-f5fd33ec613a/2026-04-07_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6f041bc2-70f1-4fdb-81ea-f5fd33ec613a/2026-04-07_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
@@ -462,17 +470,9 @@
       <title>Lundi 6 avr. 2026 : Magali Saint-Vincent et Yves Boisvert</title>
       <description>&lt;p&gt;Un ex-conseiller de Harper affirme que la laïcité imposée à l’école est du totalitarisme. Yves Boisvert parle des changements survenus depuis que Pete Hegseth est à la tête de l’armée américaine. Et Magali Saint-Vincent explique pourquoi on se fout du lancement de la fusée Artemis&amp;nbsp;II.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
       <pubDate>Mon, 06 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2b55e94a-e85b-4c09-a0b8-a4d98f32b3e5/2026-04-06_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2b55e94a-e85b-4c09-a0b8-a4d98f32b3e5/2026-04-06_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2b55e94a-e85b-4c09-a0b8-a4d98f32b3e5/2026-04-06_14_25_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
       <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Samedi 4 avr. 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Dominic Maurais se demande où sont les écolos quand Québec veut abattre des arbres pour construire le tramway, le nouveau chef du NPD, Avi Lewis, supplie Alexandre Boulerice de ne pas quitter le parti, et Bernard Drainville semble très mitigé par le retour de Lionel Carmant à la CAQ.&lt;/p&gt;</description>
-      <pubDate>Sat, 04 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/af6ed741-b5bc-43f2-9401-29c03a33d969/2026-04-02_16_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8" length="0" type="application/x-mpegURL"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/af6ed741-b5bc-43f2-9401-29c03a33d969/2026-04-02_16_00_00_lajourneeestencorejeuneohdio_0000_128.m3u8</guid>
-      <itunes:duration>31:48</itunes:duration>
     </item>
     <item>
       <title>Jeudi 2 avr. 2026 : Jean-Sébastien Girard, Pierre Brassard, Nathalie Petrowski et Gaétan Pouliot</title>
