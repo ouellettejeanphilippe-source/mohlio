@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Rebel News en faveur de la séparation de l’Alberta, et la prison pour un joueur de dek hockey</title>
+      <description/>
+      <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_128.aac" length="23974121" type="audio/mp4"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_128.aac</guid>
+      <itunes:duration>24:56</itunes:duration>
+    </item>
+    <item>
       <title>Départ de Jonathan Trudeau de Cogeco Média, et augmentation des soins médicaux inutiles </title>
       <description/>
       <pubDate>Tue, 02 Jun 2026 13:15:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/81eb088d-c1ec-4810-b119-5fe34ddb8cdb/2026-03-24_07_46_05_olivierniquet247enjaquetteohdio_0000_128.aac" length="23223092" type="audio/mp4"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/81eb088d-c1ec-4810-b119-5fe34ddb8cdb/2026-03-24_07_46_05_olivierniquet247enjaquetteohdio_0000_128.aac</guid>
       <itunes:duration>24:10</itunes:duration>
-    </item>
-    <item>
-      <title>Les pauses cigarette nuisent à la productivité des Français, et produire de l’énergie avec des vagues</title>
-      <description/>
-      <pubDate>Mon, 23 Mar 2026 12:20:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/678c6910-10d1-48d7-9ed8-b6e27e12e66e/2026-03-23_07_52_24_olivierniquet247enjaquetteohdio_0000_128.aac" length="22824818" type="audio/mp4"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/678c6910-10d1-48d7-9ed8-b6e27e12e66e/2026-03-23_07_52_24_olivierniquet247enjaquetteohdio_0000_128.aac</guid>
-      <itunes:duration>23:45</itunes:duration>
     </item>
   </channel>
 </rss>
