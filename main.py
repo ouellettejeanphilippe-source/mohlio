@@ -49,6 +49,18 @@ SHOW_TITLES = {
     6104: "Tellement hockey"
 }
 
+SHOW_SHORT_NAMES = {
+    6108: "explique",
+    9887: "journee",
+    11099: "decrypteurs",
+    6327: "betisier",
+    12095: "niquet",
+    302: "une",
+    6056: "recherche",
+    7791: "question",
+    6104: "hockey"
+}
+
 def fetch_show_image(show_id):
     """
     Attempts to fetch the show image from the GraphQL metadata endpoint.
@@ -151,20 +163,10 @@ def fetch_aac_url_from_media_id(media_id):
         if not m3u8_url:
             return None, 0
 
-        m3u8_resp = session.get(m3u8_url, headers=HEADERS, timeout=10)
-        variant_m3u8 = ""
-        for line in reversed(m3u8_resp.text.strip().split('\n')):
-            if line.endswith('.m3u8') and not line.startswith('#'):
-                variant_m3u8 = line
-                break
-
-        if variant_m3u8:
-            base_url = m3u8_url.rsplit('/', 1)[0] + '/'
-            full_m3u8_url = base_url + variant_m3u8
-
-            # We return 0 size as HLS playlists don't represent the full size
-            size = 0
-            return full_m3u8_url, size
+        # Return the master m3u8 directly. ExoPlayer on mobile (Pocket Casts) can struggle
+        # to seek if provided the variant playlist directly, but handling the master playlist
+        # allows it to properly negotiate the stream.
+        return m3u8_url, 0
     except Exception as e:
         print(f"Error fetching media {media_id}: {e}")
     return None, 0
@@ -389,6 +391,8 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         img_url = img_data["url"]
     elif fallback_image_url:
         img_url = fallback_image_url
+    else:
+        img_url = "https://example.com/image.jpg"
 
     if img_url:
         image = ET.SubElement(channel, "image")
@@ -439,7 +443,7 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
 
             guid = ET.SubElement(item, "guid")
             guid.set("isPermaLink", "false")
-            guid.text = enclosure_data["url"]
+            guid.text = enclosure_data["url"] + "?v=2"
 
         itunes_duration = item_data.get("itunesDuration")
         if itunes_duration:
@@ -497,7 +501,17 @@ def update_readme_log(logs):
             if logs["success"]:
                 log_content += "### Successfully Generated\n"
                 for success in logs["success"]:
-                    log_content += f"- [{success}]({success})\n"
+                    # Try to parse the show_id out of the filename (e.g. feed_6104.xml)
+                    short_name = success
+                    try:
+                        m = re.search(r'feed_(\d+)\.xml', success)
+                        if m:
+                            show_id = int(m.group(1))
+                            short_name = SHOW_SHORT_NAMES.get(show_id, success)
+                    except Exception:
+                        pass
+
+                    log_content += f"- [{short_name}]({success})\n"
                 log_content += "\n"
 
             if logs["errors"]:
