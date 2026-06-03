@@ -160,18 +160,11 @@ def fetch_aac_url_from_media_id(media_id):
 
         if variant_m3u8:
             base_url = m3u8_url.rsplit('/', 1)[0] + '/'
-            aac_filename = variant_m3u8.replace('.m3u8', '.aac')
-            full_aac_url = base_url + aac_filename
+            full_m3u8_url = base_url + variant_m3u8
 
-            # Optionally check HEAD for size
+            # We return 0 size as HLS playlists don't represent the full size
             size = 0
-            try:
-                head_resp = session.head(full_aac_url, headers=HEADERS, timeout=5)
-                size = int(head_resp.headers.get("Content-Length", 0))
-            except:
-                pass
-
-            return full_aac_url, size
+            return full_m3u8_url, size
     except Exception as e:
         print(f"Error fetching media {media_id}: {e}")
     return None, 0
@@ -437,11 +430,10 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
             enclosure.set("url", enclosure_data["url"])
             enclosure.set("length", str(enclosure_data.get("length", 0)))
 
-            # If the URL is an .aac file, use audio/mp4 instead of audio/aac or audio/mpeg
-            # to improve compatibility with podcast players like Pocket Casts.
             enc_type = enclosure_data.get("type", "audio/mpeg")
-            if "aac" in enc_type.lower() or enclosure_data["url"].lower().endswith(".aac"):
-                enc_type = "audio/mp4"
+            if "m3u8" in enclosure_data["url"].lower():
+                # Apple Podcasts and standard RSS spec support application/x-mpegURL or audio/mpeg for HLS
+                enc_type = "application/x-mpegURL"
 
             enclosure.set("type", enc_type)
 
