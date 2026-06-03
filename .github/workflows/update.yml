@@ -43,7 +43,7 @@ jobs:
             git commit -m "update feeds"
             # Retry loop to handle concurrent push collisions (e.g., when push and pull_request events trigger simultaneously)
             for i in 1 2 3 4 5; do
-              if git pull --rebase && git push; then
+              if git pull --rebase origin ${{ github.head_ref || github.ref_name }} && git push; then
                 break
               fi
               # If rebase fails due to conflict, abort it
