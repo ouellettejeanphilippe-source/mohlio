@@ -16,6 +16,7 @@ import re
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from datetime import datetime
+from urllib.parse import urljoin
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -163,10 +164,39 @@ def fetch_aac_url_from_media_id(media_id):
         if not m3u8_url:
             return None, 0
 
-        # Return the master m3u8 directly. ExoPlayer on mobile (Pocket Casts) can struggle
-        # to seek if provided the variant playlist directly, but handling the master playlist
-        # allows it to properly negotiate the stream.
-        return m3u8_url, 0
+        # We need to extract the direct .aac URL from the playlists.
+        # First, fetch the master playlist to get the variant playlist URL.
+        master_resp = session.get(m3u8_url, headers=HEADERS, timeout=10)
+        master_text = master_resp.text
+
+        variant_path = None
+        for line in master_text.splitlines():
+            line = line.strip()
+            if line and not line.startswith('#'):
+                variant_path = line
+                break
+
+        if not variant_path:
+            return m3u8_url, 0
+
+        variant_url = urljoin(m3u8_url, variant_path)
+
+        # Second, fetch the variant playlist to find the .aac file
+        variant_resp = session.get(variant_url, headers=HEADERS, timeout=10)
+        variant_text = variant_resp.text
+
+        aac_path = None
+        for line in variant_text.splitlines():
+            line = line.strip()
+            if line and not line.startswith('#') and line.endswith('.aac'):
+                aac_path = line
+                break
+
+        if not aac_path:
+            return m3u8_url, 0
+
+        aac_url = urljoin(variant_url, aac_path)
+        return aac_url, 100000000
     except Exception as e:
         print(f"Error fetching media {media_id}: {e}")
     return None, 0
@@ -434,13 +464,16 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         if enclosure_data and enclosure_data.get("url"):
             enclosure = ET.SubElement(item, "enclosure")
             enclosure.set("url", enclosure_data["url"])
-            enclosure.set("length", str(enclosure_data.get("length", 0)))
 
-            enc_type = enclosure_data.get("type", "audio/mpeg")
-            if "m3u8" in enclosure_data["url"].lower():
-                # Setting type to audio/mpeg tricks mobile apps into passing the URL natively to enable seeking
-                enc_type = "audio/mpeg"
+            # If length is 0 (which it often was previously), override with 100000000
+            # to trick the player to enable seeking.
+            length = enclosure_data.get("length", 0)
+            if length == 0:
+                length = 100000000
+            enclosure.set("length", str(length))
 
+            # The user requested audio/mpeg to force the player to handle the stream natively
+            enc_type = "audio/mpeg"
             enclosure.set("type", enc_type)
 
             guid = ET.SubElement(item, "guid")
