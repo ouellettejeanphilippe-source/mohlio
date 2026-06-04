@@ -434,14 +434,8 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         if enclosure_data and enclosure_data.get("url"):
             enclosure = ET.SubElement(item, "enclosure")
             enclosure.set("url", enclosure_data["url"])
-            enclosure.set("length", str(enclosure_data.get("length", 0)))
-
-            enc_type = enclosure_data.get("type", "audio/mpeg")
-            if "m3u8" in enclosure_data["url"].lower():
-                # Setting type to audio/mpeg tricks mobile apps into passing the URL natively to enable seeking
-                enc_type = "audio/mpeg"
-
-            enclosure.set("type", enc_type)
+            enclosure.set("length", "100000000")
+            enclosure.set("type", "audio/mpeg")
 
             guid = ET.SubElement(item, "guid")
             guid.set("isPermaLink", "false")
@@ -514,8 +508,7 @@ def update_readme_log(logs):
                         pass
 
                     full_url = f"https://ouellettejeanphilippe-source.github.io/mohlio/{success}"
-                    pca_url = f"https://pca.st/url?url={full_url}"
-                    log_content += f"- [{short_name}]({pca_url})\n"
+                    log_content += f"- [{short_name}]({full_url})\n"
                 log_content += "\n"
 
             if logs["errors"]:
