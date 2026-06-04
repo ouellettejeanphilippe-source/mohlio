@@ -513,7 +513,9 @@ def update_readme_log(logs):
                     except Exception:
                         pass
 
-                    log_content += f"- [{short_name}]({success})\n"
+                    full_url = f"https://ouellettejeanphilippe-source.github.io/mohlio/{success}"
+                    pca_url = f"https://pca.st/url?url={full_url}"
+                    log_content += f"- [{short_name}]({pca_url})\n"
                 log_content += "\n"
 
             if logs["errors"]:
