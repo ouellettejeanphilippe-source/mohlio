@@ -3,18 +3,18 @@
   <channel>
     <title>Olivier Niquet 24/7 (en jaquette)</title>
     <description>Olivier Niquet 24/7 (en jaquette)</description>
-    <link>https://example.com</link>
+    <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml</link>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
-      <link>https://example.com</link>
+      <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml</link>
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
       <title>Rebel News en faveur de la séparation de l’Alberta, et la prison pour un joueur de dek hockey</title>
       <description/>
       <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:56</itunes:duration>
     </item>
@@ -22,7 +22,7 @@
       <title>Départ de Jonathan Trudeau de Cogeco Média, et augmentation des soins médicaux inutiles </title>
       <description/>
       <pubDate>Tue, 02 Jun 2026 13:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f4451a1-d8a7-4f1f-9bdd-195ca205bc6a/2026-06-02_08_52_42_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f4451a1-d8a7-4f1f-9bdd-195ca205bc6a/2026-06-02_08_52_42_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5f4451a1-d8a7-4f1f-9bdd-195ca205bc6a/2026-06-02_08_52_42_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>26:36</itunes:duration>
     </item>
@@ -30,7 +30,7 @@
       <title>Rassemblement pour un «&amp;nbsp;Québec blanc&amp;nbsp;» à Shawinigan, et des castors à la rescousse de Londres</title>
       <description/>
       <pubDate>Mon, 01 Jun 2026 12:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3b15e6b-3952-4c6f-aef6-8ff148df9387/2026-06-01_08_11_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3b15e6b-3952-4c6f-aef6-8ff148df9387/2026-06-01_08_11_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c3b15e6b-3952-4c6f-aef6-8ff148df9387/2026-06-01_08_11_56_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>26:21</itunes:duration>
     </item>
@@ -38,7 +38,7 @@
       <title>Christine Fréchette qualifiée de «&amp;nbsp;matante&amp;nbsp;», et les pires villes pour les personnes introverties</title>
       <description/>
       <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a18b79b-031c-4bc1-9def-387eb8201c36/2026-05-29_07_32_50_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a18b79b-031c-4bc1-9def-387eb8201c36/2026-05-29_07_32_50_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5a18b79b-031c-4bc1-9def-387eb8201c36/2026-05-29_07_32_50_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:57</itunes:duration>
     </item>
@@ -46,7 +46,7 @@
       <title>Les prières qui dérangent à Trois-Rivières, et un Cowboys Fringants nommé scientifique en chef</title>
       <description/>
       <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f593a55-2734-4b6b-a198-bd924ea70bd1/2026-05-28_07_37_14_olivierniquet247enjaquetteohdio_0000_01_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f593a55-2734-4b6b-a198-bd924ea70bd1/2026-05-28_07_37_14_olivierniquet247enjaquetteohdio_0000_01_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1f593a55-2734-4b6b-a198-bd924ea70bd1/2026-05-28_07_37_14_olivierniquet247enjaquetteohdio_0000_01_master.m3u8?v=2</guid>
       <itunes:duration>22:33</itunes:duration>
     </item>
@@ -54,7 +54,7 @@
       <title>Mathieu Lacombe voterait oui, et le pape dénonce l’IA avec l’aide de l’IA</title>
       <description/>
       <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/03be7afc-60eb-4f93-9e5e-80b78078019d/2026-05-27_07_46_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/03be7afc-60eb-4f93-9e5e-80b78078019d/2026-05-27_07_46_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/03be7afc-60eb-4f93-9e5e-80b78078019d/2026-05-27_07_46_25_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>21:49</itunes:duration>
     </item>
@@ -62,7 +62,7 @@
       <title>L’urine humaine transformée en engrais, et la faible représentation des femmes âgées au cinéma</title>
       <description/>
       <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7185a512-418b-4917-a238-f12f4808e3a1/2026-05-26_07_45_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7185a512-418b-4917-a238-f12f4808e3a1/2026-05-26_07_45_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7185a512-418b-4917-a238-f12f4808e3a1/2026-05-26_07_45_25_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:26</itunes:duration>
     </item>
@@ -70,7 +70,7 @@
       <title>36 millions d’oiseaux arrivés en une nuit au Québec, et les restaurants Hooters plus familiaux</title>
       <description/>
       <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d4eac2ee-81c4-4b45-a948-4765b9318aef/2026-05-25_07_41_54_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d4eac2ee-81c4-4b45-a948-4765b9318aef/2026-05-25_07_41_54_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d4eac2ee-81c4-4b45-a948-4765b9318aef/2026-05-25_07_41_54_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:34</itunes:duration>
     </item>
@@ -78,7 +78,7 @@
       <title>Un chirurgien d’implants péniens gère l’hantavirus aux É.-U., et Angine de poitrine attire des vedettes</title>
       <description/>
       <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f7f43a3b-1122-423a-a60a-a83e2b541269/2026-05-22_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f7f43a3b-1122-423a-a60a-a83e2b541269/2026-05-22_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f7f43a3b-1122-423a-a60a-a83e2b541269/2026-05-22_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:57</itunes:duration>
     </item>
@@ -86,7 +86,7 @@
       <title>Le recrutement par courriel de la CAQ, et une entrée par effraction d’un orignal à Trois-Rivières</title>
       <description/>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fe34c096-8d56-44fa-9269-2b129e7b3f3e/2026-05-21_07_49_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fe34c096-8d56-44fa-9269-2b129e7b3f3e/2026-05-21_07_49_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fe34c096-8d56-44fa-9269-2b129e7b3f3e/2026-05-21_07_49_05_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:53</itunes:duration>
     </item>
@@ -94,7 +94,7 @@
       <title>L’effet Fréchette à la CAQ, et la tendance du «&amp;nbsp;ballmaxxing&amp;nbsp;»</title>
       <description/>
       <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/183e6133-0ff2-4a98-8d96-06f85f528df6/2026-05-20_07_40_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/183e6133-0ff2-4a98-8d96-06f85f528df6/2026-05-20_07_40_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/183e6133-0ff2-4a98-8d96-06f85f528df6/2026-05-20_07_40_48_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>26:20</itunes:duration>
     </item>
@@ -102,7 +102,7 @@
       <title>Un finissant de l’UQAM anti-woke avec le PCQ, et des drones anti-fusillades aux États-Unis</title>
       <description/>
       <pubDate>Tue, 19 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f3edcb6a-7121-41ef-9331-5d8ff64e7a78/2026-05-19_07_38_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f3edcb6a-7121-41ef-9331-5d8ff64e7a78/2026-05-19_07_38_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f3edcb6a-7121-41ef-9331-5d8ff64e7a78/2026-05-19_07_38_01_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:42</itunes:duration>
     </item>
@@ -110,7 +110,7 @@
       <title>La monarchie de Sherbrooke, et les goûteurs du gouvernement qui se sont fait berner</title>
       <description/>
       <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>19:43</itunes:duration>
     </item>
@@ -118,7 +118,7 @@
       <title>Un vol au parc des gnomes, et du plastique à base de légumes moches</title>
       <description/>
       <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d1247f2-0fe6-4e12-9452-793c9cf9e327/2026-05-14_07_42_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d1247f2-0fe6-4e12-9452-793c9cf9e327/2026-05-14_07_42_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9d1247f2-0fe6-4e12-9452-793c9cf9e327/2026-05-14_07_42_48_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:47</itunes:duration>
     </item>
@@ -126,7 +126,7 @@
       <title>Dunkin’ de retour au Canada, et «&amp;nbsp;Faque&amp;nbsp;» maintenant dans le dictionnaire</title>
       <description/>
       <pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/de491cb2-a415-440f-9930-568299a7df99/2026-05-13_07_46_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/de491cb2-a415-440f-9930-568299a7df99/2026-05-13_07_46_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/de491cb2-a415-440f-9930-568299a7df99/2026-05-13_07_46_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:28</itunes:duration>
     </item>
@@ -134,7 +134,7 @@
       <title>Baisse salariale pour des personnalités de TVA, et faux « prix Nobel » de philologie</title>
       <description/>
       <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/91debb0e-bfe4-428f-9f57-426e01d3b690/2026-05-12_07_37_35_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/91debb0e-bfe4-428f-9f57-426e01d3b690/2026-05-12_07_37_35_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/91debb0e-bfe4-428f-9f57-426e01d3b690/2026-05-12_07_37_35_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:21</itunes:duration>
     </item>
@@ -142,7 +142,7 @@
       <title>Nouvelle plateforme humoristique de Louis Morissette, et passion de Trump pour le soccer</title>
       <description/>
       <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f46abb00-f37d-4a9a-9c9e-2ca3435daf25/2026-05-11_07_33_17_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f46abb00-f37d-4a9a-9c9e-2ca3435daf25/2026-05-11_07_33_17_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f46abb00-f37d-4a9a-9c9e-2ca3435daf25/2026-05-11_07_33_17_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:18</itunes:duration>
     </item>
@@ -150,7 +150,7 @@
       <title>Ce qu’il faut savoir sur le Hantavirus, et le Québec-&lt;em&gt;bashing &lt;/em&gt;en augmentation en ligne</title>
       <description/>
       <pubDate>Fri, 08 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a6372aa3-28f5-4444-89e8-6f70e72b4faf/2026-05-08_07_35_46_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a6372aa3-28f5-4444-89e8-6f70e72b4faf/2026-05-08_07_35_46_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a6372aa3-28f5-4444-89e8-6f70e72b4faf/2026-05-08_07_35_46_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:43</itunes:duration>
     </item>
@@ -158,7 +158,7 @@
       <title>Une étude bidon publiée dans un grand magazine, et un conducteur fonce dans un faux-tunnel</title>
       <description/>
       <pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1d80d924-5530-4a9c-bf9f-be14c82f8f0c/2026-05-07_07_54_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1d80d924-5530-4a9c-bf9f-be14c82f8f0c/2026-05-07_07_54_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1d80d924-5530-4a9c-bf9f-be14c82f8f0c/2026-05-07_07_54_58_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:30</itunes:duration>
     </item>
@@ -166,7 +166,7 @@
       <title>Une nouvelle épicerie Liquidation Marie, et un déjeuner steak-choucroute pour RFK Jr.</title>
       <description/>
       <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/72166050-522b-4d1b-a51a-85addddf1250/2026-05-06_07_41_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/72166050-522b-4d1b-a51a-85addddf1250/2026-05-06_07_41_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/72166050-522b-4d1b-a51a-85addddf1250/2026-05-06_07_41_49_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>20:17</itunes:duration>
     </item>
@@ -174,7 +174,7 @@
       <title>Le télétravail moins accessible pour les femmes, et le fétichisme de pied dans le jeu &lt;em&gt;Clash of Clans&lt;/em&gt;</title>
       <description/>
       <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/149a2636-913a-4a81-8fa9-54ed2e62ef63/2026-05-05_07_25_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/149a2636-913a-4a81-8fa9-54ed2e62ef63/2026-05-05_07_25_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/149a2636-913a-4a81-8fa9-54ed2e62ef63/2026-05-05_07_25_40_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:33</itunes:duration>
     </item>
@@ -182,7 +182,7 @@
       <title>Des stations-service cancérigènes pour les enfants, et la liberté de presse en péril</title>
       <description/>
       <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a497cf6a-3254-47fc-94e1-2ee7a08b0fbd/2026-05-04_07_34_42_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a497cf6a-3254-47fc-94e1-2ee7a08b0fbd/2026-05-04_07_34_42_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a497cf6a-3254-47fc-94e1-2ee7a08b0fbd/2026-05-04_07_34_42_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:21</itunes:duration>
     </item>
@@ -190,7 +190,7 @@
       <title>Une loi sur l’IA rédigée par l’IA, et la possible candidature de Tucker Carlson</title>
       <description/>
       <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b8967ca-9a5e-4091-b135-f4fd682a2fe4/2026-05-01_08_17_14_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b8967ca-9a5e-4091-b135-f4fd682a2fe4/2026-05-01_08_17_14_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b8967ca-9a5e-4091-b135-f4fd682a2fe4/2026-05-01_08_17_14_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>20:52</itunes:duration>
     </item>
@@ -198,7 +198,7 @@
       <title>Un pont qui ne mène nulle part, et le boycottage exagéré d’une librairie à Québec</title>
       <description/>
       <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/87bde653-ecc6-4e74-a396-0164da48d9e2/2026-04-30_07_19_15_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/87bde653-ecc6-4e74-a396-0164da48d9e2/2026-04-30_07_19_15_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/87bde653-ecc6-4e74-a396-0164da48d9e2/2026-04-30_07_19_15_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:52</itunes:duration>
     </item>
@@ -206,7 +206,7 @@
       <title>Le lavage de mains supervisé par l’IA, et Jimmy Kimmel de nouveau critiqué</title>
       <description/>
       <pubDate>Wed, 29 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/86e313a9-4aa2-4dee-a775-e48a82a1c773/2026-04-29_07_58_40_olivierniquet247enjaquetteohdio_0001_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/86e313a9-4aa2-4dee-a775-e48a82a1c773/2026-04-29_07_58_40_olivierniquet247enjaquetteohdio_0001_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/86e313a9-4aa2-4dee-a775-e48a82a1c773/2026-04-29_07_58_40_olivierniquet247enjaquetteohdio_0001_master.m3u8?v=2</guid>
       <itunes:duration>21:50</itunes:duration>
     </item>
@@ -214,7 +214,7 @@
       <title>Des arachides moins allergènes, et le tiers des nouveaux sites web généré par l’IA</title>
       <description/>
       <pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/11e7683d-8795-44fb-b317-5b17bb2953fb/2026-04-28_07_44_12_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/11e7683d-8795-44fb-b317-5b17bb2953fb/2026-04-28_07_44_12_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/11e7683d-8795-44fb-b317-5b17bb2953fb/2026-04-28_07_44_12_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:54</itunes:duration>
     </item>
@@ -222,7 +222,7 @@
       <title>La candidature de la comédienne Isabelle Blais pour le PQ, et un incendie majeur à Bicolline</title>
       <description/>
       <pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/86b0f6e8-d5a4-4992-a4a4-dbe51d22c831/2026-04-27_07_30_21_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/86b0f6e8-d5a4-4992-a4a4-dbe51d22c831/2026-04-27_07_30_21_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/86b0f6e8-d5a4-4992-a4a4-dbe51d22c831/2026-04-27_07_30_21_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:15</itunes:duration>
     </item>
@@ -230,7 +230,7 @@
       <title>Des Ray-Ban Meta trafiquées, et le PDG de Truth Social quitte ses fonctions</title>
       <description/>
       <pubDate>Fri, 24 Apr 2026 11:57:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/faaf3c5c-db33-4494-b68c-acf31e956f38/2026-04-24_07_34_28_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/faaf3c5c-db33-4494-b68c-acf31e956f38/2026-04-24_07_34_28_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/faaf3c5c-db33-4494-b68c-acf31e956f38/2026-04-24_07_34_28_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>21:36</itunes:duration>
     </item>
@@ -238,7 +238,7 @@
       <title>Le «&amp;nbsp;frérisme&amp;nbsp;» selon PSPP, et une menace d’amende pour une mangeoire à oiseaux</title>
       <description/>
       <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/206efe78-0360-45f0-a89c-3aba0764d987/2026-04-23_07_39_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/206efe78-0360-45f0-a89c-3aba0764d987/2026-04-23_07_39_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/206efe78-0360-45f0-a89c-3aba0764d987/2026-04-23_07_39_01_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>21:13</itunes:duration>
     </item>
@@ -246,7 +246,7 @@
       <title> Le bogue de l’an 2038, et Gino Chouinard à la radio</title>
       <description/>
       <pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/56ac52b6-402d-4acf-b3f9-61108ead16e5/2026-04-22_07_45_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/56ac52b6-402d-4acf-b3f9-61108ead16e5/2026-04-22_07_45_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/56ac52b6-402d-4acf-b3f9-61108ead16e5/2026-04-22_07_45_32_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:26</itunes:duration>
     </item>
@@ -254,7 +254,7 @@
       <title>Une lettre ouverte pour prévenir les féminicides, et les chiens agressifs en hausse</title>
       <description/>
       <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/609b19f6-bcff-4a34-bb02-faa74da4091b/2026-04-21_07_44_34_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/609b19f6-bcff-4a34-bb02-faa74da4091b/2026-04-21_07_44_34_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/609b19f6-bcff-4a34-bb02-faa74da4091b/2026-04-21_07_44_34_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:41</itunes:duration>
     </item>
@@ -262,7 +262,7 @@
       <title>Problème de crottes de chien à Eastman, et cola diète pour guérir le cancer selon Trump</title>
       <description/>
       <pubDate>Mon, 20 Apr 2026 12:20:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1bfd30a7-dec3-4e4b-b383-7f0a184d67bc/2026-04-20_07_53_59_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1bfd30a7-dec3-4e4b-b383-7f0a184d67bc/2026-04-20_07_53_59_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1bfd30a7-dec3-4e4b-b383-7f0a184d67bc/2026-04-20_07_53_59_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:23</itunes:duration>
     </item>
@@ -270,7 +270,7 @@
       <title>La désinformation sur le droit de citer la Bible, et des bruits d’animaux sur les ondes radio aériennes</title>
       <description/>
       <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/882e45d7-2fd5-4e33-a09c-a382c10f6ddb/2026-04-17_07_38_16_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/882e45d7-2fd5-4e33-a09c-a382c10f6ddb/2026-04-17_07_38_16_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/882e45d7-2fd5-4e33-a09c-a382c10f6ddb/2026-04-17_07_38_16_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:10</itunes:duration>
     </item>
@@ -278,7 +278,7 @@
       <title>Le PQ perd des plumes, et un détaillant de souliers se réoriente vers l’IA</title>
       <description/>
       <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f7a3ded-7aa5-4428-bc90-aa4dfbd69385/2026-04-16_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f7a3ded-7aa5-4428-bc90-aa4dfbd69385/2026-04-16_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5f7a3ded-7aa5-4428-bc90-aa4dfbd69385/2026-04-16_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:55</itunes:duration>
     </item>
@@ -286,7 +286,7 @@
       <title>La suspension de la taxe fédérale sur l’essence, et la réputation de Jean Coutu au Québec</title>
       <description/>
       <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5796d6f3-37c6-4427-95e4-b96e807d8e6c/2026-04-15_07_44_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5796d6f3-37c6-4427-95e4-b96e807d8e6c/2026-04-15_07_44_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5796d6f3-37c6-4427-95e4-b96e807d8e6c/2026-04-15_07_44_49_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:29</itunes:duration>
     </item>
@@ -294,7 +294,7 @@
       <title>Des chaînes de télévision régionales en péril, et la montée des influenceurs carcéraux</title>
       <description/>
       <pubDate>Tue, 14 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/418c8c79-0044-4a75-a93a-62c6acd181b9/2026-04-14_07_48_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/418c8c79-0044-4a75-a93a-62c6acd181b9/2026-04-14_07_48_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/418c8c79-0044-4a75-a93a-62c6acd181b9/2026-04-14_07_48_32_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:44</itunes:duration>
     </item>
@@ -302,7 +302,7 @@
       <title>Christine Fréchette élue cheffe de la CAQ, et le désaccord entre Trump et le pape Léon XIV</title>
       <description/>
       <pubDate>Mon, 13 Apr 2026 12:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/52845903-c0d5-4917-b3eb-c067f83638e6/2026-04-13_07_51_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/52845903-c0d5-4917-b3eb-c067f83638e6/2026-04-13_07_51_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/52845903-c0d5-4917-b3eb-c067f83638e6/2026-04-13_07_51_01_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>27:33</itunes:duration>
     </item>
@@ -310,7 +310,7 @@
       <title>Rebel News jugé comme n’étant pas un média d’information, et des films projetés en accéléré</title>
       <description/>
       <pubDate>Fri, 10 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b786274-e8d9-4eee-a29d-0c31147bafe0/2026-04-10_07_44_53_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b786274-e8d9-4eee-a29d-0c31147bafe0/2026-04-10_07_44_53_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9b786274-e8d9-4eee-a29d-0c31147bafe0/2026-04-10_07_44_53_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:13</itunes:duration>
     </item>
@@ -318,7 +318,7 @@
       <title>L’armée américaine menace le Vatican, et le «&amp;nbsp;friction maxxing&amp;nbsp;»</title>
       <description/>
       <pubDate>Thu, 09 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a08b7c71-e0d8-41a1-9630-5c0620695fad/2026-04-09_07_39_10_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a08b7c71-e0d8-41a1-9630-5c0620695fad/2026-04-09_07_39_10_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a08b7c71-e0d8-41a1-9630-5c0620695fad/2026-04-09_07_39_10_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:39</itunes:duration>
     </item>
@@ -326,7 +326,7 @@
       <title>Un one-man show pour Dave Morissette, et un écouteur sans fil mépris pour une gélule</title>
       <description/>
       <pubDate>Wed, 08 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/01904d84-a988-4823-a85d-3705a3a27d4b/2026-04-08_07_41_52_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/01904d84-a988-4823-a85d-3705a3a27d4b/2026-04-08_07_41_52_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/01904d84-a988-4823-a85d-3705a3a27d4b/2026-04-08_07_41_52_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:38</itunes:duration>
     </item>
@@ -334,7 +334,7 @@
       <title>La face cachée de la Lune vue pour la première fois, et un homme immunisé contre le venin de serpent</title>
       <description/>
       <pubDate>Tue, 07 Apr 2026 12:20:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/eff9afd5-2ba3-443f-9340-27d3d00a0089/2026-04-07_07_50_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/eff9afd5-2ba3-443f-9340-27d3d00a0089/2026-04-07_07_50_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/eff9afd5-2ba3-443f-9340-27d3d00a0089/2026-04-07_07_50_58_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>26:49</itunes:duration>
     </item>
@@ -342,7 +342,7 @@
       <title>L’augmentation de la dépendance aux paris en ligne, et la coloscopie de Richard Martineau</title>
       <description/>
       <pubDate>Mon, 06 Apr 2026 12:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/60de4a87-a92b-4e65-9c11-8fdefb255309/2026-04-06_07_48_31_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/60de4a87-a92b-4e65-9c11-8fdefb255309/2026-04-06_07_48_31_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/60de4a87-a92b-4e65-9c11-8fdefb255309/2026-04-06_07_48_31_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>27:03</itunes:duration>
     </item>
@@ -350,7 +350,7 @@
       <title>Un nouveau contrat pour GardaWorld avec l’ICE, et l’entraînement de robots domestiques</title>
       <description/>
       <pubDate>Thu, 02 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0d8e727f-fabd-4c1c-afa6-aee33e68bd95/2026-04-02_07_35_28_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0d8e727f-fabd-4c1c-afa6-aee33e68bd95/2026-04-02_07_35_28_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0d8e727f-fabd-4c1c-afa6-aee33e68bd95/2026-04-02_07_35_28_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:30</itunes:duration>
     </item>
@@ -358,7 +358,7 @@
       <title>La fécondité altérée par les aliments ultra-transformés, et un journaliste bannie par les Canucks</title>
       <description/>
       <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/26a6cd58-f67e-41b9-a5d5-6888033b64ff/2026-04-01_07_48_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/26a6cd58-f67e-41b9-a5d5-6888033b64ff/2026-04-01_07_48_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/26a6cd58-f67e-41b9-a5d5-6888033b64ff/2026-04-01_07_48_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:20</itunes:duration>
     </item>
@@ -366,7 +366,7 @@
       <title>La science derrière Mike chez Rona, et le nouveau masque à saveur québécoise de Jacob Fowler</title>
       <description/>
       <pubDate>Tue, 31 Mar 2026 12:25:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e81c2d03-292e-4c97-9c07-425705a5eee5/2026-03-31_08_08_46_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e81c2d03-292e-4c97-9c07-425705a5eee5/2026-03-31_08_08_46_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e81c2d03-292e-4c97-9c07-425705a5eee5/2026-03-31_08_08_46_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:33</itunes:duration>
     </item>
@@ -374,7 +374,7 @@
       <title>Avi Lewis à la tête du NPD, et une bretelle d’autoroute fermée à cause d’un chef spirituel</title>
       <description/>
       <pubDate>Mon, 30 Mar 2026 12:20:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a569c1c4-c073-43b6-9036-c66b6ad291c9/2026-03-30_07_46_06_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a569c1c4-c073-43b6-9036-c66b6ad291c9/2026-03-30_07_46_06_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a569c1c4-c073-43b6-9036-c66b6ad291c9/2026-03-30_07_46_06_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:13</itunes:duration>
     </item>
@@ -382,7 +382,7 @@
       <title>L’impopularité des candidats à la chefferie du NPD, et une souris clonée à l’infini</title>
       <description/>
       <pubDate>Fri, 27 Mar 2026 13:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bcf2c62a-82f6-48cc-a603-fc91fed976d2/2026-03-27_08_54_57_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bcf2c62a-82f6-48cc-a603-fc91fed976d2/2026-03-27_08_54_57_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bcf2c62a-82f6-48cc-a603-fc91fed976d2/2026-03-27_08_54_57_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:01</itunes:duration>
     </item>
@@ -390,7 +390,7 @@
       <title>La masturbation pour une meilleure rémunération, et des fruits de mer à l’apparence de viande</title>
       <description/>
       <pubDate>Thu, 26 Mar 2026 12:20:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f953ebf-79a0-4ef7-902b-13f35c74a445/2026-03-26_07_45_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f953ebf-79a0-4ef7-902b-13f35c74a445/2026-03-26_07_45_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0f953ebf-79a0-4ef7-902b-13f35c74a445/2026-03-26_07_45_40_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>21:55</itunes:duration>
     </item>
@@ -398,7 +398,7 @@
       <title>Le français de Michael Rousseau, et un film sur la vie de Georges St-Pierre</title>
       <description/>
       <pubDate>Wed, 25 Mar 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cfb8b912-fcd8-43da-a03d-62cfa3668e0e/2026-03-25_07_39_26_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cfb8b912-fcd8-43da-a03d-62cfa3668e0e/2026-03-25_07_39_26_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cfb8b912-fcd8-43da-a03d-62cfa3668e0e/2026-03-25_07_39_26_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:22</itunes:duration>
     </item>
@@ -406,7 +406,7 @@
       <title>Maïté Blanchette Vézina au PCQ, et la mort du fondateur d’OnlyFans</title>
       <description/>
       <pubDate>Tue, 24 Mar 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/81eb088d-c1ec-4810-b119-5fe34ddb8cdb/2026-03-24_07_46_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="application/x-mpegURL"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/81eb088d-c1ec-4810-b119-5fe34ddb8cdb/2026-03-24_07_46_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="0" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/81eb088d-c1ec-4810-b119-5fe34ddb8cdb/2026-03-24_07_46_05_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:10</itunes:duration>
     </item>
