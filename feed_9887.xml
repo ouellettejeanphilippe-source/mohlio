@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Jeudi 4 juin 2026 : Les meilleurs moments, avec Magali Saint-Vincent et Régis Labeaume</title>
+      <description>&lt;p&gt;On apprend que Paul Journet est &lt;em&gt;cheap&lt;/em&gt;. Bernard Drainville se défend d’avoir chanté des Cowboys Fringants lors d’une entrevue accordée à son fils. Régis Labeaume explique ce qui différencie la politique municipale de la provinciale. Et Magali Saint-Vincent explique pourquoi les gens se foutent d’Artemis&amp;nbsp;II. &lt;/p&gt;</description>
+      <pubDate>Thu, 04 Jun 2026 18:28:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a5545b8-05a8-4e31-aa08-013d47cb958e/2026-06-04_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5a5545b8-05a8-4e31-aa08-013d47cb958e/2026-06-04_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>29:30</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 3 juin 2026 : Les meilleurs moments, avec Simon et Tyler, et Alain Crête</title>
       <description>&lt;p&gt;Olivier se fait réprimander par le chef du Parti vert du Québec, Alex Tyrrell. Alain Crête, qui a annoncé sa retraite, revient sur sa carrière de journaliste sportif. Et Simon et Tyler expliquent que les Canadiens de Montréal vont faire les séries.&lt;/p&gt;</description>
       <pubDate>Wed, 03 Jun 2026 18:28:00 +0000</pubDate>
@@ -467,14 +475,6 @@
       <itunes:duration>29:30</itunes:duration>
     </item>
     <item>
-      <title>Lundi 6 avr. 2026 : Magali Saint-Vincent et Yves Boisvert</title>
-      <description>&lt;p&gt;Un ex-conseiller de Harper affirme que la laïcité imposée à l’école est du totalitarisme. Yves Boisvert parle des changements survenus depuis que Pete Hegseth est à la tête de l’armée américaine. Et Magali Saint-Vincent explique pourquoi on se fout du lancement de la fusée Artemis&amp;nbsp;II.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-      <pubDate>Mon, 06 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2b55e94a-e85b-4c09-a0b8-a4d98f32b3e5/2026-04-06_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2b55e94a-e85b-4c09-a0b8-a4d98f32b3e5/2026-04-06_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
       <title>Jeudi 2 avr. 2026 : Jean-Sébastien Girard, Pierre Brassard, Nathalie Petrowski et Gaétan Pouliot</title>
       <description>&amp;lt;p&amp;gt;Jean-Sébastien Girard révèle quelques nouveautés de Bonsoir, bonsoir! Gaétan Pouliot parle de sirop d’érable falsifié. Pierre Brassard nous emmène dans les coulisses du party des Olivier. Et Nathalie Petrowski nous dit si elle ira voir Céline à Paris.&amp;lt;/p&amp;gt;</description>
       <pubDate>Thu, 02 Apr 2026 14:25:00 -0400</pubDate>
@@ -505,14 +505,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/9bf80115-621d-4ce6-8cc8-e33cdb7c91d9/2026-03-10_14_25_00_journeeestencorejeunebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/9bf80115-621d-4ce6-8cc8-e33cdb7c91d9/2026-03-10_14_25_00_journeeestencorejeunebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Lundi 2 mars 2026 : Julie Drolet et Magali Saint-Vincent</title>
-      <description>&amp;lt;p&amp;gt;Olivier révèle quel type de père il est. Julie Drolet raconte comment s'est déroulé son retour à l'animation du «Téléjournal» après un an et demi d'absence. Et au lieu de souligner la Journée internationale des droits des femmes, Magali Saint-Vincent imagine des activités pour célébrer les hommes.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Mon, 02 Mar 2026 14:25:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/b34aceba-e1e1-42cc-930a-5f7676088179/2026-03-02_14_25_00_journeeestencorejeunebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/b34aceba-e1e1-42cc-930a-5f7676088179/2026-03-02_14_25_00_journeeestencorejeunebalado_0000.mp3?v=2</guid>
-      <itunes:duration>00:29:30</itunes:duration>
     </item>
   </channel>
 </rss>
