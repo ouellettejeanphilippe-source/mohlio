@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Le REM freiné par la «&amp;nbsp;rosée&amp;nbsp;», et le fléau du «&amp;nbsp;racisme antiblanc&amp;nbsp;»</title>
+      <description/>
+      <pubDate>Thu, 04 Jun 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/57f486cb-0e8f-417e-8523-1cea25f14ba2/2026-06-04_08_21_06_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/57f486cb-0e8f-417e-8523-1cea25f14ba2/2026-06-04_08_21_06_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
+      <itunes:duration>23:53</itunes:duration>
+    </item>
+    <item>
       <title>Rebel News en faveur de la séparation de l’Alberta, et la prison pour un joueur de dek hockey</title>
       <description/>
       <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/cfb8b912-fcd8-43da-a03d-62cfa3668e0e/2026-03-25_07_39_26_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cfb8b912-fcd8-43da-a03d-62cfa3668e0e/2026-03-25_07_39_26_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
       <itunes:duration>22:22</itunes:duration>
-    </item>
-    <item>
-      <title>Maïté Blanchette Vézina au PCQ, et la mort du fondateur d’OnlyFans</title>
-      <description/>
-      <pubDate>Tue, 24 Mar 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/81eb088d-c1ec-4810-b119-5fe34ddb8cdb/2026-03-24_07_46_05_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/81eb088d-c1ec-4810-b119-5fe34ddb8cdb/2026-03-24_07_46_05_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
-      <itunes:duration>24:10</itunes:duration>
     </item>
   </channel>
 </rss>
