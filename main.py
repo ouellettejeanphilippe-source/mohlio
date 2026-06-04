@@ -145,6 +145,52 @@ import json
 from email.utils import format_datetime
 from datetime import datetime
 
+def extract_aac_from_m3u8(m3u8_url):
+    try:
+        resp = session.get(m3u8_url, headers=HEADERS, timeout=10)
+        if resp.status_code != 200:
+            return m3u8_url
+
+        base_url = m3u8_url.rsplit('/', 1)[0]
+
+        lines = resp.text.split('\n')
+        sub_playlist = None
+        for line in lines:
+            line = line.strip()
+            if line and not line.startswith('#'):
+                sub_playlist = line
+                break
+
+        if not sub_playlist:
+            return m3u8_url
+
+        if sub_playlist.startswith('http'):
+            sub_playlist_url = sub_playlist
+            base_url = sub_playlist.rsplit('/', 1)[0]
+        else:
+            sub_playlist_url = f"{base_url}/{sub_playlist}"
+
+        resp2 = session.get(sub_playlist_url, headers=HEADERS, timeout=10)
+        if resp2.status_code != 200:
+            return m3u8_url
+
+        lines2 = resp2.text.split('\n')
+        aac_file = None
+        for line in lines2:
+            line = line.strip()
+            if line.endswith('.aac'):
+                aac_file = line
+                break
+
+        if aac_file:
+            if aac_file.startswith('http'):
+                return aac_file
+            return f"{base_url}/{aac_file}"
+
+    except Exception as e:
+        print(f"Error extracting AAC from m3u8: {e}")
+    return m3u8_url
+
 def fetch_aac_url_from_media_id(media_id):
     validation_url = f"https://services.radio-canada.ca/media/validation/v2/?appCode=medianet&deviceType=ipad&connectionType=wifi&idMedia={media_id}&output=json"
     try:
@@ -163,10 +209,8 @@ def fetch_aac_url_from_media_id(media_id):
         if not m3u8_url:
             return None, 0
 
-        # Return the master m3u8 directly. ExoPlayer on mobile (Pocket Casts) can struggle
-        # to seek if provided the variant playlist directly, but handling the master playlist
-        # allows it to properly negotiate the stream.
-        return m3u8_url, 0
+        aac_url = extract_aac_from_m3u8(m3u8_url)
+        return aac_url, 0
     except Exception as e:
         print(f"Error fetching media {media_id}: {e}")
     return None, 0
@@ -434,14 +478,8 @@ def create_rss_xml(show_id, channel_data, fallback_image_url):
         if enclosure_data and enclosure_data.get("url"):
             enclosure = ET.SubElement(item, "enclosure")
             enclosure.set("url", enclosure_data["url"])
-            enclosure.set("length", str(enclosure_data.get("length", 0)))
-
-            enc_type = enclosure_data.get("type", "audio/mpeg")
-            if "m3u8" in enclosure_data["url"].lower():
-                # Setting type to audio/mpeg tricks mobile apps into passing the URL natively to enable seeking
-                enc_type = "audio/mpeg"
-
-            enclosure.set("type", enc_type)
+            enclosure.set("length", "100000000")
+            enclosure.set("type", "audio/mpeg")
 
             guid = ET.SubElement(item, "guid")
             guid.set("isPermaLink", "false")
@@ -514,8 +552,7 @@ def update_readme_log(logs):
                         pass
 
                     full_url = f"https://ouellettejeanphilippe-source.github.io/mohlio/{success}"
-                    pca_url = f"https://pca.st/url?url={full_url}"
-                    log_content += f"- [{short_name}]({pca_url})\n"
+                    log_content += f"- [{short_name}]({full_url})\n"
                 log_content += "\n"
 
             if logs["errors"]:
