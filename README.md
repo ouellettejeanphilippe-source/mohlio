@@ -5,8 +5,14 @@ This repository contains a Python script and a GitHub Actions workflow to genera
 ## Features
 - Fetches audio metadata and constructs valid RSS 2.0 XML feeds.
 - Supports iTunes namespaces for podcast clients.
-- Runs automatically every day at 06:00 UTC via GitHub Actions.
+- Runs automatically at 8:00 AM, 12:00 PM, and 4:00 PM Eastern Time via GitHub Actions (with daylight saving time support).
 - Generated XML files are automatically committed and pushed to the repository.
+
+## Manual Update
+To manually trigger an immediate update of the feeds:
+1. Go to the **[Daily Feed Update workflow page](https://github.com/ouellettejeanphilippe-source/mohlio/actions/workflows/update.yml)**.
+2. Click the **Run workflow** dropdown button on the right side.
+3. Click the green **Run workflow** button to start the update.
 
 ## Requirements
 - Python 3.11
@@ -33,7 +39,7 @@ The feeds are designed to be served publicly. You can connect this repository to
 
 ## Latest Run Log
 <!-- RUN_LOG_START -->
-Last Run: 2026-06-05 09:05:15 UTC
+Last Run: 2026-06-05 13:36:40 UTC
 
 ### Successfully Generated
 - [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml)

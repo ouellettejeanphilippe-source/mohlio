@@ -2,7 +2,7 @@ name: Daily Feed Update
 
 on:
   schedule:
-    - cron: '0 6,14,22 * * *'  # Runs 3 times a day
+    - cron: '0 12,13,16,17,20,21 * * *'  # Runs near 8am, 12pm, 4pm EST/EDT
   push:
     branches:
       - main
@@ -20,23 +20,44 @@ jobs:
       contents: write
 
     steps:
+      - name: Check Timezone
+        id: tz
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            HOUR=$(TZ='America/New_York' date +%-H)
+            echo "Current hour in Eastern Time: $HOUR"
+            if [ "$HOUR" = "8" ] || [ "$HOUR" = "12" ] || [ "$HOUR" = "16" ]; then
+              echo "should_run=true" >> $GITHUB_ENV
+            else
+              echo "should_run=false" >> $GITHUB_ENV
+              echo "Skipping run, as it is not exactly 8 AM, 12 PM, or 4 PM local time."
+            fi
+          else
+            echo "should_run=true" >> $GITHUB_ENV
+          fi
+
       - name: Checkout repository
+        if: env.should_run == 'true'
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Setup Python
+        if: env.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
+        if: env.should_run == 'true'
         run: pip install -r requirements.txt
 
       - name: Run feed generator
+        if: env.should_run == 'true'
         run: python main.py
 
       - name: Commit and push changes
+        if: env.should_run == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
