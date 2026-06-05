@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1200/v1/audio/balado/16x9/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Les dangers du pamplemousse selon le PCQ, et une sauce curry à la cocaïne</title>
+      <description/>
+      <pubDate>Fri, 05 Jun 2026 12:55:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/456cb171-1c6b-471f-9cf1-e049380cefd8/2026-06-05_08_19_04_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/456cb171-1c6b-471f-9cf1-e049380cefd8/2026-06-05_08_19_04_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>21:27</itunes:duration>
+    </item>
+    <item>
       <title>Le REM freiné par la «&amp;nbsp;rosée&amp;nbsp;», et le fléau du «&amp;nbsp;racisme antiblanc&amp;nbsp;»</title>
       <description/>
       <pubDate>Thu, 04 Jun 2026 13:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f953ebf-79a0-4ef7-902b-13f35c74a445/2026-03-26_07_45_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0f953ebf-79a0-4ef7-902b-13f35c74a445/2026-03-26_07_45_40_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>21:55</itunes:duration>
-    </item>
-    <item>
-      <title>Le français de Michael Rousseau, et un film sur la vie de Georges St-Pierre</title>
-      <description/>
-      <pubDate>Wed, 25 Mar 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cfb8b912-fcd8-43da-a03d-62cfa3668e0e/2026-03-25_07_39_26_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cfb8b912-fcd8-43da-a03d-62cfa3668e0e/2026-03-25_07_39_26_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:22</itunes:duration>
     </item>
   </channel>
 </rss>
