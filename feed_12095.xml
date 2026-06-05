@@ -5,11 +5,19 @@
     <description>Olivier Niquet 24/7 (en jaquette)</description>
     <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml</link>
     <image>
-      <url>https://images.radio-canada.ca/q_auto,w_1200/v1/audio/balado/16x9/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
+      <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
       <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml</link>
     </image>
-    <itunes:image href="https://images.radio-canada.ca/q_auto,w_1200/v1/audio/balado/16x9/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
+    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
+    <item>
+      <title>Les dangers du pamplemousse selon le PCQ, et une sauce curry à la cocaïne</title>
+      <description/>
+      <pubDate>Fri, 05 Jun 2026 12:55:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/456cb171-1c6b-471f-9cf1-e049380cefd8/2026-06-05_08_19_04_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/456cb171-1c6b-471f-9cf1-e049380cefd8/2026-06-05_08_19_04_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>21:27</itunes:duration>
+    </item>
     <item>
       <title>Les dangers du pamplemousse selon le PCQ, et une sauce curry à la cocaïne</title>
       <description/>

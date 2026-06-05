@@ -34,7 +34,8 @@ SHOW_IDS = [
     302,   # À la une
     6056,  # Moteur de recherche
     7791,  # Pouvez-vous répéter la question?
-    6104   # Tellement hockey
+    6104,  # Tellement hockey
+    13061  # Changement de ligne
 ]
 
 SHOW_TITLES = {
@@ -46,7 +47,8 @@ SHOW_TITLES = {
     302: "À la une",
     6056: "Moteur de recherche",
     7791: "Pouvez-vous répéter la question?",
-    6104: "Tellement hockey"
+    6104: "Tellement hockey",
+    13061: "Changement de ligne"
 }
 
 SHOW_SHORT_NAMES = {
@@ -58,7 +60,8 @@ SHOW_SHORT_NAMES = {
     302: "une",
     6056: "recherche",
     7791: "question",
-    6104: "hockey"
+    6104: "hockey",
+    13061: "changement"
 }
 
 def fetch_show_image(show_id):
@@ -124,17 +127,30 @@ def fetch_show_image(show_id):
             match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', response.text)
             if not match:
                 match = re.search(r'content="([^"]+)"\s+property="og:image"', response.text)
-            if match:
-                return match.group(1)
+            og_image = match.group(1) if match else None
 
             # 2. Extract from page HTML (excluding fallbacks)
             imgs = re.findall(r'https://images\.radio-canada\.ca[^"\']+', response.text)
+            clean_imgs = []
             for img in imgs:
                 # filter out curly brackets (from templates like {ratio}) and generic fallbacks
                 if '{' not in img and '\\' not in img and 'fallback' not in img and 'erreur' not in img and 'molecule' not in img and 'tuile-rechercher' not in img and 'balado' in img:
                     # Clean up any trailing HTML parts if regex captured too much
                     img_clean = img.split('>')[0].split('<')[0]
-                    return img_clean
+                    clean_imgs.append(img_clean)
+
+            # Prefer 1x1 image, ideally 600w or 300w
+            for img in clean_imgs:
+                if '1x1' in img:
+                    return img
+
+            # If no 1x1 image is found, but we have an og_image, use that
+            if og_image:
+                return og_image
+
+            # Fallback to first available clean image if 1x1 and og_image not found
+            if clean_imgs:
+                return clean_imgs[0]
     except Exception:
         pass
 
