@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Interdiction des boissons énergisantes aux mineurs</title>
+      <description>&amp;lt;p&amp;gt;Le gouvernement Fréchette dépose un projet de loi pour interdire la vente de boissons énergisantes aux mineurs. La conservatrice Maïté Blanchette-Vézina s'y oppose, accusant la CAQ d'utiliser la mort de Zachary Miron à des fins politiques. Il faut l'unanimité pour adopter la loi rapidement.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Fri, 05 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/590a4161-0bf7-4788-a37b-f5099afdcd2e/2026-06-05_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/590a4161-0bf7-4788-a37b-f5099afdcd2e/2026-06-05_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Cessez-le-feu conclu entre Israël et le Liban</title>
       <description>&amp;lt;p&amp;gt;Israël et le Liban ont conclu un accord de cessez-le-feu total, conditionnel au retrait et à l'arrêt des tirs du Hezbollah. Parallèlement à Washington, la Chambre des représentants inflige un affront à Donald Trump en votant une résolution qui ordonne la fin de l'engagement des troupes américaines dans la guerre en Iran.&amp;lt;/p&amp;gt;</description>
       <pubDate>Thu, 04 Jun 2026 05:06:00 -0400</pubDate>
@@ -2801,14 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/00af299f-042d-44e2-b1eb-28c719d8e151/2024-10-25_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/00af299f-042d-44e2-b1eb-28c719d8e151/2024-10-25_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Justin Trudeau toujours debout</title>
-      <description>&amp;lt;p&amp;gt;Le mécontentement de certains de ses députés est encore bien palpable, mais la rencontre du caucus libéral a permis à une trentaine d'entre eux de se vider le cœur en présence du premier ministre. Justin Trudeau et son entourage semblent avoir réussi à calmer les troupes.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 24 Oct 2024 05:06:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/191e2af1-1c48-4c74-abfd-61b0efd0227e/2024-10-24_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/191e2af1-1c48-4c74-abfd-61b0efd0227e/2024-10-24_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
 </rss>
