@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/les-decrypteurs-nouveau-visuel-balado-ohdio-moteur.jpg"/>
     <item>
+      <title>Des recoins du web à Hollywood : le phénomène &lt;em&gt;Backrooms&lt;/em&gt;</title>
+      <description>&lt;p&gt;La stratégie canadienne sur l’intelligence artificielle est enfin dévoilée; les coûts liés à l’IA font grincer des dents; Anthropic franchit un premier pas vers son entrée en Bourse; META est ciblée par une vague de piratage massif; et la petite histoire derrière le grand succès du film &lt;em&gt;Backrooms&lt;/em&gt;.&lt;/p&gt;</description>
+      <pubDate>Fri, 05 Jun 2026 15:55:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bc61720a-ac1e-4c61-aef3-26a38d3418b5/2026-06-05_11_28_17_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bc61720a-ac1e-4c61-aef3-26a38d3418b5/2026-06-05_11_28_17_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:04:48</itunes:duration>
+    </item>
+    <item>
       <title>Extrémistes, les détracteurs de l’IA?</title>
       <description>&lt;p&gt;Les personnes critiques de l’intelligence artificielle sont dans la mire des forces de l’ordre aux États-Unis, au moment où s’amplifie la grogne contre l’implantation de centres de données; le pape Léon XIV entre en croisade contre les dérives de l’IA; une ex-influenceuse MAGA déchante et règle ses comptes; et Google et Apple réitèrent leur opposition à certaines dispositions du projet de loi C-22 sur l’accès légal à des données numériques personnelles. &lt;/p&gt;</description>
       <pubDate>Fri, 29 May 2026 16:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/8a8ee543-48da-4658-84e0-f12dc6d8a8d2/2025-03-21_11_02_52_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8a8ee543-48da-4658-84e0-f12dc6d8a8d2/2025-03-21_11_02_52_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>50:03</itunes:duration>
-    </item>
-    <item>
-      <title>Le plan controversé de Facebook pour conquérir la Chine, et les robots conversationnels dopés à la désinfo russe</title>
-      <description>&lt;p&gt;Au programme cette semaine&amp;nbsp;: censure contre profits, une lanceuse d’alerte lève le voile sur un plan concocté en 2015 par Facebook pour conquérir le lucratif marché chinois; les principaux robots conversationnels sont gavés à la désinformation russe, selon une enquête dont on analyse les grandes lignes; et l’IA au service des cybermenaces visant les processus démocratiques.&lt;/p&gt;</description>
-      <pubDate>Fri, 14 Mar 2025 15:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d4367c5e-c657-48d3-946e-521cb83ab88c/2025-03-14_11_16_57_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d4367c5e-c657-48d3-946e-521cb83ab88c/2025-03-14_11_16_57_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>39:18</itunes:duration>
     </item>
   </channel>
 </rss>
