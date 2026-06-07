@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Vendredi 5 juin 2026 : Les meilleurs moments, avec Gilles Brassard et Suzie Bouchard</title>
+      <description>&lt;p&gt;Jean-Philippe retrace la carrière de Pierre Brassard. Gilles Brassard explique ce qu’est la cryptographie quantique. Et Suzie Bouchard rend hommage à la fièvre des séries dans un slam sportif.&lt;/p&gt;</description>
+      <pubDate>Fri, 05 Jun 2026 18:28:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9dda0db3-3389-44f8-8656-81e47ff4c1c2/2026-06-05_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9dda0db3-3389-44f8-8656-81e47ff4c1c2/2026-06-05_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>29:30</itunes:duration>
+    </item>
+    <item>
       <title>Jeudi 4 juin 2026 : Les meilleurs moments, avec Magali Saint-Vincent et Régis Labeaume</title>
       <description>&lt;p&gt;On apprend que Paul Journet est &lt;em&gt;cheap&lt;/em&gt;. Bernard Drainville se défend d’avoir chanté des Cowboys Fringants lors d’une entrevue accordée à son fils. Régis Labeaume explique ce qui différencie la politique municipale de la provinciale. Et Magali Saint-Vincent explique pourquoi les gens se foutent d’Artemis&amp;nbsp;II. &lt;/p&gt;</description>
       <pubDate>Thu, 04 Jun 2026 18:28:00 +0000</pubDate>
@@ -465,14 +473,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/00619ec8-dc05-42ba-a1e2-0dc7f2539809/2026-04-08_14_25_00_journeeestencorejeunebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/00619ec8-dc05-42ba-a1e2-0dc7f2539809/2026-04-08_14_25_00_journeeestencorejeunebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Mardi 7 avr. 2026 : Marie-Michèle Sioui et Jean-Philippe Perreault</title>
-      <description>&lt;p&gt;Pierre Poilievre s’inquiète pour les grands-mamans, les soudeurs et les électriciens. Marie-Michèle Sioui s’intéresse aux derniers jours de la course à la chefferie de la CAQ. Et Jean-Philippe Perreault explique que la religion est plus présente qu&amp;#x27;avant sur les réseaux sociaux.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
-      <pubDate>Tue, 07 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6f041bc2-70f1-4fdb-81ea-f5fd33ec613a/2026-04-07_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6f041bc2-70f1-4fdb-81ea-f5fd33ec613a/2026-04-07_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
     </item>
     <item>
       <title>Jeudi 2 avr. 2026 : Jean-Sébastien Girard, Pierre Brassard, Nathalie Petrowski et Gaétan Pouliot</title>

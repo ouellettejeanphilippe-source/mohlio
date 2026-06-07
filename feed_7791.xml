@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg"/>
     <item>
+      <title>Tournoi 2026 : deuxième rencontre</title>
+      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Simon Boulerice, François Létourneau et Tammy Verge, qui doivent répondre à des questions sur&amp;nbsp;: la masturbation des perroquets, la chance de Francine Fortune, l&amp;#x27;amour de Mike Myers pour le Québec, les rhododendrons du ministre français de l&amp;#x27;Éducation, la levure de momie, les Tortues Ninja amateurs et l&amp;#x27;implant pelvien oublié dans un taxi.&lt;/p&gt;</description>
+      <pubDate>Sat, 06 Jun 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5610ef84-1cd9-4be1-930f-d0f71bc42cb7/2026-06-06_11_42_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5610ef84-1cd9-4be1-930f-d0f71bc42cb7/2026-06-06_11_42_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:15</itunes:duration>
+    </item>
+    <item>
       <title>Tournoi 2026 : première rencontre</title>
       <description>&amp;lt;p&amp;gt;Cette semaine, Pierre Brassard reçoit Éléonore Lagacé, Laurent Paquin et André Robitaille, qui doivent répondre à des questions sur : l'urgence gastrique d'un joueur de tennis, les petits bras des tyrannosaures, le conseil de Caroline Mulroney à Doug Ford, le député qui court déguisé en parlement, le gâteau au fromage Kraft Dinner et l'amour du roi pour les écureuils.&amp;lt;/p&amp;gt;</description>
       <pubDate>Sat, 30 May 2026 20:00:00 -0400</pubDate>
@@ -514,14 +522,6 @@
       <pubDate>Sat, 19 Apr 2025 17:00:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/e0856ebe-69c9-4393-98d0-5a5b7d032fe9/2025-04-19_11_25_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e0856ebe-69c9-4393-98d0-5a5b7d032fe9/2025-04-19_11_25_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:14</itunes:duration>
-    </item>
-    <item>
-      <title>Patates de Pâques et flûte-carotte</title>
-      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit François Létourneau, Phil Roy et Mylène St-Sauveur qui doivent répondre à des questions sur&amp;nbsp;: les rails de Sam Hamad, la carotte du roi Charles, la fausse noblesse britannique, les nouvelles traditions pascales et l&amp;#x27;arrivée de Demidov avec le CH.&lt;/p&gt;</description>
-      <pubDate>Sat, 12 Apr 2025 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/33a505af-58d4-44dc-9e24-7ca4f4802b71/2025-04-12_11_38_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/33a505af-58d4-44dc-9e24-7ca4f4802b71/2025-04-12_11_38_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:14</itunes:duration>
     </item>
   </channel>

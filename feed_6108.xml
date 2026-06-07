@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg"/>
     <item>
+      <title>Le film &lt;em&gt;Backrooms&lt;/em&gt; : le nouveau visage du cinéma?</title>
+      <description>&lt;p&gt;&lt;em&gt;Backrooms&lt;/em&gt;&amp;nbsp;&lt;em&gt;: les arrière-salles&lt;/em&gt;, réalisé par Kane Parsons, un youtubeur d’à peine 20&amp;nbsp;ans, est l’un des films de l’heure. Il cartonne au box-office et pourrait même marquer un tournant dans l’univers du cinéma. Produit à peu de frais et né sur le forum de partage d’images 4chan, ce long métrage d’horreur poursuit sa lancée à Hollywood. Le journaliste Jeff Yates remonte aux sources du phénomène et se penche sur la place d’œuvres créées sur le web dans le paysage cinématographique.&lt;/p&gt;</description>
+      <pubDate>Sat, 06 Jun 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b7f26e82-2af3-4f3f-9046-39d35b084ef6/2026-06-05_16_54_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b7f26e82-2af3-4f3f-9046-39d35b084ef6/2026-06-05_16_54_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>21:53</itunes:duration>
+    </item>
+    <item>
+      <title>Le film Backrooms : le nouveau visage du cinéma?</title>
+      <description>&amp;lt;p&amp;gt;Backrooms: les arrière-salles, réalisé par Kane Parsons, un youtubeur d’à peine 20ans, est l’un des films de l’heure. Il cartonne au box-office et pourrait même marquer un tournant dans l’univers du cinéma. Produit à peu de frais et né sur le forum de partage d’images 4chan, ce long métrage d’horreur poursuit sa lancée à Hollywood. Le journaliste Jeff Yates remonte aux sources du phénomène et se penche sur la place d’œuvres créées sur le web dans le paysage cinématographique.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Sat, 06 Jun 2026 05:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/032603aa-de40-4b45-98a6-c2e43d0bd826/2026-06-06_05_00_00_casexpliquebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/032603aa-de40-4b45-98a6-c2e43d0bd826/2026-06-06_05_00_00_casexpliquebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:00</itunes:duration>
+    </item>
+    <item>
       <title>Guy Turcotte et les libérations conditionnelles&amp;nbsp;: comment ça fonctionne?</title>
       <description>&lt;p&gt;Guy Turcotte veut sortir du pénitencier, lui qui a été condamné à la prison à vie pour le meurtre en&amp;nbsp;2009 de ses deux enfants de trois et cinq ans. L’ex-cardiologue a récemment formulé cette demande à la Commission des libérations conditionnelles. Le meurtrier obtiendra-t-il ce qu’il désire? La journaliste judiciaire Isabelle Richer explique les mécanismes de ces procédures très balisées.&lt;/p&gt;</description>
       <pubDate>Thu, 04 Jun 2026 09:00:00 +0000</pubDate>
@@ -499,15 +515,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/4e72c188-89d1-4a32-a6d0-4158bf2b92e2/2026-03-10_19_03_39_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4e72c188-89d1-4a32-a6d0-4158bf2b92e2/2026-03-10_19_03_39_casexplique_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:17</itunes:duration>
-    </item>
-    <item>
-      <title>Dernier souffle : la face cachée des masques anti-crachat</title>
-      <description>&lt;p&gt;Malgré les dangers qu’ils représentent, les masques anti-crachats sont bien présents au Canada. Enfilés sur la tête de personnes détenues ou de citoyens et citoyennes dans le cadre d’opérations policières, ils seraient en cause dans au moins 17 décès. Une équipe de l’émission Enquête lève le voile sur cet outil et la zone grise qui l&amp;#x27;entoure. La journaliste Brigitte Noël explique comment cet objet mis sur le marché sans tests d’innocuité a fini par être utilisé sans réelle surveillance.
-&lt;/p&gt;</description>
-      <pubDate>Tue, 10 Mar 2026 09:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8a80a81d-2a5a-4df0-84c5-45389379b6a6/2026-03-09_14_42_51_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8a80a81d-2a5a-4df0-84c5-45389379b6a6/2026-03-09_14_42_51_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:59</itunes:duration>
     </item>
   </channel>
 </rss>
