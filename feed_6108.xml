@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg"/>
     <item>
+      <title>Coupe du monde&amp;nbsp;: un tournant pour le Canada?</title>
+      <description>&lt;p&gt;C’est aujourd’hui que la Coupe du monde de la FIFA 2026 prend son envol! C’est 48 équipes qui disputeront un total de 104 matchs dans 16 stades différents, répartis entre le Canada, le Mexique et les États-Unis. Qualifiée d’office, l’équipe canadienne en sera à une troisième participation. Quelles sont ses chances de gagner la Coupe? Le journaliste Olivier Tremblay dresse le portrait de cette sélection nationale et présente l’effet anticipé de cet événement sportif d’envergure sur la pratique du soccer au Canada.&lt;/p&gt;</description>
+      <pubDate>Thu, 11 Jun 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d4764329-8e0d-4b12-b3a2-da4987b84860/2026-06-10_17_23_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d4764329-8e0d-4b12-b3a2-da4987b84860/2026-06-10_17_23_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>20:43</itunes:duration>
+    </item>
+    <item>
       <title>Écoles défavorisées : les calculs de Québec décriés</title>
       <description>&lt;p&gt;Les écoles publiques du Québec sont en général moins défavorisées qu’il y a cinq ans&amp;nbsp;: c&amp;#x27;est ce qui ressort d’une analyse des indices de milieu socio-économique. À première vue, c’est une excellente nouvelle, mais le classement du niveau de défavorisation des écoles de la province est loin d’être parfait, jugent certains établissements. La journaliste Fannie Bussières-McNicoll explique pourquoi il suscite de plus en plus de critiques de la part de différents secteurs impliqués.&lt;/p&gt;</description>
       <pubDate>Wed, 10 Jun 2026 09:00:00 +0000</pubDate>
@@ -499,14 +507,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/829a6120-d1e3-48a9-88f0-cc6ab17533e0/2026-03-16_16_50_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/829a6120-d1e3-48a9-88f0-cc6ab17533e0/2026-03-16_16_50_00_casexplique_0000_master.m3u8?v=2</guid>
       <itunes:duration>20:27</itunes:duration>
-    </item>
-    <item>
-      <title>Détroit d’Ormuz&amp;nbsp;: une paralysie qui coûte cher</title>
-      <description>&lt;p&gt;Les principales victimes de la guerre au Moyen-Orient sont les populations civiles. Mais en marge de ses tragiques conséquences, tous les regards sont rivés sur le blocage du détroit d’Ormuz, un corridor maritime crucial pour le marché du pétrole. L’analyste Raphaël Bouvier-Auclair explore les multiples effets de la paralysie de cette artère du commerce mondial.&lt;/p&gt;</description>
-      <pubDate>Sat, 14 Mar 2026 10:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9db3fc12-0442-4769-9507-915fd44fe76b/2026-03-13_13_22_43_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9db3fc12-0442-4769-9507-915fd44fe76b/2026-03-13_13_22_43_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>13:58</itunes:duration>
     </item>
     <item>
       <title>Détroit d’Ormuz: une paralysie qui coûte cher</title>
