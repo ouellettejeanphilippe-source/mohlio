@@ -179,9 +179,38 @@ def fetch_aac_url_from_media_id(media_id):
         if not m3u8_url:
             return None, 0
 
-        # Return the master m3u8 directly. ExoPlayer on mobile (Pocket Casts) can struggle
-        # to seek if provided the variant playlist directly, but handling the master playlist
-        # allows it to properly negotiate the stream.
+        # To fix playback and seeking in ExoPlayer-based apps (like Pocket Casts),
+        # parse the master and variant m3u8 playlists to extract the direct .aac URL
+        from urllib.parse import urljoin
+
+        try:
+            m3u8_resp = session.get(m3u8_url, headers=HEADERS, timeout=10)
+            if m3u8_resp.status_code == 200:
+                lines = m3u8_resp.text.splitlines()
+                variant_url = None
+                for line in lines:
+                    if line and not line.startswith('#'):
+                        variant_url = line
+                        break
+
+                if variant_url:
+                    full_variant_url = urljoin(m3u8_url, variant_url)
+                    var_resp = session.get(full_variant_url, headers=HEADERS, timeout=10)
+                    if var_resp.status_code == 200:
+                        var_lines = var_resp.text.splitlines()
+                        for line in var_lines:
+                            if line and not line.startswith('#'):
+                                # Only return if it's a direct .aac or .mp3 file.
+                                # If it's a .ts file or chunked, fallback to the original m3u8.
+                                if line.lower().endswith('.aac') or line.lower().endswith('.mp3'):
+                                    aac_url = urljoin(full_variant_url, line)
+                                    return aac_url, 0
+                                else:
+                                    break # Not a single file stream, fallback to master
+        except Exception as parse_e:
+            print(f"Error parsing m3u8 for media {media_id}: {parse_e}")
+
+        # Fallback to the master m3u8 if parsing fails
         return m3u8_url, 0
     except Exception as e:
         print(f"Error fetching media {media_id}: {e}")
@@ -279,7 +308,7 @@ def fetch_all_media_from_page(show_id):
                 "enclosure": {
                     "url": aac_url,
                     "length": size,
-                    "type": "audio/mp4"
+                    "type": "audio/mpeg"
                 },
                 "_media_id": media_id
             }
@@ -359,19 +388,33 @@ def fetch_show_rss_data(show_id):
 
     # Combine items uniquely
     all_items = []
-    seen_urls = set()
+    seen_titles = set()
 
-    # Process page items first as they might be more accurate or have extra clips
+    def normalize_title(t):
+        if not t:
+            return ""
+        # Remove HTML tags, convert to lowercase, strip whitespace
+        t = re.sub(r'<[^>]+>', '', t)
+        return t.lower().strip()
+
+    # Process page items first as they are more up to date and might have extra clips
     for item in page_items:
+        title = item.get("title", "")
+        norm_title = normalize_title(title)
+
+        # Still make sure we have a valid URL
         url = item.get("enclosure", {}).get("url")
-        if url and url not in seen_urls:
-            seen_urls.add(url)
+        if url and norm_title not in seen_titles:
+            seen_titles.add(norm_title)
             all_items.append(item)
 
     for item in graphql_items:
+        title = item.get("title", "")
+        norm_title = normalize_title(title)
+
         url = item.get("enclosure", {}).get("url")
-        if url and url not in seen_urls:
-            seen_urls.add(url)
+        if url and norm_title not in seen_titles:
+            seen_titles.add(norm_title)
             all_items.append(item)
 
     if not all_items:
