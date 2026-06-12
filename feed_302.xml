@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Dernier sprint législatif à Québec</title>
+      <description>&amp;lt;p&amp;gt;C'est la fin des travaux à Québec. Le gouvernement a adopté des lois majeures, dont la loi Gabie Renaud sur la violence conjugale et l'interdiction des boissons énergisantes aux moins de 16 ans. Le projet de constitution est toutefois abandonné et le déficit de la province fond à 7,2 milliards.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Fri, 12 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/c3f572b7-a5ff-4369-9050-a2128eb3b7e6/2026-06-12_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/c3f572b7-a5ff-4369-9050-a2128eb3b7e6/2026-06-12_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
+    <item>
       <title>Ottawa veut protéger les jeunes en ligne</title>
       <description>&amp;lt;p&amp;gt;Ottawa propose le projet de loi C-34 pour interdire l'accès aux réseaux sociaux aux jeunes de moins de 16 ans. Ce texte vise à protéger la jeunesse, mais l'exemple australien soulève des doutes sur son application. S'il est adopté, le projet encadrera aussi l'intelligence artificielle au lieu de l'interdire.&amp;lt;/p&amp;gt;</description>
       <pubDate>Thu, 11 Jun 2026 05:06:00 -0400</pubDate>
@@ -2801,14 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/08f3bf02-5982-4550-aa16-33f05736bf72/2024-11-01_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/08f3bf02-5982-4550-aa16-33f05736bf72/2024-11-01_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Kamala Harris doit prendre ses distances avec Joe Biden</title>
-      <description>&amp;lt;p&amp;gt;Le président Biden a mis Kamala Harris dans l’embarras en qualifiant les partisans de Donald Trump d'ordures. Joe Biden réagissait aux propos d'un humoriste qui avait traité Porto Rico d'ile flottante de déchets. Le président a tenté de rectifier le tir, mais le mal est fait et Donald Trump ne s’est pas fait prier pour récupérer la bourde du président Biden.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 31 Oct 2024 05:06:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/fa5fb020-cc67-46cd-ab94-3f7682a44803/2024-10-31_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/fa5fb020-cc67-46cd-ab94-3f7682a44803/2024-10-31_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:20:13</itunes:duration>
     </item>
   </channel>
 </rss>

@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Le départ de «&amp;nbsp;DooM&amp;nbsp;» Dumas de Radio X, et le vol d’une distributrice d’arachides</title>
+      <description/>
+      <pubDate>Fri, 12 Jun 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/05cffdbc-c5a1-4843-8079-6edfa062dbe8/2026-06-12_08_48_00_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/05cffdbc-c5a1-4843-8079-6edfa062dbe8/2026-06-12_08_48_00_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
+      <itunes:duration>23:14</itunes:duration>
+    </item>
+    <item>
       <title>De fausses scènes de crime générées par IA, et un vol de tondeuse en quadriporteur</title>
       <description/>
       <pubDate>Thu, 11 Jun 2026 13:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/0d8e727f-fabd-4c1c-afa6-aee33e68bd95/2026-04-02_07_35_28_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0d8e727f-fabd-4c1c-afa6-aee33e68bd95/2026-04-02_07_35_28_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
       <itunes:duration>22:30</itunes:duration>
-    </item>
-    <item>
-      <title>La fécondité altérée par les aliments ultra-transformés, et un journaliste bannie par les Canucks</title>
-      <description/>
-      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/26a6cd58-f67e-41b9-a5d5-6888033b64ff/2026-04-01_07_48_11_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/26a6cd58-f67e-41b9-a5d5-6888033b64ff/2026-04-01_07_48_11_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
-      <itunes:duration>24:20</itunes:duration>
     </item>
   </channel>
 </rss>
