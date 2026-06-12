@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>De fausses scènes de crime générées par IA, et un vol de tondeuse en quadriporteur</title>
+      <description/>
+      <pubDate>Thu, 11 Jun 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/71b91a54-d1ca-43f1-9a52-b688ad65dd8a/2026-06-11_08_45_11_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/71b91a54-d1ca-43f1-9a52-b688ad65dd8a/2026-06-11_08_45_11_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
+      <itunes:duration>19:50</itunes:duration>
+    </item>
+    <item>
       <title>Le TGV Québec-Toronto selon le PQ, et des serpents à la Coupe du monde de soccer</title>
       <description/>
       <pubDate>Wed, 10 Jun 2026 12:30:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/26a6cd58-f67e-41b9-a5d5-6888033b64ff/2026-04-01_07_48_11_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/26a6cd58-f67e-41b9-a5d5-6888033b64ff/2026-04-01_07_48_11_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
       <itunes:duration>24:20</itunes:duration>
-    </item>
-    <item>
-      <title>La science derrière Mike chez Rona, et le nouveau masque à saveur québécoise de Jacob Fowler</title>
-      <description/>
-      <pubDate>Tue, 31 Mar 2026 12:25:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e81c2d03-292e-4c97-9c07-425705a5eee5/2026-03-31_08_08_46_olivierniquet247enjaquetteohdio_0000_128.aac" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e81c2d03-292e-4c97-9c07-425705a5eee5/2026-03-31_08_08_46_olivierniquet247enjaquetteohdio_0000_128.aac?v=2</guid>
-      <itunes:duration>24:33</itunes:duration>
     </item>
   </channel>
 </rss>

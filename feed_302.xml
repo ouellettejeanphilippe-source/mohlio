@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Ottawa veut protéger les jeunes en ligne</title>
+      <description>&amp;lt;p&amp;gt;Ottawa propose le projet de loi C-34 pour interdire l'accès aux réseaux sociaux aux jeunes de moins de 16 ans. Ce texte vise à protéger la jeunesse, mais l'exemple australien soulève des doutes sur son application. S'il est adopté, le projet encadrera aussi l'intelligence artificielle au lieu de l'interdire.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Thu, 11 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d0a1f962-5ddb-4013-b579-648c58f9d039/2026-06-11_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d0a1f962-5ddb-4013-b579-648c58f9d039/2026-06-11_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
       <title>Escalade militaire au Moyen-Orient</title>
       <description>&amp;lt;p&amp;gt;La tension culmine au Moyen-Orient après des frappes américaines en Iran ordonnées par Donald Trump. En riposte, Téhéran a bombardé des bases militaires américaines. Alors que cette dangereuse escalade fragilise la diplomatie, la Chine et la Russie réclament un retour au calme.&amp;lt;/p&amp;gt;</description>
       <pubDate>Wed, 10 Jun 2026 05:06:00 -0400</pubDate>
@@ -2801,14 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/fa5fb020-cc67-46cd-ab94-3f7682a44803/2024-10-31_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/fa5fb020-cc67-46cd-ab94-3f7682a44803/2024-10-31_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:20:13</itunes:duration>
-    </item>
-    <item>
-      <title>Discours de Harris à Washington</title>
-      <description>&amp;lt;p&amp;gt;Kamala Harris a livré à Washington, hier soir, l'ultime plaidoyer de sa campagne pour gagner le vote des Américains et mobiliser les troupes démocrates.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Wed, 30 Oct 2024 05:06:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4fb368c8-66e0-4bdc-b943-52cbaed7f278/2024-10-30_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/4fb368c8-66e0-4bdc-b943-52cbaed7f278/2024-10-30_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
 </rss>
