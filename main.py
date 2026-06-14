@@ -179,38 +179,6 @@ def fetch_aac_url_from_media_id(media_id):
         if not m3u8_url:
             return None, 0
 
-        # To fix playback and seeking in ExoPlayer-based apps (like Pocket Casts),
-        # parse the master and variant m3u8 playlists to extract the direct .aac URL
-        from urllib.parse import urljoin
-
-        try:
-            m3u8_resp = session.get(m3u8_url, headers=HEADERS, timeout=10)
-            if m3u8_resp.status_code == 200:
-                lines = m3u8_resp.text.splitlines()
-                variant_url = None
-                for line in lines:
-                    if line and not line.startswith('#'):
-                        variant_url = line
-                        break
-
-                if variant_url:
-                    full_variant_url = urljoin(m3u8_url, variant_url)
-                    var_resp = session.get(full_variant_url, headers=HEADERS, timeout=10)
-                    if var_resp.status_code == 200:
-                        var_lines = var_resp.text.splitlines()
-                        for line in var_lines:
-                            if line and not line.startswith('#'):
-                                # Only return if it's a direct .aac or .mp3 file.
-                                # If it's a .ts file or chunked, fallback to the original m3u8.
-                                if line.lower().endswith('.aac') or line.lower().endswith('.mp3'):
-                                    aac_url = urljoin(full_variant_url, line)
-                                    return aac_url, 0
-                                else:
-                                    break # Not a single file stream, fallback to master
-        except Exception as parse_e:
-            print(f"Error parsing m3u8 for media {media_id}: {parse_e}")
-
-        # Fallback to the master m3u8 if parsing fails
         return m3u8_url, 0
     except Exception as e:
         print(f"Error fetching media {media_id}: {e}")
