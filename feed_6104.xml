@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/tellement-hockey-balado-premier.jpg"/>
     <item>
+      <title>Les Hurricanes sont-ils un modèle à suivre?</title>
+      <description>&lt;p&gt;Défaits seulement trois fois durant les séries, épargnés par les blessures et favorisés par une stratégie redoutable, les Hurricanes de la Caroline ont amplement mérité leur titre de champions de la Coupe Stanley. On se demande maintenant si leur style sera imité par les futurs aspirants aux grands honneurs. Peut-on appliquer la recette à toutes les équipes?&lt;/p&gt;&lt;p&gt;De son côté, le Canadien est à la recherche d&amp;#x27;un entraîneur-chef pour son club-école de Laval. On évalue quels seraient les candidats intéressants compte tenu des compétences nécessaires à ce poste.&lt;/p&gt;</description>
+      <pubDate>Tue, 16 Jun 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/19880700-dc92-404d-baa8-3cc1936f20cc/2026-06-16_15_45_58_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/19880700-dc92-404d-baa8-3cc1936f20cc/2026-06-16_15_45_58_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>50:17</itunes:duration>
+    </item>
+    <item>
       <title>Qui changera d’adresse?</title>
       <description>&lt;p&gt;Les joueurs qui bénéficient de clauses de non-mouvement sont de plus en plus nombreux à exiger des échanges. Est-ce un phénomène nouveau? Et comme ils cherchent souvent des endroits ensoleillés où les impôts sont moins élevés, est-ce que les équipes canadiennes en souffrent? &lt;/p&gt;&lt;p&gt;Du côté du Canadien, certains sont voués à changer d&amp;#x27;adresse, et la direction devra prendre des décisions concernant d&amp;#x27;autres membres de l&amp;#x27;équipe, dont Kirby Dach. &lt;/p&gt;&lt;p&gt;Et la finale de la Coupe Stanley offre du hockey enlevant, où certains bons joueurs deviennent des vedettes.&lt;/p&gt;</description>
       <pubDate>Fri, 12 Jun 2026 20:00:00 +0000</pubDate>
@@ -409,14 +417,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/36827b61-0d1d-4a0a-afd2-424441e9ba1c/2026-02-11_20_05_39_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/36827b61-0d1d-4a0a-afd2-424441e9ba1c/2026-02-11_20_05_39_tellementhockey_0000_master.m3u8?v=2</guid>
       <itunes:duration>47:47</itunes:duration>
-    </item>
-    <item>
-      <title>Le déclin de l’empire canadien</title>
-      <description>&lt;p&gt;En battant sèchement les Canadiennes, les Américaines ont passé un message fort. Elles forment nettement l&amp;#x27;équipe à battre dans ce tournoi. &lt;/p&gt;&lt;p&gt;Sans Marie-Philip Poulin, la sélection canadienne pourra-t-elle trouver des solutions? La formation nationale reverra-t-elle sa capitaine?Le tournoi masculin commence mercredi, notamment avec un choc entre la Slovaquie et la Finlande. Il faudra attendre à jeudi pour l&amp;#x27;entrée en scène du Canada contre la Tchéquie.&lt;/p&gt;</description>
-      <pubDate>Wed, 11 Feb 2026 01:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/59d55d6d-4185-4b7a-9bc2-7e9af80182ee/2026-02-10_19_53_13_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/59d55d6d-4185-4b7a-9bc2-7e9af80182ee/2026-02-10_19_53_13_tellementhockey_0000_master.m3u8?v=2</guid>
-      <itunes:duration>41:22</itunes:duration>
     </item>
   </channel>
 </rss>
