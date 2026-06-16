@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Nouveaux mots interdits à l’Assemblée nationale, et colonie de macaques à l’Université Laval</title>
+      <description/>
+      <pubDate>Tue, 16 Jun 2026 12:50:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/93c9b2de-10de-4923-aa2e-67d966785c13/2026-06-16_08_35_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/93c9b2de-10de-4923-aa2e-67d966785c13/2026-06-16_08_35_49_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>22:00</itunes:duration>
+    </item>
+    <item>
+      <title>Des nouvelles de Jean Leloup, et un kangourou en cavale à Boucherville</title>
+      <description/>
+      <pubDate>Mon, 15 Jun 2026 12:55:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5d4cfef4-b2bc-4eaa-8961-8a5d339242eb/2026-06-15_08_34_34_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5d4cfef4-b2bc-4eaa-8961-8a5d339242eb/2026-06-15_08_34_34_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>26:44</itunes:duration>
+    </item>
+    <item>
       <title>Le départ de «&amp;nbsp;DooM&amp;nbsp;» Dumas de Radio X, et le vol d’une distributrice d’arachides</title>
       <description/>
       <pubDate>Fri, 12 Jun 2026 13:00:00 +0000</pubDate>
@@ -393,22 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/eff9afd5-2ba3-443f-9340-27d3d00a0089/2026-04-07_07_50_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/eff9afd5-2ba3-443f-9340-27d3d00a0089/2026-04-07_07_50_58_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>26:49</itunes:duration>
-    </item>
-    <item>
-      <title>L’augmentation de la dépendance aux paris en ligne, et la coloscopie de Richard Martineau</title>
-      <description/>
-      <pubDate>Mon, 06 Apr 2026 12:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/60de4a87-a92b-4e65-9c11-8fdefb255309/2026-04-06_07_48_31_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/60de4a87-a92b-4e65-9c11-8fdefb255309/2026-04-06_07_48_31_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>27:03</itunes:duration>
-    </item>
-    <item>
-      <title>Un nouveau contrat pour GardaWorld avec l’ICE, et l’entraînement de robots domestiques</title>
-      <description/>
-      <pubDate>Thu, 02 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0d8e727f-fabd-4c1c-afa6-aee33e68bd95/2026-04-02_07_35_28_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0d8e727f-fabd-4c1c-afa6-aee33e68bd95/2026-04-02_07_35_28_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:30</itunes:duration>
     </item>
   </channel>
 </rss>

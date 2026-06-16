@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Colère à Montréal-Nord contre le SPVM</title>
+      <description>&amp;lt;p&amp;gt;À Montréal-Nord, des centaines de citoyens ont dénoncé le racisme au SPVM. Outre deux policiers suspendus, 14 autres agents ont été mutés et réaffectés à des tâches loin du public pour la durée de l'enquête. Devant ces actes haineux allégués, Québec nommera un observateur, mais l'opposition et la mairesse réclament une enquête publique.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Tue, 16 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/ce72bae6-8d26-4218-9c7e-98ffc12bf737/2026-06-16_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/ce72bae6-8d26-4218-9c7e-98ffc12bf737/2026-06-16_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
+      <title>Accord de trêve entre les USA et l'Iran</title>
+      <description>&amp;lt;p&amp;gt;Après trois mois de guerre, Washington et Téhéran concluent un protocole d'entente mettant fin aux hostilités. L'accord permet la réouverture du détroit d'Ormuz et fait chuter le prix du pétrole. Les deux pays entament de complexes négociations sur le nucléaire, un dossier qui dominera le sommet du G7.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Mon, 15 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/586b149f-3b5c-45e8-a43e-db137d569621/2026-06-15_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/586b149f-3b5c-45e8-a43e-db137d569621/2026-06-15_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
       <title>Dernier sprint législatif à Québec</title>
       <description>&amp;lt;p&amp;gt;C'est la fin des travaux à Québec. Le gouvernement a adopté des lois majeures, dont la loi Gabie Renaud sur la violence conjugale et l'interdiction des boissons énergisantes aux moins de 16 ans. Le projet de constitution est toutefois abandonné et le déficit de la province fond à 7,2 milliards.&amp;lt;/p&amp;gt;</description>
       <pubDate>Fri, 12 Jun 2026 05:06:00 -0400</pubDate>
@@ -2793,22 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/e76e47b7-30fa-4f48-bc0b-e6cc15367053/2024-11-05_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/e76e47b7-30fa-4f48-bc0b-e6cc15367053/2024-11-05_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:56</itunes:duration>
-    </item>
-    <item>
-      <title>À la veille du vote aux États-Unis</title>
-      <description>&amp;lt;p&amp;gt;C’est le dernier jour de la campagne présidentielle aux États-Unis, les Américains semblent toujours aussi divisés. Les candidats ont concentré tous leurs efforts dans une poignée d'États-clés cette fin de semaine.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Mon, 04 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/0bf8dddc-164e-4872-ba87-f929c2f6e958/2024-11-04_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/0bf8dddc-164e-4872-ba87-f929c2f6e958/2024-11-04_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Soldats nord-coréens en Ukraine</title>
-      <description>&amp;lt;p&amp;gt;Des milliers de soldats nord-coréens débarquent en Russie. Le secrétaire d’État américain, Antony Blinken, a confirmé les faits lors d’une rencontre à Washington avec le ministre des affaires étrangères de la Corée du Sud.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Fri, 01 Nov 2024 05:06:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/08f3bf02-5982-4550-aa16-33f05736bf72/2024-11-01_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/08f3bf02-5982-4550-aa16-33f05736bf72/2024-11-01_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
 </rss>

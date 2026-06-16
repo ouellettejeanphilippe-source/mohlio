@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg"/>
     <item>
+      <title>TGV Québec-Toronto : cette fois-ci sera-t-elle la bonne?</title>
+      <description>&lt;p&gt;Le transport par train au Canada est à des années-lumière de ce qui s’observe en Europe ou en Asie. Mais voilà qu’après des décennies de tergiversations, un train à grande vitesse pourrait bel et bien voir le jour prochainement. Il s’agit du projet de TGV Alto reliant Québec à Toronto avec une vitesse de pointe de 300 km/h. Le gouvernement fédéral, qui pilote le dossier, exerce beaucoup de pression pour qu&amp;#x27;il se matérialise. Même si un vent d’enthousiasme l’accompagne, la résistance s’organise. L’expert en planification du transport Pierre Barrieau explique la portée de ce projet et évalue ses chances de réussite.&lt;/p&gt;</description>
+      <pubDate>Tue, 16 Jun 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dad31d7a-1872-401d-93ba-e04785d1ae54/2026-06-15_17_32_55_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dad31d7a-1872-401d-93ba-e04785d1ae54/2026-06-15_17_32_55_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>27:26</itunes:duration>
+    </item>
+    <item>
       <title>Vers un plafonnement de la population en Suisse?</title>
       <description>&lt;p&gt;Plafonner la population de la Suisse à 10 millions&amp;nbsp;: c’est l’idée qui fera l’objet d’un référendum prévu ce dimanche dans le pays alpin. En toile de fond, une immigration en hausse et un parti politique qui y voit la cause de tous les maux qui affligent la nation montagneuse d’Europe centrale. Peu importe l’issue de ce vote, ses effets risquent de se faire sentir à plus long terme au sein des mouvances politiques européennes. Le correspondant Frédéric Arnould explore les ramifications de cette initiative, suivie de très près dans l’ensemble du Vieux Continent.&lt;/p&gt;</description>
       <pubDate>Sat, 13 Jun 2026 10:00:00 +0000</pubDate>
@@ -459,14 +467,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/ef169ad3-96d0-4fc8-86ae-031cb2b4cb3f/2026-03-21_05_00_00_casexpliquebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/ef169ad3-96d0-4fc8-86ae-031cb2b4cb3f/2026-03-21_05_00_00_casexpliquebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:20:35</itunes:duration>
-    </item>
-    <item>
-      <title>Crimes et santé mentale : la pression monte pour un resserrement des lois</title>
-      <description>&lt;p&gt;Chong Woo Kim a été assassiné froidement jeudi dernier dans un dépanneur du Plateau-Mont-Royal. Le profil du tueur présumé a beaucoup fait réagir&amp;nbsp;: Xavier Gellatly, 35&amp;nbsp;ans, a un lourd passé criminel, et plusieurs drapeaux rouges ont été soulevés au fil du temps, notamment en ce qui a trait au risque de récidive. Malgré tous les signaux inquiétants liés à sa santé mentale et à son passé violent, il était libre comme l’air au moment où il aurait subitement poignardé à mort un citoyen sans histoire. L’animatrice et analyste de l’actualité judiciaire Isabelle Richer explore les façons de mieux prévenir les actes violents perpétrés par des individus dont l’état mental représente un danger pour la société.&lt;/p&gt;</description>
-      <pubDate>Wed, 18 Mar 2026 09:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fffa2186-1c37-4e94-a51b-bc5a68b3e6c4/2026-03-17_17_54_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fffa2186-1c37-4e94-a51b-bc5a68b3e6c4/2026-03-17_17_54_00_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:52</itunes:duration>
     </item>
   </channel>
 </rss>
