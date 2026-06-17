@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Mark Carney est au G7 à Évian en France</title>
+      <description>&amp;lt;p&amp;gt;À deux jours de la signature officielle de l'entente conclue entre Washington et Téhéran pour un nouveau cessez-le-feu de soixante jours, le premier ministre Mark Carney se dit très satisfait de l'accord. &amp;lt;/p&amp;gt;</description>
+      <pubDate>Wed, 17 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2c1ced7b-43fb-4004-9968-913650475273/2026-06-17_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2c1ced7b-43fb-4004-9968-913650475273/2026-06-17_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Colère à Montréal-Nord contre le SPVM</title>
       <description>&amp;lt;p&amp;gt;À Montréal-Nord, des centaines de citoyens ont dénoncé le racisme au SPVM. Outre deux policiers suspendus, 14 autres agents ont été mutés et réaffectés à des tâches loin du public pour la durée de l'enquête. Devant ces actes haineux allégués, Québec nommera un observateur, mais l'opposition et la mairesse réclament une enquête publique.&amp;lt;/p&amp;gt;</description>
       <pubDate>Tue, 16 Jun 2026 05:06:00 -0400</pubDate>
@@ -2801,14 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2783d743-3f03-4308-8690-7904adfa98ef/2024-11-06_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2783d743-3f03-4308-8690-7904adfa98ef/2024-11-06_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Des élections historiques aux États-Unis</title>
-      <description>&amp;lt;p&amp;gt;Jour d’élections aux États-Unis. La campagne est officiellement terminée, c’est maintenant aux Américains de choisir qui sera leur prochain président. Il s’agit de l’une des courses à la présidence des plus serrées de l’histoire de ce pays&amp;lt;/p&amp;gt;</description>
-      <pubDate>Tue, 05 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/e76e47b7-30fa-4f48-bc0b-e6cc15367053/2024-11-05_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/e76e47b7-30fa-4f48-bc0b-e6cc15367053/2024-11-05_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:56</itunes:duration>
     </item>
   </channel>
 </rss>
