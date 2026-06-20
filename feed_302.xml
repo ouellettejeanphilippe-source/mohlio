@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Report des pourparlers USA-Iran</title>
+      <description>&amp;lt;p&amp;gt;Le début des pourparlers de paix de 60 jours entre les États-Unis et l'Iran en Suisse est reporté au matin même des discussions. J.D. Vance évoque des détails logistiques à finaliser. En parallèle, la poursuite de frappes meurtrières au Liban viole le protocole d'accord initial et fragilise grandement l'ouverture de ce dialogue.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Fri, 19 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/0f559cb9-604d-4e9c-813b-ad9d98676691/2026-06-19_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/0f559cb9-604d-4e9c-813b-ad9d98676691/2026-06-19_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
+      <title>Trump et l'Iran signent un accord</title>
+      <description>&amp;lt;p&amp;gt;Donald Trump et Massoud Pezeshkian ont paraphé plus tôt que prévu un accord préliminaire visant la fin des hostilités et la réouverture du détroit d'Ormuz. Des négociations sur le nucléaire suivront. En marge du G7, le président américain a également jeté le flou sur l'avenir de l'accord commercial ACEUM avec le Canada et le Mexique. &amp;lt;/p&amp;gt;</description>
+      <pubDate>Thu, 18 Jun 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/761827ec-eaeb-4acf-a2e2-2eea7e8cb1a6/2026-06-18_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/761827ec-eaeb-4acf-a2e2-2eea7e8cb1a6/2026-06-18_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Mark Carney est au G7 à Évian en France</title>
       <description>&amp;lt;p&amp;gt;À deux jours de la signature officielle de l'entente conclue entre Washington et Téhéran pour un nouveau cessez-le-feu de soixante jours, le premier ministre Mark Carney se dit très satisfait de l'accord. &amp;lt;/p&amp;gt;</description>
       <pubDate>Wed, 17 Jun 2026 05:06:00 -0400</pubDate>
@@ -2793,22 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/6bb3ad4c-4995-4802-85a6-0645ea9d56a5/2024-11-08_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/6bb3ad4c-4995-4802-85a6-0645ea9d56a5/2024-11-08_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Réactions européennes à l'élection américaine</title>
-      <description>&amp;lt;p&amp;gt;C’était un lendemain de veille très difficile pour les démocrates. Tout indique que les républicains sortiront de ces élections avec en poche le contrôle de la Maison-Blanche, le contrôle du Sénat et de la Chambre des représentants. Du côté de l'Union européenne, les 27 chefs d'états et de gouvernement sont réunis aujourd'hui à Budapest, en Hongrie, et l'élection présidentielle américaine sera certainement le principal sujet de discussions.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 07 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/68bfd9c3-379f-4216-95b3-5803b888feac/2024-11-07_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/68bfd9c3-379f-4216-95b3-5803b888feac/2024-11-07_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:56</itunes:duration>
-    </item>
-    <item>
-      <title>Donald Trump de retour</title>
-      <description>&amp;lt;p&amp;gt;Les électeurs américains ont fait leur choix. Les résultats ne sont pas encore officiels, mais tout indique que Donald Trump sera le prochain président des États-Unis. &amp;lt;/p&amp;gt;</description>
-      <pubDate>Wed, 06 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2783d743-3f03-4308-8690-7904adfa98ef/2024-11-06_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2783d743-3f03-4308-8690-7904adfa98ef/2024-11-06_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
 </rss>

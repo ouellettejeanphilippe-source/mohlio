@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/les-decrypteurs-nouveau-visuel-balado-ohdio-moteur.jpg"/>
     <item>
+      <title>Drones 100&amp;nbsp;% autonomes&amp;nbsp;: les premiers assassinats confirmés</title>
+      <description>&lt;p&gt;Des drones létaux complètement autonomes déployés en Ukraine et des milliers de bombardements en Iran guidés par l’IA; l’adoption accélérée d’une version amendée du projet de loi C-22; les dénouements de la saga Mythos aux États-Unis; des exemples troublants de campagnes d’ingérence étrangère menées en France et au Royaume-Uni; et une alerte à la fraude en marge de la Coupe du monde de soccer.&lt;/p&gt;</description>
+      <pubDate>Fri, 19 Jun 2026 16:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/52d88e2a-ae96-43ca-87d5-53762cf82f08/2026-06-19_16_06_37_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/52d88e2a-ae96-43ca-87d5-53762cf82f08/2026-06-19_16_06_37_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:04:50</itunes:duration>
+    </item>
+    <item>
       <title>Projet de loi sur les réseaux sociaux : ce qu’il faut savoir</title>
       <description>&lt;p&gt;Comment se déploiera le projet de loi C-34, qui vise l’interdiction des réseaux sociaux pour les moins de 16 ans; Anthropic dévoile une version grand public de Mythos, son puissant modèle d’IA; SpaceX entre en bourse, et la fortune d’Elon Musk est propulsée dans la stratosphère; on envisage la fin imminente de l’ère des robots conversationnels; et on fait un bref portrait de Cohere, l’entreprise torontoise censée incarner le visage canadien de l’IA.&lt;/p&gt;</description>
       <pubDate>Fri, 12 Jun 2026 15:50:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/a2740e5c-3999-4ece-bb47-7682941a3d23/2025-04-04_11_40_04_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a2740e5c-3999-4ece-bb47-7682941a3d23/2025-04-04_11_40_04_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>39:16</itunes:duration>
-    </item>
-    <item>
-      <title>La pseudoscience en action avec une «&amp;nbsp;ville cachée&amp;nbsp;» sous une pyramide, et la désinformation propulsée par l’IA à saveur électorale</title>
-      <description>&lt;p&gt;Au programme cette semaine : anatomie de la prétendue «&amp;nbsp;découverte&amp;nbsp;» d’une ville souterraine sous le plateau de Gizeh, en Égypte, une autre preuve du potentiel hautement viral de la pseudoscience; un site web consacré au chef conservateur Pierre Poilievre démontre (encore) à quel point l’intelligence artificielle pollue le web; et une mise à jour d’OpenAi déclenche une frénésie «&amp;nbsp;Studio Ghibli&amp;nbsp;».&lt;/p&gt;</description>
-      <pubDate>Fri, 28 Mar 2025 15:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3b34ef4-4b95-424d-8110-84f176050001/2025-03-28_11_13_49_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c3b34ef4-4b95-424d-8110-84f176050001/2025-03-28_11_13_49_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>42:26</itunes:duration>
     </item>
   </channel>
 </rss>

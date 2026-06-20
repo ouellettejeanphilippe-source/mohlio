@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/tellement-hockey-balado-premier.jpg"/>
     <item>
+      <title>Ça bouge dans la LNH</title>
+      <description>&lt;p&gt;La Coupe Stanley a été attribuée il y a quelques jours, mais les équipes de la LNH travaillent déjà sur le futur. Les Maple Leafs font le pari de Darren Raddysh, d&amp;#x27;autres joueurs pourraient bouger.&lt;/p&gt;&lt;p&gt;Et après la fin de l&amp;#x27;enquête de la LNH, Mike Babcock est en voie de revenir dans le circuit Bettman, à Edmonton. Quelle est l&amp;#x27;idée derrière cette embauche? Et les Oilers pourraient-ils être candidats pour acquérir Samuel Montembeault? Ou Montembeault pourrait-il rester à Montréal?&lt;/p&gt;&lt;p&gt;Et après plus de 70 ans, c&amp;#x27;est la fin de Hockey Night in Canada à CBC. La LNH a-t-elle intérêt à garder ses matchs hors des télés généralistes?&lt;/p&gt;</description>
+      <pubDate>Fri, 19 Jun 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dfaa4e73-5b96-4ae7-b393-c6c064f9e81d/2026-06-19_15_02_23_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dfaa4e73-5b96-4ae7-b393-c6c064f9e81d/2026-06-19_15_02_23_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:09:37</itunes:duration>
+    </item>
+    <item>
       <title>Les Hurricanes sont-ils un modèle à suivre?</title>
       <description>&lt;p&gt;Défaits seulement trois fois durant les séries, épargnés par les blessures et favorisés par une stratégie redoutable, les Hurricanes de la Caroline ont amplement mérité leur titre de champions de la Coupe Stanley. On se demande maintenant si leur style sera imité par les futurs aspirants aux grands honneurs. Peut-on appliquer la recette à toutes les équipes?&lt;/p&gt;&lt;p&gt;De son côté, le Canadien est à la recherche d&amp;#x27;un entraîneur-chef pour son club-école de Laval. On évalue quels seraient les candidats intéressants compte tenu des compétences nécessaires à ce poste.&lt;/p&gt;</description>
       <pubDate>Tue, 16 Jun 2026 20:00:00 +0000</pubDate>
@@ -409,14 +417,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/ef9fa107-5bab-484b-9f51-1622e944de24/2026-02-12_20_32_01_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ef9fa107-5bab-484b-9f51-1622e944de24/2026-02-12_20_32_01_tellementhockey_0000_master.m3u8?v=2</guid>
       <itunes:duration>42:10</itunes:duration>
-    </item>
-    <item>
-      <title>Juraj Slafkovsky étincelant</title>
-      <description>&lt;p&gt;Le jeune Juraj Slafkovsky a commencé le tournoi avec force. Il a pris en main l&amp;#x27;attaque de la Slovaquie dans une première victoire convaincante contre la Finlande.&lt;/p&gt;&lt;p&gt;Le Canada entre en scène jeudi et l’on a pu voir certains ajustements dans la formation lors de l&amp;#x27;entraînement de mercredi. Aussi, dans une rencontre avec les médias, le directeur général de la formation canadienne a tenté d&amp;#x27;esquiver les questions entourant le logement des Canadiens.&lt;/p&gt;&lt;p&gt;Les autres équipes masculines préparent aussi leur entrée, dont la Tchéquie, qui pourrait être la formation surprise du tournoi.&lt;/p&gt;</description>
-      <pubDate>Thu, 12 Feb 2026 01:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/36827b61-0d1d-4a0a-afd2-424441e9ba1c/2026-02-11_20_05_39_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/36827b61-0d1d-4a0a-afd2-424441e9ba1c/2026-02-11_20_05_39_tellementhockey_0000_master.m3u8?v=2</guid>
-      <itunes:duration>47:47</itunes:duration>
     </item>
   </channel>
 </rss>
