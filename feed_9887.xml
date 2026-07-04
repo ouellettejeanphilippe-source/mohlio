@@ -418,13 +418,5 @@
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7c8d3ebe-c15e-4341-90b7-6d7a79aba7e3/2026-04-08_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
-    <item>
-      <title>Jeudi 2 avr. 2026 : Jean-Sébastien Girard, Pierre Brassard, Nathalie Petrowski et Gaétan Pouliot</title>
-      <description>&amp;lt;p&amp;gt;Jean-Sébastien Girard révèle quelques nouveautés de Bonsoir, bonsoir! Gaétan Pouliot parle de sirop d’érable falsifié. Pierre Brassard nous emmène dans les coulisses du party des Olivier. Et Nathalie Petrowski nous dit si elle ira voir Céline à Paris.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 02 Apr 2026 14:25:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/ff374213-f57c-40bb-b038-00053c1906e0/2026-04-02_14_25_00_journeeestencorejeunebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/ff374213-f57c-40bb-b038-00053c1906e0/2026-04-02_14_25_00_journeeestencorejeunebalado_0000.mp3?v=2</guid>
-      <itunes:duration>00:29:29</itunes:duration>
-    </item>
   </channel>
 </rss>
