@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Un premier restaurant Ashton à Montréal, et de nouveaux virus créés par l’IA</title>
+      <description/>
+      <pubDate>Mon, 10 Aug 2026 12:25:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/11cfcbed-498a-47a5-bbfc-ffd05407cc57/2026-08-10_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/11cfcbed-498a-47a5-bbfc-ffd05407cc57/2026-08-10_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>29:13</itunes:duration>
+    </item>
+    <item>
       <title>Les noms de retraités les plus populaires, et la tendance du &lt;em&gt;spermmaxxing&lt;/em&gt;</title>
       <description/>
       <pubDate>Fri, 19 Jun 2026 13:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/52845903-c0d5-4917-b3eb-c067f83638e6/2026-04-13_07_51_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/52845903-c0d5-4917-b3eb-c067f83638e6/2026-04-13_07_51_01_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>27:33</itunes:duration>
-    </item>
-    <item>
-      <title>Rebel News jugé comme n’étant pas un média d’information, et des films projetés en accéléré</title>
-      <description/>
-      <pubDate>Fri, 10 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b786274-e8d9-4eee-a29d-0c31147bafe0/2026-04-10_07_44_53_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9b786274-e8d9-4eee-a29d-0c31147bafe0/2026-04-10_07_44_53_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:13</itunes:duration>
     </item>
   </channel>
 </rss>
