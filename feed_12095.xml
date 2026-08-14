@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Rolex poursuit l’influenceur Medusa, et Marwah Rizqy arrive à QUB radio</title>
+      <description/>
+      <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/44057398-2106-4d9f-86bd-116c22054162/2026-08-14_07_44_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/44057398-2106-4d9f-86bd-116c22054162/2026-08-14_07_44_51_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:02</itunes:duration>
+    </item>
+    <item>
       <title>Une application de covoiturage pour complotistes, et les causes de la rage au volant</title>
       <description/>
       <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/882e45d7-2fd5-4e33-a09c-a382c10f6ddb/2026-04-17_07_38_16_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/882e45d7-2fd5-4e33-a09c-a382c10f6ddb/2026-04-17_07_38_16_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:10</itunes:duration>
-    </item>
-    <item>
-      <title>Le PQ perd des plumes, et un détaillant de souliers se réoriente vers l’IA</title>
-      <description/>
-      <pubDate>Thu, 16 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f7a3ded-7aa5-4428-bc90-aa4dfbd69385/2026-04-16_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5f7a3ded-7aa5-4428-bc90-aa4dfbd69385/2026-04-16_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:55</itunes:duration>
     </item>
   </channel>
 </rss>
