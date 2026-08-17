@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Entente entre Québec et Terre-Neuve-et-Labrador</title>
+      <description>&amp;lt;p&amp;gt;Après des mois de négociations, c’est aujourd’hui que l’entente sera officialisée entre le Québec et Terre-Neuve-et-Labrador à propos du vaste chantier hydroélectrique de Churchill Falls. Christine Fréchette est attendue à Saint-Jean en début d’après midi ainsi que premier ministre Mark Carney.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Mon, 17 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/0c51631d-720a-463b-a674-7979cfc09231/2026-08-17_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/0c51631d-720a-463b-a674-7979cfc09231/2026-08-17_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Report des pourparlers USA-Iran</title>
       <description>&amp;lt;p&amp;gt;Le début des pourparlers de paix de 60 jours entre les États-Unis et l'Iran en Suisse est reporté au matin même des discussions. J.D. Vance évoque des détails logistiques à finaliser. En parallèle, la poursuite de frappes meurtrières au Liban viole le protocole d'accord initial et fragilise grandement l'ouverture de ce dialogue.&amp;lt;/p&amp;gt;</description>
       <pubDate>Fri, 19 Jun 2026 05:06:00 -0400</pubDate>
@@ -2801,14 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/520a6b46-eca5-4909-b80e-f3a6e96cbf52/2024-11-11_05_36_35_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/520a6b46-eca5-4909-b80e-f3a6e96cbf52/2024-11-11_05_36_35_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:56</itunes:duration>
-    </item>
-    <item>
-      <title>Le Canada se prépare à l'arrivée de Trump</title>
-      <description>&amp;lt;p&amp;gt;Le Canada doit maintenant se préparer au retour de Donald Trump à la Maison-Blanche. De nature imprévisible, ses décisions auront des conséquences de notre côté de la frontière.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Fri, 08 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/6bb3ad4c-4995-4802-85a6-0645ea9d56a5/2024-11-08_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/6bb3ad4c-4995-4802-85a6-0645ea9d56a5/2024-11-08_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
 </rss>

@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Le record de la plus grande fleur de lys humaine, et des pushups en soutien à Andrew Tate</title>
+      <description/>
+      <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b5d11614-2a26-41ef-94af-aba5b5ccd9be/2026-08-17_07_32_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b5d11614-2a26-41ef-94af-aba5b5ccd9be/2026-08-17_07_32_05_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>22:15</itunes:duration>
+    </item>
+    <item>
       <title>Rolex poursuit l’influenceur Medusa, et Marwah Rizqy arrive à QUB radio</title>
       <description/>
       <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/1bfd30a7-dec3-4e4b-b383-7f0a184d67bc/2026-04-20_07_53_59_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1bfd30a7-dec3-4e4b-b383-7f0a184d67bc/2026-04-20_07_53_59_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:23</itunes:duration>
-    </item>
-    <item>
-      <title>La désinformation sur le droit de citer la Bible, et des bruits d’animaux sur les ondes radio aériennes</title>
-      <description/>
-      <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/882e45d7-2fd5-4e33-a09c-a382c10f6ddb/2026-04-17_07_38_16_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/882e45d7-2fd5-4e33-a09c-a382c10f6ddb/2026-04-17_07_38_16_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:10</itunes:duration>
     </item>
   </channel>
 </rss>
