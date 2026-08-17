@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Lundi 17 août 2026 : Jean-Sébastien Girard et Charles Milliard</title>
+      <description>&lt;p&gt;Christine Fréchette affirme qu’elle n’est &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;pas beige pantoute &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;pas beige pantoute &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;pas beige pantoute&lt;/span&gt;&lt;/q&gt;. Jean-Sébastien révèle s’être acheté six sacs de Canadian Tire. Et Charles Milliard parle de son été en précampagne électorale.&lt;/p&gt;</description>
+      <pubDate>Mon, 17 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/18616900-6d31-416c-9796-a9823172c769/2026-08-17_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/18616900-6d31-416c-9796-a9823172c769/2026-08-17_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>30:15</itunes:duration>
+    </item>
+    <item>
       <title>Vendredi 5 juin 2026 : Les meilleurs moments, avec Gilles Brassard et Suzie Bouchard</title>
       <description>&lt;p&gt;Jean-Philippe retrace la carrière de Pierre Brassard. Gilles Brassard explique ce qu’est la cryptographie quantique. Et Suzie Bouchard rend hommage à la fièvre des séries dans un slam sportif.&lt;/p&gt;</description>
       <pubDate>Fri, 05 Jun 2026 18:28:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/5e921a74-2f09-437e-931c-428b99fc7e99/2026-04-09_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5e921a74-2f09-437e-931c-428b99fc7e99/2026-04-09_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 8 avr. 2026 : Jean-Sébastien Girard, Josée Boileau et Maxime Beaudoin</title>
-      <description>&lt;p&gt;Josée Boileau critique l’absence de leadership de Mark Carney et de Pierre Poilievre en lien avec la guerre en Iran. Et on apprend à connaître le candidat du NPD dans Terrebonne, Maxime Beaudoin.&lt;/p&gt;</description>
-      <pubDate>Wed, 08 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7c8d3ebe-c15e-4341-90b7-6d7a79aba7e3/2026-04-08_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7c8d3ebe-c15e-4341-90b7-6d7a79aba7e3/2026-04-08_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
     </item>
   </channel>
 </rss>
