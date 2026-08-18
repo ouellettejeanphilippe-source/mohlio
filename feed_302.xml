@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Intensification des négociations pour éviter les tarifs de 50-pourcent</title>
+      <description>&amp;lt;p&amp;gt;C'est la course contre la montre à Ottawa. Il reste moins de 24 heures avant l'entrée en vigueur de droits de douane de 50-pourcent sur une série de produits. Après des semaines de négociations intensives, l'espoir d'un accord semble toujours incertain. Le Canada se prépare désormais à tous les scénarios.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Tue, 18 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/030f6bfc-09b6-4d07-81d8-5cc450313e89/2026-08-18_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/030f6bfc-09b6-4d07-81d8-5cc450313e89/2026-08-18_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Entente entre Québec et Terre-Neuve-et-Labrador</title>
       <description>&amp;lt;p&amp;gt;Après des mois de négociations, c’est aujourd’hui que l’entente sera officialisée entre le Québec et Terre-Neuve-et-Labrador à propos du vaste chantier hydroélectrique de Churchill Falls. Christine Fréchette est attendue à Saint-Jean en début d’après midi ainsi que premier ministre Mark Carney.&amp;lt;/p&amp;gt;</description>
       <pubDate>Mon, 17 Aug 2026 05:06:00 -0400</pubDate>
@@ -2801,14 +2809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d8b7176e-08b1-4193-aea4-599b5e772b52/2024-11-12_06_10_22_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d8b7176e-08b1-4193-aea4-599b5e772b52/2024-11-12_06_10_22_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Lock-out au port de Montréal</title>
-      <description>&amp;lt;p&amp;gt;Le port de Montréal est de nouveau paralysé après que les employeurs du port ont déclenché un lock-out hier soir vers 21h00. Les 1200 débardeurs du port de Montréal ont massivement rejeté l‘offre patronale présentée jeudi dernier. &amp;lt;/p&amp;gt;</description>
-      <pubDate>Mon, 11 Nov 2024 05:36:35 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/520a6b46-eca5-4909-b80e-f3a6e96cbf52/2024-11-11_05_36_35_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/520a6b46-eca5-4909-b80e-f3a6e96cbf52/2024-11-11_05_36_35_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:56</itunes:duration>
     </item>
   </channel>
 </rss>
