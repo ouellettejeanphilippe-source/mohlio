@@ -2,7 +2,8 @@ name: Daily Feed Update
 
 on:
   schedule:
-    - cron: '0 12,13,16,17,20,21 * * *'  # Runs near 8am, 12pm, 4pm EST/EDT
+    - cron: '*/10 11,12,13 * * *'        # Runs every 10 minutes to cover 7:00 to 8:30 EST/EDT
+    - cron: '0 16,17,20,21,22,23 * * *'  # Runs near 12pm, 4pm, 6pm EST/EDT
   push:
     branches:
       - main
@@ -25,12 +26,17 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "schedule" ]; then
             HOUR=$(TZ='America/New_York' date +%-H)
-            echo "Current hour in Eastern Time: $HOUR"
-            if [ "$HOUR" = "8" ] || [ "$HOUR" = "12" ] || [ "$HOUR" = "16" ]; then
+            MINUTE=$(TZ='America/New_York' date +%-M)
+            echo "Current time in Eastern Time: $HOUR:$MINUTE"
+            if [ "$HOUR" = "7" ]; then
+              echo "should_run=true" >> $GITHUB_ENV
+            elif [ "$HOUR" = "8" ] && [ "$MINUTE" -le 35 ]; then
+              echo "should_run=true" >> $GITHUB_ENV
+            elif [ "$HOUR" = "12" ] || [ "$HOUR" = "16" ] || [ "$HOUR" = "18" ]; then
               echo "should_run=true" >> $GITHUB_ENV
             else
               echo "should_run=false" >> $GITHUB_ENV
-              echo "Skipping run, as it is not exactly 8 AM, 12 PM, or 4 PM local time."
+              echo "Skipping run, as it is outside the target hours (7:00-8:30, 12:00, 16:00, 18:00 EST/EDT)."
             fi
           else
             echo "should_run=true" >> $GITHUB_ENV
