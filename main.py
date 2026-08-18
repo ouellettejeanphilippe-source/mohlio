@@ -101,6 +101,15 @@ def fetch_show_image(show_id):
         ... on EmissionBalado {
           canonicalUrl
         }
+        ... on EmissionPremiere {
+          canonicalUrl
+        }
+        ... on EmissionMusique {
+          canonicalUrl
+        }
+        ... on EmissionGrandesSeries {
+          canonicalUrl
+        }
       }
     }
     """
@@ -116,9 +125,8 @@ def fetch_show_image(show_id):
     # Fallback to base url if canonicalUrl not found
     url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
     if canonical_url:
-        slug = canonical_url.split('/')[-1]
-        if slug:
-            url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}/{slug}"
+        # Use the ohdio root + canonicalUrl, requests will follow the 301/302 redirect
+        url = f"https://ici.radio-canada.ca/ohdio{canonical_url}"
 
     try:
         response = session.get(url, headers=HEADERS, timeout=10)
@@ -198,6 +206,18 @@ def fetch_all_media_from_page(show_id):
           id
           canonicalUrl
         }
+        ... on EmissionPremiere {
+          id
+          canonicalUrl
+        }
+        ... on EmissionMusique {
+          id
+          canonicalUrl
+        }
+        ... on EmissionGrandesSeries {
+          id
+          canonicalUrl
+        }
       }
     }
     """
@@ -208,8 +228,8 @@ def fetch_all_media_from_page(show_id):
         canonical_url = data.get('data', {}).get('programmeById', {}).get('canonicalUrl')
 
         if canonical_url:
-            slug = canonical_url.split('/')[-1]
-            page_url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}/{slug}"
+            # Use the ohdio root + canonicalUrl, requests will follow the 301/302 redirect
+            page_url = f"https://ici.radio-canada.ca/ohdio{canonical_url}"
         else:
             # Fallback to generic URL if canonicalUrl is not available
             page_url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
