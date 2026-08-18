@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Fermeture du seul Tim Hortons des Îles-de-la-Madeleine, et candidate du PCQ en trottinette électrique sans casque </title>
+      <description/>
+      <pubDate>Tue, 18 Aug 2026 12:40:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f4a56bd-2bff-47bf-9d0a-fb4de43b2a2c/2026-08-18_08_32_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0f4a56bd-2bff-47bf-9d0a-fb4de43b2a2c/2026-08-18_08_32_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>24:09</itunes:duration>
+    </item>
+    <item>
       <title>Le record de la plus grande fleur de lys humaine, et des pushups en soutien à Andrew Tate</title>
       <description/>
       <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/609b19f6-bcff-4a34-bb02-faa74da4091b/2026-04-21_07_44_34_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/609b19f6-bcff-4a34-bb02-faa74da4091b/2026-04-21_07_44_34_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:41</itunes:duration>
-    </item>
-    <item>
-      <title>Problème de crottes de chien à Eastman, et cola diète pour guérir le cancer selon Trump</title>
-      <description/>
-      <pubDate>Mon, 20 Apr 2026 12:20:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1bfd30a7-dec3-4e4b-b383-7f0a184d67bc/2026-04-20_07_53_59_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1bfd30a7-dec3-4e4b-b383-7f0a184d67bc/2026-04-20_07_53_59_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:23</itunes:duration>
     </item>
   </channel>
 </rss>
