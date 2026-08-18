@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Mardi 18 août 2026 : Magali Saint-Vincent et Sol Zanetti</title>
+      <description>&lt;p&gt;Olivier décrypte une vidéo de Sophie Grégoire qui nous invite à nous reconnecter à notre for intérieur. Magali Saint-Vincent compare les propos de Medusa à ceux de Néron dans &lt;em&gt;Britannicus&lt;/em&gt;. Et Sol Zanetti explique ce que ferait un gouvernement solidaire dans les 100 premiers jours de son mandat.&lt;/p&gt;</description>
+      <pubDate>Tue, 18 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/65d69982-c1be-48a2-80fb-6aedb57256e2/2026-08-18_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/65d69982-c1be-48a2-80fb-6aedb57256e2/2026-08-18_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>30:52</itunes:duration>
+    </item>
+    <item>
       <title>Lundi 17 août 2026 : Jean-Sébastien Girard et Charles Milliard</title>
       <description>&lt;p&gt;Christine Fréchette affirme qu’elle n’est &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;pas beige pantoute &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;pas beige pantoute &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;pas beige pantoute&lt;/span&gt;&lt;/q&gt;. Jean-Sébastien révèle s’être acheté six sacs de Canadian Tire. Et Charles Milliard parle de son été en précampagne électorale.&lt;/p&gt;</description>
       <pubDate>Mon, 17 Aug 2026 18:30:00 +0000</pubDate>
@@ -400,14 +408,6 @@
       <pubDate>Fri, 10 Apr 2026 18:28:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e9ed61f-d1e5-4543-bd73-ff8ebfdd3111/2026-04-10_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1e9ed61f-d1e5-4543-bd73-ff8ebfdd3111/2026-04-10_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 9 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Nathalie Sinclair Desgagné</title>
-      <description>&lt;p&gt;Marilyn Gladu, nouvelle députée du PLC, est qualifiée de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;paquet de troubles &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;paquet de troubles &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;paquet de troubles&lt;/span&gt;&lt;/q&gt;. Nathalie Sinclair Desgagné, candidate du Bloc québécois dans Terrebonne, raconte son étrange soirée électorale de 2025. Nathalie Petrowski parle de &lt;em&gt;Survivor Québec &lt;/em&gt;et des «&amp;nbsp;18 nonos en mal de sensations fortes&amp;nbsp;». Et Hugo Dumas critique la série &lt;em&gt;Detective Hole&lt;/em&gt;.&lt;/p&gt;</description>
-      <pubDate>Thu, 09 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5e921a74-2f09-437e-931c-428b99fc7e99/2026-04-09_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5e921a74-2f09-437e-931c-428b99fc7e99/2026-04-09_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
   </channel>
