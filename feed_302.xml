@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Report des tarifs douaniers</title>
+      <description>&amp;lt;p&amp;gt;L’entrée en vigueur des tarifs de 50-pourcent sur un éventail de produits canadiens a été reportée de 3 jours. Le président américain, Donald Trump, affirme que le Canada et les États-Unis auraient conclu un accord et que le délai supplémentaire permettrait d’en finaliser les détails.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Wed, 19 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/be3276ca-efec-48e3-ab5f-f0ea10edb596/2026-08-19_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/be3276ca-efec-48e3-ab5f-f0ea10edb596/2026-08-19_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
       <title>Intensification des négociations pour éviter les tarifs de 50-pourcent</title>
       <description>&amp;lt;p&amp;gt;C'est la course contre la montre à Ottawa. Il reste moins de 24 heures avant l'entrée en vigueur de droits de douane de 50-pourcent sur une série de produits. Après des semaines de négociations intensives, l'espoir d'un accord semble toujours incertain. Le Canada se prépare désormais à tous les scénarios.&amp;lt;/p&amp;gt;</description>
       <pubDate>Tue, 18 Aug 2026 05:06:00 -0400</pubDate>
@@ -2800,14 +2808,6 @@
       <pubDate>Wed, 13 Nov 2024 05:06:00 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1b7a184b-9ee7-4f32-a7f7-28d639a9608e/2024-11-13_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1b7a184b-9ee7-4f32-a7f7-28d639a9608e/2024-11-13_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Des débroussailleurs se disent « exploités » par des sous-traitants d’Hydro-Québec</title>
-      <description>&amp;lt;p&amp;gt;Hydro-Québec a dû se débarrasser de sous-traitants à qui la société d’État avait confié le mandat de débroussailler la végétation à proximité des lignes de transport qui traversent la forêt québécoise. Les fournisseurs de la société d'État étaient très loin de respecter les règles de base des normes de sécurité et de santé au travail. &amp;lt;/p&amp;gt;</description>
-      <pubDate>Tue, 12 Nov 2024 06:10:22 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d8b7176e-08b1-4193-aea4-599b5e772b52/2024-11-12_06_10_22_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d8b7176e-08b1-4193-aea4-599b5e772b52/2024-11-12_06_10_22_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
