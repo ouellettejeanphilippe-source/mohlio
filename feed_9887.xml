@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Mercredi 19 août 2026 : Simon-Olivier Lorange et Valérie-Anne Mahéo</title>
+      <description>&lt;p&gt;Olivier s’intéresse à la misère des riches. Simon-Olivier Lorange explique comment inventer du contenu pour parler du Canadien. Et Valérie-Anne Mahéo répond aux gens qui croient que le droit de vote doit être réservé aux gens qui paient de l’impôt.&lt;/p&gt;</description>
+      <pubDate>Wed, 19 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/81673dc6-ad26-4410-b9d5-3dd48eb5e542/2026-08-19_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/81673dc6-ad26-4410-b9d5-3dd48eb5e542/2026-08-19_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>32:05</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 18 août 2026 : Magali Saint-Vincent et Sol Zanetti</title>
       <description>&lt;p&gt;Olivier décrypte une vidéo de Sophie Grégoire qui nous invite à nous reconnecter à notre for intérieur. Magali Saint-Vincent compare les propos de Medusa à ceux de Néron dans &lt;em&gt;Britannicus&lt;/em&gt;. Et Sol Zanetti explique ce que ferait un gouvernement solidaire dans les 100 premiers jours de son mandat.&lt;/p&gt;</description>
       <pubDate>Tue, 18 Aug 2026 18:30:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/d2447cb6-4714-4bad-84c4-9d9fd9cfea86/2026-04-10_16_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d2447cb6-4714-4bad-84c4-9d9fd9cfea86/2026-04-10_16_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>42:06</itunes:duration>
-    </item>
-    <item>
-      <title>Vendredi 10 avr. 2026 : Pierre Brassard et Alain Crête </title>
-      <description>&lt;p&gt;En chicane avec Bruno Marchand, Éric Duhaime se défend d’être &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;alcoolique &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;alcoolique &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;alcoolique&lt;/span&gt;&lt;/q&gt;. Alain Crête, qui a annoncé sa retraite, revient sur sa carrière de journaliste sportif. Et Pierre Brassard imite Fabrice Luchini et Claude Dubois.&lt;/p&gt;</description>
-      <pubDate>Fri, 10 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e9ed61f-d1e5-4543-bd73-ff8ebfdd3111/2026-04-10_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1e9ed61f-d1e5-4543-bd73-ff8ebfdd3111/2026-04-10_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
     </item>
   </channel>
 </rss>
