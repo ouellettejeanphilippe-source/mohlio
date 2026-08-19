@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Des néologismes pour des fléaux du web, et un rappel de dindes à la moutarde</title>
+      <description/>
+      <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e4623eb7-1af9-4fbf-9550-65aa229a56f1/2026-08-19_07_43_10_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e4623eb7-1af9-4fbf-9550-65aa229a56f1/2026-08-19_07_43_10_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>22:15</itunes:duration>
+    </item>
+    <item>
       <title>Fermeture du seul Tim Hortons des Îles-de-la-Madeleine, et candidate du PCQ en trottinette électrique sans casque </title>
       <description/>
       <pubDate>Tue, 18 Aug 2026 12:40:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/56ac52b6-402d-4acf-b3f9-61108ead16e5/2026-04-22_07_45_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/56ac52b6-402d-4acf-b3f9-61108ead16e5/2026-04-22_07_45_32_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:26</itunes:duration>
-    </item>
-    <item>
-      <title>Une lettre ouverte pour prévenir les féminicides, et les chiens agressifs en hausse</title>
-      <description/>
-      <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/609b19f6-bcff-4a34-bb02-faa74da4091b/2026-04-21_07_44_34_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/609b19f6-bcff-4a34-bb02-faa74da4091b/2026-04-21_07_44_34_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:41</itunes:duration>
     </item>
   </channel>
 </rss>
