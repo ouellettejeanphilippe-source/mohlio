@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Finalisation de l'entente entre Ottawa et Washington</title>
+      <description>&amp;lt;p&amp;gt;Les discussions se poursuivent pour finaliser l'entente survenue hier, entre Ottawa et Washington, après le report des nouveaux droits de douane de 50% sur un éventail de produits canadiens. Jusqu'à maintenant les deux partis ont été avares de commentaires. &amp;lt;/p&amp;gt;</description>
+      <pubDate>Thu, 20 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4814a1de-7c2b-47b2-ba10-2c203b48690c/2026-08-20_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/4814a1de-7c2b-47b2-ba10-2c203b48690c/2026-08-20_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Report des tarifs douaniers</title>
       <description>&amp;lt;p&amp;gt;L’entrée en vigueur des tarifs de 50-pourcent sur un éventail de produits canadiens a été reportée de 3 jours. Le président américain, Donald Trump, affirme que le Canada et les États-Unis auraient conclu un accord et que le délai supplémentaire permettrait d’en finaliser les détails.&amp;lt;/p&amp;gt;</description>
       <pubDate>Wed, 19 Aug 2026 05:06:00 -0400</pubDate>
@@ -2800,14 +2808,6 @@
       <pubDate>Thu, 14 Nov 2024 05:06:00 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4edbfe7e-34a7-481b-b57d-d98315faeada/2024-11-14_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/4edbfe7e-34a7-481b-b57d-d98315faeada/2024-11-14_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Ottawa intervient pour mettre fin au conflit avec les ports</title>
-      <description>&amp;lt;p&amp;gt;Les activités devraient reprendre dans les prochains jours dans les ports de Montréal, de Québec et de la Colombie-Britannique. Ottawa impose l'arbitrage exécutoire pour mettre fin au lock-out.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Wed, 13 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1b7a184b-9ee7-4f32-a7f7-28d639a9608e/2024-11-13_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1b7a184b-9ee7-4f32-a7f7-28d639a9608e/2024-11-13_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
