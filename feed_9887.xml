@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Jeudi 20 août 2026 : Nathalie Petrowski, Hugo Dumas et Elsie Lefebvre</title>
+      <description>&lt;p&gt;Olivier parle du parti Démocratie directe, qui veut mettre un terme à la dictature au Québec. Nathalie Petrowski critique les films québécois de l&amp;#x27;été. Hugo Dumas s&amp;#x27;intéresse aux chansons de l&amp;#x27;été. Et Elsie Lefebvre explique pourquoi elle fait son retour en politique avec le Parti québécois.&lt;/p&gt;</description>
+      <pubDate>Thu, 20 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dff82b46-97f2-47ae-bfd6-e5921e326769/2026-08-20_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dff82b46-97f2-47ae-bfd6-e5921e326769/2026-08-20_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>37:28</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 19 août 2026 : Simon-Olivier Lorange et Valérie-Anne Mahéo</title>
       <description>&lt;p&gt;Olivier s’intéresse à la misère des riches. Simon-Olivier Lorange explique comment inventer du contenu pour parler du Canadien. Et Valérie-Anne Mahéo répond aux gens qui croient que le droit de vote doit être réservé aux gens qui paient de l’impôt.&lt;/p&gt;</description>
       <pubDate>Wed, 19 Aug 2026 18:30:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/c2004504-9928-4ddd-b56a-34f6002b7302/2026-04-13_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c2004504-9928-4ddd-b56a-34f6002b7302/2026-04-13_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Samedi 11 avr. 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Dimitri Soudas traite Paul St-Pierre Plamondon de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;trou de cul &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;trou de cul &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;trou de cul&lt;/span&gt;&lt;/q&gt;, la ministre de l’Habitation, Caroline Proulx, affirme qu’une sécheuse aurait pu être élue à sa place, et Paul St-Pierre Plamondon accorde une entrevue à Rebel News.&lt;/p&gt;</description>
-      <pubDate>Sat, 11 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d2447cb6-4714-4bad-84c4-9d9fd9cfea86/2026-04-10_16_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d2447cb6-4714-4bad-84c4-9d9fd9cfea86/2026-04-10_16_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>42:06</itunes:duration>
     </item>
   </channel>
 </rss>
