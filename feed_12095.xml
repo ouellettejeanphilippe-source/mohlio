@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Des conflits qui rendent les gens idiots, et une députée de la France insoumise mordue par une vipère</title>
+      <description/>
+      <pubDate>Fri, 21 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3fe3130-478d-4348-93a6-1375538c1109/2026-08-21_07_41_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c3fe3130-478d-4348-93a6-1375538c1109/2026-08-21_07_41_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>21:16</itunes:duration>
+    </item>
+    <item>
       <title>Candidature de Geneviève Pettersen pour la CAQ, et dégradation du bilan routier du Québec</title>
       <description/>
       <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/faaf3c5c-db33-4494-b68c-acf31e956f38/2026-04-24_07_34_28_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/faaf3c5c-db33-4494-b68c-acf31e956f38/2026-04-24_07_34_28_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>21:36</itunes:duration>
-    </item>
-    <item>
-      <title>Le «&amp;nbsp;frérisme&amp;nbsp;» selon PSPP, et une menace d’amende pour une mangeoire à oiseaux</title>
-      <description/>
-      <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/206efe78-0360-45f0-a89c-3aba0764d987/2026-04-23_07_39_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/206efe78-0360-45f0-a89c-3aba0764d987/2026-04-23_07_39_01_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:13</itunes:duration>
     </item>
   </channel>
 </rss>
