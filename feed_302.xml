@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>La gestion de l'offre en danger?</title>
+      <description>&amp;lt;p&amp;gt;Les négociations entre le Canada et les États-Unis se poursuivent pour en arriver à un accord avant la fin du sursis de trois jours octroyé par Donald Trump. Certaines informations commencent à circuler au sujet de la gestion de l’offre. On pourrait bientôt voir davantage de produits laitiers américains dans les tablettes des épiceries.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Fri, 21 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/a88136a5-647f-4d74-a110-41805491a1a3/2026-08-21_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/a88136a5-647f-4d74-a110-41805491a1a3/2026-08-21_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Finalisation de l'entente entre Ottawa et Washington</title>
       <description>&amp;lt;p&amp;gt;Les discussions se poursuivent pour finaliser l'entente survenue hier, entre Ottawa et Washington, après le report des nouveaux droits de douane de 50% sur un éventail de produits canadiens. Jusqu'à maintenant les deux partis ont été avares de commentaires. &amp;lt;/p&amp;gt;</description>
       <pubDate>Thu, 20 Aug 2026 05:06:00 -0400</pubDate>
@@ -2800,14 +2808,6 @@
       <pubDate>Fri, 15 Nov 2024 05:48:17 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/deffcbdf-62da-4d0c-b140-0143160997c7/2024-11-15_05_48_17_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/deffcbdf-62da-4d0c-b140-0143160997c7/2024-11-15_05_48_17_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Rencontre cordiale entre le président Joe Biden et Donald Trump</title>
-      <description>&amp;lt;p&amp;gt;Le président Joe Biden et Donald Trump ont mis de côté, pendant un moment, leurs différences pour organiser une passation des pouvoirs en douceur à la Maison Blanche. La discussion a tourné autour des grands enjeux nationaux et internationaux. Plus tard, Donald Trump a nommé le représentant de la Floride Matt Gaetz comme procureur général des États-Unis pour diriger le département de la Justice.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 14 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4edbfe7e-34a7-481b-b57d-d98315faeada/2024-11-14_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/4edbfe7e-34a7-481b-b57d-d98315faeada/2024-11-14_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
