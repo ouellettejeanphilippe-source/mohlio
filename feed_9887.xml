@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Samedi 22 août 2026 : Olivier Niquet en brochette </title>
+      <description>&lt;p&gt;Sophie Grégoire nous invite à nous reconnecter à notre for intérieur; Philippe Richard Bertrand estime que seules les personnes qui paient de l’impôt devraient pouvoir voter; et le chef du parti Démocratie directe veut mettre un terme à la dictature au Québec.&lt;/p&gt;</description>
+      <pubDate>Sat, 22 Aug 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4f988b74-f465-471a-ab92-e0c279f5eae8/2026-08-21_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4f988b74-f465-471a-ab92-e0c279f5eae8/2026-08-21_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>43:29</itunes:duration>
+    </item>
+    <item>
       <title>Vendredi 21 août 2026 : Pierre Brassard et François Latour</title>
       <description>&lt;p&gt;Pierre Brassard raconte la naissance de son amitié avec Jean-François Lépine. Olivier s’intéresse aux candidats et candidates qui ont fait des choix audacieux en vue des élections québécoises. Et François Latour parle de son désir de battre le record Guinness de la plus grande charrue agricole&lt;/p&gt;</description>
       <pubDate>Fri, 21 Aug 2026 18:30:00 +0000</pubDate>
@@ -400,14 +408,6 @@
       <pubDate>Wed, 15 Apr 2026 18:28:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/0cc794eb-be70-4692-b9eb-12b0108028a7/2026-04-15_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0cc794eb-be70-4692-b9eb-12b0108028a7/2026-04-15_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Mardi 14 avr. 2026 : Dominic LeBlanc et Justine Philie</title>
-      <description>&lt;p&gt;Dominic LeBlanc explique pourquoi le PLC n’accepterait pas que Jacques Gourde rejoigne ses rangs. Et Justine Philie se fâche contre les épiceries qui ne reprennent plus les contenants consignés. &lt;/p&gt;</description>
-      <pubDate>Tue, 14 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0455b081-78b2-43d7-9d65-a8f228d57a24/2026-04-14_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0455b081-78b2-43d7-9d65-a8f228d57a24/2026-04-14_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
   </channel>
