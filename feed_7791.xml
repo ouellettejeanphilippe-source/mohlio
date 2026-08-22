@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg"/>
     <item>
+      <title>Le lancement de la 16e saison!</title>
+      <description>&lt;p&gt;Votre jeu-questionnaire préféré revient en force pour une 16e saison tout aussi farfelue et drôle! Cette semaine, Pierre Brassard reçoit Patrice L’Ecuyer, Ariane Brunet et Antoine Vézina.&lt;/p&gt;</description>
+      <pubDate>Sat, 22 Aug 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/746d2081-7dee-4a87-936c-aecf2ad58d40/2026-08-22_12_00_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/746d2081-7dee-4a87-936c-aecf2ad58d40/2026-08-22_12_00_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:14</itunes:duration>
+    </item>
+    <item>
       <title>Tournoi 2026 : la finale</title>
       <description>&amp;lt;p&amp;gt; &amp;lt;/p&amp;gt;</description>
       <pubDate>Sat, 20 Jun 2026 20:00:00 -0400</pubDate>
@@ -421,14 +429,6 @@
       <pubDate>Sat, 10 May 2025 17:00:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/e577ac2c-5ddf-44c7-bbbb-0f7ad201d371/2025-05-10_12_23_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e577ac2c-5ddf-44c7-bbbb-0f7ad201d371/2025-05-10_12_23_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:15</itunes:duration>
-    </item>
-    <item>
-      <title>Élections et chasse aux dindons</title>
-      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Pascal Cameron, Vanessa Destiné et Bernard Fortin, qui doivent répondre à des questions sur&amp;nbsp;: Peter le pigeon, les élections à Carleton, le mystérieux vandale du Massachusetts, la tapisserie de Bayeux et la chasse au dindon.&lt;/p&gt;</description>
-      <pubDate>Sat, 03 May 2025 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9f7da4af-e44f-4d8b-ba8a-7ab127f6f4c0/2025-05-03_12_23_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9f7da4af-e44f-4d8b-ba8a-7ab127f6f4c0/2025-05-03_12_23_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:15</itunes:duration>
     </item>
   </channel>
