@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Lundi 24 août 2026 : Suzie Bouchard et Louise Beaudoin</title>
+      <description>&lt;p&gt;Suzie Bouchard teste des blagues. Olivier explique le faux scandale lié à une réponse en anglais de Christine Fréchette. Et Louise Beaudoin nous dit si elle est maintenant fédéraliste, après que Mark Carney a défendu la langue française. &lt;/p&gt;</description>
+      <pubDate>Mon, 24 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c0dc689a-98a8-4f7a-a504-517f4f44c9b3/2026-08-24_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c0dc689a-98a8-4f7a-a504-517f4f44c9b3/2026-08-24_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>32:09</itunes:duration>
+    </item>
+    <item>
       <title>Samedi 22 août 2026 : Olivier Niquet en brochette </title>
       <description>&lt;p&gt;Sophie Grégoire nous invite à nous reconnecter à notre for intérieur; Philippe Richard Bertrand estime que seules les personnes qui paient de l’impôt devraient pouvoir voter; et le chef du parti Démocratie directe veut mettre un terme à la dictature au Québec.&lt;/p&gt;</description>
       <pubDate>Sat, 22 Aug 2026 11:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b662297-db9f-41d7-a600-ee2c1afa1662/2026-04-16_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b662297-db9f-41d7-a600-ee2c1afa1662/2026-04-16_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 15 avr. 2026 : Marc Cassivi et Farnell Morisset</title>
-      <description>&lt;p&gt;Le créateur de contenu Farnell Morisset explique pourquoi il fait le saut en politique provinciale. Et Marc Cassivi démolit la comédie française &lt;em&gt;Le dîner de cons&lt;/em&gt;.&lt;/p&gt;</description>
-      <pubDate>Wed, 15 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0cc794eb-be70-4692-b9eb-12b0108028a7/2026-04-15_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0cc794eb-be70-4692-b9eb-12b0108028a7/2026-04-15_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
     </item>
   </channel>
 </rss>
