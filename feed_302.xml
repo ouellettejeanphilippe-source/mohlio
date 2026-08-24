@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Lundi 24 août 2026 : Les produits canadiens visés par les tarifs</title>
+      <description>&lt;p&gt;Depuis samedi, de nouveaux tarifs de 50 pour cent sont appliqués sur de nombreux produits canadiens exportés aux États-Unis. Le gouvernement fédéral devrait d&amp;#x27;ailleurs annoncer des programmes d&amp;#x27;aide aux entreprises. Les produits visés représentent 28 milliards de dollars d’exportations canadiennes.&lt;/p&gt;</description>
+      <pubDate>Mon, 24 Aug 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c1761426-05db-4460-b888-0768d74da4d4/2026-08-24_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c1761426-05db-4460-b888-0768d74da4d4/2026-08-24_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Les produits canadiens visés par les tarifs</title>
+      <description>&amp;lt;p&amp;gt;Depuis samedi, de nouveaux tarifs de 50 pour cent sont appliqués sur de nombreux produits canadiens exportés aux États-Unis. Le gouvernement fédéral devrait d'ailleurs annoncer des programmes d'aide aux entreprises. Les produits visés représentent 28 milliards de dollars d’exportations canadiennes.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Mon, 24 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/bc5e0aa6-7668-42db-84dc-6daa88410782/2026-08-24_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/bc5e0aa6-7668-42db-84dc-6daa88410782/2026-08-24_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Vendredi 21 août 2026 : La gestion de l’offre en danger?</title>
       <description>&lt;p&gt;Le compte à rebours se poursuit dans les négociations entre le Canada et les États-Unis pour en arriver à un accord avant la fin du sursis de trois jours octroyé par Donald Trump. Celui-ci se termine cette nuit. D’ailleurs certaines informations commencent à circuler sur ce qui aurait été négocié entre autres sur la gestion de l’offre. Cela signifie qu’on pourrait bientôt voir davantage de produits laitiers américains dans les tablettes des épiceries canadiennes.&lt;/p&gt;</description>
       <pubDate>Fri, 21 Aug 2026 09:06:00 +0000</pubDate>
@@ -784,14 +800,6 @@
       <pubDate>Mon, 20 Apr 2026 09:06:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/ffbadb6a-a6c6-4f7f-9dbd-9f13441396d3/2026-04-20_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ffbadb6a-a6c6-4f7f-9dbd-9f13441396d3/2026-04-20_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
-    </item>
-    <item>
-      <title>Vendredi 17 avril 2026 : Risques d’inondations dans plusieurs régions du Québec</title>
-      <description>&lt;p&gt;Plusieurs régions du Québec sont sur le qui-vive. Les autorités craignent des risques d&amp;#x27;inondations. Montréal et des villes de banlieue ont activé leur plan d&amp;#x27;intervention pour faire face aux crues printanières.&lt;/p&gt;</description>
-      <pubDate>Fri, 17 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2bfebad2-0357-4ba6-924f-919b0e565146/2026-04-17_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2bfebad2-0357-4ba6-924f-919b0e565146/2026-04-17_05_06_00_alaune_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/669df837-a54d-4c32-b10c-f946d3a2715b/2024-11-18_05_53_51_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/669df837-a54d-4c32-b10c-f946d3a2715b/2024-11-18_05_53_51_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:56</itunes:duration>
-    </item>
-    <item>
-      <title>Robert Kennedy Jr. prochain secrétaire d'État à la santé.</title>
-      <description>&amp;lt;p&amp;gt;Donald Trump a annoncé hier la nomination d’un autre personnage controversé à une position clé de son administration. Un Kennedy sera de retour à la Maison Blanche. Donald Trump a choisi Robert Kennedy Jr comme secrétaire d'État à la santé. Une nouvelle nomination qui fait réagir.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Fri, 15 Nov 2024 05:48:17 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/deffcbdf-62da-4d0c-b140-0143160997c7/2024-11-15_05_48_17_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/deffcbdf-62da-4d0c-b140-0143160997c7/2024-11-15_05_48_17_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
 </rss>
