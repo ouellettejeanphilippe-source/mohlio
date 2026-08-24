@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Les villes les plus heureuses du Québec, et Olivier Primeau comme influenceur pour la CAQ</title>
+      <description/>
+      <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bd4aba24-360f-4069-a59d-aaede211ff31/2026-08-24_07_43_03_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bd4aba24-360f-4069-a59d-aaede211ff31/2026-08-24_07_43_03_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>24:43</itunes:duration>
+    </item>
+    <item>
       <title>Des conflits qui rendent les gens idiots, et une députée de la France insoumise mordue par une vipère</title>
       <description/>
       <pubDate>Fri, 21 Aug 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/86b0f6e8-d5a4-4992-a4a4-dbe51d22c831/2026-04-27_07_30_21_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/86b0f6e8-d5a4-4992-a4a4-dbe51d22c831/2026-04-27_07_30_21_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:15</itunes:duration>
-    </item>
-    <item>
-      <title>Des Ray-Ban Meta trafiquées, et le PDG de Truth Social quitte ses fonctions</title>
-      <description/>
-      <pubDate>Fri, 24 Apr 2026 11:57:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/faaf3c5c-db33-4494-b68c-acf31e956f38/2026-04-24_07_34_28_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/faaf3c5c-db33-4494-b68c-acf31e956f38/2026-04-24_07_34_28_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:36</itunes:duration>
     </item>
   </channel>
 </rss>
