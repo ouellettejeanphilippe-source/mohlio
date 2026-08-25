@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Mardi 25 août 2026 : Éric Duhaime et Louis T</title>
+      <description>&lt;p&gt;Louis T s’intéresse au scandale de la banane. Et Éric Duhaime parle de la guerre tarifaire et de la volonté de Lino Zambito d’être candidat pour le Parti conservateur du Québec.&lt;/p&gt;</description>
+      <pubDate>Tue, 25 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/afc40187-de2c-40b3-a761-e5f4f8f8bfb7/2026-08-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/afc40187-de2c-40b3-a761-e5f4f8f8bfb7/2026-08-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>37:39</itunes:duration>
+    </item>
+    <item>
       <title>Lundi 24 août 2026 : Suzie Bouchard et Louise Beaudoin</title>
       <description>&lt;p&gt;Suzie Bouchard teste des blagues. Olivier explique le faux scandale lié à une réponse en anglais de Christine Fréchette. Et Louise Beaudoin nous dit si elle est maintenant fédéraliste, après que Mark Carney a défendu la langue française. &lt;/p&gt;</description>
       <pubDate>Mon, 24 Aug 2026 18:30:00 +0000</pubDate>
@@ -400,14 +408,6 @@
       <pubDate>Fri, 17 Apr 2026 18:28:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/d5436b78-cb93-4667-a8b6-7589e5b6ae72/2026-04-17_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d5436b78-cb93-4667-a8b6-7589e5b6ae72/2026-04-17_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 16 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Catherine Moreau</title>
-      <description>&lt;p&gt;Catherine Moreau raconte l’histoire de la fondation de l’entreprise Princess Auto. Nathalie Petrowski explique pourquoi elle n’a pas beaucoup aimé le film &lt;em&gt;Mile End Kicks&lt;/em&gt;. Et Hugo Dumas parle de &lt;em&gt;Si on s&amp;#x27;aimait encore&lt;/em&gt;, où plus rien ne va.&lt;/p&gt;</description>
-      <pubDate>Thu, 16 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b662297-db9f-41d7-a600-ee2c1afa1662/2026-04-16_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b662297-db9f-41d7-a600-ee2c1afa1662/2026-04-16_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:30</itunes:duration>
     </item>
   </channel>
