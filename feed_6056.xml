@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg"/>
     <item>
+      <title>Lundi 24 août 2026 : Le tricot en temps de guerre, et la réserve mondiale de semences du Svalbard</title>
+      <description>&lt;p&gt;L&amp;#x27;utilisation du tricot pour remporter des guerres; la différence entre la fluorescence et la phosphorescence; la grande complexité du jargon juridique; et le fonctionnement de la Réserve mondiale de semences du Svalbard.&lt;/p&gt;</description>
+      <pubDate>Mon, 24 Aug 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8e963f2e-916f-4a40-9639-78bcceb85244/2026-08-24_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8e963f2e-916f-4a40-9639-78bcceb85244/2026-08-24_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:00</itunes:duration>
+    </item>
+    <item>
       <title>Le fonctionnement de l’écholalie, et l’impact environnemental des déchets dans l’eau</title>
       <description>&amp;lt;p&amp;gt;Le fonctionnement de l'écholalie chez les personnes vivant avec un trouble du spectre de l'autisme; l'impact écologique des résidus alimentaires biodégradables jetés dans les cours d'eau; le risque de blessure des oiseaux plongeurs lors de leur entrée dans l'eau; et la variation du rythme des réactions chimiques.&amp;lt;/p&amp;gt;</description>
       <pubDate>Fri, 21 Aug 2026 09:30:00 -0400</pubDate>
@@ -280,14 +288,6 @@
       <pubDate>Thu, 21 May 2026 23:06:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/edc0984a-64d1-4ffb-8302-1b7fcf855b7c/2026-05-21_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/edc0984a-64d1-4ffb-8302-1b7fcf855b7c/2026-05-21_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
-    </item>
-    <item>
-      <title>Mardi 19 mai 2026&amp;nbsp;: Les personnes qui chantent faux, et l’IA face au cynisme</title>
-      <description>&lt;p&gt;Pascale Tremblay tente de savoir pourquoi certaines personnes chantent faux; Chloé-Anne Touma vérifie si le cynisme peut-il être décelé par l’IA générative; Catherine Mathys observe ce qui pourrait rester de notre vie privée dans un univers peuplé de lunettes connectées; et Véronick Raymond fait état d’une recherche sur les perturbateurs endocriniens en ville.&lt;/p&gt;</description>
-      <pubDate>Tue, 19 May 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bad97a46-7e6a-43c4-8e00-2ca19e42a571/2026-05-19_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bad97a46-7e6a-43c4-8e00-2ca19e42a571/2026-05-19_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:00</itunes:duration>
     </item>
     <item>
