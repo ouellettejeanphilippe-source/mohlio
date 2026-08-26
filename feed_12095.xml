@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>De l’eau embouteillée à 116$, et la querelle entre Donald Trump et Doug Ford</title>
+      <description/>
+      <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bba4ffd0-0be2-4a6e-b1bd-6462b97d1f3d/2026-08-26_07_30_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bba4ffd0-0be2-4a6e-b1bd-6462b97d1f3d/2026-08-26_07_30_51_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>22:39</itunes:duration>
+    </item>
+    <item>
       <title>Vincent Marissal dans les rangs du PQ, et le marathon d’Edmonton jugé trop long</title>
       <description/>
       <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/86e313a9-4aa2-4dee-a775-e48a82a1c773/2026-04-29_07_58_40_olivierniquet247enjaquetteohdio_0001_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/86e313a9-4aa2-4dee-a775-e48a82a1c773/2026-04-29_07_58_40_olivierniquet247enjaquetteohdio_0001_master.m3u8?v=2</guid>
       <itunes:duration>21:50</itunes:duration>
-    </item>
-    <item>
-      <title>Des arachides moins allergènes, et le tiers des nouveaux sites web généré par l’IA</title>
-      <description/>
-      <pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/11e7683d-8795-44fb-b317-5b17bb2953fb/2026-04-28_07_44_12_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/11e7683d-8795-44fb-b317-5b17bb2953fb/2026-04-28_07_44_12_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:54</itunes:duration>
     </item>
   </channel>
 </rss>
