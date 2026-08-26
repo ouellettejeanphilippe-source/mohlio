@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Mercredi 26 août 2026 : Paul Journet, Josée Boileau et Katherine Brulotte</title>
+      <description>&lt;p&gt;Paul Journet et Josée Boileau se penchent sur le rôle d’Olivier Primeau dans la campagne caquiste. Et Katherine Brulotte parle de la réaction de Doug Ford aux tarifs de Trump.&lt;/p&gt;</description>
+      <pubDate>Wed, 26 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/00d4dc62-8791-43e6-886e-3d03101392ed/2026-08-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/00d4dc62-8791-43e6-886e-3d03101392ed/2026-08-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>33:25</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 25 août 2026 : Éric Duhaime et Louis T</title>
       <description>&lt;p&gt;Louis T s’intéresse au scandale de la banane. Et Éric Duhaime parle de la guerre tarifaire et de la volonté de Lino Zambito d’être candidat pour le Parti conservateur du Québec.&lt;/p&gt;</description>
       <pubDate>Tue, 25 Aug 2026 18:30:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/2260cfba-1495-4b73-b5a7-e2902002efff/2026-04-17_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2260cfba-1495-4b73-b5a7-e2902002efff/2026-04-17_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>44:47</itunes:duration>
-    </item>
-    <item>
-      <title>Vendredi 17 avr. 2026 : Pierre Brassard, Jérôme Tremblay et Gabrielle Côté</title>
-      <description>&lt;p&gt;Jacques Gourde utilise sa petite-fille pour attaquer le gouvernement libéral. Le facteur Jérôme Tremblay explique comment Postes Canada aurait pu empêcher qu’on abandonne le courrier à domicile. Et Pierre Brassard se demande s&amp;#x27;il est vieux, lui qui aura 60&amp;nbsp;ans.&lt;/p&gt;</description>
-      <pubDate>Fri, 17 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d5436b78-cb93-4667-a8b6-7589e5b6ae72/2026-04-17_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d5436b78-cb93-4667-a8b6-7589e5b6ae72/2026-04-17_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
     </item>
   </channel>
 </rss>
