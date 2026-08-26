@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg"/>
     <item>
+      <title>Mardi 25 août 2026 : Le délai de réponse des ambulances, et le calcul de la température ressentie</title>
+      <description>&lt;p&gt;Les temps de réponse des ambulances à Montréal; l&amp;#x27;effet des stimulants sur le système de récompense de la dopamine; la consommation d&amp;#x27;eau cachée dans la fabrication des jeans; la recherche d&amp;#x27;un meilleur indice pour évaluer la température ressentie.&lt;/p&gt;</description>
+      <pubDate>Tue, 25 Aug 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6724c304-ba8a-42e7-99c9-2c9cbd0e4798/2026-08-25_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6724c304-ba8a-42e7-99c9-2c9cbd0e4798/2026-08-25_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:00</itunes:duration>
+    </item>
+    <item>
       <title>Lundi 24 août 2026 : Le tricot en temps de guerre, et la réserve mondiale de semences du Svalbard</title>
       <description>&lt;p&gt;L&amp;#x27;utilisation du tricot pour remporter des guerres; la différence entre la fluorescence et la phosphorescence; la grande complexité du jargon juridique; et le fonctionnement de la Réserve mondiale de semences du Svalbard.&lt;/p&gt;</description>
       <pubDate>Mon, 24 Aug 2026 23:06:00 +0000</pubDate>
@@ -416,14 +424,6 @@
       <pubDate>Wed, 14 May 2025 23:06:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/0688fbfd-1af9-4bc7-89f3-c20009369526/2025-05-14_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0688fbfd-1af9-4bc7-89f3-c20009369526/2025-05-14_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 20 mai 2026 : Se faire casser les tibias pour grandir, et se protéger des zoonoses</title>
-      <description>&lt;p&gt;Michael Sage explique comment on peut grandir grâce à une opération médicale; Hélène Carabin explique quelles sont les mesures pour protéger les élevages des zoonoses, Sandrine Geoffrion dit pourquoi manger ses croûtes de pain ne fait pas grandir; et Alexandre Shields nous apprend tout sur la dinde sauvage.&lt;/p&gt;&lt;p&gt;*Cette émission est une rediffusion du 5 mai 2025&lt;/p&gt;</description>
-      <pubDate>Wed, 07 May 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5dd6cc9a-0faf-466c-94bf-261ad23a7ddc/2025-05-07_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5dd6cc9a-0faf-466c-94bf-261ad23a7ddc/2025-05-07_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:00</itunes:duration>
     </item>
     <item>

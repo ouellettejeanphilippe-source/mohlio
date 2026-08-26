@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Mercredi 26 août 2026 : La réplique canadienne se précise</title>
+      <description>&lt;p&gt;Le Canada va répliquer, dollar pour dollar, aux droits de douane imposés par les États-Unis. Ottawa en a fait l&amp;#x27;annonce hier. Dès le 8 septembre, de nouveaux tarifs de 15 à 50 pour cent vont toucher une longue liste de produits américains importés au pays. Les secteurs visés sont sensiblement les mêmes que ceux touchés par les tarifs imposés par Washington.&lt;/p&gt;</description>
+      <pubDate>Wed, 26 Aug 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d9d795f4-154e-484b-9f38-b1aee22ab5b5/2026-08-26_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d9d795f4-154e-484b-9f38-b1aee22ab5b5/2026-08-26_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>La réplique canadienne se précise</title>
+      <description>&amp;lt;p&amp;gt;Le Canada va répliquer aux droits de douane imposés par les États-Unis. Ottawa en a fait l'annonce hier. Dès le 8 septembre, de nouveaux tarifs de 15 à 50 pour cent vont toucher une longue liste de produits américains importés au pays. Les secteurs visés sont sensiblement les mêmes que ceux touchés par les tarifs imposés par Washington.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Wed, 26 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/7ad8608b-f8b0-4a1d-98c5-c86938947345/2026-08-26_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/7ad8608b-f8b0-4a1d-98c5-c86938947345/2026-08-26_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 25 août 2026 : Le Canada prépare sa riposte</title>
       <description>&lt;p&gt;Ottawa va présenter aujourd&amp;#x27;hui les détails de sa contre-attaque tarifaire contre les États-Unis. Le premier ministre Mark Carney a indiqué vouloir répondre &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;dollar pour dollar &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;dollar pour dollar &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;dollar pour dollar &lt;/span&gt;&lt;/q&gt; aux tarifs de 50 pour cent imposés par les Américains. Maintenant, la question reste à savoir de quoi sera faite cette riposte.&lt;/p&gt;</description>
       <pubDate>Tue, 25 Aug 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/218f8e77-9a8b-4051-b9aa-4fb316f7dd52/2026-04-22_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/218f8e77-9a8b-4051-b9aa-4fb316f7dd52/2026-04-22_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:23:00</itunes:duration>
-    </item>
-    <item>
-      <title>Mardi 21 avril 2026 : Cabinet Fréchette : les poids lourds restent</title>
-      <description>&lt;p&gt;La première ministre Christine Fréchette dévoile son cabinet. Les piliers Girard, LeBel et Bélanger restent, mais Bernard Drainville devient super-ministre de l&amp;#x27;Économie et de l&amp;#x27;Énergie. Un nouveau ministère des Régions est confié à Mathieu Lévesque, tandis que Geneviève Guilbault et Caroline Proulx quittent la vie politique.&lt;/p&gt;</description>
-      <pubDate>Tue, 21 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f373ba27-19e1-4666-aaff-560d800cd6ea/2026-04-21_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f373ba27-19e1-4666-aaff-560d800cd6ea/2026-04-21_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>Cabinet Fréchette : les poids lourds restent</title>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d498fd8e-6b69-4119-b886-3ff99bef39ba/2024-11-20_05_34_41_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d498fd8e-6b69-4119-b886-3ff99bef39ba/2024-11-20_05_34_41_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>1000 jours de guerre en Ukraine</title>
-      <description>&amp;lt;p&amp;gt;C'est aujourd'hui la millième journée de guerre en Ukraine et le conflit semble loin de s'estomper. Les troupes russes continuent de frapper et d'avancer dans l'Est du pays alors que l'Ukraine va maintenant pouvoir se défendre avec des missiles à longue portée fournis par les États-Unis. Mais même s'il n'est pas question de reddition pour les Ukrainiens, ils pourraient bientôt être forcés de négocier.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Tue, 19 Nov 2024 05:32:19 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/9cdf6643-0574-4bf6-95d5-1676c571e18f/2024-11-19_05_32_19_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/9cdf6643-0574-4bf6-95d5-1676c571e18f/2024-11-19_05_32_19_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
 </rss>
