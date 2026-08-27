@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg"/>
     <item>
+      <title>Mercredi 26 août 2026&amp;nbsp;: L’effet de l’espace sur les montres, et la cachette des coyotes le jour</title>
+      <description>&lt;p&gt;La comparaison entre la beauté des équations mathématiques et celle des mélodies; le décalage horaire des montres au retour de l&amp;#x27;espace; l&amp;#x27;efficacité accrue des antibiotiques en début d&amp;#x27;infection; et la cachette des coyotes durant la journée.&lt;/p&gt;</description>
+      <pubDate>Wed, 26 Aug 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c39feba3-6c7e-48ee-953e-669bd61b9471/2026-08-26_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c39feba3-6c7e-48ee-953e-669bd61b9471/2026-08-26_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:00</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 25 août 2026 : Le délai de réponse des ambulances, et le calcul de la température ressentie</title>
       <description>&lt;p&gt;Les temps de réponse des ambulances à Montréal; l&amp;#x27;effet des stimulants sur le système de récompense de la dopamine; la consommation d&amp;#x27;eau cachée dans la fabrication des jeans; la recherche d&amp;#x27;un meilleur indice pour évaluer la température ressentie.&lt;/p&gt;</description>
       <pubDate>Tue, 25 Aug 2026 23:06:00 +0000</pubDate>
@@ -259,14 +267,6 @@
       <itunes:duration>53:00</itunes:duration>
     </item>
     <item>
-      <title>Le caractère futur d’un chiot, et le fonctionnement des séchoirs sans hélice</title>
-      <description>&amp;lt;p&amp;gt;Jean Gauvin tente de savoir si on peut déterminer le caractère qu’aura un chiot plus tard; Philippe Marois inspecte le fonctionnement des séchoirs à cheveux sans hélice; le Dr Sam Daniel décrit une opération très complexe de reconstruction de la trachée; et Véronick Raymond fait état d’une recherche sur les activités de bingo à Sept-Îles.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 28 May 2026 16:11:56 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/c8e3f28a-1575-4b84-aedc-a4e211c4a3d8/2026-05-28_16_11_56_moteurderecherchebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/c8e3f28a-1575-4b84-aedc-a4e211c4a3d8/2026-05-28_16_11_56_moteurderecherchebalado_0000.mp3?v=2</guid>
-      <itunes:duration>00:53:08</itunes:duration>
-    </item>
-    <item>
       <title>Mercredi 27 mai 2026&amp;nbsp;: La conservation des fromages, et les couleurs d’une moufette</title>
       <description>&lt;p&gt;Julien Chamberland décrit les meilleures façons de conserver nos fromages; Stéphanie Bentz observe les variations de couleurs chez la moufette, Fabien Durif tente d’évaluer la durée de vie d’une gourde d’eau; et Caroline Cormier analyse le vieillissement des gaines des appareils électroniques.&lt;/p&gt;</description>
       <pubDate>Wed, 27 May 2026 23:06:00 +0000</pubDate>
@@ -288,14 +288,6 @@
       <pubDate>Mon, 25 May 2026 23:06:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/c1e716e0-75e1-4049-b751-a33b9c5cf3f6/2026-05-25_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c1e716e0-75e1-4049-b751-a33b9c5cf3f6/2026-05-25_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 21 mai 2026 : Protéger nos vieilles forêts, et bien balancer son canot</title>
-      <description>&lt;p&gt;Gabriel Grenier regarde comment améliorer la préservation des forêts anciennes; Guillaume Rivest donne des trucs pour une répartition efficace des charges en canot; Limoilou-Amélie Renaud fait le point sur certaines pratiques de régénération forestière; et Stéphanie Lavergne se penche sur l’essor de l’agriculture en région nordique.&lt;/p&gt;</description>
-      <pubDate>Thu, 21 May 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/edc0984a-64d1-4ffb-8302-1b7fcf855b7c/2026-05-21_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/edc0984a-64d1-4ffb-8302-1b7fcf855b7c/2026-05-21_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:00</itunes:duration>
     </item>
     <item>

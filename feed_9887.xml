@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Jeudi 27&amp;nbsp;août 2026&amp;nbsp;: Nathalie Petrowski, Hugo Dumas et Simon Coutu</title>
+      <description>&lt;p&gt;Nathalie Petrowski se «&amp;nbsp;contrefout&amp;nbsp;» du décès de Tim Curry. Hugo Dumas donne 10&amp;nbsp;raisons de regarder &lt;em&gt;La maison des vilains&lt;/em&gt;. Et Simon Coutu parle de son documentaire &lt;em&gt;Transpositions&lt;/em&gt;, dans lequel il se demande pourquoi la communauté trans dérange autant.&lt;/p&gt;</description>
+      <pubDate>Thu, 27 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/befa3631-ce1a-477e-a21d-029d1c80a3fc/2026-08-27_14_11_44_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/befa3631-ce1a-477e-a21d-029d1c80a3fc/2026-08-27_14_11_44_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>35:37</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 26 août 2026 : Paul Journet, Josée Boileau et Katherine Brulotte</title>
       <description>&lt;p&gt;Paul Journet et Josée Boileau se penchent sur le rôle d’Olivier Primeau dans la campagne caquiste. Et Katherine Brulotte parle de la réaction de Doug Ford aux tarifs de Trump.&lt;/p&gt;</description>
       <pubDate>Wed, 26 Aug 2026 18:30:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/c51969b7-bc52-43ec-ad12-cc0dd8bee997/2026-04-20_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c51969b7-bc52-43ec-ad12-cc0dd8bee997/2026-04-20_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Samedi 18 avr. 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Les caquistes rendent hommage à François Legault en chantant &lt;em&gt;Tout l’or des hommes&lt;/em&gt;, de Céline Dion, l’ancienne députée conservatrice et maintenant libérale Marilyn Gladu révèle qu’elle est désormais pro-choix, et le député conservateur Andrew Sheer fait un drôle de lapsus.&lt;/p&gt;</description>
-      <pubDate>Sat, 18 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2260cfba-1495-4b73-b5a7-e2902002efff/2026-04-17_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2260cfba-1495-4b73-b5a7-e2902002efff/2026-04-17_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>44:47</itunes:duration>
     </item>
   </channel>
 </rss>

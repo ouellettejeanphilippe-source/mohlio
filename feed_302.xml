@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Jeudi 27 août 2026 : Déclenchement des élections au Québec</title>
+      <description>&lt;p&gt;Le Québec entre aujourd&amp;#x27;hui en campagne électorale. C&amp;#x27;est ce matin que la première ministre, Christine Fréchette, va rencontrer la lieutenante-gouverneure. Les chefs des partis auront 39 jours pour sillonner la province et convaincre la population de voter pour leur formation politique. &lt;/p&gt;</description>
+      <pubDate>Thu, 27 Aug 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/15471c5f-8a50-45d4-b4a4-a935ae75bff8/2026-08-27_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/15471c5f-8a50-45d4-b4a4-a935ae75bff8/2026-08-27_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Lancement de la campagne électorale au Québec</title>
+      <description>&amp;lt;p&amp;gt;Le Québec entre aujourd'hui en campagne électorale. C'est ce matin que la première ministre, Christine Fréchette, va rencontrer la lieutenante-gouverneure. Les chefs des partis auront 39 jours pour sillonner la province et convaincre la population de voter pour leur formation politique. &amp;lt;/p&amp;gt;</description>
+      <pubDate>Thu, 27 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/c1bad1a6-8c16-4041-b4f4-9014afcc389f/2026-08-27_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/c1bad1a6-8c16-4041-b4f4-9014afcc389f/2026-08-27_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 26 août 2026 : La réplique canadienne se précise</title>
       <description>&lt;p&gt;Le Canada va répliquer, dollar pour dollar, aux droits de douane imposés par les États-Unis. Ottawa en a fait l&amp;#x27;annonce hier. Dès le 8 septembre, de nouveaux tarifs de 15 à 50 pour cent vont toucher une longue liste de produits américains importés au pays. Les secteurs visés sont sensiblement les mêmes que ceux touchés par les tarifs imposés par Washington.&lt;/p&gt;</description>
       <pubDate>Wed, 26 Aug 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/5a686e9c-d2e6-4fe5-870d-83ccbd7d9b14/2026-04-23_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/5a686e9c-d2e6-4fe5-870d-83ccbd7d9b14/2026-04-23_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:59</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 22 avril 2026 : Cabinet Fréchette : stabilité et renouveau</title>
-      <description>&lt;p&gt;La première ministre Christine Fréchette mise sur la stabilité et de nouveaux visages pour son cabinet de 29 ministres. Bernard Drainville et Ian Lafrenière obtiennent des promotions majeures, tandis que l’équipe se donne cinq mois pour agir sur l&amp;#x27;habitation et l&amp;#x27;économie avant les élections. Un virage pour rassembler après la chefferie.&lt;/p&gt;</description>
-      <pubDate>Wed, 22 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b2144955-7fde-4cb3-a83c-82793a044088/2026-04-22_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b2144955-7fde-4cb3-a83c-82793a044088/2026-04-22_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>Cabinet Fréchette : stabilité et renouveau</title>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/271e2990-eb9f-49f7-8a5a-51c63973f7e1/2024-11-22_05_43_34_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/271e2990-eb9f-49f7-8a5a-51c63973f7e1/2024-11-22_05_43_34_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:59</itunes:duration>
-    </item>
-    <item>
-      <title>François Legault se prépare à l'arrivée de Donald Trump</title>
-      <description>&amp;lt;p&amp;gt;Le Monde entier se prépare à un deuxième mandat Donald Trump à la Maison-Blanche. Il en a été question aujourd'hui au sommet du G20 au Brésil. Au Québec, le premier ministre s’inquiète. François Legault entrevoit certaines turbulences à venir en raison du penchant de Donald Trump pour les politiques tarifaires et sa volonté d’expulser des millions de sans-papier. Tout cela aura inévitablement un impact de notre côté de la frontière et le premier ministre du Québec veut s’y préparer. &amp;lt;/p&amp;gt;</description>
-      <pubDate>Wed, 20 Nov 2024 05:34:41 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d498fd8e-6b69-4119-b886-3ff99bef39ba/2024-11-20_05_34_41_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d498fd8e-6b69-4119-b886-3ff99bef39ba/2024-11-20_05_34_41_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
 </rss>
