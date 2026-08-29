@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>La CAQ aidée par la guerre commerciale, et une imitatrice de Dolly Parton à CNN</title>
+      <description/>
+      <pubDate>Fri, 28 Aug 2026 12:10:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/034e1471-708d-4713-862c-2973e79a76a9/2026-08-28_07_42_35_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/034e1471-708d-4713-862c-2973e79a76a9/2026-08-28_07_42_35_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>21:52</itunes:duration>
+    </item>
+    <item>
       <title>Maripier Morin signalée à la DPJ, et des cafards cyborgs à la rescousse</title>
       <description/>
       <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b8967ca-9a5e-4091-b135-f4fd682a2fe4/2026-05-01_08_17_14_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b8967ca-9a5e-4091-b135-f4fd682a2fe4/2026-05-01_08_17_14_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>20:52</itunes:duration>
-    </item>
-    <item>
-      <title>Un pont qui ne mène nulle part, et le boycottage exagéré d’une librairie à Québec</title>
-      <description/>
-      <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/87bde653-ecc6-4e74-a396-0164da48d9e2/2026-04-30_07_19_15_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/87bde653-ecc6-4e74-a396-0164da48d9e2/2026-04-30_07_19_15_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:52</itunes:duration>
     </item>
   </channel>
 </rss>

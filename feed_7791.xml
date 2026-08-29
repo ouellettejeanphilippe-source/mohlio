@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg"/>
     <item>
+      <title>Des insultes de Doug Ford, et le départ de Dolly Parton</title>
+      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Richardson Zéphir, Pascale de Blois et Patricia Paquin qui doivent répondre à des questions sur&amp;nbsp;: les insultes de Doug Ford, Bernard Drainville à Lévis, une offre spéciale de l&amp;#x27;armée américaine, les droits de douane, le départ de Dolly Parton, une nouvelle sorte de serpent et une activité qui fait fureur à Rome.&lt;/p&gt;</description>
+      <pubDate>Sat, 29 Aug 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7fba8c79-91b5-4875-9567-bd227c3d050d/2026-08-29_12_42_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7fba8c79-91b5-4875-9567-bd227c3d050d/2026-08-29_12_42_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:14</itunes:duration>
+    </item>
+    <item>
       <title>Le lancement de la 16e saison!</title>
       <description>&lt;p&gt;Votre jeu-questionnaire préféré revient en force pour une 16e saison tout aussi farfelue et drôle! Cette semaine, Pierre Brassard reçoit Patrice L’Ecuyer, Ariane Brunet et Antoine Vézina.&lt;/p&gt;</description>
       <pubDate>Sat, 22 Aug 2026 17:00:00 +0000</pubDate>
@@ -421,14 +429,6 @@
       <pubDate>Sat, 17 May 2025 17:00:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/56a571ca-fb11-4d25-8d56-e6fcf4ac6cfb/2025-05-17_12_20_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/56a571ca-fb11-4d25-8d56-e6fcf4ac6cfb/2025-05-17_12_20_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:15</itunes:duration>
-    </item>
-    <item>
-      <title>Momie autrichienne et E.T., l’extra-terrestre</title>
-      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Sonia Cordeau, Matthieu Pepper et Benoît McGinnis, qui doivent répondre à des questions sur : une infraction dans le métro de Paris, une momie d’Autriche, la contrefaçon chinoise, un prisonnier mystérieusement disparu, E.T., l’extra-terrestre, la fête des Mères et l’interdiction de manger des raviolis durant le conclave.&lt;/p&gt;</description>
-      <pubDate>Sat, 10 May 2025 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e577ac2c-5ddf-44c7-bbbb-0f7ad201d371/2025-05-10_12_23_00_repeterlaquestionwweb_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e577ac2c-5ddf-44c7-bbbb-0f7ad201d371/2025-05-10_12_23_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:15</itunes:duration>
     </item>
   </channel>

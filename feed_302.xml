@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Vendredi 28 août 2026 : La guerre commerciale s’invite dans les élections québécoises</title>
+      <description>&lt;p&gt;C&amp;#x27;est parti pour la campagne électorale au Québec. Les chefs, à bord de leur autocar, parcourent déjà les routes de la province. Les premières promesses ont été entendues, ainsi que les premières attaques. La guerre commerciale avec les États-Unis risque fort de teinter la campagne. &lt;/p&gt;</description>
+      <pubDate>Fri, 28 Aug 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ced36eb7-a1c6-4db3-b121-147d2e1fd173/2026-08-28_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ced36eb7-a1c6-4db3-b121-147d2e1fd173/2026-08-28_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>La guerre commerciale s'invite dans les élections québécoises</title>
+      <description>&amp;lt;p&amp;gt;C'est parti pour la campagne électorale au Québec. Les chefs, à bord de leur autocar, parcourent déjà les routes de la province. Les premières promesses ont été entendues, ainsi que les premières attaques. La guerre commerciale avec les États-Unis risque fort de teinter la campagne. &amp;lt;/p&amp;gt;</description>
+      <pubDate>Fri, 28 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/928242ad-afdb-4c8d-868d-af781202eea9/2026-08-28_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/928242ad-afdb-4c8d-868d-af781202eea9/2026-08-28_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Jeudi 27 août 2026 : Déclenchement des élections au Québec</title>
       <description>&lt;p&gt;Le Québec entre aujourd&amp;#x27;hui en campagne électorale. C&amp;#x27;est ce matin que la première ministre, Christine Fréchette, va rencontrer la lieutenante-gouverneure. Les chefs des partis auront 39 jours pour sillonner la province et convaincre la population de voter pour leur formation politique. &lt;/p&gt;</description>
       <pubDate>Thu, 27 Aug 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2fbcd2e2-52ef-4fd5-bd5b-724f8330f8f5/2026-04-24_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2fbcd2e2-52ef-4fd5-bd5b-724f8330f8f5/2026-04-24_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 23 avril 2026 : ACEUM : Ottawa refuse toute concession</title>
-      <description>&lt;p&gt;Ottawa rejette la demande de Washington de payer un &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;prix d&amp;#x27;entrée &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;prix d&amp;#x27;entrée &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;prix d&amp;#x27;entrée &lt;/span&gt;&lt;/q&gt; pour réviser l&amp;#x27;ACEUM. Les ministres LeBlanc et Champagne sont catégoriques : aucune concession préalable ne sera faite, malgré les pressions américaines sur le dossier de l&amp;#x27;alcool. Le Canada se prépare à défendre ses intérêts sans céder aux exigences préliminaire&lt;/p&gt;</description>
-      <pubDate>Thu, 23 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ed4e301a-cb1a-44c0-b390-613d82705d70/2026-04-23_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ed4e301a-cb1a-44c0-b390-613d82705d70/2026-04-23_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>ACEUM : Ottawa refuse toute concession</title>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1574e02a-523a-4a09-9620-d94727515bef/2024-11-25_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1574e02a-523a-4a09-9620-d94727515bef/2024-11-25_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Northvolt se place à l'abri de ses créanciers</title>
-      <description>&amp;lt;p&amp;gt;Quel avenir pour Northvolt au Canada? Le grand patron de la division nord-américaine de l’entreprise tente de se faire rassurant, mais le projet économique phare du gouvernement Legault, la pièce maîtresse de la filière batterie au Québec, est confronté à de sérieux vents de face. La société-mère manque de liquidité et l’entreprise a besoin de financement. Northvolt a même dû se placer à l'abri de ses créanciers aux États-Unis pour restructurer sa dette.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Fri, 22 Nov 2024 05:43:34 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/271e2990-eb9f-49f7-8a5a-51c63973f7e1/2024-11-22_05_43_34_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/271e2990-eb9f-49f7-8a5a-51c63973f7e1/2024-11-22_05_43_34_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:59</itunes:duration>
     </item>
   </channel>
 </rss>
