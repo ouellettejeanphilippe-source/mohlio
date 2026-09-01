@@ -11,6 +11,38 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Mardi 1 septembre 2026 : Balayage libéral dans les 3 élections partielles</title>
+      <description>&lt;p&gt;Le Parti libéral a raflé les trois élections partielles, hier, dont celle à Chicoutimi-Le Fjord. Les libéraux de Mark Carney ont été déclarés vainqueur avec un peu plus de 50 pour cent des voix. Une autre preuve de la confiance de la population canadienne, à l’endroit du premier ministre, dans la guerre commerciale face aux États-Unis &lt;/p&gt;</description>
+      <pubDate>Tue, 01 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c692fefc-fb13-44d3-a49b-6481d48d2162/2026-09-01_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c692fefc-fb13-44d3-a49b-6481d48d2162/2026-09-01_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Balayage libéral dans les 3 élections partielles</title>
+      <description>&amp;lt;p&amp;gt;Le Parti libéral a raflé les trois élections partielles, hier, dont celle à Chicoutimi-Le Fjord. Les libéraux de Mark Carney ont été déclarés vainqueur avec un peu plus de 50 pour cent des voix. Une autre preuve de la confiance de la population canadienne, à l’endroit du premier ministre, dans la guerre commerciale face aux États-Unis &amp;lt;/p&amp;gt;</description>
+      <pubDate>Tue, 01 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/f678600a-6765-43ae-9f45-483ca0d632f8/2026-09-01_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/f678600a-6765-43ae-9f45-483ca0d632f8/2026-09-01_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
+      <title>Lundi 31 août 2026: Cinquième jour de la campagne électorale au Québec</title>
+      <description>&lt;p&gt;Les chefs des partis politiques seront au quatre coins de la province pour tenter de charmer les électeurs en prévision du scrutin du 5 octobre. À 35 jours du jour j, ils mettent les bouchées doubles. Hier, les différentes formations politiques ont fait part des annonces concernant leurs engagements électoraux, au moment où la CAQ a présenté son cadre financier.&lt;/p&gt;</description>
+      <pubDate>Mon, 31 Aug 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/81e6a4f4-6e46-4cb8-9b45-ccb8b3b768ec/2026-08-31_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/81e6a4f4-6e46-4cb8-9b45-ccb8b3b768ec/2026-08-31_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Cinquième journée de la campagne électorale au Québec</title>
+      <description>&amp;lt;p&amp;gt;Les chefs des partis politiques seront au quatre coins de la province pour tenter de charmer les électeurs en prévision du scrutin du 5 octobre. À 35 jours du jour j, ils mettent les bouchées doubles. Hier, les différentes formations politiques ont fait part de différents engagements électoraux, au moment où la CAQ a présenté son cadre financier.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Mon, 31 Aug 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/a798568d-351f-490e-995e-e7959be9e619/2026-08-31_05_06_00_alaunebaladoexterne_0000_01.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/a798568d-351f-490e-995e-e7959be9e619/2026-08-31_05_06_00_alaunebaladoexterne_0000_01.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Vendredi 28 août 2026 : La guerre commerciale s’invite dans les élections québécoises</title>
       <description>&lt;p&gt;C&amp;#x27;est parti pour la campagne électorale au Québec. Les chefs, à bord de leur autocar, parcourent déjà les routes de la province. Les premières promesses ont été entendues, ainsi que les premières attaques. La guerre commerciale avec les États-Unis risque fort de teinter la campagne. &lt;/p&gt;</description>
       <pubDate>Fri, 28 Aug 2026 09:06:00 +0000</pubDate>
@@ -779,28 +811,12 @@
       <itunes:duration>00:22:59</itunes:duration>
     </item>
     <item>
-      <title>Lundi 27 avril 2026 : Tentative d’attentat contre Donald Trump</title>
-      <description>&lt;p&gt;Cole Thomas Allen, 31 ans, comparaît aujourd&amp;#x27;hui pour avoir tenté d&amp;#x27;attaquer le dîner des correspondants à Washington. Ciblant Donald Trump et des hauts responsables, il fait face à deux chefs d&amp;#x27;accusation. Le président a vivement réagi aux propos insultants trouvés dans le manifeste du tireur lors d&amp;#x27;une entrevue télévisée.&lt;/p&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d71e0a16-626b-4d7f-af0a-e1aedce3bbd5/2026-04-27_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d71e0a16-626b-4d7f-af0a-e1aedce3bbd5/2026-04-27_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
-    </item>
-    <item>
       <title>Tentative d’attentat contre Donald Trump</title>
       <description>&amp;lt;p&amp;gt;Cole Thomas Allen, 31 ans, comparaît aujourd'hui pour avoir tenté d'attaquer le dîner des correspondants à Washington. Ciblant Donald Trump et des hauts responsables, il fait face à deux chefs d'accusation. Le président a vivement réagi aux propos insultants trouvés dans le manifeste du tireur lors d'une entrevue télévisée.&amp;lt;/p&amp;gt;</description>
       <pubDate>Mon, 27 Apr 2026 05:06:00 -0400</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1fed6e5e-3a41-4e95-bbd5-39e591aba18d/2026-04-27_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1fed6e5e-3a41-4e95-bbd5-39e591aba18d/2026-04-27_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Vendredi 24 avril 2026 : Accord avec les médecins spécialistes</title>
-      <description>&lt;p&gt;Les médecins spécialistes acceptent à 86 % l’entente avec Québec, mettant fin à trois ans de tensions. L&amp;#x27;accord prévoit une hausse salariale de 9 à 11 %, conditionnée à l&amp;#x27;atteinte de cibles d&amp;#x27;accès aux soins et chirurgies. La première ministre Christine Fréchette se réjouit de ce tournant majeur pour le réseau de la santé.&lt;/p&gt;</description>
-      <pubDate>Fri, 24 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/61b41a65-81ec-4995-a078-982894737398/2026-04-24_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/61b41a65-81ec-4995-a078-982894737398/2026-04-24_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>Accord avec les médecins spécialistes</title>
@@ -3192,22 +3208,6 @@
       <pubDate>Wed, 27 Nov 2024 05:06:00 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2f9b1a18-13bb-44a0-bd47-ce38c2dcf766/2024-11-27_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2f9b1a18-13bb-44a0-bd47-ce38c2dcf766/2024-11-27_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Donald Trump veut des tarifs de 25 % sur tout</title>
-      <description>&amp;lt;p&amp;gt;Une annonce majeure de Donald Trump qui pourrait avoir des conséquences importantes sur notre économie : le président désigné veut imposer des tarifs douaniers de 25 % pour tous les produits entrant aux États-Unis en provenance du Canada et du Mexique, dès son entrée en poste.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Tue, 26 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1946517d-3f87-413f-a6da-88a205ec8645/2024-11-26_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1946517d-3f87-413f-a6da-88a205ec8645/2024-11-26_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
-    </item>
-    <item>
-      <title>Données inquiétantes de l'ONU sur les féminicides</title>
-      <description>&amp;lt;p&amp;gt;L'ONU publie des données inquiétantes sur les féminicides. Selon l'organisation, au moins 85 000 femmes et jeunes filles ont été tuées de manière intentionnelle dans le monde l'an passé. &amp;lt;/p&amp;gt;</description>
-      <pubDate>Mon, 25 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1574e02a-523a-4a09-9620-d94727515bef/2024-11-25_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1574e02a-523a-4a09-9620-d94727515bef/2024-11-25_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>

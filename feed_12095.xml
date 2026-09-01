@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Des roches en plastique à Saskatoon, et la meilleure nourriture des arénas de la LNH</title>
+      <description/>
+      <pubDate>Tue, 01 Sep 2026 12:45:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/840ea5d3-e0c6-4336-8629-4df9d0b227c3/2026-09-01_08_12_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/840ea5d3-e0c6-4336-8629-4df9d0b227c3/2026-09-01_08_12_51_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>27:31</itunes:duration>
+    </item>
+    <item>
+      <title>Un influenceur de droite détenu par ICE, et un déversement de poudre de Kraft Dinner </title>
+      <description/>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ba026a17-cac4-4e34-a9c9-bc92796f783d/2026-08-31_07_26_09_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ba026a17-cac4-4e34-a9c9-bc92796f783d/2026-08-31_07_26_09_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>22:55</itunes:duration>
+    </item>
+    <item>
       <title>La CAQ aidée par la guerre commerciale, et une imitatrice de Dolly Parton à CNN</title>
       <description/>
       <pubDate>Fri, 28 Aug 2026 12:10:00 +0000</pubDate>
@@ -393,22 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/149a2636-913a-4a81-8fa9-54ed2e62ef63/2026-05-05_07_25_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/149a2636-913a-4a81-8fa9-54ed2e62ef63/2026-05-05_07_25_40_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:33</itunes:duration>
-    </item>
-    <item>
-      <title>Des stations-service cancérigènes pour les enfants, et la liberté de presse en péril</title>
-      <description/>
-      <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a497cf6a-3254-47fc-94e1-2ee7a08b0fbd/2026-05-04_07_34_42_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a497cf6a-3254-47fc-94e1-2ee7a08b0fbd/2026-05-04_07_34_42_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:21</itunes:duration>
-    </item>
-    <item>
-      <title>Une loi sur l’IA rédigée par l’IA, et la possible candidature de Tucker Carlson</title>
-      <description/>
-      <pubDate>Fri, 01 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b8967ca-9a5e-4091-b135-f4fd682a2fe4/2026-05-01_08_17_14_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b8967ca-9a5e-4091-b135-f4fd682a2fe4/2026-05-01_08_17_14_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>20:52</itunes:duration>
     </item>
   </channel>
 </rss>

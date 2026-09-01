@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Mardi 1er sept. 2026 : David Thibodeau et Karine Gagnon</title>
+      <description>&lt;p&gt;Olivier parle de l’élection partielle dans Chicoutimi—Le Fjord. David Thibodeau nous apprend qu&amp;#x27;un lac en Colombie-Britannique est apparu, puis disparu. Et Karine Gagnon s’intéresse à la popularité du Parti conservateur et à la remontée de la CAQ dans les intentions de vote à Québec.&lt;/p&gt;</description>
+      <pubDate>Tue, 01 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6a3f03d6-b614-416f-990f-419efdcff941/2026-09-01_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6a3f03d6-b614-416f-990f-419efdcff941/2026-09-01_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>29:29</itunes:duration>
+    </item>
+    <item>
+      <title>Lundi 31 août 2026 : Alec Castonguay et Louis Blouin </title>
+      <description>&lt;p&gt;Louis Blouin parle de ses rencontres avec des agriculteurs et agricultrices des États-Unis. Et Alec Castonguay se rappelle ses années à couvrir la campagne électorale sur le terrain.&lt;/p&gt;</description>
+      <pubDate>Mon, 31 Aug 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/68182b3c-e760-4361-9afa-f29d332ab8e2/2026-08-31_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/68182b3c-e760-4361-9afa-f29d332ab8e2/2026-08-31_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>34:24</itunes:duration>
+    </item>
+    <item>
       <title>Samedi 29 août 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Des interprètes traduisent de toutes sortes de façons le message de Doug Ford à Donald Trump&amp;nbsp;: &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;I have a lot of real estate on my ass, so he has a lot of room to kiss my ass&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;I have a lot of real estate on my ass, so he has a lot of room to kiss my ass&amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;&lt;em&gt;I have a lot of real estate on my ass, so he has a lot of room to kiss my ass.&lt;/em&gt;&lt;/span&gt;&lt;/q&gt; Olivier lit un poème que Mathieu Bock-Côté a dédié à Dimitri Soudas. Et Charles Milliard veut encore des études sur le troisième lien.&lt;/p&gt;</description>
       <pubDate>Sat, 29 Aug 2026 11:00:00 +0000</pubDate>
@@ -401,22 +417,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/b6be3098-749b-4829-b6ef-3f27c0889e22/2026-04-24_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b6be3098-749b-4829-b6ef-3f27c0889e22/2026-04-24_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 23 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Benoît Heppell</title>
-      <description>&lt;p&gt;Le Dr Benoît Heppell nous dit si le Coke diète est mauvais pour la santé. Nathalie Petrowski explique pourquoi il faut regarder la série américaine &lt;em&gt;DTF St-Louis&lt;/em&gt;. Et Hugo Dumas parle d’&lt;em&gt;Indéfendable&lt;/em&gt;.&lt;/p&gt;</description>
-      <pubDate>Thu, 23 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c644a8cd-0900-4843-8413-742cbee1dfbf/2026-04-23_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c644a8cd-0900-4843-8413-742cbee1dfbf/2026-04-23_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 22 avr. 2026 : Jean-Sébastien Girard, Josée Boileau et Paul Journet</title>
-      <description>&lt;p&gt;Une lectrice de nouvelles se trompe de nom lorsqu’elle nomme la nouvelle première ministre du Québec. Et Paul Journet et Josée Boileau commentent le nouveau Conseil des ministres et les sondages.&lt;/p&gt;</description>
-      <pubDate>Wed, 22 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/803a2c6d-f8ac-4b33-aeff-c6d5c3ea00d0/2026-04-22_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/803a2c6d-f8ac-4b33-aeff-c6d5c3ea00d0/2026-04-22_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
     </item>
   </channel>
 </rss>
