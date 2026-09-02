@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Des candidats électoraux dans l’eau chaude, et un tueur en série de hamsters</title>
+      <description/>
+      <pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5eab9a48-0c6f-4f9f-9e20-ef73634193cf/2026-09-02_08_09_31_olivierniquet247enjaquetteohdio_0001_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5eab9a48-0c6f-4f9f-9e20-ef73634193cf/2026-09-02_08_09_31_olivierniquet247enjaquetteohdio_0001_master.m3u8?v=2</guid>
+      <itunes:duration>22:47</itunes:duration>
+    </item>
+    <item>
       <title>Des roches en plastique à Saskatoon, et la meilleure nourriture des arénas de la LNH</title>
       <description/>
       <pubDate>Tue, 01 Sep 2026 12:45:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/72166050-522b-4d1b-a51a-85addddf1250/2026-05-06_07_41_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/72166050-522b-4d1b-a51a-85addddf1250/2026-05-06_07_41_49_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>20:17</itunes:duration>
-    </item>
-    <item>
-      <title>Le télétravail moins accessible pour les femmes, et le fétichisme de pied dans le jeu &lt;em&gt;Clash of Clans&lt;/em&gt;</title>
-      <description/>
-      <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/149a2636-913a-4a81-8fa9-54ed2e62ef63/2026-05-05_07_25_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/149a2636-913a-4a81-8fa9-54ed2e62ef63/2026-05-05_07_25_40_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:33</itunes:duration>
     </item>
   </channel>
 </rss>

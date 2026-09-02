@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Mercredi 2 septembre 2026 : Appel au vote stratégique</title>
+      <description>&lt;p&gt;Même si la campagne électorale au Québec n’est qu’à sa septième journée aujourd&amp;#x27;hui, la cheffe de la CAQ lance déjà un appel au vote stratégique. Christine Fréchette invite les libéraux déçus par Charles Milliard à voter pour sa formation politique lors du scrutin du 5 octobre prochain. &lt;/p&gt;</description>
+      <pubDate>Wed, 02 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/12284d52-b576-4d3d-b843-e4aeb22fc385/2026-09-02_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/12284d52-b576-4d3d-b843-e4aeb22fc385/2026-09-02_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Christine Fréchette appelle au vote stratégique</title>
+      <description>&amp;lt;p&amp;gt;Même si la campagne électorale n’est qu’à sa septième journée aujourd'hui, la cheffe de la CAQ lance déjà un appel au vote stratégique. Christine Fréchette invite les libéraux déçus par Charles Milliard à voter pour sa formation politique lors du scrutin du 5 octobre prochain.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Wed, 02 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8e5d300d-55bd-4eae-a531-cb262fd7c939/2026-09-02_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/8e5d300d-55bd-4eae-a531-cb262fd7c939/2026-09-02_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 1 septembre 2026 : Balayage libéral dans les 3 élections partielles</title>
       <description>&lt;p&gt;Le Parti libéral a raflé les trois élections partielles, hier, dont celle à Chicoutimi-Le Fjord. Les libéraux de Mark Carney ont été déclarés vainqueur avec un peu plus de 50 pour cent des voix. Une autre preuve de la confiance de la population canadienne, à l’endroit du premier ministre, dans la guerre commerciale face aux États-Unis &lt;/p&gt;</description>
       <pubDate>Tue, 01 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d0bbeded-7d24-4dbf-9ecb-e0f50f2a7e85/2026-04-29_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d0bbeded-7d24-4dbf-9ecb-e0f50f2a7e85/2026-04-29_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:59</itunes:duration>
-    </item>
-    <item>
-      <title>Mardi 28 avril 2026 :&amp;nbsp;Mark Carney prévoit un déficit moindre</title>
-      <description>&lt;p&gt;Le gouvernement de Mark Carney présente sa mise à jour économique, marquée par un déficit inférieur aux prévisions. Ottawa annonce également la création du &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Fonds pour un Canada fort &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Fonds pour un Canada fort &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;Fonds pour un Canada fort &lt;/span&gt;&lt;/q&gt;, doté de 25 milliards de dollars pour financer de grands projets d&amp;#x27;infrastructure et d&amp;#x27;énergie, tout en misant sur la formation des jeunes aux métiers techniques.&lt;/p&gt;</description>
-      <pubDate>Tue, 28 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c9537271-7d6f-4d3b-b985-89925d0bba88/2026-04-28_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c9537271-7d6f-4d3b-b985-89925d0bba88/2026-04-28_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>Mark Carney prévoit un déficit moindre</title>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/714b13de-d855-417b-9974-1ac24fe87fd2/2024-11-28_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/714b13de-d855-417b-9974-1ac24fe87fd2/2024-11-28_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:56</itunes:duration>
-    </item>
-    <item>
-      <title>Manque de personnel dans les écoles</title>
-      <description>&amp;lt;p&amp;gt;Trois mois après le début des classes, le manque de personnel se fait toujours sentir dans les écoles du Québec. Selon les plus récentes données du ministère de l’Éducation, il reste encore 4000 postes d'enseignants à combler.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Wed, 27 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2f9b1a18-13bb-44a0-bd47-ce38c2dcf766/2024-11-27_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2f9b1a18-13bb-44a0-bd47-ce38c2dcf766/2024-11-27_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:57</itunes:duration>
     </item>
   </channel>
 </rss>
