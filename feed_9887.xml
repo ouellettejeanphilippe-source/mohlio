@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Jeudi 3 sept. 2026 : Nathalie Petrowski, Hugo Dumas et Véronique Prince</title>
+      <description>&lt;p&gt;Bernard Drainville est très fâché contre Trump. Véronique Prince parle des partis politiques qui déterrent des secrets de leurs adversaires. Nathalie Petrowski nous dit pourquoi regarder &lt;em&gt;Antigang&lt;/em&gt;. Et Hugo Dumas détruit l’émission de réno de Caroline Néron. &lt;/p&gt;</description>
+      <pubDate>Thu, 03 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/367c4bc6-3927-4c31-a420-a321c29a83cf/2026-09-03_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/367c4bc6-3927-4c31-a420-a321c29a83cf/2026-09-03_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>30:17</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 2 sept. 2026 : Simon-Olivier Lorange et Benoit Clermont</title>
       <description>&lt;p&gt;Simon-Olivier Lorange parle du camp des recrues et du Tournoi de golf des Canadiens. Et Benoit Clermont explique pourquoi il a quitté le milieu de la télé pour se lancer en politique avec le PLQ.&lt;/p&gt;</description>
       <pubDate>Wed, 02 Sep 2026 18:30:00 +0000</pubDate>
@@ -409,14 +417,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/2916ad1e-6fa5-4da5-b84e-27c305483a51/2026-04-27_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2916ad1e-6fa5-4da5-b84e-27c305483a51/2026-04-27_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Samedi 25 avr. 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Martin St-Louis explique que les joueurs du Canadien doivent prendre soin de la rondelle pour gagner; la nouvelle ministre de l’Environnement, Pascale Déry, parle de sa priorité&amp;nbsp;: réduire la bureaucratie; et Mark Carney présente une de ses figurines.&lt;/p&gt;</description>
-      <pubDate>Sat, 25 Apr 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cd7a9101-c9a9-4756-8733-592704dd93b9/2026-04-24_14_35_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cd7a9101-c9a9-4756-8733-592704dd93b9/2026-04-24_14_35_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>37:45</itunes:duration>
     </item>
   </channel>
 </rss>

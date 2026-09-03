@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Jeudi 3 septembre 2026 - Campagne électorale au Québec : La taille de l’État</title>
+      <description>&lt;p&gt;Le thème de la réduction de la taille de l&amp;#x27;État s&amp;#x27;est de nouveau imposé dans la campagne électorale au Québec. Après le Parti québécois, c&amp;#x27;était au tout de Christine Fréchette de promettre de faire le ménage dans la fonction publique.&lt;/p&gt;</description>
+      <pubDate>Thu, 03 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/00990d01-ff7e-418b-87ad-87ad03de6694/2026-09-03_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/00990d01-ff7e-418b-87ad-87ad03de6694/2026-09-03_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Campagne électorale au Québec : La taille de l'État</title>
+      <description>&amp;lt;p&amp;gt;Le thème de la réduction de la taille de l'État s'est de nouveau imposé dans la campagne électorale au Québec. Après le Parti québécois, c'était au tout de Christine Fréchette de promettre de faire le ménage dans la fonction publique.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Thu, 03 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2393891b-6332-47e1-8145-d64f3b790a06/2026-09-03_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2393891b-6332-47e1-8145-d64f3b790a06/2026-09-03_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 2 septembre 2026 : Appel au vote stratégique</title>
       <description>&lt;p&gt;Même si la campagne électorale au Québec n’est qu’à sa septième journée aujourd&amp;#x27;hui, la cheffe de la CAQ lance déjà un appel au vote stratégique. Christine Fréchette invite les libéraux déçus par Charles Milliard à voter pour sa formation politique lors du scrutin du 5 octobre prochain. &lt;/p&gt;</description>
       <pubDate>Wed, 02 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1b1c4493-5589-4e5f-bb00-7be74704ec8f/2026-04-30_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/1b1c4493-5589-4e5f-bb00-7be74704ec8f/2026-04-30_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:59</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 29 avril 2026 :&amp;nbsp;L’énoncé économique du gouvernement Carney</title>
-      <description>&lt;p&gt;Un an après son élection, le gouvernement Carney dévoile sa mise à jour économique. Avec un déficit réduit à 67 milliards, l&amp;#x27;État priorise la formation des jeunes et la main-d&amp;#x27;œuvre spécialisée. Le plan prévoit aussi 755 millions pour le sport, une mesure attendue par les athlètes, malgré les critiques vives de l&amp;#x27;opposition.&lt;/p&gt;</description>
-      <pubDate>Wed, 29 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f5e0c6a6-5a34-454f-9ce4-0437d110e38b/2026-04-29_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f5e0c6a6-5a34-454f-9ce4-0437d110e38b/2026-04-29_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>L'énoncé économique du gouvernement Carney</title>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/52db46ec-8e48-43e2-bc6c-4a7ca0c488c6/2024-11-29_05_38_21_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/52db46ec-8e48-43e2-bc6c-4a7ca0c488c6/2024-11-29_05_38_21_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Front commun au Canada pour faire face aux tarifs de Trump</title>
-      <description>&amp;lt;p&amp;gt;Ottawa et les provinces cherchent à établir un front commun pour faire face à la menace de Donald Trump d'imposer des tarifs douaniers de 25% sur toutes les exportations canadiennes. L’important pour Justin Trudeau était de profiter de cette rencontre pour envoyer le message que le Canada en entier et uni pour convaincre le président désigné qu’il n’a pas besoin d’imposer une telle barrière tarifaire sur les produits canadiens. &amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 28 Nov 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/714b13de-d855-417b-9974-1ac24fe87fd2/2024-11-28_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/714b13de-d855-417b-9974-1ac24fe87fd2/2024-11-28_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:56</itunes:duration>
     </item>
   </channel>
 </rss>

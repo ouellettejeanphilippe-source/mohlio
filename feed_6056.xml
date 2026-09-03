@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg"/>
     <item>
+      <title>Mercredi 2 sept. 2026&amp;nbsp;: Les secrets de l’univers invisible, et l’inexistence d’un médicament contre l’alcoolisme</title>
+      <description>&lt;p&gt;L&amp;#x27;absence du concept de futur; le mystère des 95&amp;nbsp;% de notre univers invisibles à nos yeux; les défis de la recherche d&amp;#x27;un traitement médical pour contrer la dépendance à l’alcool; et les origines culturelles, biologiques ou physiologiques des variations de l&amp;#x27;heure du souper selon les pays.&lt;/p&gt;</description>
+      <pubDate>Wed, 02 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/005cf2fc-d751-4095-b3d6-c6ae93a03949/2026-09-02_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/005cf2fc-d751-4095-b3d6-c6ae93a03949/2026-09-02_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:00</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 1 sept. 2026 : La recette des cerises au marasquin, et la conscience de ses propres rêves</title>
       <description>&lt;p&gt;L&amp;#x27;activité cérébrale lors de l&amp;#x27;endormissement et la conscience des rêves; la méthode mystérieuse de fabrication des cerises au marasquin; les raisons expliquant le meilleur goût des légumes cultivés en potager; la détection des menaces par le cerveau et le rôle du langage dans ce processus.&lt;/p&gt;</description>
       <pubDate>Tue, 01 Sep 2026 23:06:00 +0000</pubDate>
@@ -259,14 +267,6 @@
       <itunes:duration>53:00</itunes:duration>
     </item>
     <item>
-      <title>Le gras que l’on perd, et les changements climatiques qui modifient nos vacances</title>
-      <description>&amp;lt;p&amp;gt;Michaël Sage observe ce qu’il advient de notre masse graisseuse lorsqu’on perd du poids; Alexandre Shields regarde si les changements climatiques sont appelés à modifier nos destinations de vacances; Alexis Achim vérifie si certains hêtres peuvent résister à la maladie corticale qui les touche; et Ryoa Chung explique pourquoi la philosophie et la science ne sont plus les meilleurs amis du monde.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 04 Jun 2026 14:00:18 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/7d809c71-6574-4f45-a6bc-bc89ac0c69e0/2026-06-04_14_00_18_moteurderecherchebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/7d809c71-6574-4f45-a6bc-bc89ac0c69e0/2026-06-04_14_00_18_moteurderecherchebalado_0000.mp3?v=2</guid>
-      <itunes:duration>00:53:09</itunes:duration>
-    </item>
-    <item>
       <title>Mercredi 3 juin 2026 : Le gras que l’on perd, et les changements climatiques qui modifient nos vacances</title>
       <description>&lt;p&gt;Michaël Sage observe ce qu’il advient de notre masse graisseuse lorsqu’on perd du poids; Alexandre Shields regarde si les changements climatiques sont appelés à modifier nos destinations de vacances; Alexis Achim vérifie si certains hêtres peuvent résister à la maladie corticale qui les touche; et Ryoa Chung explique pourquoi la philosophie et la science ne sont plus les meilleurs amis du monde.&lt;/p&gt;</description>
       <pubDate>Wed, 03 Jun 2026 23:06:00 +0000</pubDate>
@@ -288,14 +288,6 @@
       <pubDate>Mon, 01 Jun 2026 23:06:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/a6fa7212-1ff6-4523-868d-e3a9c2d72928/2026-06-01_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a6fa7212-1ff6-4523-868d-e3a9c2d72928/2026-06-01_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 28 mai 2026&amp;nbsp;: L’utilité scientifique d’un cadavre, et la peinture des voitures</title>
-      <description>&lt;p&gt;Audrey-Anne Leblanc détaille les divers usages d’un cadavre; Stéphane Garneau se penche sur l’évolution de la peinture des voitures; Martin Lavallière explique comment sont calibrées les ceintures de sécurité dans une automobile; et Zoé Joly-Lopez définit le sexe des plantes.&lt;/p&gt;</description>
-      <pubDate>Thu, 28 May 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/00ec721b-a887-49b2-9320-56b0a4a5fc7b/2026-05-28_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/00ec721b-a887-49b2-9320-56b0a4a5fc7b/2026-05-28_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:00</itunes:duration>
     </item>
     <item>
