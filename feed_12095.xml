@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Le marché florissant des couches pour adultes, et les bizarreries des prix «&amp;nbsp;anti-Nobel&amp;nbsp;»</title>
+      <description/>
+      <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fe311560-415f-40eb-be3b-980e86ca6257/2026-09-04_07_32_13_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fe311560-415f-40eb-be3b-980e86ca6257/2026-09-04_07_32_13_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>22:34</itunes:duration>
+    </item>
+    <item>
       <title>La fin du monde selon JD Vance, et des cahiers Canada sans Terre-Neuve</title>
       <description/>
       <pubDate>Thu, 03 Sep 2026 12:10:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/a6372aa3-28f5-4444-89e8-6f70e72b4faf/2026-05-08_07_35_46_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a6372aa3-28f5-4444-89e8-6f70e72b4faf/2026-05-08_07_35_46_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:43</itunes:duration>
-    </item>
-    <item>
-      <title>Une étude bidon publiée dans un grand magazine, et un conducteur fonce dans un faux-tunnel</title>
-      <description/>
-      <pubDate>Thu, 07 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1d80d924-5530-4a9c-bf9f-be14c82f8f0c/2026-05-07_07_54_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1d80d924-5530-4a9c-bf9f-be14c82f8f0c/2026-05-07_07_54_58_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:30</itunes:duration>
     </item>
   </channel>
 </rss>

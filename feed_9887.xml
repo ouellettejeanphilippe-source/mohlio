@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Samedi 5 sept. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Le candidat libéral Michel Bureau affirme qu’il est un &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;libéral péquiste &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;libéral péquiste &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;libéral péquiste&lt;/span&gt;&lt;/q&gt;; Bernard Drainville est très très fâché contre Donald Trump; et la chicane est pogné à Saint-Pie en Montérégie&amp;nbsp;: des graffitis sont apparus sur la cabane à sucre du maire.&lt;/p&gt;</description>
+      <pubDate>Sat, 05 Sep 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0bf24cda-ed8d-454d-a990-a77caf75e3c8/2026-09-05_07_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0bf24cda-ed8d-454d-a990-a77caf75e3c8/2026-09-05_07_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>41:29</itunes:duration>
+    </item>
+    <item>
+      <title>Vendredi 4 sept. 2026 : Pierre Brassard et Josée Legault</title>
+      <description>&lt;p&gt;Josée Legault se rappelle l’élection de Brian Mulroney, il y a 40 ans, et l’élection de Pauline Marois, il y a 14 ans. Et Pierre Brassard raconte un moment tendre à l’épicerie.&lt;/p&gt;</description>
+      <pubDate>Fri, 04 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a2c67189-67ff-41ee-b38d-b0ca444604cf/2026-09-04_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a2c67189-67ff-41ee-b38d-b0ca444604cf/2026-09-04_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>37:22</itunes:duration>
+    </item>
+    <item>
       <title>Jeudi 3 sept. 2026 : Nathalie Petrowski, Hugo Dumas et Véronique Prince</title>
       <description>&lt;p&gt;Bernard Drainville est très fâché contre Trump. Véronique Prince parle des partis politiques qui déterrent des secrets de leurs adversaires. Nathalie Petrowski nous dit pourquoi regarder &lt;em&gt;Antigang&lt;/em&gt;. Et Hugo Dumas détruit l’émission de réno de Caroline Néron. &lt;/p&gt;</description>
       <pubDate>Thu, 03 Sep 2026 18:30:00 +0000</pubDate>
@@ -400,22 +416,6 @@
       <pubDate>Wed, 29 Apr 2026 18:28:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d074b19-44dc-4d40-9396-4b22b40aed29/2026-04-29_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9d074b19-44dc-4d40-9396-4b22b40aed29/2026-04-29_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Mardi 28 avr. 2026 : François Létourneau et Marc Cassivi</title>
-      <description>&lt;p&gt;François-Philippe Champagne est très excité par l&amp;#x27;annonce du fonds souverain. Et Marc Cassivi anime une discussion sur la trilogie Batman, de Christopher Nolan, à laquelle participe François Létourneau.&lt;/p&gt;</description>
-      <pubDate>Tue, 28 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6c6f9f64-029f-4ab9-8f41-95b6bbbba459/2026-04-28_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6c6f9f64-029f-4ab9-8f41-95b6bbbba459/2026-04-28_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Lundi 27 avr. 2026 : Alexandre Boulerice et Louis T </title>
-      <description>&lt;p&gt;Olivier s’intéresse au mouvement de protestation contre le projet d’usine d’hydrogène en Mauricie. Alexandre Boulerice défend sa position indépendantiste. Et Louis T parle des trois tentatives d’assassinat sur Donald Trump. &lt;/p&gt;</description>
-      <pubDate>Mon, 27 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2916ad1e-6fa5-4da5-b84e-27c305483a51/2026-04-27_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2916ad1e-6fa5-4da5-b84e-27c305483a51/2026-04-27_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
   </channel>

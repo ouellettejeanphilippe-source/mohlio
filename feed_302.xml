@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Vendredi 4 septembre 2026 : Les aînés dans la mire des candidats</title>
+      <description>&lt;p&gt;Au huitième jour de la campagne électorale au Québec, les aînés ont été courtisés par les différents partis politiques.&lt;/p&gt;</description>
+      <pubDate>Fri, 04 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/48fbf3d8-fec1-408b-b7f3-2f483ee8f446/2026-09-04_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/48fbf3d8-fec1-408b-b7f3-2f483ee8f446/2026-09-04_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Les aînés dans la mire des candidats</title>
+      <description>&amp;lt;p&amp;gt;Au huitième jour de la campagne électorale au Québec, les aînés ont été courtisés par les différents partis politiques.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Fri, 04 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/6dc7f324-4685-4e69-82d0-f689a75a2741/2026-09-04_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/6dc7f324-4685-4e69-82d0-f689a75a2741/2026-09-04_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:21:07</itunes:duration>
+    </item>
+    <item>
       <title>Jeudi 3 septembre 2026 - Campagne électorale au Québec : La taille de l’État</title>
       <description>&lt;p&gt;Le thème de la réduction de la taille de l&amp;#x27;État s&amp;#x27;est de nouveau imposé dans la campagne électorale au Québec. Après le Parti québécois, c&amp;#x27;était au tout de Christine Fréchette de promettre de faire le ménage dans la fonction publique.&lt;/p&gt;</description>
       <pubDate>Thu, 03 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/076cfa67-cac7-4a0e-b104-3dde7f9f598e/2026-05-01_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/076cfa67-cac7-4a0e-b104-3dde7f9f598e/2026-05-01_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:59</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 30 avril 2026 : La Banque de la défense s’établit au Canada</title>
-      <description>&lt;p&gt;Le Canada accueillera le siège de la nouvelle Banque de la défense, de la sécurité et de la résilience. Cette institution internationale financera l&amp;#x27;innovation militaire et aidera les pays de l&amp;#x27;OTAN à atteindre leurs objectifs. Plusieurs métropoles, dont Montréal et Toronto, se disputent déjà l&amp;#x27;obtention de ce siège stratégique.&lt;/p&gt;</description>
-      <pubDate>Thu, 30 Apr 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ddd5cb12-8022-43fa-a1ff-ae62736f6693/2026-04-30_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ddd5cb12-8022-43fa-a1ff-ae62736f6693/2026-04-30_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>La Banque de la défense s'établit au Canada</title>
@@ -3200,14 +3208,6 @@
       <pubDate>Mon, 02 Dec 2024 05:06:00 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/462e01bd-091f-4e74-b8d2-e2147d44bc8f/2024-12-02_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/462e01bd-091f-4e74-b8d2-e2147d44bc8f/2024-12-02_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Le projet de loi sur le congé de TPS adopté</title>
-      <description>&amp;lt;p&amp;gt;Le projet de loi visant à créer un congé de deux mois de TPS a été adopté hier soir à la Chambre des communes. L’adoption s’est faite sans l'appui du parti conservateur, ni celui du Bloc québécois. Mais les libéraux ont pu compter sur l’appui du NPD pour obtenir une majorité. Cette réduction de taxe qu’offre le gouvernement Trudeau à tous les Canadiens entrera en vigueur dans deux semaines.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Fri, 29 Nov 2024 05:38:21 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/52db46ec-8e48-43e2-bc6c-4a7ca0c488c6/2024-11-29_05_38_21_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/52db46ec-8e48-43e2-bc6c-4a7ca0c488c6/2024-11-29_05_38_21_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
