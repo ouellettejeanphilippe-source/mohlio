@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Les Hells Angels utilisent aussi l’IA, et Éric Duhaime a changé de prénom</title>
+      <description/>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d424a755-2e3b-4685-9984-a363f82e29bc/2026-09-07_07_41_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d424a755-2e3b-4685-9984-a363f82e29bc/2026-09-07_07_41_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>25:44</itunes:duration>
+    </item>
+    <item>
       <title>Le marché florissant des couches pour adultes, et les bizarreries des prix «&amp;nbsp;anti-Nobel&amp;nbsp;»</title>
       <description/>
       <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/f46abb00-f37d-4a9a-9c9e-2ca3435daf25/2026-05-11_07_33_17_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f46abb00-f37d-4a9a-9c9e-2ca3435daf25/2026-05-11_07_33_17_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>25:18</itunes:duration>
-    </item>
-    <item>
-      <title>Ce qu’il faut savoir sur le Hantavirus, et le Québec-&lt;em&gt;bashing &lt;/em&gt;en augmentation en ligne</title>
-      <description/>
-      <pubDate>Fri, 08 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a6372aa3-28f5-4444-89e8-6f70e72b4faf/2026-05-08_07_35_46_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a6372aa3-28f5-4444-89e8-6f70e72b4faf/2026-05-08_07_35_46_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:43</itunes:duration>
     </item>
   </channel>
 </rss>

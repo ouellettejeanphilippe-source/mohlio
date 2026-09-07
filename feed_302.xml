@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Lundi 7 septembre 2026 - Tarifs : réunion des ministres à Québec</title>
+      <description>&lt;p&gt;C&amp;#x27;est ce soir à minuit qu&amp;#x27;entreront en vigueur les contre-tarifs sur plusieurs produits américains. La cheffe de la CAQ, Christine Fréchette, remet son chapeau de première ministre et convoque son conseil des ministres québécois en pleine campagne électorale.&lt;/p&gt;</description>
+      <pubDate>Mon, 07 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/25ff7b41-479d-45fa-b6b2-d9d2f3b1eb3e/2026-09-07_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/25ff7b41-479d-45fa-b6b2-d9d2f3b1eb3e/2026-09-07_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Tarifs : réunion des ministres à Québec</title>
+      <description>&amp;lt;p&amp;gt;C'est ce soir à minuit qu'entreront en vigueur les contre-tarifs sur plusieurs produits américains. La cheffe de la CAQ, Christine Fréchette, remet son chapeau de première ministre et convoque son conseil des ministres québécois en pleine campagne électorale.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Mon, 07 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/82884dc6-c002-49d7-8840-1ece0520a8a5/2026-09-07_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/82884dc6-c002-49d7-8840-1ece0520a8a5/2026-09-07_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Vendredi 4 septembre 2026 : Les aînés dans la mire des candidats</title>
       <description>&lt;p&gt;Au huitième jour de la campagne électorale au Québec, les aînés ont été courtisés par les différents partis politiques.&lt;/p&gt;</description>
       <pubDate>Fri, 04 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/ab3ff190-1ddc-4dbb-8c7c-11dea747baf9/2026-05-04_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/ab3ff190-1ddc-4dbb-8c7c-11dea747baf9/2026-05-04_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Vendredi 1 mai 2026 :&amp;nbsp;L’essence atteint des sommets au pays</title>
-      <description>&lt;p&gt;Le prix de l&amp;#x27;essence bondit partout au pays, atteignant des sommets en quatre ans en raison du conflit en Iran. Malgré la suspension de la taxe d&amp;#x27;accise fédérale, la volatilité persiste. Le blocage du détroit d&amp;#x27;Ormuz paralyse des centaines de pétroliers, menaçant l&amp;#x27;approvisionnement mondial et maintenant une forte pression sur les prix.&lt;/p&gt;</description>
-      <pubDate>Fri, 01 May 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/682ffd6a-19de-4b7b-90d5-8d17dcd4bfb1/2026-05-01_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/682ffd6a-19de-4b7b-90d5-8d17dcd4bfb1/2026-05-01_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>L'essence atteint des sommets au pays</title>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/412d6ab5-480b-4c4c-8c59-f397d6bf7bdc/2024-12-03_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/412d6ab5-480b-4c4c-8c59-f397d6bf7bdc/2024-12-03_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:56</itunes:duration>
-    </item>
-    <item>
-      <title>Mises à pied chez Lion Électrique</title>
-      <description>&amp;lt;p&amp;gt;Le constructeur d'autobus et de camions électriques Lion Électrique met à pied 400 de ses employés, plus de la moitié de ses effectifs. L'entreprise tente ainsi de freiner son endettement, pendant qu'elle cherche toujours de nouveaux investisseurs afin d'éviter la faillite.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Mon, 02 Dec 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/462e01bd-091f-4e74-b8d2-e2147d44bc8f/2024-12-02_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/462e01bd-091f-4e74-b8d2-e2147d44bc8f/2024-12-02_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
 </rss>
