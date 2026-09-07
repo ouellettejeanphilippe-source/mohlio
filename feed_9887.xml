@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Lundi 7 sept. 2026 : Justine Philie et Frédérick Gagnon</title>
+      <description>&lt;p&gt;Justine Philie s’improvise &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;&amp;lt;span class=\&amp;quot;nbsp\&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;coach de vie&amp;lt;span class=\&amp;quot;nbsp\&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;coach de vie&amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;coach de vie&lt;/span&gt;&lt;/q&gt; et donne des conseils pour que le couple Trump-Carney aille mieux. Et Frédérick Gagnon se penche sur le conflit entre le Canada et les États-Unis.&lt;/p&gt;</description>
+      <pubDate>Mon, 07 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3164edd8-ede2-40b8-9fa2-e6576c0f9f16/2026-09-07_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3164edd8-ede2-40b8-9fa2-e6576c0f9f16/2026-09-07_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>29:29</itunes:duration>
+    </item>
+    <item>
       <title>Samedi 5 sept. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Le candidat libéral Michel Bureau affirme qu’il est un &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;libéral péquiste &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;libéral péquiste &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;libéral péquiste&lt;/span&gt;&lt;/q&gt;; Bernard Drainville est très très fâché contre Donald Trump; et la chicane est pogné à Saint-Pie en Montérégie&amp;nbsp;: des graffitis sont apparus sur la cabane à sucre du maire.&lt;/p&gt;</description>
       <pubDate>Sat, 05 Sep 2026 11:00:00 +0000</pubDate>
@@ -408,14 +416,6 @@
       <pubDate>Thu, 30 Apr 2026 18:00:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/288becbe-87e7-4114-908f-6aa0b33d0114/2026-04-30_14_04_01_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/288becbe-87e7-4114-908f-6aa0b33d0114/2026-04-30_14_04_01_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 29 avr. 2026 : Louise Beaudoin, Kristina Michaud et Pasquale Harrison-Julien</title>
-      <description>&lt;p&gt;Pasquale Harrison-Julien s’intéresse aux groupes d’extrême gauche et d’extrême droite en France. Et Louise Beaudoin et Kristina Michaud commentent les premiers jours de Christine Fréchette à la tête du Québec.&lt;/p&gt;</description>
-      <pubDate>Wed, 29 Apr 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d074b19-44dc-4d40-9396-4b22b40aed29/2026-04-29_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9d074b19-44dc-4d40-9396-4b22b40aed29/2026-04-29_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:29</itunes:duration>
     </item>
   </channel>
