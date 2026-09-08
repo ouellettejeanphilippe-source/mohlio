@@ -5,11 +5,19 @@
     <description>Tellement hockey</description>
     <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml</link>
     <image>
-      <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/tellement-hockey-balado-premier.jpg</url>
+      <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
       <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml</link>
     </image>
-    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/tellement-hockey-balado-premier.jpg"/>
+    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg"/>
+    <item>
+      <title>Tour d’horizon de la LNH</title>
+      <description>&lt;p&gt;À quelques jours du début des camps d&amp;#x27;entraînement dans la Ligue nationale de hockey (LNH), notre équipe reprend du service pour faire le point sur les changements survenus cet été et sur l&amp;#x27;état des lieux de la ligue. Quelles sont les équipes à surveiller et qui pourrait s’illustrer cette année?&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8ec2fd85-5331-4062-8800-182da64a1e26/2026-09-07_15_45_00_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8ec2fd85-5331-4062-8800-182da64a1e26/2026-09-07_15_45_00_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:28:19</itunes:duration>
+    </item>
     <item>
       <title>Le Canadien a-t-il terminé ses emplettes?</title>
       <description>&lt;p&gt;Ce n&amp;#x27;est pas faute d&amp;#x27;essayer, mais le Canadien n&amp;#x27;a pas fait de coup d&amp;#x27;éclat sur le marché des joueurs autonomes depuis le 1er juillet. Kent Hughes a, par contre, annoncé plusieurs signatures de contrats qui viennent consolider le noyau de jeunes joueurs du Tricolore pour plusieurs années encore. Est-ce à dire que l&amp;#x27;équipe grandira de l&amp;#x27;intérieur? Qu&amp;#x27;en est-il des pièces manquantes tant recherchées? Le Canadien commencera-t-il la saison avec trois gardiens de but?&lt;/p&gt;&lt;p&gt;Tellement Hockey vous offre un dernier tour d&amp;#x27;horizon avant la pause estivale.&lt;/p&gt;</description>
@@ -409,14 +417,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/f6221948-43c8-4545-8bcb-79fbd6186a5b/2026-02-17_19_24_54_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f6221948-43c8-4545-8bcb-79fbd6186a5b/2026-02-17_19_24_54_tellementhockey_0000_master.m3u8?v=2</guid>
       <itunes:duration>34:33</itunes:duration>
-    </item>
-    <item>
-      <title>Menées par Marie-Philip Poulin, les Canadiennes joueront pour l’or</title>
-      <description>&lt;p&gt;Peu importe la façon, l&amp;#x27;important, c&amp;#x27;est le résultat, et les Canadiennes ont rendez-vous avec les États-Unis pour le match de la médaille d&amp;#x27;or. Marie-Philip Poulin a pris les choses en main en marquant les deux buts du Canada. Toutefois, les joueuses de Troy Ryan n&amp;#x27;ont pas dissipé les doutes entretenus à leur endroit, et le match ultime des JO s&amp;#x27;annonce comme l&amp;#x27;occasion d&amp;#x27;une prise de conscience pour Équipe Canada. Car de leur côté, les Américaines sont très convaincantes et promettent d’être des adversaires coriaces.&lt;/p&gt;</description>
-      <pubDate>Tue, 17 Feb 2026 00:45:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c14f276d-95c4-48de-b139-d811ade32613/2026-02-16_19_35_40_tellementhockey_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c14f276d-95c4-48de-b139-d811ade32613/2026-02-16_19_35_40_tellementhockey_0000_master.m3u8?v=2</guid>
-      <itunes:duration>34:39</itunes:duration>
     </item>
   </channel>
 </rss>

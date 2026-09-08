@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>La victoire de l’extrême droite en Allemagne, et le solo-maxxing</title>
+      <description/>
+      <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/616c62ef-51d9-42cd-85ce-9bfb7596a2ef/2026-09-08_07_45_18_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/616c62ef-51d9-42cd-85ce-9bfb7596a2ef/2026-09-08_07_45_18_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>26:33</itunes:duration>
+    </item>
+    <item>
       <title>Les Hells Angels utilisent aussi l’IA, et Éric Duhaime a changé de prénom</title>
       <description/>
       <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/91debb0e-bfe4-428f-9f57-426e01d3b690/2026-05-12_07_37_35_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/91debb0e-bfe4-428f-9f57-426e01d3b690/2026-05-12_07_37_35_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>24:21</itunes:duration>
-    </item>
-    <item>
-      <title>Nouvelle plateforme humoristique de Louis Morissette, et passion de Trump pour le soccer</title>
-      <description/>
-      <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f46abb00-f37d-4a9a-9c9e-2ca3435daf25/2026-05-11_07_33_17_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f46abb00-f37d-4a9a-9c9e-2ca3435daf25/2026-05-11_07_33_17_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:18</itunes:duration>
     </item>
   </channel>
 </rss>

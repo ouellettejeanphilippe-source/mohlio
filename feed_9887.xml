@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Mardi 8 sept. 2026 : Magali Saint-Vincent et Martine Ouellet</title>
+      <description>&lt;p&gt;Magali St-Vincent parle des Championnats du monde Route UCI qui auront lieu à Montréal. Et Martine Ouellet explique pourquoi elle est contre le tramway de Québec et l’entente de Churchill Falls.&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8675164b-7e9d-479d-b17f-952f521ef975/2026-09-08_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8675164b-7e9d-479d-b17f-952f521ef975/2026-09-08_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>36:37</itunes:duration>
+    </item>
+    <item>
       <title>Lundi 7 sept. 2026 : Justine Philie et Frédérick Gagnon</title>
       <description>&lt;p&gt;Justine Philie s’improvise &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;&amp;lt;span class=\&amp;quot;nbsp\&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;coach de vie&amp;lt;span class=\&amp;quot;nbsp\&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;coach de vie&amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;coach de vie&lt;/span&gt;&lt;/q&gt; et donne des conseils pour que le couple Trump-Carney aille mieux. Et Frédérick Gagnon se penche sur le conflit entre le Canada et les États-Unis.&lt;/p&gt;</description>
       <pubDate>Mon, 07 Sep 2026 18:30:00 +0000</pubDate>
@@ -409,14 +417,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/97760110-fa87-4c76-b2c6-3543f1305c51/2026-05-01_15_29_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/97760110-fa87-4c76-b2c6-3543f1305c51/2026-05-01_15_29_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>35:25</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 30 avr. 2026 : Nathalie Petrowski, Hugo Dumas et Simon-Olivier Lorange</title>
-      <description>&lt;p&gt;Olivier Niquet explique le gros scandale des pelouses à Saint-Tite. Simon-Olivier Lorange commente la dernière victoire du Canadien dans sa série contre le Lightning. Nathalie Petrowski nous recommande de regarder la série &lt;em&gt;Vitrerie Joyal&lt;/em&gt;. Et Hugo Dumas parle de &lt;em&gt;Michael.&lt;/em&gt;&amp;nbsp;&lt;/p&gt;</description>
-      <pubDate>Thu, 30 Apr 2026 18:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/288becbe-87e7-4114-908f-6aa0b33d0114/2026-04-30_14_04_01_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/288becbe-87e7-4114-908f-6aa0b33d0114/2026-04-30_14_04_01_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
     </item>
   </channel>
 </rss>

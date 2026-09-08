@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg"/>
     <item>
+      <title>Campagne électorale : démystifions les sondages</title>
+      <description>&lt;p&gt;Les sondages électoraux prennent beaucoup de place ces jours-ci dans les médias du Québec. Leurs résultats alimentent sans cesse une petite armée d’analystes, de personnes élues et de commentateurs et commentatrices en tout genre. À travers tout ça, il n’est pas toujours facile pour l’électorat de bien décoder la portée réelle de ces coups de sonde. Philippe J. Fournier, créateur de l&amp;#x27;agrégateur Qc125, lève le voile sur la mécanique des sondages et les éléments clés qui en assurent la validité.&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/823a604c-e4b6-4aeb-b8b7-96e885508e4a/2026-09-04_16_40_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/823a604c-e4b6-4aeb-b8b7-96e885508e4a/2026-09-04_16_40_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>26:20</itunes:duration>
+    </item>
+    <item>
       <title>Place du vélo à Montréal : comment surmonter la polarisation?</title>
       <description>&lt;p&gt;Sur l’île de Montréal et ses environs, la montée en popularité du vélo a changé le paysage urbain. De plus en plus d’ajustements ont été effectués pour faciliter l’utilisation de ce mode de transport, mais ces changements irritent une partie de la population – notamment les automobilistes – et la polarisation s’enracine. Le chercheur Jérôme Laviolette explore les façons de surmonter la fracture sociale et de parvenir à un terrain d’entente collectif.&lt;/p&gt;</description>
       <pubDate>Sat, 20 Jun 2026 10:00:00 +0000</pubDate>
@@ -411,14 +419,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/995efa1f-7ab3-4dfe-90ca-297bf813c72d/2026-03-27_16_47_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/995efa1f-7ab3-4dfe-90ca-297bf813c72d/2026-03-27_16_47_00_casexplique_0000_master.m3u8?v=2</guid>
       <itunes:duration>18:13</itunes:duration>
-    </item>
-    <item>
-      <title>Coupe du monde de soccer&amp;nbsp;: le Canada s’est-il fait avoir?</title>
-      <description>&lt;p&gt;Dans moins de 100&amp;nbsp;jours, pour la toute première fois de l’histoire, la Coupe du monde de soccer de la FIFA se déroulera dans trois pays différents&amp;nbsp;: le Canada, le Mexique et les États-Unis. Pour le Canada, il s’agit certainement d’une excellente vitrine d’autopromotion, mais à quel prix? Une équipe de l’émission &lt;em&gt;Enquête&lt;/em&gt; est parvenue à mettre la main sur les contrats confidentiels qui lient le Canada à la FIFA. Le journaliste Romain Schué lève le voile sur les détails troublants de ces ententes très coûteuses.&lt;/p&gt;</description>
-      <pubDate>Thu, 26 Mar 2026 09:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/96166a4c-6125-4954-ab3d-8b71be41010f/2026-03-25_19_13_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/96166a4c-6125-4954-ab3d-8b71be41010f/2026-03-25_19_13_00_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:38</itunes:duration>
     </item>
   </channel>
 </rss>

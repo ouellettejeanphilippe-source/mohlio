@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Mardi 8 septembre 2026 : Contre-tarifs canadiens en vigueur</title>
+      <description>&lt;p&gt;La guerre tarifaire entre le Canada et les États-Unis est entrée dans une nouvelle phase. Depuis minuit, Ottawa impose des droits de douane de 15 à 50 % sur des produits américains.&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bd6716d5-15af-4749-957b-b48393c8cce4/2026-09-08_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bd6716d5-15af-4749-957b-b48393c8cce4/2026-09-08_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>Contre-tarifs canadiens en vigueur</title>
+      <description>&amp;lt;p&amp;gt;La guerre tarifaire entre le Canada et les États-Unis est entrée dans une nouvelle phase. Depuis minuit, Ottawa impose des droits de douane de 15 à 50 % sur des produits américains.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Tue, 08 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/74ca91b7-fc09-410a-8c95-f41a550910fe/2026-09-08_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/74ca91b7-fc09-410a-8c95-f41a550910fe/2026-09-08_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Lundi 7 septembre 2026 - Tarifs : réunion des ministres à Québec</title>
       <description>&lt;p&gt;C&amp;#x27;est ce soir à minuit qu&amp;#x27;entreront en vigueur les contre-tarifs sur plusieurs produits américains. La cheffe de la CAQ, Christine Fréchette, remet son chapeau de première ministre et convoque son conseil des ministres québécois en pleine campagne électorale.&lt;/p&gt;</description>
       <pubDate>Mon, 07 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/461955d9-73eb-4cce-b106-205d242b8d06/2026-05-05_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/461955d9-73eb-4cce-b106-205d242b8d06/2026-05-05_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Lundi 4 mai 2026 :&amp;nbsp;Fréchette lance le Dossier santé numérique</title>
-      <description>&lt;p&gt;La ministre Christine Fréchette donne le feu vert au Dossier santé numérique dès le 9 mai. Malgré des risques de bogues et un coût total estimé à 3 milliards $, Québec mise sur la modernisation. Les projets pilotes en Mauricie et à Montréal entraîneront toutefois un ralentissement des soins non urgents pendant au moins un mois.&lt;/p&gt;</description>
-      <pubDate>Mon, 04 May 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ce34fcca-7cd0-4d1d-a95b-b0cf705b73ca/2026-05-04_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ce34fcca-7cd0-4d1d-a95b-b0cf705b73ca/2026-05-04_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>Fréchette lance le Dossier santé numérique</title>
@@ -3201,14 +3209,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8e615869-da30-48c7-b254-577cdf762f1c/2024-12-04_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/8e615869-da30-48c7-b254-577cdf762f1c/2024-12-04_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Des drones à la frontière</title>
-      <description>&amp;lt;p&amp;gt;La GRC s'apprête à acheter une trentaine de drones pour contrôler la frontière entre le Canada et les États-Unis, selon des informations recueillies par Radio-Canada.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Tue, 03 Dec 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/412d6ab5-480b-4c4c-8c59-f397d6bf7bdc/2024-12-03_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/412d6ab5-480b-4c4c-8c59-f397d6bf7bdc/2024-12-03_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:56</itunes:duration>
     </item>
   </channel>
 </rss>
