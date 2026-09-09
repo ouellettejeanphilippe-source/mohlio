@@ -5,11 +5,19 @@
     <description>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</description>
     <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml</link>
     <image>
-      <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg</url>
+      <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
       <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml</link>
     </image>
-    <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-emission-premiere.jpg"/>
+    <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg"/>
+    <item>
+      <title>Mardi 8 sept. 2026 : Les bienfaits de l’ail sur la santé, et le mythe du rouge dans les corridas</title>
+      <description>&lt;p&gt;Les bienfaits de l&amp;#x27;ail sur la santé et le corps; la véritable raison de l&amp;#x27;utilisation du rouge dans les corridas; les causes de l&amp;#x27;irritation provoquée par certaines voix; l&amp;#x27;utilité insoupçonnée des poils de mygales et autres curiosités sur les araignées.&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3e82cbd6-fa92-4aed-85c6-620776e57f54/2026-09-08_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3e82cbd6-fa92-4aed-85c6-620776e57f54/2026-09-08_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>53:00</itunes:duration>
+    </item>
     <item>
       <title>Lundi 7 sept. 2026 : La théorie de la balle magique de JFK, et l’influence de la Lune sur la Terre</title>
       <description>&lt;p&gt;La distinction entre objectivité, neutralité et impartialité en sciences; la stabilisation de l’axe de rotation de la Terre par la Lune; le fonctionnement du cycle de la matière dans un terrarium fermé; et l&amp;#x27;analyse scientifique de la théorie de la balle magique dans l’assassinat de John F. Kennedy.&lt;/p&gt;</description>
@@ -288,14 +296,6 @@
       <pubDate>Thu, 04 Jun 2026 23:06:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/d7d278c9-d83c-446c-bc93-96b8c83c9792/2026-06-04_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d7d278c9-d83c-446c-bc93-96b8c83c9792/2026-06-04_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 3 juin 2026 : Le gras que l’on perd, et les changements climatiques qui modifient nos vacances</title>
-      <description>&lt;p&gt;Michaël Sage observe ce qu’il advient de notre masse graisseuse lorsqu’on perd du poids; Alexandre Shields regarde si les changements climatiques sont appelés à modifier nos destinations de vacances; Alexis Achim vérifie si certains hêtres peuvent résister à la maladie corticale qui les touche; et Ryoa Chung explique pourquoi la philosophie et la science ne sont plus les meilleurs amis du monde.&lt;/p&gt;</description>
-      <pubDate>Wed, 03 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bc0e4736-1973-4fe1-888a-411460a161b4/2026-06-03_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bc0e4736-1973-4fe1-888a-411460a161b4/2026-06-03_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
       <itunes:duration>53:00</itunes:duration>
     </item>
     <item>

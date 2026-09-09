@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Mercredi 9 sept. 2026 : Josée Boileau, Paul Journet et Marjolaine Ferron</title>
+      <description>&lt;p&gt;Paul Journet et Josée Boileau expliquent quels sujets les chefs de parti devraient aborder. Et la candidate caquiste Marjolaine Ferron se prononce sur le TGV et l’implication d’Olivier Primeau.&lt;/p&gt;</description>
+      <pubDate>Wed, 09 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2783ef5c-5edf-4f16-869c-7cae82ee0147/2026-09-09_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2783ef5c-5edf-4f16-869c-7cae82ee0147/2026-09-09_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>32:55</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 8 sept. 2026 : Magali Saint-Vincent et Martine Ouellet</title>
       <description>&lt;p&gt;Magali St-Vincent parle des Championnats du monde Route UCI qui auront lieu à Montréal. Et Martine Ouellet explique pourquoi elle est contre le tramway de Québec et l’entente de Churchill Falls.&lt;/p&gt;</description>
       <pubDate>Tue, 08 Sep 2026 18:30:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Vendredi 1er mai 2026 : Pierre Brassard et Caroline Senneville</title>
-      <description>&lt;p&gt;Pierre Brassard raconte son party de fête. Pierre Poilievre qualifie le fonds souverain de patente à gosses. Et la présidente de la CSN, Caroline Senneville, déplore que le gouvernement considère les syndicats comme des adversaires.&lt;/p&gt;</description>
-      <pubDate>Fri, 01 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dc54aa50-c3ba-4cad-a7dc-774628288857/2026-05-01_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dc54aa50-c3ba-4cad-a7dc-774628288857/2026-05-01_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
     </item>
     <item>
       <title>Samedi 2 mai 2026 : Olivier Niquet en brochette</title>

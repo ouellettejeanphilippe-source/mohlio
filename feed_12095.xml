@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Le «&amp;nbsp;boys club&amp;nbsp;» de la radio parlée, et la recherche de candidatures de Snoop Dogg</title>
+      <description/>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/75595bb8-19af-488f-9c7b-09fb0883928f/2026-09-09_07_41_22_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/75595bb8-19af-488f-9c7b-09fb0883928f/2026-09-09_07_41_22_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>24:46</itunes:duration>
+    </item>
+    <item>
       <title>La victoire de l’extrême droite en Allemagne, et le solo-maxxing</title>
       <description/>
       <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/de491cb2-a415-440f-9930-568299a7df99/2026-05-13_07_46_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/de491cb2-a415-440f-9930-568299a7df99/2026-05-13_07_46_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>22:28</itunes:duration>
-    </item>
-    <item>
-      <title>Baisse salariale pour des personnalités de TVA, et faux « prix Nobel » de philologie</title>
-      <description/>
-      <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/91debb0e-bfe4-428f-9f57-426e01d3b690/2026-05-12_07_37_35_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/91debb0e-bfe4-428f-9f57-426e01d3b690/2026-05-12_07_37_35_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:21</itunes:duration>
     </item>
   </channel>
 </rss>

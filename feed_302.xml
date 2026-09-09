@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Mercredi 9 septembre 2026 : La riposte de Donald Trump</title>
+      <description>&lt;p&gt;Il n&amp;#x27;aura fallu que quelques heures à Donald Trump pour riposter aux contre-tarifs canadiens. Ces nouvelles mesures doivent entrer en vigueur dans les prochaines semaines.&lt;/p&gt;</description>
+      <pubDate>Wed, 09 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dbc34eca-fa1f-4c02-9309-44611978baae/2026-09-09_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dbc34eca-fa1f-4c02-9309-44611978baae/2026-09-09_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>La riposte de Donald Trump</title>
+      <description>&amp;lt;p&amp;gt;Il n'aura fallu que quelques heures à Donald Trump pour riposter aux contre-tarifs canadiens. Ces nouvelles mesures doivent entrer en vigueur dans les prochaines semaines.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Wed, 09 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d4db491a-317b-4b6c-9da1-eb447d8185af/2026-09-09_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d4db491a-317b-4b6c-9da1-eb447d8185af/2026-09-09_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Mardi 8 septembre 2026 : Contre-tarifs canadiens en vigueur</title>
       <description>&lt;p&gt;La guerre tarifaire entre le Canada et les États-Unis est entrée dans une nouvelle phase. Depuis minuit, Ottawa impose des droits de douane de 15 à 50 % sur des produits américains.&lt;/p&gt;</description>
       <pubDate>Tue, 08 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/54e64dbc-4174-4b63-9f06-76e36a10089f/2026-05-06_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/54e64dbc-4174-4b63-9f06-76e36a10089f/2026-05-06_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:59</itunes:duration>
-    </item>
-    <item>
-      <title>Mardi 5 mai 2026 : Les travaux parlementaires reprennent à Québec</title>
-      <description>&lt;p&gt;L&amp;#x27;Assemblée nationale reprendra ses travaux ce mardi après une pause de trois semaines ayant permis à la nouvelle première ministre Christine Fréchette d&amp;#x27;arriver en poste.&lt;/p&gt;</description>
-      <pubDate>Tue, 05 May 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/678f5da1-9368-46ac-ab68-ee1d16c3e890/2026-05-05_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/678f5da1-9368-46ac-ab68-ee1d16c3e890/2026-05-05_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>Québec : reprise des travaux parlementaires</title>
@@ -3200,14 +3208,6 @@
       <pubDate>Thu, 05 Dec 2024 05:06:00 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4a5db9f4-b832-4279-b156-31faff6ef4f8/2024-12-05_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/4a5db9f4-b832-4279-b156-31faff6ef4f8/2024-12-05_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Le président de la Corée du sud destitué</title>
-      <description>&amp;lt;p&amp;gt;Après avoir proclamé la loi martiale mardi soir, le président sud-coréen a fait marche arrière devant la réaction du peuple et la colère des partis d’opposition. Il fait maintenant face à une procédure de destitution.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Wed, 04 Dec 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8e615869-da30-48c7-b254-577cdf762f1c/2024-12-04_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/8e615869-da30-48c7-b254-577cdf762f1c/2024-12-04_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>
