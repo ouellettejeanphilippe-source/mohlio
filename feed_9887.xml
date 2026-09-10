@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
     <item>
+      <title>Jeudi 10 sept. 2026 : Hugo Dumas, Marc Laurendeau et Nathalie Petrowski</title>
+      <description>&lt;p&gt;Olivier Niquet a regardé pour nous l’émission&lt;em&gt; Cinq chefs, une élection. &lt;/em&gt;Hugo Dumas est à Paris pour voir Céline Dion. Nathalie Petrowski parle de la série &lt;em&gt;Ça brasse en ville&lt;/em&gt;, mais surtout des travaux dans les rues de Montréal. Et Marc Laurendeau revient sur les attentats du 11 septembre 2001.&lt;/p&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/66ce3f5d-0239-46f9-a21c-4384072b36e2/2026-09-10_14_06_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/66ce3f5d-0239-46f9-a21c-4384072b36e2/2026-09-10_14_06_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>34:40</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 9 sept. 2026 : Josée Boileau, Paul Journet et Marjolaine Ferron</title>
       <description>&lt;p&gt;Paul Journet et Josée Boileau expliquent quels sujets les chefs de parti devraient aborder. Et la candidate caquiste Marjolaine Ferron se prononce sur le TGV et l’implication d’Olivier Primeau.&lt;/p&gt;</description>
       <pubDate>Wed, 09 Sep 2026 18:30:00 +0000</pubDate>
@@ -409,14 +417,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>29:30</itunes:duration>
-    </item>
-    <item>
-      <title>Samedi 2 mai 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Pouf! Pouf! Pouf! Marc Tanguay dénonce tous les lapins que Christine Fréchette sort de son chapeau; l’interdiction de tondre sa pelouse après 17&amp;nbsp;h fait polémique à Saint-Tite; et des gens sont en colère contre le projet de construction d’éoliennes en Mauricie.&lt;/p&gt;</description>
-      <pubDate>Fri, 01 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/97760110-fa87-4c76-b2c6-3543f1305c51/2026-05-01_15_29_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/97760110-fa87-4c76-b2c6-3543f1305c51/2026-05-01_15_29_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>35:25</itunes:duration>
     </item>
   </channel>
 </rss>

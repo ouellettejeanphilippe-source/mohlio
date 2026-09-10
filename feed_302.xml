@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Jeudi 10 septembre 2026 : L’entrevue des cinq chefs</title>
+      <description>&lt;p&gt;Les leaders des principaux partis ont fait face aux questions de la part de nos collègues Sébastien Bovet, Anne-Marie Dussault et Alec Castonguay, lors de l&amp;#x27;émission &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Cinq chefs, une élection &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Cinq chefs, une élection &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;Cinq chefs, une élection &lt;/span&gt;&lt;/q&gt;.&lt;/p&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/411f46c4-3a9f-4e8e-9544-ae89e9243388/2026-09-10_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/411f46c4-3a9f-4e8e-9544-ae89e9243388/2026-09-10_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>L'entrevue des cinq chefs</title>
+      <description>&amp;lt;p&amp;gt;Les leaders des principaux partis ont fait face aux questions de la part de nos collègues Sébastien Bovet, Anne-Marie Dussault et Alec Castonguay, lors de l'émission « Cinq chefs, une élection ».&amp;lt;/p&amp;gt;</description>
+      <pubDate>Thu, 10 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/5990b134-3f0d-4cf5-a032-31fc3bba9700/2026-09-10_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/5990b134-3f0d-4cf5-a032-31fc3bba9700/2026-09-10_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Mercredi 9 septembre 2026 : La riposte de Donald Trump</title>
       <description>&lt;p&gt;Il n&amp;#x27;aura fallu que quelques heures à Donald Trump pour riposter aux contre-tarifs canadiens. Ces nouvelles mesures doivent entrer en vigueur dans les prochaines semaines.&lt;/p&gt;</description>
       <pubDate>Wed, 09 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/bbbe0612-6d11-4f2f-a129-77349faa3814/2026-05-07_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/bbbe0612-6d11-4f2f-a129-77349faa3814/2026-05-07_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:59</itunes:duration>
-    </item>
-    <item>
-      <title>Mercredi 6 mai 2026 :&amp;nbsp;AirAsia commande 150 A-220 à Airbus</title>
-      <description>&lt;p&gt;Airbus annonce une commande historique de 150 avions A-220 par la compagnie AirAsia à Mirabel. Ce contrat de 14 milliards $ US consolide les 4 000 emplois au Québec et confirme l&amp;#x27;attrait de cet appareil économe en carburant, dont l&amp;#x27;État québécois est partenaire à 25 %. Une annonce majeure pour l&amp;#x27;industrie aéronautique canadienne.&lt;/p&gt;</description>
-      <pubDate>Wed, 06 May 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ea974a6b-99d5-4b25-9364-f6b279820cc9/2026-05-06_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ea974a6b-99d5-4b25-9364-f6b279820cc9/2026-05-06_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>AirAsia commande 150 A-220 à Airbus</title>
@@ -3200,14 +3208,6 @@
       <pubDate>Fri, 06 Dec 2024 05:06:00 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d436dcaf-77d6-48d4-be7c-c540c2877906/2024-12-06_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d436dcaf-77d6-48d4-be7c-c540c2877906/2024-12-06_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Le gouvernement français tombe</title>
-      <description>&amp;lt;p&amp;gt;En France, le gouvernement du Premier ministre Michel Barnier, nommé il y a à peine trois mois, est tombé hier soir à la suite d’un vote de censure.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Thu, 05 Dec 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4a5db9f4-b832-4279-b156-31faff6ef4f8/2024-12-05_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/4a5db9f4-b832-4279-b156-31faff6ef4f8/2024-12-05_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>

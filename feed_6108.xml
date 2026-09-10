@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg"/>
     <item>
+      <title>Attentats du 11 Septembre&amp;nbsp;: que reste-t-il d’Al-Qaïda, 25 ans plus tard?</title>
+      <description>&lt;p&gt;Le 11 septembre 2001 hante encore les États-Unis, 25 ans après les attaques terroristes. Al-Qaïda, l’organisation responsable de ces attaques ayant fait près de 3000 morts, est encore active, mais les menaces terroristes qui planent sur le pays ont changé de visage. Rania Massoud, envoyée spéciale à New York, explore ce qui subsiste de ces tragiques événements.&lt;/p&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ec82bad7-4eba-4574-8311-d0e71a53d45a/2026-09-10_05_00_00_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ec82bad7-4eba-4574-8311-d0e71a53d45a/2026-09-10_05_00_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>18:45</itunes:duration>
+    </item>
+    <item>
       <title>Guerre commerciale : quel est le coût politique pour Donald Trump?</title>
       <description>&lt;p&gt;La guerre commerciale canado-américaine s’intensifie. Les contre-tarifs imposés cette semaine par le Canada ont piqué au vif le président américain. Économiquement, la suite de cette saga demeure imprévisible. Sur le plan politique, Donald Trump n’est pas à l’abri de l’effet boomerang de telles mesures. L’ex-correspondant à Washington Raphaël Bouvier-Auclair analyse les effets potentiels de la guerre commerciale sur les élections de mi-mandat aux États-Unis.&lt;/p&gt;</description>
       <pubDate>Wed, 09 Sep 2026 09:00:00 +0000</pubDate>
@@ -403,14 +411,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/1c68edfe-b78d-415d-86dd-e5f01e434ee5/2026-04-01_13_05_00_casexplique_0000_01_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1c68edfe-b78d-415d-86dd-e5f01e434ee5/2026-04-01_13_05_00_casexplique_0000_01_master.m3u8?v=2</guid>
       <itunes:duration>21:39</itunes:duration>
-    </item>
-    <item>
-      <title>La loi 21 face à la Cour suprême : vers une crise constitutionnelle?&amp;nbsp;</title>
-      <description>&lt;p&gt;Adoptée en 2019 par l’Assemblée nationale du Québec, la Loi sur la laïcité de l&amp;#x27;État ne laisse personne indifférent. Les remous qu’elle suscite ont des échos d’un bout à l’autre du Canada. Elle a été contestée en cour dès son adoption, et une demi-douzaine d’appels l’ont menée devant la Cour suprême. Les audiences tenues la semaine dernière ont démontré clairement le caractère historique de ce qui est en jeu. Le professeur Louis-Philippe Lampron explique pourquoi, quelle qu’elle soit, la décision des juges risque de plonger le pays dans une crise constitutionnelle.&lt;/p&gt;</description>
-      <pubDate>Tue, 31 Mar 2026 09:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bf16bf75-5bad-4722-ab87-9561e9d4b8b1/2026-03-30_16_34_45_casexplique_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bf16bf75-5bad-4722-ab87-9561e9d4b8b1/2026-03-30_16_34_45_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:41</itunes:duration>
     </item>
   </channel>
 </rss>

@@ -11,6 +11,15 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Les journalistes licheux de fesses, et l’IA pourrait nous tuer d’ici quelques années
+</title>
+      <description>&lt;p&gt;À venir.&lt;/p&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 12:15:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1aca69eb-6073-4182-9c87-568328b5dee2/2026-09-10_06_39_52_olivierniquet247enjaquetteohdio_0000_01_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1aca69eb-6073-4182-9c87-568328b5dee2/2026-09-10_06_39_52_olivierniquet247enjaquetteohdio_0000_01_master.m3u8?v=2</guid>
+      <itunes:duration>21:08</itunes:duration>
+    </item>
+    <item>
       <title>Le «&amp;nbsp;boys club&amp;nbsp;» de la radio parlée, et la recherche de candidatures de Snoop Dogg</title>
       <description/>
       <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
@@ -401,14 +410,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d1247f2-0fe6-4e12-9452-793c9cf9e327/2026-05-14_07_42_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9d1247f2-0fe6-4e12-9452-793c9cf9e327/2026-05-14_07_42_48_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>23:47</itunes:duration>
-    </item>
-    <item>
-      <title>Dunkin’ de retour au Canada, et «&amp;nbsp;Faque&amp;nbsp;» maintenant dans le dictionnaire</title>
-      <description/>
-      <pubDate>Wed, 13 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/de491cb2-a415-440f-9930-568299a7df99/2026-05-13_07_46_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/de491cb2-a415-440f-9930-568299a7df99/2026-05-13_07_46_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:28</itunes:duration>
     </item>
   </channel>
 </rss>
