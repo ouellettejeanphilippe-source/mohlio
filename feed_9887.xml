@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Sep 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Sep 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Sep 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Sep 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Vendredi 11 sept. 2026 : Pierre Brassard et Christine Black</title>
+      <description>&lt;p&gt;Olivier nous fait découvrir les préférences culinaires des chefs de parti. Pierre Brassard vous invite à glisser sur une Nathalie Petrowski géante. Et Christine Black parle de la préparation de la Ville de Montréal pour les Championnats du Monde Route UCI. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1272783/vendredi-11-sept-2026-pierre-brassard-et-christine-black</link>
+      <pubDate>Fri, 11 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6ae2d09a-f824-4ef9-9605-02b3cbcf0463/2026-09-11_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="31088000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6ae2d09a-f824-4ef9-9605-02b3cbcf0463/2026-09-11_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:32:23</itunes:duration>
+    </item>
     <item>
       <title>Jeudi 10 sept. 2026 : Hugo Dumas, Marc Laurendeau et Nathalie Petrowski</title>
       <description>&lt;p&gt;Olivier Niquet a regardé pour nous l’émission&lt;em&gt; Cinq chefs, une élection. &lt;/em&gt;Hugo Dumas est à Paris pour voir Céline Dion. Nathalie Petrowski parle de la série &lt;em&gt;Ça brasse en ville&lt;/em&gt;, mais surtout des travaux dans les rues de Montréal. Et Marc Laurendeau revient sur les attentats du 11 septembre 2001.&lt;/p&gt;</description>
