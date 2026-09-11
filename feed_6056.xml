@@ -1,446 +1,490 @@
-<?xml version="1.0" ?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Moteur de recherche</title>
     <description>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</description>
-    <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml</link>
+    <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/6056/moteur-de-recherche</link>
+    <language>fr-ca</language>
+    <copyright>Copyright: (C)ICI Radio-Canada, http://ici.radio-canada.ca/apropos/conditionsutilisation/</copyright>
+    <generator>mohlio</generator>
+    <ttl>15</ttl>
+    <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 10 Sep 2026 23:06:00 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2026 23:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
-      <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml</link>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/6056/moteur-de-recherche</link>
     </image>
-    <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg"/>
+    <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg" />
+    <itunes:author>ICI Radio-Canada Première</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
     <item>
-      <title>Jeudi 10 sept. 2026&amp;nbsp;: L’origine des plantes d’intérieur, et le microchimérisme fœtal</title>
-      <description>&lt;p&gt;L&amp;#x27;histoire de la présence des plantes d&amp;#x27;intérieur dans les habitations; l&amp;#x27;influence d&amp;#x27;un robot sur le comportement de ses pairs; l&amp;#x27;explication scientifique du phénomène du mirage froid ou supérieur; et la découverte des mystères du microchimérisme fœtal, qui est l’échange de cellules entre l&amp;#x27;embryon et la mère lors de la grossesse.&lt;/p&gt;</description>
+      <title>Jeudi 10 sept. 2026 : L’origine des plantes d’intérieur, et le microchimérisme fœtal</title>
+      <description>&lt;p&gt;L'histoire de la présence des plantes d'intérieur dans les habitations; l'influence d'un robot sur le comportement de ses pairs; l'explication scientifique du phénomène du mirage froid ou supérieur; et la découverte des mystères du microchimérisme fœtal, qui est l’échange de cellules entre l'embryon et la mère lors de la grossesse.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235970/jeudi-10-sept-2026-lorigine-des-plantes-dinterieur-et-le-microchimerisme-foetal</link>
       <pubDate>Thu, 10 Sep 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7ba6a0d8-8da3-49b1-bc7a-ba7c1545a01b/2026-09-10_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7ba6a0d8-8da3-49b1-bc7a-ba7c1545a01b/2026-09-10_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7ba6a0d8-8da3-49b1-bc7a-ba7c1545a01b/2026-09-10_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 9 sept. 2026&amp;nbsp;: L’effet négligé des panneaux solaires, et la pollution des lacs et rivières</title>
-      <description>&lt;p&gt;La protection des lacs et des rivières contre les matières polluantes; l’exploration possible du superamas de galaxie Laniakea par le télescope spatial James Webb; l’utilisation de la géométrie par Euclide pour analyser les nombres; et le rôle des panneaux solaires dans la création d&amp;#x27;îlots de chaleur.&lt;/p&gt;</description>
+      <title>Mercredi 9 sept. 2026 : L’effet négligé des panneaux solaires, et la pollution des lacs et rivières</title>
+      <description>&lt;p&gt;La protection des lacs et des rivières contre les matières polluantes; l’exploration possible du superamas de galaxie Laniakea par le télescope spatial James Webb; l’utilisation de la géométrie par Euclide pour analyser les nombres; et le rôle des panneaux solaires dans la création d'îlots de chaleur.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235927/mercredi-9-sept-2026-leffet-neglige-des-panneaux-solaires-et-la-pollution-des-lacs-et-rivieres</link>
       <pubDate>Wed, 09 Sep 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/088b98f8-22c6-4214-993c-f8196f7cb97d/2026-09-09_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/088b98f8-22c6-4214-993c-f8196f7cb97d/2026-09-09_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/088b98f8-22c6-4214-993c-f8196f7cb97d/2026-09-09_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Mardi 8 sept. 2026 : Les bienfaits de l’ail sur la santé, et le mythe du rouge dans les corridas</title>
-      <description>&lt;p&gt;Les bienfaits de l&amp;#x27;ail sur la santé et le corps; la véritable raison de l&amp;#x27;utilisation du rouge dans les corridas; les causes de l&amp;#x27;irritation provoquée par certaines voix; l&amp;#x27;utilité insoupçonnée des poils de mygales et autres curiosités sur les araignées.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Les bienfaits de l'ail sur la santé et le corps; la véritable raison de l'utilisation du rouge dans les corridas; les causes de l'irritation provoquée par certaines voix; l'utilité insoupçonnée des poils de mygales et autres curiosités sur les araignées.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235911/mardi-8-sept-2026-les-bienfaits-de-lail-sur-la-sante-et-le-mythe-du-rouge-dans-les-corridas</link>
       <pubDate>Tue, 08 Sep 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3e82cbd6-fa92-4aed-85c6-620776e57f54/2026-09-08_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3e82cbd6-fa92-4aed-85c6-620776e57f54/2026-09-08_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3e82cbd6-fa92-4aed-85c6-620776e57f54/2026-09-08_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Lundi 7 sept. 2026 : La théorie de la balle magique de JFK, et l’influence de la Lune sur la Terre</title>
-      <description>&lt;p&gt;La distinction entre objectivité, neutralité et impartialité en sciences; la stabilisation de l’axe de rotation de la Terre par la Lune; le fonctionnement du cycle de la matière dans un terrarium fermé; et l&amp;#x27;analyse scientifique de la théorie de la balle magique dans l’assassinat de John F. Kennedy.&lt;/p&gt;</description>
+      <description>&lt;p&gt;La distinction entre objectivité, neutralité et impartialité en sciences; la stabilisation de l’axe de rotation de la Terre par la Lune; le fonctionnement du cycle de la matière dans un terrarium fermé; et l'analyse scientifique de la théorie de la balle magique dans l’assassinat de John F. Kennedy.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235898/lundi-7-sept-2026-la-theorie-de-la-balle-magique-de-jfk-et-linfluence-de-la-lune-sur-la-terre</link>
       <pubDate>Mon, 07 Sep 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/efa748c4-76f3-4c2d-9486-9f97644671bf/2026-09-07_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/efa748c4-76f3-4c2d-9486-9f97644671bf/2026-09-07_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/efa748c4-76f3-4c2d-9486-9f97644671bf/2026-09-07_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 3 sept. 2026&amp;nbsp;: La science de la lumière rouge, et l’utilisation du web clandestin par l’IA</title>
-      <description>&lt;p&gt;Le fonctionnement des tampons absorbants dans les barquettes de viande; l&amp;#x27;utilisation du web clandestin (&lt;em&gt;dark web&lt;/em&gt;) par l&amp;#x27;intelligence artificielle; les raisons culturelles de la longueur des cheveux selon le genre; et les bienfaits réels de la photobiomodulation à lumière rouge sur la santé.&lt;/p&gt;</description>
+      <title>Jeudi 3 sept. 2026 : La science de la lumière rouge, et l’utilisation du web clandestin par l’IA</title>
+      <description>&lt;p&gt;Le fonctionnement des tampons absorbants dans les barquettes de viande; l'utilisation du web clandestin (&lt;em&gt;dark web&lt;/em&gt;) par l'intelligence artificielle; les raisons culturelles de la longueur des cheveux selon le genre; et les bienfaits réels de la photobiomodulation à lumière rouge sur la santé.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235830/jeudi-3-sept-2026-la-science-de-la-lumiere-rouge-et-lutilisation-du-web-clandestin-par-lia</link>
       <pubDate>Thu, 03 Sep 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3b864b98-acf6-4511-84ac-047f3e601b84/2026-09-03_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3b864b98-acf6-4511-84ac-047f3e601b84/2026-09-03_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3b864b98-acf6-4511-84ac-047f3e601b84/2026-09-03_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Mardi 1er sept. 2026 : La recette des cerises au marasquin, et la conscience de ses propres rêves</title>
-      <description>&amp;lt;p&amp;gt;L'activité cérébrale lors de l'endormissement et la conscience des rêves; la méthode mystérieuse de fabrication des cerises au marasquin; les raisons expliquant le meilleur goût des légumes cultivés en potager; la détection des menaces par le cerveau et le rôle du langage dans ce processus.&amp;lt;/p&amp;gt;</description>
+      <description>&lt;p&gt;L'activité cérébrale lors de l'endormissement et la conscience des rêves; la méthode mystérieuse de fabrication des cerises au marasquin; les raisons expliquant le meilleur goût des légumes cultivés en potager; la détection des menaces par le cerveau et le rôle du langage dans ce processus.&lt;/p&gt;</description>
       <pubDate>Thu, 03 Sep 2026 09:40:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/3254505b-b5c4-4e74-a316-ed46027afebc/2026-09-04_09_40_00_moteurderecherchebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/3254505b-b5c4-4e74-a316-ed46027afebc/2026-09-04_09_40_00_moteurderecherchebalado_0000.mp3" length="76507219" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/3254505b-b5c4-4e74-a316-ed46027afebc/2026-09-04_09_40_00_moteurderecherchebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:53:07</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 2 sept. 2026&amp;nbsp;: Les secrets de l’univers invisible, et l’inexistence d’un médicament contre l’alcoolisme</title>
-      <description>&lt;p&gt;L&amp;#x27;absence du concept de futur; le mystère des 95&amp;nbsp;% de notre univers invisibles à nos yeux; les défis de la recherche d&amp;#x27;un traitement médical pour contrer la dépendance à l’alcool; et les origines culturelles, biologiques ou physiologiques des variations de l&amp;#x27;heure du souper selon les pays.&lt;/p&gt;</description>
+      <title>Mercredi 2 sept. 2026 : Les secrets de l’univers invisible, et l’inexistence d’un médicament contre l’alcoolisme</title>
+      <description>&lt;p&gt;L'absence du concept de futur; le mystère des 95 % de notre univers invisibles à nos yeux; les défis de la recherche d'un traitement médical pour contrer la dépendance à l’alcool; et les origines culturelles, biologiques ou physiologiques des variations de l'heure du souper selon les pays.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235807/mercredi-2-sept-2026-les-secrets-de-lunivers-invisible-et-linexistence-dun-medicament-contre-lalcoolisme</link>
       <pubDate>Wed, 02 Sep 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/005cf2fc-d751-4095-b3d6-c6ae93a03949/2026-09-02_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/005cf2fc-d751-4095-b3d6-c6ae93a03949/2026-09-02_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/005cf2fc-d751-4095-b3d6-c6ae93a03949/2026-09-02_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Mardi 1 sept. 2026 : La recette des cerises au marasquin, et la conscience de ses propres rêves</title>
-      <description>&lt;p&gt;L&amp;#x27;activité cérébrale lors de l&amp;#x27;endormissement et la conscience des rêves; la méthode mystérieuse de fabrication des cerises au marasquin; les raisons expliquant le meilleur goût des légumes cultivés en potager; la détection des menaces par le cerveau et le rôle du langage dans ce processus.&lt;/p&gt;</description>
+      <description>&lt;p&gt;L'activité cérébrale lors de l'endormissement et la conscience des rêves; la méthode mystérieuse de fabrication des cerises au marasquin; les raisons expliquant le meilleur goût des légumes cultivés en potager; la détection des menaces par le cerveau et le rôle du langage dans ce processus.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235796/mardi-1-sept-2026-la-recette-des-cerises-au-marasquin-et-la-conscience-de-ses-propres-reves</link>
       <pubDate>Tue, 01 Sep 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f178c12-8239-4465-bd85-f6f81681d65e/2026-09-01_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f178c12-8239-4465-bd85-f6f81681d65e/2026-09-01_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0f178c12-8239-4465-bd85-f6f81681d65e/2026-09-01_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Lundi 31 août 2026 : L’origine de la boule dans la gorge, et l’impact digestif du café</title>
-      <description>&lt;p&gt;L&amp;#x27;impact digestif de la consommation de café; l&amp;#x27;origine physiologique de la sensation de boule dans la gorge lors d&amp;#x27;une forte émotion; la transmission de zoonoses par la population canine malgré la vaccination; et la raison de la mousse plus abondante au deuxième lavage de cheveux.&lt;/p&gt;</description>
+      <description>&lt;p&gt;L'impact digestif de la consommation de café; l'origine physiologique de la sensation de boule dans la gorge lors d'une forte émotion; la transmission de zoonoses par la population canine malgré la vaccination; et la raison de la mousse plus abondante au deuxième lavage de cheveux.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235763/lundi-31-aout-2026-lorigine-de-la-boule-dans-la-gorge-et-limpact-digestif-du-cafe</link>
       <pubDate>Mon, 31 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e3ee75fc-b416-49fd-949a-77cb22bd8c41/2026-08-31_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e3ee75fc-b416-49fd-949a-77cb22bd8c41/2026-08-31_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e3ee75fc-b416-49fd-949a-77cb22bd8c41/2026-08-31_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 27 août 2026&amp;nbsp;: La permanence des tatouages, et le fonctionnement du lavage de cerveau</title>
-      <description>&lt;p&gt;Le besoin de faire &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;respirer &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;respirer &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;respirer&lt;/span&gt;&lt;/q&gt; les habitations écoénergétiques; les mécanismes scientifiques du lavage de cerveau; la permanence des tatouages malgré le renouvellement des cellules de la peau; et la lumière sur la synchronicité intercérébrale, quand des personnes pensent la même chose en même temps.&lt;/p&gt;</description>
-      <pubDate>Thu, 27 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3c391d03-149e-443c-bd90-cf57d9966116/2026-08-27_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3c391d03-149e-443c-bd90-cf57d9966116/2026-08-27_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
       <title>La permanence des tatouages, et le fonctionnement du lavage de cerveau</title>
-      <description>&amp;lt;p&amp;gt;Le besoin de faire respirer les habitations écoénergétiques; les mécanismes scientifiques du lavage de cerveau; la permanence des tatouages malgré le renouvellement des cellules de la peau; et la lumière sur la synchronicité intercérébrale, quand des personnes pensent la même chose en même temps.&amp;lt;/p&amp;gt;</description>
+      <description>&lt;p&gt;Le besoin de faire respirer les habitations écoénergétiques; les mécanismes scientifiques du lavage de cerveau; la permanence des tatouages malgré le renouvellement des cellules de la peau; et la lumière sur la synchronicité intercérébrale, quand des personnes pensent la même chose en même temps.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235704/jeudi-27-aout-2026-la-permanence-des-tatouages-et-le-fonctionnement-du-lavage-de-cerveau</link>
       <pubDate>Thu, 27 Aug 2026 09:45:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8c6375ba-0846-4fd6-94b1-dec38cf0ec27/2026-08-28_09_45_00_moteurderecherchebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8c6375ba-0846-4fd6-94b1-dec38cf0ec27/2026-08-28_09_45_00_moteurderecherchebalado_0000.mp3" length="76537312" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/8c6375ba-0846-4fd6-94b1-dec38cf0ec27/2026-08-28_09_45_00_moteurderecherchebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:53:09</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 26 août 2026&amp;nbsp;: L’effet de l’espace sur les montres, et la cachette des coyotes le jour</title>
-      <description>&lt;p&gt;La comparaison entre la beauté des équations mathématiques et celle des mélodies; le décalage horaire des montres au retour de l&amp;#x27;espace; l&amp;#x27;efficacité accrue des antibiotiques en début d&amp;#x27;infection; et la cachette des coyotes durant la journée.&lt;/p&gt;</description>
+      <title>Mercredi 26 août 2026 : L’effet de l’espace sur les montres, et la cachette des coyotes le jour</title>
+      <description>&lt;p&gt;La comparaison entre la beauté des équations mathématiques et celle des mélodies; le décalage horaire des montres au retour de l'espace; l'efficacité accrue des antibiotiques en début d'infection; et la cachette des coyotes durant la journée.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235676/mercredi-26-aout-2026-leffet-de-lespace-sur-les-montres-et-la-cachette-des-coyotes-le-jour</link>
       <pubDate>Wed, 26 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c39feba3-6c7e-48ee-953e-669bd61b9471/2026-08-26_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c39feba3-6c7e-48ee-953e-669bd61b9471/2026-08-26_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c39feba3-6c7e-48ee-953e-669bd61b9471/2026-08-26_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Mardi 25 août 2026 : Le délai de réponse des ambulances, et le calcul de la température ressentie</title>
-      <description>&lt;p&gt;Les temps de réponse des ambulances à Montréal; l&amp;#x27;effet des stimulants sur le système de récompense de la dopamine; la consommation d&amp;#x27;eau cachée dans la fabrication des jeans; la recherche d&amp;#x27;un meilleur indice pour évaluer la température ressentie.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Les temps de réponse des ambulances à Montréal; l'effet des stimulants sur le système de récompense de la dopamine; la consommation d'eau cachée dans la fabrication des jeans; la recherche d'un meilleur indice pour évaluer la température ressentie.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235671/mardi-25-aout-2026-le-delai-de-reponse-des-ambulances-et-le-calcul-de-la-temperature-ressentie</link>
       <pubDate>Tue, 25 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6724c304-ba8a-42e7-99c9-2c9cbd0e4798/2026-08-25_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6724c304-ba8a-42e7-99c9-2c9cbd0e4798/2026-08-25_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6724c304-ba8a-42e7-99c9-2c9cbd0e4798/2026-08-25_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Lundi 24 août 2026 : Le tricot en temps de guerre, et la réserve mondiale de semences du Svalbard</title>
-      <description>&lt;p&gt;L&amp;#x27;utilisation du tricot pour remporter des guerres; la différence entre la fluorescence et la phosphorescence; la grande complexité du jargon juridique; et le fonctionnement de la Réserve mondiale de semences du Svalbard.&lt;/p&gt;</description>
+      <description>&lt;p&gt;L'utilisation du tricot pour remporter des guerres; la différence entre la fluorescence et la phosphorescence; la grande complexité du jargon juridique; et le fonctionnement de la Réserve mondiale de semences du Svalbard.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235649/lundi-24-aout-2026-le-tricot-en-temps-de-guerre-et-la-reserve-mondiale-de-semences-du-svalbard</link>
       <pubDate>Mon, 24 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8e963f2e-916f-4a40-9639-78bcceb85244/2026-08-24_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8e963f2e-916f-4a40-9639-78bcceb85244/2026-08-24_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8e963f2e-916f-4a40-9639-78bcceb85244/2026-08-24_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 20 août 2026&amp;nbsp;: Le lien entre stress et prise de poids, et le charisme décrypté</title>
+      <title>Jeudi 20 août 2026 : Le lien entre stress et prise de poids, et le charisme décrypté</title>
       <description>&lt;p&gt;L’idée que la congélation du riz permettrait de réduire son apport calorique; la raison pour laquelle chaque boisson a son propre verre; le lien entre stress, cortisol et prise de poids; et le décryptage scientifique du charisme.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235573/jeudi-20-aout-2026-le-lien-entre-stress-et-prise-de-poids-et-le-charisme-decrypte</link>
       <pubDate>Thu, 20 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/94f58a29-72d3-4869-8a81-bc1fac8c2e67/2026-08-20_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/94f58a29-72d3-4869-8a81-bc1fac8c2e67/2026-08-20_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/94f58a29-72d3-4869-8a81-bc1fac8c2e67/2026-08-20_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Le fonctionnement de l’écholalie, et l’impact environnemental des déchets dans l’eau</title>
-      <description>&amp;lt;p&amp;gt;Le fonctionnement de l'écholalie chez les personnes vivant avec un trouble du spectre de l'autisme; l'impact écologique des résidus alimentaires biodégradables jetés dans les cours d'eau; le risque de blessure des oiseaux plongeurs lors de leur entrée dans l'eau; et la variation du rythme des réactions chimiques.&amp;lt;/p&amp;gt;</description>
+      <description>&lt;p&gt;Le fonctionnement de l'écholalie chez les personnes vivant avec un trouble du spectre de l'autisme; l'impact écologique des résidus alimentaires biodégradables jetés dans les cours d'eau; le risque de blessure des oiseaux plongeurs lors de leur entrée dans l'eau; et la variation du rythme des réactions chimiques.&lt;/p&gt;</description>
       <pubDate>Thu, 20 Aug 2026 09:30:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/ff0abf8e-c7bd-45d1-bf07-d3f0e5cd4fdc/2026-08-21_09_30_00_moteurderecherchebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/ff0abf8e-c7bd-45d1-bf07-d3f0e5cd4fdc/2026-08-21_09_30_00_moteurderecherchebalado_0000.mp3" length="76538566" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/ff0abf8e-c7bd-45d1-bf07-d3f0e5cd4fdc/2026-08-21_09_30_00_moteurderecherchebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:53:09</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 19 août 2026&amp;nbsp;: La naissance de la musique, et le mauvais sens de l’orientation des êtres humains</title>
+      <title>Mercredi 19 août 2026 : La naissance de la musique, et le mauvais sens de l’orientation des êtres humains</title>
       <description>&lt;p&gt;La signification du retour des requins blancs; la différence de sensibilité aux poussières oculaires des personnes et des animaux; le mauvais sens de l’orientation des êtres humains; et le moment de l’apparition de la musique dans l’histoire de l’humanité.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235442/mercredi-19-aout-2026-la-naissance-de-la-musique-et-le-mauvais-sens-de-lorientation-des-etres-humains</link>
       <pubDate>Wed, 19 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a6ef016f-b0d1-40ad-8bec-e94cd9f66513/2026-08-19_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a6ef016f-b0d1-40ad-8bec-e94cd9f66513/2026-08-19_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a6ef016f-b0d1-40ad-8bec-e94cd9f66513/2026-08-19_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Mardi 18 août 2026 : L’effet du micro-ondes sur la santé, et le potentiel médical des psychédéliques</title>
-      <description>&lt;p&gt;L&amp;#x27;impact de la cuisson au micro-ondes sur les nutriments; l&amp;#x27;utilité insoupçonnée de la capsaïcine pour le corps humain; l&amp;#x27;utilisation potentielle des psychédéliques pour le traitement des dépendances; et la transmission intergénérationnelle des croyances religieuses.&lt;/p&gt;</description>
+      <description>&lt;p&gt;L'impact de la cuisson au micro-ondes sur les nutriments; l'utilité insoupçonnée de la capsaïcine pour le corps humain; l'utilisation potentielle des psychédéliques pour le traitement des dépendances; et la transmission intergénérationnelle des croyances religieuses.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235397/mardi-18-aout-2026-leffet-du-micro-ondes-sur-la-sante-et-le-potentiel-medical-des-psychedeliques</link>
       <pubDate>Tue, 18 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e828fc15-ab12-4b33-80c4-4d38755700c1/2026-08-18_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e828fc15-ab12-4b33-80c4-4d38755700c1/2026-08-18_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e828fc15-ab12-4b33-80c4-4d38755700c1/2026-08-18_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Lundi 17 août 2026 : Le fonctionnement de l’écholalie, et l’impact environnemental des déchets dans l’eau</title>
-      <description>&lt;p&gt;Le fonctionnement de l&amp;#x27;écholalie chez les personnes vivant avec un trouble du spectre de l&amp;#x27;autisme; l&amp;#x27;impact écologique des résidus alimentaires biodégradables jetés dans les cours d&amp;#x27;eau; le risque de blessure des oiseaux plongeurs lors de leur entrée dans l&amp;#x27;eau; et la variation du rythme des réactions chimiques.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Le fonctionnement de l'écholalie chez les personnes vivant avec un trouble du spectre de l'autisme; l'impact écologique des résidus alimentaires biodégradables jetés dans les cours d'eau; le risque de blessure des oiseaux plongeurs lors de leur entrée dans l'eau; et la variation du rythme des réactions chimiques.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235366/lundi-17-aout-2026-le-fonctionnement-de-lecholalie-et-limpact-environnemental-des-dechets-dans-leau</link>
       <pubDate>Mon, 17 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/56b8c0ec-2737-4dba-9e01-a83e082a24be/2026-08-17_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/56b8c0ec-2737-4dba-9e01-a83e082a24be/2026-08-17_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/56b8c0ec-2737-4dba-9e01-a83e082a24be/2026-08-17_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Mardi 11 août 2026 : Le chanvre comme textile pour les bateaux, et l’influence du revêtement des maisons sur la température</title>
       <description>&lt;p&gt;Madeleine Goubau détermine si le chanvre constitue le meilleur textile pour les toiles de bateau; Valérie Levée explique comment le revêtement extérieur de nos maisons peut influencer la température à l’intérieur; Guillaume Bollée nous en apprend plus sur la formation des calculs rénaux; et Langis Michaud plonge dans la science du clignement des yeux. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1175029/mardi-11-aout-2026-le-chanvre-comme-textile-pour-les-bateaux-et-linfluence-du-revetement-des-maisons-sur-la-temperature</link>
       <pubDate>Tue, 11 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/32a9c070-9d88-4926-8d4f-7cede06e7290/2026-08-11_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/32a9c070-9d88-4926-8d4f-7cede06e7290/2026-08-11_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/32a9c070-9d88-4926-8d4f-7cede06e7290/2026-08-11_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Lundi 3 août 2026&amp;nbsp;: La théorie de la créativité, et les semis faits à l’intérieur</title>
-      <description>&lt;p&gt;Pierre-Antoine Gilbert nous dit si les semis faits à l’extérieur sont plus résistants que ceux cultivés à l’intérieur; Catherine Girard nous apprend ce qui se passe quand un lac &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;cale&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;cale&amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;cale&lt;/span&gt;&lt;/q&gt;; Christian Mercier explique pourquoi les gnocchis se mettent à flotter durant la cuisson; et Daria Marchenko s’intéresse à la théorie de la créativité.&lt;/p&gt;</description>
+      <title>Lundi 3 août 2026 : La théorie de la créativité, et les semis faits à l’intérieur</title>
+      <description>&lt;p&gt;Pierre-Antoine Gilbert nous dit si les semis faits à l’extérieur sont plus résistants que ceux cultivés à l’intérieur; Catherine Girard nous apprend ce qui se passe quand un lac &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;cale&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;cale&amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;cale&lt;/span&gt;&lt;/q&gt;; Christian Mercier explique pourquoi les gnocchis se mettent à flotter durant la cuisson; et Daria Marchenko s’intéresse à la théorie de la créativité.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1175014/lundi-3-aout-2026-la-theorie-de-la-creativite-et-les-semis-faits-a-linterieur</link>
       <pubDate>Mon, 03 Aug 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/988113db-dd0f-4480-a7aa-bb0f5e65f717/2026-08-03_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/988113db-dd0f-4480-a7aa-bb0f5e65f717/2026-08-03_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/988113db-dd0f-4480-a7aa-bb0f5e65f717/2026-08-03_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 29 juill. 2026 : L’évolution du menton, et les raisons du peu de climatiseurs en Europe</title>
+      <title>Mercredi 29 juill. 2026 : L’évolution du menton, et les raisons du peu de climatiseurs en Europe</title>
       <description>&lt;p&gt;Stéphane Garneau explique pourquoi la plupart des pays européens ont peu de climatiseurs; l’urologue Daniel Liberman parle des solutions si les envies de pipi ruinent votre quotidien; Stéphanie Bentz s’intéresse à la capacité des orignaux à plonger sous l’eau; et Chloé Bourquin nous dit à quoi sert le menton.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1175003/mercredi-29-juill-2026-levolution-du-menton-et-les-raisons-du-peu-de-climatiseurs-en-europe</link>
       <pubDate>Wed, 29 Jul 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e3924527-ff73-4020-8f20-bcc55ea67a44/2026-07-29_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e3924527-ff73-4020-8f20-bcc55ea67a44/2026-07-29_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e3924527-ff73-4020-8f20-bcc55ea67a44/2026-07-29_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 23 juill. 2026 : L’influence de l’urbanisme sur nos rapports sociaux, et les bénéfices d’un cerveau au repos</title>
+      <title>Jeudi 23 juill. 2026 : L’influence de l’urbanisme sur nos rapports sociaux, et les bénéfices d’un cerveau au repos</title>
       <description>&lt;p&gt;Michaël Sage explique pourquoi l’eau froide semble mieux étancher la soif que l’eau chaude; Sophie Paquin parle de l’influence de l’aménagement urbain sur nos interactions sociales; le Dr Dave Ellemberg nous dit pourquoi nos cerveaux semblent mieux fonctionner quand ils sont au repos; et Nathalie Léonard présente une recherche citoyenne sur les populations de huards.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1174983/jeudi-23-juill-2026-linfluence-de-lurbanisme-sur-nos-rapports-sociaux-et-les-benefices-dun-cerveau-au-repos</link>
       <pubDate>Thu, 23 Jul 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/83f13934-03ab-40a6-acea-63e326ba294e/2026-07-23_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/83f13934-03ab-40a6-acea-63e326ba294e/2026-07-23_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/83f13934-03ab-40a6-acea-63e326ba294e/2026-07-23_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
       <title>Mercredi 22 juill. 2026: La désynchronisation entre l’image et le son lors des festivals, et les effets de la méditation</title>
       <description>&lt;p&gt;Laurent LaSalle explique pourquoi les jeux vidéo narratifs sont rares; Stevens Laureys s’intéresse aux effets de la méditation; Caroline Traube parle de la désynchronisation entre l’image et le son lors des festivals; et Rémy Charest nous dit ce qui donne la couleur aux vins rosés.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1174932/mercredi-22-juill-2026-la-desynchronisation-entre-limage-et-le-son-lors-des-festivals-et-les-effets-de-la-meditation</link>
       <pubDate>Wed, 22 Jul 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d9ce610b-93f5-4214-a565-ffb9d8ba69b9/2026-07-22_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d9ce610b-93f5-4214-a565-ffb9d8ba69b9/2026-07-22_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d9ce610b-93f5-4214-a565-ffb9d8ba69b9/2026-07-22_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 8 juill. 2026&amp;nbsp;:&amp;nbsp;Les genoux des dinosaures, et les espèces exotiques envahissantes</title>
+      <title>Mercredi 8 juill. 2026 : Les genoux des dinosaures, et les espèces exotiques envahissantes</title>
       <description>&lt;p&gt;François Therrien explique l’illusion optique qui nous mène à penser que les genoux des dinosaures et des oiseaux vont se plier de façon contraire à ceux de l’espèce humaine; Isabelle Burgun déconstruit les mythes autour de la thérapie par l’eau japonaise; et Gabriel Blouin-Demers et Denis Réale parlent de la difficulté d’éradiquer les espèces envahissantes.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1174924/mercredi-8-juill-2026-les-genoux-des-dinosaures-et-les-especes-exotiques-envahissantes</link>
       <pubDate>Wed, 08 Jul 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4bd663cb-054c-4a56-974e-40ba1e27df9d/2026-07-08_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4bd663cb-054c-4a56-974e-40ba1e27df9d/2026-07-08_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4bd663cb-054c-4a56-974e-40ba1e27df9d/2026-07-08_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Mardi 30 juin 2026&amp;nbsp;: La mauvaise humeur liée à la faim, et la cartographie des champignons</title>
-      <description>&lt;p&gt;Sandrine Geoffrion explique pourquoi on devient irritables lorsqu’on a faim; Jonathan Cazabonne s’intéresse aux techniques pour cartographier les champignons; Olivier Hernandez se penche sur les conséquences de la disparition de la Lune sur les marées et l&amp;#x27;existence humaine; et Catherine Mathys se demande si la population fait le poids face aux géants technologiques dans la lutte contre les centres de données.&lt;/p&gt;</description>
+      <title>Mardi 30 juin 2026 : La mauvaise humeur liée à la faim, et la cartographie des champignons</title>
+      <description>&lt;p&gt;Sandrine Geoffrion explique pourquoi on devient irritables lorsqu’on a faim; Jonathan Cazabonne s’intéresse aux techniques pour cartographier les champignons; Olivier Hernandez se penche sur les conséquences de la disparition de la Lune sur les marées et l'existence humaine; et Catherine Mathys se demande si la population fait le poids face aux géants technologiques dans la lutte contre les centres de données.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1174907/mardi-30-juin-2026-la-mauvaise-humeur-liee-a-la-faim-et-la-cartographie-des-champignons</link>
       <pubDate>Tue, 30 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/50817e7e-9d5b-4939-a10e-5bd2d3eda627/2026-06-30_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/50817e7e-9d5b-4939-a10e-5bd2d3eda627/2026-06-30_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/50817e7e-9d5b-4939-a10e-5bd2d3eda627/2026-06-30_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Lundi 22 juin 2026&amp;nbsp;: La réduction de la pollution lumineuse, et le mal de tête des chiens</title>
-      <description>&lt;p&gt;Les solutions des peuples autochtones pour se protéger du soleil; les gestes citoyens pour réduire la pollution lumineuse; l’existence ou pas des maux de tête chez les chiens; et la conscience des plantes de la présence de racines d&amp;#x27;autres plantes.&lt;/p&gt;</description>
+      <title>Lundi 22 juin 2026 : La réduction de la pollution lumineuse, et le mal de tête des chiens</title>
+      <description>&lt;p&gt;Les solutions des peuples autochtones pour se protéger du soleil; les gestes citoyens pour réduire la pollution lumineuse; l’existence ou pas des maux de tête chez les chiens; et la conscience des plantes de la présence de racines d'autres plantes.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1174898/lundi-22-juin-2026</link>
       <pubDate>Mon, 22 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/143e2e9a-30e3-467c-8b85-bd5df4866e88/2026-06-22_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/143e2e9a-30e3-467c-8b85-bd5df4866e88/2026-06-22_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/143e2e9a-30e3-467c-8b85-bd5df4866e88/2026-06-22_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 18 juin 2026&amp;nbsp;: Manger les déjeuners du monde, et diminuer les risques d’infection urinaire</title>
+      <title>Jeudi 18 juin 2026 : Manger les déjeuners du monde, et diminuer les risques d’infection urinaire</title>
       <description>&lt;p&gt;Stéphane Garneau fait le tour des déjeuners du monde; Océane Gonçalves nous dit si uriner après un rapport sexuel réduit les risques d’infection urinaire; Caroline Traube évoque les diverses façons d’écrire musique sur la planète; Léo Boisvert tente de savoir pourquoi l’intelligence artificielle peine à résoudre un test de sécurité informatique (captcha). &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1092063/jeudi-18-juin-2026-manger-les-dejeuners-du-monde-et-diminuer-les-risques-dinfection-urinaire</link>
       <pubDate>Thu, 18 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e4670e4f-e10f-48ce-807d-173082aac6a7/2026-06-18_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e4670e4f-e10f-48ce-807d-173082aac6a7/2026-06-18_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e4670e4f-e10f-48ce-807d-173082aac6a7/2026-06-18_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Cultiver son café chez soi, et acheter des vêtements compulsivement</title>
-      <description>&amp;lt;p&amp;gt;David Wees cherche à savoir si on peut faire pousser du café au Québec; Madeleine Goubau se penche sur l’achat compulsif de vêtements; Jade-Anaïs Généreux-Gamache établit qui de la mère ou du fœtus déclenche l’accouchement; et Mathieu M. Blanchet explique en quoi consiste le raisonnement émotionnel.&amp;lt;/p&amp;gt;</description>
+      <description>&lt;p&gt;David Wees cherche à savoir si on peut faire pousser du café au Québec; Madeleine Goubau se penche sur l’achat compulsif de vêtements; Jade-Anaïs Généreux-Gamache établit qui de la mère ou du fœtus déclenche l’accouchement; et Mathieu M. Blanchet explique en quoi consiste le raisonnement émotionnel.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1092005/mardi-16-juin-2026-cultiver-son-cafe-chez-soi-et-acheter-des-vetements-compulsivement</link>
       <pubDate>Thu, 18 Jun 2026 12:57:38 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/02fa4a69-5376-48aa-b6b4-b25d369b9d9d/2026-06-18_12_57_38_moteurderecherchebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/02fa4a69-5376-48aa-b6b4-b25d369b9d9d/2026-06-18_12_57_38_moteurderecherchebalado_0000.mp3" length="76513489" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/02fa4a69-5376-48aa-b6b4-b25d369b9d9d/2026-06-18_12_57_38_moteurderecherchebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:53:08</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 17 juin 2026&amp;nbsp;: Le danger des pluies de météorites, et les effets de l’hexane, un dérivé du pétrole</title>
+      <title>Mercredi 17 juin 2026 : Le danger des pluies de météorites, et les effets de l’hexane, un dérivé du pétrole</title>
       <description>&lt;p&gt;Olivier Hernandez évalue le danger d’une pluie de météorites pour les satellites; Élyse Caron-Beaudoin en dit plus sur l’hexane, un dérivé du pétrole; Louis Flamand tente de trouver certains virus bénéfiques pour la santé; et Laure Patouillard se penche sur les effets de la pêche sur l’environnement.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1092029/mercredi-17-juin-2026-le-danger-des-pluies-de-meteorites-et-les-effets-de-lhexane-un-derive-du-petrole</link>
       <pubDate>Wed, 17 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dd1acec9-b963-4f6f-968d-62442ffe9742/2026-06-17_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dd1acec9-b963-4f6f-968d-62442ffe9742/2026-06-17_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dd1acec9-b963-4f6f-968d-62442ffe9742/2026-06-17_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mardi 16 juin 2026&amp;nbsp;: Cultiver son café chez soi, et acheter des vêtements compulsivement</title>
-      <description>&lt;p&gt;David Wees cherche à savoir si on peut faire pousser du café au Québec; Madeleine Goubau se penche sur l’achat compulsif de vêtements; Jade-Anaïs Généreux-Gamache établit qui de la mère ou du fœtus déclenche l’accouchement; et Mathieu M. Blanchet explique en quoi consiste le raisonnement émotionnel.&lt;/p&gt;</description>
-      <pubDate>Tue, 16 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2ae8f70c-2c06-4464-80f5-15040343fd5b/2026-06-16_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2ae8f70c-2c06-4464-80f5-15040343fd5b/2026-06-16_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
-    </item>
-    <item>
-      <title>Lundi 15 juin 2026&amp;nbsp;: La difficulté de parler en public, et le sport pour les femmes enceintes</title>
+      <title>Lundi 15 juin 2026 : La difficulté de parler en public, et le sport pour les femmes enceintes</title>
       <description>&lt;p&gt;Agathe Tupula Kabola regarde pourquoi il est parfois difficile de s’exprimer en public; Stéphanie-May Ruchat explique comment le corps d’une femme enceinte s’adapte à la pratique d’un sport; Laurie Maynard désamorce quelques mythes à propos des requins; et Langis Michaud décrit un examen de la vue pour les analphabètes. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1091986/lundi-15-juin-2026-la-difficulte-de-parler-en-public-et-le-sport-pour-les-femmes-enceintes</link>
       <pubDate>Mon, 15 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ac589c8e-d81f-4a3a-b189-4812b28411c3/2026-06-15_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ac589c8e-d81f-4a3a-b189-4812b28411c3/2026-06-15_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ac589c8e-d81f-4a3a-b189-4812b28411c3/2026-06-15_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 11 juin 2026&amp;nbsp;: La colorisation des vieux films, et le moins polluant des BBQ</title>
+      <title>Jeudi 11 juin 2026 : La colorisation des vieux films, et le moins polluant des BBQ</title>
       <description>&lt;p&gt;Stéphane Garneau se penche sur le processus derrière la colorisation des films anciens; Fabien Durif évalue si le charbon du BBQ émet plus de gaz à effets de serre que le propane; Daria Marchenko tente d’établir des parallèles entre la science et l’art; et Juan-Carlos Villarreal observe le rôle des bactéries dans la croissance des plantes.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1091884/jeudi-11-juin-2026-la-colorisation-des-vieux-films-et-le-moins-polluant-des-bbq</link>
       <pubDate>Thu, 11 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/efab0f95-b565-41c6-ae13-fdf53ef4d7c2/2026-06-11_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/efab0f95-b565-41c6-ae13-fdf53ef4d7c2/2026-06-11_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/efab0f95-b565-41c6-ae13-fdf53ef4d7c2/2026-06-11_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 10 juin 2026 : Le secret derrière l’arôme de fumée, et l’odeur des matières</title>
+      <title>Mercredi 10 juin 2026 : Le secret derrière l’arôme de fumée, et l’odeur des matières</title>
       <description>&lt;p&gt;Christian Mercier enquête pour savoir comme se produit l’arôme naturel de fumée; Caroline Cormier met son odorat à contribution et tente de savoir si chaque matière a une odeur; Aurore Courtieux-Boinot observe l’état de propreté des berges des cours d’eau; et Jean-Pierre Tremblay nous informe sur la vision des orignaux.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1091868/mercredi-9-juin-2026-le-secret-derriere-larome-de-fumee-et-lodeur-des-matieres</link>
       <pubDate>Wed, 10 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/abf6b540-d1a3-4ff5-a86b-c3201c5e16ba/2026-06-10_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/abf6b540-d1a3-4ff5-a86b-c3201c5e16ba/2026-06-10_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/abf6b540-d1a3-4ff5-a86b-c3201c5e16ba/2026-06-10_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mardi 9 juin 2026&amp;nbsp;: L’invalidante maladie de Ménière, et le plus vieil insecte du monde</title>
+      <title>Mardi 9 juin 2026 : L’invalidante maladie de Ménière, et le plus vieil insecte du monde</title>
       <description>&lt;p&gt;Maxime Maheu nous en apprend plus sur la maladie de Ménière; Jessica Forrest tente d’établir quel est le plus vieil insecte sur Terre; Chloé-Anne Touma se demande si un cellulaire éteint peut être géolocalisé; et Caroline Boudoux nomme les différences entre notre œil et la lentille d’une caméra.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1091837/mardi-9-juin-2026-linvalidante-maladie-de-meniere-et-le-plus-vieil-insecte-du-monde</link>
       <pubDate>Tue, 09 Jun 2026 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ebb40a1d-c945-498d-99b9-16b5d2ef7409/2026-06-09_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ebb40a1d-c945-498d-99b9-16b5d2ef7409/2026-06-09_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ebb40a1d-c945-498d-99b9-16b5d2ef7409/2026-06-09_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Jeudi 13 août 2026 : Arrondir un chiffre, et lancer une fusée dans le ciel</title>
       <description>&lt;p&gt;Jean-François Gagnon tente de déterminer pourquoi arrondir un chiffre se fait toujours vers le chiffre le plus haut; Henri Takahashi-Massicotte et Alice Langlais explique la réglementation en vigueur pour propulser une fusée dans l’atmosphère; Olivier Hernandez essaie de savoir comment les constellations sont définies; et Stéphane Garneau relate les bases de la psychologie des soldes commerciaux. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1084097/jeudi-11-septembre-2025</link>
       <pubDate>Thu, 11 Sep 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/59c64b00-5131-4831-967b-9b8d7c806159/2025-09-11_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/59c64b00-5131-4831-967b-9b8d7c806159/2025-09-11_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/59c64b00-5131-4831-967b-9b8d7c806159/2025-09-11_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Lundi 10 août 2026&amp;nbsp;: Le Quik aux fraises en poudre, et l’énergie autonome en Antarctique</title>
+      <title>Lundi 10 août 2026 : Le Quik aux fraises en poudre, et l’énergie autonome en Antarctique</title>
       <description>&lt;p&gt;Barbara-Judith Caron fait revivre le Quik aux fraises en poudre; Philippe Terrier se demande si une personne peut être autonome énergétiquement parlant en Antarctique; Fanny Tan évalue si les hallucinations générées par l’intelligence artificielle peuvent entraîner des conséquences réelles; et Christian Mercier tente de voir ce qui fait que les biscuits Pattes d’ours minis ne goûtent pas comme les produits originaux.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1084028/lundi-8-sept-2025-le-quick-aux-fraises-en-poudre-et-lenergie-autonome-en-antarctique</link>
       <pubDate>Mon, 08 Sep 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3a4a36e7-e3c3-4ffd-8462-556cef74fe2d/2025-09-08_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3a4a36e7-e3c3-4ffd-8462-556cef74fe2d/2025-09-08_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3a4a36e7-e3c3-4ffd-8462-556cef74fe2d/2025-09-08_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 12 août 2026&amp;nbsp;: La domination du mâle dans le règne animal, et l’acte de se parler à soi-même</title>
+      <title>Mercredi 12 août 2026 : La domination du mâle dans le règne animal, et l’acte de se parler à soi-même</title>
       <description>&lt;p&gt;Iulia Bădescu se penche sur la véracité de la croyance populaire selon laquelle les mâles du règne animal dominent dans la nature; Pascale Tremblay explique l’association entre le soliloque, soit l’acte de se parler seul à voix haute, et la folie; Ryoa Chung nous en apprend plus sur les bienfaits de l’ennui pour l’être humain; et Alexandre Shields s’intéresse à la capacité des lucioles à produire de la lumière.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074140/mercredi-13-aout-2025</link>
       <pubDate>Wed, 13 Aug 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/089dd269-cc01-4117-a6c4-8a0bf9828971/2025-08-13_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/089dd269-cc01-4117-a6c4-8a0bf9828971/2025-08-13_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/089dd269-cc01-4117-a6c4-8a0bf9828971/2025-08-13_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Lundi 27 juill. 2026&amp;nbsp;: La Niña et El Niño expliqués, et quoi faire d’un viel ordinateur fonctionnel</title>
-      <description>&lt;p&gt;Annie Levasseur, chercheuse à l’École de technologie supérieure, nous dit s’il est possible d’utiliser la chaleur du Soleil pour produire une autre forme d’énergie; Philippe Lucas-Picher, professeur au Département des sciences de la Terre et de l&amp;#x27;atmosphère de l&amp;#x27;UQAM, explique la différence entre El Niño de La Niña; et Daria Marchenko s’intéresse aux vieux ordinateurs des années 2000.&lt;/p&gt;</description>
+      <title>Lundi 27 juill. 2026 : La Niña et El Niño expliqués, et quoi faire d’un viel ordinateur fonctionnel</title>
+      <description>&lt;p&gt;Annie Levasseur, chercheuse à l’École de technologie supérieure, nous dit s’il est possible d’utiliser la chaleur du Soleil pour produire une autre forme d’énergie; Philippe Lucas-Picher, professeur au Département des sciences de la Terre et de l'atmosphère de l'UQAM, explique la différence entre El Niño de La Niña; et Daria Marchenko s’intéresse aux vieux ordinateurs des années 2000.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074127/jeudi-7-aout-2025</link>
       <pubDate>Thu, 07 Aug 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f3828926-8baf-4707-ad4b-f95ebfaadfa8/2025-08-07_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f3828926-8baf-4707-ad4b-f95ebfaadfa8/2025-08-07_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f3828926-8baf-4707-ad4b-f95ebfaadfa8/2025-08-07_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Mardi 7 juil. 2026&amp;nbsp;: Les montagnes russes selon l’âge, et les balais de sorcières</title>
+      <title>Mardi 7 juil. 2026 : Les montagnes russes selon l’âge, et les balais de sorcières</title>
       <description>&lt;p&gt;Le Dr Dave Ellemberg tente de savoir pourquoi les montagnes russes paraissent moins attirantes aux personnes plus âgées; Gabriel Blouin-Demers explique comment un reptile exotique peut survivre dans des conditions météo froides et humides; Pauline Hessenhauer décrit le phénomène des balais de sorcières sur certains arbres; et Véronick Raymond évoque une recherche sur l’identification de biomarqueurs sanguins dans la consommation d’aliments.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074129/mardi-29-juillet-2025</link>
       <pubDate>Tue, 29 Jul 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/38246582-8a84-4643-af2f-07f59ba36f67/2025-07-29_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/38246582-8a84-4643-af2f-07f59ba36f67/2025-07-29_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/38246582-8a84-4643-af2f-07f59ba36f67/2025-07-29_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Lundi 20 juill. 2026&amp;nbsp;: Les exercices pour ralentir l’alzheimer, et les pupilles dilatées</title>
+      <title>Lundi 20 juill. 2026 : Les exercices pour ralentir l’alzheimer, et les pupilles dilatées</title>
       <description>&lt;p&gt;La professeure Sylvie Belleville livre ses observations sur l’utilité des exercices cognitifs pour ralentir les effets la maladie d’Alzheimer; Langis Michaud explique dans quelles circonstances les pupilles provoquent la dilatation des pupilles; Valérie Borde décortique les propriétés médicinales de l’aloès; et on tente de voir avec Agathe Tupula Kabola ce que signifie les pauses indues dans un discours.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074135/lundi-21-juillet-2025</link>
       <pubDate>Mon, 21 Jul 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/028e6993-425d-4cb7-baea-f29de2992f37/2025-07-21_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/028e6993-425d-4cb7-baea-f29de2992f37/2025-07-21_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/028e6993-425d-4cb7-baea-f29de2992f37/2025-07-21_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
       <title>Mardi 21 juill. 2026 : Signalisations lumineuses, et poissons dans les rivières en crue</title>
-      <description>&lt;p&gt;Chloé-Anne Touma décrit le fonctionnement des signalisations lumineuses pour aviser la présence d’animaux aux abords des routes; Normand Bergeron explique ce qui arrive aux poissons quand les rivières sont en crue; et Noémie Larouche répond à la question suivante&amp;nbsp;: les pierres ont-elles de réels pouvoirs?&lt;/p&gt;</description>
+      <description>&lt;p&gt;Chloé-Anne Touma décrit le fonctionnement des signalisations lumineuses pour aviser la présence d’animaux aux abords des routes; Normand Bergeron explique ce qui arrive aux poissons quand les rivières sont en crue; et Noémie Larouche répond à la question suivante : les pierres ont-elles de réels pouvoirs?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074126/jeudi-17-juillet-2025</link>
       <pubDate>Thu, 17 Jul 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f68d42ea-c448-4c9e-b429-3deb8529b267/2025-07-17_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f68d42ea-c448-4c9e-b429-3deb8529b267/2025-07-17_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f68d42ea-c448-4c9e-b429-3deb8529b267/2025-07-17_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 30 juill. 2026&amp;nbsp;: L’histoire du cheval, et les médicaments d’animaux en pharmacie</title>
+      <title>Jeudi 30 juill. 2026 : L’histoire du cheval, et les médicaments d’animaux en pharmacie</title>
       <description>&lt;p&gt;Clément Bataille raconte le parcours du cheval à travers l’histoire et sur plusieurs continents; Jean Gauvin explique quels médicaments peuvent être achetés à la pharmacie pour être administrés aux animaux, le Dr Jean-Marc Raymond relate en quoi consiste un malaise cardiaque; et Caroline Boudoux se demande si un faucon voit mieux lorsqu’il regarde à travers un télescope.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074128/mardi-15-juillet-2025</link>
       <pubDate>Tue, 15 Jul 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/491727ab-fe04-4dc7-b7b7-7b9dc8830650/2025-07-15_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/491727ab-fe04-4dc7-b7b7-7b9dc8830650/2025-07-15_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/491727ab-fe04-4dc7-b7b7-7b9dc8830650/2025-07-15_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 6 août 2026&amp;nbsp;: L’ordinateur biologique, et le café glacé parfait</title>
+      <title>Jeudi 6 août 2026 : L’ordinateur biologique, et le café glacé parfait</title>
       <description>&lt;p&gt;Catherine Mathys décrit les avantages du tout nouvel ordinateur biologique, le CL 1; Rémy Charest explique quel est la façon la plus efficace de préparer un café glacé; Gabrielle Anctil se demande si le fait de ramasser des objets sur la plage est un geste inné et le Dr Michel Alain Danino explore la greffe de la peau d’une personne âgée à une autre plus jeune.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074136/vendredi-11-juill-2025-lordinateur-biologique-et-le-cafe-glace-parfait</link>
       <pubDate>Fri, 11 Jul 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e40094a6-f55b-4fdf-9e0b-50214c3900e2/2025-07-11_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e40094a6-f55b-4fdf-9e0b-50214c3900e2/2025-07-11_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e40094a6-f55b-4fdf-9e0b-50214c3900e2/2025-07-11_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Lundi 29 juin 2026&amp;nbsp;:&amp;nbsp;Les facultés des guêpes, et les singes cosmonautes</title>
+      <title>Lundi 29 juin 2026 : Les facultés des guêpes, et les singes cosmonautes</title>
       <description>&lt;p&gt;Étienne Normandin-Leclerc explique pourquoi les guêpes reconnaissent notre visage; Barbara-Judith Caron nous dit ce qu’il est advenu des singes cosmonautes Miss Baker et Miss Able; Pierre-Antoine Gilbert regarde si le compagnonnage des plantes au potager fonctionne vraiment; et Sandrine Geoffrion vérifie si l’algue est un super aliment.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074132/lundi-7-juillet-2025</link>
       <pubDate>Mon, 07 Jul 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f287192-7bfa-4175-aed7-24173f6e3029/2025-07-07_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f287192-7bfa-4175-aed7-24173f6e3029/2025-07-07_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5f287192-7bfa-4175-aed7-24173f6e3029/2025-07-07_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>52:59</itunes:duration>
+      <itunes:duration>00:52:59</itunes:duration>
     </item>
     <item>
-      <title>Mardi 4 août 2026&amp;nbsp;: La pollinisation sous la pluie, et les trous noirs</title>
+      <title>Mardi 4 août 2026 : La pollinisation sous la pluie, et les trous noirs</title>
       <description>&lt;p&gt;Julie Hlavacek-Larrondo explique comment on fait pour compter le nombre de trous noirs dans l’espace, et nous dit combien il y en a; Jessica Forrest parle de la manière dont les insectes pollinisateurs butinent sous la pluie; Olivier Hernandez décortique les raisons pour lesquelles, lorsqu’on se déplace sur la Terre, on ne se déplace pas dans le temps; et Jean-Sébastien Guénette dévoile comment les oiseaux font pour se reconnaître entre eux.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1074125/jeudi-26-juin-2025</link>
       <pubDate>Thu, 26 Jun 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4bec8a7b-bb50-4c37-9fe4-5f6c1496e232/2025-06-26_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4bec8a7b-bb50-4c37-9fe4-5f6c1496e232/2025-06-26_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4bec8a7b-bb50-4c37-9fe4-5f6c1496e232/2025-06-26_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mardi 28 juill. 2026&amp;nbsp;: Les odeurs désagréables persistantes, et la capacité des lézards à grimper aux murs</title>
+      <title>Mardi 28 juill. 2026 : Les odeurs désagréables persistantes, et la capacité des lézards à grimper aux murs</title>
       <description>&lt;p&gt;Gabriel Blouin-Demers explique comment les lézards arrivent à grimper aux murs, malgré leur biologie désavantageuse; Jean-François Gagnon nous en apprend plus sur le paradoxe de Simpson, ou comment les statistiques peuvent dire une chose et son contraire; Johannes Frasnelli décortique le phénomène des odeurs désagréables qui perdurent dans nos narines; Véronick Raymond s’intéresse aux recherches sur la mode durable et responsable; et Yannick Huot parle de la manière dont naissent et meurent les lacs et les rivières.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/953913/rattrapage-mardi-17-juin-2025</link>
       <pubDate>Tue, 17 Jun 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/260eec0c-df93-4324-94ed-0d6de0e283b0/2025-06-17_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/260eec0c-df93-4324-94ed-0d6de0e283b0/2025-06-17_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/260eec0c-df93-4324-94ed-0d6de0e283b0/2025-06-17_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 2 juill. 2026&amp;nbsp;: Les mousses de nombril, et le sexe en montagnes russes</title>
+      <title>Jeudi 2 juill. 2026 : Les mousses de nombril, et le sexe en montagnes russes</title>
       <description>&lt;p&gt;Charles Prémont regarde d’où viennent les mousses de nombril; Gabrielle Anctil se demande pourquoi les montagnes russes devraient réguler notre santé sexuelle; le Dr Jérôme Coulombe fait le tour de la science des démangeaisons; et Rémy Charest explique pourquoi les facultés gustatives varient au cours d’une journée.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/953819/rattrapage-du-13-juin-2025-les-mousses-de-nombril-et-le-sexe-en-montagnes-russes</link>
       <pubDate>Fri, 13 Jun 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b7a5fe6c-103a-4a9a-8cd7-2921ee2f26e3/2025-06-13_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b7a5fe6c-103a-4a9a-8cd7-2921ee2f26e3/2025-06-13_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b7a5fe6c-103a-4a9a-8cd7-2921ee2f26e3/2025-06-13_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Lundi 6 juill. 2026&amp;nbsp;:&amp;nbsp;Une banane dans le potager, et l’oreille absolue de l’autiste</title>
+      <title>Lundi 6 juill. 2026 : Une banane dans le potager, et l’oreille absolue de l’autiste</title>
       <description>&lt;p&gt;Pierre-Antoine Gilbert qualifie l’efficacité de la pelure de banane comme engrais pour les végétaux; Caroline Traube révèle pourquoi le chant d’une perruche annule d’autres fréquences sonores; Laurent Mottron explique s’il y a un lien entre le trouble du spectre de l’autisme et le développement de l’oreille absolue; et Chloé-Anne Touma évalue les applications mobiles qui paient les membres pour effectuer un certain nombre de pas. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/953725/rattrapage-lundi-9-juin-2025</link>
       <pubDate>Mon, 09 Jun 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bf990c3c-c8e2-400b-b905-60a030497432/2025-06-09_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bf990c3c-c8e2-400b-b905-60a030497432/2025-06-09_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bf990c3c-c8e2-400b-b905-60a030497432/2025-06-09_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 9 juil. 2026&amp;nbsp;: L’effet de la sécheresse sur les arbres, et la chaîne du froid expliquée</title>
+      <title>Jeudi 9 juil. 2026 : L’effet de la sécheresse sur les arbres, et la chaîne du froid expliquée</title>
       <description>&lt;p&gt;Élise Bouchard se penche sur le cas des arbres en temps de sécheresse; Evelyne Charuest et Stéphane Garneau remontent aux origines de la réfrigération pour expliquer la chaîne du froid; Olivier Hernandez évalue le chemin que parcourt un photon du Soleil jusqu’à la Terre; et on regarde le taux d’évaporation d’un bassin d’eau de rétention avec Audrey Maheux.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/953473/rattrapage-du-29-mai-2025-leffet-de-la-secheresse-sur-les-arbres-et-la-chaine-du-froid-expliquee</link>
       <pubDate>Thu, 29 May 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c325cfa4-3d11-4f82-b8e0-b38482ae0b37/2025-05-29_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c325cfa4-3d11-4f82-b8e0-b38482ae0b37/2025-05-29_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c325cfa4-3d11-4f82-b8e0-b38482ae0b37/2025-05-29_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 1er juill. 2026 : Les spectacles de drones lumineux, et prédire la température</title>
+      <title>Mercredi 1er juill. 2026 : Les spectacles de drones lumineux, et prédire la température</title>
       <description>&lt;p&gt;Fabien Durif regarde s’il est plus écolo d’organiser des spectacles de feux d’artifice ou des spectacles de drones synchronisés; Maxine Cloutier-Gervais explique comment les météorologues tentent de prédire le temps qu’il fera; Jessica Forrest fait un tour d’horizon des animaux dont la période de reproduction est assez tragique; et Pier-Luc Turcotte parle du plaisir du coloriage.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/953116/rattrapage-du-14-mai-2025-les-spectacles-de-drones-lumineux-et-predire-la-temperature</link>
       <pubDate>Wed, 14 May 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0688fbfd-1af9-4bc7-89f3-c20009369526/2025-05-14_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0688fbfd-1af9-4bc7-89f3-c20009369526/2025-05-14_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0688fbfd-1af9-4bc7-89f3-c20009369526/2025-05-14_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
       <title>Mardi 23 juin 2026 : Le levain et nous, et la lumière insaisissable</title>
       <description>&lt;p&gt;Christian Landry évalue si le levain peut être éternel; Caroline Boudoux explique pourquoi il est impossible de capturer de la lumière dans un bocal; Laure Patouillard se penche sur le cas des couches lavables pour savoir si elles sont vraiment écolo; et Véronick Raymond fait état d’un sujet de recherche sur le lubrifiant d’embrayage à voiture.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/952916/rattrapage-du-6-mai-2025-le-levain-et-nous-et-la-lumiere-insaisissable</link>
       <pubDate>Tue, 06 May 2025 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/345d7e0a-b006-47be-a3f1-96eec9f9bbf7/2025-05-06_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/345d7e0a-b006-47be-a3f1-96eec9f9bbf7/2025-05-06_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/345d7e0a-b006-47be-a3f1-96eec9f9bbf7/2025-05-06_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 5 août 2026&amp;nbsp;: Les effets de la contention physique, et la recherche sur les acouphènes</title>
+      <title>Mercredi 5 août 2026 : Les effets de la contention physique, et la recherche sur les acouphènes</title>
       <description>&lt;p&gt;L’ergothérapeute Pier-Luc Turcotte explique les effets de la contention physique, une mesure de contrôle toujours en usage; la professeure Sylvie Hébert parle de l’état de la recherche sur les acouphènes; la chercheuse Anne de Bortoli s’intéresse au bilan environnemental de la voiture électrique; et la chimiste Caroline Cormier décrit la provenance des odeurs des vieux livres.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/947277/rattrapage-mercredi-23-octobre-2024</link>
       <pubDate>Wed, 23 Oct 2024 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/60ddae85-4fb2-4c9c-bcb1-90cab258c83d/2024-10-23_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/60ddae85-4fb2-4c9c-bcb1-90cab258c83d/2024-10-23_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/60ddae85-4fb2-4c9c-bcb1-90cab258c83d/2024-10-23_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mercredi 24 juin 2026&amp;nbsp;: Les signes visibles de la fatigue, et des unités de mesure farfelues</title>
+      <title>Mercredi 24 juin 2026 : Les signes visibles de la fatigue, et des unités de mesure farfelues</title>
       <description>&lt;p&gt;On parle avec Michaël Sage des effets évidents de la fatigue sur le visage; le professeur Jean-François Gagnon fait le survol des unités de mesure les plus étranges; on discute de fleurs nocturnes avec le professeur Simon Joly; et l’experte Aurore Courtieux-Boinot explore le potentiel de pénurie de métaux. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/946032/rattrapage-du-4-sept-2024-les-signes-visibles-de-la-fatigue-et-des-unites-de-mesure-farfelues</link>
       <pubDate>Wed, 04 Sep 2024 23:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0feff16d-5595-419a-8e8c-32c08eb4b1f2/2024-09-04_19_06_00_moteurderecherche_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0feff16d-5595-419a-8e8c-32c08eb4b1f2/2024-09-04_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0feff16d-5595-419a-8e8c-32c08eb4b1f2/2024-09-04_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
-      <itunes:duration>53:00</itunes:duration>
+      <itunes:duration>00:53:00</itunes:duration>
     </item>
   </channel>
 </rss>

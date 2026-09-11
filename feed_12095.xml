@@ -1,415 +1,472 @@
-<?xml version="1.0" ?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Olivier Niquet 24/7 (en jaquette)</title>
     <description>Olivier Niquet 24/7 (en jaquette)</description>
-    <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml</link>
+    <link>https://ici.radio-canada.ca/ohdio/recherche/produits/balados/12095/olivier-niquet-24-7-en-jaquette</link>
+    <language>fr-ca</language>
+    <generator>mohlio</generator>
+    <ttl>15</ttl>
+    <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 11 Sep 2026 12:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Sep 2026 12:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
-      <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml</link>
+      <link>https://ici.radio-canada.ca/ohdio/recherche/produits/balados/12095/olivier-niquet-24-7-en-jaquette</link>
     </image>
-    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
+    <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
     <item>
       <title>Fréchette qui patine autour de la question souverainiste, et un plaidoyer pour la bureaucratie</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1272686/frechette-patine-sur-la-question-souverainiste-et-un-plaidoyer-pour-la-bureaucratie</link>
       <pubDate>Fri, 11 Sep 2026 12:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bcb9c3c4-dd32-4e1b-a28e-592f9836b1e9/2026-09-11_07_50_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bcb9c3c4-dd32-4e1b-a28e-592f9836b1e9/2026-09-11_07_50_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="27840000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bcb9c3c4-dd32-4e1b-a28e-592f9836b1e9/2026-09-11_07_50_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:00</itunes:duration>
+      <itunes:duration>00:29:00</itunes:duration>
     </item>
     <item>
-      <title>Les journalistes licheux de fesses, et l’IA pourrait nous tuer d’ici quelques années
-</title>
+      <title>Les journalistes licheux de fesses, et l’IA pourrait nous tuer d’ici quelques années</title>
       <description>&lt;p&gt;À venir.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1272402/les-journalistes-licheux-de-fesses-et-lia-pourrait-nous-tuer-dici-quelques-annees</link>
       <pubDate>Thu, 10 Sep 2026 12:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a876f88f-085a-4d9a-9189-70719e1d88cf/2026-09-11_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a876f88f-085a-4d9a-9189-70719e1d88cf/2026-09-11_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="20288000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a876f88f-085a-4d9a-9189-70719e1d88cf/2026-09-11_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:08</itunes:duration>
+      <itunes:duration>00:21:08</itunes:duration>
     </item>
     <item>
-      <title>Le «&amp;nbsp;boys club&amp;nbsp;» de la radio parlée, et la recherche de candidatures de Snoop Dogg</title>
-      <description/>
+      <title>Le « boys club » de la radio parlée, et la recherche de candidatures de Snoop Dogg</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1272120/le-boys-club-de-la-radio-parlee-et-la-recherche-de-candidatures-de-snoop-dogg</link>
       <pubDate>Wed, 09 Sep 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/75595bb8-19af-488f-9c7b-09fb0883928f/2026-09-09_07_41_22_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/75595bb8-19af-488f-9c7b-09fb0883928f/2026-09-09_07_41_22_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23776000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/75595bb8-19af-488f-9c7b-09fb0883928f/2026-09-09_07_41_22_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:46</itunes:duration>
+      <itunes:duration>00:24:46</itunes:duration>
     </item>
     <item>
       <title>La victoire de l’extrême droite en Allemagne, et le solo-maxxing</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1271904/election-afd-allemagne-solo-maxxing</link>
       <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/616c62ef-51d9-42cd-85ce-9bfb7596a2ef/2026-09-08_07_45_18_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/616c62ef-51d9-42cd-85ce-9bfb7596a2ef/2026-09-08_07_45_18_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25488000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/616c62ef-51d9-42cd-85ce-9bfb7596a2ef/2026-09-08_07_45_18_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:33</itunes:duration>
+      <itunes:duration>00:26:33</itunes:duration>
     </item>
     <item>
       <title>Les Hells Angels utilisent aussi l’IA, et Éric Duhaime a changé de prénom</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1271727/les-hells-angels-utilisent-aussi-lia-et-eric-duhaime-a-change-de-prenom</link>
       <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d424a755-2e3b-4685-9984-a363f82e29bc/2026-09-07_07_41_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d424a755-2e3b-4685-9984-a363f82e29bc/2026-09-07_07_41_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24704000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d424a755-2e3b-4685-9984-a363f82e29bc/2026-09-07_07_41_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:44</itunes:duration>
+      <itunes:duration>00:25:44</itunes:duration>
     </item>
     <item>
-      <title>Le marché florissant des couches pour adultes, et les bizarreries des prix «&amp;nbsp;anti-Nobel&amp;nbsp;»</title>
-      <description/>
+      <title>Le marché florissant des couches pour adultes, et les bizarreries des prix « anti-Nobel »</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1271332/le-marche-florissant-des-couches-pour-adultes-et-des-serpents-pietines-aux-anti-nobels</link>
       <pubDate>Fri, 04 Sep 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fe311560-415f-40eb-be3b-980e86ca6257/2026-09-04_07_32_13_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fe311560-415f-40eb-be3b-980e86ca6257/2026-09-04_07_32_13_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="21664000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fe311560-415f-40eb-be3b-980e86ca6257/2026-09-04_07_32_13_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:34</itunes:duration>
+      <itunes:duration>00:22:34</itunes:duration>
     </item>
     <item>
       <title>La fin du monde selon JD Vance, et des cahiers Canada sans Terre-Neuve</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1271117/la-fin-du-monde-selon-jd-vance-et-des-cahiers-canada-sans-terre-neuve</link>
       <pubDate>Thu, 03 Sep 2026 12:10:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c7c961bc-bfed-4572-821e-f1717c19b817/2026-09-03_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c7c961bc-bfed-4572-821e-f1717c19b817/2026-09-03_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22752000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c7c961bc-bfed-4572-821e-f1717c19b817/2026-09-03_07_38_33_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:42</itunes:duration>
+      <itunes:duration>00:23:42</itunes:duration>
     </item>
     <item>
       <title>Des candidats électoraux dans l’eau chaude, et un tueur en série de hamsters</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1270843/des-candidats-electoraux-dans-leau-chaude-et-un-tueur-en-serie-de-hamsters</link>
       <pubDate>Wed, 02 Sep 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5eab9a48-0c6f-4f9f-9e20-ef73634193cf/2026-09-02_08_09_31_olivierniquet247enjaquetteohdio_0001_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5eab9a48-0c6f-4f9f-9e20-ef73634193cf/2026-09-02_08_09_31_olivierniquet247enjaquetteohdio_0001_master.m3u8" length="21872000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5eab9a48-0c6f-4f9f-9e20-ef73634193cf/2026-09-02_08_09_31_olivierniquet247enjaquetteohdio_0001_master.m3u8?v=2</guid>
-      <itunes:duration>22:47</itunes:duration>
+      <itunes:duration>00:22:47</itunes:duration>
     </item>
     <item>
       <title>Des roches en plastique à Saskatoon, et la meilleure nourriture des arénas de la LNH</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1270574/des-roches-en-plastique-a-saskatoon-et-la-meilleure-nourriture-des-arenas-de-la-lnh</link>
       <pubDate>Tue, 01 Sep 2026 12:45:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/840ea5d3-e0c6-4336-8629-4df9d0b227c3/2026-09-01_08_12_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/840ea5d3-e0c6-4336-8629-4df9d0b227c3/2026-09-01_08_12_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26416000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/840ea5d3-e0c6-4336-8629-4df9d0b227c3/2026-09-01_08_12_51_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>27:31</itunes:duration>
+      <itunes:duration>00:27:31</itunes:duration>
     </item>
     <item>
-      <title>Un influenceur de droite détenu par ICE, et un déversement de poudre de Kraft Dinner </title>
-      <description/>
+      <title>Un influenceur de droite détenu par ICE, et un déversement de poudre de Kraft Dinner</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1270245/un-influenceur-de-droite-detenu-par-ice-et-un-deversement-de-poudre-de-kraft-dinner</link>
       <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ba026a17-cac4-4e34-a9c9-bc92796f783d/2026-08-31_07_26_09_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ba026a17-cac4-4e34-a9c9-bc92796f783d/2026-08-31_07_26_09_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22000000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ba026a17-cac4-4e34-a9c9-bc92796f783d/2026-08-31_07_26_09_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:55</itunes:duration>
+      <itunes:duration>00:22:55</itunes:duration>
     </item>
     <item>
       <title>La CAQ aidée par la guerre commerciale, et une imitatrice de Dolly Parton à CNN</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1269754/la-caq-aidee-par-la-guerre-commerciale-et-une-imitatrice-de-dolly-parton-a-cnn</link>
       <pubDate>Fri, 28 Aug 2026 12:10:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/034e1471-708d-4713-862c-2973e79a76a9/2026-08-28_07_42_35_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/034e1471-708d-4713-862c-2973e79a76a9/2026-08-28_07_42_35_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="20992000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/034e1471-708d-4713-862c-2973e79a76a9/2026-08-28_07_42_35_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:52</itunes:duration>
+      <itunes:duration>00:21:52</itunes:duration>
     </item>
     <item>
       <title>Maripier Morin signalée à la DPJ, et des cafards cyborgs à la rescousse</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1268434/maripier-morin-signalee-a-la-dpj-et-des-cafards-cyborgs-a-la-rescousse</link>
       <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1ef8cabf-964f-4078-8222-1063efbaca95/2026-08-27_07_39_12_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1ef8cabf-964f-4078-8222-1063efbaca95/2026-08-27_07_39_12_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22256000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1ef8cabf-964f-4078-8222-1063efbaca95/2026-08-27_07_39_12_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:11</itunes:duration>
+      <itunes:duration>00:23:11</itunes:duration>
     </item>
     <item>
       <title>De l’eau embouteillée à 116$, et la querelle entre Donald Trump et Doug Ford</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1268220/de-leau-embouteillee-a-116-et-la-querelle-entre-donald-trump-et-doug-ford</link>
       <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bba4ffd0-0be2-4a6e-b1bd-6462b97d1f3d/2026-08-26_07_30_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bba4ffd0-0be2-4a6e-b1bd-6462b97d1f3d/2026-08-26_07_30_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="21744000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bba4ffd0-0be2-4a6e-b1bd-6462b97d1f3d/2026-08-26_07_30_51_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:39</itunes:duration>
+      <itunes:duration>00:22:39</itunes:duration>
     </item>
     <item>
       <title>Vincent Marissal dans les rangs du PQ, et le marathon d’Edmonton jugé trop long</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1267951/vincent-marissal-dans-les-rangs-du-pq-et-le-marathon-dedmonton-juge-trop-long</link>
       <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9850935d-c623-45c5-9d91-5148454b7819/2026-08-25_07_33_57_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9850935d-c623-45c5-9d91-5148454b7819/2026-08-25_07_33_57_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="21888000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9850935d-c623-45c5-9d91-5148454b7819/2026-08-25_07_33_57_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:48</itunes:duration>
+      <itunes:duration>00:22:48</itunes:duration>
     </item>
     <item>
       <title>Les villes les plus heureuses du Québec, et Olivier Primeau comme influenceur pour la CAQ</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1266994/les-villes-les-plus-heureuses-du-quebec-et-olivier-primeau-comme-influenceur-pour-la-caq</link>
       <pubDate>Mon, 24 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bd4aba24-360f-4069-a59d-aaede211ff31/2026-08-24_07_43_03_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bd4aba24-360f-4069-a59d-aaede211ff31/2026-08-24_07_43_03_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23728000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bd4aba24-360f-4069-a59d-aaede211ff31/2026-08-24_07_43_03_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:43</itunes:duration>
+      <itunes:duration>00:24:43</itunes:duration>
     </item>
     <item>
       <title>Des conflits qui rendent les gens idiots, et une députée de la France insoumise mordue par une vipère</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1266619/des-conflits-qui-rendent-les-gens-idiots-et-une-deputee-de-la-france-insoumise-mordue-par-une-vipere</link>
       <pubDate>Fri, 21 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3fe3130-478d-4348-93a6-1375538c1109/2026-08-21_07_41_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3fe3130-478d-4348-93a6-1375538c1109/2026-08-21_07_41_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="20416000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c3fe3130-478d-4348-93a6-1375538c1109/2026-08-21_07_41_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:16</itunes:duration>
+      <itunes:duration>00:21:16</itunes:duration>
     </item>
     <item>
       <title>Candidature de Geneviève Pettersen pour la CAQ, et dégradation du bilan routier du Québec</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1266111/candidature-de-genevieve-pettersen-pour-la-caq-et-degradation-du-bilan-routier-du-quebec</link>
       <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/27285135-1bb7-46bc-9e6f-803edc9f1278/2026-08-20_07_38_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/27285135-1bb7-46bc-9e6f-803edc9f1278/2026-08-20_07_38_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25152000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/27285135-1bb7-46bc-9e6f-803edc9f1278/2026-08-20_07_38_56_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:12</itunes:duration>
+      <itunes:duration>00:26:12</itunes:duration>
     </item>
     <item>
       <title>Des néologismes pour des fléaux du web, et un rappel de dindes à la moutarde</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1265703/des-neologismes-pour-des-fleaux-du-web-et-un-rappel-de-dindes-a-la-moutarde</link>
       <pubDate>Wed, 19 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e4623eb7-1af9-4fbf-9550-65aa229a56f1/2026-08-19_07_43_10_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e4623eb7-1af9-4fbf-9550-65aa229a56f1/2026-08-19_07_43_10_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="21360000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e4623eb7-1af9-4fbf-9550-65aa229a56f1/2026-08-19_07_43_10_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:15</itunes:duration>
+      <itunes:duration>00:22:15</itunes:duration>
     </item>
     <item>
-      <title>Fermeture du seul Tim Hortons des Îles-de-la-Madeleine, et candidate du PCQ en trottinette électrique sans casque </title>
-      <description/>
+      <title>Fermeture du seul Tim Hortons des Îles-de-la-Madeleine, et candidate du PCQ en trottinette électrique sans casque</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1265463/fermeture-du-seul-tim-hortons-des-iles-de-la-madeleine-et-une-candidate-du-pcq-en-trottinette-electrique-sans-casque</link>
       <pubDate>Tue, 18 Aug 2026 12:40:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f4a56bd-2bff-47bf-9d0a-fb4de43b2a2c/2026-08-18_08_32_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f4a56bd-2bff-47bf-9d0a-fb4de43b2a2c/2026-08-18_08_32_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23184000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0f4a56bd-2bff-47bf-9d0a-fb4de43b2a2c/2026-08-18_08_32_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:09</itunes:duration>
+      <itunes:duration>00:24:09</itunes:duration>
     </item>
     <item>
       <title>Le record de la plus grande fleur de lys humaine, et des pushups en soutien à Andrew Tate</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1265207/le-record-de-la-plus-grande-fleur-de-lys-humaine-et-des-pushups-en-soutien-a-andrew-tate</link>
       <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b5d11614-2a26-41ef-94af-aba5b5ccd9be/2026-08-17_07_32_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b5d11614-2a26-41ef-94af-aba5b5ccd9be/2026-08-17_07_32_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="21360000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b5d11614-2a26-41ef-94af-aba5b5ccd9be/2026-08-17_07_32_05_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:15</itunes:duration>
+      <itunes:duration>00:22:15</itunes:duration>
     </item>
     <item>
       <title>Rolex poursuit l’influenceur Medusa, et Marwah Rizqy arrive à QUB radio</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1264957/rolex-influenceur-medusa-marwah-rizqy</link>
       <pubDate>Fri, 14 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/44057398-2106-4d9f-86bd-116c22054162/2026-08-14_07_44_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/44057398-2106-4d9f-86bd-116c22054162/2026-08-14_07_44_51_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22112000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/44057398-2106-4d9f-86bd-116c22054162/2026-08-14_07_44_51_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:02</itunes:duration>
+      <itunes:duration>00:23:02</itunes:duration>
     </item>
     <item>
       <title>Une application de covoiturage pour complotistes, et les causes de la rage au volant</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1264713/complocar-covoiturage-causes-rage-volant</link>
       <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/96528266-04c2-4986-9ff9-0bb40a61c610/2026-08-13_07_37_24_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/96528266-04c2-4986-9ff9-0bb40a61c610/2026-08-13_07_37_24_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26672000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/96528266-04c2-4986-9ff9-0bb40a61c610/2026-08-13_07_37_24_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>27:47</itunes:duration>
+      <itunes:duration>00:27:47</itunes:duration>
     </item>
     <item>
       <title>Une pénurie de prêtres dans l’ouest du Québec, et une hausse du tourisme à Montréal</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1264113/une-penurie-de-pretres-dans-louest-du-quebec-et-une-hausse-du-tourisme-a-montreal</link>
       <pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/20c398fa-bdcf-4556-b998-abc5a2f908b9/2026-08-12_07_37_29_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/20c398fa-bdcf-4556-b998-abc5a2f908b9/2026-08-12_07_37_29_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="20240000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/20c398fa-bdcf-4556-b998-abc5a2f908b9/2026-08-12_07_37_29_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:05</itunes:duration>
+      <itunes:duration>00:21:05</itunes:duration>
     </item>
     <item>
       <title>Un voyage d’influenceurs controversés à Miami, et des entrevues d’embauche en pleine nuit</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1261379/un-voyage-dinfluenceurs-controverses-a-miami-et-des-entrevues-dembauche-en-pleine-nuit</link>
       <pubDate>Tue, 11 Aug 2026 12:10:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d9ab33c-7db6-4ad3-9836-e73af9f81bac/2026-08-11_07_42_29_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d9ab33c-7db6-4ad3-9836-e73af9f81bac/2026-08-11_07_42_29_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26720000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9d9ab33c-7db6-4ad3-9836-e73af9f81bac/2026-08-11_07_42_29_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>27:50</itunes:duration>
+      <itunes:duration>00:27:50</itunes:duration>
     </item>
     <item>
       <title>Un premier restaurant Ashton à Montréal, et de nouveaux virus créés par l’IA</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1261194/un-premier-restaurant-ashton-a-montreal-et-de-nouveaux-virus-crees-par-lia</link>
       <pubDate>Mon, 10 Aug 2026 12:25:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/11cfcbed-498a-47a5-bbfc-ffd05407cc57/2026-08-10_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/11cfcbed-498a-47a5-bbfc-ffd05407cc57/2026-08-10_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="28048000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/11cfcbed-498a-47a5-bbfc-ffd05407cc57/2026-08-10_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:13</itunes:duration>
+      <itunes:duration>00:29:13</itunes:duration>
     </item>
     <item>
       <title>Les noms de retraités les plus populaires, et la tendance du &lt;em&gt;spermmaxxing&lt;/em&gt;</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1201890/noms-retraites-frequents-spermmaxxing</link>
       <pubDate>Fri, 19 Jun 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/06a82aea-7a76-4d35-a098-42f3f2a54d76/2026-06-19_08_47_33_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/06a82aea-7a76-4d35-a098-42f3f2a54d76/2026-06-19_08_47_33_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25040000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/06a82aea-7a76-4d35-a098-42f3f2a54d76/2026-06-19_08_47_33_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:05</itunes:duration>
+      <itunes:duration>00:26:05</itunes:duration>
     </item>
     <item>
       <title>La petite chaise de Trump au G7, et la société secrète de la Silicon Valley</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1189042/trump-carney-g7-silicon-valley</link>
       <pubDate>Thu, 18 Jun 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3957e3f2-cb6a-4420-82c0-1feb2195d276/2026-06-18_08_30_41_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3957e3f2-cb6a-4420-82c0-1feb2195d276/2026-06-18_08_30_41_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25024000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3957e3f2-cb6a-4420-82c0-1feb2195d276/2026-06-18_08_30_41_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:04</itunes:duration>
+      <itunes:duration>00:26:04</itunes:duration>
     </item>
     <item>
       <title>La population en faveur du projet de TGV, et la culture toxique au SPVM</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1180774/la-population-en-faveur-du-projet-de-tgv-et-la-culture-toxique-au-spvm</link>
       <pubDate>Wed, 17 Jun 2026 12:45:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/26af0e76-a6b2-4e71-9f81-57c4898aedbd/2026-06-17_08_33_09_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/26af0e76-a6b2-4e71-9f81-57c4898aedbd/2026-06-17_08_33_09_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23728000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/26af0e76-a6b2-4e71-9f81-57c4898aedbd/2026-06-17_08_33_09_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:43</itunes:duration>
+      <itunes:duration>00:24:43</itunes:duration>
     </item>
     <item>
       <title>Nouveaux mots interdits à l’Assemblée nationale, et colonie de macaques à l’Université Laval</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1180504/nouveaux-mots-interdits-a-lassemblee-nationale-et-colonie-de-macaques-a-luniversite-laval</link>
       <pubDate>Tue, 16 Jun 2026 12:50:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/93c9b2de-10de-4923-aa2e-67d966785c13/2026-06-16_08_35_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/93c9b2de-10de-4923-aa2e-67d966785c13/2026-06-16_08_35_49_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="21120000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/93c9b2de-10de-4923-aa2e-67d966785c13/2026-06-16_08_35_49_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:00</itunes:duration>
+      <itunes:duration>00:22:00</itunes:duration>
     </item>
     <item>
       <title>Des nouvelles de Jean Leloup, et un kangourou en cavale à Boucherville</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1180158/des-nouvelles-de-jean-leloup-et-un-kangourou-en-cavale-a-boucherville</link>
       <pubDate>Mon, 15 Jun 2026 12:55:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5d4cfef4-b2bc-4eaa-8961-8a5d339242eb/2026-06-15_08_34_34_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5d4cfef4-b2bc-4eaa-8961-8a5d339242eb/2026-06-15_08_34_34_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25664000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5d4cfef4-b2bc-4eaa-8961-8a5d339242eb/2026-06-15_08_34_34_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:44</itunes:duration>
+      <itunes:duration>00:26:44</itunes:duration>
     </item>
     <item>
-      <title>Le départ de «&amp;nbsp;DooM&amp;nbsp;» Dumas de Radio X, et le vol d’une distributrice d’arachides</title>
-      <description/>
+      <title>Le départ de « DooM » Dumas de Radio X, et le vol d’une distributrice d’arachides</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1179785/doom-dumas-pcq-distributrice-peanut</link>
       <pubDate>Fri, 12 Jun 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/05cffdbc-c5a1-4843-8079-6edfa062dbe8/2026-06-12_08_48_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/05cffdbc-c5a1-4843-8079-6edfa062dbe8/2026-06-12_08_48_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/05cffdbc-c5a1-4843-8079-6edfa062dbe8/2026-06-12_08_48_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:14</itunes:duration>
+      <itunes:duration>00:23:14</itunes:duration>
     </item>
     <item>
       <title>De fausses scènes de crime générées par IA, et un vol de tondeuse en quadriporteur</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1179571/page-facebook-video-tondeuse-quadriporteur</link>
       <pubDate>Thu, 11 Jun 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/71b91a54-d1ca-43f1-9a52-b688ad65dd8a/2026-06-11_08_45_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/71b91a54-d1ca-43f1-9a52-b688ad65dd8a/2026-06-11_08_45_11_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="19040000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/71b91a54-d1ca-43f1-9a52-b688ad65dd8a/2026-06-11_08_45_11_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>19:50</itunes:duration>
+      <itunes:duration>00:19:50</itunes:duration>
     </item>
     <item>
       <title>Le TGV Québec-Toronto selon le PQ, et des serpents à la Coupe du monde de soccer</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1179197/le-tgv-quebec-toronto-selon-le-pq-et-une-infestation-de-serpents-au-camp-de-lequipe-de-soccer-suisse</link>
       <pubDate>Wed, 10 Jun 2026 12:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/42a4cc6b-ad66-44f6-bd3a-93de5d4b39ca/2026-06-10_08_16_19_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/42a4cc6b-ad66-44f6-bd3a-93de5d4b39ca/2026-06-10_08_16_19_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24752000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/42a4cc6b-ad66-44f6-bd3a-93de5d4b39ca/2026-06-10_08_16_19_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:47</itunes:duration>
+      <itunes:duration>00:25:47</itunes:duration>
     </item>
     <item>
       <title>Augmentation des ITSS au Québec, et déclin du nombre de mots prononcés par les humains</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1178901/augmentation-des-itss-au-quebec-et-declin-du-nombre-de-mots-prononces-par-les-humains</link>
       <pubDate>Tue, 09 Jun 2026 13:20:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9ebd6ffd-ef98-4413-9154-d0be19db7f76/2026-06-09_08_55_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9ebd6ffd-ef98-4413-9154-d0be19db7f76/2026-06-09_08_55_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23728000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9ebd6ffd-ef98-4413-9154-d0be19db7f76/2026-06-09_08_55_32_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:43</itunes:duration>
+      <itunes:duration>00:24:43</itunes:duration>
     </item>
     <item>
       <title>Loi 11 critiquée par Richard Desjardins, et blattes de contrebande saisies à Sydney</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1178599/loi-11-critiquee-par-richard-desjardins-et-des-blattes-de-contrebande-saisies-a-sydney</link>
       <pubDate>Mon, 08 Jun 2026 12:10:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ac3acf48-981b-46a4-916d-32ac4112d080/2026-06-08_07_39_45_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ac3acf48-981b-46a4-916d-32ac4112d080/2026-06-08_07_39_45_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26496000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ac3acf48-981b-46a4-916d-32ac4112d080/2026-06-08_07_39_45_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>27:36</itunes:duration>
+      <itunes:duration>00:27:36</itunes:duration>
     </item>
     <item>
       <title>Les dangers du pamplemousse selon le PCQ, et une sauce curry à la cocaïne</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1178245/pamplemousse-maite-blanchette-vezina-duhaime</link>
       <pubDate>Fri, 05 Jun 2026 12:55:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/456cb171-1c6b-471f-9cf1-e049380cefd8/2026-06-05_08_19_04_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/456cb171-1c6b-471f-9cf1-e049380cefd8/2026-06-05_08_19_04_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="20592000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/456cb171-1c6b-471f-9cf1-e049380cefd8/2026-06-05_08_19_04_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:27</itunes:duration>
+      <itunes:duration>00:21:27</itunes:duration>
     </item>
     <item>
-      <title>Le REM freiné par la «&amp;nbsp;rosée&amp;nbsp;», et le fléau du «&amp;nbsp;racisme antiblanc&amp;nbsp;»</title>
-      <description/>
+      <title>Le REM freiné par la « rosée », et le fléau du « racisme antiblanc »</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1177997/rem-rosee-racisme-anti-blanc</link>
       <pubDate>Thu, 04 Jun 2026 13:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/57f486cb-0e8f-417e-8523-1cea25f14ba2/2026-06-04_08_21_06_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/57f486cb-0e8f-417e-8523-1cea25f14ba2/2026-06-04_08_21_06_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22928000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/57f486cb-0e8f-417e-8523-1cea25f14ba2/2026-06-04_08_21_06_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:53</itunes:duration>
+      <itunes:duration>00:23:53</itunes:duration>
     </item>
     <item>
       <title>Rebel News en faveur de la séparation de l’Alberta, et la prison pour un joueur de dek hockey</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1177737/rebel-news-en-faveur-de-la-separation-de-lalberta-et-la-prison-pour-un-joueur-de-dek-hockey</link>
       <pubDate>Wed, 03 Jun 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23936000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/357d37b8-4816-486f-9e47-e869ea244ac6/2026-06-03_08_28_15_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:56</itunes:duration>
+      <itunes:duration>00:24:56</itunes:duration>
     </item>
     <item>
-      <title>Départ de Jonathan Trudeau de Cogeco Média, et augmentation des soins médicaux inutiles </title>
-      <description/>
+      <title>Départ de Jonathan Trudeau de Cogeco Média, et augmentation des soins médicaux inutiles</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1177480/manifestation-supremaciste-blanche-a-shawinigan-et-depart-de-jonathan-trudeau-de-cogeco-media</link>
       <pubDate>Tue, 02 Jun 2026 13:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f4451a1-d8a7-4f1f-9bdd-195ca205bc6a/2026-06-02_08_52_42_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5f4451a1-d8a7-4f1f-9bdd-195ca205bc6a/2026-06-02_08_52_42_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25536000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5f4451a1-d8a7-4f1f-9bdd-195ca205bc6a/2026-06-02_08_52_42_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:36</itunes:duration>
+      <itunes:duration>00:26:36</itunes:duration>
     </item>
     <item>
-      <title>Rassemblement pour un «&amp;nbsp;Québec blanc&amp;nbsp;» à Shawinigan, et des castors à la rescousse de Londres</title>
-      <description/>
+      <title>Rassemblement pour un « Québec blanc » à Shawinigan, et des castors à la rescousse de Londres</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1177200/rassemblement-pour-un-quebec-blanc-a-shawinigan-et-des-castors-a-la-rescousse-de-londres</link>
       <pubDate>Mon, 01 Jun 2026 12:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3b15e6b-3952-4c6f-aef6-8ff148df9387/2026-06-01_08_11_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c3b15e6b-3952-4c6f-aef6-8ff148df9387/2026-06-01_08_11_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25296000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c3b15e6b-3952-4c6f-aef6-8ff148df9387/2026-06-01_08_11_56_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:21</itunes:duration>
+      <itunes:duration>00:26:21</itunes:duration>
     </item>
     <item>
-      <title>Christine Fréchette qualifiée de «&amp;nbsp;matante&amp;nbsp;», et les pires villes pour les personnes introverties</title>
-      <description/>
+      <title>Christine Fréchette qualifiée de « matante », et les pires villes pour les personnes introverties</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1176626/christine-frechette-matante-villes-introversion</link>
       <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a18b79b-031c-4bc1-9def-387eb8201c36/2026-05-29_07_32_50_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a18b79b-031c-4bc1-9def-387eb8201c36/2026-05-29_07_32_50_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22032000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5a18b79b-031c-4bc1-9def-387eb8201c36/2026-05-29_07_32_50_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>22:57</itunes:duration>
+      <itunes:duration>00:22:57</itunes:duration>
     </item>
     <item>
       <title>Les prières qui dérangent à Trois-Rivières, et un Cowboys Fringants nommé scientifique en chef</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1176424/les-prieres-qui-derangent-a-trois-rivieres-et-un-cowboys-fringants-nomme-scientifique-en-chef</link>
       <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f593a55-2734-4b6b-a198-bd924ea70bd1/2026-05-28_07_37_14_olivierniquet247enjaquetteohdio_0000_01_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f593a55-2734-4b6b-a198-bd924ea70bd1/2026-05-28_07_37_14_olivierniquet247enjaquetteohdio_0000_01_master.m3u8" length="21648000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1f593a55-2734-4b6b-a198-bd924ea70bd1/2026-05-28_07_37_14_olivierniquet247enjaquetteohdio_0000_01_master.m3u8?v=2</guid>
-      <itunes:duration>22:33</itunes:duration>
+      <itunes:duration>00:22:33</itunes:duration>
     </item>
     <item>
       <title>Mathieu Lacombe voterait oui, et le pape dénonce l’IA avec l’aide de l’IA</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1174809/mathieu-lacombe-voterait-oui-et-le-pape-denonce-lia-avec-laide-de-lia</link>
       <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/03be7afc-60eb-4f93-9e5e-80b78078019d/2026-05-27_07_46_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/03be7afc-60eb-4f93-9e5e-80b78078019d/2026-05-27_07_46_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="20944000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/03be7afc-60eb-4f93-9e5e-80b78078019d/2026-05-27_07_46_25_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>21:49</itunes:duration>
+      <itunes:duration>00:21:49</itunes:duration>
     </item>
     <item>
       <title>L’urine humaine transformée en engrais, et la faible représentation des femmes âgées au cinéma</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1174381/lurine-humaine-transformee-en-engrais-et-la-faible-representation-des-femmes-agees-au-cinema</link>
       <pubDate>Tue, 26 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7185a512-418b-4917-a238-f12f4808e3a1/2026-05-26_07_45_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7185a512-418b-4917-a238-f12f4808e3a1/2026-05-26_07_45_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23456000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7185a512-418b-4917-a238-f12f4808e3a1/2026-05-26_07_45_25_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:26</itunes:duration>
+      <itunes:duration>00:24:26</itunes:duration>
     </item>
     <item>
       <title>36 millions d’oiseaux arrivés en une nuit au Québec, et les restaurants Hooters plus familiaux</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1174114/36-millions-doiseaux-arrives-en-une-nuit-au-quebec-et-les-restaurants-hooters-plus-familiaux</link>
       <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d4eac2ee-81c4-4b45-a948-4765b9318aef/2026-05-25_07_41_54_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d4eac2ee-81c4-4b45-a948-4765b9318aef/2026-05-25_07_41_54_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24544000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d4eac2ee-81c4-4b45-a948-4765b9318aef/2026-05-25_07_41_54_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:34</itunes:duration>
+      <itunes:duration>00:25:34</itunes:duration>
     </item>
     <item>
       <title>Un chirurgien d’implants péniens gère l’hantavirus aux É.-U., et Angine de poitrine attire des vedettes</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1173743/un-chirurgien-dimplants-peniens-gere-lhantavirus-aux-e-u-et-angine-de-poitrine-attire-des-vedettes</link>
       <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f7f43a3b-1122-423a-a60a-a83e2b541269/2026-05-22_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f7f43a3b-1122-423a-a60a-a83e2b541269/2026-05-22_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22992000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f7f43a3b-1122-423a-a60a-a83e2b541269/2026-05-22_07_56_07_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:57</itunes:duration>
+      <itunes:duration>00:23:57</itunes:duration>
     </item>
     <item>
       <title>Le recrutement par courriel de la CAQ, et une entrée par effraction d’un orignal à Trois-Rivières</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1172720/la-caq-recrute-par-courriel-et-une-intrusion-de-domicile-par-un-orignal</link>
       <pubDate>Thu, 21 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fe34c096-8d56-44fa-9269-2b129e7b3f3e/2026-05-21_07_49_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fe34c096-8d56-44fa-9269-2b129e7b3f3e/2026-05-21_07_49_05_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24848000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fe34c096-8d56-44fa-9269-2b129e7b3f3e/2026-05-21_07_49_05_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>25:53</itunes:duration>
+      <itunes:duration>00:25:53</itunes:duration>
     </item>
     <item>
-      <title>L’effet Fréchette à la CAQ, et la tendance du «&amp;nbsp;ballmaxxing&amp;nbsp;»</title>
-      <description/>
+      <title>L’effet Fréchette à la CAQ, et la tendance du « ballmaxxing »</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1172509/leffet-frechette-a-la-caq-et-la-tendance-du-ballmaxxing</link>
       <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/183e6133-0ff2-4a98-8d96-06f85f528df6/2026-05-20_07_40_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/183e6133-0ff2-4a98-8d96-06f85f528df6/2026-05-20_07_40_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25280000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/183e6133-0ff2-4a98-8d96-06f85f528df6/2026-05-20_07_40_48_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>26:20</itunes:duration>
+      <itunes:duration>00:26:20</itunes:duration>
     </item>
     <item>
       <title>Un finissant de l’UQAM anti-woke avec le PCQ, et des drones anti-fusillades aux États-Unis</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1172262/un-finissant-de-luqam-anti-woke-avec-le-pcq-et-des-drones-anti-fusillades-aux-etats-unis</link>
       <pubDate>Tue, 19 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f3edcb6a-7121-41ef-9331-5d8ff64e7a78/2026-05-19_07_38_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f3edcb6a-7121-41ef-9331-5d8ff64e7a78/2026-05-19_07_38_01_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23712000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f3edcb6a-7121-41ef-9331-5d8ff64e7a78/2026-05-19_07_38_01_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>24:42</itunes:duration>
+      <itunes:duration>00:24:42</itunes:duration>
     </item>
     <item>
       <title>La monarchie de Sherbrooke, et les goûteurs du gouvernement qui se sont fait berner</title>
-      <description/>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1171780/la-monarchie-de-sherbrooke-et-les-goutteurs-du-gouvernement-qui-se-sont-fait-berner</link>
       <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="18928000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>19:43</itunes:duration>
+      <itunes:duration>00:19:43</itunes:duration>
     </item>
   </channel>
 </rss>

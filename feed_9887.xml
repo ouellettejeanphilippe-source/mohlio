@@ -1,422 +1,474 @@
-<?xml version="1.0" ?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>La journée (est encore jeune)</title>
     <description>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</description>
-    <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml</link>
+    <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune</link>
+    <language>fr-ca</language>
+    <copyright>Copyright: (C)ICI Radio-Canada, http://ici.radio-canada.ca/apropos/conditionsutilisation/</copyright>
+    <generator>mohlio</generator>
+    <ttl>15</ttl>
+    <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 10 Sep 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 10 Sep 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
-      <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml</link>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune</link>
     </image>
-    <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg"/>
+    <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg" />
+    <itunes:author>ICI Radio-Canada Première</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
     <item>
       <title>Jeudi 10 sept. 2026 : Hugo Dumas, Marc Laurendeau et Nathalie Petrowski</title>
       <description>&lt;p&gt;Olivier Niquet a regardé pour nous l’émission&lt;em&gt; Cinq chefs, une élection. &lt;/em&gt;Hugo Dumas est à Paris pour voir Céline Dion. Nathalie Petrowski parle de la série &lt;em&gt;Ça brasse en ville&lt;/em&gt;, mais surtout des travaux dans les rues de Montréal. Et Marc Laurendeau revient sur les attentats du 11 septembre 2001.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1272551/jeudi-10-sept-2026-hugo-dumas-marc-laurendeau-et-nathalie-petrowski</link>
       <pubDate>Thu, 10 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/66ce3f5d-0239-46f9-a21c-4384072b36e2/2026-09-10_14_06_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/66ce3f5d-0239-46f9-a21c-4384072b36e2/2026-09-10_14_06_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="33280000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/66ce3f5d-0239-46f9-a21c-4384072b36e2/2026-09-10_14_06_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>34:40</itunes:duration>
+      <itunes:duration>00:34:40</itunes:duration>
     </item>
     <item>
       <title>Mercredi 9 sept. 2026 : Josée Boileau, Paul Journet et Marjolaine Ferron</title>
       <description>&lt;p&gt;Paul Journet et Josée Boileau expliquent quels sujets les chefs de parti devraient aborder. Et la candidate caquiste Marjolaine Ferron se prononce sur le TGV et l’implication d’Olivier Primeau.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1272246/mercredi-9-sept-2026-josee-boileau-paul-journet-et-marjolaine-ferron</link>
       <pubDate>Wed, 09 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2783ef5c-5edf-4f16-869c-7cae82ee0147/2026-09-09_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2783ef5c-5edf-4f16-869c-7cae82ee0147/2026-09-09_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="31600000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2783ef5c-5edf-4f16-869c-7cae82ee0147/2026-09-09_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>32:55</itunes:duration>
+      <itunes:duration>00:32:55</itunes:duration>
     </item>
     <item>
       <title>Mardi 8 sept. 2026 : Magali Saint-Vincent et Martine Ouellet</title>
       <description>&lt;p&gt;Magali St-Vincent parle des Championnats du monde Route UCI qui auront lieu à Montréal. Et Martine Ouellet explique pourquoi elle est contre le tramway de Québec et l’entente de Churchill Falls.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1272025/mardi-8-sept-2026-magali-saint-vincent-et-martine-ouellet</link>
       <pubDate>Tue, 08 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8675164b-7e9d-479d-b17f-952f521ef975/2026-09-08_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8675164b-7e9d-479d-b17f-952f521ef975/2026-09-08_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="35152000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8675164b-7e9d-479d-b17f-952f521ef975/2026-09-08_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>36:37</itunes:duration>
+      <itunes:duration>00:36:37</itunes:duration>
     </item>
     <item>
       <title>Lundi 7 sept. 2026 : Justine Philie et Frédérick Gagnon</title>
-      <description>&lt;p&gt;Justine Philie s’improvise &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;&amp;lt;span class=\&amp;quot;nbsp\&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;coach de vie&amp;lt;span class=\&amp;quot;nbsp\&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;coach de vie&amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;coach de vie&lt;/span&gt;&lt;/q&gt; et donne des conseils pour que le couple Trump-Carney aille mieux. Et Frédérick Gagnon se penche sur le conflit entre le Canada et les États-Unis.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Justine Philie s’improvise &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"&lt;span class=\"nbsp\"&gt;&lt;/span&gt;coach de vie&lt;span class=\"nbsp\"&gt;&lt;/span&gt;","text":"coach de vie"}}"&gt;&lt;span lang="fr" title="Français"&gt;coach de vie&lt;/span&gt;&lt;/q&gt; et donne des conseils pour que le couple Trump-Carney aille mieux. Et Frédérick Gagnon se penche sur le conflit entre le Canada et les États-Unis.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1271831/lundi-7-sept-2026-justine-philie-et-frederick-gagnon</link>
       <pubDate>Mon, 07 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3164edd8-ede2-40b8-9fa2-e6576c0f9f16/2026-09-07_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3164edd8-ede2-40b8-9fa2-e6576c0f9f16/2026-09-07_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3164edd8-ede2-40b8-9fa2-e6576c0f9f16/2026-09-07_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Samedi 5 sept. 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Le candidat libéral Michel Bureau affirme qu’il est un &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;libéral péquiste &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;libéral péquiste &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;libéral péquiste&lt;/span&gt;&lt;/q&gt;; Bernard Drainville est très très fâché contre Donald Trump; et la chicane est pogné à Saint-Pie en Montérégie&amp;nbsp;: des graffitis sont apparus sur la cabane à sucre du maire.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Le candidat libéral Michel Bureau affirme qu’il est un &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"libéral péquiste ","text":"libéral péquiste "}}"&gt;&lt;span lang="fr" title="Français"&gt;libéral péquiste&lt;/span&gt;&lt;/q&gt;; Bernard Drainville est très très fâché contre Donald Trump; et la chicane est pogné à Saint-Pie en Montérégie : des graffitis sont apparus sur la cabane à sucre du maire.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1271549/samedi-5-sept-2026-olivier-niquet-en-brochette</link>
       <pubDate>Sat, 05 Sep 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0bf24cda-ed8d-454d-a990-a77caf75e3c8/2026-09-05_07_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0bf24cda-ed8d-454d-a990-a77caf75e3c8/2026-09-05_07_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="39824000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0bf24cda-ed8d-454d-a990-a77caf75e3c8/2026-09-05_07_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>41:29</itunes:duration>
+      <itunes:duration>00:41:29</itunes:duration>
     </item>
     <item>
       <title>Vendredi 4 sept. 2026 : Pierre Brassard et Josée Legault</title>
       <description>&lt;p&gt;Josée Legault se rappelle l’élection de Brian Mulroney, il y a 40 ans, et l’élection de Pauline Marois, il y a 14 ans. Et Pierre Brassard raconte un moment tendre à l’épicerie.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1271500/vendredi-4-sept-2026-pierre-brassard-et-josee-legault</link>
       <pubDate>Fri, 04 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a2c67189-67ff-41ee-b38d-b0ca444604cf/2026-09-04_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a2c67189-67ff-41ee-b38d-b0ca444604cf/2026-09-04_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="35872000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a2c67189-67ff-41ee-b38d-b0ca444604cf/2026-09-04_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>37:22</itunes:duration>
+      <itunes:duration>00:37:22</itunes:duration>
     </item>
     <item>
       <title>Jeudi 3 sept. 2026 : Nathalie Petrowski, Hugo Dumas et Véronique Prince</title>
-      <description>&lt;p&gt;Bernard Drainville est très fâché contre Trump. Véronique Prince parle des partis politiques qui déterrent des secrets de leurs adversaires. Nathalie Petrowski nous dit pourquoi regarder &lt;em&gt;Antigang&lt;/em&gt;. Et Hugo Dumas détruit l’émission de réno de Caroline Néron. &lt;/p&gt;</description>
-      <pubDate>Thu, 03 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/367c4bc6-3927-4c31-a420-a321c29a83cf/2026-09-03_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <description>&lt;p&gt;Bernard Drainville est très fâché contre Trump. Véronique Prince parle des partis politiques qui déterrent des secrets de leurs adversaires. Nathalie Petrowski nous dit pourquoi regarder Antigang. Et Hugo Dumas détruit l’émission de réno de Caroline Néron.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1271227/jeudi-3-sept-2026-nathalie-petrowski-hugo-dumas-et-veronique-prince</link>
+      <pubDate>Thu, 03 Sep 2026 14:30:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/40281185-35b6-4210-95f4-bc41351e5794/2026-09-03_14_30_00_journeeestencorejeunebalado_0000.mp3" length="43629296" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/367c4bc6-3927-4c31-a420-a321c29a83cf/2026-09-03_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>30:17</itunes:duration>
+      <itunes:duration>00:30:17</itunes:duration>
     </item>
     <item>
       <title>Mercredi 2 sept. 2026 : Simon-Olivier Lorange et Benoit Clermont</title>
       <description>&lt;p&gt;Simon-Olivier Lorange parle du camp des recrues et du Tournoi de golf des Canadiens. Et Benoit Clermont explique pourquoi il a quitté le milieu de la télé pour se lancer en politique avec le PLQ.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1271023/mercredi-2-sept-2026-simon-olivier-lorange-et-benoit-clermont</link>
       <pubDate>Wed, 02 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1b66f74c-6da4-438e-af58-b6339701f03f/2026-09-02_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1b66f74c-6da4-438e-af58-b6339701f03f/2026-09-02_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="34144000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1b66f74c-6da4-438e-af58-b6339701f03f/2026-09-02_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>35:34</itunes:duration>
+      <itunes:duration>00:35:34</itunes:duration>
     </item>
     <item>
       <title>Mardi 1er sept. 2026 : David Thibodeau et Karine Gagnon</title>
-      <description>&lt;p&gt;Olivier parle de l’élection partielle dans Chicoutimi—Le Fjord. David Thibodeau nous apprend qu&amp;#x27;un lac en Colombie-Britannique est apparu, puis disparu. Et Karine Gagnon s’intéresse à la popularité du Parti conservateur et à la remontée de la CAQ dans les intentions de vote à Québec.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Olivier parle de l’élection partielle dans Chicoutimi—Le Fjord. David Thibodeau nous apprend qu'un lac en Colombie-Britannique est apparu, puis disparu. Et Karine Gagnon s’intéresse à la popularité du Parti conservateur et à la remontée de la CAQ dans les intentions de vote à Québec.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1270699/mardi-1er-sept-2026-david-thibodeau-et-karine-gagnon</link>
       <pubDate>Tue, 01 Sep 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6a3f03d6-b614-416f-990f-419efdcff941/2026-09-01_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6a3f03d6-b614-416f-990f-419efdcff941/2026-09-01_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6a3f03d6-b614-416f-990f-419efdcff941/2026-09-01_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
-      <title>Lundi 31 août 2026 : Alec Castonguay et Louis Blouin </title>
+      <title>Lundi 31 août 2026 : Alec Castonguay et Louis Blouin</title>
       <description>&lt;p&gt;Louis Blouin parle de ses rencontres avec des agriculteurs et agricultrices des États-Unis. Et Alec Castonguay se rappelle ses années à couvrir la campagne électorale sur le terrain.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1270443/lundi-31-aout-2026-alec-castonguay-et-louis-blouin</link>
       <pubDate>Mon, 31 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/68182b3c-e760-4361-9afa-f29d332ab8e2/2026-08-31_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/68182b3c-e760-4361-9afa-f29d332ab8e2/2026-08-31_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="33024000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/68182b3c-e760-4361-9afa-f29d332ab8e2/2026-08-31_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>34:24</itunes:duration>
+      <itunes:duration>00:34:24</itunes:duration>
     </item>
     <item>
-      <title>Samedi 29 août 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Des interprètes traduisent de toutes sortes de façons le message de Doug Ford à Donald Trump&amp;nbsp;: &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;I have a lot of real estate on my ass, so he has a lot of room to kiss my ass&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;I have a lot of real estate on my ass, so he has a lot of room to kiss my ass&amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;&lt;em&gt;I have a lot of real estate on my ass, so he has a lot of room to kiss my ass.&lt;/em&gt;&lt;/span&gt;&lt;/q&gt; Olivier lit un poème que Mathieu Bock-Côté a dédié à Dimitri Soudas. Et Charles Milliard veut encore des études sur le troisième lien.&lt;/p&gt;</description>
+      <title>Samedi 29 août 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Des interprètes traduisent de toutes sortes de façons le message de Doug Ford à Donald Trump : &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"I have a lot of real estate on my ass, so he has a lot of room to kiss my ass","text":"I have a lot of real estate on my ass, so he has a lot of room to kiss my ass"}}"&gt;&lt;span lang="fr" title="Français"&gt;&lt;em&gt;I have a lot of real estate on my ass, so he has a lot of room to kiss my ass.&lt;/em&gt;&lt;/span&gt;&lt;/q&gt; Olivier lit un poème que Mathieu Bock-Côté a dédié à Dimitri Soudas. Et Charles Milliard veut encore des études sur le troisième lien.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1269988/samedi-29-aout-2026-olivier-niquet-en-brochette</link>
       <pubDate>Sat, 29 Aug 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/95a0c910-3780-4023-9a97-3aef52fb96c3/2026-08-28_14_40_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/95a0c910-3780-4023-9a97-3aef52fb96c3/2026-08-28_14_40_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="39568000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/95a0c910-3780-4023-9a97-3aef52fb96c3/2026-08-28_14_40_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>41:13</itunes:duration>
-    </item>
-    <item>
-      <title>Vendredi 28 août 2026 : Pierre Brassard et Clodine Desrochers</title>
-      <description>&lt;p&gt;Olivier Niquet parle des &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;diotang &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;diotang &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;diotang &lt;/span&gt;&lt;/q&gt; de Ruba Ghazal. Pierre Brassard présente sa nouvelle émission de rénos, &lt;em&gt;Passion tiroirs&lt;/em&gt;. Et Clodine Desrochers raconte comment elle a rejoint les rangs de la CAQ.&lt;/p&gt;</description>
-      <pubDate>Fri, 28 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/70e81249-f658-4588-8d38-00359de704e3/2026-08-28_14_03_58_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/70e81249-f658-4588-8d38-00359de704e3/2026-08-28_14_03_58_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>34:11</itunes:duration>
+      <itunes:duration>00:41:13</itunes:duration>
     </item>
     <item>
       <title>Vendredi 28 août 2026 : Pierre Brassard et Clodine Desrochers</title>
-      <description>&amp;lt;p&amp;gt;Olivier Niquet parle des «diotang» de Ruba Ghazal. Pierre Brassard présente sa nouvelle émission de rénos, «Passion tiroirs». Et Clodine Desrochers raconte comment elle a rejoint les rangs de la CAQ.&amp;lt;/p&amp;gt;</description>
+      <description>&lt;p&gt;Olivier Niquet parle des «diotang» de Ruba Ghazal. Pierre Brassard présente sa nouvelle émission de rénos, «Passion tiroirs». Et Clodine Desrochers raconte comment elle a rejoint les rangs de la CAQ.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1269970/vendredi-28-aout-2026-pierre-brassard-et-clodine-desrochers</link>
       <pubDate>Fri, 28 Aug 2026 14:30:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d36c43f6-fcfc-43e9-892e-a8d084579788/2026-08-28_14_30_00_journeeestencorejeunebalado_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d36c43f6-fcfc-43e9-892e-a8d084579788/2026-08-28_14_30_00_journeeestencorejeunebalado_0000.mp3" length="49247294" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d36c43f6-fcfc-43e9-892e-a8d084579788/2026-08-28_14_30_00_journeeestencorejeunebalado_0000.mp3?v=2</guid>
       <itunes:duration>00:34:11</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 27&amp;nbsp;août 2026&amp;nbsp;: Nathalie Petrowski, Hugo Dumas et Simon Coutu</title>
-      <description>&lt;p&gt;Nathalie Petrowski se «&amp;nbsp;contrefout&amp;nbsp;» du décès de Tim Curry. Hugo Dumas donne 10&amp;nbsp;raisons de regarder &lt;em&gt;La maison des vilains&lt;/em&gt;. Et Simon Coutu parle de son documentaire &lt;em&gt;Transpositions&lt;/em&gt;, dans lequel il se demande pourquoi la communauté trans dérange autant.&lt;/p&gt;</description>
+      <title>Jeudi 27 août 2026 : Nathalie Petrowski, Hugo Dumas et Simon Coutu</title>
+      <description>&lt;p&gt;Nathalie Petrowski se « contrefout » du décès de Tim Curry. Hugo Dumas donne 10 raisons de regarder &lt;em&gt;La maison des vilains&lt;/em&gt;. Et Simon Coutu parle de son documentaire &lt;em&gt;Transpositions&lt;/em&gt;, dans lequel il se demande pourquoi la communauté trans dérange autant.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1269165/jeudi-27-aout-2026-nathalie-petrowski-hugo-dumas-et-simon-coutu</link>
       <pubDate>Thu, 27 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/befa3631-ce1a-477e-a21d-029d1c80a3fc/2026-08-27_14_11_44_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/befa3631-ce1a-477e-a21d-029d1c80a3fc/2026-08-27_14_11_44_lajourneeestencorejeuneohdio_0000_master.m3u8" length="34192000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/befa3631-ce1a-477e-a21d-029d1c80a3fc/2026-08-27_14_11_44_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>35:37</itunes:duration>
+      <itunes:duration>00:35:37</itunes:duration>
     </item>
     <item>
       <title>Mercredi 26 août 2026 : Paul Journet, Josée Boileau et Katherine Brulotte</title>
       <description>&lt;p&gt;Paul Journet et Josée Boileau se penchent sur le rôle d’Olivier Primeau dans la campagne caquiste. Et Katherine Brulotte parle de la réaction de Doug Ford aux tarifs de Trump.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1268334/mercredi-26-aout-2026-paul-journet-josee-boileau-et-katherine-brulotte</link>
       <pubDate>Wed, 26 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/00d4dc62-8791-43e6-886e-3d03101392ed/2026-08-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/00d4dc62-8791-43e6-886e-3d03101392ed/2026-08-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="32080000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/00d4dc62-8791-43e6-886e-3d03101392ed/2026-08-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>33:25</itunes:duration>
+      <itunes:duration>00:33:25</itunes:duration>
     </item>
     <item>
       <title>Mardi 25 août 2026 : Éric Duhaime et Louis T</title>
       <description>&lt;p&gt;Louis T s’intéresse au scandale de la banane. Et Éric Duhaime parle de la guerre tarifaire et de la volonté de Lino Zambito d’être candidat pour le Parti conservateur du Québec.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1268123/mardi-25-aout-2026-eric-duhaime-et-louis-t</link>
       <pubDate>Tue, 25 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/afc40187-de2c-40b3-a761-e5f4f8f8bfb7/2026-08-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/afc40187-de2c-40b3-a761-e5f4f8f8bfb7/2026-08-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="36144000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/afc40187-de2c-40b3-a761-e5f4f8f8bfb7/2026-08-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>37:39</itunes:duration>
+      <itunes:duration>00:37:39</itunes:duration>
     </item>
     <item>
       <title>Lundi 24 août 2026 : Suzie Bouchard et Louise Beaudoin</title>
       <description>&lt;p&gt;Suzie Bouchard teste des blagues. Olivier explique le faux scandale lié à une réponse en anglais de Christine Fréchette. Et Louise Beaudoin nous dit si elle est maintenant fédéraliste, après que Mark Carney a défendu la langue française. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1267849/lundi-24-aout-2026-suzie-bouchard-et-louise-beaudoin</link>
       <pubDate>Mon, 24 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c0dc689a-98a8-4f7a-a504-517f4f44c9b3/2026-08-24_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c0dc689a-98a8-4f7a-a504-517f4f44c9b3/2026-08-24_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="30864000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c0dc689a-98a8-4f7a-a504-517f4f44c9b3/2026-08-24_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>32:09</itunes:duration>
+      <itunes:duration>00:32:09</itunes:duration>
     </item>
     <item>
-      <title>Samedi 22 août 2026 : Olivier Niquet en brochette </title>
+      <title>Samedi 22 août 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Sophie Grégoire nous invite à nous reconnecter à notre for intérieur; Philippe Richard Bertrand estime que seules les personnes qui paient de l’impôt devraient pouvoir voter; et le chef du parti Démocratie directe veut mettre un terme à la dictature au Québec.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1266800/samedi-22-aout-2026-olivier-niquet-en-brochette</link>
       <pubDate>Sat, 22 Aug 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4f988b74-f465-471a-ab92-e0c279f5eae8/2026-08-21_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4f988b74-f465-471a-ab92-e0c279f5eae8/2026-08-21_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="41744000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4f988b74-f465-471a-ab92-e0c279f5eae8/2026-08-21_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>43:29</itunes:duration>
+      <itunes:duration>00:43:29</itunes:duration>
     </item>
     <item>
       <title>Vendredi 21 août 2026 : Pierre Brassard et François Latour</title>
       <description>&lt;p&gt;Pierre Brassard raconte la naissance de son amitié avec Jean-François Lépine. Olivier s’intéresse aux candidats et candidates qui ont fait des choix audacieux en vue des élections québécoises. Et François Latour parle de son désir de battre le record Guinness de la plus grande charrue agricole&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1266730/vendredi-21-aout-2026-pierre-brassard-et-francois-latour</link>
       <pubDate>Fri, 21 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/df76aff0-0f5e-4861-a5d5-acd070d1c7e2/2026-08-21_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/df76aff0-0f5e-4861-a5d5-acd070d1c7e2/2026-08-21_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="30416000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/df76aff0-0f5e-4861-a5d5-acd070d1c7e2/2026-08-21_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>31:41</itunes:duration>
+      <itunes:duration>00:31:41</itunes:duration>
     </item>
     <item>
       <title>Jeudi 20 août 2026 : Nathalie Petrowski, Hugo Dumas et Elsie Lefebvre</title>
-      <description>&lt;p&gt;Olivier parle du parti Démocratie directe, qui veut mettre un terme à la dictature au Québec. Nathalie Petrowski critique les films québécois de l&amp;#x27;été. Hugo Dumas s&amp;#x27;intéresse aux chansons de l&amp;#x27;été. Et Elsie Lefebvre explique pourquoi elle fait son retour en politique avec le Parti québécois.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Olivier parle du parti Démocratie directe, qui veut mettre un terme à la dictature au Québec. Nathalie Petrowski critique les films québécois de l'été. Hugo Dumas s'intéresse aux chansons de l'été. Et Elsie Lefebvre explique pourquoi elle fait son retour en politique avec le Parti québécois.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1266255/jeudi-20-aout-2026-nathalie-petrowski-hugo-dumas-et-elsie-lefebvre</link>
       <pubDate>Thu, 20 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dff82b46-97f2-47ae-bfd6-e5921e326769/2026-08-20_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dff82b46-97f2-47ae-bfd6-e5921e326769/2026-08-20_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="35968000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dff82b46-97f2-47ae-bfd6-e5921e326769/2026-08-20_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>37:28</itunes:duration>
+      <itunes:duration>00:37:28</itunes:duration>
     </item>
     <item>
       <title>Mercredi 19 août 2026 : Simon-Olivier Lorange et Valérie-Anne Mahéo</title>
       <description>&lt;p&gt;Olivier s’intéresse à la misère des riches. Simon-Olivier Lorange explique comment inventer du contenu pour parler du Canadien. Et Valérie-Anne Mahéo répond aux gens qui croient que le droit de vote doit être réservé aux gens qui paient de l’impôt.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1265783/mercredi-19-aout-2026-simon-olivier-lorange-et-valerie-anne-maheo</link>
       <pubDate>Wed, 19 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/81673dc6-ad26-4410-b9d5-3dd48eb5e542/2026-08-19_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/81673dc6-ad26-4410-b9d5-3dd48eb5e542/2026-08-19_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="30800000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/81673dc6-ad26-4410-b9d5-3dd48eb5e542/2026-08-19_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>32:05</itunes:duration>
+      <itunes:duration>00:32:05</itunes:duration>
     </item>
     <item>
       <title>Mardi 18 août 2026 : Magali Saint-Vincent et Sol Zanetti</title>
       <description>&lt;p&gt;Olivier décrypte une vidéo de Sophie Grégoire qui nous invite à nous reconnecter à notre for intérieur. Magali Saint-Vincent compare les propos de Medusa à ceux de Néron dans &lt;em&gt;Britannicus&lt;/em&gt;. Et Sol Zanetti explique ce que ferait un gouvernement solidaire dans les 100 premiers jours de son mandat.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1265608/mardi-18-aout-2026-magali-saint-vincent-et-sol-zanetti</link>
       <pubDate>Tue, 18 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/65d69982-c1be-48a2-80fb-6aedb57256e2/2026-08-18_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/65d69982-c1be-48a2-80fb-6aedb57256e2/2026-08-18_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="29632000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/65d69982-c1be-48a2-80fb-6aedb57256e2/2026-08-18_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>30:52</itunes:duration>
+      <itunes:duration>00:30:52</itunes:duration>
     </item>
     <item>
       <title>Lundi 17 août 2026 : Jean-Sébastien Girard et Charles Milliard</title>
-      <description>&lt;p&gt;Christine Fréchette affirme qu’elle n’est &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;pas beige pantoute &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;pas beige pantoute &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;pas beige pantoute&lt;/span&gt;&lt;/q&gt;. Jean-Sébastien révèle s’être acheté six sacs de Canadian Tire. Et Charles Milliard parle de son été en précampagne électorale.&lt;/p&gt;</description>
-      <pubDate>Mon, 17 Aug 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/18616900-6d31-416c-9796-a9823172c769/2026-08-17_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <description>&lt;p&gt;Christine Fréchette affirme qu’elle n’est pas beige pantoute. Jean-Sébastien révèle s’être acheté six sacs de Canadian Tire. Et Charles Milliard parle de son été en précampagne électorale.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1265300/lundi-17-aout-2026-jean-sebastien-girard-et-charles-milliard</link>
+      <pubDate>Mon, 17 Aug 2026 14:30:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/6643d740-654d-4a40-96cc-d2e50ae8fc70/2026-08-17_14_30_00_journeeestencorejeunebalado_0000.mp3" length="43560960" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/18616900-6d31-416c-9796-a9823172c769/2026-08-17_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>30:15</itunes:duration>
+      <itunes:duration>00:30:15</itunes:duration>
     </item>
     <item>
       <title>Vendredi 5 juin 2026 : Les meilleurs moments, avec Gilles Brassard et Suzie Bouchard</title>
       <description>&lt;p&gt;Jean-Philippe retrace la carrière de Pierre Brassard. Gilles Brassard explique ce qu’est la cryptographie quantique. Et Suzie Bouchard rend hommage à la fièvre des séries dans un slam sportif.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1177322/vendredi-5-juin-2026-les-meilleurs-moments-avec-gilles-brassard-et-suzie-bouchard</link>
       <pubDate>Fri, 05 Jun 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9dda0db3-3389-44f8-8656-81e47ff4c1c2/2026-06-05_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9dda0db3-3389-44f8-8656-81e47ff4c1c2/2026-06-05_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9dda0db3-3389-44f8-8656-81e47ff4c1c2/2026-06-05_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Jeudi 4 juin 2026 : Les meilleurs moments, avec Magali Saint-Vincent et Régis Labeaume</title>
-      <description>&lt;p&gt;On apprend que Paul Journet est &lt;em&gt;cheap&lt;/em&gt;. Bernard Drainville se défend d’avoir chanté des Cowboys Fringants lors d’une entrevue accordée à son fils. Régis Labeaume explique ce qui différencie la politique municipale de la provinciale. Et Magali Saint-Vincent explique pourquoi les gens se foutent d’Artemis&amp;nbsp;II. &lt;/p&gt;</description>
+      <description>&lt;p&gt;On apprend que Paul Journet est &lt;em&gt;cheap&lt;/em&gt;. Bernard Drainville se défend d’avoir chanté des Cowboys Fringants lors d’une entrevue accordée à son fils. Régis Labeaume explique ce qui différencie la politique municipale de la provinciale. Et Magali Saint-Vincent explique pourquoi les gens se foutent d’Artemis II. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1177318/jeudi-4-juin-2026-les-meilleurs-moments-avec-magali-saint-vincent-et-regis-labeaume</link>
       <pubDate>Thu, 04 Jun 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a5545b8-05a8-4e31-aa08-013d47cb958e/2026-06-04_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a5545b8-05a8-4e31-aa08-013d47cb958e/2026-06-04_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5a5545b8-05a8-4e31-aa08-013d47cb958e/2026-06-04_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Mercredi 3 juin 2026 : Les meilleurs moments, avec Simon et Tyler, et Alain Crête</title>
       <description>&lt;p&gt;Olivier se fait réprimander par le chef du Parti vert du Québec, Alex Tyrrell. Alain Crête, qui a annoncé sa retraite, revient sur sa carrière de journaliste sportif. Et Simon et Tyler expliquent que les Canadiens de Montréal vont faire les séries.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1177316/mercredi-3-juin-2026-les-meilleurs-moments-avec-simon-et-tyler-et-alain-crete</link>
       <pubDate>Wed, 03 Jun 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5db90f42-6d68-4dcb-ba21-1e78c5f422ca/2026-06-03_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5db90f42-6d68-4dcb-ba21-1e78c5f422ca/2026-06-03_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5db90f42-6d68-4dcb-ba21-1e78c5f422ca/2026-06-03_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Mardi 2 juin 2026 : Les meilleurs moments, avec David Thibodeau et Marc Cassivi</title>
       <description>&lt;p&gt;Olivier nous rappelle la menace d’apocalypse nucléaire, lorsque Donald Trump a affirmé vouloir anéantir l’Iran. David Thibodeau parle des Jeux d’hiver de l’Arctique et de ses disciplines, dont le saut sur les jointures. Et Marc Cassivi démolit le film &lt;em&gt;Le dîner de cons&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1177314/mardi-2-juin-2026-les-meilleurs-moments-avec-david-thibodeau-et-marc-cassivi</link>
       <pubDate>Tue, 02 Jun 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dbc894ba-4d5e-4ba5-b08d-7de2ebe24413/2026-06-02_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Lundi 1er juin 2026 : Les meilleurs moments, avec Charles Beauchesne et Dominic LeBlanc</title>
       <description>&lt;p&gt;Jean-Philippe remercie Rose-Aimée Automne T. Morin et Suzie Bouchard en leur dédiant un acrostiche et un slam. Olivier nous fait entendre les caquistes qui rendent hommage à François Legault en chantant du Céline Dion. Dominic LeBlanc explique pourquoi le PLC n’accepterait pas que Jacques Gourde rejoigne ses rangs. Et Charles Beauchesne raconte sa très érotique sortie à la cabane à sucre.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1177308/lundi-1er-juin-2026-les-meilleurs-moments-avec-charles-beauchesne-et-dominic-leblanc</link>
       <pubDate>Mon, 01 Jun 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cf9e5f1f-027e-4f31-935d-bdccb15735d2/2026-06-01_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cf9e5f1f-027e-4f31-935d-bdccb15735d2/2026-06-01_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cf9e5f1f-027e-4f31-935d-bdccb15735d2/2026-06-01_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Samedi 30 mai 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Stéphane Gendron qualifie Paul St-Pierre Plamondon de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;mini-Trump &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;mini-Trump &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;mini-Trump&lt;/span&gt;&lt;/q&gt;; Pierre Poilievre encourage les Habitants; et Olivier Niquet se fait insulter par d’autres médias. &lt;/p&gt;</description>
+      <description>&lt;p&gt;Stéphane Gendron qualifie Paul St-Pierre Plamondon de &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;mini-Trump &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;mini-Trump &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;mini-Trump&lt;/span&gt;&lt;/q&gt;; Pierre Poilievre encourage les Habitants; et Olivier Niquet se fait insulter par d’autres médias. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1176911/samedi-30-mai-2026-olivier-niquet-en-brochette</link>
       <pubDate>Sat, 30 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b52d2175-a3f0-4ce1-a315-b0436affd668/2026-05-29_11_50_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b52d2175-a3f0-4ce1-a315-b0436affd668/2026-05-29_11_50_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="38896000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b52d2175-a3f0-4ce1-a315-b0436affd668/2026-05-29_11_50_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>40:31</itunes:duration>
+      <itunes:duration>00:40:31</itunes:duration>
     </item>
     <item>
       <title>Vendredi 29 mai 2026 : Steven Guilbeault, Pierre Brassard et Suzie Bouchard</title>
-      <description>&lt;p&gt;Olivier nous fait entendre ce qu’on a dit de lui dans les médias. Steven Guilbeault se rappelle ses bons coups en politique. Et Pierre Brassard présente sa version d’&lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Olivier Niquet 24/7 &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Olivier Niquet 24/7 &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;Olivier Niquet 24/7&lt;/span&gt;&lt;/q&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Olivier nous fait entendre ce qu’on a dit de lui dans les médias. Steven Guilbeault se rappelle ses bons coups en politique. Et Pierre Brassard présente sa version d’&lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Olivier Niquet 24/7 &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Olivier Niquet 24/7 &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;Olivier Niquet 24/7&lt;/span&gt;&lt;/q&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1176573/vendredi-29-mai-2026-steven-guilbeault-pierre-brassard-et-suzie-bouchard</link>
       <pubDate>Fri, 29 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/873dc713-d64c-4fd9-a6b3-0eeeea9b696e/2026-05-29_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/873dc713-d64c-4fd9-a6b3-0eeeea9b696e/2026-05-29_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/873dc713-d64c-4fd9-a6b3-0eeeea9b696e/2026-05-29_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Jeudi 28 mai 2026 : Nathalie Petrowski, Hugo Dumas et Louis Blouin</title>
-      <description>&lt;p&gt;Louis Blouin parle de la santé de Donald Trump et des plans du président pour son anniversaire. Nathalie Petrowski déplore qu’on ne voie pas le visage de Pedro Pascal dans &lt;em&gt;Le Mandalorian et Grogu&lt;/em&gt;. Et Hugo Dumas affirme avoir «&amp;nbsp;failli se défenestrer&amp;nbsp;» en regardant l&amp;#x27;émission &lt;em&gt;Planter avec Marthe&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Louis Blouin parle de la santé de Donald Trump et des plans du président pour son anniversaire. Nathalie Petrowski déplore qu’on ne voie pas le visage de Pedro Pascal dans &lt;em&gt;Le Mandalorian et Grogu&lt;/em&gt;. Et Hugo Dumas affirme avoir « failli se défenestrer » en regardant l'émission &lt;em&gt;Planter avec Marthe&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1176515/jeudi-28-mai-2026-nathalie-petrowski-hugo-dumas-et-louis-blouin</link>
       <pubDate>Thu, 28 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/843aee3c-323a-4422-bcc1-dfbf2957ca0d/2026-05-28_14_28_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/843aee3c-323a-4422-bcc1-dfbf2957ca0d/2026-05-28_14_28_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/843aee3c-323a-4422-bcc1-dfbf2957ca0d/2026-05-28_14_28_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Mercredi 27 mai 2026 : Jean-Sébastien Girard, Josée Boileau et Paul Journet</title>
-      <description>&lt;p&gt;Éric Duhaime explique pourquoi il veut se présenter dans Bellechasse. Jean-Sébastien Girard présente un «&amp;nbsp;Allô Bobo&amp;nbsp;» sur la gélotophobie. Et Paul Journet et Josée Boileau parlent du projet indépendantiste albertain et du départ de la politique de Steven Guilbeault.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Éric Duhaime explique pourquoi il veut se présenter dans Bellechasse. Jean-Sébastien Girard présente un « Allô Bobo » sur la gélotophobie. Et Paul Journet et Josée Boileau parlent du projet indépendantiste albertain et du départ de la politique de Steven Guilbeault.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1175860/mercredi-27-mai-2026-jean-sebastien-girard-josee-boileau-et-paul-journet</link>
       <pubDate>Wed, 27 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2e29a684-2efc-4fa4-a68c-d07c0a017704/2026-05-27_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2e29a684-2efc-4fa4-a68c-d07c0a017704/2026-05-27_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2e29a684-2efc-4fa4-a68c-d07c0a017704/2026-05-27_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Mardi 26 mai 2026 : Dominic Tardif et Marie-Christine Bergeron</title>
-      <description>&lt;p&gt;Lors du congrès de la CAQ, Ian Lafrenière distribuait des tatouages à son effigie. Dominic Tardif parle d’un vidéoclip de Marie-Chantal Toupin. Et Marie-Christine Bergeron raconte comment, grâce à son documentaire &lt;em&gt;L’appartement&lt;/em&gt;&amp;nbsp;&lt;em&gt;5&lt;/em&gt;, elle a aidé à résoudre un crime vieux de 30 ans.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Lors du congrès de la CAQ, Ian Lafrenière distribuait des tatouages à son effigie. Dominic Tardif parle d’un vidéoclip de Marie-Chantal Toupin. Et Marie-Christine Bergeron raconte comment, grâce à son documentaire &lt;em&gt;L’appartement&lt;/em&gt; &lt;em&gt;5&lt;/em&gt;, elle a aidé à résoudre un crime vieux de 30 ans.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1174709/mardi-26-mai-2026-dominic-tardif-et-marie-christine-bergeron</link>
       <pubDate>Tue, 26 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f629e64-dfb6-49d4-a334-3f2ef1c67e1f/2026-05-26_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1f629e64-dfb6-49d4-a334-3f2ef1c67e1f/2026-05-26_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1f629e64-dfb6-49d4-a334-3f2ef1c67e1f/2026-05-26_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Lundi 25 mai 2026 : Magali Saint-Vincent et Eric St-Pierre</title>
       <description>&lt;p&gt;Le député libéral Eric St-Pierre parle du demi-marathon qu’il a couru avec un costume de tour. Et Magali Saint-Vincent se propose pour rédiger la question référendaire albertaine.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1174267/lundi-25-mai-2026-magali-saint-vincent-et-eric-st-pierre</link>
       <pubDate>Mon, 25 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b9fb28f-9461-400b-a5d0-d2784c922eb1/2026-05-25_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b9fb28f-9461-400b-a5d0-d2784c922eb1/2026-05-25_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b9fb28f-9461-400b-a5d0-d2784c922eb1/2026-05-25_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Samedi 23 mai 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Monique Jérôme-Forget ressort sa fameuse sacoche; Stephan Dupont, du FM93, a honte de Jérôme Landry, qui refuse de tourner la page sur les &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;ostis de Nordiques &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;ostis de Nordiques &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;ostis de Nordiques&lt;/span&gt;&lt;/q&gt;; et des animateurs et animatrices de radio imitent le bruit d’un orignal.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Monique Jérôme-Forget ressort sa fameuse sacoche; Stephan Dupont, du FM93, a honte de Jérôme Landry, qui refuse de tourner la page sur les &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;ostis de Nordiques &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;ostis de Nordiques &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;ostis de Nordiques&lt;/span&gt;&lt;/q&gt;; et des animateurs et animatrices de radio imitent le bruit d’un orignal.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1173911/samedi-23-mai-2026-olivier-niquet-en-brochette</link>
       <pubDate>Sat, 23 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a5094722-675c-425a-bd4c-bc805e52986f/2026-05-22_14_50_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a5094722-675c-425a-bd4c-bc805e52986f/2026-05-22_14_50_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="27776000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a5094722-675c-425a-bd4c-bc805e52986f/2026-05-22_14_50_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>28:56</itunes:duration>
+      <itunes:duration>00:28:56</itunes:duration>
     </item>
     <item>
       <title>Vendredi 22 mai 2026 : Alec Castonguay, Justine Philie et Simon-Olivier Lorange</title>
       <description>&lt;p&gt;Olivier parle de l’orignal qui est entré dans une maison à Trois-Rivières. Simon-Olivier Lorange se dit surpris de la victoire du Canadien. Alec Castonguay fait sa visite annuelle en studio. Et Justine Philie est en colère contre l’avocat de Patrick Bruel. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1173876/vendredi-22-mai-2026-alec-castonguay-justine-philie-et-simon-olivier-lorange</link>
       <pubDate>Fri, 22 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d3a1f90e-5f1c-48bf-b579-4524c6b666a9/2026-05-22_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d3a1f90e-5f1c-48bf-b579-4524c6b666a9/2026-05-22_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d3a1f90e-5f1c-48bf-b579-4524c6b666a9/2026-05-22_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Jeudi 21 mai 2026 : Nathalie Petrowski, Hugo Dumas et Karine Ménard</title>
-      <description>&lt;p&gt;La cheffe de police de Laval, Karine Ménard, explique ce que fait son équipe pour contrer l’extorsion. Nathalie Petrowski cherche la vraie raison de la fin du &lt;em&gt;Late Show&lt;/em&gt;, animé par Stephen Colbert. Et Hugo Dumas fait part de son coup de cœur télé printanier&amp;nbsp;:&amp;nbsp;&lt;em&gt;L&amp;#x27;effet Lara&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;La cheffe de police de Laval, Karine Ménard, explique ce que fait son équipe pour contrer l’extorsion. Nathalie Petrowski cherche la vraie raison de la fin du &lt;em&gt;Late Show&lt;/em&gt;, animé par Stephen Colbert. Et Hugo Dumas fait part de son coup de cœur télé printanier : &lt;em&gt;L'effet Lara&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1173624/jeudi-21-mai-2026-nathalie-petrowski-hugo-dumas-et-karine-menard</link>
       <pubDate>Thu, 21 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1341015e-715e-45b5-acca-1c814aadef5a/2026-05-21_14_28_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1341015e-715e-45b5-acca-1c814aadef5a/2026-05-21_14_28_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1341015e-715e-45b5-acca-1c814aadef5a/2026-05-21_14_28_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Mercredi 20 mai 2026 : Josée Boileau, Paul Journet et Marc Cassivi</title>
-      <description>&lt;p&gt;Bernard Drainville protège Mark Carney de la pluie lors d&amp;#x27;une conférence de presse. Marc Cassivi qualifie de &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;cru moyen &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;cru moyen &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;cru moyen&lt;/span&gt;&lt;/q&gt; le 79e Festival de Cannes. Et Paul Journet et Josée Boileau parlent de l’entente de Churchill Falls que Terre-Neuve-et-Labrador veut renégocier.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Bernard Drainville protège Mark Carney de la pluie lors d'une conférence de presse. Marc Cassivi qualifie de &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"cru moyen ","text":"cru moyen "}}"&gt;&lt;span lang="fr" title="Français"&gt;cru moyen&lt;/span&gt;&lt;/q&gt; le 79e Festival de Cannes. Et Paul Journet et Josée Boileau parlent de l’entente de Churchill Falls que Terre-Neuve-et-Labrador veut renégocier.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1172617/mercredi-20-mai-2026-josee-boileau-paul-journet-et-marc-cassivi</link>
       <pubDate>Wed, 20 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/155bcf49-0189-4fde-92d4-ff9063383800/2026-05-20_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/155bcf49-0189-4fde-92d4-ff9063383800/2026-05-20_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/155bcf49-0189-4fde-92d4-ff9063383800/2026-05-20_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Mardi 19 mai 2026 : Simon et Tyler, David Thibodeau et Simon-Olivier Lorange</title>
-      <description>&lt;p&gt;Jean-Philippe raconte sa drôle de soirée à regarder le hockey avec Nathalie Petrowski. Simon-Olivier Lorange défend les performances du Canadien face à un Jean-Philippe défaitiste. À l&amp;#x27;occasion de la fête de la Reine, Simon et Tyler rendent hommage à l&amp;#x27;Angleterre. Et David Thibodeau nous fait voyager à Vancouver.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Jean-Philippe raconte sa drôle de soirée à regarder le hockey avec Nathalie Petrowski. Simon-Olivier Lorange défend les performances du Canadien face à un Jean-Philippe défaitiste. À l'occasion de la fête de la Reine, Simon et Tyler rendent hommage à l'Angleterre. Et David Thibodeau nous fait voyager à Vancouver.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1172375/mardi-19-mai-2026-simon-et-tyler-david-thibodeau-et-simon-olivier-lorange</link>
       <pubDate>Tue, 19 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d10a3732-a1c1-44fb-83dc-84b8920675e7/2026-05-19_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d10a3732-a1c1-44fb-83dc-84b8920675e7/2026-05-19_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d10a3732-a1c1-44fb-83dc-84b8920675e7/2026-05-19_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Samedi 16 mai 2026 : Olivier Niquet en brochette</title>
-      <description>&lt;p&gt;Olivier remet les pendules à l’heure sur la chicane entre François Lambert et Québec solidaire; il tente également de comprendre ce qu’est une &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;candidature vedette &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;candidature vedette &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;candidature vedette&lt;/span&gt;&lt;/q&gt;; et Jean-François Lisée admet qu’il serait déçu si le Parti québécois n’était pas espionné par le gouvernement fédéral.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Olivier remet les pendules à l’heure sur la chicane entre François Lambert et Québec solidaire; il tente également de comprendre ce qu’est une &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;candidature vedette &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;candidature vedette &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;candidature vedette&lt;/span&gt;&lt;/q&gt;; et Jean-François Lisée admet qu’il serait déçu si le Parti québécois n’était pas espionné par le gouvernement fédéral.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1172001/samedi-16-mai-2026-olivier-niquet-en-brochette</link>
       <pubDate>Sat, 16 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c4a036ec-3c84-4347-844a-40e8b9a59e39/2026-05-15_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c4a036ec-3c84-4347-844a-40e8b9a59e39/2026-05-15_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="35680000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c4a036ec-3c84-4347-844a-40e8b9a59e39/2026-05-15_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>37:10</itunes:duration>
+      <itunes:duration>00:37:10</itunes:duration>
     </item>
     <item>
       <title>Vendredi 15 mai 2026 : Pierre Brassard et Charles Emond</title>
       <description>&lt;p&gt;Une guerre de clémentines congelées a éclaté à Saint-Honoré. Charles Emond parle de la nouvelle antenne du REM et de son rendement. Et Pierre Brassard raconte sa vie à la manière d’un commentateur de hockey.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1171964/vendredi-15-mai-2026-pierre-brassard-et-charles-emond</link>
       <pubDate>Fri, 15 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e9b28cbf-2e2d-42ca-809d-28a9e1b24978/2026-05-15_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e9b28cbf-2e2d-42ca-809d-28a9e1b24978/2026-05-15_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e9b28cbf-2e2d-42ca-809d-28a9e1b24978/2026-05-15_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Jeudi 14 mai 2026 : Nathalie Petrowski, Hugo Dumas et Stéphanie Poirier</title>
-      <description>&lt;p&gt;Stéphanie Poirier parle de la Victoire de Montréal, qui est en finale, et de la crainte concernant l’expansion de la LPHF. Nathalie Petrowski s&amp;#x27;emporte contre Gemini. Et Hugo Dumas nous dit quoi regarder et ne pas regarder à la télé.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Stéphanie Poirier parle de la Victoire de Montréal, qui est en finale, et de la crainte concernant l’expansion de la LPHF. Nathalie Petrowski s'emporte contre Gemini. Et Hugo Dumas nous dit quoi regarder et ne pas regarder à la télé.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1171600/jeudi-14-mai-2026-nathalie-petrowski-hugo-dumas-et-stephanie-poirier</link>
       <pubDate>Thu, 14 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b589aece-07c9-42dc-9695-c9e1db630be5/2026-05-14_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b589aece-07c9-42dc-9695-c9e1db630be5/2026-05-14_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b589aece-07c9-42dc-9695-c9e1db630be5/2026-05-14_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Mercredi 13 mai 2026 : Charles Beauchesne et Paul Journet</title>
       <description>&lt;p&gt;Maxime Bernier nous fait part de sa solution très simple pour éviter d’acheter du bœuf vacciné. Paul Journet commente les sondages, notamment en lien avec la remontée de la CAQ. Et Charles Beauchesne se demande où est Cristobal Huet.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1171197/mercredi-13-mai-2026-charles-beauchesne-et-paul-journet</link>
       <pubDate>Wed, 13 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fc3bf5f8-0bd0-4fa5-86df-ae84214a1cf0/2026-05-13_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fc3bf5f8-0bd0-4fa5-86df-ae84214a1cf0/2026-05-13_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fc3bf5f8-0bd0-4fa5-86df-ae84214a1cf0/2026-05-13_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Mardi 12 mai 2026 : Louis T et Marie Plourde</title>
       <description>&lt;p&gt;Marie Plourde parle de son rôle dans l’opposition à Projet Montréal et nous dit combien de temps tiennent les réparations d’un nid-de-poule. Et Louis T s’intéresse aux jeunes du cégep qui utilisent l’IA.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1170428/mardi-12-mai-2026-louis-t-et-marie-plourde</link>
       <pubDate>Tue, 12 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e6a2652-4de5-4732-9bd6-d029c1e30b12/2026-05-12_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1e6a2652-4de5-4732-9bd6-d029c1e30b12/2026-05-12_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1e6a2652-4de5-4732-9bd6-d029c1e30b12/2026-05-12_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Lundi 11 mai 2026 : Jean-Sébastien Girard, Jean-Philippe Pleau et Magali Saint-Vincent</title>
-      <description>&lt;p&gt;Jeff Filion s&amp;#x27;identifie comme séparatiste albertain. Jean-Philippe Pleau rend hommage à Serge Bouchard, cinq ans après son décès. Et Magali Saint-Vincent est excitée de répondre au questionnaire du recensement, qu’elle compare à celui du magazine&lt;em&gt; Cool!&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Jeff Filion s'identifie comme séparatiste albertain. Jean-Philippe Pleau rend hommage à Serge Bouchard, cinq ans après son décès. Et Magali Saint-Vincent est excitée de répondre au questionnaire du recensement, qu’elle compare à celui du magazine&lt;em&gt; Cool!&lt;/em&gt;&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1170215/lundi-11-mai-2026-jean-sebastien-girard-jean-philippe-pleau-et-magali-saint-vincent</link>
       <pubDate>Mon, 11 May 2026 18:28:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0b8d186c-8b35-4caa-9503-c0d3c7398a06/2026-05-11_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0b8d186c-8b35-4caa-9503-c0d3c7398a06/2026-05-11_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0b8d186c-8b35-4caa-9503-c0d3c7398a06/2026-05-11_14_25_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Samedi 9 mai 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Olivier compare la chimie entre l’équipe des Canadiens de Montréal à celle au sein des partis politiques; la vidéo controversée du conseiller municipal Timmy Jutras pour dénoncer les conditions de vie des personnes en situation d’itinérance; et les messages politiques à l’Assemblée nationale en clin d’œil aux séries éliminatoires du hockey.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1169843/samedi-9-mai-2026-olivier-niquet-en-brochette</link>
       <pubDate>Sat, 09 May 2026 11:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cc87cd60-9ec3-4263-9e7b-03a5e5904488/2026-05-08_16_02_02_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cc87cd60-9ec3-4263-9e7b-03a5e5904488/2026-05-08_16_02_02_lajourneeestencorejeuneohdio_0000_master.m3u8" length="36112000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cc87cd60-9ec3-4263-9e7b-03a5e5904488/2026-05-08_16_02_02_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>37:37</itunes:duration>
+      <itunes:duration>00:37:37</itunes:duration>
     </item>
     <item>
       <title>Vendredi 8 mai 2026 : Sol Zanetti et Pierre Brassard</title>
       <description>&lt;p&gt;Olivier Niquet rappelle la différence entre un nid de poule et un trou de pet. Sol Zanetti parle du congrès d’adoption de la plateforme électorale. Et Pierre Brassard veut célébrer l’anniversaire de son iPhone.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1169802/vendredi-8-mai-2026-sol-zanetti-et-pierre-brassard</link>
       <pubDate>Fri, 08 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b940352-9d71-4b69-81f0-ae29a9b833b7/2026-05-08_14_02_10_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b940352-9d71-4b69-81f0-ae29a9b833b7/2026-05-08_14_02_10_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9b940352-9d71-4b69-81f0-ae29a9b833b7/2026-05-08_14_02_10_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Jeudi 7 mai 2026 : Patrick Taillon, Nathalie Petrowski et Hugo Dumas</title>
       <description>&lt;p&gt;Olivier Niquet décrit la guerre médiatique qui oppose les chaînes d’information en continu pour savoir qui aime le plus le Canadien de Montréal. Patrick Taillon nous explique l’histoire de la fameuse clause dérogatoire. Nathalie Petrowski est très déçue par la pièce &lt;em&gt;Un nouveau jour,&lt;/em&gt; de Jean-Philippe Baril Guérard. Et Hugo Dumas nous dit ce qu’il a pensé du film &lt;em&gt;Le diable s’habille en Prada 2&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1169404/jeudi-7-mai-2026-patrick-taillon-nathalie-petrowski-et-hugo-dumas</link>
       <pubDate>Thu, 07 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/eaf25549-8db2-4d2f-858a-9b42f0cb46de/2026-05-07_14_16_34_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/eaf25549-8db2-4d2f-858a-9b42f0cb46de/2026-05-07_14_16_34_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/eaf25549-8db2-4d2f-858a-9b42f0cb46de/2026-05-07_14_16_34_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Mercredi 6 mai 2026 : Josée Boileau et Paul Journet</title>
       <description>&lt;p&gt;Olivier Niquet parle de la liberté d’expression telle que définie selon le Parti conservateur. Marie-Michèle Sioui nous fait part des échos au parlement après le discours inaugural de Christine Fréchette. Et Josée Boileau et Paul Journet se demandent à quel point le gouvernement de la CAQ a changé.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1169118/mercredi-6-mai-2026-josee-boileau-et-paul-journet</link>
       <pubDate>Wed, 06 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7d10509c-559c-4af1-b952-df74e8edf9c3/2026-05-06_14_16_16_ljeejeune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7d10509c-559c-4af1-b952-df74e8edf9c3/2026-05-06_14_16_16_ljeejeune_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7d10509c-559c-4af1-b952-df74e8edf9c3/2026-05-06_14_16_16_ljeejeune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
     <item>
       <title>Mardi 5 mai 2026 : Patrick Taillon et Suzie Bouchard</title>
       <description>&lt;p&gt;Olivier Niquet nous dit pourquoi ça brasse au conseil municipal de Gatineau. Patrick Taillon nous explique ce qu’implique la nomination de la nouvelle gouverneure générale. Et Suzie Bouchard rend hommage à la fièvre des séries dans un slam sportif. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1168663/mardi-5-mai-2026-patrick-taillon-et-suzie-bouchard</link>
       <pubDate>Tue, 05 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9621b511-5fb9-41b5-83e0-e9f7e53e3703/2026-05-05_14_09_19_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9621b511-5fb9-41b5-83e0-e9f7e53e3703/2026-05-05_14_09_19_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9621b511-5fb9-41b5-83e0-e9f7e53e3703/2026-05-05_14_09_19_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:29</itunes:duration>
+      <itunes:duration>00:29:29</itunes:duration>
     </item>
     <item>
       <title>Lundi 4 mai 2026 : Simon-Olivier Lorange et Julien Corriveau</title>
       <description>&lt;p&gt;Jean-Philippe ramène tout au hockey. Olivier revient sur la réaction de Martin St-Louis après la victoire des Canadiens à Tampa Bay. Simon-Olivier Lorange nous informe sur la série à venir contre les Sabres de Buffalo. Et Julien Corriveau nous raconte ce qui s’est passé dans les médias quand tout le monde regardait le hockey. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1168353/lundi-4-mai-2026-simon-olivier-lorange-et-julien-corriveau</link>
       <pubDate>Mon, 04 May 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/da8e77d5-e0c0-4ef4-bf24-10be5bd9ed3a/2026-05-04_14_07_03_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>29:30</itunes:duration>
+      <itunes:duration>00:29:30</itunes:duration>
     </item>
   </channel>
 </rss>
