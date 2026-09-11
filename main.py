@@ -1166,11 +1166,22 @@ def recent_expected_publications(
     return found
 
 
-def awaiting_episode(show: Show, newest: datetime | None, now: datetime) -> bool:
-    """True when the episode expected today is due but not in the feed yet.
+def awaiting_episode(
+    show: Show,
+    newest: datetime | None,
+    now: datetime,
+    lookahead_minutes: float = 0,
+) -> bool:
+    """True when today's episode is worth waiting for and is not in yet.
 
-    False as soon as the window closes, so a show that skips a day (a holiday,
-    a season break) is not watched for the rest of the day.
+    ``lookahead_minutes`` is how much time the caller still has. A run that
+    starts shortly *before* a show is due stays and waits for it instead of
+    exiting and leaving the episode to the next run an hour later. That is
+    what turns a publication into a feed update in minutes rather than in
+    however long it takes the next run to be delivered.
+
+    False once the window closes, so a show that skips a day (a holiday, a
+    season break) is not watched for the rest of the day.
     """
     if show.schedule is None:
         return False
@@ -1178,7 +1189,7 @@ def awaiting_episode(show: Show, newest: datetime | None, now: datetime) -> bool
     if not show.schedule.is_due_on(local):
         return False
     expected = show.schedule.expected_at(local)
-    if local < expected:
+    if local < expected - timedelta(minutes=lookahead_minutes):
         return False
     if local > expected + timedelta(minutes=show.schedule.window_minutes):
         return False
@@ -1224,15 +1235,18 @@ def watch_for_episodes(
     deadline = monotonic() + minutes * 60
     while True:
         now = now_provider()
+        remaining = deadline - monotonic()
+        # Shows that are due within the time we have left count as pending, so
+        # a run that arrives just before a publication waits for it.
+        lookahead = max(0.0, remaining / 60.0)
         pending = [
             show
             for show in shows
-            if awaiting_episode(show, results[show.slug].newest, now)
+            if awaiting_episode(show, results[show.slug].newest, now, lookahead)
         ]
         if not pending:
             LOG.info("Nothing else is due right now; stopping the watch.")
             return
-        remaining = deadline - monotonic()
         if remaining <= 0:
             LOG.info(
                 "Watch window closed, still waiting for: %s",

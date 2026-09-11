@@ -15,6 +15,11 @@ le générateur **revérifie toutes les 3 minutes** jusqu'à ce qu'il arrive, ou
 pendant 45 minutes au maximum. En dehors de ces fenêtres, un passage dure
 quelques secondes et se termine.
 
+Un passage qui démarre **juste avant** une parution reste en place et l'attend,
+au lieu de se terminer et de laisser l'épisode au passage suivant une heure
+plus tard. C'est ce qui fait la différence entre capter un épisode en quelques
+minutes et le capter une demi-heure après.
+
 Un nouvel épisode apparaît donc dans votre application environ **3 minutes**
 après sa parution, pendant la fenêtre de son émission.
 
