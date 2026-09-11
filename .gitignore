@@ -3,4 +3,7 @@ __pycache__/
 .env
 venv/
 env/
+
+# Generated feeds are the product of this repository and are committed.
 *.xml
+!feed_*.xml
