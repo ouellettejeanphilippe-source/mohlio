@@ -1,604 +1,1291 @@
-import requests
+#!/usr/bin/env python3
+"""Build RSS podcast feeds for a list of Radio-Canada OHdio shows.
+
+How the feeds are built
+-----------------------
+Three sources are combined for every show. None of them is complete on its
+own, so they are merged instead of replacing each other:
+
+1. ``feed_<id>.xml`` already in the repository. Upstream only ever exposes a
+   rolling window of recent episodes (and, for some shows, a single stale
+   one), so the file on disk is the only place the full history lives. It is
+   never truncated by a failed or partial upstream answer, and it doubles as
+   the cache of media URLs that were already resolved.
+2. The OHdio show page (``window._rcState_``). This is the source that sees a
+   new episode first, usually minutes after it is published, but it only
+   exposes a media id that has to be resolved to an HLS URL.
+3. The podcast RSS document served by the GraphQL gateway. It lags behind the
+   page, but it carries progressive MP3 URLs, real file sizes and the channel
+   metadata, so it is used to upgrade episodes that the page published first.
+
+Guarantees the merge is designed to keep
+----------------------------------------
+* An episode keeps the same ``<guid>`` for its whole life, even when its
+  enclosure is upgraded from HLS to MP3. Subscribers never see a duplicate.
+* A feed never loses episodes because a source was slow, partial or down.
+* Files are written atomically and only when their content really changed, so
+  a crash cannot truncate a feed and an unchanged run produces no commit.
+"""
+
+from __future__ import annotations
+
+import argparse
+import concurrent.futures
+import html
+import json
+import logging
+import os
+import re
+import sys
+import tempfile
+import threading
 import time
+import unicodedata
+import xml.etree.ElementTree as ET
+from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
+from email.utils import format_datetime, parsedate_to_datetime
+from typing import Iterable, Iterator, Sequence
+from zoneinfo import ZoneInfo
+
+import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# Create a session with retry for more robust requests
-session = requests.Session()
-retry = Retry(connect=3, backoff_factor=0.5)
-adapter = HTTPAdapter(max_retries=retry)
-session.mount('http://', adapter)
-session.mount('https://', adapter)
+LOG = logging.getLogger("mohlio")
 
-
-import time
-import re
-import xml.etree.ElementTree as ET
-from xml.dom import minidom
-from datetime import datetime
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Referer": "https://ici.radio-canada.ca/",
-    "Origin": "https://ici.radio-canada.ca/"
-}
+# ---------------------------------------------------------------------------
+# Configuration
+# ---------------------------------------------------------------------------
 
 GRAPHQL_URL = "https://services.radio-canada.ca/bff/audio/graphql"
+VALIDATION_URL = "https://services.radio-canada.ca/media/validation/v2/"
+OHDIO_ROOT = "https://ici.radio-canada.ca/ohdio"
+PUBLIC_BASE_URL = "https://ouellettejeanphilippe-source.github.io/mohlio"
 
-SHOW_IDS = [
-    6108,  # Ça s'explique
-    9887,  # La journée (est encore jeune)
-    11099, # Décrypteurs : le balado
-    6327,  # Le bêtisier
-    12095, # Olivier Niquet 24/7 (en jaquette)
-    302,   # À la une
-    6056,  # Moteur de recherche
-    7791,  # Pouvez-vous répéter la question?
-    6104,  # Tellement hockey
-    13061  # Changement de ligne
-]
-
-SHOW_TITLES = {
-    6108: "Ça s'explique",
-    9887: "La journée (est encore jeune)",
-    11099: "Décrypteurs : le balado",
-    6327: "Le bêtisier",
-    12095: "Olivier Niquet 24/7 (en jaquette)",
-    302: "À la une",
-    6056: "Moteur de recherche",
-    7791: "Pouvez-vous répéter la question?",
-    6104: "Tellement hockey",
-    13061: "Changement de ligne"
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Referer": "https://ici.radio-canada.ca/",
+    "Origin": "https://ici.radio-canada.ca",
+    "Accept-Language": "fr-CA,fr;q=0.9",
 }
 
-SHOW_SHORT_NAMES = {
-    6108: "explique",
-    9887: "journee",
-    11099: "decrypteurs",
-    6327: "betisier",
-    12095: "niquet",
-    302: "une",
-    6056: "recherche",
-    7791: "question",
-    6104: "hockey",
-    13061: "changement"
+# (connect, read) timeouts. Every request in this file uses them: a hung
+# socket must never be able to hold the whole run hostage.
+TIMEOUT = (10, 25)
+
+# Upper bound on the number of episodes kept per feed.
+MAX_ITEMS = 500
+
+# Hint for podcast clients, in minutes. The feeds are refreshed far more
+# often than that, so there is no point advertising a long TTL.
+FEED_TTL_MINUTES = 15
+
+# Used to estimate <enclosure length> when the real size is unknown
+# (~128 kbit/s). Better than advertising a constant fake size.
+ESTIMATED_BYTES_PER_SECOND = 16_000
+
+EASTERN = ZoneInfo("America/Toronto")
+
+FEED_LANGUAGE = "fr-ca"
+
+NS = {
+    "itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+    "content": "http://purl.org/rss/1.0/modules/content/",
+    "atom": "http://www.w3.org/2005/Atom",
 }
+for _prefix, _uri in NS.items():
+    ET.register_namespace(_prefix, _uri)
 
-def fetch_show_image(show_id):
-    """
-    Attempts to fetch the show image from the GraphQL metadata endpoint.
-    Falls back to scraping the og:image from the HTML page.
-    """
-    query = """
-    query GetShowImage($globalId: ID!) {
-      show(globalId: $globalId) {
-        image {
-          url
-        }
-      }
-    }
-    """
-    variables = {"globalId": str(show_id)}
 
+@dataclass(frozen=True)
+class Show:
+    """One OHdio show and the feed it is published as."""
+
+    id: int
+    slug: str
+    title: str
+
+    @property
+    def filename(self) -> str:
+        return f"feed_{self.id}.xml"
+
+    @property
+    def feed_url(self) -> str:
+        return f"{PUBLIC_BASE_URL}/{self.filename}"
+
+
+SHOWS: tuple[Show, ...] = (
+    Show(6108, "explique", "Ça s'explique"),
+    Show(9887, "journee", "La journée (est encore jeune)"),
+    Show(11099, "decrypteurs", "Décrypteurs : le balado"),
+    Show(6327, "betisier", "Le bêtisier"),
+    Show(12095, "niquet", "Olivier Niquet 24/7 (en jaquette)"),
+    Show(302, "une", "À la une"),
+    Show(6056, "recherche", "Moteur de recherche"),
+    Show(7791, "question", "Pouvez-vous répéter la question?"),
+    Show(6104, "hockey", "Tellement hockey"),
+    Show(13061, "changement", "Changement de ligne"),
+)
+
+SHOWS_BY_ID = {show.id: show for show in SHOWS}
+
+# ---------------------------------------------------------------------------
+# HTTP plumbing
+# ---------------------------------------------------------------------------
+
+_thread_local = threading.local()
+
+
+def _build_session() -> requests.Session:
+    """A session that retries the failures that are worth retrying.
+
+    The previous version only retried connection errors, which let a single
+    HTTP 502 or a read timeout drop a whole show from the feeds.
+    """
+    retry_kwargs = dict(
+        total=4,
+        connect=3,
+        read=3,
+        status=3,
+        backoff_factor=0.8,
+        status_forcelist=(408, 425, 429, 500, 502, 503, 504),
+        respect_retry_after_header=True,
+        raise_on_status=False,
+    )
     try:
-        response = session.post(GRAPHQL_URL, json={"query": query, "variables": variables}, headers=HEADERS, timeout=10)
-        if response.status_code == 200:
-            data = response.json()
-            if "data" in data and "show" in data["data"] and data["data"]["show"]:
-                image_url = data["data"]["show"].get("image", {}).get("url")
-                if image_url:
-                    return image_url
-    except Exception:
+        retry = Retry(allowed_methods=frozenset({"GET", "POST"}), **retry_kwargs)
+    except TypeError:  # urllib3 < 1.26
+        retry = Retry(method_whitelist=frozenset({"GET", "POST"}), **retry_kwargs)
+
+    session = requests.Session()
+    session.headers.update(HEADERS)
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=8, pool_maxsize=8)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
+
+
+def session() -> requests.Session:
+    """One session per thread: requests' sessions are not thread safe."""
+    existing = getattr(_thread_local, "session", None)
+    if existing is None:
+        existing = _build_session()
+        _thread_local.session = existing
+    return existing
+
+
+class RateLimiter:
+    """Keeps a minimum delay between calls, shared across worker threads."""
+
+    def __init__(self, min_interval: float) -> None:
+        self._min_interval = min_interval
+        self._lock = threading.Lock()
+        self._next_allowed = 0.0
+
+    def wait(self) -> None:
+        with self._lock:
+            now = time.monotonic()
+            delay = self._next_allowed - now
+            if delay > 0:
+                time.sleep(delay)
+                now = time.monotonic()
+            self._next_allowed = now + self._min_interval
+
+
+# The media validation endpoint is the one that answers 429 under load, and
+# it is only called for episodes that are not in the feed yet.
+MEDIA_LIMITER = RateLimiter(0.35)
+
+
+def graphql(query: str, variables: dict) -> dict:
+    """Run a GraphQL query and return ``data``; raise on transport errors."""
+    response = session().post(
+        GRAPHQL_URL,
+        json={"query": query, "variables": variables},
+        timeout=TIMEOUT,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    for error in payload.get("errors") or ():
+        LOG.debug("GraphQL error: %s", error.get("message"))
+    return payload.get("data") or {}
+
+
+# ---------------------------------------------------------------------------
+# Text helpers
+# ---------------------------------------------------------------------------
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+_WEEKDAY = "lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche"
+_MONTH = (
+    "janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|"
+    "novembre|décembre"
+)
+# "Vendredi 11 septembre 2026 - ", "Jeudi 10 septembre 2026 : ", ...
+_DATE_PREFIX_RE = re.compile(
+    rf"^(?:(?:{_WEEKDAY})\s+)?\d{{1,2}}(?:er)?\s+(?:{_MONTH})\s+\d{{4}}\s*[-–—:]\s*"
+)
+_EPISODE_PREFIX_RE = re.compile(
+    rf"^(?:épisode|émission)\s+du\s+\d{{1,2}}(?:er)?\s+(?:{_MONTH})\s+\d{{4}}\s*[-–—:]?\s*"
+)
+# "2026-09-11_05_06_00" as embedded in every media file name. The MP3 and the
+# HLS rendition of one broadcast share it, which makes it the strongest key
+# available for matching an episode across sources.
+_BROADCAST_STAMP_RE = re.compile(r"\d{4}-\d{2}-\d{2}_\d{2}_\d{2}_\d{2}")
+
+
+def clean_text(value: str | None) -> str:
+    """Normalise a text field coming from any of the sources.
+
+    The podcast RSS gateway returns descriptions that are already HTML
+    escaped (``&lt;p&gt;``) while the page returns raw HTML. Without this,
+    RSS-sourced descriptions were escaped a second time on the way out and
+    podcast apps displayed the literal markup.
+    """
+    if not value:
+        return ""
+    text = value.strip()
+    if "&lt;" in text or "&amp;" in text or "&#" in text or "&nbsp;" in text:
+        unescaped = html.unescape(text)
+        # Only trust the unescaping when it actually yields markup or text,
+        # never when it would corrupt a literal ampersand-only string.
+        if unescaped:
+            text = unescaped
+    return text.replace(" ", " ").strip()
+
+
+def normalize_title(value: str | None) -> str:
+    """Key used to recognise the same episode across sources.
+
+    The page prefixes titles with the broadcast date ("Jeudi 10 septembre
+    2026 : L'entrevue des cinq chefs") while the podcast RSS does not. Not
+    stripping that prefix is what filled the feeds with duplicates.
+    """
+    if not value:
+        return ""
+    text = clean_text(value)
+    text = _TAG_RE.sub(" ", text)
+    text = unicodedata.normalize("NFKC", text)
+    text = text.replace("’", "'").replace("ʼ", "'")
+    text = text.replace("–", "-").replace("—", "-")
+    text = _WS_RE.sub(" ", text).strip().casefold()
+    text = _DATE_PREFIX_RE.sub("", text)
+    text = _EPISODE_PREFIX_RE.sub("", text)
+    return text.strip(" -:–—").strip()
+
+
+def broadcast_stamp(url: str | None) -> str:
+    match = _BROADCAST_STAMP_RE.search(url or "")
+    return match.group(0) if match else ""
+
+
+def is_progressive(url: str, mime: str = "") -> bool:
+    """True for a plain downloadable file, False for an HLS playlist.
+
+    Plenty of podcast apps cannot play ``.m3u8``, so a progressive MP3 always
+    wins over the HLS rendition of the same episode.
+    """
+    if url.lower().split("?")[0].endswith(".m3u8"):
+        return False
+    if "mpegurl" in (mime or "").lower():
+        return False
+    return bool(url)
+
+
+def parse_datetime(value: str | None) -> datetime | None:
+    """Parse both RFC 2822 (podcast RSS) and ISO 8601 (page) timestamps."""
+    if not value:
+        return None
+    text = value.strip()
+    try:
+        parsed = parsedate_to_datetime(text)
+        if parsed is not None:
+            return parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
+    except (TypeError, ValueError, IndexError):
         pass
-
-    time.sleep(0.3)
-
-    # Try getting the canonical URL first, which is needed to load the correct HTML on Ohdio
-    canonical_url = None
-    query_prog = """
-    query GetProgramme($params: ProgrammeByIdInput!) {
-      programmeById(params: $params) {
-        ... on EmissionBalado {
-          canonicalUrl
-        }
-        ... on EmissionPremiere {
-          canonicalUrl
-        }
-        ... on EmissionMusique {
-          canonicalUrl
-        }
-        ... on EmissionGrandesSeries {
-          canonicalUrl
-        }
-      }
-    }
-    """
-    variables_prog = {"params": {"id": show_id, "forceWithoutCueSheet": False}}
     try:
-        resp_prog = session.post(GRAPHQL_URL, json={"query": query_prog, "variables": variables_prog}, headers=HEADERS, timeout=10)
-        if resp_prog.status_code == 200:
-            data_prog = resp_prog.json()
-            canonical_url = data_prog.get('data', {}).get('programmeById', {}).get('canonicalUrl')
-    except Exception:
-        pass
-
-    # Fallback to base url if canonicalUrl not found
-    url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
-    if canonical_url:
-        url = f"https://ici.radio-canada.ca/ohdio{canonical_url}"
-
-    try:
-        response = session.get(url, headers=HEADERS, timeout=10)
-        if response.status_code == 200:
-            # 1. Try og:image first
-            match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', response.text)
-            if not match:
-                match = re.search(r'content="([^"]+)"\s+property="og:image"', response.text)
-            og_image = match.group(1) if match else None
-
-            # 2. Extract from page HTML (excluding fallbacks)
-            imgs = re.findall(r'https://images\.radio-canada\.ca[^"\']+', response.text)
-            clean_imgs = []
-            for img in imgs:
-                # filter out curly brackets (from templates like {ratio}) and generic fallbacks
-                if '{' not in img and '\\' not in img and 'fallback' not in img and 'erreur' not in img and 'molecule' not in img and 'tuile-rechercher' not in img and 'balado' in img:
-                    # Clean up any trailing HTML parts if regex captured too much
-                    img_clean = img.split('>')[0].split('<')[0]
-                    clean_imgs.append(img_clean)
-
-            # Prefer 1x1 image, ideally 600w or 300w
-            for img in clean_imgs:
-                if '1x1' in img:
-                    return img
-
-            # If no 1x1 image is found, but we have an og_image, use that
-            if og_image:
-                return og_image
-
-            # Fallback to first available clean image if 1x1 and og_image not found
-            if clean_imgs:
-                return clean_imgs[0]
-    except Exception:
-        pass
-
-    return ""
+        parsed = datetime.fromisoformat(text.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return parsed if parsed.tzinfo else parsed.replace(tzinfo=timezone.utc)
 
 
-import json
-from email.utils import format_datetime
-from datetime import datetime
-
-def fetch_aac_url_from_media_id(media_id):
-    validation_url = f"https://services.radio-canada.ca/media/validation/v2/?appCode=medianet&deviceType=ipad&connectionType=wifi&idMedia={media_id}&output=json"
-    try:
-        resp = session.get(validation_url, headers=HEADERS, timeout=10)
-        if resp.status_code == 429:
-            print(f"429 Too Many Requests for media {media_id}. Sleeping 2 seconds.")
-            time.sleep(5)
-            resp = session.get(validation_url, headers=HEADERS, timeout=10)
-
-        try:
-            data = resp.json()
-        except ValueError:
-            print(f"Invalid JSON for media {media_id}. Status: {resp.status_code}")
-            return None, 0
-        m3u8_url = data.get("url")
-        if not m3u8_url:
-            return None, 0
-
-        return m3u8_url, 0
-    except Exception as e:
-        print(f"Error fetching media {media_id}: {e}")
-    return None, 0
-
-def fetch_all_media_from_page(show_id):
-    """
-    Finds all media ids on the page by recursively searching window._rcState_
-    """
-    items = []
-
-    # First find canonical URL
-    query = """
-    query GetProgramme($params: ProgrammeByIdInput!) {
-      programmeById(params: $params) {
-        ... on EmissionBalado {
-          id
-          canonicalUrl
-        }
-        ... on EmissionPremiere {
-          id
-          canonicalUrl
-        }
-        ... on EmissionMusique {
-          id
-          canonicalUrl
-        }
-        ... on EmissionGrandesSeries {
-          id
-          canonicalUrl
-        }
-      }
-    }
-    """
-    variables = {"params": {"id": show_id, "forceWithoutCueSheet": False}}
-    try:
-        resp = session.post(GRAPHQL_URL, json={"query": query, "variables": variables}, headers=HEADERS, timeout=10)
-        data = resp.json()
-        canonical_url = data.get('data', {}).get('programmeById', {}).get('canonicalUrl')
-
-        if canonical_url:
-            page_url = f"https://ici.radio-canada.ca/ohdio{canonical_url}"
-        else:
-            # Fallback to generic URL if canonicalUrl is not available
-            page_url = f"https://ici.radio-canada.ca/ohdio/balados/{show_id}"
-
-        page_resp = session.get(page_url, headers=HEADERS, timeout=15)
-        m = re.search(r'window\._rcState_\s*=\s*(.*?);</script>', page_resp.text)
-        if not m:
-            return items, f"[{show_id}] Could not find state data in page HTML."
-
-        import json
-        state = json.loads(m.group(1))
-
-        # recursive search for objects with mediaIds
-        media_objs = []
-        def find_media_ids(obj):
-            if isinstance(obj, dict):
-                if 'mediaIds' in obj and obj['mediaIds']:
-                    media_objs.append(obj)
-                for k, v in obj.items():
-                    find_media_ids(v)
-            elif isinstance(obj, list):
-                for v in obj:
-                    find_media_ids(v)
-
-        find_media_ids(state)
-
-        for obj in media_objs:
-            media_ids = obj.get('mediaIds', [])
-            if not media_ids:
-                continue
-
-            media_id = media_ids[0]
-            time.sleep(1.0)
-            aac_url, size = fetch_aac_url_from_media_id(media_id)
-            if not aac_url:
-                continue
-
-            # Find date
-            pub_date_str = obj.get('broadcastedFirstTimeAt') or obj.get('publishedAt') or obj.get('updatedAt')
-            rfc2822_date = pub_date_str
-            if pub_date_str:
-                try:
-                    from datetime import datetime
-                    from email.utils import format_datetime
-                    d = datetime.fromisoformat(pub_date_str.replace("Z", "+00:00"))
-                    rfc2822_date = format_datetime(d)
-                except:
-                    pass
-
-            # Find duration
-            duration = 0
-            if 'duration' in obj:
-                d = obj['duration']
-                if isinstance(d, dict):
-                    duration = d.get('durationInSeconds', 0)
-                elif isinstance(d, (int, float)):
-                    duration = int(d)
-
-            item = {
-                "title": obj.get('title', ''),
-                "description": obj.get('summary') or obj.get('description') or '',
-                "pubDate": rfc2822_date,
-                "itunesDuration": duration,
-                "enclosure": {
-                    "url": aac_url,
-                    "length": size,
-                    "type": "audio/mpeg"
-                },
-                "_media_id": media_id
-            }
-            items.append(item)
-
-        return items, None
-    except Exception as e:
-        return items, f"[{show_id}] Fallback error: {e}"
-
-def fetch_show_rss_data(show_id):
-    query = """
-    query GetShowEpisodes($params: PodcastByProgrammeIdInput!) {
-      podcastByProgrammeId(params: $params) {
-        ... on PodcastRss {
-           channel {
-             title
-             description
-             image {
-               url
-             }
-             items {
-               title
-               description
-               pubDate
-               enclosure {
-                 url
-                 length
-                 type
-               }
-               itunesDuration
-             }
-           }
-        }
-      }
-    }
-    """
-    variables = {
-        "params": {
-            "programmeId": show_id,
-            "withAds": False
-        }
-    }
-
-    graphql_items = []
-    channel_info = {
-        "title": SHOW_TITLES.get(show_id, f"Show {show_id}"),
-        "description": SHOW_TITLES.get(show_id, ""),
-        "image": {"url": ""}
-    }
-
-    try:
-        response = session.post(
-            GRAPHQL_URL,
-            json={"query": query, "variables": variables},
-            headers=HEADERS,
-            timeout=15
-        )
-
-        if response.status_code == 200:
-            data = response.json()
-            channel = data.get("data", {}).get("podcastByProgrammeId", {}).get("channel")
-            if channel:
-                channel_info["title"] = channel.get("title") or channel_info["title"]
-                channel_info["description"] = channel.get("description") or channel_info["description"]
-                if channel.get("image"):
-                    channel_info["image"] = channel.get("image")
-                if channel.get("items"):
-                    graphql_items = channel.get("items")
-    except Exception as e:
-        print(f"[{show_id}] GraphQL request failed: {e}")
-        pass
-
-    # Fetch from page
-    page_items, page_err = fetch_all_media_from_page(show_id)
-    if page_err:
-        print(page_err)
-
-    # Combine items uniquely
-    all_items = []
-    seen_titles = set()
-
-    def normalize_title(t):
-        if not t:
-            return ""
-        # Remove HTML tags, convert to lowercase, strip whitespace
-        t = re.sub(r'<[^>]+>', '', t)
-        return t.lower().strip()
-
-    # Process page items first as they are more up to date and might have extra clips
-    for item in page_items:
-        title = item.get("title", "")
-        norm_title = normalize_title(title)
-
-        # Still make sure we have a valid URL
-        url = item.get("enclosure", {}).get("url")
-        if url and norm_title not in seen_titles:
-            seen_titles.add(norm_title)
-            all_items.append(item)
-
-    for item in graphql_items:
-        title = item.get("title", "")
-        norm_title = normalize_title(title)
-
-        url = item.get("enclosure", {}).get("url")
-        if url and norm_title not in seen_titles:
-            seen_titles.add(norm_title)
-            all_items.append(item)
-
-    if not all_items:
-        return None, f"[{show_id}] No items found from GraphQL or page."
-
-    channel_info["items"] = all_items
-    return channel_info, None
-
-def create_rss_xml(show_id, channel_data, fallback_image_url):
-    if not channel_data:
-        return
-
-    rss = ET.Element("rss", version="2.0")
-    rss.set("xmlns:itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd")
-    rss.set("xmlns:content", "http://purl.org/rss/1.0/modules/content/")
-
-    channel = ET.SubElement(rss, "channel")
-
-    title = ET.SubElement(channel, "title")
-    title_text = channel_data.get("title") or SHOW_TITLES.get(show_id, f"Show {show_id}")
-    title.text = title_text
-
-    description = ET.SubElement(channel, "description")
-    description.text = channel_data.get("description", title_text)
-
-    feed_url = f"https://ouellettejeanphilippe-source.github.io/mohlio/feed_{show_id}.xml"
-
-    link = ET.SubElement(channel, "link")
-    link.text = feed_url
-
-    # Try channel image, then fallback image
-    img_data = channel_data.get("image")
-    img_url = ""
-    if img_data and img_data.get("url"):
-        img_url = img_data["url"]
-    elif fallback_image_url:
-        img_url = fallback_image_url
-    else:
-        img_url = "https://example.com/image.jpg"
-
-    if img_url:
-        image = ET.SubElement(channel, "image")
-        ET.SubElement(image, "url").text = img_url
-        ET.SubElement(image, "title").text = title_text
-        ET.SubElement(image, "link").text = feed_url
-
-        itunes_image = ET.SubElement(channel, "itunes:image")
-        itunes_image.set("href", img_url)
+def parse_duration(value) -> int | None:
+    """Accept seconds, "MM:SS" and "HH:MM:SS"."""
+    if value is None or value == "":
+        return None
+    if isinstance(value, (int, float)):
+        return int(value) or None
+    text = str(value).strip()
+    if text.isdigit():
+        return int(text) or None
+    parts = text.split(":")
+    if not all(part.strip().isdigit() for part in parts if part != ""):
+        return None
+    seconds = 0
+    for part in parts:
+        seconds = seconds * 60 + int(part or 0)
+    return seconds or None
 
 
-    items = channel_data.get("items", [])
+def format_duration(seconds: int | None) -> str:
+    if not seconds or seconds < 0:
+        return ""
+    hours, rest = divmod(int(seconds), 3600)
+    minutes, secs = divmod(rest, 60)
+    return f"{hours:02d}:{minutes:02d}:{secs:02d}"
 
-    # Sort items chronologically by pubDate if possible (newest first)
-    def get_date(item):
-        d_str = item.get("pubDate", "")
-        if d_str:
-            try:
-                # e.g., "Wed, 01 Jan 2025 12:00:00 -0000"
-                from email.utils import parsedate_to_datetime
-                dt = parsedate_to_datetime(d_str)
-                return dt.timestamp()
-            except:
-                pass
+
+# ---------------------------------------------------------------------------
+# Episode model and merging
+# ---------------------------------------------------------------------------
+
+# Increasing order of authority. The page publishes first, the podcast RSS
+# publishes better (real MP3, real byte size, clean metadata).
+ORIGIN_RANK = {"existing": 0, "page": 1, "rss": 2}
+
+
+@dataclass
+class Episode:
+    guid: str = ""
+    title: str = ""
+    description: str = ""
+    published: datetime | None = None
+    duration: int | None = None
+    url: str = ""
+    length: int = 0
+    mime: str = "audio/mpeg"
+    link: str = ""
+    media_id: str = ""
+    origin: str = "existing"
+
+    def aliases(self) -> Iterator[str]:
+        """Keys under which this episode can be recognised again."""
+        if self.media_id:
+            yield f"media:{self.media_id}"
+        stamp = broadcast_stamp(self.url)
+        if stamp:
+            yield f"stamp:{stamp}"
+        if self.url:
+            yield f"url:{self.url.split('?')[0]}"
+        if self.published:
+            # Two episodes of one show never share a broadcast instant, and
+            # the page exposes it before the media id has been resolved.
+            # This is what lets a steady-state run recognise every episode
+            # without spending a single media-validation call.
+            yield f"time:{int(self.published.timestamp())}"
+        title = normalize_title(self.title)
+        if title:
+            yield f"title:{title}"
+
+    @property
+    def enclosure_length(self) -> int:
+        if self.length > 0:
+            return self.length
+        if self.duration:
+            return self.duration * ESTIMATED_BYTES_PER_SECOND
         return 0
 
-    items.sort(key=get_date, reverse=True)
 
-    for item_data in items:
-        item = ET.SubElement(channel, "item")
+def _dates_are_close(left: Episode, right: Episode, days: int = 2) -> bool:
+    """Guard against merging two same-titled episodes years apart."""
+    if left.published is None or right.published is None:
+        return True
+    return abs(left.published - right.published) <= timedelta(days=days)
 
-        ET.SubElement(item, "title").text = item_data.get("title", "")
-        ET.SubElement(item, "description").text = item_data.get("description", "")
-        ET.SubElement(item, "pubDate").text = str(item_data.get("pubDate", ""))
 
-        enclosure_data = item_data.get("enclosure")
-        if enclosure_data and enclosure_data.get("url"):
-            enclosure = ET.SubElement(item, "enclosure")
-            enclosure.set("url", enclosure_data["url"])
-            enclosure.set("length", "100000000")
-            enclosure.set("type", "audio/mpeg")
+def _merge_into(target: Episode, incoming: Episode) -> None:
+    """Fold ``incoming`` into ``target``, keeping the identity of ``target``."""
+    at_least_as_authoritative = (
+        ORIGIN_RANK.get(incoming.origin, 0) >= ORIGIN_RANK.get(target.origin, 0)
+    )
 
-            guid = ET.SubElement(item, "guid")
-            guid.set("isPermaLink", "false")
-            guid.text = enclosure_data["url"] + "?v=2"
+    if incoming.title and (at_least_as_authoritative or not target.title):
+        target.title = incoming.title
+    if incoming.description and (at_least_as_authoritative or not target.description):
+        target.description = incoming.description
+    if incoming.published and (at_least_as_authoritative or target.published is None):
+        target.published = incoming.published
+    if incoming.duration and (at_least_as_authoritative or not target.duration):
+        target.duration = incoming.duration
+    if incoming.link and (at_least_as_authoritative or not target.link):
+        target.link = incoming.link
+    if incoming.media_id and not target.media_id:
+        target.media_id = incoming.media_id
 
-        itunes_duration = item_data.get("itunesDuration")
-        if itunes_duration:
-            try:
-                seconds = int(itunes_duration)
-                h = seconds // 3600
-                m = (seconds % 3600) // 60
-                s = seconds % 60
-                if h > 0:
-                    formatted_duration = f"{h:02d}:{m:02d}:{s:02d}"
-                else:
-                    formatted_duration = f"{m:02d}:{s:02d}"
-                ET.SubElement(item, "itunes:duration").text = formatted_duration
-            except ValueError:
-                ET.SubElement(item, "itunes:duration").text = str(itunes_duration)
+    if incoming.url and _prefer_enclosure(incoming, target):
+        target.url = incoming.url
+        target.mime = incoming.mime or target.mime
+        target.length = incoming.length or 0
+    elif incoming.url == target.url and incoming.length > 0:
+        target.length = incoming.length
 
-    rough_string = ET.tostring(rss, "utf-8")
-    reparsed = minidom.parseString(rough_string)
+    # The GUID is what subscribers' apps key on: it is set once and kept.
+    if not target.guid and incoming.guid:
+        target.guid = incoming.guid
 
-    for node in reparsed.getElementsByTagName('*'):
-        if node.childNodes and all(c.nodeType == minidom.Node.TEXT_NODE and not c.data.strip() for c in node.childNodes):
-            node.childNodes = []
+    if ORIGIN_RANK.get(incoming.origin, 0) > ORIGIN_RANK.get(target.origin, 0):
+        target.origin = incoming.origin
 
-    pretty_xml_as_string = reparsed.toprettyxml(indent="  ")
 
-    filename = f"feed_{show_id}.xml"
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(pretty_xml_as_string)
+def _prefer_enclosure(incoming: Episode, target: Episode) -> bool:
+    if not target.url:
+        return True
+    if incoming.url == target.url:
+        return False
+    incoming_progressive = is_progressive(incoming.url, incoming.mime)
+    target_progressive = is_progressive(target.url, target.mime)
+    if incoming_progressive != target_progressive:
+        return incoming_progressive
+    return ORIGIN_RANK.get(incoming.origin, 0) > ORIGIN_RANK.get(target.origin, 0)
 
-    print(f"[{show_id}] Generated {filename} with {len(items)} episodes.")
-    return filename
 
-def update_readme_log(logs):
-    readme_path = "README.md"
+class EpisodeIndex:
+    """Collects episodes coming from several sources, without duplicates."""
+
+    def __init__(self) -> None:
+        self._episodes: list[Episode] = []
+        self._by_alias: dict[str, Episode] = {}
+
+    def __len__(self) -> int:
+        return len(self._episodes)
+
+    def find(self, candidate: Episode) -> Episode | None:
+        weak: Episode | None = None
+        for alias in candidate.aliases():
+            known = self._by_alias.get(alias)
+            if known is None or known is candidate:
+                continue
+            if alias.startswith("title:"):
+                if weak is None and _dates_are_close(candidate, known):
+                    weak = known
+                continue
+            return known
+        return weak
+
+    def add(self, candidate: Episode) -> Episode:
+        known = self.find(candidate)
+        if known is None:
+            self._episodes.append(candidate)
+            self._register(candidate)
+            return candidate
+        _merge_into(known, candidate)
+        self._register(known)
+        return known
+
+    def _register(self, episode: Episode) -> None:
+        for alias in episode.aliases():
+            self._by_alias.setdefault(alias, episode)
+
+    def sorted_episodes(self) -> list[Episode]:
+        """Newest first; episodes without a date keep a stable position."""
+        oldest = datetime(1970, 1, 1, tzinfo=timezone.utc)
+        return sorted(
+            self._episodes,
+            key=lambda ep: (ep.published or oldest),
+            reverse=True,
+        )
+
+
+# ---------------------------------------------------------------------------
+# Source 1 - the feed already on disk
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class ChannelMeta:
+    title: str = ""
+    description: str = ""
+    link: str = ""
+    image: str = ""
+    language: str = FEED_LANGUAGE
+    author: str = ""
+    copyright: str = ""
+    explicit: str = "no"
+
+    def merge(self, other: "ChannelMeta") -> None:
+        for field_name in (
+            "title",
+            "description",
+            "link",
+            "image",
+            "language",
+            "author",
+            "copyright",
+            "explicit",
+        ):
+            value = getattr(other, field_name)
+            if value:
+                setattr(self, field_name, value)
+
+
+def _text(element: ET.Element | None) -> str:
+    return (element.text or "").strip() if element is not None else ""
+
+
+def read_existing_feed(path: str) -> tuple[ChannelMeta, list[Episode]]:
+    """Read a previously generated feed. Never raises: a damaged file simply
+    means we rebuild from the live sources."""
+    meta = ChannelMeta()
+    episodes: list[Episode] = []
+    if not os.path.exists(path):
+        return meta, episodes
     try:
-        with open(readme_path, "r", encoding="utf-8") as f:
-            content = f.read()
+        root = ET.parse(path).getroot()
+    except (ET.ParseError, OSError) as exc:
+        LOG.warning("%s is unreadable (%s); rebuilding it from scratch", path, exc)
+        return meta, episodes
 
-        start_marker = "<!-- RUN_LOG_START -->"
-        end_marker = "<!-- RUN_LOG_END -->"
+    channel = root.find("channel")
+    if channel is None:
+        return meta, episodes
 
-        if start_marker in content and end_marker in content:
-            before = content.split(start_marker)[0]
-            after = content.split(end_marker)[1]
+    meta.title = _text(channel.find("title"))
+    meta.description = _text(channel.find("description"))
+    meta.language = _text(channel.find("language")) or FEED_LANGUAGE
+    meta.author = _text(channel.find(f"{{{NS['itunes']}}}author"))
+    meta.copyright = _text(channel.find("copyright"))
+    explicit = _text(channel.find(f"{{{NS['itunes']}}}explicit"))
+    if explicit:
+        meta.explicit = explicit
+    image = channel.find("image")
+    if image is not None:
+        meta.image = _text(image.find("url"))
+    if not meta.image:
+        itunes_image = channel.find(f"{{{NS['itunes']}}}image")
+        if itunes_image is not None:
+            meta.image = (itunes_image.get("href") or "").strip()
 
-            # Using timezone-aware datetime per deprecation warning
-            try:
-                from datetime import timezone
-                timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-            except ImportError:
-                timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    for item in channel.findall("item"):
+        enclosure = item.find("enclosure")
+        url = (enclosure.get("url") or "").strip() if enclosure is not None else ""
+        if not url:
+            continue
+        try:
+            length = int((enclosure.get("length") or "0").strip())
+        except ValueError:
+            length = 0
+        # The old generator wrote a constant placeholder size for every
+        # episode; do not carry that lie forward.
+        if length in (0, 100_000_000):
+            length = 0
+        guid_element = item.find("guid")
+        episodes.append(
+            Episode(
+                guid=_text(guid_element) or url,
+                title=_text(item.find("title")),
+                description=_text(item.find("description")),
+                published=parse_datetime(_text(item.find("pubDate"))),
+                duration=parse_duration(
+                    _text(item.find(f"{{{NS['itunes']}}}duration"))
+                ),
+                url=url,
+                length=length,
+                mime=(enclosure.get("type") or "audio/mpeg").strip(),
+                link=_text(item.find("link")),
+                origin="existing",
+            )
+        )
 
-            log_content = f"\nLast Run: {timestamp}\n\n"
+    # Feed order is rebuilt from dates later on, so we are free to insert the
+    # progressive copies first: when an old duplicate pair collapses, the
+    # surviving GUID is then the one that matches the URL we keep publishing.
+    episodes.sort(key=lambda ep: 0 if is_progressive(ep.url, ep.mime) else 1)
+    return meta, episodes
 
-            if logs["success"]:
-                log_content += "### Successfully Generated\n"
-                for success in logs["success"]:
-                    # Try to parse the show_id out of the filename (e.g. feed_6104.xml)
-                    short_name = success
-                    try:
-                        m = re.search(r'feed_(\d+)\.xml', success)
-                        if m:
-                            show_id = int(m.group(1))
-                            short_name = SHOW_SHORT_NAMES.get(show_id, success)
-                    except Exception:
-                        pass
 
-                    full_url = f"https://ouellettejeanphilippe-source.github.io/mohlio/{success}"
-                    log_content += f"- [{short_name}]({full_url})\n"
-                log_content += "\n"
+# ---------------------------------------------------------------------------
+# Source 2 - the OHdio show page
+# ---------------------------------------------------------------------------
 
-            if logs["errors"]:
-                log_content += "### Errors\n```\n"
-                for err in logs["errors"]:
-                    log_content += f"{err}\n"
-                log_content += "```\n"
+_STATE_RE = re.compile(r"window\._rcState_\s*=\s*(.*?);\s*</script>", re.DOTALL)
 
-            new_content = f"{before}{start_marker}{log_content}{end_marker}{after}"
+PROGRAMME_QUERY = """
+query GetProgramme($params: ProgrammeByIdInput!) {
+  programmeById(params: $params) {
+    ... on EmissionBalado { canonicalUrl }
+    ... on EmissionPremiere { canonicalUrl }
+    ... on EmissionMusique { canonicalUrl }
+    ... on EmissionGrandesSeries { canonicalUrl }
+  }
+}
+"""
 
-            with open(readme_path, "w", encoding="utf-8") as f:
-                f.write(new_content)
-            print("README.md updated with run log.")
-    except Exception as e:
-        print(f"Failed to update README.md: {e}")
 
-def main():
-    print(f"Starting feed generation for {len(SHOW_IDS)} shows...")
+def fetch_canonical_url(show: Show) -> str:
+    try:
+        data = graphql(PROGRAMME_QUERY, {"params": {"id": show.id, "forceWithoutCueSheet": False}})
+        canonical = ((data.get("programmeById") or {}).get("canonicalUrl") or "").strip()
+    except (requests.RequestException, ValueError) as exc:
+        LOG.debug("[%s] canonical URL lookup failed: %s", show.id, exc)
+        canonical = ""
+    if canonical:
+        return f"{OHDIO_ROOT}{canonical}"
+    return f"{OHDIO_ROOT}/balados/{show.id}"
 
-    logs = {"success": [], "errors": []}
 
-    for show_id in SHOW_IDS:
-        print(f"[{show_id}] Processing {SHOW_TITLES.get(show_id, show_id)}...")
+def _iter_media_objects(node, depth: int = 0) -> Iterator[dict]:
+    """Walk the page state looking for episode entries."""
+    if depth > 40:
+        return
+    if isinstance(node, dict):
+        if node.get("mediaIds"):
+            yield node
+        for value in node.values():
+            yield from _iter_media_objects(value, depth + 1)
+    elif isinstance(node, list):
+        for value in node:
+            yield from _iter_media_objects(value, depth + 1)
 
-        fallback_image_url = fetch_show_image(show_id)
 
-        # 0.3s delay per constraints
-        time.sleep(0.3)
+def resolve_media_url(media_id: str) -> tuple[str, str]:
+    """Resolve a media id to a playable URL. Returns ("", "") on failure."""
+    MEDIA_LIMITER.wait()
+    params = {
+        "appCode": "medianet",
+        "deviceType": "ipad",
+        "connectionType": "wifi",
+        "idMedia": media_id,
+        "output": "json",
+    }
+    try:
+        response = session().get(VALIDATION_URL, params=params, timeout=TIMEOUT)
+    except requests.RequestException as exc:
+        LOG.debug("media %s: %s", media_id, exc)
+        return "", ""
+    if response.status_code != 200:
+        LOG.debug("media %s: HTTP %s", media_id, response.status_code)
+        return "", ""
+    try:
+        payload = response.json()
+    except ValueError:
+        LOG.debug("media %s: invalid JSON", media_id)
+        return "", ""
+    url = (payload.get("url") or "").strip()
+    if not url:
+        LOG.debug("media %s: %s", media_id, payload.get("message") or "no url")
+        return "", ""
+    mime = "application/x-mpegURL" if not is_progressive(url) else "audio/mpeg"
+    for param in payload.get("params") or ():
+        if param.get("name") == "contentType" and param.get("value"):
+            value = str(param["value"])
+            mime = "application/x-mpegURL" if "mpegURL" in value else "audio/mpeg"
+    return url, mime
 
-        channel_data, error_msg = fetch_show_rss_data(show_id)
 
-        if channel_data:
-            filename = create_rss_xml(show_id, channel_data, fallback_image_url)
-            if filename:
-                logs["success"].append(filename)
+def fetch_page_episodes(show: Show, page_url: str) -> tuple[list[Episode], str]:
+    """Episodes advertised on the show page, plus the page artwork.
+
+    Media ids are *not* resolved here: that is done by the caller, and only
+    for the episodes that are not in the feed yet. A steady-state run
+    therefore performs no call at all to the media validation endpoint.
+    """
+    response = session().get(page_url, timeout=TIMEOUT)
+    response.raise_for_status()
+    body = response.text
+
+    image = ""
+    match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', body)
+    if not match:
+        match = re.search(r'content="([^"]+)"\s+property="og:image"', body)
+    if match:
+        image = match.group(1)
+
+    state_match = _STATE_RE.search(body)
+    if not state_match:
+        raise ValueError("episode data not found in page HTML")
+    state = json.loads(state_match.group(1))
+
+    episodes: list[Episode] = []
+    seen_media: set[str] = set()
+    for node in _iter_media_objects(state):
+        media_ids = node.get("mediaIds") or []
+        if not media_ids:
+            continue
+        media_id = str(media_ids[0])
+        if media_id in seen_media:
+            continue
+        seen_media.add(media_id)
+
+        duration = node.get("duration")
+        if isinstance(duration, dict):
+            duration = duration.get("durationInSeconds")
+        link = (node.get("url") or "").strip()
+        episodes.append(
+            Episode(
+                title=clean_text(node.get("title")),
+                description=clean_text(node.get("summary") or node.get("description")),
+                published=parse_datetime(
+                    node.get("broadcastedFirstTimeAt")
+                    or node.get("publishedAt")
+                    or node.get("updatedAt")
+                ),
+                duration=parse_duration(duration),
+                link=f"{OHDIO_ROOT}{link}" if link.startswith("/") else link,
+                media_id=media_id,
+                origin="page",
+            )
+        )
+    return episodes, image
+
+
+# ---------------------------------------------------------------------------
+# Source 3 - the podcast RSS document
+# ---------------------------------------------------------------------------
+
+PODCAST_QUERY = """
+query GetShowEpisodes($params: PodcastByProgrammeIdInput!) {
+  podcastByProgrammeId(params: $params) {
+    ... on PodcastRss {
+      channel {
+        title
+        description
+        link
+        language
+        copyright
+        itunesAuthor
+        itunesExplicit
+        image { url }
+        items {
+          title
+          description
+          pubDate
+          enclosure { url length type }
+          itunesDuration
+        }
+      }
+    }
+  }
+}
+"""
+
+
+def fetch_podcast_rss(show: Show) -> tuple[ChannelMeta, list[Episode]]:
+    data = graphql(PODCAST_QUERY, {"params": {"programmeId": show.id, "withAds": False}})
+    channel = (data.get("podcastByProgrammeId") or {}).get("channel")
+    if not channel:
+        raise ValueError("podcast RSS returned no channel")
+
+    meta = ChannelMeta(
+        title=clean_text(channel.get("title")),
+        description=clean_text(channel.get("description")),
+        link=(channel.get("link") or "").strip(),
+        image=((channel.get("image") or {}).get("url") or "").strip(),
+        language=(channel.get("language") or "").strip() or FEED_LANGUAGE,
+        author=clean_text(channel.get("itunesAuthor")),
+        copyright=clean_text(channel.get("copyright")),
+        explicit=(channel.get("itunesExplicit") or "no").strip() or "no",
+    )
+
+    episodes: list[Episode] = []
+    for item in channel.get("items") or ():
+        enclosure = item.get("enclosure") or {}
+        url = (enclosure.get("url") or "").strip()
+        if not url:
+            continue
+        try:
+            length = int(enclosure.get("length") or 0)
+        except (TypeError, ValueError):
+            length = 0
+        episodes.append(
+            Episode(
+                title=clean_text(item.get("title")),
+                description=clean_text(item.get("description")),
+                published=parse_datetime(item.get("pubDate")),
+                duration=parse_duration(item.get("itunesDuration")),
+                url=url,
+                length=max(length, 0),
+                mime=(enclosure.get("type") or "audio/mpeg").strip(),
+                origin="rss",
+            )
+        )
+    return meta, episodes
+
+
+# ---------------------------------------------------------------------------
+# Feed rendering
+# ---------------------------------------------------------------------------
+
+
+def _sub(parent: ET.Element, tag: str, text: str = "") -> ET.Element:
+    element = ET.SubElement(parent, tag)
+    if text:
+        element.text = text
+    return element
+
+
+def build_feed_xml(show: Show, meta: ChannelMeta, episodes: Sequence[Episode]) -> str:
+    rss = ET.Element("rss", {"version": "2.0"})
+    channel = ET.SubElement(rss, "channel")
+
+    title = meta.title or show.title
+    _sub(channel, "title", title)
+    _sub(channel, "description", meta.description or title)
+    _sub(channel, "link", meta.link or show.feed_url)
+    _sub(channel, "language", meta.language or FEED_LANGUAGE)
+    if meta.copyright:
+        _sub(channel, "copyright", meta.copyright)
+    _sub(channel, "generator", "mohlio")
+    _sub(channel, "ttl", str(FEED_TTL_MINUTES))
+
+    # Pointing at the feed's own address is what lets clients and validators
+    # follow it; it is also a plain RSS best practice.
+    ET.SubElement(
+        channel,
+        f"{{{NS['atom']}}}link",
+        {"href": show.feed_url, "rel": "self", "type": "application/rss+xml"},
+    )
+
+    # Derived from the newest episode rather than from "now", so that a run
+    # that changes nothing produces a byte-identical file and no commit.
+    newest = next((ep.published for ep in episodes if ep.published), None)
+    if newest:
+        _sub(channel, "pubDate", format_datetime(newest))
+        _sub(channel, "lastBuildDate", format_datetime(newest))
+
+    if meta.image:
+        image = ET.SubElement(channel, "image")
+        _sub(image, "url", meta.image)
+        _sub(image, "title", title)
+        _sub(image, "link", meta.link or show.feed_url)
+        ET.SubElement(channel, f"{{{NS['itunes']}}}image", {"href": meta.image})
+
+    if meta.author:
+        _sub(channel, f"{{{NS['itunes']}}}author", meta.author)
+    _sub(channel, f"{{{NS['itunes']}}}explicit", meta.explicit or "no")
+    _sub(channel, f"{{{NS['itunes']}}}summary", meta.description or title)
+
+    for episode in episodes:
+        item = ET.SubElement(channel, "item")
+        _sub(item, "title", episode.title)
+        _sub(item, "description", episode.description)
+        if episode.link:
+            _sub(item, "link", episode.link)
+        if episode.published:
+            _sub(item, "pubDate", format_datetime(episode.published))
+        ET.SubElement(
+            item,
+            "enclosure",
+            {
+                "url": episode.url,
+                "length": str(episode.enclosure_length),
+                "type": episode.mime or "audio/mpeg",
+            },
+        )
+        guid = _sub(item, "guid", episode.guid or episode.url)
+        guid.set("isPermaLink", "false")
+        duration = format_duration(episode.duration)
+        if duration:
+            _sub(item, f"{{{NS['itunes']}}}duration", duration)
+
+    ET.indent(rss, space="  ")
+    body = ET.tostring(rss, encoding="unicode")
+    return '<?xml version="1.0" encoding="utf-8"?>\n' + body + "\n"
+
+
+def write_if_changed(path: str, content: str) -> bool:
+    """Atomically replace ``path``; return True when the bytes changed.
+
+    Writing through a temporary file in the same directory means an
+    interrupted run can never leave a half-written feed behind.
+    """
+    payload = content.encode("utf-8")
+    try:
+        with open(path, "rb") as handle:
+            if handle.read() == payload:
+                return False
+    except FileNotFoundError:
+        pass
+
+    directory = os.path.dirname(os.path.abspath(path)) or "."
+    os.makedirs(directory, exist_ok=True)
+    descriptor, temporary = tempfile.mkstemp(dir=directory, prefix=".feed-", suffix=".tmp")
+    try:
+        with os.fdopen(descriptor, "wb") as handle:
+            handle.write(payload)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+    except BaseException:
+        try:
+            os.unlink(temporary)
+        except OSError:
+            pass
+        raise
+    return True
+
+
+# ---------------------------------------------------------------------------
+# Per-show pipeline
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class ShowResult:
+    show: Show
+    changed: bool = False
+    written: bool = False
+    episode_count: int = 0
+    new_episodes: int = 0
+    newest: datetime | None = None
+    warnings: list[str] = None
+    error: str = ""
+
+    def __post_init__(self) -> None:
+        if self.warnings is None:
+            self.warnings = []
+
+
+def process_show(show: Show, out_dir: str, dry_run: bool = False) -> ShowResult:
+    result = ShowResult(show=show)
+    path = os.path.join(out_dir, show.filename)
+
+    meta, existing = read_existing_feed(path)
+    index = EpisodeIndex()
+    for episode in existing:
+        index.add(episode)
+    known_before = len(index)
+    LOG.info("[%s] %s: %d episode(s) on disk", show.id, show.title, known_before)
+
+    # --- Source 3: podcast RSS (authoritative metadata, MP3 enclosures) ---
+    page_link = ""
+    try:
+        rss_meta, rss_episodes = fetch_podcast_rss(show)
+        meta.merge(rss_meta)
+        page_link = rss_meta.link
+        for episode in rss_episodes:
+            index.add(episode)
+        LOG.info("[%s] podcast RSS: %d episode(s)", show.id, len(rss_episodes))
+    except (requests.RequestException, ValueError, KeyError) as exc:
+        result.warnings.append(f"podcast RSS unavailable ({exc})")
+        LOG.warning("[%s] podcast RSS unavailable: %s", show.id, exc)
+
+    # --- Source 2: show page (fastest to publish a new episode) ---
+    try:
+        page_url = page_link or fetch_canonical_url(show)
+        page_episodes, page_image = fetch_page_episodes(show, page_url)
+        if page_image and not meta.image:
+            meta.image = page_image
+        if not meta.link:
+            meta.link = page_url
+
+        pending: list[Episode] = []
+        for episode in page_episodes:
+            known = index.find(episode)
+            if known is not None:
+                # Already published: refresh its metadata, but do not spend a
+                # media-validation call on a URL we already have.
+                index.add(episode)
             else:
-                msg = f"[{show_id}] Failed to create XML file."
-                print(msg)
-                logs["errors"].append(msg)
-        else:
-            msg = error_msg if error_msg else f"[{show_id}] No channel data returned. Show may be deleted/unavailable."
-            print(msg)
-            logs["errors"].append(msg)
+                pending.append(episode)
 
-    update_readme_log(logs)
+        for episode in pending:
+            url, mime = resolve_media_url(episode.media_id)
+            if not url:
+                result.warnings.append(f"media {episode.media_id} could not be resolved")
+                continue
+            episode.url = url
+            episode.mime = mime
+            episode.guid = f"{url}?v=2"
+            index.add(episode)
+            result.new_episodes += 1
+        LOG.info(
+            "[%s] page: %d episode(s), %d new",
+            show.id,
+            len(page_episodes),
+            result.new_episodes,
+        )
+    except (requests.RequestException, ValueError, KeyError, json.JSONDecodeError) as exc:
+        result.warnings.append(f"show page unavailable ({exc})")
+        LOG.warning("[%s] show page unavailable: %s", show.id, exc)
+
+    episodes = index.sorted_episodes()
+    for episode in episodes:
+        if not episode.guid:
+            episode.guid = f"{episode.url}?v=2"
+    if len(episodes) > MAX_ITEMS:
+        episodes = episodes[:MAX_ITEMS]
+
+    if not episodes:
+        result.error = "no episode available from any source"
+        LOG.error("[%s] %s", show.id, result.error)
+        return result
+
+    # Safety net: every source can fail at once, and an empty or truncated
+    # answer must never be allowed to shrink a feed that was fine before.
+    if known_before and len(episodes) < known_before * 0.5:
+        result.error = (
+            f"refusing to shrink the feed from {known_before} to {len(episodes)} episodes"
+        )
+        LOG.error("[%s] %s", show.id, result.error)
+        return result
+
+    if not meta.title:
+        meta.title = show.title
+    if not meta.description:
+        meta.description = show.title
+
+    result.episode_count = len(episodes)
+    result.newest = next((ep.published for ep in episodes if ep.published), None)
+
+    content = build_feed_xml(show, meta, episodes)
+    # Parsing our own output before publishing it keeps a malformed feed from
+    # ever reaching subscribers.
+    ET.fromstring(content)
+
+    if dry_run:
+        result.changed = content.encode("utf-8") != _read_bytes(path)
+        LOG.info("[%s] dry run: %d episode(s)", show.id, len(episodes))
+        return result
+
+    result.written = write_if_changed(path, content)
+    result.changed = result.written
+    LOG.info(
+        "[%s] %s: %d episode(s)%s",
+        show.id,
+        show.filename,
+        len(episodes),
+        " (updated)" if result.written else " (unchanged)",
+    )
+    return result
+
+
+def _read_bytes(path: str) -> bytes:
+    try:
+        with open(path, "rb") as handle:
+            return handle.read()
+    except OSError:
+        return b""
+
+
+# ---------------------------------------------------------------------------
+# Reporting
+# ---------------------------------------------------------------------------
+
+README_START = "<!-- RUN_LOG_START -->"
+README_END = "<!-- RUN_LOG_END -->"
+
+
+def build_readme_log(results: Sequence[ShowResult]) -> str:
+    lines = ["\n### Feeds\n"]
+    for result in sorted(results, key=lambda item: item.show.slug):
+        show = result.show
+        if result.error:
+            lines.append(f"- ❌ **{show.slug}** — {result.error}")
+            continue
+        newest = (
+            result.newest.astimezone(EASTERN).strftime("%Y-%m-%d %H:%M ET")
+            if result.newest
+            else "unknown"
+        )
+        marker = "🆕" if result.changed else "✅"
+        lines.append(
+            f"- {marker} [{show.slug}]({show.feed_url}) — "
+            f"{result.episode_count} episodes, latest {newest}"
+        )
+    warnings = [
+        f"- `{result.show.slug}`: {warning}"
+        for result in sorted(results, key=lambda item: item.show.slug)
+        for warning in result.warnings
+    ]
+    if warnings:
+        lines.append("\n### Warnings\n")
+        lines.extend(warnings)
+    return "\n".join(lines) + "\n"
+
+
+def update_readme_log(results: Sequence[ShowResult], readme_path: str = "README.md") -> bool:
+    """Refresh the run log, but only when it would actually say something new.
+
+    The log used to carry a "last run" timestamp that changed on every run,
+    which produced a commit even when no feed had moved.
+    """
+    try:
+        with open(readme_path, "r", encoding="utf-8") as handle:
+            content = handle.read()
+    except OSError as exc:
+        LOG.warning("cannot read %s: %s", readme_path, exc)
+        return False
+
+    if README_START not in content or README_END not in content:
+        LOG.warning("%s has no run-log markers; leaving it alone", readme_path)
+        return False
+
+    before, rest = content.split(README_START, 1)
+    _, after = rest.split(README_END, 1)
+
+    body = build_readme_log(results)
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    log = f"\nLast update: {timestamp}\n{body}"
+
+    def strip_timestamp(text: str) -> str:
+        return "\n".join(
+            line for line in text.splitlines() if not line.startswith("Last update:")
+        )
+
+    if strip_timestamp(log) == strip_timestamp(rest.split(README_END, 1)[0]):
+        return False
+
+    new_content = f"{before}{README_START}{log}{README_END}{after}"
+    return write_if_changed(readme_path, new_content)
+
+
+def write_job_outputs(results: Sequence[ShowResult]) -> None:
+    """Expose the list of updated feeds to the workflow, so the commit
+    message says what moved instead of a uniform "update feeds"."""
+    path = os.environ.get("GITHUB_OUTPUT")
+    if not path:
+        return
+    slugs = [result.show.slug for result in results if result.changed]
+    summary = ", ".join(slugs[:5])
+    if len(slugs) > 5:
+        summary += f" and {len(slugs) - 5} more"
+    try:
+        with open(path, "a", encoding="utf-8") as handle:
+            handle.write(f"changed={summary}\n")
+            handle.write(f"changed_count={len(slugs)}\n")
+    except OSError as exc:
+        LOG.debug("cannot write the job outputs: %s", exc)
+
+
+def write_step_summary(results: Sequence[ShowResult]) -> None:
+    """Report to the GitHub Actions run summary, so a healthy run stays quiet
+    in git history while still being visible in the Actions tab."""
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    lines = ["## Feed update", "", "| Show | Episodes | Latest episode | Status |", "|---|---|---|---|"]
+    for result in sorted(results, key=lambda item: item.show.slug):
+        if result.error:
+            status = f"❌ {result.error}"
+        elif result.changed:
+            status = "🆕 updated"
+        else:
+            status = "✅ unchanged"
+        newest = (
+            result.newest.astimezone(EASTERN).strftime("%Y-%m-%d %H:%M ET")
+            if result.newest
+            else "—"
+        )
+        lines.append(
+            f"| {result.show.slug} | {result.episode_count} | {newest} | {status} |"
+        )
+    warnings = [
+        f"- `{result.show.slug}`: {warning}"
+        for result in results
+        for warning in result.warnings
+    ]
+    if warnings:
+        lines += ["", "### Warnings", ""] + warnings
+    try:
+        with open(path, "a", encoding="utf-8") as handle:
+            handle.write("\n".join(lines) + "\n")
+    except OSError as exc:
+        LOG.debug("cannot write the step summary: %s", exc)
+
+
+# ---------------------------------------------------------------------------
+# Entry point
+# ---------------------------------------------------------------------------
+
+
+def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument(
+        "--shows",
+        default="",
+        help="comma separated show ids or slugs (default: all of them)",
+    )
+    parser.add_argument("--out-dir", default=".", help="where the feeds are written")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="build and validate the feeds without writing anything",
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=4,
+        help="how many shows to process at once (default: 4)",
+    )
+    parser.add_argument("--verbose", action="store_true", help="debug logging")
+    return parser.parse_args(argv)
+
+
+def select_shows(selector: str) -> list[Show]:
+    if not selector.strip():
+        return list(SHOWS)
+    wanted = [part.strip() for part in selector.split(",") if part.strip()]
+    by_slug = {show.slug: show for show in SHOWS}
+    chosen: list[Show] = []
+    for item in wanted:
+        show = by_slug.get(item)
+        if show is None and item.isdigit():
+            show = SHOWS_BY_ID.get(int(item))
+        if show is None:
+            raise SystemExit(f"unknown show: {item}")
+        chosen.append(show)
+    return chosen
+
+
+def main(argv: Sequence[str] | None = None) -> int:
+    args = parse_args(argv)
+    logging.basicConfig(
+        level=logging.DEBUG if args.verbose else logging.INFO,
+        format="%(levelname)s %(message)s",
+        stream=sys.stdout,
+    )
+
+    shows = select_shows(args.shows)
+    LOG.info("Updating %d feed(s)...", len(shows))
+    started = time.monotonic()
+
+    results: list[ShowResult] = []
+    workers = max(1, min(args.workers, len(shows)))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {
+            pool.submit(process_show, show, args.out_dir, args.dry_run): show
+            for show in shows
+        }
+        for future in concurrent.futures.as_completed(futures):
+            show = futures[future]
+            try:
+                results.append(future.result())
+            except Exception as exc:  # one broken show must not stop the rest
+                LOG.exception("[%s] unexpected failure", show.id)
+                results.append(ShowResult(show=show, error=f"unexpected failure: {exc}"))
+
+    results.sort(key=lambda item: item.show.slug)
+    changed = [result for result in results if result.changed]
+    failed = [result for result in results if result.error]
+
+    if not args.dry_run and (changed or failed):
+        update_readme_log(results)
+    write_step_summary(results)
+    write_job_outputs(results)
+
+    LOG.info(
+        "Done in %.1fs: %d feed(s) updated, %d unchanged, %d failed.",
+        time.monotonic() - started,
+        len(changed),
+        len(results) - len(changed) - len(failed),
+        len(failed),
+    )
+    for result in failed:
+        LOG.error("[%s] %s", result.show.id, result.error)
+
+    # A single flaky show must not turn the whole run red: the other feeds
+    # were published and the failure is reported in the run summary. Only a
+    # total failure is worth failing the job for.
+    if failed and len(failed) == len(results):
+        return 1
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

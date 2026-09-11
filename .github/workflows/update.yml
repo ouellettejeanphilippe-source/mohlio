@@ -1,90 +1,110 @@
-name: Daily Feed Update
+name: Update podcast feeds
 
+# Why this schedule
+# -----------------
+# Episodes are picked up on the next run after they are published, so the
+# gap between two runs is the delay a listener actually feels. The shows in
+# this repository are published between 05:00 and 19:06 Eastern:
+#
+#   05:00-05:06  À la une, Ça s'explique
+#   08:00-09:00  Olivier Niquet 24/7
+#   11:00-12:00  Décrypteurs (Fri)
+#   13:00        Pouvez-vous répéter la question? (Sat)
+#   14:30        La journée (est encore jeune)
+#   15:00-17:00  Changement de ligne, Tellement hockey
+#   19:06        Moteur de recherche
+#
+# So the feeds are refreshed every 10 minutes over the whole publishing day
+# and hourly overnight. The window is expressed in UTC and deliberately
+# covers both EST and EDT, which removes the daylight-saving guesswork the
+# previous timezone gate had to do in shell.
 on:
   schedule:
-    - cron: '*/10 11,12,13 * * *'        # Runs every 10 minutes to cover 7:00 to 8:30 EST/EDT
-    - cron: '0 16,17,20,21,22,23 * * *'  # Runs near 12pm, 4pm, 6pm EST/EDT
+    - cron: '*/10 8-23 * * *'   # 04:00-19:50 EDT / 03:00-18:50 EST
+    - cron: '*/10 0-1 * * *'    # 20:00-21:50 EDT / 19:00-20:50 EST
+    - cron: '0 2-7 * * *'       # hourly safety net overnight
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
-  workflow_dispatch:      # Allows manual triggering
+    branches: [main]
+  workflow_dispatch:
+
+# Runs never overlap: two runs pushing to main at the same time is what used
+# to need a five-attempt push retry to recover from.
+concurrency:
+  group: update-feeds-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-    permissions:
-      contents: write
 
     steps:
-      - name: Check Timezone
-        id: tz
-        run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            HOUR=$(TZ='America/New_York' date +%-H)
-            MINUTE=$(TZ='America/New_York' date +%-M)
-            echo "Current time in Eastern Time: $HOUR:$MINUTE"
-            if [ "$HOUR" = "7" ]; then
-              echo "should_run=true" >> $GITHUB_ENV
-            elif [ "$HOUR" = "8" ] && [ "$MINUTE" -le 35 ]; then
-              echo "should_run=true" >> $GITHUB_ENV
-            elif [ "$HOUR" = "12" ] || [ "$HOUR" = "16" ] || [ "$HOUR" = "18" ]; then
-              echo "should_run=true" >> $GITHUB_ENV
-            else
-              echo "should_run=false" >> $GITHUB_ENV
-              echo "Skipping run, as it is outside the target hours (7:00-8:30, 12:00, 16:00, 18:00 EST/EDT)."
-            fi
-          else
-            echo "should_run=true" >> $GITHUB_ENV
-          fi
-
       - name: Checkout repository
-        if: env.should_run == 'true'
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Setup Python
-        if: env.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
-        if: env.should_run == 'true'
         run: pip install -r requirements.txt
 
-      - name: Run feed generator
-        if: env.should_run == 'true'
+      # On a pull request the feeds are built and validated but never
+      # written, so a proposed change can be checked without touching the
+      # published files.
+      - name: Validate feed generation
+        if: github.event_name == 'pull_request'
+        run: python main.py --dry-run
+
+      - name: Update feeds
+        id: feeds
+        if: github.event_name != 'pull_request'
         run: python main.py
 
       - name: Commit and push changes
-        if: env.should_run == 'true'
+        if: github.event_name != 'pull_request'
+        env:
+          CHANGED: ${{ steps.feeds.outputs.changed }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f feed_*.xml
-          git add README.md
-          # Only commit and push if there are changes
-          if ! git diff --cached --quiet; then
-            git commit -m "update feeds"
-            # Retry loop to handle concurrent push collisions (e.g., when push and pull_request events trigger simultaneously)
-            for i in 1 2 3 4 5; do
-              if git pull --rebase -X theirs origin ${{ github.head_ref || github.ref_name }} && git push; then
-                break
-              fi
-              # If rebase fails due to conflict, abort it
-              git rebase --abort || true
-              if [ $i -eq 5 ]; then
-                echo "Failed to push after 5 attempts."
-                exit 1
-              fi
-              sleep $((RANDOM % 10 + 5))
-            done
-          else
-            echo "No changes to commit."
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed_*.xml README.md
+
+          if git diff --cached --quiet; then
+            echo "No feed changed; nothing to commit."
+            exit 0
           fi
+
+          if [ -n "${CHANGED:-}" ]; then
+            message="feeds: update ${CHANGED}"
+          else
+            message="feeds: update"
+          fi
+          git commit -m "$message"
+
+          branch="${{ github.head_ref || github.ref_name }}"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin "$branch" && git push origin "HEAD:$branch"; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            if [ "$attempt" -eq 5 ]; then
+              echo "::error::Failed to push after 5 attempts."
+              exit 1
+            fi
+            sleep $(( (RANDOM % 10) + attempt * 5 ))
+          done
