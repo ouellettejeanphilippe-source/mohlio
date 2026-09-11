@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Sep 2026 10:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 08 Sep 2026 10:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Sep 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Sep 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Et si l’été n’était pas fini?</title>
+      <description>&lt;p&gt;Le camp des recrues du Canadien a commencé et beaucoup de nouveaux visages en font partie. Y a-t-il une pépite parmi eux?&lt;br/&gt;Il y a des rumeurs concernant l'acquisition d'un attaquant, et des dossiers traînent toujours sur le bureau de Kent Hughes. Le DG du CH règlera-t-il rapidement le cas des jeunes joueurs prometteurs qui attendent de signer un contrat?&lt;br/&gt;Et on se demande si l'ajout de Derek Lalonde démontre une nouvelle approche, plus mature et confiante, dans la façon d'entraîner de Martin St-Louis.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1272845/et-si-lete-netait-pas-fini</link>
+      <pubDate>Fri, 11 Sep 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ba64ec2b-a825-4143-8770-94fea2a86117/2026-09-11_15_23_41_tellementhockey_0000_master.m3u8" length="55184000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ba64ec2b-a825-4143-8770-94fea2a86117/2026-09-11_15_23_41_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:57:29</itunes:duration>
+    </item>
     <item>
       <title>Tour d’horizon de la LNH</title>
       <description>&lt;p&gt;À quelques jours du début des camps d'entraînement dans la Ligue nationale de hockey (LNH), notre équipe reprend du service pour faire le point sur les changements survenus cet été et sur l'état des lieux de la ligue. Quelles sont les équipes à surveiller et qui pourrait s’illustrer cette année?&lt;/p&gt;</description>
