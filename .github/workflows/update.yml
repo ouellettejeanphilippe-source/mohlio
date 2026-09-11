@@ -61,6 +61,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # Offline, no network: these pin down the merge guarantees the feeds
+      # depend on, so they run on every event including the scheduled ones.
+      - name: Run tests
+        run: python -m unittest -q
+
       # On a pull request the feeds are built and validated but never
       # written, so a proposed change can be checked without touching the
       # published files.
