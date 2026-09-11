@@ -79,6 +79,22 @@ class EnclosureTests(unittest.TestCase):
     def test_declared_mime_is_honoured(self):
         self.assertFalse(main.is_progressive("https://x/a", "application/x-mpegURL"))
 
+    def test_a_playlist_is_recognised_even_when_declared_as_audio(self):
+        # Feeds declare every enclosure audio/mpeg so that podcast apps accept
+        # the shows that exist only as HLS. The playlist must still be
+        # recognised as one, from the URL, so an MP3 can replace it later.
+        self.assertFalse(main.is_progressive(HLS, "audio/mpeg"))
+        self.assertEqual(main.HLS_DECLARED_MIME, "audio/mpeg")
+
+    def test_an_hls_enclosure_is_still_replaced_by_an_mp3(self):
+        index = main.EpisodeIndex()
+        kept = index.add(
+            episode(url=HLS, mime=main.HLS_DECLARED_MIME, guid="guid-hls")
+        )
+        index.add(episode(url=MP3, mime="audio/mpeg", origin="rss"))
+        self.assertEqual(kept.url, MP3)
+        self.assertEqual(kept.guid, "guid-hls")
+
 
 class MergeTests(unittest.TestCase):
     def test_the_mp3_replaces_the_hls_url_but_the_guid_survives(self):

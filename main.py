@@ -88,6 +88,9 @@ FEED_TTL_MINUTES = 15
 # (~128 kbit/s). Better than advertising a constant fake size.
 ESTIMATED_BYTES_PER_SECOND = 16_000
 
+# What every enclosure is declared as, playlists included. See resolve_media_url.
+HLS_DECLARED_MIME = "audio/mpeg"
+
 EASTERN = ZoneInfo("America/Toronto")
 
 FEED_LANGUAGE = "fr-ca"
@@ -744,12 +747,13 @@ def resolve_media_url(media_id: str) -> tuple[str, str]:
     if not url:
         LOG.debug("media %s: %s", media_id, payload.get("message") or "no url")
         return "", ""
-    mime = "application/x-mpegURL" if not is_progressive(url) else "audio/mpeg"
-    for param in payload.get("params") or ():
-        if param.get("name") == "contentType" and param.get("value"):
-            value = str(param["value"])
-            mime = "application/x-mpegURL" if "mpegURL" in value else "audio/mpeg"
-    return url, mime
+    # Five of the ten shows are only ever offered as an HLS playlist, and the
+    # feeds have always declared those enclosures as audio/mpeg. It is not the
+    # exact type of an .m3u8, but podcast clients accept audio/mpeg and skip
+    # enclosures whose type they do not know, so declaring the exact type here
+    # would stop those shows playing in apps that play them today. Whether an
+    # enclosure is a playlist is decided from the URL, never from this value.
+    return url, HLS_DECLARED_MIME
 
 
 def fetch_page_episodes(show: Show, page_url: str) -> tuple[list[Episode], str]:
