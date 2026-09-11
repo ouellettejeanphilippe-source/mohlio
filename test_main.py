@@ -296,6 +296,29 @@ class ScheduleTests(unittest.TestCase):
             main.awaiting_episode(self.SHOW, None, eastern(2026, 9, 11, 18, 30))
         )
 
+    def test_a_run_with_time_left_waits_for_an_imminent_publication(self):
+        # 18:30, the show is due at 19:00, and the run still has 45 minutes:
+        # it should stay rather than leave the episode to the next run.
+        self.assertTrue(
+            main.awaiting_episode(
+                self.SHOW, None, eastern(2026, 9, 11, 18, 30), lookahead_minutes=45
+            )
+        )
+
+    def test_a_publication_beyond_the_remaining_time_is_not_waited_for(self):
+        self.assertFalse(
+            main.awaiting_episode(
+                self.SHOW, None, eastern(2026, 9, 11, 17, 0), lookahead_minutes=45
+            )
+        )
+
+    def test_looking_ahead_never_resurrects_a_closed_window(self):
+        self.assertFalse(
+            main.awaiting_episode(
+                self.SHOW, None, eastern(2026, 9, 11, 21, 30), lookahead_minutes=45
+            )
+        )
+
     def test_watched_once_the_episode_is_due_and_missing(self):
         self.assertTrue(
             main.awaiting_episode(self.SHOW, None, eastern(2026, 9, 11, 19, 10))
@@ -425,6 +448,22 @@ class WatchLoopTests(unittest.TestCase):
             )
         self.assertEqual(calls, [], "an exhausted window must not re-check")
         self.assertTrue(any("Watch window closed" in line for line in logs.output))
+
+    def test_waits_through_a_publication_that_has_not_happened_yet(self):
+        show = self._due_show()
+        results = {"test": main.ShowResult(show=show)}
+        calls = self._stub_process(episode_arrives_after=1)
+        # 18:40 ET, twenty minutes before the show is due at 19:00.
+        with self.assertLogs(main.LOG, level="INFO"):
+            main.watch_for_episodes(
+                [show],
+                results,
+                ".",
+                minutes=45,
+                poll_seconds=30,
+                now_provider=lambda: eastern(2026, 9, 11, 18, 40).astimezone(UTC),
+            )
+        self.assertEqual(len(calls), 1, "it must wait instead of exiting early")
 
     def test_stops_as_soon_as_the_episode_arrives(self):
         show = self._due_show()
