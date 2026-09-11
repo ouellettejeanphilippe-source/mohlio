@@ -1,28 +1,24 @@
 name: Update podcast feeds
 
-# Why this schedule
-# -----------------
-# Episodes are picked up on the next run after they are published, so the
-# gap between two runs is the delay a listener actually feels. The shows in
-# this repository are published between 05:00 and 19:06 Eastern:
+# Why one run per hour, and not one every few minutes
+# ---------------------------------------------------
+# GitHub delivers only a fraction of the scheduled runs a workflow asks for,
+# and delivers them late. Measured on this repository over ten days, 24
+# requested slots a day produced between 5 and 11 runs, and a `*/10` window
+# produced roughly one run every 35 minutes. Asking for a run every ten
+# minutes therefore does not give a ten minute reaction time; it just fills
+# the Actions tab.
 #
-#   05:00-05:06  À la une, Ça s'explique
-#   08:00-09:00  Olivier Niquet 24/7
-#   11:00-12:00  Décrypteurs (Fri)
-#   13:00        Pouvez-vous répéter la question? (Sat)
-#   14:30        La journée (est encore jeune)
-#   15:00-17:00  Changement de ligne, Tellement hockey
-#   19:06        Moteur de recherche
-#
-# So the feeds are refreshed every 10 minutes over the whole publishing day
-# and hourly overnight. The window is expressed in UTC and deliberately
-# covers both EST and EDT, which removes the daylight-saving guesswork the
-# previous timezone gate had to do in shell.
+# So the schedule asks for one run an hour, which is the granularity GitHub
+# does deliver reliably, and the run itself does the waiting: when a show is
+# due and its episode has not arrived yet, `--watch` re-checks it every three
+# minutes until it shows up. Outside those windows a run takes a few seconds
+# and exits. Which shows are due is decided in `main.py` from real Eastern
+# time, so it stays correct across daylight saving without any shell date
+# arithmetic.
 on:
   schedule:
-    - cron: '*/10 8-23 * * *'   # 04:00-19:50 EDT / 03:00-18:50 EST
-    - cron: '*/10 0-1 * * *'    # 20:00-21:50 EDT / 19:00-20:50 EST
-    - cron: '0 2-7 * * *'       # hourly safety net overnight
+    - cron: '0 * * * *'
   push:
     branches: [main]
   pull_request:
@@ -41,7 +37,7 @@ permissions:
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 60
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -73,10 +69,12 @@ jobs:
         if: github.event_name == 'pull_request'
         run: python main.py --dry-run
 
+      # --watch keeps the run alive only while an episode is actually due;
+      # every other run finishes in a few seconds.
       - name: Update feeds
         id: feeds
         if: github.event_name != 'pull_request'
-        run: python main.py
+        run: python main.py --watch --watch-minutes 45 --poll-seconds 180
 
       - name: Commit and push changes
         if: github.event_name != 'pull_request'
