@@ -9,25 +9,50 @@ Les flux sont servis ici :
 
 ## À quelle vitesse un nouvel épisode arrive
 
-Les flux sont rafraîchis **toutes les 10 minutes** pendant toute la journée de
-diffusion (04 h à 21 h, heure de l'Est) et toutes les heures la nuit. Un
-nouvel épisode apparaît donc dans votre application au prochain passage, soit
-une dizaine de minutes après sa parution.
+Le workflow demande **un passage par heure**, et c'est le passage lui-même qui
+attend. Quand une émission est attendue et que son épisode n'est pas encore là,
+le générateur **revérifie toutes les 3 minutes** jusqu'à ce qu'il arrive, ou
+pendant 45 minutes au maximum. En dehors de ces fenêtres, un passage dure
+quelques secondes et se termine.
 
-La fenêtre couvre les heures de parution réelles des émissions suivies :
+Un nouvel épisode apparaît donc dans votre application environ **3 minutes**
+après sa parution, pendant la fenêtre de son émission.
 
-| Heure (HE)  | Émissions                                    |
-|-------------|----------------------------------------------|
-| 05:00-05:06 | À la une, Ça s'explique                       |
-| 08:00-09:00 | Olivier Niquet 24/7                           |
-| 11:00-12:00 | Décrypteurs (vendredi)                        |
-| 13:00       | Pouvez-vous répéter la question? (samedi)     |
-| 14:30       | La journée (est encore jeune)                 |
-| 15:00-17:00 | Changement de ligne, Tellement hockey         |
-| 19:06       | Moteur de recherche                           |
+### Pourquoi pas simplement un passage aux 10 minutes
 
-Le cadran est exprimé en UTC et couvre volontairement HNE et HAE, ce qui
-élimine tout ajustement au changement d'heure.
+Parce que GitHub ne le livre pas. Mesuré sur ce dépôt pendant dix jours, 24
+créneaux planifiés par jour ont produit entre 5 et 11 passages, et une plage
+`*/10` n'a donné qu'un passage toutes les 35 minutes environ. Demander un
+passage aux 10 minutes ne donne pas un délai de 10 minutes ; ça remplit
+seulement l'onglet Actions. Le créneau horaire, lui, est livré de façon fiable,
+d'où le choix de faire l'attente à l'intérieur du passage.
+
+### Heures de parution suivies
+
+Ces heures viennent de l'historique de publication de chaque flux. Elles
+servent **uniquement** à décider quand surveiller de près. Elles ne
+conditionnent jamais la vérification : chaque passage vérifie les dix
+émissions, donc une émission qui change d'horaire est quand même captée.
+
+| Émission | Jours | Heure (HE) | Fenêtre |
+|---|---|---|---|
+| À la une | lun-ven | 05:00 | 2 h |
+| Ça s'explique | mar-jeu, sam | 05:00 | 3 h |
+| Olivier Niquet 24/7 | lun-ven | 08:00 | 2 h 30 |
+| Décrypteurs | ven | 11:00 | 2 h 30 |
+| Pouvez-vous répéter la question? | sam | 13:00 | 2 h |
+| La journée (est encore jeune) | lun-sam | 14:25 | 2 h |
+| Changement de ligne | mer-jeu | 15:00 | 3 h |
+| Moteur de recherche | lun-jeu | 19:00 | 2 h |
+
+Le bêtisier et Tellement hockey paraissent de façon irrégulière : ils n'ont pas
+d'horaire et sont captés par la vérification horaire.
+
+Les fenêtres sont calculées en heure de l'Est réelle par Python, donc le
+changement d'heure est géré sans aucune arithmétique de dates en shell.
+
+Si une émission rate deux parutions attendues d'affilée, le journal le signale
+au lieu de servir silencieusement un flux périmé.
 
 ## Comment un flux est construit
 
@@ -68,11 +93,15 @@ cliquez sur **Run workflow**, puis sur le bouton vert **Run workflow**.
 ```bash
 pip install -r requirements.txt
 
-python main.py                      # met à jour tous les flux
-python main.py --shows niquet       # une seule émission
-python main.py --dry-run            # construit et valide sans rien écrire
-python main.py --verbose            # journalisation de débogage
+python main.py                      # met à jour tous les flux, une seule passe
+python main.py --watch               # puis attend les épisodes attendus
+python main.py --shows niquet        # une seule émission
+python main.py --dry-run             # construit et valide sans rien écrire
+python main.py --verbose             # journalisation de débogage
 ```
+
+`--watch` accepte `--watch-minutes` (durée maximale de l'attente) et
+`--poll-seconds` (délai entre deux vérifications).
 
 `--dry-run` est aussi ce que le workflow exécute sur une pull request : les
 flux sont construits et validés, mais jamais écrits.
@@ -95,25 +124,26 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-09-11 17:46 UTC
+Last update: 2026-09-11 18:29 UTC
 
 ### Feeds
 
-- 🆕 [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 9 episodes, latest 2025-12-29 06:00 ET
-- 🆕 [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 30 episodes, latest 2026-06-18 15:00 ET
-- 🆕 [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 50 episodes, latest 2026-09-11 11:00 ET
-- 🆕 [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 50 episodes, latest 2026-09-10 05:00 ET
-- 🆕 [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 50 episodes, latest 2026-09-08 06:00 ET
-- 🆕 [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 50 episodes, latest 2026-09-10 14:30 ET
-- 🆕 [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 50 episodes, latest 2026-09-11 08:30 ET
-- 🆕 [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 50 episodes, latest 2026-09-05 20:00 ET
-- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 52 episodes, latest 2026-09-10 19:06 ET
-- 🆕 [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 350 episodes, latest 2026-09-11 05:06 ET
+- ✅ [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 9 episodes, latest 2025-12-29 06:00 ET
+- ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 30 episodes, latest 2026-06-18 15:00 ET
+- ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 50 episodes, latest 2026-09-11 11:00 ET
+- 🆕 [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 49 episodes, latest 2026-09-10 05:00 ET
+- ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 50 episodes, latest 2026-09-08 06:00 ET
+- ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 50 episodes, latest 2026-09-10 14:30 ET
+- ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 50 episodes, latest 2026-09-11 08:30 ET
+- ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 50 episodes, latest 2026-09-05 20:00 ET
+- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 52 episodes, latest 2026-09-11 12:30 ET
+- ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 350 episodes, latest 2026-09-11 05:06 ET
 
 ### Warnings
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
+- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `hockey`: podcast RSS unavailable (podcast RSS returned no channel)
 - `niquet`: podcast RSS unavailable (podcast RSS returned no channel)

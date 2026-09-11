@@ -101,6 +101,35 @@ for _prefix, _uri in NS.items():
     ET.register_namespace(_prefix, _uri)
 
 
+MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY = range(7)
+
+
+@dataclass(frozen=True)
+class Schedule:
+    """When a show is expected to publish, in Eastern time.
+
+    Measured from each feed's own publication history. This is only used to
+    decide when it is worth watching a show closely; it never gates whether a
+    feed is checked. A show that moves, or publishes off schedule, is still
+    picked up by the regular check that every run performs.
+    """
+
+    weekdays: tuple[int, ...]
+    hour: int
+    minute: int = 0
+    # How long after the expected time we keep watching before giving up on
+    # today's episode. Generous, because publication times drift.
+    window_minutes: int = 120
+
+    def is_due_on(self, moment: datetime) -> bool:
+        return moment.weekday() in self.weekdays
+
+    def expected_at(self, moment: datetime) -> datetime:
+        return moment.replace(
+            hour=self.hour, minute=self.minute, second=0, microsecond=0
+        )
+
+
 @dataclass(frozen=True)
 class Show:
     """One OHdio show and the feed it is published as."""
@@ -108,6 +137,7 @@ class Show:
     id: int
     slug: str
     title: str
+    schedule: Schedule | None = None
 
     @property
     def filename(self) -> str:
@@ -118,17 +148,42 @@ class Show:
         return f"{PUBLIC_BASE_URL}/{self.filename}"
 
 
+WEEKDAYS = (MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY)
+
+# Publication times below are the ones observed in each feed's history, not
+# times published by Radio-Canada. Shows that publish irregularly carry no
+# schedule and are simply picked up by the regular check.
 SHOWS: tuple[Show, ...] = (
-    Show(6108, "explique", "Ça s'explique"),
-    Show(9887, "journee", "La journée (est encore jeune)"),
-    Show(11099, "decrypteurs", "Décrypteurs : le balado"),
+    Show(
+        6108,
+        "explique",
+        "Ça s'explique",
+        Schedule((TUESDAY, WEDNESDAY, THURSDAY, SATURDAY), 5, 0, 180),
+    ),
+    Show(
+        9887,
+        "journee",
+        "La journée (est encore jeune)",
+        Schedule((MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY), 14, 25),
+    ),
+    Show(11099, "decrypteurs", "Décrypteurs : le balado", Schedule((FRIDAY,), 11, 0, 150)),
     Show(6327, "betisier", "Le bêtisier"),
-    Show(12095, "niquet", "Olivier Niquet 24/7 (en jaquette)"),
-    Show(302, "une", "À la une"),
-    Show(6056, "recherche", "Moteur de recherche"),
-    Show(7791, "question", "Pouvez-vous répéter la question?"),
+    Show(12095, "niquet", "Olivier Niquet 24/7 (en jaquette)", Schedule(WEEKDAYS, 8, 0, 150)),
+    Show(302, "une", "À la une", Schedule(WEEKDAYS, 5, 0)),
+    Show(
+        6056,
+        "recherche",
+        "Moteur de recherche",
+        Schedule((MONDAY, TUESDAY, WEDNESDAY, THURSDAY), 19, 0),
+    ),
+    Show(7791, "question", "Pouvez-vous répéter la question?", Schedule((SATURDAY,), 13, 0)),
     Show(6104, "hockey", "Tellement hockey"),
-    Show(13061, "changement", "Changement de ligne"),
+    Show(
+        13061,
+        "changement",
+        "Changement de ligne",
+        Schedule((WEDNESDAY, THURSDAY), 15, 0, 180),
+    ),
 )
 
 SHOWS_BY_ID = {show.id: show for show in SHOWS}
@@ -399,6 +454,25 @@ def _dates_are_close(left: Episode, right: Episode, days: int = 2) -> bool:
     return abs(left.published - right.published) <= timedelta(days=days)
 
 
+def _may_merge_on_title(candidate: Episode, known: Episode) -> bool:
+    """Whether a shared title alone is enough to call these one episode.
+
+    Titles are the weakest of the keys, so they only merge episodes published
+    within days of each other, and never two episodes the podcast feed itself
+    listed separately: upstream does not publish one episode twice, so a
+    repeated title there is a real second episode.
+    """
+    if not _dates_are_close(candidate, known):
+        return False
+    both_from_podcast_rss = candidate.origin == "rss" and known.origin == "rss"
+    both_progressive = is_progressive(candidate.url, candidate.mime) and is_progressive(
+        known.url, known.mime
+    )
+    if both_from_podcast_rss and both_progressive and candidate.url != known.url:
+        return False
+    return True
+
+
 def _merge_into(target: Episode, incoming: Episode) -> None:
     """Fold ``incoming`` into ``target``, keeping the identity of ``target``."""
     at_least_as_authoritative = (
@@ -462,7 +536,7 @@ class EpisodeIndex:
             if known is None or known is candidate:
                 continue
             if alias.startswith("title:"):
-                if weak is None and _dates_are_close(candidate, known):
+                if weak is None and _may_merge_on_title(candidate, known):
                     weak = known
                 continue
             return known
@@ -1064,6 +1138,138 @@ def _read_bytes(path: str) -> bytes:
 
 
 # ---------------------------------------------------------------------------
+# Watching for an episode that is due
+# ---------------------------------------------------------------------------
+
+
+def recent_expected_publications(
+    show: Show, now: datetime, count: int = 3
+) -> list[datetime]:
+    """The last ``count`` times this show was expected to publish, newest first."""
+    if show.schedule is None:
+        return []
+    local = now.astimezone(EASTERN)
+    found: list[datetime] = []
+    for days_back in range(0, 8 * 7):
+        day = local - timedelta(days=days_back)
+        if not show.schedule.is_due_on(day):
+            continue
+        expected = show.schedule.expected_at(day)
+        if expected <= local:
+            found.append(expected)
+            if len(found) == count:
+                break
+    return found
+
+
+def awaiting_episode(show: Show, newest: datetime | None, now: datetime) -> bool:
+    """True when the episode expected today is due but not in the feed yet.
+
+    False as soon as the window closes, so a show that skips a day (a holiday,
+    a season break) is not watched for the rest of the day.
+    """
+    if show.schedule is None:
+        return False
+    local = now.astimezone(EASTERN)
+    if not show.schedule.is_due_on(local):
+        return False
+    expected = show.schedule.expected_at(local)
+    if local < expected:
+        return False
+    if local > expected + timedelta(minutes=show.schedule.window_minutes):
+        return False
+    if newest is None:
+        return True
+    return newest.astimezone(EASTERN).date() != expected.date()
+
+
+def missed_publications(show: Show, newest: datetime | None, now: datetime) -> int:
+    """How many expected publications in a row are missing from the feed.
+
+    One is normal while an episode is still being published. Two or more in a
+    row means the show has most likely broken and deserves a warning, instead
+    of quietly serving a stale feed.
+    """
+    expected_times = recent_expected_publications(show, now, count=3)
+    if not expected_times:
+        return 0
+    if newest is None:
+        return len(expected_times)
+    newest_local = newest.astimezone(EASTERN)
+    return sum(1 for expected in expected_times if newest_local < expected)
+
+
+def watch_for_episodes(
+    shows: Sequence[Show],
+    results: dict[str, ShowResult],
+    out_dir: str,
+    minutes: int,
+    poll_seconds: int,
+    dry_run: bool = False,
+    now_provider=None,
+    monotonic=time.monotonic,
+) -> None:
+    """Re-check the shows that are due until they arrive or time runs out.
+
+    GitHub delivers only a fraction of the scheduled runs it is asked for, and
+    delivers them late, so asking for a run every few minutes all day does not
+    work. Watching from inside a run that did start is what actually turns a
+    publication into a feed update within minutes.
+    """
+    now_provider = now_provider or (lambda: datetime.now(timezone.utc))
+    deadline = monotonic() + minutes * 60
+    while True:
+        now = now_provider()
+        pending = [
+            show
+            for show in shows
+            if awaiting_episode(show, results[show.slug].newest, now)
+        ]
+        if not pending:
+            LOG.info("Nothing else is due right now; stopping the watch.")
+            return
+        remaining = deadline - monotonic()
+        if remaining <= 0:
+            LOG.info(
+                "Watch window closed, still waiting for: %s",
+                ", ".join(show.slug for show in pending),
+            )
+            return
+
+        delay = min(poll_seconds, remaining)
+        LOG.info(
+            "Waiting for %s; next check in %ds (%.0f min left).",
+            ", ".join(show.slug for show in pending),
+            delay,
+            remaining / 60,
+        )
+        time.sleep(delay)
+
+        workers = max(1, min(4, len(pending)))
+        with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = {
+                pool.submit(process_show, show, out_dir, dry_run): show
+                for show in pending
+            }
+            for future in concurrent.futures.as_completed(futures):
+                show = futures[future]
+                try:
+                    fresh = future.result()
+                except Exception as exc:
+                    LOG.exception("[%s] unexpected failure while watching", show.id)
+                    fresh = ShowResult(show=show, error=f"unexpected failure: {exc}")
+                previous = results[show.slug]
+                # A feed that changed earlier in this run stays reported as
+                # changed even if the latest pass rewrote nothing.
+                fresh.changed = fresh.changed or previous.changed
+                fresh.written = fresh.written or previous.written
+                fresh.new_episodes += previous.new_episodes
+                results[show.slug] = fresh
+                if fresh.changed and not previous.changed:
+                    LOG.info("[%s] new episode captured.", show.id)
+
+
+# ---------------------------------------------------------------------------
 # Reporting
 # ---------------------------------------------------------------------------
 
@@ -1213,6 +1419,26 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         default=4,
         help="how many shows to process at once (default: 4)",
     )
+    parser.add_argument(
+        "--watch",
+        action="store_true",
+        help=(
+            "after the first pass, keep re-checking the shows whose episode is "
+            "due until it arrives or the watch window closes"
+        ),
+    )
+    parser.add_argument(
+        "--watch-minutes",
+        type=int,
+        default=25,
+        help="how long the watch may last, in minutes (default: 25)",
+    )
+    parser.add_argument(
+        "--poll-seconds",
+        type=int,
+        default=180,
+        help="delay between two checks while watching (default: 180)",
+    )
     parser.add_argument("--verbose", action="store_true", help="debug logging")
     return parser.parse_args(argv)
 
@@ -1245,7 +1471,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     LOG.info("Updating %d feed(s)...", len(shows))
     started = time.monotonic()
 
-    results: list[ShowResult] = []
+    results_by_slug: dict[str, ShowResult] = {}
     workers = max(1, min(args.workers, len(shows)))
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as pool:
         futures = {
@@ -1255,12 +1481,32 @@ def main(argv: Sequence[str] | None = None) -> int:
         for future in concurrent.futures.as_completed(futures):
             show = futures[future]
             try:
-                results.append(future.result())
+                results_by_slug[show.slug] = future.result()
             except Exception as exc:  # one broken show must not stop the rest
                 LOG.exception("[%s] unexpected failure", show.id)
-                results.append(ShowResult(show=show, error=f"unexpected failure: {exc}"))
+                results_by_slug[show.slug] = ShowResult(
+                    show=show, error=f"unexpected failure: {exc}"
+                )
 
-    results.sort(key=lambda item: item.show.slug)
+    if args.watch and args.watch_minutes > 0:
+        watch_for_episodes(
+            shows,
+            results_by_slug,
+            args.out_dir,
+            args.watch_minutes,
+            args.poll_seconds,
+            args.dry_run,
+        )
+
+    now = datetime.now(timezone.utc)
+    for result in results_by_slug.values():
+        missed = missed_publications(result.show, result.newest, now)
+        if missed >= 2:
+            result.warnings.append(
+                f"no new episode for the last {missed} expected publications"
+            )
+
+    results = sorted(results_by_slug.values(), key=lambda item: item.show.slug)
     changed = [result for result in results if result.changed]
     failed = [result for result in results if result.error]
 

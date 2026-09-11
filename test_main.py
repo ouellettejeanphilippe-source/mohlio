@@ -265,6 +265,193 @@ class FeedRoundTripTests(unittest.TestCase):
         self.assertEqual(episodes[0].length, 0)
 
 
+def eastern(year, month, day, hour, minute=0):
+    return datetime(year, month, day, hour, minute, tzinfo=main.EASTERN)
+
+
+class ScheduleTests(unittest.TestCase):
+    # 2026-09-11 is a Friday, 2026-09-12 a Saturday.
+    SHOW = main.Show(
+        1, "test", "Test", main.Schedule((main.FRIDAY,), 19, 0, window_minutes=120)
+    )
+
+    def test_not_watched_before_the_expected_time(self):
+        self.assertFalse(
+            main.awaiting_episode(self.SHOW, None, eastern(2026, 9, 11, 18, 30))
+        )
+
+    def test_watched_once_the_episode_is_due_and_missing(self):
+        self.assertTrue(
+            main.awaiting_episode(self.SHOW, None, eastern(2026, 9, 11, 19, 10))
+        )
+
+    def test_not_watched_once_todays_episode_is_in_the_feed(self):
+        newest = eastern(2026, 9, 11, 19, 6)
+        self.assertFalse(
+            main.awaiting_episode(self.SHOW, newest, eastern(2026, 9, 11, 19, 10))
+        )
+
+    def test_yesterdays_episode_does_not_satisfy_today(self):
+        newest = eastern(2026, 9, 4, 19, 6)
+        self.assertTrue(
+            main.awaiting_episode(self.SHOW, newest, eastern(2026, 9, 11, 19, 10))
+        )
+
+    def test_the_window_closes_so_a_skipped_day_is_not_watched_forever(self):
+        self.assertFalse(
+            main.awaiting_episode(self.SHOW, None, eastern(2026, 9, 11, 21, 30))
+        )
+
+    def test_a_show_is_not_watched_on_a_day_it_never_publishes(self):
+        self.assertFalse(
+            main.awaiting_episode(self.SHOW, None, eastern(2026, 9, 12, 19, 10))
+        )
+
+    def test_a_show_without_a_schedule_is_never_watched(self):
+        show = main.Show(2, "irregular", "Irregular")
+        self.assertFalse(
+            main.awaiting_episode(show, None, eastern(2026, 9, 11, 19, 10))
+        )
+
+    def test_the_schedule_follows_eastern_time_across_daylight_saving(self):
+        # 2026-01-09 is a Friday on EST, 2026-09-11 a Friday on EDT. The same
+        # local 19:00 is a different UTC hour, and both must be recognised.
+        for moment in (eastern(2026, 1, 9, 19, 10), eastern(2026, 9, 11, 19, 10)):
+            self.assertTrue(
+                main.awaiting_episode(self.SHOW, None, moment.astimezone(UTC))
+            )
+
+    def test_one_missing_publication_is_not_yet_a_warning(self):
+        newest = eastern(2026, 9, 4, 19, 6)
+        self.assertEqual(
+            main.missed_publications(self.SHOW, newest, eastern(2026, 9, 11, 22, 0)), 1
+        )
+
+    def test_several_missing_publications_are_counted(self):
+        newest = eastern(2026, 8, 14, 19, 6)
+        self.assertGreaterEqual(
+            main.missed_publications(self.SHOW, newest, eastern(2026, 9, 11, 22, 0)), 2
+        )
+
+    def test_an_up_to_date_feed_reports_nothing_missing(self):
+        newest = eastern(2026, 9, 11, 19, 6)
+        self.assertEqual(
+            main.missed_publications(self.SHOW, newest, eastern(2026, 9, 11, 22, 0)), 0
+        )
+
+    def test_every_configured_schedule_is_well_formed(self):
+        for show in main.SHOWS:
+            if show.schedule is None:
+                continue
+            with self.subTest(show=show.slug):
+                self.assertTrue(show.schedule.weekdays)
+                self.assertTrue(0 <= show.schedule.hour <= 23)
+                self.assertTrue(0 <= show.schedule.minute <= 59)
+                self.assertTrue(0 < show.schedule.window_minutes <= 24 * 60)
+                self.assertTrue(all(0 <= d <= 6 for d in show.schedule.weekdays))
+
+
+class WatchLoopTests(unittest.TestCase):
+    """The loop must never burn its window when there is nothing to wait for."""
+
+    def setUp(self):
+        self.slept = []
+        self.real_sleep = main.time.sleep
+        main.time.sleep = self.slept.append
+        self.addCleanup(setattr, main.time, "sleep", self.real_sleep)
+
+    def test_returns_at_once_when_no_show_is_due(self):
+        show = main.Show(1, "irregular", "Irregular")
+        results = {"irregular": main.ShowResult(show=show)}
+        with self.assertLogs(main.LOG, level="INFO"):
+            main.watch_for_episodes([show], results, ".", minutes=45, poll_seconds=180)
+        self.assertEqual(self.slept, [], "it must not sleep with nothing pending")
+
+    @staticmethod
+    def _due_show():
+        return main.Show(
+            1, "test", "Test", main.Schedule((main.FRIDAY,), 19, 0, window_minutes=120)
+        )
+
+    def _stub_process(self, episode_arrives_after=None):
+        """Replace the network pass with a counter, optionally simulating the
+        episode showing up after a given number of checks."""
+        calls = []
+
+        def fake_process(target, out_dir, dry_run=False):
+            calls.append(target.slug)
+            newest = None
+            if (
+                episode_arrives_after is not None
+                and len(calls) >= episode_arrives_after
+            ):
+                newest = eastern(2026, 9, 11, 19, 6)
+            return main.ShowResult(show=target, newest=newest, changed=newest is not None)
+
+        original = main.process_show
+        main.process_show = fake_process
+        self.addCleanup(setattr, main, "process_show", original)
+        return calls
+
+    def test_gives_up_when_the_window_closes(self):
+        show = self._due_show()
+        results = {"test": main.ShowResult(show=show)}
+        calls = self._stub_process()
+        # Friday 19:10 ET: the episode is due and missing, but no time is left.
+        with self.assertLogs(main.LOG, level="INFO") as logs:
+            main.watch_for_episodes(
+                [show],
+                results,
+                ".",
+                minutes=0,
+                poll_seconds=180,
+                now_provider=lambda: eastern(2026, 9, 11, 19, 10).astimezone(UTC),
+            )
+        self.assertEqual(calls, [], "an exhausted window must not re-check")
+        self.assertTrue(any("Watch window closed" in line for line in logs.output))
+
+    def test_stops_as_soon_as_the_episode_arrives(self):
+        show = self._due_show()
+        results = {"test": main.ShowResult(show=show)}
+        calls = self._stub_process(episode_arrives_after=2)
+        with self.assertLogs(main.LOG, level="INFO"):
+            main.watch_for_episodes(
+                [show],
+                results,
+                ".",
+                minutes=45,
+                poll_seconds=30,
+                now_provider=lambda: eastern(2026, 9, 11, 19, 10).astimezone(UTC),
+            )
+        self.assertEqual(len(calls), 2, "it must stop at the first sighting")
+        self.assertTrue(results["test"].changed)
+        self.assertEqual(self.slept, [30, 30])
+
+
+class TitleMergeGuardTests(unittest.TestCase):
+    def test_two_podcast_episodes_sharing_a_title_stay_separate(self):
+        # Upstream never lists one episode twice, so a repeated title there is
+        # a genuine second episode even a day apart.
+        index = main.EpisodeIndex()
+        index.add(episode(title="Le match", url=MP3, origin="rss"))
+        index.add(
+            episode(
+                title="Le match",
+                published=datetime(2026, 9, 12, 9, 6, tzinfo=UTC),
+                url="https://media.example.com/mp3/z/2026-09-12_05_06_00_a_0000.mp3",
+                origin="rss",
+            )
+        )
+        self.assertEqual(len(index), 2)
+
+    def test_a_page_episode_still_merges_into_its_podcast_twin(self):
+        index = main.EpisodeIndex()
+        kept = index.add(episode(title="Le match", url=MP3, origin="rss"))
+        index.add(episode(title="Le match", url="", origin="page"))
+        self.assertEqual(len(index), 1)
+        self.assertEqual(kept.url, MP3)
+
+
 class ShowConfigurationTests(unittest.TestCase):
     def test_every_show_has_a_unique_id_slug_and_feed_name(self):
         self.assertEqual(len({show.id for show in main.SHOWS}), len(main.SHOWS))
