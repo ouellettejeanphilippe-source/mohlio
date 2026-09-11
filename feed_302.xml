@@ -11,6 +11,22 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg"/>
     <item>
+      <title>Vendredi 11 septembre 2026 - 9/11 : 25 ans</title>
+      <description>&lt;p&gt;Il y a 25 ans aujourd&amp;#x27;hui, aux États-Unis, des attentats terroristes sans précédent  ont causé la mort de près de 3000 personnes. Des commémorations sont prévues aujourd&amp;#x27;hui dans plusieurs villes aux États-Unis et au Canada.&lt;/p&gt;</description>
+      <pubDate>Fri, 11 Sep 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d761682e-28ca-4398-af71-620c0d8fc379/2026-09-11_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d761682e-28ca-4398-af71-620c0d8fc379/2026-09-11_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>23:00</itunes:duration>
+    </item>
+    <item>
+      <title>9/11 : 25 ans</title>
+      <description>&amp;lt;p&amp;gt;Il y a 25 ans aujourd'hui, aux États-Unis, des attentats terroristes sans précédent ont causé la mort de près de 3000 personnes. Des commémorations sont prévues aujourd'hui dans plusieurs villes aux États-Unis et au Canada.&amp;lt;/p&amp;gt;</description>
+      <pubDate>Fri, 11 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/3c62c033-7d03-4e57-aa64-543b48a08671/2026-09-11_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/3c62c033-7d03-4e57-aa64-543b48a08671/2026-09-11_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
       <title>Jeudi 10 septembre 2026 : L’entrevue des cinq chefs</title>
       <description>&lt;p&gt;Les leaders des principaux partis ont fait face aux questions de la part de nos collègues Sébastien Bovet, Anne-Marie Dussault et Alec Castonguay, lors de l&amp;#x27;émission &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Cinq chefs, une élection &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Cinq chefs, une élection &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;Cinq chefs, une élection &lt;/span&gt;&lt;/q&gt;.&lt;/p&gt;</description>
       <pubDate>Thu, 10 Sep 2026 09:06:00 +0000</pubDate>
@@ -793,14 +809,6 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/a4b85c68-e13a-4574-9a43-758609d32f19/2026-05-08_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/a4b85c68-e13a-4574-9a43-758609d32f19/2026-05-08_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Jeudi 7 mai 2026 :&amp;nbsp;Début de la session parlementaire</title>
-      <description>&lt;p&gt;La première période des questions de Christine Fréchette a été marquée par des échanges musclés. L&amp;#x27;opposition l&amp;#x27;associe au bilan de la CAQ, tandis que Charles Milliard suscite la controverse sur le statut du français. Entre attaques et débats de fond, le ton est donné pour la suite de la session parlementaire à l&amp;#x27;Assemblée nationale.&lt;/p&gt;</description>
-      <pubDate>Thu, 07 May 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f61db44-d284-4c7e-9777-33e714beeda0/2026-05-07_05_06_00_alaune_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0f61db44-d284-4c7e-9777-33e714beeda0/2026-05-07_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:00</itunes:duration>
     </item>
     <item>
       <title>Début de la session parlementaire</title>
@@ -3200,14 +3208,6 @@
       <pubDate>Mon, 09 Dec 2024 05:06:00 -0500</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/3b1687d7-6cab-461d-8ab1-6461406f9039/2024-12-09_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/3b1687d7-6cab-461d-8ab1-6461406f9039/2024-12-09_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
-      <itunes:duration>00:22:58</itunes:duration>
-    </item>
-    <item>
-      <title>Le massacre de Polytechnique 35 ans après</title>
-      <description>&amp;lt;p&amp;gt;Retour sur le féminicide de l'école Polytechnique qui a coûté la vie à quatorze femmes il y a trente-cinq ans.&amp;lt;/p&amp;gt;</description>
-      <pubDate>Fri, 06 Dec 2024 05:06:00 -0500</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d436dcaf-77d6-48d4-be7c-c540c2877906/2024-12-06_05_06_00_alaunebaladoexterne_0000.mp3" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d436dcaf-77d6-48d4-be7c-c540c2877906/2024-12-06_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
       <itunes:duration>00:22:58</itunes:duration>
     </item>
   </channel>

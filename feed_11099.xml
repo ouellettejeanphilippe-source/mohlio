@@ -11,6 +11,14 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg"/>
     <item>
+      <title>Des agents d’IA rebelles hors de contrôle</title>
+      <description>&lt;p&gt;L’essor des agents d’intelligence artificielle (IA) rebelles; une première élection québécoise à l&amp;#x27;ère de l’IA générative; le portrait d’une entreprise qui pollue votre fil Facebook; des infrastructures critiques du Canada ciblées par des &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;hacktivistes &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;hacktivistes &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;hacktivistes&lt;/span&gt;&lt;/q&gt; étrangers; et le phénomène &lt;q data-attributes=&quot;{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Kirkiversary &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Kirkiversary &amp;quot;}}&quot;&gt;&lt;span lang=&quot;fr&quot; title=&quot;Français&quot;&gt;Kirkiversary&lt;/span&gt;&lt;/q&gt; ou l’étrange gloire posthume de Charlie Kirk.&lt;/p&gt;</description>
+      <pubDate>Fri, 11 Sep 2026 15:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2d8c3134-2994-4095-8b2a-1fef7188f229/2026-09-11_10_30_00_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2d8c3134-2994-4095-8b2a-1fef7188f229/2026-09-11_10_30_00_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:06:54</itunes:duration>
+    </item>
+    <item>
       <title>Drones 100&amp;nbsp;% autonomes&amp;nbsp;: les premiers assassinats confirmés</title>
       <description>&lt;p&gt;Des drones létaux complètement autonomes déployés en Ukraine et des milliers de bombardements en Iran guidés par l’IA; l’adoption accélérée d’une version amendée du projet de loi C-22; les dénouements de la saga Mythos aux États-Unis; des exemples troublants de campagnes d’ingérence étrangère menées en France et au Royaume-Uni; et une alerte à la fraude en marge de la Coupe du monde de soccer.&lt;/p&gt;</description>
       <pubDate>Fri, 19 Jun 2026 16:00:00 +0000</pubDate>
@@ -401,14 +409,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/37dd4811-f89b-4ec4-b186-aedce64b76da/2025-04-11_11_32_38_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/37dd4811-f89b-4ec4-b186-aedce64b76da/2025-04-11_11_32_38_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>50:08</itunes:duration>
-    </item>
-    <item>
-      <title>L’IA plus humaine que l’être humain? Et les fausses bandes-annonces démonétisées sur YouTube</title>
-      <description>&lt;p&gt;Au programme cette semaine&amp;nbsp;: un point de bascule vient-il vraiment d’être franchi par l’intelligence artificielle (IA)? On se pose la question alors que ChatGPT 4.5 a passé «&amp;nbsp;haut la main&amp;nbsp;» le célèbre test Turing; sur YouTube, la production de fausses bandes-annonces de films s’est «&amp;nbsp;industrialisée&amp;nbsp;» avec l’avènement de l’IA générative; et face au tollé causé par cette pratique, deux chaînes d’importance ont été démonétisées.&lt;/p&gt;</description>
-      <pubDate>Fri, 04 Apr 2025 15:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a2740e5c-3999-4ece-bb47-7682941a3d23/2025-04-04_11_40_04_decrypteurslebaladoohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a2740e5c-3999-4ece-bb47-7682941a3d23/2025-04-04_11_40_04_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>39:16</itunes:duration>
     </item>
   </channel>
 </rss>

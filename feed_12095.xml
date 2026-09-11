@@ -11,12 +11,20 @@
     </image>
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg"/>
     <item>
+      <title>Fréchette qui patine autour de la question souverainiste, et un plaidoyer pour la bureaucratie</title>
+      <description/>
+      <pubDate>Fri, 11 Sep 2026 12:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bcb9c3c4-dd32-4e1b-a28e-592f9836b1e9/2026-09-11_07_50_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bcb9c3c4-dd32-4e1b-a28e-592f9836b1e9/2026-09-11_07_50_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>29:00</itunes:duration>
+    </item>
+    <item>
       <title>Les journalistes licheux de fesses, et l’IA pourrait nous tuer d’ici quelques années
 </title>
       <description>&lt;p&gt;À venir.&lt;/p&gt;</description>
       <pubDate>Thu, 10 Sep 2026 12:15:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1aca69eb-6073-4182-9c87-568328b5dee2/2026-09-10_06_39_52_olivierniquet247enjaquetteohdio_0000_01_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1aca69eb-6073-4182-9c87-568328b5dee2/2026-09-10_06_39_52_olivierniquet247enjaquetteohdio_0000_01_master.m3u8?v=2</guid>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a876f88f-085a-4d9a-9189-70719e1d88cf/2026-09-11_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a876f88f-085a-4d9a-9189-70719e1d88cf/2026-09-11_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>21:08</itunes:duration>
     </item>
     <item>
@@ -402,14 +410,6 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/956a20d7-9657-4501-9ca4-90e12f43ab77/2026-05-15_07_43_56_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>19:43</itunes:duration>
-    </item>
-    <item>
-      <title>Un vol au parc des gnomes, et du plastique à base de légumes moches</title>
-      <description/>
-      <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9d1247f2-0fe6-4e12-9452-793c9cf9e327/2026-05-14_07_42_48_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="100000000" type="audio/mpeg"/>
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9d1247f2-0fe6-4e12-9452-793c9cf9e327/2026-05-14_07_42_48_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
-      <itunes:duration>23:47</itunes:duration>
     </item>
   </channel>
 </rss>
