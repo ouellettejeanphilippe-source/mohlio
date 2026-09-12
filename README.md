@@ -9,37 +9,39 @@ Les flux sont servis ici :
 
 ## À quelle vitesse un nouvel épisode arrive
 
-Le workflow demande un passage **aux 10 minutes**, et c'est le passage lui-même
-qui attend. Quand une émission est attendue et que son épisode n'est pas encore
-là, le générateur **revérifie toutes les 3 minutes** jusqu'à ce qu'il arrive, ou
-pendant 45 minutes au maximum. En dehors de ces fenêtres, un passage dure une
-quinzaine de secondes et se termine.
+Quand une émission est attendue et que son épisode n'est pas encore là, le
+générateur **revérifie toutes les 3 minutes** jusqu'à ce qu'il arrive, pendant
+2 heures au maximum. En dehors de ces fenêtres, un passage dure une quinzaine
+de secondes et se termine.
 
-Un passage qui démarre **juste avant** une parution reste en place et l'attend,
-au lieu de se terminer et de laisser l'épisode au passage suivant. C'est ce qui
-fait la différence entre capter un épisode en quelques minutes et le capter une
-demi-heure après.
+Un passage qui démarre **avant** une parution reste en place et l'attend, au
+lieu de se terminer et de laisser l'épisode au passage suivant.
 
-### Pourquoi les deux moitiés sont nécessaires
+### Ce n'est pas le cadran qui décide
 
-GitHub ne livre qu'une fraction des passages planifiés demandés, et les livre en
-retard. Mesures faites sur ce dépôt :
+GitHub livre un petit nombre de passages planifiés par jour, à peu près fixe,
+quel que soit le nombre demandé. Mesures faites sur ce dépôt :
 
-| Cadran demandé | Passages livrés |
+| Créneaux demandés par jour | Passages livrés |
 |---|---|
-| 24 créneaux par jour, denses | 5 à 11 par jour, soit 21 % à 46 % |
-| 1 créneau par heure | 1 passage en 5 heures, soit 20 %, avec 36 min de retard |
+| 24 | 5 à 11 |
+| 144 | 5 |
 
-Deux leçons. Demander un passage aux 10 minutes ne donne pas un délai de 10
-minutes. Mais en demander moins ne les rend pas plus fiables pour autant : le
-créneau horaire n'a pas été mieux livré que le cadran dense. La fraction est
-simplement imprévisible, donc le seul levier sur le nombre de passages qui
-arrivent est le nombre qu'on demande.
+Le 12 septembre, les cinq passages sont arrivés à 05:19, 09:26, 12:58, 16:02
+et 18:18 UTC, soit environ un aux trois heures. Demander plus de créneaux ne
+comble pas ces trous.
 
-D'où les deux moitiés : demander beaucoup de créneaux, puisqu'un passage sans
-rien à faire coûte une quinzaine de secondes, et faire en sorte que chaque
-passage livré couvre toute la fenêtre autour d'une parution plutôt qu'un seul
-instant.
+Le levier est donc la **durée que couvre chaque passage livré**, et il se
+mesure. Le même jour :
+
+| Émission | Parution | Publiée | Délai |
+|---|---|---|---|
+| Ça s'explique | 10:00 UTC | 10:02 | **2 min**, un passage attendait |
+| Pouvez-vous répéter la question? | 17:00 UTC | 18:18 | 78 min, aucun passage en vol |
+
+D'où une fenêtre d'attente de 2 heures. Un passage sans rien à faire coûte une
+quinzaine de secondes, et l'attente s'arrête dès que la fenêtre de l'émission
+se referme.
 
 ### Heures de parution suivies
 

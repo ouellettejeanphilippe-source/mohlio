@@ -382,7 +382,7 @@ def eastern(year, month, day, hour, minute=0):
 class ScheduleTests(unittest.TestCase):
     # 2026-09-11 is a Friday, 2026-09-12 a Saturday.
     SHOW = main.Show(
-        1, "test", "Test", main.Schedule((main.FRIDAY,), 19, 0, window_minutes=120)
+        1, "test", "Test", (main.Schedule((main.FRIDAY,), 19, 0, window_minutes=120),)
     )
 
     def test_not_watched_before_the_expected_time(self):
@@ -474,14 +474,35 @@ class ScheduleTests(unittest.TestCase):
 
     def test_every_configured_schedule_is_well_formed(self):
         for show in main.SHOWS:
-            if show.schedule is None:
+            claimed: set[int] = set()
+            for schedule in show.schedules:
+                with self.subTest(show=show.slug, hour=schedule.hour):
+                    self.assertTrue(schedule.weekdays)
+                    self.assertTrue(0 <= schedule.hour <= 23)
+                    self.assertTrue(0 <= schedule.minute <= 59)
+                    self.assertTrue(0 < schedule.window_minutes <= 24 * 60)
+                    self.assertTrue(all(0 <= d <= 6 for d in schedule.weekdays))
+                    # One time per weekday, otherwise which one applies is
+                    # decided by declaration order rather than by intent.
+                    self.assertFalse(claimed & set(schedule.weekdays))
+                    claimed |= set(schedule.weekdays)
+
+    def test_a_weekend_time_does_not_use_the_weekday_one(self):
+        # La journée airs at 14:25 on weekdays but at 07:00 on Saturdays.
+        # Treating both as 14:25 made the Saturday episode wait two hours.
+        journee = main.SHOWS_BY_ID[9887]
+        saturday = eastern(2026, 9, 12, 7, 10)
+        weekday = eastern(2026, 9, 11, 7, 10)
+        self.assertTrue(main.awaiting_episode(journee, None, saturday))
+        self.assertFalse(main.awaiting_episode(journee, None, weekday))
+
+    def test_each_show_with_a_schedule_covers_its_published_days(self):
+        for show in main.SHOWS:
+            if not show.schedules:
                 continue
+            days = {day for schedule in show.schedules for day in schedule.weekdays}
             with self.subTest(show=show.slug):
-                self.assertTrue(show.schedule.weekdays)
-                self.assertTrue(0 <= show.schedule.hour <= 23)
-                self.assertTrue(0 <= show.schedule.minute <= 59)
-                self.assertTrue(0 < show.schedule.window_minutes <= 24 * 60)
-                self.assertTrue(all(0 <= d <= 6 for d in show.schedule.weekdays))
+                self.assertTrue(days, "a schedule must name at least one day")
 
 
 class WatchLoopTests(unittest.TestCase):
@@ -503,7 +524,7 @@ class WatchLoopTests(unittest.TestCase):
     @staticmethod
     def _due_show():
         return main.Show(
-            1, "test", "Test", main.Schedule((main.FRIDAY,), 19, 0, window_minutes=120)
+            1, "test", "Test", (main.Schedule((main.FRIDAY,), 19, 0, window_minutes=120),)
         )
 
     def _stub_process(self, episode_arrives_after=None):
