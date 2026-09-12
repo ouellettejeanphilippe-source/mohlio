@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Sep 2026 05:00:00 -0400</pubDate>
-    <lastBuildDate>Thu, 10 Sep 2026 05:00:00 -0400</lastBuildDate>
+    <pubDate>Sat, 12 Sep 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 12 Sep 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>En campagne : le message politique passe-t-il?</title>
+      <description>&lt;p&gt;Depuis deux semaines, les cinq partis politiques en lice et leurs chefs utilisent toutes les tribunes à leur disposition pour présenter leurs engagements et se faire connaître de l’électorat. Malgré ce battage médiatique incessant et des stratégies web de plus en plus poussées, le message atteint-il vraiment sa cible? L'analyste politique et correspondante parlementaire Véronique Prince fait le point.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1272812/campagne-electorale-provinciales-elections-quebec-2026-veronique-prince</link>
+      <pubDate>Sat, 12 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d9344707-d457-40b3-9b7c-ca7b884284aa/2026-09-11_16_46_00_casexplique_0000_master.m3u8" length="21216000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d9344707-d457-40b3-9b7c-ca7b884284aa/2026-09-11_16_46_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:22:06</itunes:duration>
+    </item>
     <item>
       <title>Campagne électorale : démystifions les sondages</title>
       <description>&lt;p&gt;Les sondages électoraux prennent beaucoup de place ces jours-ci dans les médias du Québec. Leurs résultats alimentent sans cesse une petite armée d’analystes, de personnes élues et de commentateurs et commentatrices en tout genre. À travers tout ça, il n’est pas toujours facile pour l’électorat de bien décoder la portée réelle de ces coups de sonde. Philippe J. Fournier, créateur de l'agrégateur Qc125, lève le voile sur la mécanique des sondages et les éléments clés qui en assurent la validité.&lt;/p&gt;</description>
