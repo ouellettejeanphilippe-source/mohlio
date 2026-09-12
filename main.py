@@ -140,7 +140,16 @@ class Show:
     id: int
     slug: str
     title: str
-    schedule: Schedule | None = None
+    # One entry per publication pattern. Several shows keep a weekday time
+    # and a different weekend one, and treating them as a single time is
+    # what made a Saturday episode wait two hours instead of three minutes.
+    schedules: tuple[Schedule, ...] = ()
+
+    def schedule_for(self, moment: datetime) -> Schedule | None:
+        for schedule in self.schedules:
+            if schedule.is_due_on(moment):
+                return schedule
+        return None
 
     @property
     def filename(self) -> str:
@@ -161,31 +170,37 @@ SHOWS: tuple[Show, ...] = (
         6108,
         "explique",
         "Ça s'explique",
-        Schedule((TUESDAY, WEDNESDAY, THURSDAY, SATURDAY), 5, 0, 180),
+        (
+            Schedule((TUESDAY, WEDNESDAY, THURSDAY), 5, 0, 180),
+            Schedule((SATURDAY,), 6, 0, 180),
+        ),
     ),
     Show(
         9887,
         "journee",
         "La journée (est encore jeune)",
-        Schedule((MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY), 14, 25),
+        (
+            Schedule(WEEKDAYS, 14, 25),
+            Schedule((SATURDAY,), 7, 0),
+        ),
     ),
-    Show(11099, "decrypteurs", "Décrypteurs : le balado", Schedule((FRIDAY,), 11, 0, 150)),
+    Show(11099, "decrypteurs", "Décrypteurs : le balado", (Schedule((FRIDAY,), 11, 0, 150),)),
     Show(6327, "betisier", "Le bêtisier"),
-    Show(12095, "niquet", "Olivier Niquet 24/7 (en jaquette)", Schedule(WEEKDAYS, 8, 0, 150)),
-    Show(302, "une", "À la une", Schedule(WEEKDAYS, 5, 0)),
+    Show(12095, "niquet", "Olivier Niquet 24/7 (en jaquette)", (Schedule(WEEKDAYS, 8, 0, 150),)),
+    Show(302, "une", "À la une", (Schedule(WEEKDAYS, 5, 0),)),
     Show(
         6056,
         "recherche",
         "Moteur de recherche",
-        Schedule((MONDAY, TUESDAY, WEDNESDAY, THURSDAY), 19, 0),
+        (Schedule((MONDAY, TUESDAY, WEDNESDAY, THURSDAY), 19, 0),),
     ),
-    Show(7791, "question", "Pouvez-vous répéter la question?", Schedule((SATURDAY,), 13, 0)),
+    Show(7791, "question", "Pouvez-vous répéter la question?", (Schedule((SATURDAY,), 13, 0),)),
     Show(6104, "hockey", "Tellement hockey"),
     Show(
         13061,
         "changement",
         "Changement de ligne",
-        Schedule((WEDNESDAY, THURSDAY), 15, 0, 180),
+        (Schedule((WEDNESDAY, THURSDAY), 15, 0, 180),),
     ),
 )
 
@@ -1196,15 +1211,16 @@ def recent_expected_publications(
     show: Show, now: datetime, count: int = 3
 ) -> list[datetime]:
     """The last ``count`` times this show was expected to publish, newest first."""
-    if show.schedule is None:
+    if not show.schedules:
         return []
     local = now.astimezone(EASTERN)
     found: list[datetime] = []
     for days_back in range(0, 8 * 7):
         day = local - timedelta(days=days_back)
-        if not show.schedule.is_due_on(day):
+        schedule = show.schedule_for(day)
+        if schedule is None:
             continue
-        expected = show.schedule.expected_at(day)
+        expected = schedule.expected_at(day)
         if expected <= local:
             found.append(expected)
             if len(found) == count:
@@ -1229,15 +1245,14 @@ def awaiting_episode(
     False once the window closes, so a show that skips a day (a holiday, a
     season break) is not watched for the rest of the day.
     """
-    if show.schedule is None:
-        return False
     local = now.astimezone(EASTERN)
-    if not show.schedule.is_due_on(local):
+    schedule = show.schedule_for(local)
+    if schedule is None:
         return False
-    expected = show.schedule.expected_at(local)
+    expected = schedule.expected_at(local)
     if local < expected - timedelta(minutes=lookahead_minutes):
         return False
-    if local > expected + timedelta(minutes=show.schedule.window_minutes):
+    if local > expected + timedelta(minutes=schedule.window_minutes):
         return False
     if newest is None:
         return True

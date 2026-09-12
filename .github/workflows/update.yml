@@ -1,29 +1,35 @@
 name: Update podcast feeds
 
-# How often this runs, and why it is shaped this way
-# --------------------------------------------------
-# GitHub delivers only a fraction of the scheduled runs a workflow asks for,
-# and delivers them late. Measured on this repository:
+# What actually decides how fast an episode reaches the feeds
+# -----------------------------------------------------------
+# Not the schedule. GitHub delivers a small, roughly fixed number of
+# scheduled runs a day for this repository, however many are asked for.
+# Measured here:
 #
-#   24 slots a day, dense    ->  5 to 11 runs delivered   (21% to 46%)
-#   1 slot an hour           ->  1 run in 5 hours         (20%, 36 min late)
+#   24 slots a day requested   ->   5 to 11 runs delivered
+#   144 slots a day requested  ->   5 runs delivered
 #
-# Two lessons. Asking for a run every ten minutes does not give a ten minute
-# reaction time. But asking for fewer runs does not make them more reliable
-# either: the hourly slot was delivered no better than the dense one. The
-# fraction is simply unpredictable, so the only lever on how many runs arrive
-# is how many are asked for.
+# On 2026-09-12 the five runs arrived at 05:19, 09:26, 12:58, 16:02 and
+# 18:18 UTC: about one every three hours, with gaps of over two hours.
+# Asking for more slots does not close those gaps.
 #
-# Hence both halves of the design:
-#   - Ask for a slot every ten minutes, all day. A run with nothing to do
-#     finishes in about fifteen seconds, so the ones that do arrive are cheap.
-#   - Make each delivered run count: when a show is due, or is due within the
-#     time the run has left, `--watch` holds the run open and re-checks every
-#     three minutes until the episode appears. One delivered run therefore
-#     covers the whole window around a publication instead of a single instant.
+# So the lever is how much ground each delivered run covers. When a show is
+# due, or comes due within the time the run has left, `--watch` holds the run
+# open and re-checks every three minutes until the episode appears, for up to
+# two hours. That window is what turns one sparse delivery into a fast
+# capture, and it is measurable: the run delivered at 09:26 waited, and
+# published Ça s'explique two minutes after it aired at 10:00. The same day,
+# Pouvez-vous répéter la question aired at 17:00 with no run in flight and
+# waited 78 minutes, because the 16:02 run only looked 45 minutes ahead and
+# left.
 #
-# Which shows are due is decided in `main.py` from real Eastern time, so it
-# stays correct across daylight saving without any shell date arithmetic.
+# A run with nothing due still finishes in about fifteen seconds, so the long
+# window costs nothing outside the windows themselves, and the watch stops as
+# soon as the show's own window closes.
+#
+# Which shows are due is decided in `main.py` from real Eastern time, per
+# weekday, so it stays correct across daylight saving and across shows that
+# air at a different time on weekends.
 on:
   schedule:
     - cron: '*/10 * * * *'
@@ -45,7 +51,7 @@ permissions:
 jobs:
   update-feeds:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 150
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -82,7 +88,7 @@ jobs:
       - name: Update feeds
         id: feeds
         if: github.event_name != 'pull_request'
-        run: python main.py --watch --watch-minutes 45 --poll-seconds 180
+        run: python main.py --watch --watch-minutes 120 --poll-seconds 180
 
       - name: Commit and push changes
         if: github.event_name != 'pull_request'
