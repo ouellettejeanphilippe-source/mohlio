@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Sep 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Sep 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Sat, 12 Sep 2026 11:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 12 Sep 2026 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 12 sept. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Jean Lacroix affirme qu’il est &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;enrobé de bonheur &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;enrobé de bonheur &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;enrobé de bonheur&lt;/span&gt;&lt;/q&gt; depuis que Christine Fréchette l’a appelé pour qu’il soit candidat. Jean-François Lisée et Michelle Courchesne se chicanent. Et Charles Milliard nous fait remarquer qu’il est… francophone.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1272786/samedi-12-sept-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 12 Sep 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c0e37732-59da-4dc4-ad99-b4e9a22b2e11/2026-09-11_11_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="38160000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c0e37732-59da-4dc4-ad99-b4e9a22b2e11/2026-09-11_11_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:39:45</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 11 sept. 2026 : Pierre Brassard et Christine Black</title>
       <description>&lt;p&gt;Olivier nous fait découvrir les préférences culinaires des chefs de parti. Pierre Brassard vous invite à glisser sur une Nathalie Petrowski géante. Et Christine Black parle de la préparation de la Ville de Montréal pour les Championnats du Monde Route UCI. &lt;/p&gt;</description>
