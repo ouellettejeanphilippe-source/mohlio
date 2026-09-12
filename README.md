@@ -9,28 +9,37 @@ Les flux sont servis ici :
 
 ## À quelle vitesse un nouvel épisode arrive
 
-Le workflow demande **un passage par heure**, et c'est le passage lui-même qui
-attend. Quand une émission est attendue et que son épisode n'est pas encore là,
-le générateur **revérifie toutes les 3 minutes** jusqu'à ce qu'il arrive, ou
-pendant 45 minutes au maximum. En dehors de ces fenêtres, un passage dure
-quelques secondes et se termine.
+Le workflow demande un passage **aux 10 minutes**, et c'est le passage lui-même
+qui attend. Quand une émission est attendue et que son épisode n'est pas encore
+là, le générateur **revérifie toutes les 3 minutes** jusqu'à ce qu'il arrive, ou
+pendant 45 minutes au maximum. En dehors de ces fenêtres, un passage dure une
+quinzaine de secondes et se termine.
 
 Un passage qui démarre **juste avant** une parution reste en place et l'attend,
-au lieu de se terminer et de laisser l'épisode au passage suivant une heure
-plus tard. C'est ce qui fait la différence entre capter un épisode en quelques
-minutes et le capter une demi-heure après.
+au lieu de se terminer et de laisser l'épisode au passage suivant. C'est ce qui
+fait la différence entre capter un épisode en quelques minutes et le capter une
+demi-heure après.
 
-Un nouvel épisode apparaît donc dans votre application environ **3 minutes**
-après sa parution, pendant la fenêtre de son émission.
+### Pourquoi les deux moitiés sont nécessaires
 
-### Pourquoi pas simplement un passage aux 10 minutes
+GitHub ne livre qu'une fraction des passages planifiés demandés, et les livre en
+retard. Mesures faites sur ce dépôt :
 
-Parce que GitHub ne le livre pas. Mesuré sur ce dépôt pendant dix jours, 24
-créneaux planifiés par jour ont produit entre 5 et 11 passages, et une plage
-`*/10` n'a donné qu'un passage toutes les 35 minutes environ. Demander un
-passage aux 10 minutes ne donne pas un délai de 10 minutes ; ça remplit
-seulement l'onglet Actions. Le créneau horaire, lui, est livré de façon fiable,
-d'où le choix de faire l'attente à l'intérieur du passage.
+| Cadran demandé | Passages livrés |
+|---|---|
+| 24 créneaux par jour, denses | 5 à 11 par jour, soit 21 % à 46 % |
+| 1 créneau par heure | 1 passage en 5 heures, soit 20 %, avec 36 min de retard |
+
+Deux leçons. Demander un passage aux 10 minutes ne donne pas un délai de 10
+minutes. Mais en demander moins ne les rend pas plus fiables pour autant : le
+créneau horaire n'a pas été mieux livré que le cadran dense. La fraction est
+simplement imprévisible, donc le seul levier sur le nombre de passages qui
+arrivent est le nombre qu'on demande.
+
+D'où les deux moitiés : demander beaucoup de créneaux, puisqu'un passage sans
+rien à faire coûte une quinzaine de secondes, et faire en sorte que chaque
+passage livré couvre toute la fenêtre autour d'une parution plutôt qu'un seul
+instant.
 
 ### Heures de parution suivies
 
@@ -129,14 +138,14 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-09-11 23:59 UTC
+Last update: 2026-09-12 00:48 UTC
 
 ### Feeds
 
-- ✅ [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 9 episodes, latest 2025-12-29 06:00 ET
+- 🆕 [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 10 episodes, latest 2025-12-29 06:00 ET
 - ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 30 episodes, latest 2026-06-18 15:00 ET
 - ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 50 episodes, latest 2026-09-11 11:00 ET
-- 🆕 [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 48 episodes, latest 2026-09-10 05:00 ET
+- ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 50 episodes, latest 2026-09-10 05:00 ET
 - ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 51 episodes, latest 2026-09-11 15:30 ET
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 51 episodes, latest 2026-09-11 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 50 episodes, latest 2026-09-11 08:30 ET

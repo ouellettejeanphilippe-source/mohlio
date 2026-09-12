@@ -1,24 +1,32 @@
 name: Update podcast feeds
 
-# Why one run per hour, and not one every few minutes
-# ---------------------------------------------------
+# How often this runs, and why it is shaped this way
+# --------------------------------------------------
 # GitHub delivers only a fraction of the scheduled runs a workflow asks for,
-# and delivers them late. Measured on this repository over ten days, 24
-# requested slots a day produced between 5 and 11 runs, and a `*/10` window
-# produced roughly one run every 35 minutes. Asking for a run every ten
-# minutes therefore does not give a ten minute reaction time; it just fills
-# the Actions tab.
+# and delivers them late. Measured on this repository:
 #
-# So the schedule asks for one run an hour, which is the granularity GitHub
-# does deliver reliably, and the run itself does the waiting: when a show is
-# due and its episode has not arrived yet, `--watch` re-checks it every three
-# minutes until it shows up. Outside those windows a run takes a few seconds
-# and exits. Which shows are due is decided in `main.py` from real Eastern
-# time, so it stays correct across daylight saving without any shell date
-# arithmetic.
+#   24 slots a day, dense    ->  5 to 11 runs delivered   (21% to 46%)
+#   1 slot an hour           ->  1 run in 5 hours         (20%, 36 min late)
+#
+# Two lessons. Asking for a run every ten minutes does not give a ten minute
+# reaction time. But asking for fewer runs does not make them more reliable
+# either: the hourly slot was delivered no better than the dense one. The
+# fraction is simply unpredictable, so the only lever on how many runs arrive
+# is how many are asked for.
+#
+# Hence both halves of the design:
+#   - Ask for a slot every ten minutes, all day. A run with nothing to do
+#     finishes in about fifteen seconds, so the ones that do arrive are cheap.
+#   - Make each delivered run count: when a show is due, or is due within the
+#     time the run has left, `--watch` holds the run open and re-checks every
+#     three minutes until the episode appears. One delivered run therefore
+#     covers the whole window around a publication instead of a single instant.
+#
+# Which shows are due is decided in `main.py` from real Eastern time, so it
+# stays correct across daylight saving without any shell date arithmetic.
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/10 * * * *'
   push:
     branches: [main]
   pull_request:

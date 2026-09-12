@@ -342,6 +342,31 @@ def broadcast_stamp(url: str | None) -> str:
     return match.group(0) if match else ""
 
 
+def episode_id(link: str | None) -> str:
+    """The episode id inside an OHdio page address.
+
+    Both shapes end with the id followed by a slug::
+
+        /ohdio/balados/6108/ca-sexplique.../1271565/campagne-electorale...
+        /premiere/emissions/nouvelles-info.../episodes/1235980/vendredi-11...
+
+    Publication instants are *not* unique within a show: the podcast feed
+    stamps its MP3s on a fixed daily slot, so two unrelated episodes can
+    share one. This id is unique, which is why matching relies on it.
+    """
+    if not link:
+        return ""
+    parts = [part for part in link.split("?")[0].split("/") if part]
+    # A numeric segment followed by a slug. The show id in ".../balados/6108"
+    # ends the path and is therefore not mistaken for an episode.
+    ids = [
+        part
+        for index, part in enumerate(parts[:-1])
+        if part.isdigit() and parts[index + 1]
+    ]
+    return ids[-1] if ids else ""
+
+
 def is_progressive(url: str, mime: str = "") -> bool:
     """True for a plain downloadable file, False for an HLS playlist.
 
@@ -431,12 +456,13 @@ class Episode:
             yield f"stamp:{stamp}"
         if self.url:
             yield f"url:{self.url.split('?')[0]}"
-        if self.published:
-            # Two episodes of one show never share a broadcast instant, and
-            # the page exposes it before the media id has been resolved.
-            # This is what lets a steady-state run recognise every episode
-            # without spending a single media-validation call.
-            yield f"time:{int(self.published.timestamp())}"
+        episode = episode_id(self.link)
+        if episode:
+            # The id OHdio puts in an episode's page address. It is the only
+            # identifier the page exposes before the media id is resolved, so
+            # it is what lets a steady-state run recognise an episode without
+            # spending a media-validation call on it.
+            yield f"episode:{episode}"
         title = normalize_title(self.title)
         if title:
             yield f"title:{title}"
@@ -457,6 +483,20 @@ def _dates_are_close(left: Episode, right: Episode, days: int = 2) -> bool:
     return abs(left.published - right.published) <= timedelta(days=days)
 
 
+def _contradicted_by_episode_id(candidate: Episode, known: Episode) -> bool:
+    """True when the two carry different OHdio episode ids.
+
+    Media file names identify the *broadcast slot*, not the episode: the
+    podcast feed and the show page can disagree about which episode fills a
+    given slot, and when they do, a shared file-name stamp is not proof that
+    two entries are the same episode. An explicit difference of episode id
+    is proof that they are not, and it wins. Losing an episode from a feed is
+    a worse failure than carrying it twice.
+    """
+    left, right = episode_id(candidate.link), episode_id(known.link)
+    return bool(left and right and left != right)
+
+
 def _may_merge_on_title(candidate: Episode, known: Episode) -> bool:
     """Whether a shared title alone is enough to call these one episode.
 
@@ -465,6 +505,8 @@ def _may_merge_on_title(candidate: Episode, known: Episode) -> bool:
     listed separately: upstream does not publish one episode twice, so a
     repeated title there is a real second episode.
     """
+    if _contradicted_by_episode_id(candidate, known):
+        return False
     if not _dates_are_close(candidate, known):
         return False
     both_from_podcast_rss = candidate.origin == "rss" and known.origin == "rss"
@@ -541,6 +583,10 @@ class EpisodeIndex:
             if alias.startswith("title:"):
                 if weak is None and _may_merge_on_title(candidate, known):
                     weak = known
+                continue
+            if alias.startswith("stamp:") and _contradicted_by_episode_id(
+                candidate, known
+            ):
                 continue
             return known
         return weak
