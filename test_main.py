@@ -71,6 +71,87 @@ class BroadcastStampTests(unittest.TestCase):
         self.assertEqual(main.broadcast_stamp("https://example.com/audio.mp3"), "")
 
 
+class EpisodeIdTests(unittest.TestCase):
+    def test_reads_the_id_from_both_address_shapes(self):
+        self.assertEqual(
+            main.episode_id(
+                "https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique"
+                "/1271565/campagne-electorale-demystifions-les-sondages"
+            ),
+            "1271565",
+        )
+        self.assertEqual(
+            main.episode_id(
+                "/premiere/emissions/nouvelles-info/episodes/1235980/vendredi-11"
+            ),
+            "1235980",
+        )
+
+    def test_a_show_address_carries_no_episode_id(self):
+        self.assertEqual(
+            main.episode_id("https://ici.radio-canada.ca/ohdio/balados/6108"), ""
+        )
+        self.assertEqual(main.episode_id(""), "")
+
+
+class SharedPublicationInstantTests(unittest.TestCase):
+    """Two episodes of one show can share a publication instant.
+
+    The podcast feed stamps its MP3s on a fixed daily slot, so an unrelated
+    episode published the same day carries the same timestamp. Matching on
+    the instant merged them and silently dropped one from the feed.
+    """
+
+    OTHER = (
+        "https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique"
+        "/1272343/attentats-du-11-septembre"
+    )
+    POLLS = (
+        "https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique"
+        "/1271565/campagne-electorale-demystifions-les-sondages"
+    )
+
+    def test_a_shared_instant_alone_does_not_merge_two_episodes(self):
+        instant = datetime(2026, 9, 10, 9, 0, tzinfo=UTC)
+        index = main.EpisodeIndex()
+        index.add(
+            episode(
+                title="Campagne électorale : démystifions les sondages",
+                published=instant,
+                url=MP3,
+                link=self.POLLS,
+                origin="rss",
+            )
+        )
+        index.add(
+            episode(
+                title="Attentats du 11 Septembre : que reste-t-il d’Al-Qaïda",
+                published=instant,
+                url="",
+                link=self.OTHER,
+                origin="page",
+            )
+        )
+        self.assertEqual(len(index), 2, "both episodes must survive")
+
+    def test_the_episode_id_matches_across_differing_titles(self):
+        # The page and the podcast feed word titles differently; the id in the
+        # address is what proves they are the same episode.
+        index = main.EpisodeIndex()
+        known = index.add(
+            episode(
+                title="Christine Fréchette appelle au vote stratégique",
+                url=MP3,
+                link=self.POLLS,
+                origin="rss",
+            )
+        )
+        found = index.find(
+            episode(title="Appel au vote stratégique", url="", link=self.POLLS)
+        )
+        self.assertIs(found, known)
+
+
 class EnclosureTests(unittest.TestCase):
     def test_hls_playlists_are_not_progressive(self):
         self.assertFalse(main.is_progressive(HLS))
@@ -128,12 +209,25 @@ class MergeTests(unittest.TestCase):
         index.add(episode(title="L'entrevue", url=MP3, origin="rss"))
         self.assertEqual(len(index), 1)
 
-    def test_the_broadcast_instant_matches_before_any_url_is_known(self):
+    def test_a_shared_instant_is_not_enough_to_match(self):
+        # This used to match on the publication instant alone, which merged
+        # two unrelated episodes that the podcast feed had stamped on the same
+        # daily slot. An episode with no url, no link and an unrelated title
+        # is now treated as new: it gets resolved, and the broadcast stamp in
+        # the resolved url is what merges it if it really is the same episode.
+        index = main.EpisodeIndex()
+        index.add(episode(title="Titre du flux", url=MP3, origin="rss"))
+        found = index.find(episode(title="Un tout autre titre", url=""))
+        self.assertIsNone(found)
+
+    def test_the_resolved_url_still_merges_it_afterwards(self):
         index = main.EpisodeIndex()
         known = index.add(episode(title="Titre du flux", url=MP3, origin="rss"))
-        # What the page gives us: no URL yet, and an editorially different title.
-        found = index.find(episode(title="Un tout autre titre", url=""))
-        self.assertIs(found, known, "a known episode must not be resolved again")
+        # Same broadcast, resolved to the HLS rendition: the shared stamp in
+        # the file name proves they are one episode.
+        index.add(episode(title="Un tout autre titre", url=HLS))
+        self.assertEqual(len(index), 1)
+        self.assertEqual(known.url, MP3)
 
     def test_same_title_one_year_apart_stays_two_episodes(self):
         index = main.EpisodeIndex()
