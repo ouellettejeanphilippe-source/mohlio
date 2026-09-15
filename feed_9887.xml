@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mardi 15 sept. 2026 : Suzie Bouchard et Manon Massé</title>
+      <description>&lt;p&gt;Olivier nous fait écouter le joueur de hockey Chris Kreider, qui affirme que sa présence va &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;apporter du papier sablé &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;apporter du papier sablé &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;apporter du papier sablé&lt;/span&gt;&lt;/q&gt; au Canadien. Suzie Bouchard veut sauver les joueurs de hockey en danger. Et Manon Massé explique pourquoi elle est tannée des sondages.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1273530/mardi-15-sept-2026-suzie-bouchard-et-manon-masse</link>
+      <pubDate>Tue, 15 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5a89face-d091-4751-b068-c217bb1981aa/2026-09-15_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="33136000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5a89face-d091-4751-b068-c217bb1981aa/2026-09-15_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:34:31</itunes:duration>
+    </item>
     <item>
       <title>Lundi 14 sept. 2026 : Gabrielle Côté et Philippe J. Fournier</title>
       <description>&lt;p&gt;Olivier présente les propos du candidat conservateur Doom Dumas et de l’ex-candidat conservateur Éric Lanthier sur l’avortement. Gabrielle Côté explique le lien entre élection et libido. Et Philippe J. Fournier se penche sur les sondages.&lt;/p&gt;</description>
