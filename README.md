@@ -9,39 +9,43 @@ Les flux sont servis ici :
 
 ## À quelle vitesse un nouvel épisode arrive
 
-Quand une émission est attendue et que son épisode n'est pas encore là, le
-générateur **revérifie toutes les 3 minutes** jusqu'à ce qu'il arrive, pendant
-2 heures au maximum. En dehors de ces fenêtres, un passage dure une quinzaine
-de secondes et se termine.
-
-Un passage qui démarre **avant** une parution reste en place et l'attend, au
-lieu de se terminer et de laisser l'épisode au passage suivant.
+Quand une émission est attendue, ou le sera dans les **4 heures** qui suivent,
+le passage reste en place. Il dort jusqu'à l'ouverture de la fenêtre, puis
+**revérifie toutes les 3 minutes** jusqu'à ce que l'épisode paraisse. En dehors
+de ces fenêtres, un passage dure une quinzaine de secondes et se termine.
 
 ### Ce n'est pas le cadran qui décide
 
-GitHub livre un petit nombre de passages planifiés par jour, à peu près fixe,
-quel que soit le nombre demandé. Mesures faites sur ce dépôt :
+GitHub livre une poignée de passages planifiés par jour, à des heures
+imprévisibles, quel que soit le nombre demandé. Mesuré avec 144 créneaux
+demandés par jour :
 
-| Créneaux demandés par jour | Passages livrés |
+| Jour | Passages livrés |
 |---|---|
-| 24 | 5 à 11 |
-| 144 | 5 |
+| lundi 14 sept. | 01:23, 06:35, 13:16, 18:40, 22:05 UTC |
+| mardi 15 sept. | 00:30, 05:15, 10:06 UTC |
 
-Le 12 septembre, les cinq passages sont arrivés à 05:19, 09:26, 12:58, 16:02
-et 18:18 UTC, soit environ un aux trois heures. Demander plus de créneaux ne
-comble pas ces trous.
+Les écarts vont de 2 h 24 à 6 h 42. Demander plus de créneaux ne les comble
+pas : 24 créneaux par jour produisaient le même nombre de passages.
 
-Le levier est donc la **durée que couvre chaque passage livré**, et il se
-mesure. Le même jour :
+Le levier est donc la **durée que couvre chaque passage livré**, et les
+mesures le montrent directement :
 
-| Émission | Parution | Publiée | Délai |
+| Émission | Parution (HE) | Délai | Pourquoi |
 |---|---|---|---|
-| Ça s'explique | 10:00 UTC | 10:02 | **2 min**, un passage attendait |
-| Pouvez-vous répéter la question? | 17:00 UTC | 18:18 | 78 min, aucun passage en vol |
+| La journée | lun 14:30 | **10 min** | un passage était en vol |
+| Niquet | lun 08:00 | 77 min | aucun passage pendant 6 h 42 |
+| Moteur de recherche | lun 19:06 | 85 min | idem |
+| À la une | lun 05:06 | 251 min | passage livré 2 h 25 avant, anticipation de 2 h seulement |
 
-D'où une fenêtre d'attente de 2 heures. Un passage sans rien à faire coûte une
-quinzaine de secondes, et l'attente s'arrête dès que la fenêtre de l'émission
-se referme.
+C'est ce dernier cas qui a fait passer le budget d'attente à 4 heures.
+
+### La limite qu'il faut connaître
+
+Ça ne rend pas les flux instantanés. Avec cinq livraisons par jour, il reste
+des plages qu'aucun passage ne couvre, et un épisode qui paraît dans une de ces
+plages attend la livraison suivante. Les combler demanderait un déclencheur qui
+part vraiment à l'heure, ce que le planificateur de GitHub n'est pas.
 
 ### Heures de parution suivies
 
