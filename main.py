@@ -1228,6 +1228,13 @@ def recent_expected_publications(
     return found
 
 
+def expected_publication(show: Show, now: datetime) -> datetime | None:
+    """When today's episode of this show is expected, in Eastern time."""
+    local = now.astimezone(EASTERN)
+    schedule = show.schedule_for(local)
+    return schedule.expected_at(local) if schedule else None
+
+
 def awaiting_episode(
     show: Show,
     newest: datetime | None,
@@ -1315,7 +1322,23 @@ def watch_for_episodes(
             )
             return
 
-        delay = min(poll_seconds, remaining)
+        # While every pending show is still ahead of its time there is nothing
+        # to find, so sleep to just before the earliest one instead of polling
+        # an unchanged page for hours. Once one is actually due, poll normally.
+        soonest: datetime | None = None
+        for show in pending:
+            expected = expected_publication(show, now)
+            if expected is None or expected <= now.astimezone(EASTERN):
+                soonest = None
+                break
+            soonest = expected if soonest is None else min(soonest, expected)
+
+        if soonest is not None:
+            lead = (soonest - now.astimezone(EASTERN)).total_seconds() - 60
+            delay = max(poll_seconds, min(lead, remaining))
+        else:
+            delay = min(poll_seconds, remaining)
+
         LOG.info(
             "Waiting for %s; next check in %ds (%.0f min left).",
             ", ".join(show.slug for show in pending),

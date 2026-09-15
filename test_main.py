@@ -580,6 +580,40 @@ class WatchLoopTests(unittest.TestCase):
             )
         self.assertEqual(len(calls), 1, "it must wait instead of exiting early")
 
+    def test_it_sleeps_to_the_window_instead_of_polling_for_hours(self):
+        # A run delivered hours before a publication must not poll an
+        # unchanged page every three minutes until it airs.
+        show = self._due_show()   # Friday 19:00
+        results = {"test": main.ShowResult(show=show)}
+        self._stub_process(episode_arrives_after=1)
+        with self.assertLogs(main.LOG, level="INFO"):
+            main.watch_for_episodes(
+                [show],
+                results,
+                ".",
+                minutes=240,
+                poll_seconds=180,
+                now_provider=lambda: eastern(2026, 9, 11, 16, 0).astimezone(UTC),
+            )
+        # 16:00 to 19:00 is three hours; the first sleep must cover almost all
+        # of it rather than being one poll interval.
+        self.assertGreater(self.slept[0], 3 * 3600 - 300)
+
+    def test_it_polls_normally_once_a_show_is_actually_due(self):
+        show = self._due_show()
+        results = {"test": main.ShowResult(show=show)}
+        self._stub_process(episode_arrives_after=1)
+        with self.assertLogs(main.LOG, level="INFO"):
+            main.watch_for_episodes(
+                [show],
+                results,
+                ".",
+                minutes=240,
+                poll_seconds=180,
+                now_provider=lambda: eastern(2026, 9, 11, 19, 10).astimezone(UTC),
+            )
+        self.assertEqual(self.slept, [180])
+
     def test_stops_as_soon_as_the_episode_arrives(self):
         show = self._due_show()
         results = {"test": main.ShowResult(show=show)}
