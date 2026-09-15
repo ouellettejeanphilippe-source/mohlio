@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>La chefferie du PLQ dans la mire de Primeau, et Dominique Dumas Vs Dominic Dumas</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1273394/la-chefferie-du-plq-dans-la-mire-de-primeau-et-dominique-dumas-vs-dominic-dumas</link>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c6f2d8bc-7e31-4164-8943-b7022d2d1589/2026-09-15_08_43_20_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="27776000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c6f2d8bc-7e31-4164-8943-b7022d2d1589/2026-09-15_08_43_20_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:28:56</itunes:duration>
+    </item>
     <item>
       <title>Un embouteillage causé par un homme nu, et une technologie pour parler avec les animaux</title>
       <description />
