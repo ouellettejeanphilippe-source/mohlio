@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Des milliards de dollars recherchés</title>
+      <description>&lt;p&gt;Grand sommet de l'investissement à Toronto : le premier ministre, Mark Carney, espère attirer mille milliards de capitaux au pays d'ici cinq ans.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236053/mardi-15-septembre-2026</link>
+      <pubDate>Tue, 15 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2ed7f52a-1403-43e9-9a47-4abf4a3ff19a/2026-09-15_05_06_00_alaunebaladoexterne_0000.mp3" length="33099859" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/2ed7f52a-1403-43e9-9a47-4abf4a3ff19a/2026-09-15_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
     <item>
       <title>Sommet d'investisseurs à Toronto</title>
       <description>&lt;p&gt;De grands investisseurs de partout dans le monde se retrouvent à Toronto, aujourd'hui, pour un sommet organisé par le premier ministre Mark Carney. Un événement qui s'inscrit dans sa stratégie pour diversifier les partenaires commerciaux du Canada en pleine guerre tarifaire avec Washington.&lt;/p&gt;</description>
