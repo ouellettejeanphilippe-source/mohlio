@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Sep 2026 09:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Sep 2026 09:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 16 Sep 2026 09:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Sep 2026 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Coût, provenance, qualité… tant de questions sur le bœuf</title>
+      <description>&lt;p&gt;Pour bien des gens, la viande de bœuf est hors de prix et sa qualité est de plus en plus variable. Depuis 2002, au Canada, le prix du bœuf haché a augmenté de près de 400 %, et sa traçabilité est plus opaque que jamais. Pour lancer la 25e saison de l’émission &lt;em&gt;L’épicerie&lt;/em&gt;, les coanimatrices Myriam Fehmiu et Caroline Lacroix explorent le chemin parcouru par la viande de l’élevage jusqu’à votre assiette, et elles prodiguent de précieux conseils pour que vous en ayez plus pour votre argent.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1273579/cout-provenance-qualite-tant-de-questions-sur-le-boeuf</link>
+      <pubDate>Wed, 16 Sep 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9fc22459-29a6-445b-94e3-f2c67c9f97b0/2026-09-15_16_11_11_casexplique_0000_master.m3u8" length="18560000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9fc22459-29a6-445b-94e3-f2c67c9f97b0/2026-09-15_16_11_11_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:19:20</itunes:duration>
+    </item>
     <item>
       <title>Guerre en Ukraine : Vladimir Poutine est-il le maître du jeu?</title>
       <description>&lt;p&gt;Vladimir Poutine se garde bien de dévoiler ses plans, mais des indices laissent croire qu’il est prêt à tout pour parvenir à ses fins. De son côté, l’Europe demeure sur le qui-vive face au spectre d’un élargissement des actions militaires russes. Une perspective très inquiétante pour la population ukrainienne, usée par près de cinq ans de résistance. Le journaliste Paul Gogo, ex-correspondant à Moscou, offre quelques clés pour décrypter la stratégie de la Russie.&lt;/p&gt;</description>
@@ -75,15 +84,6 @@
       <itunes:duration>00:24:59</itunes:duration>
     </item>
     <item>
-      <title>TGV Québec-Toronto : cette fois-ci sera-t-elle la bonne?</title>
-      <description>&lt;p&gt;Le transport par train au Canada est à des années-lumière de ce qui s’observe en Europe ou en Asie. Mais voilà qu’après des décennies de tergiversations, un train à grande vitesse pourrait bel et bien voir le jour prochainement. Il s’agit du projet de TGV Alto reliant Québec à Toronto avec une vitesse de pointe de 300 km/h. Le gouvernement fédéral, qui pilote le dossier, exerce beaucoup de pression pour qu'il se matérialise. Même si un vent d’enthousiasme l’accompagne, la résistance s’organise. L’expert en planification du transport Pierre Barrieau explique la portée de ce projet et évalue ses chances de réussite.&lt;/p&gt;</description>
-      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1180350/tgv-quebec-toronto-cette-fois-ci-sera-t-elle-la-bonne</link>
-      <pubDate>Thu, 18 Jun 2026 05:00:00 -0400</pubDate>
-      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/86e64625-3e28-4c6b-b096-fd625d9f854a/2026-06-18_05_00_00_casexpliquebalado_0000.mp3" length="39703405" type="audio/mpeg" />
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d832a2e5-d3fb-44e2-9b0e-4c6ad619145e/2026-06-17_18_22_08_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:27:34</itunes:duration>
-    </item>
-    <item>
       <title>Allégations de racisme visant des policiers à Montréal-Nord : la goutte de trop?</title>
       <description>&lt;p&gt;L’arrondissement de Montréal-Nord est encore une fois plongé dans la tourmente en lien avec les forces de l’ordre : 16 policiers du poste de quartier 39 font l’objet d’une enquête à la suite d’allégations de comportements racistes et de gestes haineux à l’encontre de personnes issues de minorités ethnoculturelles. Deux d’entre eux ont été suspendus. Selon nos informations, certains agents auraient notamment coupé puis conservé des tresses rastas d’individus interceptés, tels des trophées. Le journaliste spécialisé en affaires policières Pascal Robidas plonge dans les coulisses de ce scandale et évalue ses effets à long terme sur le Service de police de la Ville de Montréal (SPVM).&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1181061/spvm-racisme-montreal-nord-police-coupe-cheveux-noirs-poste-39</link>
@@ -100,6 +100,15 @@
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/11758a0c-9dd6-4b2c-a22c-e5e96d5e8ab1/2026-06-16_17_30_00_casexplique_0000_master.m3u8" length="24000000" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/11758a0c-9dd6-4b2c-a22c-e5e96d5e8ab1/2026-06-16_17_30_00_casexplique_0000_master.m3u8?v=2</guid>
       <itunes:duration>00:25:00</itunes:duration>
+    </item>
+    <item>
+      <title>TGV Québec-Toronto : cette fois-ci sera-t-elle la bonne?</title>
+      <description>&lt;p&gt;Le transport par train au Canada est à des années-lumière de ce qui s’observe en Europe ou en Asie. Mais voilà qu’après des décennies de tergiversations, un train à grande vitesse pourrait bel et bien voir le jour prochainement. Il s’agit du projet de TGV Alto reliant Québec à Toronto avec une vitesse de pointe de 300 km/h. Le gouvernement fédéral, qui pilote le dossier, exerce beaucoup de pression pour qu'il se matérialise. Même si un vent d’enthousiasme l’accompagne, la résistance s’organise. L’expert en planification du transport Pierre Barrieau explique la portée de ce projet et évalue ses chances de réussite.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1180350/tgv-quebec-toronto-cette-fois-ci-sera-t-elle-la-bonne</link>
+      <pubDate>Tue, 16 Jun 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/86e64625-3e28-4c6b-b096-fd625d9f854a/2026-06-18_05_00_00_casexpliquebalado_0000.mp3" length="39703405" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d832a2e5-d3fb-44e2-9b0e-4c6ad619145e/2026-06-17_18_22_08_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:27:26</itunes:duration>
     </item>
     <item>
       <title>Vers un plafonnement de la population en Suisse?</title>
