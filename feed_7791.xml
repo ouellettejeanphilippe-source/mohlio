@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 12 Sep 2026 17:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 12 Sep 2026 17:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 12 Sep 2026 20:00:00 -0400</pubDate>
+    <lastBuildDate>Sat, 12 Sep 2026 20:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -20,6 +20,14 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Entouré de trois panélistes à la langue bien pendue, Pierre Brassard revisite l'actualité et se fait un malin plaisir à passer les nouvelles de la semaine à la moulinette de son humour unique et décalé. C'est aussi une occasion pour les auditeurs de mesurer leurs connaissances à celles des participants!</itunes:summary>
+    <item>
+      <title>Cinq chefs, une élection, et les prix Ig Nobel</title>
+      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Guillaume Lambert, Michelle Desrochers et MC Gilles qui doivent répondre à des questions sur : le nouveau parti Osons Québec, un manège suisse, une offre irrésistible de PFK, la chasseuse brune, un étrange concours en Hongrie, l'émission Cinq chefs, une élection et les prix Ig Nobel.&lt;/p&gt;</description>
+      <pubDate>Sat, 12 Sep 2026 20:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/cf11f6e9-8abd-49c0-84a1-4696c2fc2db8/2026-09-12_20_00_00_repeterlaquestionbalado_0000.mp3" length="77326628" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/cf11f6e9-8abd-49c0-84a1-4696c2fc2db8/2026-09-12_20_00_00_repeterlaquestionbalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:53:41</itunes:duration>
+    </item>
     <item>
       <title>&lt;em&gt;Cinq chefs, une élection&lt;/em&gt;, et les prix Ig Nobel</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Guillaume Lambert, Michelle Desrochers et MC Gilles qui doivent répondre à des questions sur : le nouveau parti Osons Québec, un manège suisse, une offre irrésistible de PFK, la chasseuse brune, un étrange concours en Hongrie, l'émission &lt;em&gt;Cinq chefs, une élection&lt;/em&gt; et les prix Ig Nobel.&lt;/p&gt;</description>
