@@ -14,6 +14,10 @@ le passage reste en place. Il dort jusqu'à l'ouverture de la fenêtre, puis
 **revérifie toutes les 3 minutes** jusqu'à ce que l'épisode paraisse. En dehors
 de ces fenêtres, un passage dure une quinzaine de secondes et se termine.
 
+Chaque épisode est **publié dès qu'il est capté**, pas à la fin de l'attente.
+Un passage qui attend deux émissions publie la première sans retenir sa
+parution jusqu'à ce que la seconde arrive.
+
 ### Ce n'est pas le cadran qui décide
 
 GitHub livre une poignée de passages planifiés par jour, à des heures
