@@ -540,7 +540,12 @@ class WatchLoopTests(unittest.TestCase):
                 and len(calls) >= episode_arrives_after
             ):
                 newest = eastern(2026, 9, 11, 19, 6)
-            return main.ShowResult(show=target, newest=newest, changed=newest is not None)
+            return main.ShowResult(
+                show=target,
+                newest=newest,
+                changed=newest is not None,
+                written=newest is not None,
+            )
 
         original = main.process_show
         main.process_show = fake_process
@@ -614,6 +619,30 @@ class WatchLoopTests(unittest.TestCase):
             )
         self.assertEqual(self.slept, [180])
 
+    def test_the_watch_publishes_the_pass_that_captured_an_episode(self):
+        show = self._due_show()
+        results = {"test": main.ShowResult(show=show)}
+        self._stub_process(episode_arrives_after=1)
+        published = []
+        original = main.publish_now
+        main.publish_now = lambda command, slugs: published.append((command, list(slugs)))
+        self.addCleanup(setattr, main, "publish_now", original)
+        original_readme = main.update_readme_log
+        main.update_readme_log = lambda results, readme_path="README.md": False
+        self.addCleanup(setattr, main, "update_readme_log", original_readme)
+
+        with self.assertLogs(main.LOG, level="INFO"):
+            main.watch_for_episodes(
+                [show],
+                results,
+                ".",
+                minutes=240,
+                poll_seconds=30,
+                now_provider=lambda: eastern(2026, 9, 11, 19, 10).astimezone(UTC),
+                on_change="publish",
+            )
+        self.assertEqual(published, [("publish", ["test"])])
+
     def test_stops_as_soon_as_the_episode_arrives(self):
         show = self._due_show()
         results = {"test": main.ShowResult(show=show)}
@@ -630,6 +659,41 @@ class WatchLoopTests(unittest.TestCase):
         self.assertEqual(len(calls), 2, "it must stop at the first sighting")
         self.assertTrue(results["test"].changed)
         self.assertEqual(self.slept, [30, 30])
+
+
+class PublishHookTests(unittest.TestCase):
+    """An episode captured early in a long watch must not wait for the end."""
+
+    def setUp(self):
+        self.calls = []
+        original = main.subprocess.run
+
+        def fake_run(command, **kwargs):
+            self.calls.append((command, kwargs.get("env", {}).get("MOHLIO_CHANGED")))
+            return main.subprocess.CompletedProcess(command, 0)
+
+        main.subprocess.run = fake_run
+        self.addCleanup(setattr, main.subprocess, "run", original)
+
+    def test_it_names_the_feeds_that_were_written(self):
+        main.publish_now("publish", ["journee", "recherche"])
+        self.assertEqual(self.calls, [("publish", "journee, recherche")])
+
+    def test_nothing_written_means_nothing_published(self):
+        main.publish_now("publish", [])
+        self.assertEqual(self.calls, [])
+
+    def test_no_command_configured_is_a_no_op(self):
+        main.publish_now("", ["journee"])
+        self.assertEqual(self.calls, [])
+
+    def test_a_failing_publish_is_reported_and_does_not_raise(self):
+        def failing(command, **kwargs):
+            return main.subprocess.CompletedProcess(command, 1)
+
+        main.subprocess.run = failing
+        with self.assertLogs(main.LOG, level="ERROR"):
+            main.publish_now("publish", ["journee"])
 
 
 class TitleMergeGuardTests(unittest.TestCase):

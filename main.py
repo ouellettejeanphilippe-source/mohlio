@@ -36,6 +36,7 @@ import json
 import logging
 import os
 import re
+import subprocess
 import sys
 import tempfile
 import threading
@@ -1203,6 +1204,34 @@ def _read_bytes(path: str) -> bytes:
 
 
 # ---------------------------------------------------------------------------
+# Publishing as soon as something is captured
+# ---------------------------------------------------------------------------
+
+
+def publish_now(command: str, slugs: Sequence[str]) -> None:
+    """Run the publish command for the feeds this pass just wrote.
+
+    A watch can stay open for hours waiting on a second show, and an episode
+    captured in its first minutes must not sit unpublished until it ends. The
+    command is expected to do nothing when there is nothing to commit, so
+    calling it after a pass that wrote nothing is harmless.
+    """
+    if not command or not slugs:
+        return
+    environment = dict(os.environ, MOHLIO_CHANGED=", ".join(slugs))
+    LOG.info("Publishing %s...", ", ".join(slugs))
+    try:
+        completed = subprocess.run(
+            command, shell=True, env=environment, check=False, timeout=300
+        )
+    except (OSError, subprocess.SubprocessError) as exc:
+        LOG.error("publish command failed: %s", exc)
+        return
+    if completed.returncode != 0:
+        LOG.error("publish command exited with %s", completed.returncode)
+
+
+# ---------------------------------------------------------------------------
 # Watching for an episode that is due
 # ---------------------------------------------------------------------------
 
@@ -1291,6 +1320,7 @@ def watch_for_episodes(
     dry_run: bool = False,
     now_provider=None,
     monotonic=time.monotonic,
+    on_change: str = "",
 ) -> None:
     """Re-check the shows that are due until they arrive or time runs out.
 
@@ -1369,6 +1399,14 @@ def watch_for_episodes(
                 results[show.slug] = fresh
                 if fresh.changed and not previous.changed:
                     LOG.info("[%s] new episode captured.", show.id)
+
+        if on_change and not dry_run:
+            just_written = [
+                show.slug for show in pending if results[show.slug].written
+            ]
+            if just_written:
+                update_readme_log(list(results.values()))
+                publish_now(on_change, just_written)
 
 
 # ---------------------------------------------------------------------------
@@ -1536,6 +1574,14 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help="how long the watch may last, in minutes (default: 25)",
     )
     parser.add_argument(
+        "--on-change",
+        default="",
+        help=(
+            "shell command run as soon as a pass writes a feed, so an episode "
+            "captured early in a long watch is published straight away"
+        ),
+    )
+    parser.add_argument(
         "--poll-seconds",
         type=int,
         default=180,
@@ -1590,6 +1636,15 @@ def main(argv: Sequence[str] | None = None) -> int:
                     show=show, error=f"unexpected failure: {exc}"
                 )
 
+    # Publish what the first pass found before settling in to wait.
+    if args.on_change and not args.dry_run:
+        first_pass = [
+            slug for slug, result in results_by_slug.items() if result.written
+        ]
+        if first_pass:
+            update_readme_log(list(results_by_slug.values()))
+            publish_now(args.on_change, first_pass)
+
     if args.watch and args.watch_minutes > 0:
         watch_for_episodes(
             shows,
@@ -1598,6 +1653,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             args.watch_minutes,
             args.poll_seconds,
             args.dry_run,
+            on_change=args.on_change,
         )
 
     now = datetime.now(timezone.utc)

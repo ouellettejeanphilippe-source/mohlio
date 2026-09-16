@@ -85,45 +85,31 @@ jobs:
         if: github.event_name == 'pull_request'
         run: python main.py --dry-run
 
+      - name: Configure git
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       # --watch keeps the run alive only while an episode is actually due;
-      # every other run finishes in a few seconds.
+      # every other run finishes in a few seconds. --on-change publishes each
+      # episode the moment it is captured, so one that arrives early in a long
+      # watch does not wait for the rest of the window to close.
       - name: Update feeds
         id: feeds
         if: github.event_name != 'pull_request'
-        run: python main.py --watch --watch-minutes 240 --poll-seconds 180
+        env:
+          PUBLISH_BRANCH: ${{ github.head_ref || github.ref_name }}
+        run: |
+          python main.py \
+            --watch --watch-minutes 240 --poll-seconds 180 \
+            --on-change .github/publish.sh
 
-      - name: Commit and push changes
+      # Catches anything the run changed after its last publish, and is a no-op
+      # when everything was already pushed.
+      - name: Publish any remaining change
         if: github.event_name != 'pull_request'
         env:
-          CHANGED: ${{ steps.feeds.outputs.changed }}
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed_*.xml README.md
-
-          if git diff --cached --quiet; then
-            echo "No feed changed; nothing to commit."
-            exit 0
-          fi
-
-          if [ -n "${CHANGED:-}" ]; then
-            message="feeds: update ${CHANGED}"
-          else
-            message="feeds: update"
-          fi
-          git commit -m "$message"
-
-          branch="${{ github.head_ref || github.ref_name }}"
-          for attempt in 1 2 3 4 5; do
-            if git pull --rebase --autostash origin "$branch" && git push origin "HEAD:$branch"; then
-              echo "Pushed on attempt $attempt."
-              exit 0
-            fi
-            git rebase --abort 2>/dev/null || true
-            if [ "$attempt" -eq 5 ]; then
-              echo "::error::Failed to push after 5 attempts."
-              exit 1
-            fi
-            sleep $(( (RANDOM % 10) + attempt * 5 ))
-          done
+          PUBLISH_BRANCH: ${{ github.head_ref || github.ref_name }}
+          MOHLIO_CHANGED: ${{ steps.feeds.outputs.changed }}
+        run: .github/publish.sh
