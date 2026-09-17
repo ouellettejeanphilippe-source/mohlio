@@ -148,7 +148,7 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-09-16 23:08 UTC
+Last update: 2026-09-17 00:11 UTC
 
 ### Feeds
 
@@ -160,7 +160,7 @@ Last update: 2026-09-16 23:08 UTC
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 56 episodes, latest 2026-09-16 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 53 episodes, latest 2026-09-16 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 52 episodes, latest 2026-09-12 20:00 ET
-- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 54 episodes, latest 2026-09-15 19:06 ET
+- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 55 episodes, latest 2026-09-16 19:06 ET
 - ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 353 episodes, latest 2026-09-16 05:06 ET
 
 ### Warnings
