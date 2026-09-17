@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 16 Sep 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Wed, 16 Sep 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Deuxième débat, en deux jours</title>
+      <description>&lt;p&gt;Un deuxième débat, cette fois sur les ondes de la chaîne Noovo et sur la plateforme Crave. La cheffe de la CAQ a fait un mea culpa et le chef péquiste a été la cible de ses adversaires pour son projet de referendum.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236123/jeudi-17-septembre-2026</link>
+      <pubDate>Thu, 17 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/7a00fcc7-fff3-403e-85c4-227563f12e6c/2026-09-17_05_06_00_alaunebaladoexterne_0000.mp3" length="33087947" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/7a00fcc7-fff3-403e-85c4-227563f12e6c/2026-09-17_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
     <item>
       <title>Campagne électorale au Québec : un premier débat</title>
       <description>&lt;p&gt;Les chefs des cinq principaux partis ont croisé le fer pour la toute première fois hier soir à l'occasion du Face-à-Face sur les ondes du réseau TVA.&lt;/p&gt;</description>
