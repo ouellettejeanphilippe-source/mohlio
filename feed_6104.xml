@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Sep 2026 20:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Sep 2026 20:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2026 19:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2026 19:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Kreider, Guhle :  pas le temps de niaiser!</title>
+      <description>&lt;p&gt;Chris Kreider est entré par la grande porte au camp d'entraînement du Canadien. Le vétéran a été placé sur le premier trio du club. Son arrivée dynamise l’attaque et elle permettra peut-être au deuxième trio de faire des flammèches. &lt;/p&gt;&lt;p&gt;La blessure de Kaiden Guhle ouvrira-t-elle des portes à David Reinbacher ou le sort du défenseur est-il déjà scellé?&lt;/p&gt;&lt;p&gt;Dans un camp d'entraînement très court, les jeunes ont moins de temps pour se démarquer, et on peut se demander qui forcera la main des dirigeants de l'équipe.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1274834/kreider-guhle-pas-le-temps-de-niaiser</link>
+      <pubDate>Fri, 18 Sep 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/de0caa9f-ddc9-4b13-91fd-df4033a4dd95/2026-09-18_14_35_11_tellementhockey_0000_master.m3u8" length="47824000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/de0caa9f-ddc9-4b13-91fd-df4033a4dd95/2026-09-18_14_35_11_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:49:49</itunes:duration>
+    </item>
     <item>
       <title>Chris Kreider tombé du ciel</title>
       <description>&lt;p&gt;L'été du Canadien a pris une tournure inattendue ce week-end avec l'acquisition de l’ailier gauche Chris Kreider. L'athlète de 35 ans bien connu des fans du Tricolore viendra combler un vide à faible coût au sein des meilleurs attaquants de l’équipe.&lt;/p&gt;&lt;p&gt;À deux semaines du début de la saison régulière, plusieurs dossiers, comme celui de Zachary Bolduc, ont été réglés, et l'optimisme semble régner au sein du Bleu-blanc-rouge.&lt;/p&gt;</description>
