@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Sep 2026 15:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Sep 2026 15:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2026 15:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2026 15:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>L’IA et la fin du monde</title>
+      <description>&lt;p&gt;Des nuances sur les discours alarmistes relatifs à l’intelligence artificielle; l’essor du mouvement anti-technologie; les stratégies numériques des partis politiques pour vous séduire; et l’&lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Amazon des drones &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Amazon des drones &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;Amazon des drones&lt;/span&gt;&lt;/q&gt; dans la mire d’Ottawa.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1274769/lia-et-la-fin-du-monde</link>
+      <pubDate>Fri, 18 Sep 2026 15:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/27231ea7-55b7-4860-bbba-f49b727a3bc6/2026-09-18_11_10_00_decrypteurslebaladoohdio_0000_master.m3u8" length="54544000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/27231ea7-55b7-4860-bbba-f49b727a3bc6/2026-09-18_11_10_00_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:56:49</itunes:duration>
+    </item>
     <item>
       <title>Des agents d’IA rebelles hors de contrôle</title>
       <description>&lt;p&gt;L’essor des agents d’intelligence artificielle (IA) rebelles; une première élection québécoise à l'ère de l’IA générative; le portrait d’une entreprise qui pollue votre fil Facebook; des infrastructures critiques du Canada ciblées par des &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"hacktivistes ","text":"hacktivistes "}}"&gt;&lt;span lang="fr" title="Français"&gt;hacktivistes&lt;/span&gt;&lt;/q&gt; étrangers; et le phénomène &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"Kirkiversary ","text":"Kirkiversary "}}"&gt;&lt;span lang="fr" title="Français"&gt;Kirkiversary&lt;/span&gt;&lt;/q&gt; ou l’étrange gloire posthume de Charlie Kirk.&lt;/p&gt;</description>
