@@ -148,7 +148,7 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-09-18 18:30 UTC
+Last update: 2026-09-18 19:09 UTC
 
 ### Feeds
 
@@ -167,7 +167,6 @@ Last update: 2026-09-18 18:30 UTC
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
-- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `hockey`: podcast RSS unavailable (podcast RSS returned no channel)
 - `niquet`: podcast RSS unavailable (podcast RSS returned no channel)
