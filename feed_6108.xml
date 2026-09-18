@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Sep 2026 09:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Sep 2026 09:00:00 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2026 05:00:00 -0400</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2026 05:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -21,15 +21,6 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
     <item>
-      <title>Intelligence artificielle : l’urgence d’un meilleur encadrement</title>
-      <description>&lt;p&gt;La sortie fracassante d’un ancien employé d’Anthropic évoquant le risque d’« extinction » de l’humanité posé par l’intelligence artificielle a remis de l’avant le débat sur la nécessité de mieux encadrer cette technologie de pointe. Le professeur de droit Florian Martin-Bariteau présente les pistes de solutions pour y parvenir.&lt;/p&gt;</description>
-      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1274239/intelligence-artificielle-lurgence-dun-meilleur-encadrement</link>
-      <pubDate>Thu, 17 Sep 2026 09:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/926062aa-5629-4a19-8b3c-5019ed28df7f/2026-09-16_17_26_38_casexplique_0000_master.m3u8" length="21328000" type="audio/mpeg" />
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/926062aa-5629-4a19-8b3c-5019ed28df7f/2026-09-16_17_26_38_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:22:13</itunes:duration>
-    </item>
-    <item>
       <title>Guerre en Ukraine : Vladimir Poutine est-il le maître du jeu?</title>
       <description>&lt;p&gt;Vladimir Poutine se garde bien de dévoiler ses plans, mais des indices laissent croire qu’il est prêt à tout pour parvenir à ses fins. De son côté, l’Europe demeure sur le qui-vive face au spectre d’un élargissement des actions militaires russes. Une perspective très inquiétante pour la population ukrainienne, usée par près de cinq ans de résistance. Le journaliste Paul Gogo, ex-correspondant à Moscou, offre quelques clés pour décrypter la stratégie de la Russie.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1273299/guerre-en-ukraine-vladimir-poutine-est-il-le-maitre-du-jeu</link>
@@ -37,6 +28,15 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/5d333c56-93c7-4b47-a548-6eaa782fb378/2026-09-17_05_00_00_casexpliquebalado_0000.mp3" length="27701916" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/546b8441-671f-4097-b2a9-c95931a24bb9/2026-09-14_16_48_58_casexplique_0000_master.m3u8?v=2</guid>
       <itunes:duration>00:19:14</itunes:duration>
+    </item>
+    <item>
+      <title>Intelligence artificielle : l’urgence d’un meilleur encadrement</title>
+      <description>&lt;p&gt;La sortie fracassante d’un ancien employé d’Anthropic évoquant le risque d’« extinction » de l’humanité posé par l’intelligence artificielle a remis de l’avant le débat sur la nécessité de mieux encadrer cette technologie de pointe. Le professeur de droit Florian Martin-Bariteau présente les pistes de solutions pour y parvenir.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1274239/intelligence-artificielle-lurgence-dun-meilleur-encadrement</link>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/926062aa-5629-4a19-8b3c-5019ed28df7f/2026-09-16_17_26_38_casexplique_0000_master.m3u8" length="21328000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/926062aa-5629-4a19-8b3c-5019ed28df7f/2026-09-16_17_26_38_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:22:13</itunes:duration>
     </item>
     <item>
       <title>Coût, provenance, qualité… tant de questions sur le bœuf</title>
