@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Sep 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Sep 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2026 14:30:00 -0400</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2026 14:30:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,14 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Vendredi 18 sept. 2026 : Pierre Brassard et Claude Villeneuve</title>
+      <description>&lt;p&gt;La candidate libérale Nada Boumeftah révèle un fait «amusant»: elle aime le lait. Et Claude Villeneuve, candidat du Parti québécois, parle de l’élection qui s’annonce très serrée dans Jean-Lesage.&lt;/p&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 14:30:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/6030a7c6-359f-4795-9e1d-0f05171e76c7/2026-09-18_14_30_00_journeeestencorejeunebalado_0000.mp3" length="42474475" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/6030a7c6-359f-4795-9e1d-0f05171e76c7/2026-09-18_14_30_00_journeeestencorejeunebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:29:29</itunes:duration>
+    </item>
     <item>
       <title>Jeudi 17 sept. 2026 : Nathalie Petrowski, Hugo Dumas et Geneviève Dufour</title>
       <description>&lt;p&gt;Olivier résume le débat des chefs de Noovo et Crave. Nathalie Petrowski parle d'&lt;em&gt;Appelez mon agent, le film&lt;/em&gt;, qui n'est pas drôle et manque de rythme. Hugo Dumas critique &lt;em&gt;Occupation double Panamá&lt;/em&gt;. Et Geneviève Dufour explique pourquoi le Canada ne deviendra pas membre associé de l’UE demain matin.&lt;/p&gt;</description>
