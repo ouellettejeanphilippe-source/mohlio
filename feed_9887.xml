@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2026 14:30:00 -0400</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 14:30:00 -0400</lastBuildDate>
+    <pubDate>Sat, 19 Sep 2026 11:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2026 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 19 sept. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Les députés caquistes sortants Yannick Gagnon et Marie-Belle Gendron s’improvisent humoristes. Charles Milliard se demande comment le projet de souveraineté du Québec va diminuer l'anxiété chez les jeunes. Et le candidat conservateur Frédéric Poulin évite de répondre à la question d’une journaliste concernant une ancienne publication sur les réseaux sociaux dans laquelle il se disait favorable à ce que le Canada devienne le 51e État. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1274854/samedi-19-sept-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 19 Sep 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b614195d-15c9-4a07-afe7-eb67c74347cc/2026-09-18_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="37136000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b614195d-15c9-4a07-afe7-eb67c74347cc/2026-09-18_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:38:41</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 18 sept. 2026 : Pierre Brassard et Claude Villeneuve</title>
       <description>&lt;p&gt;La candidate libérale Nada Boumeftah révèle un fait «amusant»: elle aime le lait. Et Claude Villeneuve, candidat du Parti québécois, parle de l’élection qui s’annonce très serrée dans Jean-Lesage.&lt;/p&gt;</description>
