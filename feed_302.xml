@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Tue, 29 Sep 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,69 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Nouvelles interdictions d'importations aux États-Unis</title>
+      <description>&lt;p&gt;Depuis minuit, les interdictions d'importation de certains produits canadiens imposées par l'administration Trump sont entrées en vigueur.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236383/mardi-29-septembre-2026</link>
+      <pubDate>Tue, 29 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/337347e3-b7a2-4827-878d-bdbe2ba03384/2026-09-29_05_06_00_alaunebaladoexterne_0000.mp3" length="33102367" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/337347e3-b7a2-4827-878d-bdbe2ba03384/2026-09-29_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
+      <title>Les chefs à Tout le monde en parle</title>
+      <description>&lt;p&gt;Au Québec, les chefs des principaux partis avaient une dernière occasion de s'adresser directement à la population, sur le plateau de l'émission Tout le Monde en parle.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236374/lundi-28-septembre-2026</link>
+      <pubDate>Mon, 28 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/d6b80114-c3e7-41e6-920a-0a552dfa7071/2026-09-28_05_06_00_alaunebaladoexterne_0000.mp3" length="33104248" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/d6b80114-c3e7-41e6-920a-0a552dfa7071/2026-09-28_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
+      <title>Xi à la Maison-Blanche</title>
+      <description>&lt;p&gt;Le président américain Donald Trump a reçu son homologue chinois Xi Jinping à la Maison-Blanche. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236295/vendredi-25-septembre-2026</link>
+      <pubDate>Fri, 25 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8cbb5839-c5e9-4542-b73d-7507b4044a46/2026-09-25_05_06_00_alaunebaladoexterne_0000.mp3" length="33094844" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/8cbb5839-c5e9-4542-b73d-7507b4044a46/2026-09-25_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
+      <title>Une dernière confrontation entre les chefs</title>
+      <description>&lt;p&gt;À douze jours du scrutin, les 5 chefs ont débattu pendant deux heures, notamment sur la santé, l'insécurité économique, l'immigration et l'avenir du Québec.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236277/jeudi-24-septembre-2026</link>
+      <pubDate>Thu, 24 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/13910146-fec8-4c06-a0f4-5771507740ba/2026-09-24_05_06_00_alaunebaladoexterne_0000.mp3" length="33116160" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/13910146-fec8-4c06-a0f4-5771507740ba/2026-09-24_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
+      <title>Campagne électorale au Québec : le dernier débat</title>
+      <description>&lt;p&gt;Au Québec, les chefs des principaux partis ont ralenti la cadence en préparation du dernier débat de cette campagne électorale, qui sera présenté sur les ondes Radio-Canada ce soir.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236262/mercredi-23-septembre-2026</link>
+      <pubDate>Wed, 23 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/f1de3013-6d0d-4eda-a5aa-5afed7a16d84/2026-09-23_05_06_00_alaunebaladoexterne_0000.mp3" length="33079170" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/f1de3013-6d0d-4eda-a5aa-5afed7a16d84/2026-09-23_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
+      <title>Rentrée à Ottawa</title>
+      <description>&lt;p&gt;C'était jour de rentrée parlementaire à Ottawa et le premier ministre Mark Carney a déposé un projet de loi phare de son gouvernement. Il veut accélérer les projets d'investissement et éviter les conflits de travail.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236228/mardi-22-septembre-2026</link>
+      <pubDate>Tue, 22 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4d5a3546-77c2-4867-954f-9e1b4d2dc0cf/2026-09-22_05_06_00_alaunebaladoexterne_0000.mp3" length="33097978" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/4d5a3546-77c2-4867-954f-9e1b4d2dc0cf/2026-09-22_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
+    <item>
+      <title>Le Parti Québécois toujours en tête</title>
+      <description>&lt;p&gt;Campagne électorale au Québec : un sondage réalisé pour Radio-Canada et Les Coops de l'information indique que le Parti québécois conserve son avance dans les intentions de vote. La CAQ de Christine Fréchette se retrouve en deuxième et les conservateurs talonnent les libéraux.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236208/lundi-21-septembre-2026</link>
+      <pubDate>Mon, 21 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/7d5126f8-65aa-46e5-86ca-c87e461f7cce/2026-09-21_05_06_00_alaunebaladoexterne_0000.mp3" length="33099232" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/7d5126f8-65aa-46e5-86ca-c87e461f7cce/2026-09-21_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
     <item>
       <title>Un statut pour le Québec?</title>
       <description>&lt;p&gt;La première ministre sortante du Québec, Christine Fréchette, réclame un statut particulier pour la province dans une éventuelle alliance entre le Canada et l'Union européenne.&lt;/p&gt;</description>

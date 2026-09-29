@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2026 19:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 19:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Sep 2026 20:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,33 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Que la saison commence!</title>
+      <description>&lt;p&gt;Le Canadien amorce sa saison à l’étranger, et tous les espoirs sont permis. Deux jeunes ont réussi à se tailler une place dans la formation malgré un camp d'entraînement écourté. Ces ajouts fournissent un peu de proverbial « papier sablé », qui sera nécessaire à la compétition dans l'Atlantique. &lt;/p&gt;&lt;p&gt;Un énorme échange de deux joueurs qui ont déjà intéressé le Canadien vient secouer le début de cette saison. Pourquoi les Maple Leafs de Toronto tenaient-ils tant à céder Matthew Knies? Qui sortira gagnant de l’échange?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1277508/que-la-saison-commence</link>
+      <pubDate>Tue, 29 Sep 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a170f7e0-13fb-4a6a-b37e-2753d66dc167/2026-09-29_15_54_01_tellementhockey_0000_master.m3u8" length="47936000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a170f7e0-13fb-4a6a-b37e-2753d66dc167/2026-09-29_15_54_01_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:49:56</itunes:duration>
+    </item>
+    <item>
+      <title>Quelle place pour Kirby Dach?</title>
+      <description>&lt;p&gt;Le camp d’entraînement du CH se termine bientôt, mais le casse-tête de Martin St-Louis n'est pas encore complété. Bien que la composition de plusieurs trios soit déterminée, on se demande encore quelle est la place de Kirby Dach, et si sa présence n’empêche pas la venue de jeunes joueurs plus méritants, comme Florian Xhekaj.&lt;/p&gt;&lt;p&gt;Côté financier, le plafond salarial de la LNH augmentera de plusieurs millions dans les prochaines années, et les répercussions sur le Canadien pourraient être majeures.&lt;/p&gt;&lt;p&gt;Finalement, l’ex-joueur étoile Mark Messier n'apprécie pas la façon dont les choses se passent à Edmonton.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1276591/quelle-place-pour-kirby-dach</link>
+      <pubDate>Fri, 25 Sep 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1ff64a31-8bc3-46e6-bb2b-64bec61e55f3/2026-09-25_15_47_14_tellementhockey_0000_master.m3u8" length="65072000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1ff64a31-8bc3-46e6-bb2b-64bec61e55f3/2026-09-25_15_47_14_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:07:47</itunes:duration>
+    </item>
+    <item>
+      <title>Les jeunes frappent à la porte du camp du Canadien</title>
+      <description>&lt;p&gt;Plusieurs jeunes membres de la relève du CH font des flammèches en ce moment. Pourtant, un camp d'entraînement court était censé les empêcher de se tailler une place dans l'équipe. On se demande donc si la direction de l'équipe ne pourrait pas procéder à des changements étant donné que certains vétérans ont de la difficulté à prouver leur valeur. Selon quelles circonstances les plans de Martin St-Louis pourraient-ils être bousculés?&lt;/p&gt;&lt;p&gt;Et un grand entraîneur, qui a passé un peu plus de deux saisons derrière le banc du Canadien, a annoncé sa retraite.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1275527/les-jeunes-frappent-a-la-porte-du-camp-du-canadien</link>
+      <pubDate>Tue, 22 Sep 2026 20:10:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d08fe4fd-1567-4e6c-9e60-d020ea49c793/2026-09-22_17_00_00_tellementhockey_0000_master.m3u8" length="53504000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d08fe4fd-1567-4e6c-9e60-d020ea49c793/2026-09-22_17_00_00_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:55:44</itunes:duration>
+    </item>
     <item>
       <title>Kreider, Guhle :  pas le temps de niaiser!</title>
       <description>&lt;p&gt;Chris Kreider est entré par la grande porte au camp d'entraînement du Canadien. Le vétéran a été placé sur le premier trio du club. Son arrivée dynamise l’attaque et elle permettra peut-être au deuxième trio de faire des flammèches. &lt;/p&gt;&lt;p&gt;La blessure de Kaiden Guhle ouvrira-t-elle des portes à David Reinbacher ou le sort du défenseur est-il déjà scellé?&lt;/p&gt;&lt;p&gt;Dans un camp d'entraînement très court, les jeunes ont moins de temps pour se démarquer, et on peut se demander qui forcera la main des dirigeants de l'équipe.&lt;/p&gt;</description>

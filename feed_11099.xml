@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2026 15:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 15:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 25 Sep 2026 15:35:00 +0000</pubDate>
+    <lastBuildDate>Fri, 25 Sep 2026 15:35:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>Affaire Thélyson Orélien : et Pangram dans tout ça?</title>
+      <description>&lt;p&gt;Le fonctionnement de Pangram, l’outil de détection de l’intelligence artificielle (IA) dont le verdict a déclenché l’affaire Thélyson Orélien; l’infiltration de façon autonome d’un agent d’IA rebelle dans des sites gouvernementaux australiens; du nouveau sur le rôle de l’IA dans le bombardement d’une école en Iran; les propositions des partis politiques en matière de cybersécurité au Québec; et un site web généré par l’IA derrière les conseils de ChatGPT offerts à l’électorat québécois.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1276242/affaire-thelyson-orelien-et-pangram-dans-tout-ca</link>
+      <pubDate>Fri, 25 Sep 2026 15:35:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/216c9ee5-adbe-4f74-9101-4742fec1c7fa/2026-09-25_11_23_00_decrypteurslebaladoohdio_0000_master.m3u8" length="61056000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/216c9ee5-adbe-4f74-9101-4742fec1c7fa/2026-09-25_11_23_00_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:03:36</itunes:duration>
+    </item>
     <item>
       <title>L’IA et la fin du monde</title>
       <description>&lt;p&gt;Des nuances sur les discours alarmistes relatifs à l’intelligence artificielle; l’essor du mouvement anti-technologie; les stratégies numériques des partis politiques pour vous séduire; et l’&lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Amazon des drones &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Amazon des drones &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;Amazon des drones&lt;/span&gt;&lt;/q&gt; dans la mire d’Ottawa.&lt;/p&gt;</description>

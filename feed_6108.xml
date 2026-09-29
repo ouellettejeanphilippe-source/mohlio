@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Sep 2026 10:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Sep 2026 10:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,51 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Le Québec des gens oubliés</title>
+      <description>&lt;p&gt;Dans un contexte électoral, un des plus grands défis pour les partis politiques est de parvenir à cerner les inquiétudes de la population. Or, dans un territoire aussi vaste que le Québec, composé de réalités souvent très contrastées, cette mission est loin d’être simple. Une équipe de RAD (le laboratoire de journalisme de Radio-Canada) a parcouru des milliers de kilomètres pour aller à la rencontre de celles et ceux qu’on entend moins, et pour comprendre leurs enjeux, qui passent trop souvent sous le radar. La journaliste Julia Pagé et le réalisateur Frédéric Lacelle racontent leur périple et livrent leurs réflexions.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1277226/le-quebec-des-gens-oublies</link>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8f6ddbc6-6e8e-4ea7-ae73-888b9650bcd5/2026-09-28_18_43_11_casexplique_0000_master.m3u8" length="20400000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8f6ddbc6-6e8e-4ea7-ae73-888b9650bcd5/2026-09-28_18_43_11_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:21:15</itunes:duration>
+    </item>
+    <item>
+      <title>En campagne : place au sprint final</title>
+      <description>&lt;p&gt;Dans une dizaine de jours à peine, l’électorat québécois va sceller l’issue de ce long marathon électoral. D’ici là, les partis en lice joueront le tout pour le tout. C’est d’autant plus vrai dans le contexte d’une course à cinq menée dans un contexte où il y a un taux élevé d’indécision et d’une grande quantité de circonscriptions pivots. L’analyste et correspondante parlementaire Véronique Prince explique ce qui se trame sur le terrain lors du sprint final d’une campagne électorale.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1276615/campagne-electorale-elections-quebec-2026-veronique-prince-dernieres-semaines</link>
+      <pubDate>Sat, 26 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/43804b6b-f633-4e55-aad8-fa738951f110/2026-09-25_16_00_00_casexplique_0000_master.m3u8" length="19200000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/43804b6b-f633-4e55-aad8-fa738951f110/2026-09-25_16_00_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:20:00</itunes:duration>
+    </item>
+    <item>
+      <title>Fonds publics détournés: une facture salée pour les contribuables du Québec</title>
+      <description>&lt;p&gt;En octobre 2022, le gouvernement de François Legault lançait le Programme d'accès aérien aux régions (PAAR), qui permet d’offrir un rabais important aux personnes admissibles qui veulent effectuer des vols d’avion intrarégionaux et interrégionaux. La facture, acquittée par le gouvernement, représente des dizaines de millions de dollars par an. La journaliste Maude Montembeault, de l’émission &lt;em&gt;Enquête&lt;/em&gt;, lève le voile sur des cas flagrants de détournement de fonds publics. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1275742/fonds-publics-detournes-une-facture-salee-pour-les-contribuables-du-quebec</link>
+      <pubDate>Thu, 24 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a080439b-997a-46b6-a3fb-2a35fb0f477a/2026-09-23_16_50_53_casexplique_0000_master.m3u8" length="19648000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a080439b-997a-46b6-a3fb-2a35fb0f477a/2026-09-23_16_50_53_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:20:28</itunes:duration>
+    </item>
+    <item>
+      <title>Face-à-face Xi-Trump : une stabilité stratégique</title>
+      <description>&lt;p&gt;Donald Trump et Xi Jinping entament aujourd’hui leur deuxième face-à-face en moins d’un an. Le président américain compte même accueillir le dirigeant chinois en personne, sur une base militaire en périphérie de Washington. Longtemps à couteaux tirés, les deux superpuissances tentent depuis des mois de jouer le jeu de l’apaisement et de la stabilité. Mais dans les faits, des points de tensions subsistent, alors que la Chine continue son ascension politico-économique. Xi Jinping arrive-t-il en sol américain en position de force? La professeure Pascale Massot fait le point.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1275546/rencontre-chine-etats-unis-donald-trump-xi-jinping-guerre-commerciale</link>
+      <pubDate>Thu, 24 Sep 2026 05:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/9fdf3303-5772-4938-9ab2-ba8c63d375a3/2026-09-24_05_00_00_casexpliquebalado_0000.mp3" length="31292395" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/9fdf3303-5772-4938-9ab2-ba8c63d375a3/2026-09-24_05_00_00_casexpliquebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:21:43</itunes:duration>
+    </item>
+    <item>
+      <title>Mark Carney en plein contrôle</title>
+      <description>&lt;p&gt;Ces jours-ci, la popularité de Mark Carney atteint des sommets. Ce scénario de rêve directement lié à la guerre commerciale avec les États-Unis donne au premier ministre une marge de manœuvre rarement vue. Mais en politique comme dans la vie, rien n’est éternel. Alors que débutent les travaux parlementaires à Ottawa, le chef de bureau Daniel Thibeault analyse les limites de « l’effet Teflon » dont bénéficie Mark Carney.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1275302/mark-carney-en-plein-controle</link>
+      <pubDate>Tue, 22 Sep 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8ec63908-fe84-45ba-938b-71d2155a4726/2026-09-21_17_17_28_casexplique_0000_master.m3u8" length="18576000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8ec63908-fe84-45ba-938b-71d2155a4726/2026-09-21_17_17_28_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:19:21</itunes:duration>
+    </item>
     <item>
       <title>En campagne : les enjeux qui restent dans l’ombre</title>
       <description>&lt;p&gt;Sur papier, cinq semaines de campagne suffisent amplement pour que les partis politiques et leurs chefs puissent aborder en profondeur les grandes questions qui préoccupent l’électorat. Pourtant, on observe que bien des thèmes cruciaux – comme les changements climatiques ou la crise de la santé mentale – sont effleurés, moins présents ou carrément mis de côté. La correspondante et analyste Véronique Prince s’attarde à l’exemple de la santé et explique ce qui motive les choix des partis et de leurs chefs.&lt;/p&gt;</description>

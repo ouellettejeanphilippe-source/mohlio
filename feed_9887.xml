@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Sep 2026 11:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 19 Sep 2026 11:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Sep 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,78 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mardi 29 sept. 2026 : Jean Sébastien Girard, Roxane Milot et Louis T</title>
+      <description>&lt;p&gt;Louis T a lu le Guide du scrutateur pour voir s’il a le droit de voter malgré son autisme; Olivier Niquet fait un palmarès des chansons de campagne, et la candidate de Québec solidaire Roxane Milot parle de la gauche au Québec. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1277439/mardi-29-sept-2026-jean-sebastien-girard-roxane-milot-et-louis-t</link>
+      <pubDate>Tue, 29 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7d88159e-9d9a-4847-a218-438fbdf944bd/2026-09-29_14_17_20_lajourneeestencorejeuneohdio_0000_master.m3u8" length="33456000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7d88159e-9d9a-4847-a218-438fbdf944bd/2026-09-29_14_17_20_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:34:51</itunes:duration>
+    </item>
+    <item>
+      <title>Lundi 28 sept. 2026 : Jean Sébastien Girard, Charles Beauchesne et Philippe J. Fournier</title>
+      <description>&lt;p&gt;Olivier Niquet commente la tournée des radios à Québec de Paul St-Pierre Plamondon; Charles Beauchesne raconte sa sortie au Jardin botanique de Montréal; et Philippe J. Fournier décortique les sondages à quelques jours des élections.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1277162/lundi-28-sept-2026-jean-sebastien-girard-charles-beauchesne-et-philippe-j-fournier</link>
+      <pubDate>Mon, 28 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/718bb49b-e6ee-4f0f-bacc-b6f47cec489c/2026-09-28_14_09_09_lajourneeestencorejeuneohdio_0000_master.m3u8" length="32032000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/718bb49b-e6ee-4f0f-bacc-b6f47cec489c/2026-09-28_14_09_09_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:22</itunes:duration>
+    </item>
+    <item>
+      <title>Samedi 26 sept. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Ruba Ghazal et d’autres solidaires chantent leur slogan &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;C’est possible &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;C’est possible &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;C’est possible&lt;/span&gt;&lt;/q&gt;. L’animateur Sylvain Bouchard mène une entrevue, malgré que son invité Alex Boissonneault soit absent. Et Olivier résume les faits marquants du débat des chefs de Radio-Canada.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1276596/samedi-26-sept-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 26 Sep 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/82677843-b0ea-43f6-99dc-57c4952691bc/2026-09-25_14_35_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="41072000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/82677843-b0ea-43f6-99dc-57c4952691bc/2026-09-25_14_35_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:42:47</itunes:duration>
+    </item>
+    <item>
+      <title>Vendredi 25 sept. 2026 : Jean-Sébastien Girard, Pierre Brassard et Charles Page</title>
+      <description>&lt;p&gt;Olivier nous fait découvrir ce qui s’est dit dans des débats locaux. Et Charles Page, qui a gravi de nombreuses montagnes, explique pourquoi il se lance en politique avec le Parti québécois.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1276574/vendredi-25-sept-2026-jean-sebastien-girard-pierre-brassard-et-charles-page</link>
+      <pubDate>Fri, 25 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b190e329-817d-4135-ab0f-f1995356bb1b/2026-09-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b190e329-817d-4135-ab0f-f1995356bb1b/2026-09-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:29:30</itunes:duration>
+    </item>
+    <item>
+      <title>Jeudi 24 sept. 2026 : Nathalie Petrowski, Hugo Dumas et Marc Tanguay</title>
+      <description>&lt;p&gt;Olivier résume le débat des chefs. Nathalie Petrowski critique la série &lt;em&gt;Angles morts&lt;/em&gt;. Hugo Dumas rit du passage de Nathalie à &lt;em&gt;Chanteurs masqués.&lt;/em&gt; Et Marc Tanguay explique pourquoi il est contre le mode de scrutin proportionnel.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1275995/jeudi-24-sept-2026-nathalie-petrowski-hugo-dumas-et-marc-tanguay</link>
+      <pubDate>Thu, 24 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a9fc9d5a-49e0-4670-a5b5-dbb10a55db24/2026-09-24_14_31_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="33728000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a9fc9d5a-49e0-4670-a5b5-dbb10a55db24/2026-09-24_14_31_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:35:08</itunes:duration>
+    </item>
+    <item>
+      <title>Mercredi 23 sept. 2026 : Paul Journet, Josée Boileau et Jean-François Daoust</title>
+      <description>&lt;p&gt;Olivier nous fait écouter Olivier Primeau, qui affirme qu’il votera pour la CAQ malgré qu’il soit conservateur. Jean-François Daoust explique dans quelles circonstances les gens votent de façon stratégique. Et Paul Journet et Josée Boileau commentent la prestation des chefs en campagne.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1275699/mercredi-23-sept-2026-paul-journet-josee-boileau-et-jean-francois-daoust</link>
+      <pubDate>Wed, 23 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/eeef2b3c-e0d5-4b83-a6bd-b68a495e47d8/2026-09-23_14_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="31888000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/eeef2b3c-e0d5-4b83-a6bd-b68a495e47d8/2026-09-23_14_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:13</itunes:duration>
+    </item>
+    <item>
+      <title>Mardi 22 sept. 2026 : Jean-Sébastien Girard, David Thibodeau et Bruno Marchand</title>
+      <description>&lt;p&gt;Olivier est heureux que Jean-Sébastien et Jean-Philippe l'interrompent à nouveau lors de ses chroniques. David Thibodeau explique pourquoi il y aura bientôt des élections en Colombie-Britannique. Et Bruno Marchand dénonce qu’au Québec, les nouvelles idées sont toujours critiquées.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1275478/mardi-22-sept-2026-jean-sebastien-girard-david-thibodeau-et-bruno-marchand</link>
+      <pubDate>Tue, 22 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/65e3083c-a213-4718-9301-683a81282437/2026-09-22_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="33328000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/65e3083c-a213-4718-9301-683a81282437/2026-09-22_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:34:43</itunes:duration>
+    </item>
+    <item>
+      <title>Lundi 21 sept. 2026 : Simon et Tyler, et Antoine Duchesne</title>
+      <description>&lt;p&gt;Olivier nous fait écouter Bernard Drainville qui change d’avis sur le gaz de schiste. Simon et Tyler proposent de rendre les débats des chefs plus excitants en s'inspirant d'Occupation double. Et l’ex-cycliste professionnel Antoine Duchesne parle avec passion des Championnats du monde de cyclisme.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1275241/lundi-21-sept-2026-simon-et-tyler-et-antoine-duchesne</link>
+      <pubDate>Mon, 21 Sep 2026 14:30:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/e71f2275-a820-447c-ae7e-c141ae94ca53/2026-09-21_14_30_00_journeeestencorejeunebalado_0000.mp3" length="52769436" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/e71f2275-a820-447c-ae7e-c141ae94ca53/2026-09-21_14_30_00_journeeestencorejeunebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:36:38</itunes:duration>
+    </item>
     <item>
       <title>Samedi 19 sept. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Les députés caquistes sortants Yannick Gagnon et Marie-Belle Gendron s’improvisent humoristes. Charles Milliard se demande comment le projet de souveraineté du Québec va diminuer l'anxiété chez les jeunes. Et le candidat conservateur Frédéric Poulin évite de répondre à la question d’une journaliste concernant une ancienne publication sur les réseaux sociaux dans laquelle il se disait favorable à ce que le Canada devienne le 51e État. &lt;/p&gt;</description>

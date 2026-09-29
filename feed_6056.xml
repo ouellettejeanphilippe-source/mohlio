@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Sep 2026 23:06:00 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Sep 2026 23:06:00 +0000</lastBuildDate>
+    <pubDate>Mon, 28 Sep 2026 23:06:00 +0000</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2026 23:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,67 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Lundi 28 sept. 2026 : La dilatation des pupilles, et le palmarès des mots de passe</title>
+      <description>&lt;p&gt;L'effet des drogues sur la dilatation des pupilles; la provenance des données sur les mots de passe les plus utilisés; l'évaluation de la température du noyau de la Terre et de la Lune; et le recyclage de l'immense quantité de balles de tennis usées.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1236376/lundi-28-sept-2026-la-dilatation-des-pupilles-et-le-palmares-des-mots-de-passe</link>
+      <pubDate>Mon, 28 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fa7cfae0-cca5-481f-870a-3fc66f25f3f1/2026-09-28_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fa7cfae0-cca5-481f-870a-3fc66f25f3f1/2026-09-28_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
+    <item>
+      <title>L’état du Sentier national du Québec, et l’attrait irrésistible pour les sous-titres</title>
+      <description>&lt;p&gt;L’explication de la lecture automatique des sous-titres par notre cerveau; les raisons de la longueur des oreilles des ânes et des mules; des nouvelles du Sentier national du Québec, le plus long itinéraire de randonnées de la province; et la variation, ou non, de la quantité globale de précipitations sur Terre d'une année à l'autre.&lt;/p&gt;</description>
+      <pubDate>Fri, 25 Sep 2026 15:40:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/884256d4-4066-4cc2-aed3-0a20ebdf016e/2026-09-25_15_40_00_moteurderecherchebalado_0000.mp3" length="76512235" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/884256d4-4066-4cc2-aed3-0a20ebdf016e/2026-09-25_15_40_00_moteurderecherchebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:53:08</itunes:duration>
+    </item>
+    <item>
+      <title>Jeudi 24 sept. 2026 : La possible percée mathématique d’OpenAI, et l’histoire du déodorant</title>
+      <description>&lt;p&gt;Les débuts de l’utilisation de déodorant; les sons émis par les micro-organismes; les conséquences de la déclaration d’OpenAI, qui dit avoir résolu l’un des sept problèmes du millénaire en mathématiques; et la production de psychotropes par les plantes.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1236286/jeudi-24-septembre-2026</link>
+      <pubDate>Thu, 24 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ce3ced2c-de67-4d58-a34b-c43c10e6a734/2026-09-24_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ce3ced2c-de67-4d58-a34b-c43c10e6a734/2026-09-24_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
+    <item>
+      <title>Mercredi 23 sept. 2026 : Le plus vieil arbre de la planète, et les effets des dérivés des pommes</title>
+      <description>&lt;p&gt;Les effets des cœurs de pommes et du vinaigre de cidre sur la santé; la recherche du plus vieil arbre sur la planète; les études sur l’empreinte numérique de la population selon l’âge; et la transmission génétique de la carte mentale du territoire de butinage des colibris.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1236258/mercredi-23-sept-2026-le-plus-vieil-arbre-de-la-planete-et-les-effets-des-derives-des-pommes</link>
+      <pubDate>Wed, 23 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b6bb5ebc-5ae1-4cca-bb5d-f705adcb88a7/2026-09-23_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b6bb5ebc-5ae1-4cca-bb5d-f705adcb88a7/2026-09-23_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
+    <item>
+      <title>Mardi 22 sept. 2026 : L’état du Sentier national du Québec, et l’attrait irrésistible pour les sous-titres</title>
+      <description>&lt;p&gt;L’explication de la lecture automatique des sous-titres par notre cerveau; les raisons de la longueur des oreilles des ânes et des mules; des nouvelles du Sentier national du Québec, le plus long itinéraire de randonnées de la province; et la variation, ou non, de la quantité globale de précipitations sur Terre d'une année à l'autre.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1236237/mardi-22-sept-2026-letat-du-sentier-national-du-quebec-et-lattrait-irresistible-pour-les-sous-titres</link>
+      <pubDate>Tue, 22 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/92fc144e-4026-410b-9481-67442988f198/2026-09-22_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/92fc144e-4026-410b-9481-67442988f198/2026-09-22_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
+    <item>
+      <title>Lundi 21 sept. 2026 : L’étrange comportement du modèle o1 d’OpenAI, et la salubrité des aliments fermentés</title>
+      <description>&lt;p&gt;La potentielle tentative du modèle o1 d'OpenAI de se recopier par peur de disparaître; la distinction fondamentale entre la passion et le dépendance; la promotion de l'action climatique auprès des personnes aînées par un programme intergénérationnel; les stratégies pour éviter la contamination des aliments fermentés.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1236210/lundi-21-sept-2026-letrange-comportement-du-modele-o1-dopenai-et-la-salubrite-des-aliments-fermentes</link>
+      <pubDate>Mon, 21 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/66b5ec93-1372-41e5-b303-f4945439c5e4/2026-09-21_19_06_00_moteurderecherche_0000_master.m3u8" length="50864000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/66b5ec93-1372-41e5-b303-f4945439c5e4/2026-09-21_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:52:59</itunes:duration>
+    </item>
+    <item>
+      <title>La douleur des chats en fin de vie, et l’odeur de la sueur</title>
+      <description>&lt;p&gt;Le comportement de la matière à l'approche du zéro absolu; les signes pour détecter la douleur des chats en fin de vie; les causes des différences d'odeur de transpiration; et les principes fondamentaux du biorégionalisme.&lt;/p&gt;</description>
+      <pubDate>Fri, 18 Sep 2026 15:45:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/a3f32017-8f5b-4473-9c75-95daa81df483/2026-09-18_15_45_00_moteurderecherchebalado_0000.mp3" length="76536685" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/a3f32017-8f5b-4473-9c75-95daa81df483/2026-09-18_15_45_00_moteurderecherchebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:53:09</itunes:duration>
+    </item>
     <item>
       <title>Jeudi 17 sept. 2026 : Les risques sanitaires près d’un cadavre, et la valeur des légumes hydroponiques</title>
       <description>&lt;p&gt;La valeur nutritive des légumes hydroponiques comparativement à ceux cultivés en terre; le rôle du VO2 max dans la mesure de la forme physique; les risques pour la santé d'une exposition prolongée à un cadavre; et l'absence de mécanismes bloquant le cellulaire lorsqu’une voiture fonctionne.&lt;/p&gt;</description>
@@ -57,7 +118,7 @@
       <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Jeudi 10 sept. 2026 : L’origine des plantes d’intérieur, et le microchimérisme fœtal</title>
+      <title>L’origine des plantes d’intérieur, et le microchimérisme fœtal</title>
       <description>&lt;p&gt;L'histoire de la présence des plantes d'intérieur dans les habitations; l'influence d'un robot sur le comportement de ses pairs; l'explication scientifique du phénomène du mirage froid ou supérieur; et la découverte des mystères du microchimérisme fœtal, qui est l’échange de cellules entre l'embryon et la mère lors de la grossesse.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1235970/jeudi-10-sept-2026-lorigine-des-plantes-dinterieur-et-le-microchimerisme-foetal</link>
       <pubDate>Fri, 11 Sep 2026 12:30:00 -0400</pubDate>
@@ -102,7 +163,7 @@
       <itunes:duration>00:53:00</itunes:duration>
     </item>
     <item>
-      <title>Mardi 1er sept. 2026 : La recette des cerises au marasquin, et la conscience de ses propres rêves</title>
+      <title>La recette des cerises au marasquin, et la conscience de ses propres rêves</title>
       <description>&lt;p&gt;L'activité cérébrale lors de l'endormissement et la conscience des rêves; la méthode mystérieuse de fabrication des cerises au marasquin; les raisons expliquant le meilleur goût des légumes cultivés en potager; la détection des menaces par le cerveau et le rôle du langage dans ce processus.&lt;/p&gt;</description>
       <pubDate>Thu, 03 Sep 2026 09:40:00 -0400</pubDate>
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/3254505b-b5c4-4e74-a316-ed46027afebc/2026-09-04_09_40_00_moteurderecherchebalado_0000.mp3" length="76507219" type="audio/mpeg" />

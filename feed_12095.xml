@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 29 Sep 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,69 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Des pluies de colis, et des corneilles toxicomanes</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1277285/des-pluies-de-colis-et-des-corneilles-toxicomanes</link>
+      <pubDate>Tue, 29 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/18afbe0b-ba47-44c9-b154-b0c2f0c21f79/2026-09-29_08_00_17_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26112000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/18afbe0b-ba47-44c9-b154-b0c2f0c21f79/2026-09-29_08_00_17_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:27:12</itunes:duration>
+    </item>
+    <item>
+      <title>Des hommes armés à Occupation Double, le bilan de « l’enfer » des Mondiaux de cyclisme</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1276968/des-hommes-armes-a-occupation-double-le-bilan-de-lenfer-des-mondiaux-de-cyclisme</link>
+      <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/40277b6e-b3cb-4c37-8c4e-bca2b98bf2fd/2026-09-28_08_00_43_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="25360000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/40277b6e-b3cb-4c37-8c4e-bca2b98bf2fd/2026-09-28_08_00_43_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:26:25</itunes:duration>
+    </item>
+    <item>
+      <title>Duhaime envoie des lettres aux jeunes, et Obama va parler de « chars » à Québec</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1276148/duhaime-envoie-des-lettres-aux-jeunes-et-obama-va-parler-de-chars-a-quebec</link>
+      <pubDate>Fri, 25 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3e84ca27-8f39-4deb-9b8b-0af71f4eea47/2026-09-25_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22528000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3e84ca27-8f39-4deb-9b8b-0af71f4eea47/2026-09-25_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:28</itunes:duration>
+    </item>
+    <item>
+      <title>Les copier-coller de Thélyson Orélien, et pas de sexe dans les robotaxis</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1275849/les-copier-coller-de-thelyson-orelien-et-pas-de-sexe-dans-les-robotaxis</link>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6e75ed64-5d2d-433f-8899-c32d00ace0ce/2026-09-24_07_00_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24144000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6e75ed64-5d2d-433f-8899-c32d00ace0ce/2026-09-24_07_00_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:09</itunes:duration>
+    </item>
+    <item>
+      <title>Les &lt;em&gt;bobbleheads&lt;/em&gt; de la politique, et la fiabilité des détecteurs d’IA</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1275593/les-bobbleheads-de-la-politique-et-la-fiabilite-des-detecteurs-dia</link>
+      <pubDate>Wed, 23 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a53a8b76-902f-44e8-acbb-5a5e5b7cf36a/2026-09-23_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="27440000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a53a8b76-902f-44e8-acbb-5a5e5b7cf36a/2026-09-23_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:28:35</itunes:duration>
+    </item>
+    <item>
+      <title>L’Alzheimer chez les chauffeurs de taxi, et des biscuits de plastique recyclé</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1275340/lalzheimer-chez-les-chauffeurs-de-taxi-et-des-biscuits-de-plastique-recycle</link>
+      <pubDate>Tue, 22 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4d6920c9-23fc-4ab2-9bea-0b2082f2049f/2026-09-22_07_50_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="27392000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4d6920c9-23fc-4ab2-9bea-0b2082f2049f/2026-09-22_07_50_58_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:28:32</itunes:duration>
+    </item>
+    <item>
+      <title>La santé des spermatozoïdes de nos jeunes, et un meurtre pour une chaise longue</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1275074/la-sante-des-spermatozoides-de-nos-jeunes-et-un-meutre-pour-une-chaise-longue</link>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/84386f63-3973-4de8-9060-56bce757ae6e/2026-09-21_08_13_43_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24064000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/84386f63-3973-4de8-9060-56bce757ae6e/2026-09-21_08_13_43_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:04</itunes:duration>
+    </item>
     <item>
       <title>Le Parti populaire du Québec implose, et un caquiste fait des petits cadeaux au bingo</title>
       <description />
