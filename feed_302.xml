@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Sep 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,24 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Un Canadien dans l'espace</title>
+      <description>&lt;p&gt;L'astronaute canadien Joshua Kutryk doit s'envoler ce matin vers la Station spatiale internationale où il passera les six prochains mois.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236441/jeudi-1-octobre-2026</link>
+      <pubDate>Thu, 01 Oct 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/18031654-b077-464e-9e5b-9e9e8fb83963/2026-10-01_05_06_00_alaunebaladoexterne_0000.mp3" length="33078543" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/18031654-b077-464e-9e5b-9e9e8fb83963/2026-10-01_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
+    <item>
+      <title>Expansion de LNG Canada</title>
+      <description>&lt;p&gt;LNG Canada confirme la phase deux de son projet d'expansion d'usine de liquéfaction de gaz naturel à Kitimat, en Colombie-Britannique. C'est un investissement de plusieurs dizaines de milliards de dollars qui s'inscrit dans la volonté d'Ottawa de diversifier ses partenaires commerciaux et ses marchés d'exportations.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236419/mercredi-30-septembre-2026</link>
+      <pubDate>Wed, 30 Sep 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/eb033ffd-97f4-4a3c-a08a-49704f140f86/2026-09-30_05_06_00_alaunebaladoexterne_0000.mp3" length="33097978" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/eb033ffd-97f4-4a3c-a08a-49704f140f86/2026-09-30_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
     <item>
       <title>Nouvelles interdictions d'importations aux États-Unis</title>
       <description>&lt;p&gt;Depuis minuit, les interdictions d'importation de certains produits canadiens imposées par l'administration Trump sont entrées en vigueur.&lt;/p&gt;</description>

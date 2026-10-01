@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Sep 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mercredi 30 sept. 2026 : Simon-Olivier Lorange et Joanie Boudreault</title>
+      <description>&lt;p&gt;Jean-Philippe discute avec une pro des félins pour savoir si le (présumé) cougar de Wôlinak pourrait être un lynx à longue queue. Et Simon-Olivier Lorange répond aux questions très sérieuses de l’auditoire sur Canadiens.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1277670/mercredi-30-sept-2026-simon-olivier-lorange-et-joanie-boudreault</link>
+      <pubDate>Wed, 30 Sep 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a1d1c51d-8e13-4374-98c0-e594eb5b6e8a/2026-09-30_14_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a1d1c51d-8e13-4374-98c0-e594eb5b6e8a/2026-09-30_14_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:29:29</itunes:duration>
+    </item>
     <item>
       <title>Mardi 29 sept. 2026 : Jean Sébastien Girard, Roxane Milot et Louis T</title>
       <description>&lt;p&gt;Louis T a lu le Guide du scrutateur pour voir s’il a le droit de voter malgré son autisme; Olivier Niquet fait un palmarès des chansons de campagne, et la candidate de Québec solidaire Roxane Milot parle de la gauche au Québec. &lt;/p&gt;</description>

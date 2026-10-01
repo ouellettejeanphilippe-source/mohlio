@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Sep 2026 23:06:00 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2026 23:06:00 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Sep 2026 23:06:00 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Sep 2026 23:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Mercredi 30 sept. 2026 : L’apport des connaissances autochtones à la science, et la décolonisation des savoirs</title>
+      <description>&lt;p&gt;La décolonisation des savoirs; l'apport des connaissances autochtones à la science; la prévention des feux de forêt par les Premiers Peuples; la difficile conciliation des médecines moderne et autochtone; et l'intégration du personnel scientifique autochtone en milieu scolaire.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1236415/mercredi-30-sept-2026-lapport-des-connaissances-autochtones-a-la-science-et-la-decolonisation-des-savoirs</link>
+      <pubDate>Wed, 30 Sep 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c7e98bd1-a27f-4abc-ab36-356738e4f8d9/2026-09-30_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c7e98bd1-a27f-4abc-ab36-356738e4f8d9/2026-09-30_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
     <item>
       <title>Mardi 29 sept. 2026 : La maladie de Lyme chez les chevreuils, et le beurre canadien</title>
       <description>&lt;p&gt;La littératie médiatique chez les jeunes; la différence entre le beurre canadien et le beurre français; l'efficacité des appareils de stimulation du nerf vague; et le traitement des chevreuils contre la maladie de Lyme.&lt;/p&gt;</description>
