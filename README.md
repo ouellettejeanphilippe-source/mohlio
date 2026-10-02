@@ -32,9 +32,10 @@ demandés par jour :
 Les écarts vont de 2 h 24 à 6 h 42. Demander plus de créneaux ne les comble
 pas : 24 créneaux par jour produisaient le même nombre de passages. Pire, à
 partir du 21 septembre GitHub a cessé de livrer les 144 créneaux, sans
-désactiver le workflow. Le cadran demande maintenant **12 créneaux par jour**
-(toutes les deux heures, à la minute 17), ce qui place chaque fenêtre de
-parution à moins de deux heures d'un créneau, en heure d'été comme d'hiver.
+désactiver le workflow. Le cadran suit maintenant **les heures de sortie** :
+un créneau environ 45 minutes avant chaque fenêtre (1 h 45 en heure
+d'hiver), plus un créneau de rattrapage la nuit, soit 5 à 6 créneaux par
+jour. Les tests vérifient que chaque horaire de `main.py` a son créneau.
 
 Le levier est donc la **durée que couvre chaque passage livré**, et les
 mesures le montrent directement :
