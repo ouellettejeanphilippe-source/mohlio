@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 29 Sep 2026 20:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 29 Sep 2026 20:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 19:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 19:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Dobes est bon!</title>
+      <description>&lt;p&gt;Le Canadien a commencé la saison avec une victoire convaincante contre les Maple Leafs. Si le jeu du premier trio montréalais a encore besoin d'être peaufiné, celui des joueurs de soutien a permis de contrôler le match. Par-dessus tout, Jakub Dobes, le jeune gardien tchèque du CH, a été impérial.&lt;/p&gt;&lt;p&gt;Lui lance-t-on assez de fleurs?&lt;/p&gt;&lt;p&gt;Kent Hughes est patient et tente toujours d'améliorer son club, bien qu'il n'ait pas réussi à obtenir Kirill Marchenko, des Blue Jackets de Columbus. Quel joueur pourrait servir d'appât dans un échange?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1278271/dobes-est-bon</link>
+      <pubDate>Fri, 02 Oct 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6bef3e34-8fc1-44bd-a325-8be654618750/2026-10-02_14_11_40_tellementhockey_0000_master.m3u8" length="51744000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6bef3e34-8fc1-44bd-a325-8be654618750/2026-10-02_14_11_40_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:54</itunes:duration>
+    </item>
     <item>
       <title>Que la saison commence!</title>
       <description>&lt;p&gt;Le Canadien amorce sa saison à l’étranger, et tous les espoirs sont permis. Deux jeunes ont réussi à se tailler une place dans la formation malgré un camp d'entraînement écourté. Ces ajouts fournissent un peu de proverbial « papier sablé », qui sera nécessaire à la compétition dans l'Atlantique. &lt;/p&gt;&lt;p&gt;Un énorme échange de deux joueurs qui ont déjà intéressé le Canadien vient secouer le début de cette saison. Pourquoi les Maple Leafs de Toronto tenaient-ils tant à céder Matthew Knies? Qui sortira gagnant de l’échange?&lt;/p&gt;</description>
