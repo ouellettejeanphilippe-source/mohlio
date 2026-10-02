@@ -30,7 +30,11 @@ demandés par jour :
 | mardi 15 sept. | 00:30, 05:15, 10:06 UTC |
 
 Les écarts vont de 2 h 24 à 6 h 42. Demander plus de créneaux ne les comble
-pas : 24 créneaux par jour produisaient le même nombre de passages.
+pas : 24 créneaux par jour produisaient le même nombre de passages. Pire, à
+partir du 21 septembre GitHub a cessé de livrer les 144 créneaux, sans
+désactiver le workflow. Le cadran demande maintenant **12 créneaux par jour**
+(toutes les deux heures, à la minute 17), ce qui place chaque fenêtre de
+parution à moins de deux heures d'un créneau, en heure d'été comme d'hiver.
 
 Le levier est donc la **durée que couvre chaque passage livré**, et les
 mesures le montrent directement :

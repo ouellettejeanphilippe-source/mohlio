@@ -32,9 +32,16 @@ name: Update podcast feeds
 # Which shows are due is decided in `main.py` from real Eastern time, per
 # weekday, so it stays correct across daylight saving and across shows that
 # air at a different time on weekends.
+#
+# Twelve slots a day, every two hours at minute 17. Asking for 144 bought
+# nothing over 24, and from 2026-09-21 GitHub stopped delivering the 144-slot
+# schedule altogether while still listing the workflow as active. Two hours
+# apart, every publication window sits well inside the four hour budget of
+# the slot before it, in summer and winter time alike, and minute 17 stays
+# off the top of the hour, when GitHub's scheduler is busiest.
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '17 */2 * * *'
   push:
     branches: [main]
   pull_request:
