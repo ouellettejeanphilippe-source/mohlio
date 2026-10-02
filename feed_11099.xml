@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Sep 2026 15:35:00 +0000</pubDate>
-    <lastBuildDate>Fri, 25 Sep 2026 15:35:00 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 15:45:00 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 15:45:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>Les géants de l’IA s’entendent avec Trump</title>
+      <description>&lt;p&gt;Donald Trump signe une entente avec les géants de l’industrie de l’intelligence artificielle (IA); un regard inédit sur les finances d’Anthropic, la compagnie derrière l’IA Claude; une enquête sur un compte proséparation de l’Alberta; le FBI ciblé par une attaque de cyberpiratage sans précédent; et des médias canadiens bernés par un faux journaliste.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1278198/entente-trump-compagnies-ia-intelligence-artificielle-anthropic-claude</link>
+      <pubDate>Fri, 02 Oct 2026 15:45:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6aec8695-23c9-4a58-9d3b-1b83f5372ae6/2026-10-02_11_29_00_decrypteurslebaladoohdio_0000_master.m3u8" length="51648000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6aec8695-23c9-4a58-9d3b-1b83f5372ae6/2026-10-02_11_29_00_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:48</itunes:duration>
+    </item>
     <item>
       <title>Affaire Thélyson Orélien : et Pangram dans tout ça?</title>
       <description>&lt;p&gt;Le fonctionnement de Pangram, l’outil de détection de l’intelligence artificielle (IA) dont le verdict a déclenché l’affaire Thélyson Orélien; l’infiltration de façon autonome d’un agent d’IA rebelle dans des sites gouvernementaux australiens; du nouveau sur le rôle de l’IA dans le bombardement d’une école en Iran; les propositions des partis politiques en matière de cybersécurité au Québec; et un site web généré par l’IA derrière les conseils de ChatGPT offerts à l’électorat québécois.&lt;/p&gt;</description>
