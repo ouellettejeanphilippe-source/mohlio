@@ -32,9 +32,37 @@ name: Update podcast feeds
 # Which shows are due is decided in `main.py` from real Eastern time, per
 # weekday, so it stays correct across daylight saving and across shows that
 # air at a different time on weekends.
+#
+# One slot shortly before each show's publication time, plus one overnight
+# catch-all for the shows with no fixed time. Asking for 144 slots a day
+# bought nothing over 24, and from 2026-09-21 GitHub stopped delivering the
+# 144-slot schedule altogether while still listing the workflow as active.
+#
+# Cron is UTC and does not follow daylight saving, so each slot sits about
+# 45 minutes before the window in summer time and 1 h 45 before it in winter
+# time; both stay inside the four hour budget. `test_main.py` checks that
+# every schedule in `main.py` has a slot ahead of it in both seasons, so a
+# show added or moved there without a matching slot fails the tests.
+#
+#   UTC    days     for (Eastern time)
+#   03:13  daily    catch-all: Le bêtisier, Tellement hockey, anything missed
+#   08:13  Mon-Sat  À la une, Ça s'explique 05:00 (Sat 06:00), La journée Sat 07:00
+#   11:13  Mon-Fri  Niquet 08:00
+#   14:13  Fri      Décrypteurs 11:00
+#   16:13  Sat      Pouvez-vous répéter la question? 13:00
+#   17:43  Mon-Fri  La journée 14:25, Changement de ligne Wed-Thu 15:00
+#   22:13  Mon-Thu  Moteur de recherche 19:00
+#
+# Minutes are kept off the top of the hour, when GitHub's scheduler is busiest.
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '13 3 * * *'
+    - cron: '13 8 * * 1-6'
+    - cron: '13 11 * * 1-5'
+    - cron: '13 14 * * 5'
+    - cron: '13 16 * * 6'
+    - cron: '43 17 * * 1-5'
+    - cron: '13 22 * * 1-4'
   push:
     branches: [main]
   pull_request:

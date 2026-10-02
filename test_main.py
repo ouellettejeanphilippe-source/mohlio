@@ -734,5 +734,81 @@ class ShowConfigurationTests(unittest.TestCase):
             main.select_shows("inconnue")
 
 
+WORKFLOW = os.path.join(os.path.dirname(__file__), ".github", "workflows", "update.yml")
+
+
+def cron_field(field: str, low: int, high: int) -> set[int]:
+    values: set[int] = set()
+    for part in field.split(","):
+        if part == "*":
+            values.update(range(low, high + 1))
+        elif "-" in part:
+            start, end = part.split("-")
+            values.update(range(int(start), int(end) + 1))
+        else:
+            values.add(int(part))
+    return values
+
+
+def scheduled_slots() -> list[tuple[int, int, set[int]]]:
+    """(minute, hour, cron weekdays) for each schedule line of the workflow."""
+    slots = []
+    with open(WORKFLOW, encoding="utf-8") as handle:
+        for line in handle:
+            line = line.strip()
+            if not line.startswith("- cron:"):
+                continue
+            minute, hour, day, month, weekday = line.split("'")[1].split()
+            assert (day, month) == ("*", "*"), line
+            slots.append(
+                (int(minute), int(hour), cron_field(weekday, 0, 6))
+            )
+    return slots
+
+
+class WorkflowScheduleTests(unittest.TestCase):
+    """Every publication time must have a scheduled run shortly before it.
+
+    A run that starts within the four hour watch budget of a window stays for
+    it. Cron is UTC, so this is checked in summer and in winter time.
+    """
+
+    BUDGET = timedelta(minutes=240)
+    MARGIN = timedelta(minutes=15)
+    # Mondays, one in daylight saving time and one outside it.
+    WEEKS = (datetime(2026, 7, 6), datetime(2026, 1, 5))
+
+    def test_every_schedule_has_a_slot_ahead_of_it_in_both_seasons(self):
+        slots = scheduled_slots()
+        self.assertTrue(slots)
+        for show in main.SHOWS:
+            for schedule in show.schedules:
+                for week in self.WEEKS:
+                    for weekday in schedule.weekdays:
+                        local = (week + timedelta(days=weekday)).replace(
+                            hour=schedule.hour,
+                            minute=schedule.minute,
+                            tzinfo=main.EASTERN,
+                        )
+                        expected = local.astimezone(UTC)
+                        with self.subTest(show=show.slug, at=local.isoformat()):
+                            self.assertTrue(
+                                self._covered(expected, slots),
+                                "no scheduled run within four hours before",
+                            )
+
+    def _covered(self, expected, slots) -> bool:
+        for minute, hour, weekdays in slots:
+            for days_back in (0, 1):
+                day = expected - timedelta(days=days_back)
+                start = day.replace(hour=hour, minute=minute)
+                # Cron counts Sunday as 0, Python counts Monday as 0.
+                if (start.weekday() + 1) % 7 not in weekdays:
+                    continue
+                if self.MARGIN <= expected - start <= self.BUDGET:
+                    return True
+        return False
+
+
 if __name__ == "__main__":
     unittest.main()
