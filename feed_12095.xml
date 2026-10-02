@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -19,7 +19,16 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
     <item>
-      <title>Des promesses électorales pas très scientifiques, et la loi anticitron qui est un citron</title>
+      <title>Duhaime propulsé par l’IA, et l’armée américaine protégée par « l’armure de Dieu »</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1278098/duhaime-propulse-par-lia-et-les-soldats-americains-proteges-par-larmure-de-dieu</link>
+      <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b403a22c-ef96-47c5-8663-42e848d625f2/2026-10-02_07_40_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23040000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b403a22c-ef96-47c5-8663-42e848d625f2/2026-10-02_07_40_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:24:00</itunes:duration>
+    </item>
+    <item>
+      <title>Des promesses électorales pas très scientifiques, et une loi anticitron qui est un citron</title>
       <description />
       <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1277759/des-promesses-electorales-pas-tres-scientifiques-et-la-loi-anticitron-est-un-citron</link>
       <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>

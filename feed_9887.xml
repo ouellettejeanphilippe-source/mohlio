@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Sep 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Sep 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Jeudi 1er oct. 2026 : Hugo Dumas, Nathalie Petrowski et Léo Boivin</title>
+      <description>&lt;p&gt;Hugo trouve que Taylor Swift était meilleure quand elle était triste. Nathalie veut laisser ChatGPT écrire pour elle. Jean-Philippe discute avec le seul candidat communiste à l’extérieur de l’île de Montréal. Et Olivier fait le bilan de l’affaire Thélyson Orélien.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1277900/jeudi-1er-oct-2026-hugo-dumas-nathalie-petrowski-et-leo-boivin</link>
+      <pubDate>Thu, 01 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7fa49ada-1e22-45a9-b1e6-32e0639348a8/2026-10-01_14_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="34176000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7fa49ada-1e22-45a9-b1e6-32e0639348a8/2026-10-01_14_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:35:36</itunes:duration>
+    </item>
     <item>
       <title>Mercredi 30 sept. 2026 : Simon-Olivier Lorange et Joanie Boudreault</title>
       <description>&lt;p&gt;Jean-Philippe discute avec une pro des félins pour savoir si le (présumé) cougar de Wôlinak pourrait être un lynx à longue queue. Et Simon-Olivier Lorange répond aux questions très sérieuses de l’auditoire sur Canadiens.&lt;/p&gt;</description>

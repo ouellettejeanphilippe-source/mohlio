@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 09:06:00 +0000</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 09:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Vendredi 2 octobre 2026 -  Les chefs tentent toujours de rallier les indécis</title>
+      <description>&lt;p&gt;Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d’ici et d’ailleurs&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236463/vendredi-2-octobre-2026</link>
+      <pubDate>Fri, 02 Oct 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ce5b81f4-6b4d-4d5e-bd89-c90039c8945f/2026-10-02_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ce5b81f4-6b4d-4d5e-bd89-c90039c8945f/2026-10-02_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Un Canadien dans l'espace</title>
       <description>&lt;p&gt;L'astronaute canadien Joshua Kutryk doit s'envoler ce matin vers la Station spatiale internationale où il passera les six prochains mois.&lt;/p&gt;</description>
