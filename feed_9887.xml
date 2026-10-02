@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Oct 2026 14:47:33 -0400</pubDate>
+    <lastBuildDate>Fri, 02 Oct 2026 14:47:33 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,14 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>la journée est encore jeune balado 03 oct 2026</title>
+      <description>&lt;p&gt; &lt;/p&gt;</description>
+      <pubDate>Fri, 02 Oct 2026 14:47:33 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8ee9a5ab-aa4f-4789-8687-7077196cad62/2026-10-02_14_47_33_journeeestencorejeunebalado_0000.mp3" length="51953162" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/8ee9a5ab-aa4f-4789-8687-7077196cad62/2026-10-02_14_47_33_journeeestencorejeunebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:36:04</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 2 oct. 2026 : Pierre Brassard et Eric Girard</title>
       <description>&lt;p&gt;Pierre Brassard s’ennuie de &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"l'État policier","text":"l'État policier"}}"&gt;&lt;span lang="fr" title="Français"&gt;l'État policier&lt;/span&gt;&lt;/q&gt; des Mondiaux de cyclisme à Montréal. Olivier fait le point sur les &lt;em&gt;chemtrails&lt;/em&gt;. Et le ministre des Finances du Québec, Eric Girard, dresse le bilan de ses huit années au pouvoir.&lt;/p&gt;</description>

@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Oct 2026 09:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 01 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <pubDate>Thu, 01 Oct 2026 05:00:00 -0400</pubDate>
+    <lastBuildDate>Thu, 01 Oct 2026 05:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -21,15 +21,6 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
     <item>
-      <title>Réseau de l’éducation&lt;strong&gt; :&lt;/strong&gt; l’école à trois vitesses expliquée</title>
-      <description>&lt;p&gt;Au Québec, le choix d’une école secondaire donne des maux de tête à bien des parents. Au fil des ans, ce qui est venu compliquer ce choix important, c’est l’existence de trois régimes scolaires distincts, autrement dit d’une école à trois vitesses. Certaines personnes n’y voient aucun inconvénient, tandis que, pour d’autres, il s’agit purement et simplement d’une forme de ségrégation scolaire. La journaliste Fannie Bussières McNicoll décortique ce système à plusieurs vitesses.&lt;/p&gt;</description>
-      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1277698/reseau-de-leducation-lecole-a-trois-vitesses-expliquee</link>
-      <pubDate>Thu, 01 Oct 2026 09:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/01e0f7fc-958b-41ec-8e8e-e7d338009080/2026-09-30_16_19_57_casexplique_0000_master.m3u8" length="19808000" type="audio/mpeg" />
-      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/01e0f7fc-958b-41ec-8e8e-e7d338009080/2026-09-30_16_19_57_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:20:38</itunes:duration>
-    </item>
-    <item>
       <title>IA et littérature : le regard d’Alain Farah</title>
       <description>&lt;p&gt;L’affaire Thélyson Orélien n’a pas fini de résonner dans l’espace public. Depuis l’émergence de cette controverse, le débat s’est enflammé sur plusieurs fronts, et dans le monde littéraire, l’émoi est encore palpable. Au cœur de ces remous : l’intelligence artificielle. L’écrivain et professeur Alain Farah donne libre cours à ses réflexions sur cette technologie qui secoue le pacte sacré qui unit les lecteurs et lectrices aux auteurs et autrices.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1277485/ia-et-litterature-le-regard-dalain-farah</link>
@@ -37,6 +28,15 @@
       <enclosure url="https://rcavmedias-download.akamaized.net/mp3/fae61361-3cfd-4f02-afe7-e6bb0a9a3480/2026-10-01_05_00_00_casexpliquebalado_0000.mp3" length="38793717" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8f558c61-8401-4159-bfc0-53e6416dbf3c/2026-09-29_17_08_53_casexplique_0000_master.m3u8?v=2</guid>
       <itunes:duration>00:26:56</itunes:duration>
+    </item>
+    <item>
+      <title>Réseau de l’éducation&lt;strong&gt; :&lt;/strong&gt; l’école à trois vitesses expliquée</title>
+      <description>&lt;p&gt;Au Québec, le choix d’une école secondaire donne des maux de tête à bien des parents. Au fil des ans, ce qui est venu compliquer ce choix important, c’est l’existence de trois régimes scolaires distincts, autrement dit d’une école à trois vitesses. Certaines personnes n’y voient aucun inconvénient, tandis que, pour d’autres, il s’agit purement et simplement d’une forme de ségrégation scolaire. La journaliste Fannie Bussières McNicoll décortique ce système à plusieurs vitesses.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1277698/reseau-de-leducation-lecole-a-trois-vitesses-expliquee</link>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/01e0f7fc-958b-41ec-8e8e-e7d338009080/2026-09-30_16_19_57_casexplique_0000_master.m3u8" length="19808000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/01e0f7fc-958b-41ec-8e8e-e7d338009080/2026-09-30_16_19_57_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:20:38</itunes:duration>
     </item>
     <item>
       <title>Le Québec des gens oubliés</title>
