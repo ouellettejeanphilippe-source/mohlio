@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Sep 2026 20:00:00 -0400</pubDate>
-    <lastBuildDate>Sat, 26 Sep 2026 20:00:00 -0400</lastBuildDate>
+    <pubDate>Sat, 03 Oct 2026 17:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 03 Oct 2026 17:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Entouré de trois panélistes à la langue bien pendue, Pierre Brassard revisite l'actualité et se fait un malin plaisir à passer les nouvelles de la semaine à la moulinette de son humour unique et décalé. C'est aussi une occasion pour les auditeurs de mesurer leurs connaissances à celles des participants!</itunes:summary>
+    <item>
+      <title>Bubbles, le dauphin filou et la diva de Charlemagne</title>
+      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit André Robitaille, Catherine Chabot et Mikhaïl Ahooja, qui doivent répondre à des questions sur : le cri du cœur du maire de Gaspé, le coûteux voyage de Mary Simon, Bubbles le dauphin, la Bittt à Tibi, le pape Léon XIV, un vol de camions décevant, le nouveau projet de Céline et la nouvelle habitude des Alouettes de Montréal.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1278433/pierre-brassard-andre-robitaille-catherine-chabot-mikhail-ahooja</link>
+      <pubDate>Sat, 03 Oct 2026 17:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7a5c2b9c-c791-4b3b-b763-7ab4cfc104b3/2026-10-03_11_35_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7a5c2b9c-c791-4b3b-b763-7ab4cfc104b3/2026-10-03_11_35_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:14</itunes:duration>
+    </item>
     <item>
       <title>Débat des chefs, et Cate BlanchetT</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit François Léveillée, Marie-Ève Perron et Jocelyn Lebeau qui doivent répondre à des questions sur : le débat des chefs, le parti socialiste de France, le monde des fourmis, un message de Cate BlanchetT, un chien vedette sur internet, le béton de l'avenir et un nouveau phénomène en sport.&lt;/p&gt;</description>
