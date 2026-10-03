@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Oct 2026 14:47:33 -0400</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 14:47:33 -0400</lastBuildDate>
+    <pubDate>Sat, 03 Oct 2026 11:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 03 Oct 2026 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 3 oct. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Le parti Démocratie directe veut &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"représenter le monde, la communauté, avoir le pouls de la communauté, pour être comme elle, et ceux qui proposent les choses, autorisent les choses","text":"représenter le monde, la communauté, avoir le pouls de la communauté, pour être comme elle, et ceux qui proposent les choses, autorisent les choses"}}"&gt;&lt;span lang="fr" title="Français"&gt;représenter le monde, la communauté, avoir le pouls de la communauté, pour être comme elle, et ceux qui proposent les choses, autorisent les choses&lt;/span&gt;&lt;/q&gt;. Olivier fait le tour des médias pour comprendre si un cougar a réellement été aperçu au Québec. Et Éric Duhaime a été remorqué par l'IA pour écrire son livre &lt;em&gt;Destination autonomie&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1278329/samedi-3-oct-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 03 Oct 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9452663d-1556-4d66-bce8-7fea4a58ec30/2026-10-02_14_15_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="40256000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9452663d-1556-4d66-bce8-7fea4a58ec30/2026-10-02_14_15_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:41:56</itunes:duration>
+    </item>
     <item>
       <title>la journée est encore jeune balado 03 oct 2026</title>
       <description>&lt;p&gt; &lt;/p&gt;</description>
