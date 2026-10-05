@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Oct 2026 09:06:00 +0000</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 09:06:00 +0000</lastBuildDate>
+    <pubDate>Mon, 05 Oct 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Jour de vote au Québec</title>
+      <description>&lt;p&gt;C'est aujourd'hui que les Québécois et les Québécoises sont appelés aux urnes.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236520/lundi-5-octobre-2026</link>
+      <pubDate>Mon, 05 Oct 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/b172bc1a-ff84-4aac-b324-495af3a60058/2026-10-05_05_06_00_alaunebaladoexterne_0000.mp3" length="33090455" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/b172bc1a-ff84-4aac-b324-495af3a60058/2026-10-05_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 2 octobre 2026 -  Les chefs tentent toujours de rallier les indécis</title>
       <description>&lt;p&gt;Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d’ici et d’ailleurs&lt;/p&gt;</description>
