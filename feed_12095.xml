@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Oct 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 05 Oct 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>La retraite du dernier cheval canadien du SPVM, et le retour de la peste en Sibérie</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1278541/la-retraite-du-dernier-cheval-canadien-du-spvm-et-le-retour-de-la-peste-en-siberie</link>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e0dffaeb-0e4a-4dbe-9a4c-d2018338fae3/2026-10-05_07_52_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24288000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e0dffaeb-0e4a-4dbe-9a4c-d2018338fae3/2026-10-05_07_52_58_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:18</itunes:duration>
+    </item>
     <item>
       <title>Duhaime propulsé par l’IA, et l’armée américaine protégée par « l’armure de Dieu »</title>
       <description />
