@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 05 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Un retour sur la soirée électorale, et Noël qui nous guette</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1278871/un-retour-sur-la-soiree-electorale-et-noel-qui-nous-guette</link>
+      <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c2940747-3cc7-46e4-a816-0a3121dd58b0/2026-10-06_07_46_44_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26400000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c2940747-3cc7-46e4-a816-0a3121dd58b0/2026-10-06_07_46_44_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:27:30</itunes:duration>
+    </item>
     <item>
       <title>La retraite du dernier cheval canadien du SPVM, et le retour de la peste en Sibérie</title>
       <description />
