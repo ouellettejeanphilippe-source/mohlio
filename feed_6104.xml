@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Oct 2026 19:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 19:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 06 Oct 2026 20:20:00 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Oct 2026 20:20:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Une blessure et plusieurs occasions chez le Canadien</title>
+      <description>&lt;p&gt;Après deux matchs, on sent que les joueurs du Canadien ont encore besoin d'ajuster leur jeu collectif. Heureusement, les Glorieux sont de retour à Montréal, mais les plans de Martin St-Louis sont bouleversés par la blessure d'Ivan Demidov. Une belle occasion pour Kirby Dach de revenir au sein d’un des deux premiers trios du CH. De plus, le robuste Florian Xhekaj pourra aussi amorcer sa saison.&lt;/p&gt;&lt;p&gt;Par ailleurs, une dispute commerciale pourrait être à l'origine d'une grande perte d'influence du Canada sur la scène internationale du hockey.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1279064/une-blessure-et-plusieurs-occasions-chez-le-canadien</link>
+      <pubDate>Tue, 06 Oct 2026 20:20:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5fb8264d-82b5-4fff-84a0-f2b9a6c01330/2026-10-06_16_13_37_tellementhockey_0000_master.m3u8" length="57552000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5fb8264d-82b5-4fff-84a0-f2b9a6c01330/2026-10-06_16_13_37_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:59:57</itunes:duration>
+    </item>
     <item>
       <title>Dobes est bon!</title>
       <description>&lt;p&gt;Le Canadien a commencé la saison avec une victoire convaincante contre les Maple Leafs. Si le jeu du premier trio montréalais a encore besoin d'être peaufiné, celui des joueurs de soutien a permis de contrôler le match. Par-dessus tout, Jakub Dobes, le jeune gardien tchèque du CH, a été impérial.&lt;/p&gt;&lt;p&gt;Lui lance-t-on assez de fleurs?&lt;/p&gt;&lt;p&gt;Kent Hughes est patient et tente toujours d'améliorer son club, bien qu'il n'ait pas réussi à obtenir Kirill Marchenko, des Blue Jackets de Columbus. Quel joueur pourrait servir d'appât dans un échange?&lt;/p&gt;</description>
