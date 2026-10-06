@@ -153,7 +153,7 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-10-06 00:13 UTC
+Last update: 2026-10-06 10:11 UTC
 
 ### Feeds
 
@@ -165,14 +165,13 @@ Last update: 2026-10-06 00:13 UTC
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 72 episodes, latest 2026-10-05 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 66 episodes, latest 2026-10-05 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 55 episodes, latest 2026-10-03 13:00 ET
-- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 67 episodes, latest 2026-10-05 19:06 ET
-- ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 366 episodes, latest 2026-10-05 05:06 ET
+- ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 67 episodes, latest 2026-10-05 19:06 ET
+- 🆕 [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 367 episodes, latest 2026-10-06 05:06 ET
 
 ### Warnings
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
-- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `hockey`: podcast RSS unavailable (podcast RSS returned no channel)
 - `niquet`: podcast RSS unavailable (podcast RSS returned no channel)
