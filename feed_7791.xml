@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Oct 2026 17:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 03 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 03 Oct 2026 20:00:00 -0400</pubDate>
+    <lastBuildDate>Sat, 03 Oct 2026 20:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -24,10 +24,10 @@
       <title>Bubbles, le dauphin filou et la diva de Charlemagne</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit André Robitaille, Catherine Chabot et Mikhaïl Ahooja, qui doivent répondre à des questions sur : le cri du cœur du maire de Gaspé, le coûteux voyage de Mary Simon, Bubbles le dauphin, la Bittt à Tibi, le pape Léon XIV, un vol de camions décevant, le nouveau projet de Céline et la nouvelle habitude des Alouettes de Montréal.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1278433/pierre-brassard-andre-robitaille-catherine-chabot-mikhail-ahooja</link>
-      <pubDate>Sat, 03 Oct 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7a5c2b9c-c791-4b3b-b763-7ab4cfc104b3/2026-10-03_11_35_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <pubDate>Sat, 03 Oct 2026 20:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/099c04d6-71c2-466f-a058-e10698e10f0f/2026-10-03_20_00_00_repeterlaquestionbalado_0000.mp3" length="77330390" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7a5c2b9c-c791-4b3b-b763-7ab4cfc104b3/2026-10-03_11_35_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:53:14</itunes:duration>
+      <itunes:duration>00:53:42</itunes:duration>
     </item>
     <item>
       <title>Débat des chefs, et Cate BlanchetT</title>
