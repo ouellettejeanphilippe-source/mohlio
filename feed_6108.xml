@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Oct 2026 09:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>La colère des lycéens et lycéennes s’amplifie dans une France polarisée</title>
+      <description>&lt;p&gt;Depuis des semaines, la France est profondément secouée par le mouvement de contestation des élèves des écoles secondaires. Soutenus par le parti politique La France insoumise et par d’importants syndicats, les lycéens et lycéennes n’entendent pas ralentir la cadence. Malgré la violence des affrontements avec la police, la casse et les nombreuses personnes blessées, ces jeunes de la génération Z gardent le cap sur leurs revendications. L’ex-correspondant en Europe Raphaël Bouvier-Auclair analyse l’ampleur du mouvement et ce qu’il révèle sur la France d’aujourd’hui.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1279374/la-colere-des-lyceens-et-lyceennes-samplifie-dans-une-france-polarisee</link>
+      <pubDate>Thu, 08 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d03fdadf-97dd-4d5e-8b3d-5ce8a6cd692d/2026-10-07_16_32_38_casexplique_0000_master.m3u8" length="15200000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d03fdadf-97dd-4d5e-8b3d-5ce8a6cd692d/2026-10-07_16_32_38_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:15:50</itunes:duration>
+    </item>
     <item>
       <title>L’urgence humanitaire persiste à Gaza</title>
       <description>&lt;p&gt;Trois ans se sont écoulés depuis l’attaque du Hamas en sol israélien qui a coûté la vie à 1200 personnes, le 7 octobre 2023. Depuis, la guerre menée par Israël dans la bande de Gaza a fait plus de 74 000 morts dans l’enclave palestinienne et y a provoqué une crise humanitaire qui est loin de se résorber. François Audet, directeur de l’Observatoire canadien sur les crises et l’action humanitaires, fait le point sur les conditions de vie de la population de Gaza.&lt;/p&gt;</description>
