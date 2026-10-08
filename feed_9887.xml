@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 07 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Jeudi 8 oct. 2026 : Hugo Dumas, Nathalie Petrowski et Philippe J. Fournier</title>
+      <description>&lt;p&gt;Nathalie Petrowski suggère de &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;louer des enfants&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;louer des enfants&amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;louer des enfants&lt;/span&gt;&lt;/q&gt; pour aller voir le film &lt;em&gt;Hantée.&lt;/em&gt; Hugo Dumas raconte le passage &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;chaotique&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;chaotique&amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;chaotique&lt;/span&gt;&lt;/q&gt; de l’élue libérale Nada Boumeftah à la téléréalité &lt;em&gt;Les traîtres&lt;/em&gt;. Et l’analyste Philippe J. Fournier prédit quand seront les prochaines élections.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1279589/jeudi-8-oct-2026-hugo-dumas-nathalie-petrowski-et-philippe-j-fournier</link>
+      <pubDate>Thu, 08 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/374656f5-4a67-4a0c-bd2e-bc069a5a0614/2026-10-08_14_16_23_lajourneeestencorejeuneohdio_0000_master.m3u8" length="30880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/374656f5-4a67-4a0c-bd2e-bc069a5a0614/2026-10-08_14_16_23_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:32:10</itunes:duration>
+    </item>
     <item>
       <title>Mercredi 7 oct. 2026 : Paul Journet, Josée Boileau et Dominic LeBlanc</title>
       <description>&lt;p&gt;Paul Journet et Josée Boileau expliquent les avantages de notre mode de scrutin. Et Dominic LeBlanc parle du référendum qui aura lieu en Alberta et révèle avoir été victime de « fat shaming » par Justin Trudeau.&lt;/p&gt;</description>
