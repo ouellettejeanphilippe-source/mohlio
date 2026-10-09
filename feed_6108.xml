@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Oct 2026 10:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 10:00:00 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2026 05:00:00 -0400</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2026 05:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -24,10 +24,10 @@
       <title>La colère des lycéens et lycéennes s’amplifie dans une France polarisée</title>
       <description>&lt;p&gt;Depuis des semaines, la France est profondément secouée par le mouvement de contestation des élèves des écoles secondaires. Soutenus par le parti politique La France insoumise et par d’importants syndicats, les lycéens et lycéennes n’entendent pas ralentir la cadence. Malgré la violence des affrontements avec la police, la casse et les nombreuses personnes blessées, ces jeunes de la génération Z gardent le cap sur leurs revendications. L’ex-correspondant en Europe Raphaël Bouvier-Auclair analyse l’ampleur du mouvement et ce qu’il révèle sur la France d’aujourd’hui.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1279374/la-colere-des-lyceens-et-lyceennes-samplifie-dans-une-france-polarisee</link>
-      <pubDate>Thu, 08 Oct 2026 10:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d03fdadf-97dd-4d5e-8b3d-5ce8a6cd692d/2026-10-07_16_32_38_casexplique_0000_master.m3u8" length="15200000" type="audio/mpeg" />
+      <pubDate>Thu, 08 Oct 2026 05:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8b33c8f6-5b4a-46b8-a629-737a50e53c1e/2026-10-08_05_00_00_casexpliquebalado_0000.mp3" length="22989844" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d03fdadf-97dd-4d5e-8b3d-5ce8a6cd692d/2026-10-07_16_32_38_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:15:50</itunes:duration>
+      <itunes:duration>00:15:57</itunes:duration>
     </item>
     <item>
       <title>L’urgence humanitaire persiste à Gaza</title>

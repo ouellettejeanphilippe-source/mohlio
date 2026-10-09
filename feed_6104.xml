@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Oct 2026 20:20:00 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Oct 2026 20:20:00 +0000</lastBuildDate>
+    <pubDate>Fri, 09 Oct 2026 20:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 09 Oct 2026 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Perdre sans être battu</title>
+      <description>&lt;p&gt;Le Canadien a disputé un excellent match contre les Predators de Nashville, jeudi soir, mais il l'a quand même perdu. On pourra évoquer la courte durée du camp d'entraînement, les quelques blessures ou les ajustements qu'il est nécessaire d'apporter aux unités spéciales pour expliquer ce résultat. Mais il faut toutefois garder en tête que toutes les équipes de la ligue traversent une phase d'ajustement similaire en début de saison, et la plupart s’en tirent bien.&lt;/p&gt;&lt;p&gt;Dylan Larkin jouera au Centre Bell lors de la visite des Red Wings de Detroit. Le public de Montréal tentera-t-il de le charmer?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1280107/perdre-sans-etre-battu</link>
+      <pubDate>Fri, 09 Oct 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/237707ac-6e56-4550-a1ce-ba843e6edd4e/2026-10-09_15_36_10_tellementhockey_0000_master.m3u8" length="54496000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/237707ac-6e56-4550-a1ce-ba843e6edd4e/2026-10-09_15_36_10_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:56:46</itunes:duration>
+    </item>
     <item>
       <title>Une blessure et plusieurs occasions chez le Canadien</title>
       <description>&lt;p&gt;Après deux matchs, on sent que les joueurs du Canadien ont encore besoin d'ajuster leur jeu collectif. Heureusement, les Glorieux sont de retour à Montréal, mais les plans de Martin St-Louis sont bouleversés par la blessure d'Ivan Demidov. Une belle occasion pour Kirby Dach de revenir au sein d’un des deux premiers trios du CH. De plus, le robuste Florian Xhekaj pourra aussi amorcer sa saison.&lt;/p&gt;&lt;p&gt;Par ailleurs, une dispute commerciale pourrait être à l'origine d'une grande perte d'influence du Canada sur la scène internationale du hockey.&lt;/p&gt;</description>
