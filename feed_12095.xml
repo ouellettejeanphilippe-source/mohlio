@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 09 Oct 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Un ministre de la CAQ au party du PQ, et une formation sur l’IA générée par l’IA</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1279713/un-ministre-de-la-caq-au-party-du-pq-et-une-formation-sur-lia-generee-par-lia</link>
+      <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ef347810-33a1-4105-8e9b-4144af41b6b2/2026-10-09_07_40_25_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22944000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ef347810-33a1-4105-8e9b-4144af41b6b2/2026-10-09_07_40_25_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:54</itunes:duration>
+    </item>
     <item>
       <title>Elon Musk est indépendantiste, et des archéologues trouvent un très vieux ski</title>
       <description />
