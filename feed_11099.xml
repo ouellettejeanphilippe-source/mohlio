@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Oct 2026 15:45:00 +0000</pubDate>
-    <lastBuildDate>Fri, 02 Oct 2026 15:45:00 +0000</lastBuildDate>
+    <pubDate>Fri, 09 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 09 Oct 2026 16:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>Faux défi TikTok : la police et les médias bernés</title>
+      <description>&lt;p&gt;L’anatomie d’un autre faux défi de l’application TikTok; des témoignages révélateurs sur les failles de sécurité à OpenAI; le côté sombre de Muse, l’assistant IA de Meta; et la quête religieuse d’Anthropic.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1279812/faux-defi-tiktok-medias-et-policiers-bernes</link>
+      <pubDate>Fri, 09 Oct 2026 16:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e856730d-e120-4119-aa24-158b739a1d5d/2026-10-09_11_26_02_decrypteurslebaladoohdio_0000_master.m3u8" length="51152000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e856730d-e120-4119-aa24-158b739a1d5d/2026-10-09_11_26_02_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:17</itunes:duration>
+    </item>
     <item>
       <title>Les géants de l’IA s’entendent avec Trump</title>
       <description>&lt;p&gt;Donald Trump signe une entente avec les géants de l’industrie de l’intelligence artificielle (IA); un regard inédit sur les finances d’Anthropic, la compagnie derrière l’IA Claude; une enquête sur un compte proséparation de l’Alberta; le FBI ciblé par une attaque de cyberpiratage sans précédent; et des médias canadiens bernés par un faux journaliste.&lt;/p&gt;</description>
