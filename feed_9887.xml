@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 09 Oct 2026 14:30:00 -0400</pubDate>
+    <lastBuildDate>Fri, 09 Oct 2026 14:30:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -24,8 +24,8 @@
       <title>Vendredi 9 oct. 2026 : Pierre Brassard et Yves Boisvert</title>
       <description>&lt;p&gt;Des personnalités médiatiques commentent les propos d’Elon Musk sur la souveraineté du Québec. Yves Boisvert se penche sur le cas de Christa Pike, qui a survécu à son exécution aux États-Unis. Et Pierre Brassard lance une fondation pour ceux qui calent.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1280028/vendredi-9-oct-2026-pierre-brassard-et-yves-boisvert</link>
-      <pubDate>Fri, 09 Oct 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ede564fb-2242-45f8-81ae-4751c7448666/2026-10-09_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28368000" type="audio/mpeg" />
+      <pubDate>Fri, 09 Oct 2026 14:30:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4768e25d-e8e0-4344-9eb3-215e0d2a2d50/2026-10-09_14_30_00_journeeestencorejeunebalado_0000.mp3" length="42560992" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ede564fb-2242-45f8-81ae-4751c7448666/2026-10-09_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>00:29:33</itunes:duration>
     </item>
