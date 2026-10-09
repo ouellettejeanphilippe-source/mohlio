@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Fri, 09 Oct 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Fri, 09 Oct 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Prix Nobel de la paix 2026</title>
+      <description>&lt;p&gt;Le prix Nobel de la paix est décerné cette année à l'avocate sud-africaine Navanethem Pillay.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236677/vendredi-9-octobre-2026</link>
+      <pubDate>Fri, 09 Oct 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/60134365-3185-4356-a3fc-28e991e6bf41/2026-10-09_05_06_00_alaunebaladoexterne_0000.mp3" length="33065378" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/60134365-3185-4356-a3fc-28e991e6bf41/2026-10-09_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:57</itunes:duration>
+    </item>
     <item>
       <title>Des États généraux de l'acier et de l'aluminium</title>
       <description>&lt;p&gt;À trois semaines des élections de mi-mandat aux États-Unis, les entreprises des secteurs de l'acier et de l'aluminium du Québec se mobilisent pour développer de nouvelles stratégies pour faire face aux tarifs douaniers de l'administration Trump.&lt;/p&gt;</description>
