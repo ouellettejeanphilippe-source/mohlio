@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Oct 2026 14:30:00 -0400</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2026 14:30:00 -0400</lastBuildDate>
+    <pubDate>Sat, 10 Oct 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 10 Oct 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 10 oct. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;L’hymne national est &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;massacré &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;massacré &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;massacré&lt;/span&gt;&lt;/q&gt; avant le match de soccer du Canada contre le Pérou. Jeff Filion compare l’éthique de travail d’Éric Duhaime à celui de Donald Trump. Et Éric Duhaime est offusqué que le maire de Québec, Bruno Marchand, ait qualifié ses partisans contre le tramway de &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;tribu &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;tribu &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;tribu&lt;/span&gt;&lt;/q&gt;. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1280113/samedi-10-oct-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 10 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f3bee285-23af-45f0-b2e0-5de7ed493e70/2026-10-09_16_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="36224000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f3bee285-23af-45f0-b2e0-5de7ed493e70/2026-10-09_16_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:37:44</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 9 oct. 2026 : Pierre Brassard et Yves Boisvert</title>
       <description>&lt;p&gt;Des personnalités médiatiques commentent les propos d’Elon Musk sur la souveraineté du Québec. Yves Boisvert se penche sur le cas de Christa Pike, qui a survécu à son exécution aux États-Unis. Et Pierre Brassard lance une fondation pour ceux qui calent.&lt;/p&gt;</description>
