@@ -172,7 +172,9 @@ Last update: 2026-10-13 00:32 UTC
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
+- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `hockey`: podcast RSS unavailable (podcast RSS returned no channel)
+- `journee`: no new episode for the last 2 expected publications
 - `niquet`: podcast RSS unavailable (podcast RSS returned no channel)
 <!-- RUN_LOG_END -->
