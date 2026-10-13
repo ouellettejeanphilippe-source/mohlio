@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Tue, 13 Oct 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Tue, 13 Oct 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>La grippe au Québec inquiète des experts</title>
+      <description>&lt;p&gt;Depuis ce mardi 13 octobre, il est maintenant possible de prendre un rendez-vous pour la campagne de vaccination, qui commence la semaine prochaine au Québec. Plusieurs autres provinces ont déjà entamé leur campagne au cours des derniers jours.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236763/mardi-13-octobre-2026</link>
+      <pubDate>Tue, 13 Oct 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/276a4779-1b54-40a1-9c48-221faf06c73f/2026-10-13_05_06_00_alaunebaladoexterne_0000.mp3" length="33086066" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/04f93128-b2a0-4d83-9368-dc0460432121/2026-10-13_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
     <item>
       <title>Prix Nobel de la paix 2026</title>
       <description>&lt;p&gt;Le prix Nobel de la paix est décerné cette année à l'avocate sud-africaine Navanethem Pillay.&lt;/p&gt;</description>
