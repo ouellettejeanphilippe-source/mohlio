@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Oct 2026 17:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 10 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 10 Oct 2026 20:00:00 -0400</pubDate>
+    <lastBuildDate>Sat, 10 Oct 2026 20:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -24,10 +24,10 @@
       <title>Pensée de PSPP et prix Nobel</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Pier-Luc Funk, Laurianne Lalonde et Marina Orsini qui doivent répondre à des questions sur : le nouveau premier ministre désigné PSPP, la vague rouge, la défaite de la CAQ, un concours japonais, une grosse exposition d'art, Sylvester Stallone, les prix Nobel, une bonne nouvelle d'Indonésie et l'hymne national au Stade Saputo.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1280249/pierre-brassard-pier-luc-funk-laurianne-lalonde-marina-orsini</link>
-      <pubDate>Sat, 10 Oct 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/83b861f4-1d68-4185-a80e-fe78a6b9c281/2026-10-10_11_35_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <pubDate>Sat, 10 Oct 2026 20:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/f1bba29b-6d9f-4775-8365-41ffe7c1e86c/2026-10-10_20_00_00_repeterlaquestionbalado_0000.mp3" length="77328509" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/83b861f4-1d68-4185-a80e-fe78a6b9c281/2026-10-10_11_35_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:53:14</itunes:duration>
+      <itunes:duration>00:53:42</itunes:duration>
     </item>
     <item>
       <title>Bubbles, le dauphin filou et la diva de Charlemagne</title>
