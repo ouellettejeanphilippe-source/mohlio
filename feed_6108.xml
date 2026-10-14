@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Oct 2026 09:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 14 Oct 2026 09:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Ruptures de services en obstétrique : des femmes témoignent</title>
+      <description>&lt;p&gt;Accoucher ne devrait pas être une course à obstacles. Pourtant, c’est ce que vivent bien des femmes dans une multitude de régions du Québec. Des ruptures de services en obstétrique et en maternité compliquent trop souvent les grossesses. Ce problème ne date pas d’hier, et les partis politiques ont promis d’y remédier au cours de la récente campagne électorale. La journaliste Catherine Poisson tente de comprendre ce que vivent les femmes aux prises avec cette défaillance de notre système de santé.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1280421/ruptures-de-services-en-obstetrique-des-femmes-temoignent</link>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9bcf5a4c-2d9d-4dae-8230-cf129654add0/2026-10-12_09_01_00_casexplique_0000_master.m3u8" length="19536000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9bcf5a4c-2d9d-4dae-8230-cf129654add0/2026-10-12_09_01_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:20:21</itunes:duration>
+    </item>
     <item>
       <title>Fermeture de Marineland : mammifères marins en danger</title>
       <description>&lt;p&gt;Les décès de mammifères marins se multiplient dans la foulée de la fermeture du parc aquatique ontarien Marineland. Au cours des derniers mois, une trentaine d’animaux ont été transférés vers d’autres installations dans le monde. Quatre bélugas et un dauphin sont morts au terme de ces transferts. Le journaliste Alexis Gacon explique ce qui cloche avec les méthodes de transport employées et explore les pistes de solution pour éviter ces dénouements tragiques.&lt;/p&gt;</description>

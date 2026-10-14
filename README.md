@@ -153,26 +153,25 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-10-14 00:08 UTC
+Last update: 2026-10-14 09:02 UTC
 
 ### Feeds
 
 - ✅ [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 10 episodes, latest 2025-12-29 06:00 ET
 - ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 30 episodes, latest 2026-06-18 15:00 ET
 - ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 54 episodes, latest 2026-10-09 12:00 ET
-- ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 68 episodes, latest 2026-10-13 05:00 ET
-- 🆕 [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 60 episodes, latest 2026-10-13 16:00 ET
+- 🆕 [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 69 episodes, latest 2026-10-14 05:00 ET
+- ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 60 episodes, latest 2026-10-13 16:00 ET
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 78 episodes, latest 2026-10-13 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 71 episodes, latest 2026-10-13 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 56 episodes, latest 2026-10-10 13:00 ET
-- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 73 episodes, latest 2026-10-13 19:06 ET
+- ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 73 episodes, latest 2026-10-13 19:06 ET
 - ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 371 episodes, latest 2026-10-13 05:06 ET
 
 ### Warnings
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
-- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `hockey`: podcast RSS unavailable (podcast RSS returned no channel)
 - `niquet`: podcast RSS unavailable (podcast RSS returned no channel)
