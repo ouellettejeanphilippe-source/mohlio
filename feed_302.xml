@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Wed, 14 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2026 09:06:00 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Jeudi 15 octobre 2026</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236804/jeudi-15-octobre-2026</link>
+      <pubDate>Thu, 15 Oct 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/60d633bb-256e-4c30-b9a3-6da12dc0d8e1/2026-10-15_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/60d633bb-256e-4c30-b9a3-6da12dc0d8e1/2026-10-15_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Suspension de l'achat de Black Hawk</title>
       <description>&lt;p&gt;Ottawa suspend les projets d'acquisition d'équipement militaire, comme les hélicoptères Black Hawk fabriqués aux États-Unis, en réponse aux tensions commerciales. &lt;/p&gt;</description>
