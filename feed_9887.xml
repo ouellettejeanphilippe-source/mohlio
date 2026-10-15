@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Wed, 14 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Jeudi 15 oct. 2026 : Nathalie Petrowski, Hugo Dumas et Philippe Schobb</title>
+      <description>&lt;p&gt;Philippe Schnobb parle de sa tendance à perdre aux élections. Nathalie Petrowski s’intéresse au film &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;le plus inconfortable de la décennie&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;le plus inconfortable de la décennie&amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;le plus inconfortable de la décennie&lt;/span&gt;&lt;/q&gt;, &lt;em&gt;You Can See Everything&lt;/em&gt;, sur Elizabeth Holmes. Et Hugo Dumas fait goûter à Jean-Philippe une boisson à saveur de Kraft Dinner qui lui donne envie de vomir.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1281488/jeudi-15-oct-2026-nathalie-petrowski-hugo-dumas-et-philippe-schobb</link>
+      <pubDate>Thu, 15 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9ce258ed-35c2-4f35-a515-c3e6a65e93fa/2026-10-15_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="31760000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9ce258ed-35c2-4f35-a515-c3e6a65e93fa/2026-10-15_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:05</itunes:duration>
+    </item>
     <item>
       <title>Mercredi 14 oct. 2026 : Jean-Sébastien Girard, Simon-Olivier Lorange et Rafael Miró</title>
       <description>&lt;p&gt;Olivier nous fait écouter Christine Fréchette qui remercie Paul St-Pierre Plamondon pendant qu’il part. Simon-Olivier Lorange nous dit pourquoi le Canadien est la &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;plus meilleure équipe du monde &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;plus meilleure équipe du monde &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;plus meilleure équipe du monde.&lt;/span&gt;&lt;/q&gt; Rafael Miró explique les revendications des lycéens et lycéennes en France. Et Jean-Sébastien fait une revue de presse… à sa façon.&lt;/p&gt;</description>
