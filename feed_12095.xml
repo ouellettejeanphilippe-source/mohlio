@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 14 Oct 2026 12:20:00 +0000</pubDate>
-    <lastBuildDate>Wed, 14 Oct 2026 12:20:00 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>L’industrie de la banane a un coup de mou, et un Torontois fait fondre l’or dans son condo</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1281314/lindustrie-de-la-banane-a-un-coup-de-mou-et-un-torontois-fait-fondre-lor-dans-son-condo</link>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4d2d39e9-c844-4251-8496-d70f94d4fddb/2026-10-15_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26384000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4d2d39e9-c844-4251-8496-d70f94d4fddb/2026-10-15_07_30_00_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:27:29</itunes:duration>
+    </item>
     <item>
       <title>La musique en français boudée au Québec, et les données d’Elon Musk révélées par Elon Musk</title>
       <description />
