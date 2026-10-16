@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Oct 2026 16:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 09 Oct 2026 16:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Oct 2026 16:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>Non, des frappes ukrainiennes n’ont pas démantelé de réseaux de bots au Canada</title>
+      <description>&lt;p&gt;Des frappes ukrainiennes sur des centres de données provoquent une vague de mésinformation; le journaliste Nicholas De Rosa raconte son &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;expérience &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;expérience &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;expérience &lt;/span&gt;&lt;/q&gt; avec Muse, l’assistant IA de Meta; la jeune pousse américaine Character.AI fait faillite; une avalanche de poursuites contre OpenAI; un expert canadien en cybersécurité arrêté en lien avec une cyberattaque visant le FBI.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1281651/non-des-frappes-ukrainiennes-nont-pas-demantele-de-reseaux-de-bots-au-canada</link>
+      <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/78a0f468-1bde-46f4-ae01-038ff3c9cafb/2026-10-16_10_57_49_decrypteurslebaladoohdio_0000_master.m3u8" length="57600000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/78a0f468-1bde-46f4-ae01-038ff3c9cafb/2026-10-16_10_57_49_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:00:00</itunes:duration>
+    </item>
     <item>
       <title>Faux défi TikTok : la police et les médias bernés</title>
       <description>&lt;p&gt;L’anatomie d’un autre faux défi de l’application TikTok; des témoignages révélateurs sur les failles de sécurité à OpenAI; le côté sombre de Muse, l’assistant IA de Meta; et la quête religieuse d’Anthropic.&lt;/p&gt;</description>
