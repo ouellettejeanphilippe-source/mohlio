@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Oct 2026 10:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2026 10:00:00 +0000</lastBuildDate>
+    <pubDate>Thu, 15 Oct 2026 05:00:00 -0400</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2026 05:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -24,10 +24,10 @@
       <title>Peut-on résoudre la crise de l’itinérance?</title>
       <description>&lt;p&gt;Au Canada, la crise de l’itinérance atteint un niveau sans précédent. Comme bien des provinces, le Québec est en quête de solutions. Malgré tous les efforts déployés sur le terrain, la détresse s'accroît et des tragédies se multiplient, comme ces deux décès survenus la semaine dernière, à Montréal et Trois-Rivières. Le premier ministre désigné, Paul St-Pierre Plamondon, fait de la lutte contre l’itinérance une de ses priorités, mais par où doit-on commencer? Carolyne Grimard, professeure adjointe à l'École de travail social de l'Université de Montréal, présente des pistes de solution.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1281275/peut-on-resoudre-la-crise-de-litinerance</link>
-      <pubDate>Thu, 15 Oct 2026 10:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d1b1ef4b-89c4-4ff4-9d09-50019ac6a4c2/2026-10-14_17_44_39_casexplique_0000_master.m3u8" length="20288000" type="audio/mpeg" />
+      <pubDate>Thu, 15 Oct 2026 05:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/1b0b2252-7fcb-4ad7-8721-7ed63058daa9/2026-10-15_05_00_00_casexpliquebalado_0000.mp3" length="30635363" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d1b1ef4b-89c4-4ff4-9d09-50019ac6a4c2/2026-10-14_17_44_39_casexplique_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:21:08</itunes:duration>
+      <itunes:duration>00:21:16</itunes:duration>
     </item>
     <item>
       <title>Ruptures de services en obstétrique : des femmes témoignent</title>
