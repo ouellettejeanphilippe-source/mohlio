@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Fri, 16 Oct 2026 09:06:00 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Vendredi 16 octobre 2026</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236828/vendredi-16-octobre-2026</link>
+      <pubDate>Fri, 16 Oct 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/11d80c52-ec0d-43c5-aeae-b148c3de0390/2026-10-16_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/11d80c52-ec0d-43c5-aeae-b148c3de0390/2026-10-16_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Dernier conseil des ministres à Québec</title>
       <description>&lt;p&gt;Les ministres de la CAQ se sont réunis une dernière fois en conseil, hier. Les députés du Parti québécois seront assermentés aujourd'hui.&lt;/p&gt;</description>
