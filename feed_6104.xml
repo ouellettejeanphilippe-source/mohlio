@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Oct 2026 20:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 13 Oct 2026 20:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Oct 2026 19:50:00 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:50:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Le Canadien en quête de sa superbe</title>
+      <description>&lt;p&gt;Malgré de grands efforts et une responsabilité défensive retrouvée, les Glorieux n’obtiennent pas encore de résultats spectaculaires. L’effervescence qui avait caractérisé la jeune équipe au cours des dernières années manque à l’appel. Il faut dire que le début de saison timide de son gardien numéro un, Jakub Dobes, a peut-être contribué à cet essoufflement. À sa défense, ce n’est pas très reluisant chez ses coéquipiers non plus.&lt;/p&gt;&lt;p&gt;À Philadelphie, les Flyers sont en grande difficulté, et le directeur général de l’équipe, Daniel Brière, pourrait devoir agir bientôt.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1281788/le-canadien-en-quete-de-sa-superbe</link>
+      <pubDate>Fri, 16 Oct 2026 19:50:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/bd547466-080f-4b70-8b8a-52fee29c2596/2026-10-16_15_26_13_tellementhockey_0000_master.m3u8" length="56480000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/bd547466-080f-4b70-8b8a-52fee29c2596/2026-10-16_15_26_13_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:58:50</itunes:duration>
+    </item>
     <item>
       <title>Le retour de l’ancien Danault</title>
       <description>&lt;p&gt;Phillip Danault est revenu à Montréal sur la pointe des pieds l'an dernier. Après de bonnes séries éliminatoires, le sympathique attaquant poursuit sur sa lancée en ce début de saison. Il reprend le rôle qu'on lui connaissait bien à l’époque, sur la glace et dans le vestiaire. La chimie développée avec Alexandre Texier et Zachary Bolduc est évidente, et on se demande jusqu'où le centre de 33 ans pourra accompagner ses coéquipiers.  &lt;/p&gt;&lt;p&gt;L'effet domino causé par la blessure de Samuel Montembeault est-il en train de mystifier le Canadien? Que faire si Jacob Fowler continue de bien jouer devant le filet?&lt;/p&gt;&lt;p&gt;Et on s’interroge sur l’avantage de favoriser le mercantilisme à outrance au Centre Bell, la cathédrale du hockey professionnel.&lt;/p&gt;</description>
