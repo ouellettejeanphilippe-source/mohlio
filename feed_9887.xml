@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Sat, 17 Oct 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 17 Oct 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 17 oct. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Le ministre Marc Miller dit que le gouvernement fédéral a investi dans les costumes d’Angine de poitrine. Bernard Drainville nous apprend ce qu’il fera après la politique : chanter des chansons de son vaste répertoire à son petit-fils. Et l’influenceur évangéliste Jérémy-Noah Thériault révèle ce que Dieu lui a dit dans sa douche.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1281792/samedi-17-oct-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 17 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dd8115f4-fafd-47fd-8899-138914497072/2026-10-16_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28656000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dd8115f4-fafd-47fd-8899-138914497072/2026-10-16_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:29:51</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 16 oct. 2026 : Pierre Brassard, Jean-Sébastien Girard et Gabriel Hardy</title>
       <description>&lt;p&gt;Olivier nous fait écouter Jérémy-Noah Thériault, qui revient sur son passage à &lt;em&gt;Tout le monde en parle&lt;/em&gt;. Pierre Brassard raconte le party &lt;em&gt;trash &lt;/em&gt;pour célébrer les 100 ans de Winnie l'ourson. Et Gabriel Hardy explique pourquoi le PCC n’a pas aidé le PCQ pendant sa campagne électorale.&lt;/p&gt;</description>
