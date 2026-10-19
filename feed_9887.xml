@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Oct 2026 10:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 17 Oct 2026 10:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 19 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Lundi 19 oct. 2026 : Jean-Sébastien Girard, Véronique Prince et Mathieu Lévesque</title>
+      <description>&lt;p&gt;Véronique Prince commente la nomination de Pascal Paradis comme diplomate. Et le nouveau chef par intérim de la CAQ, Mathieu Lévesque, explique les prochaines étapes de la reconstruction du parti.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1282305/lundi-19-oct-2026-jean-sebastien-girard-veronique-prince-et-mathieu-levesque</link>
+      <pubDate>Mon, 19 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/754c8734-ff97-4af5-ac51-d7dbe14b9c4d/2026-10-19_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="31232000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/754c8734-ff97-4af5-ac51-d7dbe14b9c4d/2026-10-19_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:32:32</itunes:duration>
+    </item>
     <item>
       <title>Samedi 17 oct. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Le ministre Marc Miller dit que le gouvernement fédéral a investi dans les costumes d’Angine de poitrine. Bernard Drainville nous apprend ce qu’il fera après la politique : chanter des chansons de son vaste répertoire à son petit-fils. Et l’influenceur évangéliste Jérémy-Noah Thériault révèle ce que Dieu lui a dit dans sa douche.&lt;/p&gt;</description>
