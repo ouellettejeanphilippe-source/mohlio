@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Mon, 19 Oct 2026 09:06:00 +0000</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Lundi 19 octobre 2026</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236896/lundi-19-octobre-2026</link>
+      <pubDate>Mon, 19 Oct 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c2b30db5-3309-41cb-b25d-182b5ff124b2/2026-10-19_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c2b30db5-3309-41cb-b25d-182b5ff124b2/2026-10-19_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Référendum : Carney en Alberta</title>
       <description>&lt;p&gt;À trois jours du vote, l'opération charme du gouvernement Carney en Alberta va se poursuivre aujourd'hui.&lt;/p&gt;</description>
