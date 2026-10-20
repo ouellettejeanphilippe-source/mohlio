@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Mon, 19 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Tue, 20 Oct 2026 09:06:00 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Mardi 20 octobre 2026</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236934/mardi-20-octobre-2026</link>
+      <pubDate>Tue, 20 Oct 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7fd23c84-9378-4756-98e2-655913ff3c40/2026-10-20_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7fd23c84-9378-4756-98e2-655913ff3c40/2026-10-20_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Une enquête sur l'incendie de Wainwright</title>
       <description>&lt;p&gt;Quatre soldats sont morts dans l'incendie qui s'est déclaré dans une zone d'entraînement samedi à la base militaire de Wainwright, en Alberta. 39 personnes ont été blessées, dont 19 sont toujours dans un état critique.&lt;/p&gt;</description>
