@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mercredi 21 oct. 2026 : Guy Nantel, Paul Journet et Josée Boileau</title>
+      <description>&lt;p&gt;Olivier nous fait écouter Antoine Dionne Charest, qui révèle le meilleur conseil que son père lui a donné. Paul Journet et Josée Boileau nous disent quoi retenir du référendum en Alberta. Et Guy Nantel parle de son livre &lt;em&gt;Tête chercheuse 01&lt;/em&gt; &lt;em&gt;: Livre de chevet pour se coucher moins niaiseux &lt;/em&gt;et anime un jeu-questionnaire.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1283122/mercredi-21-oct-2026-guy-nantel-paul-journet-et-josee-boileau</link>
+      <pubDate>Wed, 21 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e3142fce-aa2b-42c9-817e-3ba21c602f25/2026-10-21_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="34928000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e3142fce-aa2b-42c9-817e-3ba21c602f25/2026-10-21_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:36:23</itunes:duration>
+    </item>
     <item>
       <title>Mardi 20 oct. 2026 : Magali Saint-Vincent et Kathryne Lamontagne</title>
       <description>&lt;p&gt;Olivier nous fait écouter Bruno Marchand, qui se fait invectiver. La future ex-journaliste Kathryne Lamontagne résume ses enquêtes. Et Magali Saint-Vincent prédit la constitution du Conseil des ministres.&lt;/p&gt;</description>
