@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Oct 2026 09:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Violences en France : à qui profite le chaos?</title>
+      <description>&lt;p&gt;Un parfum d’insurrection plane sur la France : des scènes de pillage, de casse et de violence ont propulsé le pays dans un climat de tensions sidérant. Depuis, les couvre-feux partiels et localisés se sont multipliés, tout comme les appels au calme. Critiqué de toutes parts, le gouvernement Macron reconnaît ses failles et tente désespérément de reprendre le contrôle d’une situation explosive. À six mois de l’élection présidentielle, comment ce sursaut de violence influence-t-il le panorama politique? L’analyste François Brousseau fait le point.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1282645/manifestations-violences-lyceens-france-casseurs-vandalisme-pillages-macron</link>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dde797af-0bb7-4a8c-b148-82f3ad8188c9/2026-10-20_17_34_00_casexplique_0000_master.m3u8" length="17040000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dde797af-0bb7-4a8c-b148-82f3ad8188c9/2026-10-20_17_34_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:17:45</itunes:duration>
+    </item>
     <item>
       <title>Les États-Unis et la Chine se préparent à la guerre… au cas où</title>
       <description>&lt;p&gt;Le principe de la &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"stabilité stratégique ","text":"stabilité stratégique "}}"&gt;&lt;span lang="fr" title="Français"&gt;stabilité stratégique&lt;/span&gt;&lt;/q&gt; guide officiellement les relations entre la Chine et les États-Unis. Mais, malgré ces efforts d’apaisement, au beau milieu du Pacifique, la course à l’armement se poursuit entre les deux superpuissances. Dans l'archipel d’Hawaï, des sommes records sont investies par la marine américaine dans le plus gros chantier de son histoire. Un conflit armé est-il forcément à craindre? Le journaliste Hugo Lavallée s’est rendu sur place pour prendre la pleine mesure de ce qui s’y trame. &lt;/p&gt;</description>
