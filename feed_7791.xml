@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Oct 2026 17:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 17 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 17 Oct 2026 20:00:00 -0400</pubDate>
+    <lastBuildDate>Sat, 17 Oct 2026 20:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -24,10 +24,10 @@
       <title>Twerking et Mongrain de sel</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Jessica Barker, Dominic Paquet et Rose-Aimée Automne T. Morin qui doivent répondre à des questions sur : le message d'unité de Mark Carney, le premier ministre du Manitoba, le « twerkage » en France, les tatouages de l'avenir et le départ de Jean-Luc Mongrain.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1281954/pierre-brassard-jessica-barker-dominic-paquet-rose-aimee-automne-t-morin</link>
-      <pubDate>Sat, 17 Oct 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/120e8ccb-4202-4923-9be0-cc57f89eb599/2026-10-17_11_40_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <pubDate>Sat, 17 Oct 2026 20:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/98ce334c-20b1-4333-9056-8cb2468deba0/2026-10-17_20_00_00_repeterlaquestionbalado_0000.mp3" length="77310328" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/120e8ccb-4202-4923-9be0-cc57f89eb599/2026-10-17_11_40_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:53:14</itunes:duration>
+      <itunes:duration>00:53:41</itunes:duration>
     </item>
     <item>
       <title>Pensée de PSPP et prix Nobel</title>
