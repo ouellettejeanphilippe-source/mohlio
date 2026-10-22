@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Oct 2026 09:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Brésil : l’extrême droite aux portes du pouvoir</title>
+      <description>&lt;p&gt;Le Brésil en entier retient son souffle. À quelques jours du deuxième tour de l’élection présidentielle, selon tous les pronostics, les résultats seront des plus serrés dans cette course où s’opposent le président de gauche sortant, Lula, et son adversaire issu de l’extrême droite, Flavio Bolsonaro. L’avance surprise du camp Bolsonaro au premier tour a provoqué un réveil brutal des forces progressistes, et le temps file pour renverser la tendance. L’éditeur de Brazilian Report, Gustavo Ribeiro, fait le point sur l’état des forces en présence.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1283181/bresil-lextreme-droite-aux-portes-du-pouvoir</link>
+      <pubDate>Thu, 22 Oct 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c11114c5-a7ec-4148-915d-40cb20bb29c4/2026-10-21_17_12_25_casexplique_0000_master.m3u8" length="16016000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c11114c5-a7ec-4148-915d-40cb20bb29c4/2026-10-21_17_12_25_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:16:41</itunes:duration>
+    </item>
     <item>
       <title>Violences en France : à qui profite le chaos?</title>
       <description>&lt;p&gt;Un parfum d’insurrection plane sur la France : des scènes de pillage, de casse et de violence ont propulsé le pays dans un climat de tensions sidérant. Depuis, les couvre-feux partiels et localisés se sont multipliés, tout comme les appels au calme. Critiqué de toutes parts, le gouvernement Macron reconnaît ses failles et tente désespérément de reprendre le contrôle d’une situation explosive. À six mois de l’élection présidentielle, comment ce sursaut de violence influence-t-il le panorama politique? L’analyste François Brousseau fait le point.&lt;/p&gt;</description>
