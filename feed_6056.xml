@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Oct 2026 23:06:00 +0000</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2026 23:06:00 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Oct 2026 23:06:00 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Oct 2026 23:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Mercredi 21 oct. 2026 : En direct du Cœur des sciences de l’Université du Québec à Montréal, la curiosité</title>
+      <description>&lt;p&gt;Le développement d'une passion et l’ouverture de nouveaux horizons grâce à la curiosité; l'inévitable perte d'intérêt pour certains sujets; l'influence de la curiosité interpersonnelle sur nos vies; et l'évaluation de la curiosité comme stratégie évolutive ou comme un défaut humain.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1236968/mercredi-21-oct-2026-en-direct-du-coeur-des-sciences-de-luniversite-du-quebec-a-montreal-la-curiosit</link>
+      <pubDate>Wed, 21 Oct 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/856c7bd0-0ecb-406a-87ae-12444d8e29f1/2026-10-21_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/856c7bd0-0ecb-406a-87ae-12444d8e29f1/2026-10-21_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
     <item>
       <title>Mardi 20 oct. 2026 : La naissance des astres, et le mystérieux mouvement des roches</title>
       <description>&lt;p&gt;L'évaluation des impacts des structures en mer sur la biodiversité marine; la raison de la forte portée de la voix sur un lac; le mystère de la naissance et du sexe des étoiles; le mouvement inusité des roches dans les champs et les aménagements paysagers.&lt;/p&gt;</description>
