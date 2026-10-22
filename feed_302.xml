@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Thu, 22 Oct 2026 09:06:00 +0000</pubDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Jeudi 22 octobre 2026</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1236990/jeudi-22-octobre-2026</link>
+      <pubDate>Thu, 22 Oct 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0d9a845f-e79b-48b9-8fd7-d51090b2e747/2026-10-22_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0d9a845f-e79b-48b9-8fd7-d51090b2e747/2026-10-22_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>PSPP devient premier ministre du Québec</title>
       <description>&lt;p&gt;C'est cet après-midi que Paul St-Pierre Plamondon sera officiellement assermenté comme le 34-ième premier ministre du Québec. Le chef du Parti québécois dévoilera du même coup la composition de son conseil des ministres, dont Radio-Canada a obtenu certains noms. Cet après-midi, 22 ministres seront assermentés à l'Assemblée nationale. &lt;/p&gt;</description>
