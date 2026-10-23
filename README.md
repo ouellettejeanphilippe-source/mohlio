@@ -159,20 +159,19 @@ Last update: 2026-10-23 15:50 UTC
 
 - ✅ [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 10 episodes, latest 2025-12-29 06:00 ET
 - ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 30 episodes, latest 2026-06-18 15:00 ET
-- 🆕 [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 56 episodes, latest 2026-10-23 11:50 ET
+- ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 56 episodes, latest 2026-10-23 11:50 ET
 - ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 74 episodes, latest 2026-10-22 06:00 ET
 - ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 62 episodes, latest 2026-10-20 16:00 ET
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 86 episodes, latest 2026-10-22 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 79 episodes, latest 2026-10-23 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 57 episodes, latest 2026-10-17 20:00 ET
-- ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 80 episodes, latest 2026-10-22 19:06 ET
-- 🆕 [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 379 episodes, latest 2026-10-23 05:06 ET
+- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 81 episodes, latest 2026-10-23 09:00 ET
+- ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 379 episodes, latest 2026-10-23 05:06 ET
 
 ### Warnings
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
-- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `hockey`: podcast RSS unavailable (podcast RSS returned no channel)
 - `niquet`: podcast RSS unavailable (podcast RSS returned no channel)
