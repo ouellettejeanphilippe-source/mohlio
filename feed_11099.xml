@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 16 Oct 2026 16:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2026 15:50:00 +0000</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2026 15:50:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>Désinformation : un gros joueur démasqué</title>
+      <description>&lt;p&gt;Notre enquête sur le plus grand compte de désinformation au Québec; le web perturbé par une faille de sécurité majeure; la proposition d’Anthropic pour encadrer l’IA; les inquiétudes sur la gestion du dossier de l’IA par Ottawa; et des publicités ciblées au service de logiciels espions mercenaires.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1283813/desinformation-un-gros-joueur-demasque</link>
+      <pubDate>Fri, 23 Oct 2026 15:50:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4b481ac9-4a50-4c58-aeb6-bc3da4b55cb6/2026-10-23_11_10_00_decrypteurslebaladoohdio_0000_master.m3u8" length="55552000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4b481ac9-4a50-4c58-aeb6-bc3da4b55cb6/2026-10-23_11_10_00_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:57:52</itunes:duration>
+    </item>
     <item>
       <title>Non, des frappes ukrainiennes n’ont pas démantelé de réseaux de bots au Canada</title>
       <description>&lt;p&gt;Des frappes ukrainiennes sur des centres de données provoquent une vague de mésinformation; le journaliste Nicholas De Rosa raconte son &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;expérience &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;expérience &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;expérience &lt;/span&gt;&lt;/q&gt; avec Muse, l’assistant IA de Meta; la jeune pousse américaine Character.AI fait faillite; une avalanche de poursuites contre OpenAI; un expert canadien en cybersécurité arrêté en lien avec une cyberattaque visant le FBI.&lt;/p&gt;</description>
