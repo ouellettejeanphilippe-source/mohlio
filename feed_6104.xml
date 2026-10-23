@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Oct 2026 20:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 20 Oct 2026 20:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2026 19:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2026 19:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>À quoi ressemble le Canadien sans Nick Suzuki?</title>
+      <description>&lt;p&gt;Après Ivan Demidov, Samuel Montembeault et Mike Matheson, c'est au tour du capitaine Nick Suzuki de subir une blessure. Celui qui était l'homme de fer des Glorieux manquera de deux à quatre semaines d’activités. Qui prendra la charge de travail du plus récent gagnant du trophée Selke? Il reste à savoir si Oliver Kapanen sera à la hauteur. &lt;/p&gt;&lt;p&gt;À Edmonton, on se demande si l'effet Mike Babcock permet à Connor McDavid de connaître un début de saison historique. Et du côté d’Ottawa, les adeptes des Sénateurs ont vécu un moment cathartique en confrontant leur ancien capitaine Brady Tkachuk.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1283895/a-quoi-ressemble-le-canadien-sans-nick-suzuki</link>
+      <pubDate>Fri, 23 Oct 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b0ef1079-bcbe-4901-8de2-34d4daea606f/2026-10-23_14_43_15_tellementhockey_0000_master.m3u8" length="62640000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b0ef1079-bcbe-4901-8de2-34d4daea606f/2026-10-23_14_43_15_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:05:15</itunes:duration>
+    </item>
     <item>
       <title>Faire confiance au processus</title>
       <description>&lt;p&gt;Le plan hockey de Martin St-Louis n’évolue pas de façon linéaire. De nombreux indices laissent entendre que les choses se placent pour le Canadien, qui joue de mieux en mieux. Pourtant, les résultats ne sont pas toujours au rendez-vous.&lt;/p&gt;&lt;p&gt;Plusieurs trios du CH contribuent à la production offensive, et l'on se demande s'il vaut la peine de créer une hiérarchie entre chaque groupe. Fait rassurant, certains vétérans prennent de plus en plus leur aise, et l'apport des jeunes est prometteur.&lt;/p&gt;&lt;p&gt;À Ottawa, les Sénateurs et leurs fans se préparent au retour de leur ancien capitaine Brady Tkachuk.&lt;/p&gt;</description>
