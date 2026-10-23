@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 23 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -21,11 +21,20 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
     <item>
+      <title>Vendredi 23 oct. 2026 : Pierre Brassard, Gabriel Nadeau-Dubois et Stéphanie Chouinard</title>
+      <description>&lt;p&gt;Stéphanie Chouinard explique les ambitions de Mark Carney en Turquie. Gabriel Nadeau-Dubois salue la priorité de Paul St-Pierre Plamondon, soit la lutte contre l’itinérance. Et Pierre Brassard s’inspire de Thélyson Orélien dans sa chronique.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1283907/vendredi-23-oct-2026-pierre-brassard-gabriel-nadeau-dubois-et-stephanie-chouinard</link>
+      <pubDate>Fri, 23 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6e797b0c-e722-4005-accf-d794c064f639/2026-10-23_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="29664000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6e797b0c-e722-4005-accf-d794c064f639/2026-10-23_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:30:54</itunes:duration>
+    </item>
+    <item>
       <title>Jeudi 22 oct. 2026 : Nathalie Petrowski, Hugo Dumas et Simon Coutu</title>
-      <description>&lt;p&gt;Nathalie Petrowski encense le spectacle de Louis-José Houde, &lt;em&gt;Et jusqu’à la fin la beauté&lt;/em&gt;. Hugo Dumas parle du documentaire &lt;em&gt;L’empire LVMH&lt;/em&gt;. Et Simon Coutu présente sa série documentaire &lt;em&gt;La fracture américaine&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Nathalie Petrowski encense le spectacle de Louis-José Houde, «Et jusqu’à la fin la beauté». Hugo Dumas parle du documentaire «L’empire LVMH». Et Simon Coutu présente sa série documentaire «La fracture américaine».&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1283430/jeudi-22-oct-2026-nathalie-petrowski-hugo-dumas-et-simon-coutu</link>
-      <pubDate>Thu, 22 Oct 2026 18:30:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/692c506c-297e-4018-80aa-901a1da09ae9/2026-10-22_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="34000000" type="audio/mpeg" />
+      <pubDate>Thu, 22 Oct 2026 14:30:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/99483268-0778-410e-a33c-e93cf7a5c671/2026-10-22_14_30_00_journeeestencorejeunebalado_0000.mp3" length="51018396" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/692c506c-297e-4018-80aa-901a1da09ae9/2026-10-22_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
       <itunes:duration>00:35:25</itunes:duration>
     </item>
