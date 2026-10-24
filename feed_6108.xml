@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Oct 2026 10:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2026 10:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Oct 2026 05:00:00 -0400</pubDate>
+    <lastBuildDate>Sat, 24 Oct 2026 05:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Procès pour le climat : le Canada sur le banc des accusés</title>
+      <description>&lt;p&gt;Un tribunal de la Colombie-Britannique se penchera sur une cause inédite en droit canadien. Baptisé « La Rose contre Sa Majesté le Roi », ce procès est porté à bout de bras par une quinzaine de jeunes qui accusent le Canada d’hypothéquer leur avenir en ne mettant pas en place des mesures climatiques qu’ils jugent suffisantes. La journaliste spécialisée en environnement Valérie Boisclair explique les grandes lignes du premier procès constitutionnel sur le climat au pays. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1283920/proces-climat-colombie-britannique-rose-contre-roi</link>
+      <pubDate>Sat, 24 Oct 2026 05:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/29d75875-3384-47cc-b0c0-75331b508a84/2026-10-24_05_00_00_casexpliquebalado_0000.mp3" length="31899271" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/29d75875-3384-47cc-b0c0-75331b508a84/2026-10-24_05_00_00_casexpliquebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:09</itunes:duration>
+    </item>
     <item>
       <title>Brésil : l’extrême droite aux portes du pouvoir</title>
       <description>&lt;p&gt;Le Brésil en entier retient son souffle. À quelques jours du deuxième tour de l’élection présidentielle, selon tous les pronostics, les résultats seront des plus serrés dans cette course où s’opposent le président de gauche sortant, Lula, et son adversaire issu de l’extrême droite, Flavio Bolsonaro. L’avance surprise du camp Bolsonaro au premier tour a provoqué un réveil brutal des forces progressistes, et le temps file pour renverser la tendance. L’éditeur de Brazilian Report, Gustavo Ribeiro, fait le point sur l’état des forces en présence.&lt;/p&gt;</description>
