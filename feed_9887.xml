@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 23 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Oct 2026 11:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 24 Oct 2026 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 24 oct. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;La colère gronde à Louiseville, en raison du bruit des motards. Québec solidaire se &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;poilievrise &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;poilievrise &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;poilievrise&lt;/span&gt;&lt;/q&gt;. Et Jean-François Lisée et Dimitri Soudas ont des opinions différentes sur les couilles de Paul St-Pierre Plamondon.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1283945/samedi-24-oct-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 24 Oct 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cf52e960-9651-4c46-a417-9fcb72995563/2026-10-23_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="35984000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cf52e960-9651-4c46-a417-9fcb72995563/2026-10-23_15_00_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:37:29</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 23 oct. 2026 : Pierre Brassard, Gabriel Nadeau-Dubois et Stéphanie Chouinard</title>
       <description>&lt;p&gt;Stéphanie Chouinard explique les ambitions de Mark Carney en Turquie. Gabriel Nadeau-Dubois salue la priorité de Paul St-Pierre Plamondon, soit la lutte contre l’itinérance. Et Pierre Brassard s’inspire de Thélyson Orélien dans sa chronique.&lt;/p&gt;</description>
