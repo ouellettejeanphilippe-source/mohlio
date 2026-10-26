@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Oct 2026 11:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Oct 2026 11:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Lundi 26 oct. 2026 : Jean-Sébastien Girard, Suzie Bouchard et Gabrielle Côté</title>
+      <description>&lt;p&gt;Olivier nous fait écouter Luc Ferrandez, qui prédit que Paul St-Pierre Plamondon va divorcer. Suzie Bouchard explique ce qui changerait si le droit au logement était inscrit dans la Charte des droits et libertés de la personne. Et Gabrielle Côté, en Europe, donne de ses nouvelles.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1284403/lundi-26-oct-2026-jean-sebastien-girard-suzie-bouchard-et-gabrielle-cote</link>
+      <pubDate>Mon, 26 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7d259124-424f-46ab-aaa1-739587b49aae/2026-10-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7d259124-424f-46ab-aaa1-739587b49aae/2026-10-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:29:30</itunes:duration>
+    </item>
     <item>
       <title>Samedi 24 oct. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;La colère gronde à Louiseville, en raison du bruit des motards. Québec solidaire se &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;poilievrise &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;poilievrise &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;poilievrise&lt;/span&gt;&lt;/q&gt;. Et Jean-François Lisée et Dimitri Soudas ont des opinions différentes sur les couilles de Paul St-Pierre Plamondon.&lt;/p&gt;</description>
