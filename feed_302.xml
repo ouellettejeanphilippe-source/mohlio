@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Oct 2026 09:06:00 +0000</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2026 09:06:00 +0000</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -21,13 +21,13 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
     <item>
-      <title>Lundi 26 octobre 2026</title>
-      <description />
+      <title>Environnement : un procès contre le gouvernement</title>
+      <description>&lt;p&gt;Le premier procès climatique intenté par des jeunes contre le gouvernement canadien s'ouvre aujourd'hui à Vancouver. Une cause inédite portée par quinze jeunes de partout au pays qui accusent Ottawa d'hypothéquer leur avenir par son inaction face aux changements climatiques.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1237085/lundi-26-octobre-2026</link>
-      <pubDate>Mon, 26 Oct 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0ffbd4f6-b88b-4b13-8873-b0bc8526249d/2026-10-26_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <pubDate>Mon, 26 Oct 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/13c1f58a-f1bd-42ac-8001-940a61b2ec4c/2026-10-26_05_06_00_alaunebaladoexterne_0000.mp3" length="33116786" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0ffbd4f6-b88b-4b13-8873-b0bc8526249d/2026-10-26_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:23:00</itunes:duration>
+      <itunes:duration>00:22:59</itunes:duration>
     </item>
     <item>
       <title>La lutte contre l'itinérance, vue par le PQ</title>
