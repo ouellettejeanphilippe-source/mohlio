@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Oct 2026 09:06:00 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2026 09:06:00 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Oct 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Tue, 27 Oct 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -21,13 +21,13 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
     <item>
-      <title>Mardi 27 octobre 2026</title>
-      <description />
+      <title>Abolir la loi sur les Indiens?</title>
+      <description>&lt;p&gt;Le premier ministre Mark Carney a tenu hier un Sommet avec les Premières Nations et la plupart des premiers ministres des provinces et territoires. Les discussions ont porté sur des enjeux de gouvernance, de santé ou encore d'économie.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1237097/mardi-27-octobre-2026</link>
-      <pubDate>Tue, 27 Oct 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/78206e4d-5030-4de9-aa7c-bab8083c84f0/2026-10-27_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <pubDate>Tue, 27 Oct 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/747ffae3-e77e-4b97-a332-0ac5ab1b3f85/2026-10-27_05_06_00_alaunebaladoexterne_0000.mp3" length="33110517" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/78206e4d-5030-4de9-aa7c-bab8083c84f0/2026-10-27_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:23:00</itunes:duration>
+      <itunes:duration>00:22:59</itunes:duration>
     </item>
     <item>
       <title>Environnement : un procès contre le gouvernement</title>
