@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Oct 2026 05:00:00 -0400</pubDate>
-    <lastBuildDate>Sat, 24 Oct 2026 05:00:00 -0400</lastBuildDate>
+    <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Élections de mi-mandat : qu’est-ce qui est en jeu pour Donald Trump?</title>
+      <description>&lt;p&gt;Dans une semaine, la population américaine votera pour renouveler une partie du Congrès. Absent des bulletins de vote, le président multiplie néanmoins les rassemblements pour aider son parti. De leur côté, les démocrates déploient aussi tous les efforts nécessaires afin de reprendre le contrôle de l’agenda législatif en attendant la possibilité de ravir la présidence en 2028. À Washington, la journaliste Manon Globensky analyse les conséquences de ce scrutin sur la fin du mandat présidentiel de Donald Trump. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1284439/elections-de-mi-mandat-quest-ce-qui-est-en-jeu-pour-donald-trump</link>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7015132c-3778-467b-9eef-d6f44991a622/2026-10-26_17_40_33_casexplique_0000_master.m3u8" length="20320000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7015132c-3778-467b-9eef-d6f44991a622/2026-10-26_17_40_33_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:21:10</itunes:duration>
+    </item>
     <item>
       <title>Procès pour le climat : le Canada sur le banc des accusés</title>
       <description>&lt;p&gt;Un tribunal de la Colombie-Britannique se penchera sur une cause inédite en droit canadien. Baptisé « La Rose contre Sa Majesté le Roi », ce procès est porté à bout de bras par une quinzaine de jeunes qui accusent le Canada d’hypothéquer leur avenir en ne mettant pas en place des mesures climatiques qu’ils jugent suffisantes. La journaliste spécialisée en environnement Valérie Boisclair explique les grandes lignes du premier procès constitutionnel sur le climat au pays. &lt;/p&gt;</description>
