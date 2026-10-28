@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>&lt;em&gt;L’Odyssée&lt;/em&gt; générée par une IA, et la Chine choquée par un mème de Mbappé en Mao</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1284753/lodyssee-generee-par-une-ia-et-la-chine-choquee-par-un-meme-de-mbappe-en-mao</link>
+      <pubDate>Wed, 28 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/590c96f6-c398-4f18-bc0a-958d41e35a40/2026-10-28_08_12_57_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24032000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/590c96f6-c398-4f18-bc0a-958d41e35a40/2026-10-28_08_12_57_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:02</itunes:duration>
+    </item>
     <item>
       <title>Le sommet de l’abondance à Drummondville, et un fugitif qui vaccine son raton laveur</title>
       <description />
