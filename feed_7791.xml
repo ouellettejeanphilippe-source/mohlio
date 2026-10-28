@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Oct 2026 17:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 24 Oct 2026 20:00:00 -0400</pubDate>
+    <lastBuildDate>Sat, 24 Oct 2026 20:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -24,10 +24,10 @@
       <title>Professeur Eric Girard et Gus la tortue</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Chantal Lamarre, Pierre Verville et Eugénie Lépine-Blondeau qui doivent répondre à des questions sur : le bonheur de Mark Carney, un cours offert par Eric Girard, l'ex porte-parole de la Maison-Blanche, Les Simpson, Gus la tortue et la bague de la Victoire de Montréal.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1284090/pierre-brassard-chantal-lamarre-pierre-verville-eugenie-lepine-blondeau</link>
-      <pubDate>Sat, 24 Oct 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/80d634b5-45d3-40c1-838f-14ed1014f281/2026-10-24_11_33_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <pubDate>Sat, 24 Oct 2026 20:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/3056398a-4af7-41f8-83eb-fa9760a8bb06/2026-10-24_20_00_00_repeterlaquestionbalado_0000.mp3" length="77320359" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/80d634b5-45d3-40c1-838f-14ed1014f281/2026-10-24_11_33_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:53:14</itunes:duration>
+      <itunes:duration>00:53:41</itunes:duration>
     </item>
     <item>
       <title>Twerking et Mongrain de sel</title>
