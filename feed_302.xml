@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Oct 2026 09:06:00 +0000</pubDate>
-    <lastBuildDate>Thu, 29 Oct 2026 09:06:00 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Oct 2026 05:06:00 -0400</pubDate>
+    <lastBuildDate>Thu, 29 Oct 2026 05:06:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -21,13 +21,13 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
     <item>
-      <title>Jeudi 29 octobre 2026</title>
-      <description />
+      <title>PSSP ne participera pas au sommet Canada-UE</title>
+      <description>&lt;p&gt;Après deux jours de confrontation avec Ottawa, le premier ministre du Québec, Paul St-Pierre Plamondon, a finalement décidé de ne pas participer au sommet Canada-Union européenne qui débute aujourd'hui à Montréal. Dans une lettre aux dignitaires européens, le chef péquiste dit refuser de s'y rendre sans avoir de droit de parole. C'est son diplomate en chef, Pascal Paradis, qui le représentera. &lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1237131/jeudi-29-octobre-2026</link>
-      <pubDate>Thu, 29 Oct 2026 09:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f8680920-6c30-4a20-9bb3-3b877a298116/2026-10-29_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <pubDate>Thu, 29 Oct 2026 05:06:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/2e207dce-2f28-4ca5-b34c-a466fa652c47/2026-10-29_05_06_00_alaunebaladoexterne_0000.mp3" length="33103621" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f8680920-6c30-4a20-9bb3-3b877a298116/2026-10-29_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:23:00</itunes:duration>
+      <itunes:duration>00:22:59</itunes:duration>
     </item>
     <item>
       <title>Résultats incertains en Israël</title>
