@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Wed, 28 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Oct 2026 18:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Oct 2026 18:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Jeudi 29 oct. 2026 : Nathalie Petrowski, Hugo Dumas et Francis Verreault-Paul</title>
+      <description>&lt;p&gt;Hugo Dumas s’intéresse à la série documentaire &lt;em&gt;Salvatoré : une recette de famille&lt;/em&gt;. Et Francis Verreault-Paul explique les pour et les contre de la Loi sur les Indiens. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1285158/jeudi-29-oct-2026-nathalie-petrowski-hugo-dumas-et-francis-verreault-paul</link>
+      <pubDate>Thu, 29 Oct 2026 18:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f309dc68-ecec-4456-9f4b-f788d86b0ff1/2026-10-29_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="32688000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f309dc68-ecec-4456-9f4b-f788d86b0ff1/2026-10-29_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:34:03</itunes:duration>
+    </item>
     <item>
       <title>Mercredi 28 oct. 2026 Jean-Sébastien Girard, Simon-Olivier Lorange et Alain Branchaud</title>
       <description>&lt;p&gt;Olivier résume la chicane entre Mark Carney et PSPP. Simon-Olivier Lorange raconte comment s’est déroulée la Classique Héritage. Et le biologiste Alain Branchaud parle de la COP17 sur la biodiversité.&lt;/p&gt;</description>
