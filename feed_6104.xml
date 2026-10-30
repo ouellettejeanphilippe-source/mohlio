@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Oct 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Oct 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 30 Oct 2026 20:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2026 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Quelle équipe a besoin d’un deuxième centre?</title>
+      <description>&lt;p&gt;La vie sans Nick Suzuki se poursuit pour le Canadien, et les choses se passent plutôt bien. Le voyage dans l’Ouest a été productif grâce à de bonnes performances des gardiens et l’effort redoublé des joueurs pour pallier l'absence du capitaine. Combien de temps durera cette embellie?&lt;/p&gt;&lt;p&gt;Du côté de Détroit, la situation a dégénéré avec le joueur étoile Dylan Larkin. On évalue les scénarios potentiels pour les Red Wings, et on essaie de savoir si le club montréalais est complètement sorti de la course pour l’obtention du talentueux joueur de centre.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1285821/quelle-equipe-a-besoin-dun-deuxieme-centre</link>
+      <pubDate>Fri, 30 Oct 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/97980aa6-4197-4788-acc6-8abb66926a8f/2026-10-30_15_27_16_tellementhockey_0000_master.m3u8" length="49824000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/97980aa6-4197-4788-acc6-8abb66926a8f/2026-10-30_15_27_16_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:51:54</itunes:duration>
+    </item>
     <item>
       <title>Il faut qu’on parle des gardiens de but</title>
       <description>&lt;p&gt;Après une autre belle performance de Jacob Fowler, le retour imminent de Samuel Montembeault et les quelques questions au sujet de Jakub Dobes ravivent l'éternelle discussion sur le rôle des gardiens. Le Canadien est-il responsable de cette patate qui devient de plus en plus chaude?&lt;/p&gt;&lt;p&gt;L’attaquant Oliver Kapanen est responsable en défense, mais on se demande s’il représente la meilleure option pour appuyer Cole Caufield et Juraj Slafkovsky en l'absence de Nick Suzuki.&lt;/p&gt;&lt;p&gt;Et à Winnipeg, les Jets ont finalement échangé le gardien Connor Hellebuyck aux Devils du New Jersey, une entente qui semble bénéfique pour les deux parties.&lt;/p&gt;</description>
