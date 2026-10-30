@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Oct 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 29 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>La sauce à poutine d’Olivier Primeau testée, et une riposte armée pour un lunch de poisson</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1285641/la-sauce-a-poutine-dolivier-primeau-testee-et-une-riposte-armee-pour-un-lunch-de-poisson</link>
+      <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ce1e0367-0d0d-4a81-9943-6e48a11ec494/2026-10-30_07_56_58_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="21024000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ce1e0367-0d0d-4a81-9943-6e48a11ec494/2026-10-30_07_56_58_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:21:54</itunes:duration>
+    </item>
     <item>
       <title>La mairesse de Montréal se donne un 7 sur 10, et Trump se paie des publicités anti-trans</title>
       <description />
