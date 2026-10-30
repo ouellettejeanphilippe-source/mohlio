@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 29 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Thu, 29 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Fri, 30 Oct 2026 09:06:00 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2026 09:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Vendredi 30 octobre 2026 - Le sommet Canada-Union européenne se poursuit</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1237157/vendredi-30-octobre-2026</link>
+      <pubDate>Fri, 30 Oct 2026 09:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b4d6f15f-5c7e-444d-b65c-502a891cb09f/2026-10-30_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b4d6f15f-5c7e-444d-b65c-502a891cb09f/2026-10-30_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>PSSP ne participera pas au sommet Canada-UE</title>
       <description>&lt;p&gt;Après deux jours de confrontation avec Ottawa, le premier ministre du Québec, Paul St-Pierre Plamondon, a finalement décidé de ne pas participer au sommet Canada-Union européenne qui débute aujourd'hui à Montréal. Dans une lettre aux dignitaires européens, le chef péquiste dit refuser de s'y rendre sans avoir de droit de parole. C'est son diplomate en chef, Pascal Paradis, qui le représentera. &lt;/p&gt;</description>
