@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Oct 2026 15:50:00 +0000</pubDate>
-    <lastBuildDate>Fri, 23 Oct 2026 15:50:00 +0000</lastBuildDate>
+    <pubDate>Fri, 30 Oct 2026 15:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 30 Oct 2026 15:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>« Octobre noir » : l’IA déclenche une alerte mondiale</title>
+      <description>&lt;p&gt;Un « Octobre noir » pour la cybersécurité mondiale; l’organisme à but non lucratif &lt;em&gt;Échec au crime&lt;/em&gt; victime d’un vol de données massif; l'évaluation de la rentabilité réelle d'Anthropic; la plateforme de jeux en ligne Roblox en voie d’être incluse dans le projet de loi C-34 sur la sécurité numérique; et les réflexions autour de l'univers toxique des « &lt;em&gt;lives &lt;/em&gt; » sur la plateforme TikTok.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1285694/octobre-noir-lia-declenche-une-alerte-mondiale</link>
+      <pubDate>Fri, 30 Oct 2026 15:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/df813f92-371a-4ff3-a2d2-5c9489120953/2026-10-30_11_05_13_decrypteurslebaladoohdio_0000_master.m3u8" length="58496000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/df813f92-371a-4ff3-a2d2-5c9489120953/2026-10-30_11_05_13_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:00:56</itunes:duration>
+    </item>
     <item>
       <title>Désinformation : un gros joueur démasqué</title>
       <description>&lt;p&gt;Notre enquête sur le plus grand compte de désinformation au Québec; le web perturbé par une faille de sécurité majeure; la proposition d’Anthropic pour encadrer l’IA; les inquiétudes sur la gestion du dossier de l’IA par Ottawa; et des publicités ciblées au service de logiciels espions mercenaires.&lt;/p&gt;</description>

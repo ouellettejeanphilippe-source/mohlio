@@ -153,13 +153,13 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-10-30 15:03 UTC
+Last update: 2026-10-30 15:30 UTC
 
 ### Feeds
 
 - ✅ [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 10 episodes, latest 2025-12-29 06:00 ET
 - ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 30 episodes, latest 2026-06-18 15:00 ET
-- ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 56 episodes, latest 2026-10-23 11:50 ET
+- 🆕 [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 57 episodes, latest 2026-10-30 11:30 ET
 - ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 78 episodes, latest 2026-10-29 06:00 ET
 - ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 64 episodes, latest 2026-10-27 15:30 ET
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 92 episodes, latest 2026-10-29 14:30 ET
