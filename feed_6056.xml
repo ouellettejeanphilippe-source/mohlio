@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Oct 2026 23:06:00 +0000</pubDate>
-    <lastBuildDate>Wed, 28 Oct 2026 23:06:00 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Oct 2026 23:06:00 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Oct 2026 23:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Jeudi 29 oct. 2026 : L’absence des citrouilles à l’année, et les causes du choc vagal</title>
+      <description>&lt;p&gt;L'absence de citrouilles et de courges à l'année dans les supermarchés; les réveils nocturnes liés à l'oubli de tâches importantes; l'existence des fleurs vertes, ainsi que le parfum nocturne de certaines espèces florales; et les raisons du choc vagal.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1237148/jeudi-29-octobre-2026</link>
+      <pubDate>Thu, 29 Oct 2026 23:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4d2a9cde-0fe2-4f9d-8bd4-c9183e1a1e2a/2026-10-29_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4d2a9cde-0fe2-4f9d-8bd4-c9183e1a1e2a/2026-10-29_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
     <item>
       <title>Mercredi 28 oct. 2026 : L’élimination des toxines par la sueur, et le comportement des labradors</title>
       <description>&lt;p&gt;Le mythe de l'élimination des toxines par la sueur; l'empreinte environnementale du transport et de la préparation des personnes mortes; le comportement prétendument agité des labradors chocolat; et le fonctionnement des ampoules intelligentes à détection de mouvement.&lt;/p&gt;</description>
