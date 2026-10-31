@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Oct 2026 18:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Oct 2026 18:30:00 +0000</lastBuildDate>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 31 Oct 2026 11:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 31 oct. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Le député du Bloc québécois Xavier Barsalou-Duval dénonce le manque d’interprètes à la Chambre des communes, mais se fait interrompre, car il n’y a pas d’interprète. Dimitri Soudas fait perdre patience à Sébastien Bovet aux &lt;em&gt;Mordus de politique&lt;/em&gt;. Et Richard Martineau boit une boisson au goût de Kraft Dinner et subit les effets secondaires en ondes.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1285828/samedi-31-oct-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 31 Oct 2026 11:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c9fc6f85-0561-487c-a153-31350b0caf74/2026-10-30_15_10_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="39968000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c9fc6f85-0561-487c-a153-31350b0caf74/2026-10-30_15_10_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:41:38</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 30 oct. 2026 : Marc Cassivi et Éloïse Coulombe</title>
       <description>&lt;p&gt;Olivier parle du scandale de la semaine : l'Halloween devancée le 30 octobre. La députée Éloïse Colombe, porte-parole conservatrice en matière d’environnement, propose d’exploiter le gaz naturel. Et Marc Cassivi fait la critique d’un documentaire sur la carrière d’Elon Musk.&lt;/p&gt;</description>
