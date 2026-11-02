@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Oct 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 02 Nov 2026 13:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Nov 2026 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Des squelettes sans tête trouvés en Slovaquie, et des comptes LGBTQIA+ supprimés par Meta</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1286072/des-squelettes-sans-tete-trouves-en-slovaquie-et-des-comptes-lgbtqia-supprimes-par-meta</link>
+      <pubDate>Mon, 02 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a7709a20-9196-449b-817d-fcca6178dc06/2026-11-02_07_58_20_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="22928000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a7709a20-9196-449b-817d-fcca6178dc06/2026-11-02_07_58_20_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:53</itunes:duration>
+    </item>
     <item>
       <title>La sauce à poutine d’Olivier Primeau testée, et une riposte armée pour un lunch de poisson</title>
       <description />
