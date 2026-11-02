@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Oct 2026 05:06:00 -0400</pubDate>
-    <lastBuildDate>Fri, 30 Oct 2026 05:06:00 -0400</lastBuildDate>
+    <pubDate>Mon, 02 Nov 2026 10:06:00 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Nov 2026 10:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Lundi 2 novembre 2026 : Possible accord commercial canado-américain</title>
+      <description>&lt;p&gt;À 24 heures des élections de mi-mandat aux États-Unis, Donald Trump a terminé sa campagne aux quatre coins du pays pour tenter de faire réélire les candidats républicains. Le président a tenu deux grands rassemblements dimanche, en Ohio et au Kansas, lors desquels il a laissé entendre qu'une entente commerciale avec le Canada était sur le point d'être conclue. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242282/lundi-2-novembre-2026</link>
+      <pubDate>Mon, 02 Nov 2026 10:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0847c4d3-4a94-40af-b725-d8e70fd502d5/2026-11-02_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0847c4d3-4a94-40af-b725-d8e70fd502d5/2026-11-02_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Le sommet Canada-Union européenne se poursuit</title>
       <description>&lt;p&gt;Sans le premier ministre du Québec, le sommet Canada-Union européenne se poursuit. Alors que Mark Carney semble s'éloigner de son homologue québécois, il se rapproche de ses alliés européens. L'idée de faire du Canada un membre associé de l'Union européenne est même revenue sur la table, une proposition qui ne fait pas l'unanimité.&lt;/p&gt;</description>
