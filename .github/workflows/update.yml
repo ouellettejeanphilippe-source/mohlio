@@ -45,13 +45,14 @@ name: Update podcast feeds
 # show added or moved there without a matching slot fails the tests.
 #
 #   UTC    days     for (Eastern time)
-#   03:13  daily    catch-all: Le bêtisier, Tellement hockey, anything missed
+#   03:13  daily    catch-all: Le bêtisier, Tellement hockey, Evelyne et
+#                   Gabrielle, anything missed
 #   08:13  Mon-Sat  À la une, Ça s'explique 05:00 (Sat 06:00), La journée Sat 07:00
 #   11:13  Mon-Fri  Niquet 08:00
 #   14:13  Fri      Décrypteurs 11:00
 #   16:13  Sat      Pouvez-vous répéter la question? 13:00
 #   17:43  Mon-Fri  La journée 14:25, Changement de ligne Wed-Thu 15:00
-#   22:13  Mon-Thu  Moteur de recherche 19:00
+#   21:43  Mon-Thu  L'histoire (est encore jeune) 18:25, Moteur de recherche 19:00
 #
 # Minutes are kept off the top of the hour, when GitHub's scheduler is busiest.
 on:
@@ -62,7 +63,7 @@ on:
     - cron: '13 14 * * 5'
     - cron: '13 16 * * 6'
     - cron: '43 17 * * 1-5'
-    - cron: '13 22 * * 1-4'
+    - cron: '43 21 * * 1-4'
   push:
     branches: [main]
   pull_request:

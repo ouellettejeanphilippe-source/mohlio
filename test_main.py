@@ -734,7 +734,53 @@ class ShowConfigurationTests(unittest.TestCase):
             main.select_shows("inconnue")
 
 
-WORKFLOW = os.path.join(os.path.dirname(__file__), ".github", "workflows", "update.yml")
+def page_state(*programs: tuple[str, str]) -> dict:
+    """A trimmed ``window._rcState_`` holding one page per (id, pattern)."""
+    return {
+        "pages": {
+            "pages": {
+                f"/ohdio/balados/{program_id}/x": {
+                    "data": {
+                        "program": {
+                            "typename": "Program",
+                            "globalId": {"id": program_id},
+                            "picture": {"pattern": pattern},
+                        }
+                    }
+                }
+                for program_id, pattern in programs
+            }
+        }
+    }
+
+
+class ProgramArtworkTests(unittest.TestCase):
+    """A show added without a podcast RSS must still get square artwork."""
+
+    PATTERN = (
+        "https://images.radio-canada.ca/q_auto,w_{width}/v1/audio/balado/"
+        "{ratio}/lheej-visuel-moteur-balado-ohdio.jpg"
+    )
+
+    def test_the_pattern_is_filled_in_as_a_square(self):
+        self.assertEqual(
+            main.program_artwork(page_state(("14021", self.PATTERN)), 14021),
+            "https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/"
+            "1x1/lheej-visuel-moteur-balado-ohdio.jpg",
+        )
+
+    def test_another_show_on_the_page_is_never_taken_for_this_one(self):
+        other = self.PATTERN.replace("lheej", "autre")
+        state = page_state(("9887", other), ("14021", self.PATTERN))
+        self.assertIn("lheej", main.program_artwork(state, 14021))
+        self.assertEqual(main.program_artwork(page_state(("9887", other)), 14021), "")
+
+    def test_a_page_without_a_picture_gives_nothing(self):
+        self.assertEqual(main.program_artwork({}, 14021), "")
+        self.assertEqual(main.program_artwork(page_state(("14021", "")), 14021), "")
+
+
+WORKFLOW =os.path.join(os.path.dirname(__file__), ".github", "workflows", "update.yml")
 
 
 def cron_field(field: str, low: int, high: int) -> set[int]:

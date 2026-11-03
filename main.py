@@ -203,6 +203,19 @@ SHOWS: tuple[Show, ...] = (
         "Changement de ligne",
         (Schedule((WEDNESDAY, THURSDAY), 15, 0, 180),),
     ),
+    # Airs on Radio-Canada Histoire Monday to Thursday at 18:00 and was first
+    # published at 18:30. Window kept wide until a few weeks of history say
+    # how much the publication time drifts. The 90 minute Friday version on
+    # ICI Première is not scheduled: if it reaches the podcast, the regular
+    # check picks it up.
+    Show(
+        14021,
+        "histoire",
+        "L'histoire (est encore jeune)",
+        (Schedule((MONDAY, TUESDAY, WEDNESDAY, THURSDAY), 18, 25, 180),),
+    ),
+    # Podcast only, launched with four episodes at once: no fixed time yet.
+    Show(14015, "evelyne", "Evelyne et Gabrielle font un podcast"),
 )
 
 SHOWS_BY_ID = {show.id: show for show in SHOWS}
@@ -782,6 +795,32 @@ def _iter_media_objects(node, depth: int = 0) -> Iterator[dict]:
             yield from _iter_media_objects(value, depth + 1)
 
 
+# Podcast clients want square artwork, and Apple asks for 1400 px at least.
+ARTWORK_WIDTH = 1400
+
+
+def program_artwork(state, show_id: int) -> str:
+    """Square artwork of this show from the page state, or "" if absent.
+
+    Only used for a feed that has no image yet: the page's og:image is now a
+    16:9 banner with unquoted attributes, so a show added without a podcast
+    RSS would otherwise be published with no artwork at all. The program's
+    picture is a pattern that can be asked for in a square ratio. It is
+    matched on the show id so a recommended show on the same page is never
+    taken for this one.
+    """
+    pages = ((state or {}).get("pages") or {}).get("pages") or {}
+    for page in pages.values():
+        program = ((page or {}).get("data") or {}).get("program") or {}
+        program_id = str(((program.get("globalId") or {}).get("id")) or "")
+        if program_id != str(show_id):
+            continue
+        pattern = ((program.get("picture") or {}).get("pattern") or "").strip()
+        if "{ratio}" in pattern:
+            return pattern.replace("{width}", str(ARTWORK_WIDTH)).replace("{ratio}", "1x1")
+    return ""
+
+
 def resolve_media_url(media_id: str) -> tuple[str, str]:
     """Resolve a media id to a playable URL. Returns ("", "") on failure."""
     MEDIA_LIMITER.wait()
@@ -809,9 +848,10 @@ def resolve_media_url(media_id: str) -> tuple[str, str]:
     if not url:
         LOG.debug("media %s: %s", media_id, payload.get("message") or "no url")
         return "", ""
-    # Five of the ten shows are only ever offered as an HLS playlist, and the
-    # feeds have always declared those enclosures as audio/mpeg. It is not the
-    # exact type of an .m3u8, but podcast clients accept audio/mpeg and skip
+    # Most shows without a podcast RSS are only ever offered as an HLS
+    # playlist, and the feeds have always declared those enclosures as
+    # audio/mpeg. It is not the exact type of an .m3u8, but podcast clients
+    # accept audio/mpeg and skip
     # enclosures whose type they do not know, so declaring the exact type here
     # would stop those shows playing in apps that play them today. Whether an
     # enclosure is a playlist is decided from the URL, never from this value.
@@ -829,17 +869,18 @@ def fetch_page_episodes(show: Show, page_url: str) -> tuple[list[Episode], str]:
     response.raise_for_status()
     body = response.text
 
-    image = ""
-    match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', body)
-    if not match:
-        match = re.search(r'content="([^"]+)"\s+property="og:image"', body)
-    if match:
-        image = match.group(1)
-
     state_match = _STATE_RE.search(body)
     if not state_match:
         raise ValueError("episode data not found in page HTML")
     state = json.loads(state_match.group(1))
+
+    image = program_artwork(state, show.id)
+    if not image:
+        match = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', body)
+        if not match:
+            match = re.search(r'content="([^"]+)"\s+property="og:image"', body)
+        if match:
+            image = match.group(1)
 
     episodes: list[Episode] = []
     seen_media: set[str] = set()

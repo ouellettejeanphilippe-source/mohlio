@@ -60,7 +60,7 @@ part vraiment à l'heure, ce que le planificateur de GitHub n'est pas.
 
 Ces heures viennent de l'historique de publication de chaque flux. Elles
 servent **uniquement** à décider quand surveiller de près. Elles ne
-conditionnent jamais la vérification : chaque passage vérifie les dix
+conditionnent jamais la vérification : chaque passage vérifie les douze
 émissions, donc une émission qui change d'horaire est quand même captée.
 
 | Émission | Jours | Heure (HE) | Fenêtre |
@@ -72,10 +72,17 @@ conditionnent jamais la vérification : chaque passage vérifie les dix
 | Pouvez-vous répéter la question? | sam | 13:00 | 2 h |
 | La journée (est encore jeune) | lun-sam | 14:25 | 2 h |
 | Changement de ligne | mer-jeu | 15:00 | 3 h |
+| L'histoire (est encore jeune) | lun-jeu | 18:25 | 3 h |
 | Moteur de recherche | lun-jeu | 19:00 | 2 h |
 
-Le bêtisier et Tellement hockey paraissent de façon irrégulière : ils n'ont pas
-d'horaire et sont captés par la vérification horaire.
+Le bêtisier, Tellement hockey et Evelyne et Gabrielle font un podcast
+paraissent de façon irrégulière : ils n'ont pas d'horaire et sont captés par
+la vérification régulière.
+
+L'histoire (est encore jeune) est diffusée à 18 h à la télé et a paru en
+balado à 18 h 30 : l'horaire repose sur un seul épisode pour l'instant, d'où
+la fenêtre de 3 h. Sa version de 90 minutes du vendredi sur ICI Première n'a
+pas d'horaire ; si elle paraît en balado, la vérification régulière la capte.
 
 Les fenêtres sont calculées en heure de l'Est réelle par Python, donc le
 changement d'heure est géré sans aucune arithmétique de dates en shell.
