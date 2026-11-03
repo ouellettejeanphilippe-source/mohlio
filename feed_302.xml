@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2026 10:06:00 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Mardi 3 novembre 2026 : Test électoral pour Donald Trump</title>
+      <description>&lt;p&gt;Les Américains se rendent aux urnes pour les élections de mi-mandat, au lendemain d'un ultime plaidoyer de Donald Trump au cours duquel il a tenté de mobiliser une dernière fois ses partisans. Le président américain a également vanté son bilan depuis son retour à la Maison-Blanche.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242299/mardi-3-novembre-2026</link>
+      <pubDate>Tue, 03 Nov 2026 10:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e8fe2a46-c336-48a7-ac5b-da55cafab1a5/2026-11-03_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e8fe2a46-c336-48a7-ac5b-da55cafab1a5/2026-11-03_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Trump confiant de signer un accord commercial avec le Canada</title>
       <description>&lt;p&gt;À 24 heures des élections de mi-mandat aux États-Unis, Donald Trump a terminé sa campagne aux quatre coins du pays pour tenter de faire réélire les candidats républicains. Le président a tenu deux grands rassemblements dimanche, en Ohio et au Kansas, lors desquels il a laissé entendre qu'une entente commerciale avec le Canada était sur le point d'être conclue. &lt;/p&gt;</description>
