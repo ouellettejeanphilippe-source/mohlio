@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mardi 3 nov. 2026 : Louis Blouin et Sasha Luccioni</title>
+      <description>&lt;p&gt;Olivier nous fait écouter Jean Tremblay, qui est très inspiré par les prières générées par l’intelligence artificielle. Louis Blouin fait ses prédictions pour les élections de mi-mandat aux États-Unis. Et Sasha Luccioni explique quelles sont les mauvaises pratiques liées à l’intelligence artificielle.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1286718/mardi-3-nov-2026-louis-blouin-et-sasha-luccioni</link>
+      <pubDate>Tue, 03 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/58fecf58-8b65-428e-9e74-5e8dec0f7fb3/2026-11-03_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/58fecf58-8b65-428e-9e74-5e8dec0f7fb3/2026-11-03_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:29:30</itunes:duration>
+    </item>
     <item>
       <title>Lundi 2 nov. 2026 : David Thibodeau et Nimâ Machouf</title>
       <description>&lt;p&gt;Olivier résume la saga entourant la nomination de Jacinthe-Eve Arel au PQ. David Thibodeau fouille dans les archives de &lt;em&gt;La journée (est encore jeune)&lt;/em&gt; et de &lt;em&gt;La soirée est (encore) jeune&lt;/em&gt;. Et Nimâ Machouf explique pourquoi, après quatre fois à se présenter dans Laurier—Sainte-Marie, elle gagnera enfin.&lt;/p&gt;</description>
