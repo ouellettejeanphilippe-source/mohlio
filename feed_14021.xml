@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>3 novembre 1906 : adoption du SOS</title>
+      <description>&lt;p&gt;Le 3 novembre 1906 est adopté le SOS, utilisé jusqu’en 1999. L’archéologue et anthropologue Éric Phaneuf parle de l’utilisation de ce signal de détresse lors du naufrage de l’Empress of Ireland. Olivier présente des événements qui se sont déroulés un 3 novembre, comme l’imposition d’un prix plancher pour la bière et la célèbre entrevue de Monique-Jérôme Forget à l’émission &lt;em&gt;Enquête&lt;/em&gt;, et Jean-Sébastien Girard lit le journal de sa grand-mère.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1285730/3-novembre-1906-adoption-du-sos</link>
+      <pubDate>Tue, 03 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/aaa0697c-94a8-4636-b159-a6b730af7142/2026-10-30_11_52_00_lhistoireestencorejeune_0000_master.m3u8" length="32240000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/aaa0697c-94a8-4636-b159-a6b730af7142/2026-10-30_11_52_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:35</itunes:duration>
+    </item>
     <item>
       <title>2 novembre 1936 : la fondation de Radio-Canada</title>
       <description>&lt;p&gt;Le 2 novembre 1936, le Canadien de Montréal se remettait d’une défaite, le ministre de l’Industrie, Joseph Bilodeau, et sa femme étaient en visite à Montréal, mais surtout, Radio-Canada était fondée. Jean-Philippe Wauthier reçoit Sylvain Lafrance, ex-vice-président de Radio-Canada, qui raconte l’histoire du diffuseur public. Olivier présente des événements qui se sont déroulés un 2 novembre, et Magali Saint-Vincent parle des émissions jeunesse marquantes.&lt;/p&gt;</description>
