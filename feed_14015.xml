@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Evelyne et Gabrielle font un podcast</title>
+    <description>Evelyne et Gabrielle font un podcast</description>
+    <link>https://ici.radio-canada.ca/ohdio/recherche/produits/balados/14015/evelyne-et-gabrielle-font-un-podcast</link>
+    <language>fr-ca</language>
+    <generator>mohlio</generator>
+    <ttl>15</ttl>
+    <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 02 Nov 2026 19:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Nov 2026 19:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg</url>
+      <title>Evelyne et Gabrielle font un podcast</title>
+      <link>https://ici.radio-canada.ca/ohdio/recherche/produits/balados/14015/evelyne-et-gabrielle-font-un-podcast</link>
+    </image>
+    <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:summary>Evelyne et Gabrielle font un podcast</itunes:summary>
+    <item>
+      <title>Les guerres de l’opium</title>
+      <description>&lt;p&gt;Evelyne nous raconte les guerres de l’opium, parce que oui, il y en a eu plusieurs. (Bon juste deux, mais c’est déjà assez.) Au passage, Gabrielle et elle se penchent sur les distinctions entre le mercantilisme et le capitalisme, Robert Fortune et ses déguisements, Hong Kong et les personnages chinois clichés dans &lt;em&gt;Lucky Luke&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1282501/les-guerres-de-lopium</link>
+      <pubDate>Mon, 02 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d9e275b8-7a64-4166-b9aa-d4edcc11d97b/2026-10-16_13_04_57_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="50416000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d9e275b8-7a64-4166-b9aa-d4edcc11d97b/2026-10-16_13_04_57_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:52:31</itunes:duration>
+    </item>
+    <item>
+      <title>Catherine de Médicis</title>
+      <description>&lt;p&gt;Les deux amies s’intéressent à un personnage historique que Gabrielle adore pour sa fougue et son féminisme d’avant-garde : Catherine de Médicis. Evelyne nous replace dans le contexte de son époque et départage la vraie histoire de la légende. Au passage, les coanimatrices parlent d’alliances patrimoniales, de Nostradamus, d’un accident de joute fatal, de Samuel de Champlain et d’étiquette à table. Tout un menu!&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1282499/catherine-de-medicis</link>
+      <pubDate>Mon, 02 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f6370a76-673f-4eb9-9e30-24c843180a7d/2026-10-14_09_29_08_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="51808000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f6370a76-673f-4eb9-9e30-24c843180a7d/2026-10-14_09_29_08_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:58</itunes:duration>
+    </item>
+    <item>
+      <title>Les Vikings</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle parlent des mythiques Vikings! Clichés, mode de vie, rites funéraires, femmes guerrières, casque à cornes, pillages, conquêtes, service de livraison, origine du terme « Bluetooth » : il y en a long à dire sur le sujet. Attachez-vous, le Drakkar part!&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1282496/les-vikings</link>
+      <pubDate>Mon, 02 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e27b0743-4016-40a1-a2fe-ccf83b77c895/2026-10-14_09_28_14_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="45360000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e27b0743-4016-40a1-a2fe-ccf83b77c895/2026-10-14_09_28_14_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:47:15</itunes:duration>
+    </item>
+    <item>
+      <title>La peste</title>
+      <description>&lt;p&gt;« Enfin, la peste! » est une phrase que seule Gabrielle a prononcée dans l’histoire de l’humanité, elle qui est fascinée par cette maladie. Bubons, contagion, puces, décès en masse, marins, quarantaine, symptômes, masque de corbeau, médecine pratiquement inexistante, Prague… Voici quelques aspects de la maladie dont discute le duo. Ah oui : Evelyne vous conseille de ne pas manger en écoutant cet épisode.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1282493/la-peste</link>
+      <pubDate>Mon, 02 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dfb7108c-b722-42ea-b3b9-0a5113a4973a/2026-10-14_09_17_24_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="42960000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dfb7108c-b722-42ea-b3b9-0a5113a4973a/2026-10-14_09_17_24_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:44:45</itunes:duration>
+    </item>
+  </channel>
+</rss>
