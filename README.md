@@ -167,10 +167,10 @@ Last update: 2026-11-03 23:33 UTC
 - ✅ [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 10 episodes, latest 2025-12-29 06:00 ET
 - ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 30 episodes, latest 2026-06-18 15:00 ET
 - ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 57 episodes, latest 2026-10-30 11:30 ET
-- 🆕 [evelyne](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml) — 4 episodes, latest 2026-11-02 14:00 ET
+- ✅ [evelyne](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml) — 4 episodes, latest 2026-11-02 14:00 ET
 - ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 80 episodes, latest 2026-11-03 06:00 ET
-- 🆕 [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 2 episodes, latest 2026-11-03 18:30 ET
-- ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 65 episodes, latest 2026-10-30 16:00 ET
+- ✅ [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 2 episodes, latest 2026-11-03 18:30 ET
+- 🆕 [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 66 episodes, latest 2026-11-03 16:00 ET
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 96 episodes, latest 2026-11-03 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 86 episodes, latest 2026-11-03 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 59 episodes, latest 2026-10-31 13:00 ET
@@ -181,7 +181,6 @@ Last update: 2026-11-03 23:33 UTC
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
-- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `evelyne`: podcast RSS unavailable (podcast RSS returned no channel)
 - `histoire`: podcast RSS unavailable (podcast RSS returned no channel)

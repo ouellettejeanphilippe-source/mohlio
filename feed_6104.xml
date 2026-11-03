@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Oct 2026 20:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 30 Oct 2026 20:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2026 21:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Que deviendras-tu, Nikita Kucherov?</title>
+      <description>&lt;p&gt;Un coup de tonnerre a frappé Tampa Bay. L’attaquant Nikita Kucherov a annoncé qu'il ne reviendrait pas avec le Lightning l'an prochain. Voilà qui met la haute direction de l’équipe dans l'embarras. Kucherov testera-t-il le marché des joueurs autonomes? Le retour de Nick Suzuki cause un effet domino dans la formation du Canadien, et certains joueurs se battent maintenant pour mettre le patin sur la glace. &lt;/p&gt;&lt;p&gt;Le Tribunal arbitral du sport a statué concernant la réintégration de la Russie, ce qui a des effets politiques très importants. À terme, la décision pourrait devenir inapplicable.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1286794/que-deviendras-tu-nikita-kucherov</link>
+      <pubDate>Tue, 03 Nov 2026 21:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7faed55f-c94c-437f-8c90-4c2b5aec9d3e/2026-11-03_15_41_58_tellementhockey_0000_master.m3u8" length="62160000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7faed55f-c94c-437f-8c90-4c2b5aec9d3e/2026-11-03_15_41_58_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:04:45</itunes:duration>
+    </item>
     <item>
       <title>Quelle équipe a besoin d’un deuxième centre?</title>
       <description>&lt;p&gt;La vie sans Nick Suzuki se poursuit pour le Canadien, et les choses se passent plutôt bien. Le voyage dans l’Ouest a été productif grâce à de bonnes performances des gardiens et l’effort redoublé des joueurs pour pallier l'absence du capitaine. Combien de temps durera cette embellie?&lt;/p&gt;&lt;p&gt;Du côté de Détroit, la situation a dégénéré avec le joueur étoile Dylan Larkin. On évalue les scénarios potentiels pour les Red Wings, et on essaie de savoir si le club montréalais est complètement sorti de la course pour l’obtention du talentueux joueur de centre.&lt;/p&gt;</description>
