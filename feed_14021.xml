@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>4 novembre 2008 : l’élection de Barack Obama</title>
+      <description>&lt;p&gt;Le 4 novembre 2008, on peut lire dans la presse que Gérard Deltell a très hâte de prendre le pouvoir avec l’Action démocratique du Québec… mais ça n’arrivera pas! Pour sa part, Barack Obama remporte ses élections et devient président des États-Unis. Jean-Philippe s’entretient avec David Grondin au sujet des grands discours politiques d’Obama. De son côté, Julien Normand nous apprend des faits cocasses sur l’ex-président américain, comme son incapacité à se faire pousser la barbe, ou encore, le fait qu’il ait déjà eu un singe comme animal de compagnie.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1286191/4-novembre-2008-lelection-de-barack-obama</link>
+      <pubDate>Wed, 04 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c37e7214-98ec-49c3-b998-95bb8f36c6db/2026-11-02_10_45_00_lhistoireestencorejeune_0000_master.m3u8" length="30400000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c37e7214-98ec-49c3-b998-95bb8f36c6db/2026-11-02_10_45_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:31:40</itunes:duration>
+    </item>
     <item>
       <title>3 novembre 1906 : adoption du SOS</title>
       <description>&lt;p&gt;Le 3 novembre 1906 est adopté le SOS, utilisé jusqu’en 1999. L’archéologue et anthropologue Éric Phaneuf parle de l’utilisation de ce signal de détresse lors du naufrage de l’Empress of Ireland. Olivier présente des événements qui se sont déroulés un 3 novembre, comme l’imposition d’un prix plancher pour la bière et la célèbre entrevue de Monique-Jérôme Forget à l’émission &lt;em&gt;Enquête&lt;/em&gt;, et Jean-Sébastien Girard lit le journal de sa grand-mère.&lt;/p&gt;</description>
