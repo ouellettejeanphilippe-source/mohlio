@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Jun 2026 19:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 18 Jun 2026 19:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 20:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/changement-de-ligne-balado-visuel-ohdio-88684.jpg</url>
       <title>Changement de ligne</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/changement-de-ligne-balado-visuel-ohdio-88684.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Changement de ligne</itunes:summary>
+    <item>
+      <title>Nouvelle vague</title>
+      <description>&lt;p&gt;Le Championnat du monde de hockey féminin s’amorce sous le signe du renouveau! En l’absence de plusieurs vétéranes, une nouvelle génération de talents aura l’occasion de se démarquer et de faire sa place au sein d’Équipe Canada. Parmi elles, la jeune Rosalie Tremblay saura-t-elle profiter de cette occasion pour s’imposer? Les changements touchent aussi au personnel derrière le banc. Le double mandat de Kori Cheverie et de Danièle Sauvageau auprès de la Victoire et de l’équipe nationale, sera-t-il lourd à porter? Et on fait le point sur les choix d’Équipe Canada, sur les joueuses à surveiller et sur les forces en présence. Qui remportera la finale? On vous fait nos prédictions!&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/13061/changement-de-ligne/1287062/nouvelle-vague</link>
+      <pubDate>Wed, 04 Nov 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/5397eaeb-9dc4-4a96-bf89-d996b7c83b75/2026-11-04_14_42_02_changementdeligne_0000_master.m3u8" length="37744000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/5397eaeb-9dc4-4a96-bf89-d996b7c83b75/2026-11-04_14_42_02_changementdeligne_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:39:19</itunes:duration>
+    </item>
     <item>
       <title>Le nouveau visage de la Victoire de Montréal</title>
       <description>&lt;p&gt;Après une période d'échanges et le repêchage d'expansion, la LPHF a tenu son repêchage amateur mercredi. La Victoire a fait le pari de l'offensive en choisissant une attaquante finlandaise au premier tour. Danièle Sauvageau a de plus confirmé le retour d'Abby Roque, qui s'est entendue avec Montréal pour deux ans.&lt;/p&gt;&lt;p&gt;Tout le processus d'expansion et les changements aux règles du repêchage ont été les causes de beaucoup d'incompréhension et de grandes frustrations. Et la remise de prix annuels n'a rien fait pour calmer la grogne.&lt;/p&gt;</description>
