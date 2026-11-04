@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Nov 2026 11:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2026 11:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 11:50:00 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 11:50:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Élections de mi-mandat : le début de la fin pour Donald Trump?</title>
+      <description>&lt;p&gt;La vague bleue que plusieurs prédisaient s’est bel et bien abattue sur une bonne partie des États-Unis. Les Américains se réveillent ce matin avec un Congrès dominé par les Démocrates. La soirée électorale a été parsemée de courses serrées, de percées historiques et de revirements spectaculaires. En toile de fond : un scrutin qui avait des allures de référendum sur Donald Trump. Est-ce la fin d’une ère? Le politologue Julien Tourreille explique où se sont jouées les élections de mi-mandat.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1286895/elections-de-mi-mandat-le-debut-de-la-fin-pour-donald-trump</link>
+      <pubDate>Wed, 04 Nov 2026 11:50:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/17931111-0df1-42c1-a440-7f8530eca5e8/2026-11-04_06_42_36_casexplique_0000_master.m3u8" length="24144000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/17931111-0df1-42c1-a440-7f8530eca5e8/2026-11-04_06_42_36_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:09</itunes:duration>
+    </item>
     <item>
       <title>« Alliance pour l’avenir » Canada-UE : qu’est-ce que ça change?</title>
       <description>&lt;p&gt;Les liens n’ont jamais été tissés aussi serrés entre le Canada et l’Union européenne. Au nom de la souveraineté du commerce et des valeurs communes, une«  Alliance pour l’avenir » a vu le jour entre les deux entités la semaine dernière. Reste à voir jusqu’où ira ce rapprochement qualifié d’historique. Frédéric Mérand, professeur et directeur du Département de science politique de l'Université de Montréal, explique les effets concrets de cet accord.&lt;/p&gt;</description>
