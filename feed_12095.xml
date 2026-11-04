@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Nov 2026 13:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2026 13:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 13:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>La vague bleue aux États-Unis, et l’idylle entre un taureau et un âne</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1286901/la-vague-bleue-aux-etats-unis-et-lidylle-entre-un-taureau-et-un-ane</link>
+      <pubDate>Wed, 04 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/18e25e2e-21ed-4011-9fda-a267f3c6c755/2026-11-04_07_35_55_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24720000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/18e25e2e-21ed-4011-9fda-a267f3c6c755/2026-11-04_07_35_55_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:45</itunes:duration>
+    </item>
     <item>
       <title>Des virements Interac envoyés en double, et de la pornographie sur un panneau d’autoroute</title>
       <description />
