@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 31 Oct 2026 17:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 31 Oct 2026 17:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 31 Oct 2026 20:00:00 -0400</pubDate>
+    <lastBuildDate>Sat, 31 Oct 2026 20:00:00 -0400</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -24,10 +24,10 @@
       <title>Batman et Vegemite</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Phil Roy, Alain Choquette et Douaa Kachache qui doivent répondre à des questions sur : Mark Carney devant le choix de PSPP, Obama qui défend le Canada, Wab Kinew et sa carte, la bourde de Mbappé, le Vegemite, la date de l'Halloween, l'Eurovision et le Batman de Londres.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1285952/phil-roy-alain-choquette-douaa-kachache</link>
-      <pubDate>Sat, 31 Oct 2026 17:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c22db592-1a68-4c3c-9529-f224184686d7/2026-10-31_11_50_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <pubDate>Sat, 31 Oct 2026 20:00:00 -0400</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/470d0a2e-56ba-4124-89e6-1cc5e8a2ad74/2026-10-31_20_00_00_repeterlaquestionbalado_0000.mp3" length="77308447" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c22db592-1a68-4c3c-9529-f224184686d7/2026-10-31_11_50_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:53:14</itunes:duration>
+      <itunes:duration>00:53:41</itunes:duration>
     </item>
     <item>
       <title>Professeur Eric Girard et Gus la tortue</title>
