@@ -181,6 +181,7 @@ Last update: 2026-11-04 13:02 UTC
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
+- `changement`: no new episode for the last 3 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `evelyne`: podcast RSS unavailable (podcast RSS returned no channel)
 - `histoire`: podcast RSS unavailable (podcast RSS returned no channel)
