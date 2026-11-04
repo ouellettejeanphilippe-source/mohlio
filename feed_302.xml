@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Wed, 04 Nov 2026 10:06:00 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Nov 2026 10:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Mercredi 4 novembre 2026 : Donald Trump a perdu ses élections de mi-mandat</title>
+      <description>&lt;p&gt;Malgré tous les efforts de Donald Trump pour renverser la vapeur, c'est une véritable vague bleue qui a balayé les États-Unis, lors des élections de mi-mandat d'hier. Les Démocrates ont fait des gains importants dans plusieurs États traditionnellement républicains et pris le contrôle des deux chambres du Congrès.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242317/mercredi-4-novembre-2026</link>
+      <pubDate>Wed, 04 Nov 2026 10:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3d237157-f1f4-47ca-af10-a9b50ee8b8c7/2026-11-04_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3d237157-f1f4-47ca-af10-a9b50ee8b8c7/2026-11-04_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Test électoral pour Donald Trump</title>
       <description>&lt;p&gt;Les Américains se rendent aux urnes pour les élections de mi-mandat, au lendemain d'un ultime plaidoyer de Donald Trump au cours duquel il a tenté de mobiliser une dernière fois ses partisans. Le président américain a également vanté son bilan depuis son retour à la Maison-Blanche.&lt;/p&gt;</description>
