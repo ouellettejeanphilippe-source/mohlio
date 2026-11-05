@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Jeudi 5 nov. 2026 : David Saint-Jacques, Simon Coutu, Nathalie Petrowski et Hugo Dumas</title>
+      <description>&lt;p&gt;Olivier nous fait écouter des réactions au triste record que le Canadien a battu contre les Jets. Nathalie Petrowski et Hugo Dumas critiquent le documentaire &lt;em&gt;De souche&lt;/em&gt;, de Simon Coutu. Et David Saint-Jacques explique comment ça se passe lorsqu’on sort dans l’espace. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1287342/jeudi-5-nov-2026-david-saint-jacques-simon-coutu-nathalie-petrowski-et-hugo-dumas</link>
+      <pubDate>Thu, 05 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c5d08dd7-aed0-4d24-b9f2-1dc34d2865d9/2026-11-05_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="39424000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c5d08dd7-aed0-4d24-b9f2-1dc34d2865d9/2026-11-05_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:41:04</itunes:duration>
+    </item>
     <item>
       <title>Mercredi 4 nov. 2026 : Jean-Sébastien Girard, Josée Boileau, Paul Journet et Etienne Côté-Paluck</title>
       <description>&lt;p&gt;Olivier parle de la victoire démocrate aux élections de mi-mandat aux États-Unis. Josée Boileau et Paul Journet commentent les trois enjeux qui suscitent l’indignation de Paul St-Pierre Plamondon. Et Etienne Côté-Paluck rend compte de la situation en Haïti.&lt;/p&gt;</description>
