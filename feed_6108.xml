@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Nov 2026 11:50:00 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Nov 2026 11:50:00 +0000</lastBuildDate>
+    <pubDate>Thu, 05 Nov 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Nov 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Épidémie de solitude chez les jeunes : comment en est-on arrivé là?</title>
+      <description>&lt;p&gt;Dans un sondage récent mené au Québec, 40 % des personnes interrogées (de toutes les générations) affirmaient se sentir seules. Dans l’esprit de bien des gens, solitude rime avec vieillesse, mais cette perception ne résiste pas tout à fait au test de la réalité. Le sentiment de solitude est surtout prévalent chez les jeunes de 16 à 24 ans, ce qui n’est pas sans effet sur leur santé physique et psychologique. Danny Lemieux, journaliste à l’émission &lt;em&gt;Découverte&lt;/em&gt;, explique les causes et les conséquences de ce phénomène. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1287070/epidemie-de-solitude-chez-les-jeunes-comment-en-est-on-arrive-la</link>
+      <pubDate>Thu, 05 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b8351b85-2f85-42fa-ad9d-88a124e4a670/2026-11-04_16_09_00_casexplique_0000_master.m3u8" length="19776000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b8351b85-2f85-42fa-ad9d-88a124e4a670/2026-11-04_16_09_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:20:36</itunes:duration>
+    </item>
     <item>
       <title>Élections de mi-mandat : le début de la fin pour Donald Trump?</title>
       <description>&lt;p&gt;La vague bleue que plusieurs prédisaient s’est bel et bien abattue sur une bonne partie des États-Unis. La population américaine se réveille ce matin avec un Congrès dominé par les démocrates. La soirée électorale a été parsemée de courses serrées, de percées historiques et de revirements spectaculaires. En toile de fond : un scrutin qui avait des allures de référendum sur Donald Trump. Est-ce la fin d’une ère? Le politologue Julien Tourreille explique où se sont jouées les élections de mi-mandat.&lt;/p&gt;</description>
