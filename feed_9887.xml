@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Vendredi 6 nov. 2026 : Robin-Joël Cool et Pasquale Harrison-Julien</title>
+      <description>&lt;p&gt;Olivier nous fait écouter Pierre Poilievre, qui se moque de ce que le PLC appelle des &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"investissements ","text":"investissements "}}"&gt;&lt;span lang="fr" title="Français"&gt;investissements&lt;/span&gt;&lt;/q&gt;. Robin-Joël Cool propose que chaque personne choisisse son fuseau horaire pour résoudre le problème du changement d'heure. Et Pasquale Harrison-Julien s’intéresse aux peptides injectables non homologués.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1287622/vendredi-6-nov-2026-robin-joel-cool-et-pasquale-harrison-julien</link>
+      <pubDate>Fri, 06 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1a3c882e-0f99-49dd-a8c7-d6c47d45622f/2026-11-06_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28304000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1a3c882e-0f99-49dd-a8c7-d6c47d45622f/2026-11-06_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:29:29</itunes:duration>
+    </item>
     <item>
       <title>Jeudi 5 nov. 2026 : David Saint-Jacques, Simon Coutu, Nathalie Petrowski et Hugo Dumas</title>
       <description>&lt;p&gt;Olivier nous fait écouter des réactions au triste record que le Canadien a battu contre les Jets. Nathalie Petrowski et Hugo Dumas critiquent le documentaire &lt;em&gt;De souche&lt;/em&gt;, de Simon Coutu. Et David Saint-Jacques explique comment ça se passe lorsqu’on sort dans l’espace. &lt;/p&gt;</description>
