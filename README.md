@@ -160,7 +160,7 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-06 20:25 UTC
+Last update: 2026-11-06 22:24 UTC
 
 ### Feeds
 
@@ -170,11 +170,11 @@ Last update: 2026-11-06 20:25 UTC
 - ✅ [evelyne](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml) — 4 episodes, latest 2026-11-02 14:00 ET
 - ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 82 episodes, latest 2026-11-05 05:00 ET
 - ✅ [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 4 episodes, latest 2026-11-05 18:30 ET
-- ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 66 episodes, latest 2026-11-03 16:00 ET
+- 🆕 [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 67 episodes, latest 2026-11-06 16:00 ET
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 99 episodes, latest 2026-11-06 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 89 episodes, latest 2026-11-06 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 59 episodes, latest 2026-10-31 20:00 ET
-- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 91 episodes, latest 2026-11-06 14:20 ET
+- ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 91 episodes, latest 2026-11-06 14:20 ET
 - ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 389 episodes, latest 2026-11-06 05:06 ET
 
 ### Warnings

@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 03 Nov 2026 21:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2026 21:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2026 21:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2026 21:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Le Canadien tourne la page</title>
+      <description>&lt;p&gt;Le Canadien est revenu sur Terre après une soirée étrange contre les Jets. Le capitaine Nick Suzuki a mené la charge et il a permis aux Glorieux d'oublier la débandade historique de mardi.&lt;/p&gt;&lt;p&gt;Juraj Slafkovsky semble se replacer et l'on se retrouve à se questionner à nouveau sur le rôle de Kirby Dach. Est-il en train de devenir ce qu'on a toujours souhaité qu’il soit ou tout cela n’est-il qu’un mirage?&lt;/p&gt;&lt;p&gt;Et on prend un moment pour parler de Carey Price et de Patrice Bergeron, qui feront leur entrée au Temple de la renommée.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1287676/le-canadien-tourne-la-page</link>
+      <pubDate>Fri, 06 Nov 2026 21:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f8258ca4-ac25-4dec-af7e-7cee71d4206c/2026-11-06_15_45_00_tellementhockey_0000_master.m3u8" length="64160000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f8258ca4-ac25-4dec-af7e-7cee71d4206c/2026-11-06_15_45_00_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:06:50</itunes:duration>
+    </item>
     <item>
       <title>Que deviendras-tu, Nikita Kucherov?</title>
       <description>&lt;p&gt;Un coup de tonnerre a frappé Tampa Bay. L’attaquant Nikita Kucherov a annoncé qu'il ne reviendrait pas avec le Lightning l'an prochain. Voilà qui met la haute direction de l’équipe dans l'embarras. Kucherov testera-t-il le marché des joueurs autonomes? Le retour de Nick Suzuki cause un effet domino dans la formation du Canadien, et certains joueurs se battent maintenant pour mettre le patin sur la glace. &lt;/p&gt;&lt;p&gt;Le Tribunal arbitral du sport a statué concernant la réintégration de la Russie, ce qui a des effets politiques très importants. À terme, la décision pourrait devenir inapplicable.&lt;/p&gt;</description>
