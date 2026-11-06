@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Thu, 05 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Fri, 06 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Lendemain du dépôt du budget fédéral 2026-2027</title>
+      <description>&lt;p&gt;Le gouvernement de Mark Carney mise sur une croissance de revenus plus élevée que prévu dans le but de financer ses engagements. Le déficit atteindra donc les 62-milliards de dollars. Le ministre fédéral des Finances, François-Philippe Champagne, a présenté son budget qui prévoit notamment de nouvelles mesures en culture et pour soutenir temporairement les ménages moins nantis.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242365/vendredi-6-novembre-2026-lendemain-du-depot-du-budget-federal</link>
+      <pubDate>Fri, 06 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/4e9520bc-c674-4e30-8256-02f57ba4d096/2026-11-06_05_06_00_alaunebaladoexterne_0000.mp3" length="33061616" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a6e14534-f302-4dd5-8206-1fb9a59434a3/2026-11-06_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:22:57</itunes:duration>
+    </item>
     <item>
       <title>Deuxième budget du gouvernement Carney</title>
       <description>&lt;p&gt;C'est jour de budget à Ottawa. Alors que les entreprises canadiennes sont touchées par la guerre commerciale avec les États-Unis et que la hausse du coût de la vie affecte de nombreuses familles au pays, le ministre des Finances, François-Philippe Champagne, va présenter le deuxième budget du gouvernement Carney.&lt;/p&gt;</description>
