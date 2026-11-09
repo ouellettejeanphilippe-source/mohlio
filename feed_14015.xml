@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Nov 2026 19:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2026 19:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg</url>
       <title>Evelyne et Gabrielle font un podcast</title>
@@ -18,6 +18,51 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Evelyne et Gabrielle font un podcast</itunes:summary>
+    <item>
+      <title>Le spiritisme</title>
+      <description>&lt;p&gt;Les deux complices s’intéressent au spiritisme, sujet de prédilection de Gabrielle. Evelyne et elle discutent notamment de ouija, de voyantes, de séances photo avec des personnes décédées et d'expériences étranges, quasi paranormales, qu'elles ont vécues.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1287037/le-spiritisme</link>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8149758f-545a-4d06-b96a-e9fc17e01f32/2026-11-04_09_50_39_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="37008000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8149758f-545a-4d06-b96a-e9fc17e01f32/2026-11-04_09_50_39_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:38:33</itunes:duration>
+    </item>
+    <item>
+      <title>L’expédition Franklin</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle traitent de l'expédition Franklin, qui s'est terminée de façon tragique. Au menu, entre autres : des momies des membres de l’équipage et une épave qui pique la curiosité plus qu’une aile de poulet 911 pique la langue.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1287035/lexpedition-franklin</link>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/465614c5-51a2-483c-9837-90dc18c6343f/2026-11-04_17_11_53_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="49744000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/465614c5-51a2-483c-9837-90dc18c6343f/2026-11-04_17_11_53_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:51:49</itunes:duration>
+    </item>
+    <item>
+      <title>L’impératrice Sissi</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle décortiquent sa vie qui n’a rien à voir avec les films. Anorexie, soif de liberté, horreur des obligations royales, destin tragique, décès de son fils, passion équestre et du cirque : découvrez une Sissi complexe…et malheureuse.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1287033/limperatrice-sissi</link>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/059fd820-d188-4cd1-bcff-ffe3d289a6fa/2026-11-04_17_08_42_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="50672000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/059fd820-d188-4cd1-bcff-ffe3d289a6fa/2026-11-04_17_08_42_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:52:47</itunes:duration>
+    </item>
+    <item>
+      <title>Les royaumes d’Afrique</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle s’intéressent aux royaumes du Ghana, du Congo, du Bénin et du Mali, tout en se penchant sur de grands personnages, comme Kanga Moussa et la reine Nzinga. Fidèles à leurs habitudes, les amies glissent des références pop dans leurs discussions!&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1287029/les-royaumes-dafrique</link>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e6cca194-a8cc-4aa0-a47f-409dd677e710/2026-11-04_17_06_22_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="49744000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e6cca194-a8cc-4aa0-a47f-409dd677e710/2026-11-04_17_06_22_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:51:49</itunes:duration>
+    </item>
+    <item>
+      <title>La déportation des Acadiens</title>
+      <description>&lt;p&gt;Le sujet du jour, la déportation des Acadiens, amène Evelyne à parler de ses liens avec ce peuple et Gabrielle à tenter de situer Louisbourg sur une carte. Les filles jasent aussi des Maritimes, de la guerre de succession d’Espagne et de pelote. Oui, tout ça se tient. Promis!&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1287018/la-deportation-des-acadiens</link>
+      <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0f7b4618-aedd-4c22-8b1c-c6a068d08522/2026-11-04_17_01_43_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="64416000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0f7b4618-aedd-4c22-8b1c-c6a068d08522/2026-11-04_17_01_43_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:07:06</itunes:duration>
+    </item>
     <item>
       <title>Les guerres de l’opium</title>
       <description>&lt;p&gt;Evelyne nous raconte les guerres de l’opium, parce que oui, il y en a eu plusieurs. (Bon juste deux, mais c’est déjà assez.) Au passage, Gabrielle et elle se penchent sur les distinctions entre le mercantilisme et le capitalisme, Robert Fortune et ses déguisements, Hong Kong et les personnages chinois clichés dans &lt;em&gt;Lucky Luke&lt;/em&gt;.&lt;/p&gt;</description>
