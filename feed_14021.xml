@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Nov 2026 02:30:00 +0000</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2026 02:30:00 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>9 novembre 1989 : la chute du mur de Berlin</title>
+      <description>&lt;p&gt;À la une de &lt;em&gt;La Presse&lt;/em&gt; le 9 novembre 1989, on pouvait lire que Monique Jérôme-Forget ne faisait pas l’unanimité! Jean-Philippe teste les connaissances de Jean-Sébastien sur l’horaire de la télévision de l’époque. L’ancien diplomate Ferry de Kerckhove parle de la chute du mur de Berlin, et Félix Lemieux s’intéresse à Neville Chamberlain, ex-premier ministre britannique, dont l’histoire retient sa mauvaise stratégie contre l’Allemagne nazie.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1287663/9-novembre-1989-la-chute-du-mur-de-berlin</link>
+      <pubDate>Mon, 09 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6d2c748f-e17f-4952-a8c6-6172e134e540/2026-11-06_14_50_00_lhistoireestencorejeune_0000_master.m3u8" length="32240000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6d2c748f-e17f-4952-a8c6-6172e134e540/2026-11-06_14_50_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:35</itunes:duration>
+    </item>
     <item>
       <title>Le meilleur de la semaine du 2 novembre 2026</title>
       <description>&lt;p&gt;Voici un assemblage des quatre émissions diffusées cette semaine. Au menu : la fondation de Radio-Canada, l’adoption du SOS, l’élection de Barack Obama et la nuit des longs couteaux du Québec.&lt;/p&gt;</description>
