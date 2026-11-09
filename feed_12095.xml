@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Nov 2026 13:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 06 Nov 2026 13:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2026 13:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2026 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Une moufette agressive à Granby, et une expulsion de locataires causée par des flatulences</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1287908/une-moufette-agressive-a-granby-une-expulsion-de-locataires-causee-par-des-flatulences</link>
+      <pubDate>Mon, 09 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a8dab2ee-434a-494b-910d-1fdddb0e40a3/2026-11-09_08_03_44_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24784000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a8dab2ee-434a-494b-910d-1fdddb0e40a3/2026-11-09_08_03_44_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:49</itunes:duration>
+    </item>
     <item>
       <title>Un premier ministre trop susceptible, et la biodiversité du sacre québécois</title>
       <description />
