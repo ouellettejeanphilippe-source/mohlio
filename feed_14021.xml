@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>10 novembre 1983 : l’annonce de la création de Windows 1.0</title>
+      <description>&lt;p&gt;Le piratage d’ordinateur ne date pas d’hier : déjà, le 10 novembre 1983, on pouvait lire dans &lt;em&gt;La Presse&lt;/em&gt; que des étudiants avaient utilisé des ordinateurs pour avoir accès à des banques de données ailleurs au pays. Jean-Philippe s’entretient avec la vulgarisatrice scientifique Stéphanie Jolicœur, qui explique comment Windows 1.0 a démocratisé l’accès aux ordinateurs, et Félix Lemieux s’intéresse au compositeur italien Ennio Morricone, célèbre pour ses musiques de film.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1288366/10-novembre-1983-lannonce-de-la-creation-de-windows-1-0</link>
+      <pubDate>Tue, 10 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/b985daa3-89ba-4b3c-b959-b3da2d4fe27f/2026-11-10_10_30_00_lhistoireestencorejeune_0000_master.m3u8" length="29024000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/b985daa3-89ba-4b3c-b959-b3da2d4fe27f/2026-11-10_10_30_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:30:14</itunes:duration>
+    </item>
     <item>
       <title>9 novembre 1989 : la chute du mur de Berlin</title>
       <description>&lt;p&gt;À la une de &lt;em&gt;La Presse&lt;/em&gt; le 9 novembre 1989, on pouvait lire que Monique Jérôme-Forget ne faisait pas l’unanimité! Jean-Philippe teste les connaissances de Jean-Sébastien sur l’horaire de la télévision de l’époque. L’ancien diplomate Ferry de Kerckhove parle de la chute du mur de Berlin, et Félix Lemieux s’intéresse à Neville Chamberlain, ex-premier ministre britannique, dont l’histoire retient sa mauvaise stratégie contre l’Allemagne nazie.&lt;/p&gt;</description>
