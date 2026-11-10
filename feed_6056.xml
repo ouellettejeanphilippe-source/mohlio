@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Nov 2026 14:20:00 -0500</pubDate>
-    <lastBuildDate>Fri, 06 Nov 2026 14:20:00 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2026 00:06:00 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Lundi 9 nov. 2026 : Les filtres anti-lumière bleue, et les commotions cérébrales à l’âge adulte</title>
+      <description>&lt;p&gt;L'efficacité des lunettes et des filtres contre la lumière bleue; l'effet de l'eau gazeuse sur l'absorption des médicaments; le comportement étrange des objets flottants; les conséquences des commotions cérébrales à l'âge adulte.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1242447/lundi-9-nov-2026-les-filtres-anti-lumiere-bleue-et-les-commotions-cerebrales-a-lage-adulte</link>
+      <pubDate>Tue, 10 Nov 2026 00:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/94eeed31-6cfb-4ec4-b748-b16844096d79/2026-11-09_19_06_00_moteurderecherche_0000_master.m3u8" length="50848000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/94eeed31-6cfb-4ec4-b748-b16844096d79/2026-11-09_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:52:58</itunes:duration>
+    </item>
     <item>
       <title>L’origine des neutrinos, et l’histoire des cartes</title>
       <description>&lt;p&gt; L'histoire de la cartographie, dont celle de Mercator; l'effet de l'ajout des levures sur le processus de vinification; l'origine des neutrinos qui nous traversent; et la distinction entre les époques archaïque et sylvicole en archéologie québécoise.&lt;/p&gt;</description>
