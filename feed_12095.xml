@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Nov 2026 13:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2026 13:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2026 13:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Tricher à l’examen de conduite en Ontario, et perdre une équipe de sport professionnelle à Montréal</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1288302/tricher-dans-lexamen-de-conduite-en-ontario-et-perdre-une-equipe-de-sport-professionnelle-a-montreal</link>
+      <pubDate>Tue, 10 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/7163352f-c9d5-473c-8670-9ad4e43f43f5/2026-11-10_08_03_52_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="26624000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/7163352f-c9d5-473c-8670-9ad4e43f43f5/2026-11-10_08_03_52_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:27:44</itunes:duration>
+    </item>
     <item>
       <title>Une moufette agressive à Granby, et une expulsion de locataires causée par des flatulences</title>
       <description />
