@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Nov 2026 05:00:00 -0500</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2026 05:00:00 -0500</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>COP31 : l’électrification, la clé pour une transition énergétique réussie?</title>
+      <description>&lt;p&gt;La 31e Conférence des Nations unies sur les changements climatiques s’est mise en branle à Antalya, en Turquie. Face à la lenteur des progrès, les pays participants et les spécialistes cherchent à donner un nouveau souffle à l’action climatique. Avant son départ pour la COP31, le journaliste Étienne Leblanc explique pourquoi les astres s'alignent enfin dans la quête d’une transition énergétique.	&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1288139/cop31-lelectrification-la-cle-pour-une-transition-energetique-reussie</link>
+      <pubDate>Tue, 10 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/49ec2af6-d707-4d7b-9a12-215e01d512a4/2026-11-09_16_59_23_casexplique_0000_master.m3u8" length="17920000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/49ec2af6-d707-4d7b-9a12-215e01d512a4/2026-11-09_16_59_23_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:18:40</itunes:duration>
+    </item>
     <item>
       <title>Eurovision : la recette d’un succès planétaire</title>
       <description>&lt;p&gt;L’entrée en scène du Canada pour la toute première fois au Concours Eurovision de la chanson suscite un engouement inédit pour cette compétition musicale hors du commun. L’artiste que le public choisira aura l’honneur de représenter le pays au mois de mai prochain en Bulgarie et marquera l’histoire de la musique canadienne. Catherine Genest, qui est créatrice de contenu pour la Société canadienne des auteurs, compositeurs et éditeurs de musique (SOCAN) et collaboratrice de Radio-Canada, explique l’importance et la portée de l’Eurovision pour les artistes et le monde musical.&lt;/p&gt;</description>
