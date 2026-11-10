@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Nov 2026 21:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 06 Nov 2026 21:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 10 Nov 2026 21:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 10 Nov 2026 21:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Grosse semaine pour le Canadien</title>
+      <description>&lt;p&gt;Le Canadien a le vent dans les voiles. Toutefois, la semaine s'annonce ardue pour le Tricolore, qui affrontera trois grosses équipes : le Wild, les Bruins et l’Avalanche. Malgré les blessés, parmi lesquels figurent toujours Ivan Demidov et Mike Matheson, les hommes de Martin St-Louis réussissent à bien s'en tirer. Ce bel élan se poursuivra-t-il jusqu’à la fin de l’année?&lt;/p&gt;&lt;p&gt;Pendant ce temps, l’ancien gardien du club montréalais Carey Price fait son entrée parmi les immortels au Temple de la renommée.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1288506/grosse-semaine-pour-le-canadien</link>
+      <pubDate>Tue, 10 Nov 2026 21:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/a1181507-f217-4369-a6a4-d33065c6423d/2026-11-10_15_36_56_tellementhockey_0000_master.m3u8" length="53376000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/a1181507-f217-4369-a6a4-d33065c6423d/2026-11-10_15_36_56_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:55:36</itunes:duration>
+    </item>
     <item>
       <title>Le Canadien tourne la page</title>
       <description>&lt;p&gt;Le Canadien est revenu sur Terre après une soirée étrange contre les Jets. Le capitaine Nick Suzuki a mené la charge et il a permis aux Glorieux d'oublier la débandade historique de mardi.&lt;/p&gt;&lt;p&gt;Juraj Slafkovsky semble se replacer et l'on se retrouve à se questionner à nouveau sur le rôle de Kirby Dach. Est-il en train de devenir ce qu'on a toujours souhaité qu’il soit ou tout cela n’est-il qu’un mirage?&lt;/p&gt;&lt;p&gt;Et on prend un moment pour parler de Carey Price et de Patrice Bergeron, qui feront leur entrée au Temple de la renommée.&lt;/p&gt;</description>
