@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Wed, 11 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Wed, 11 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Quatre sommets en 9 jours pour Mark Carney</title>
+      <description>&lt;p&gt;Le premier ministre Mark Carney s'envole pour de nouvelles missions diplomatique à l'étranger, où il participera à des sommets en Asie et en Irlande. Son voyage le mènera dans quatre pays. Le premier ministre qui cherche toujours à renforcer les liens du Canada en matière de commerce et de sécurité.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242476/mercredi-11-novembre-2026</link>
+      <pubDate>Wed, 11 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/c5f44717-c0f3-428a-b79d-6991b5f9a496/2026-11-11_05_06_00_alaunebaladoexterne_0000.mp3" length="33102994" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/af1c28aa-7618-4e4b-a288-9df89bb90bf2/2026-11-11_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
     <item>
       <title>La Russie et l’Ukraine reprennent les négociations de paix</title>
       <description>&lt;p&gt; Les discussions se tiennent aujourd'hui et demain à Abou Dhabi, aux Émirats arabes unis, sous médiation américaine. Mais après plus de quatre ans de guerre, ces nouveaux pourparlers peuvent-ils réellement déboucher sur des avancées ? &lt;/p&gt;</description>
