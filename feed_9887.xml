@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Wed, 11 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Wed, 11 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mercredi 11 nov. 2026 : Simon-Olivier Lorange et Fabrice de Pierrebourg</title>
+      <description>&lt;p&gt;Olivier nous fait écouter des péquistes qui évitent de se prononcer sur la nomination de Jacinthe-Eve Arel. Simon-Olivier Lorange s'inquiète qu’on ne parle pas assez du Canadien. Et Fabrice de Pierrebourg raconte ses voyages dans une Ukraine en guerre.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1288737/mercredi-11-nov-2026-simon-olivier-lorange-et-fabrice-de-pierrebourg</link>
+      <pubDate>Wed, 11 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ae3b2948-7480-4c46-8686-9641f1f43f4f/2026-11-11_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="28320000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ae3b2948-7480-4c46-8686-9641f1f43f4f/2026-11-11_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:29:30</itunes:duration>
+    </item>
     <item>
       <title>Mardi 10 nov. 2026 : Céline Galipeau, Justine Philie et Colin Côté-Paulette</title>
       <description>&lt;p&gt;Olivier résume les commentaires de mononcles sur le Gala de l'Adisq. Colin Côté-Paulette s’intéresse à la venue de Barack Obama à Québec. Justine Philie parle de Trump, qui aurait offert un poste à la mauvaise personne. Et Céline Galipeau présente sa nouvelle émission.&lt;/p&gt;</description>
