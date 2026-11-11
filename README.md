@@ -160,7 +160,7 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-11 19:33 UTC
+Last update: 2026-11-11 20:10 UTC
 
 ### Feeds
 
@@ -181,6 +181,7 @@ Last update: 2026-11-11 19:33 UTC
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
+- `changement`: no new episode for the last 2 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `evelyne`: podcast RSS unavailable (podcast RSS returned no channel)
 - `histoire`: podcast RSS unavailable (podcast RSS returned no channel)
