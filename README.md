@@ -171,9 +171,9 @@ Last update: 2026-11-11 20:10 UTC
 - ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 85 episodes, latest 2026-11-11 05:00 ET
 - ✅ [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 7 episodes, latest 2026-11-10 18:30 ET
 - ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 68 episodes, latest 2026-11-10 16:00 ET
-- 🆕 [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 103 episodes, latest 2026-11-11 14:30 ET
+- ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 103 episodes, latest 2026-11-11 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 92 episodes, latest 2026-11-11 08:00 ET
-- ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 60 episodes, latest 2026-11-07 13:00 ET
+- 🆕 [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 61 episodes, latest 2026-11-07 20:00 ET
 - ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 93 episodes, latest 2026-11-10 19:06 ET
 - ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 392 episodes, latest 2026-11-11 05:06 ET
 
@@ -181,7 +181,6 @@ Last update: 2026-11-11 20:10 UTC
 
 - `betisier`: podcast RSS unavailable (podcast RSS returned no channel)
 - `changement`: podcast RSS unavailable (podcast RSS returned no channel)
-- `changement`: no new episode for the last 2 expected publications
 - `decrypteurs`: podcast RSS unavailable (podcast RSS returned no channel)
 - `evelyne`: podcast RSS unavailable (podcast RSS returned no channel)
 - `histoire`: podcast RSS unavailable (podcast RSS returned no channel)
