@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Thu, 12 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Les jours de Jensen Huang à la tête de l'entreprise Nvidia sont comptés</title>
+      <description>&lt;p&gt;Le Conseil d'administration du géant américain des puces électroniques, de Nvidia, se penche sur le sort du grand patron et fondateur de l'entreprise, Jensen Huang. Selon des médias américains, il pourrait être démis de ses fonctions en raison des scandales qui éclaboussent l'entreprise.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242497/jeudi-12-novembre-2026</link>
+      <pubDate>Thu, 12 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/a990d6b9-e4d2-4492-bfc7-d50093ddfb2f/2026-11-12_05_06_00_alaunebaladoexterne_0000.mp3" length="33103621" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/a990d6b9-e4d2-4492-bfc7-d50093ddfb2f/2026-11-12_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
     <item>
       <title>Quatre sommets en 9 jours pour Mark Carney</title>
       <description>&lt;p&gt;Le premier ministre Mark Carney s'envole pour de nouvelles missions diplomatique à l'étranger, où il participera à des sommets en Asie et en Irlande. Son voyage le mènera dans quatre pays. Le premier ministre qui cherche toujours à renforcer les liens du Canada en matière de commerce et de sécurité.&lt;/p&gt;</description>
