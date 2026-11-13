@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2026 10:06:00 +0000</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 10:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Vendredi 13 novembre 2026</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242529/vendredi-13-novembre-2026</link>
+      <pubDate>Fri, 13 Nov 2026 10:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6a8a9052-3db5-4d05-a271-14a70e165622/2026-11-13_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6a8a9052-3db5-4d05-a271-14a70e165622/2026-11-13_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:23:00</itunes:duration>
+    </item>
     <item>
       <title>Les jours de Jensen Huang à la tête de l'entreprise Nvidia sont comptés</title>
       <description>&lt;p&gt;Le Conseil d'administration du géant américain des puces électroniques, de Nvidia, se penche sur le sort du grand patron et fondateur de l'entreprise, Jensen Huang. Selon des médias américains, il pourrait être démis de ses fonctions en raison des scandales qui éclaboussent l'entreprise.&lt;/p&gt;</description>
