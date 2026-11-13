@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 10 Nov 2026 21:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Nov 2026 21:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2026 21:20:00 +0000</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 21:20:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Gagner sans être parfait</title>
+      <description>&lt;p&gt;Dans cette séquence de matchs sans défaite, le Canadien réussit à gagner même quand il joue moins bien. Le jeune Jacob Fowler n'est pas étranger à cet état de fait, mais combien de temps pourra-t-il gommer les ratés de ses collègues en défense? Dans toute cette embellie, certains joueurs mettent du temps à prendre leur envol. Matvei Michkov est encore au centre d'une controverse. Et regrette-t-on d'avoir fait un camp d'entraînement si court?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1289503/gagner-sans-etre-parfait</link>
+      <pubDate>Fri, 13 Nov 2026 21:20:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/68f31ba5-d51f-43ab-a99d-f60b8189bb56/2026-11-13_16_10_00_tellementhockey_0000_master.m3u8" length="67376000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/68f31ba5-d51f-43ab-a99d-f60b8189bb56/2026-11-13_16_10_00_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:10:11</itunes:duration>
+    </item>
     <item>
       <title>Grosse semaine pour le Canadien</title>
       <description>&lt;p&gt;Le Canadien a le vent dans les voiles. Toutefois, la semaine s'annonce ardue pour le Tricolore, qui affrontera trois grosses équipes : le Wild, les Bruins et l’Avalanche. Malgré les blessés, parmi lesquels figurent toujours Ivan Demidov et Mike Matheson, les hommes de Martin St-Louis réussissent à bien s'en tirer. Ce bel élan se poursuivra-t-il jusqu’à la fin de l’année?&lt;/p&gt;&lt;p&gt;Pendant ce temps, l’ancien gardien du club montréalais Carey Price fait son entrée parmi les immortels au Temple de la renommée.&lt;/p&gt;</description>
