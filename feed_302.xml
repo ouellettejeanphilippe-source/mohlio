@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Nov 2026 10:06:00 +0000</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2026 10:06:00 +0000</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -21,13 +21,13 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
     <item>
-      <title>Vendredi 13 novembre 2026</title>
-      <description />
+      <title>Mark Carney devrait signer de nouvelles ententes commerciales</title>
+      <description>&lt;p&gt;Mark Carney poursuit son voyage diplomatique à la recherche de nouveaux partenaires commerciaux et de nouveaux marchés pour le Canada. Après l'Europe, il s'est envolé pour l'Asie, où il participera au sommet de l’Association des nations de l’Asie du Sud-Est à Manille, aux Philippines.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242529/vendredi-13-novembre-2026</link>
-      <pubDate>Fri, 13 Nov 2026 10:06:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6a8a9052-3db5-4d05-a271-14a70e165622/2026-11-13_05_06_00_alaune_0000_master.m3u8" length="22080000" type="audio/mpeg" />
+      <pubDate>Fri, 13 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8e9ad094-e083-4099-a412-1649c53ecd69/2026-11-13_05_06_00_alaunebaladoexterne_0000.mp3" length="33093590" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6a8a9052-3db5-4d05-a271-14a70e165622/2026-11-13_05_06_00_alaune_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:23:00</itunes:duration>
+      <itunes:duration>00:22:58</itunes:duration>
     </item>
     <item>
       <title>Les jours de Jensen Huang à la tête de l'entreprise Nvidia sont comptés</title>

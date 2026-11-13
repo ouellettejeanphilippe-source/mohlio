@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Nov 2026 00:06:00 +0000</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2026 00:06:00 +0000</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2026 09:17:31 -0500</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:17:31 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,14 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>La géothermie urbaine, et les effets du bacon sur la santé</title>
+      <description>&lt;p&gt;La réaction des plantes au manque de lumière en hiver; les effets des différents types de bacon sur la santé; les causes de la sensation de faim constante; et les obstacles au développement de la géothermie communautaire au Québec.&lt;/p&gt;</description>
+      <pubDate>Fri, 13 Nov 2026 09:17:31 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/8edf2c81-e459-45a1-82c4-f19d4494bf94/2026-11-13_09_17_31_moteurderecherchebalado_0000.mp3" length="76519758" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/8edf2c81-e459-45a1-82c4-f19d4494bf94/2026-11-13_09_17_31_moteurderecherchebalado_0000.mp3?v=2</guid>
+      <itunes:duration>00:53:08</itunes:duration>
+    </item>
     <item>
       <title>Jeudi 12 nov. 2026 : La géothermie urbaine, et les effets du bacon sur la santé</title>
       <description>&lt;p&gt;La réaction des plantes au manque de lumière en hiver; les effets des différents types de bacon sur la santé; les causes de la sensation de faim constante; et les obstacles au développement de la géothermie communautaire au Québec.&lt;/p&gt;</description>
