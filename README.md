@@ -160,7 +160,7 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-12 23:33 UTC
+Last update: 2026-11-13 00:48 UTC
 
 ### Feeds
 
@@ -186,4 +186,5 @@ Last update: 2026-11-12 23:33 UTC
 - `histoire`: podcast RSS unavailable (podcast RSS returned no channel)
 - `hockey`: podcast RSS unavailable (podcast RSS returned no channel)
 - `niquet`: podcast RSS unavailable (podcast RSS returned no channel)
+- `recherche`: no new episode for the last 2 expected publications
 <!-- RUN_LOG_END -->
