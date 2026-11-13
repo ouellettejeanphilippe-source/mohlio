@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Nov 2026 00:06:00 +0000</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2026 00:06:00 +0000</lastBuildDate>
+    <pubDate>Fri, 13 Nov 2026 00:06:00 +0000</pubDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Jeudi 12 nov. 2026 : La géothermie urbaine, et les effets du bacon sur la santé</title>
+      <description>&lt;p&gt;La réaction des plantes au manque de lumière en hiver; les effets des différents types de bacon sur la santé; les causes de la sensation de faim constante; et les obstacles au développement de la géothermie communautaire au Québec.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1242500/jeudi-12-nov-2026-la-geothermie-communautaire-et-les-effets-du-bacon-sur-la-sante</link>
+      <pubDate>Fri, 13 Nov 2026 00:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f6bd1452-ecb9-4965-935d-6150726e84dc/2026-11-12_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f6bd1452-ecb9-4965-935d-6150726e84dc/2026-11-12_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
     <item>
       <title>Mardi 10 nov. 2026 : L’apparition de la vie sur Terre, et le goût du fromage</title>
       <description>&lt;p&gt;L'origine et la datation de l'apparition de la vie sur Terre; le potentiel de remise en liberté des caribous nés en captivité; la résonance par sympathie des cordes d'un piano; et la différence entre l'odeur et le goût d'un fromage.&lt;/p&gt;</description>
