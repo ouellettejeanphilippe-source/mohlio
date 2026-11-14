@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Nov 2026 14:30:00 -0500</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2026 14:30:00 -0500</lastBuildDate>
+    <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 14 nov. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Des péquistes évitent de se prononcer sur la nomination de Jacinthe-Eve Arel. Des mononcles commentent le Gala de l'Adisq. Et une citoyenne de Sainte-Monique croit avoir aperçu un cougar.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1289498/samedi-14-nov-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f561f144-b5c4-4ad7-afe5-51e5bbe8ad0e/2026-11-13_16_02_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="34368000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f561f144-b5c4-4ad7-afe5-51e5bbe8ad0e/2026-11-13_16_02_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:35:48</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 13 nov. 2026 : Pierre Brassard, Jean-Séastien Girard et Jean-François Lépine</title>
       <description>&lt;p&gt;Olivier nous fait écouter Éric Duhaime, qui explique pourquoi il n’était pas à la cérémonie pour le jour du Souvenir. Jean-François Lépine raconte comment il est devenu ami avec Pierre Brassard. Et Jean-Sébastien nous dit les cadeaux étranges que veut son meilleur ami.&lt;/p&gt;</description>
