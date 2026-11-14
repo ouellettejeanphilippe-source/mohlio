@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Thu, 12 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Nov 2026 02:30:00 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Nov 2026 02:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>Le meilleur de la semaine du 9 novembre 2026</title>
+      <description>&lt;p&gt;Voici un assemblage des quatre émissions diffusées cette semaine. Au menu : la chute du mur de Berlin, l’annonce de la création de Windows 1.0, le premier débat des chefs télévisé au Québec et l’achat des Canadiens de Montréal par George Kennedy.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1289344/le-meilleur-de-la-semaine-du-9-novembre-2026</link>
+      <pubDate>Sat, 14 Nov 2026 02:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9f70a142-32d9-45c0-ab24-f35154bcccb3/2026-11-13_12_40_00_lhistoireestencorejeune_0000_master.m3u8" length="79184000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9f70a142-32d9-45c0-ab24-f35154bcccb3/2026-11-13_12_40_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:22:29</itunes:duration>
+    </item>
     <item>
       <title>12 novembre 1910 : l’achat des Canadiens de Montréal par George Kennedy</title>
       <description>&lt;p&gt;Peut-on jouer aux cartes avec des intimes lorsqu’on est en deuil? C’est une grande question à laquelle répond Colette dans sa rubrique &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;Le courrier de Colette&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Le courrier de Colette&amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;Le courrier de Colette&lt;/span&gt;&lt;/q&gt; parue dans &lt;em&gt;La Presse&lt;/em&gt; du 12 novembre 1910. Ce jour-là également, le Canadien de Montréal est vendu, un an après sa fondation. Le professeur à la retraite François Black en discute avec Jean-Philippe. Simon-Olivier Lorange parle des ventes subséquentes, et Félix Lemieux souligne le 420e anniversaire de Jeanne Mance.&lt;/p&gt;</description>
