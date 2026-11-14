@@ -160,7 +160,7 @@ flux, et écriture uniquement en cas de changement réel.
 ## Journal de la dernière mise à jour
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-14 12:02 UTC
+Last update: 2026-11-14 18:02 UTC
 
 ### Feeds
 
@@ -168,12 +168,12 @@ Last update: 2026-11-14 12:02 UTC
 - ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 32 episodes, latest 2026-11-11 15:00 ET
 - ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 59 episodes, latest 2026-11-13 12:05 ET
 - ✅ [evelyne](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml) — 9 episodes, latest 2026-11-09 14:00 ET
-- 🆕 [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 87 episodes, latest 2026-11-14 06:00 ET
-- 🆕 [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 10 episodes, latest 2026-11-13 21:30 ET
+- ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 87 episodes, latest 2026-11-14 06:00 ET
+- ✅ [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 10 episodes, latest 2026-11-13 21:30 ET
 - ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 69 episodes, latest 2026-11-13 16:20 ET
-- 🆕 [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 106 episodes, latest 2026-11-14 07:00 ET
+- ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 106 episodes, latest 2026-11-14 07:00 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 94 episodes, latest 2026-11-13 08:00 ET
-- ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 61 episodes, latest 2026-11-07 20:00 ET
+- 🆕 [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 62 episodes, latest 2026-11-14 13:00 ET
 - ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 95 episodes, latest 2026-11-13 09:17 ET
 - ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 394 episodes, latest 2026-11-13 05:06 ET
 
