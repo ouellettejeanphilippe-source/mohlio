@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Nov 2026 13:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2026 13:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 16 Nov 2026 13:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2026 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Un cheval dans un autobus, et un judoka candidat à l’élection présidentielle en France</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1289738/un-cheval-dans-un-autobus-et-un-judoka-candidat-a-lelection-presidentielle-en-france</link>
+      <pubDate>Mon, 16 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/ede624aa-c9e2-4007-a5d5-fee0ab1778c0/2026-11-16_08_05_40_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="24848000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/ede624aa-c9e2-4007-a5d5-fee0ab1778c0/2026-11-16_08_05_40_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:25:53</itunes:duration>
+    </item>
     <item>
       <title>Le maire de Boucherville boude l’hymne britannique, et les guerriers de l’automobile se défendent</title>
       <description />
