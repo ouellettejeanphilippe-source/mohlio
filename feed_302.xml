@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Fri, 13 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Mon, 16 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Mark Carney est en route pour la Chine</title>
+      <description>&lt;p&gt;Le premier ministre Mark Carney s'envole pour la Chine, où il aura un tête-à-tête avec le président Xi Jinping, demain. C'est le deuxième voyage du premier ministre canadien depuis qu'il a pris le pouvoir. Il sera question principalement d'économie et d'échanges commeriaux.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242583/lundi-16-novembre-2026</link>
+      <pubDate>Mon, 16 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/fdb2fd0c-7940-4617-8a82-ad1b0db4522d/2026-11-16_05_06_00_alaunebaladoexterne_0000.mp3" length="33113652" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/eedc2a71-0ebf-406a-b009-f4a829cdba30/2026-11-16_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
     <item>
       <title>Mark Carney devrait signer de nouvelles ententes commerciales</title>
       <description>&lt;p&gt;Mark Carney poursuit son voyage diplomatique à la recherche de nouveaux partenaires commerciaux et de nouveaux marchés pour le Canada. Après l'Europe, il s'est envolé pour l'Asie, où il participera au sommet de l’Association des nations de l’Asie du Sud-Est à Manille, aux Philippines.&lt;/p&gt;</description>
