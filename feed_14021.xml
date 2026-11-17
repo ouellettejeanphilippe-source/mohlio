@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>17 novembre 2003 : L’assermentation de Schwarzenegger comme gouverneur de la Californie</title>
+      <description>&lt;p&gt;Déjà le 17 novembre 1967, on pouvait lire dans le journal que des députés de l’Union nationale avaient le projet de réformer les coutumes monarchiques à l’Assemblée nationale du Québec! Le même jour, en 2003, Arnold Schwarzenegger devenait gouverneur de la Californie. Jean-Philippe reçoit la politologue Karine Prémont pour parler de la carrière politique de l’acteur, et Félix Lemieux s’intéresse à Catherine II de Russie, dont le mariage s’est soldé par un assassinat.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1289530/17-novembre-2003-lassermentation-de-schwarzenegger-comme-gouverneur-de-la-californie</link>
+      <pubDate>Tue, 17 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0a339ce8-ed9f-4e26-a4e3-5fee5a6a60ec/2026-11-13_12_52_00_lhistoireestencorejeune_0000_master.m3u8" length="25200000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0a339ce8-ed9f-4e26-a4e3-5fee5a6a60ec/2026-11-13_12_52_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:26:15</itunes:duration>
+    </item>
     <item>
       <title>16 novembre 1938 : la première synthétisation du LSD</title>
       <description>&lt;p&gt;Un an avant le début de la Deuxième Guerre mondiale, le conseil du comté de Huron, en Ontario, adopte une résolution autorisant l’huissier de la cour à arrêter quiconque porte une moustache qui ressemble à celle d’Hitler! C’est également ce jour-là que le chimiste Albert Hofmann découvre le LSD. Jean-Philippe s’entretient avec la médecin Marie-Ève Morin, qui raconte le premier &lt;em&gt;bad trip&lt;/em&gt; d’acide au monde.&lt;/p&gt;</description>
