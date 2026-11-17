@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mardi 17 nov. 2026 : Josée Boileau, Paul Journet et Mike Morrice</title>
+      <description>&lt;p&gt;Mike Morrice explique pourquoi il a choisi de devenir chef du Parti vert du Canada. Et Paul Journet et Josée Boileau commentent la décision du Parti québécois d’abolir Santé Québec.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1290104/mardi-17-nov-2026-josee-boileau-paul-journet-et-mike-morrice</link>
+      <pubDate>Tue, 17 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/1ecd2f77-f732-40af-bf50-5de4fdc6a3c7/2026-11-17_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="32224000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/1ecd2f77-f732-40af-bf50-5de4fdc6a3c7/2026-11-17_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:34</itunes:duration>
+    </item>
     <item>
       <title>Lundi 16 nov. 2026 : Charles Milliard et Magali Saint-Vincent</title>
       <description>&lt;p&gt;Olivier résume la première rencontre entre Paul St-Pierre Plamondon et Mark Carney qui avait des allures de premier rendez-vous galant. Magali Saint-Vincent rend hommage à Jean-Luc Mongrain lorsqu’elle s’insurge contre l’emprisonnement d’élèves dans un casier. Et Charles Milliard affirme être d’accord pour rémunérer les stages.&lt;/p&gt;</description>
