@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Nov 2026 19:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2026 19:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 16 Nov 2026 21:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 16 Nov 2026 21:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg</url>
       <title>Evelyne et Gabrielle font un podcast</title>
@@ -18,6 +18,51 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Evelyne et Gabrielle font un podcast</itunes:summary>
+    <item>
+      <title>Les vampires et les loups-garous</title>
+      <description>&lt;p&gt;Les coanimatrices étudient les vampires et les loups-garous. Evelyne explique les diverses croyances à travers les âges en lien avec ces créatures effrayantes. Gabrielle et elle s’intéressent aussi à la bête du Gévaudan, au film &lt;em&gt;Entretien avec un vampire&lt;/em&gt;, à la légende de la chasse-galerie et à Vlad l'empaleur.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1288671/les-vampires-et-les-loups-garous</link>
+      <pubDate>Mon, 16 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/2a456a52-94cc-41d8-9002-61c047bb533f/2026-11-11_11_04_12_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="40288000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/2a456a52-94cc-41d8-9002-61c047bb533f/2026-11-11_11_04_12_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:41:58</itunes:duration>
+    </item>
+    <item>
+      <title>Le premier empereur chinois</title>
+      <description>&lt;p&gt;Les deux amies se penchent sur l’histoire du premier empereur chinois, Qin Shi Huang. Evelyne et Gabrielle s’intéressent à son immense tombeau, à l'armée de terre cuite, au mercure et à l’immortalité. Elles discutent aussi de la Grande Muraille de Chine.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1288669/le-premier-empereur-chinois</link>
+      <pubDate>Mon, 16 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/69c65821-0ef6-45a8-8a8f-5aa3bf5362cc/2026-11-11_11_02_19_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="41984000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/69c65821-0ef6-45a8-8a8f-5aa3bf5362cc/2026-11-11_11_02_19_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:43:44</itunes:duration>
+    </item>
+    <item>
+      <title>Le tourisme</title>
+      <description>&lt;p&gt;Les complices s’intéressent au tourisme et racontent leurs expériences personnelles de voyage, dont des visites au musée et à l'abbaye de Westminster. Evelyne et Gabrielle discutent également de la Côte d'Azur, des Templiers, de Rome, de Tombouctou et de surtourisme.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1288665/le-tourisme</link>
+      <pubDate>Mon, 16 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/fbe1c3ef-3744-4043-bed3-d430a4ea950f/2026-11-11_11_00_18_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="44752000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/fbe1c3ef-3744-4043-bed3-d430a4ea950f/2026-11-11_11_00_18_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:46:37</itunes:duration>
+    </item>
+    <item>
+      <title>La Joconde</title>
+      <description>&lt;p&gt;Le duo discute du tableau le plus célèbre au monde : la Mona Lisa. Evelyne en a beaucoup à dire sur ce sujet dont elle raffole, au grand plaisir de Gabrielle, qui rassasie sa curiosité. Les filles discutent entre autres de Léonard de Vinci, du Louvre, de vol d'œuvres d'art, des nazis et de George Clooney.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1288662/la-joconde</link>
+      <pubDate>Mon, 16 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d4e38364-6628-4391-a458-4f2f3779ead0/2026-11-11_10_58_00_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="36976000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d4e38364-6628-4391-a458-4f2f3779ead0/2026-11-11_10_58_00_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:38:31</itunes:duration>
+    </item>
+    <item>
+      <title>La Reconquista</title>
+      <description>&lt;p&gt;Les Maures ont habité le territoire de ce qui allait devenir l’Espagne pendant des siècles jusqu’à ce qu’Isabelle de Castille et Ferdinand d’Aragon, un puissant couple chrétien, les chassent. En plus de parler de la &lt;em&gt;Reconquista&lt;/em&gt; (« reconquête » en espagnol), Evelyne et Gabrielle traitent de mysticisme, de l’Inquisition et de l’acteur Gabriel Byrne dans le film &lt;em&gt;Stigmates&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1288659/la-reconquista</link>
+      <pubDate>Mon, 16 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/15c15fa9-5c87-4cac-ad7d-432006968954/2026-11-11_10_56_19_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="51984000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/15c15fa9-5c87-4cac-ad7d-432006968954/2026-11-11_10_56_19_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:54:09</itunes:duration>
+    </item>
     <item>
       <title>Le spiritisme</title>
       <description>&lt;p&gt;Les deux complices s’intéressent au spiritisme, sujet de prédilection de Gabrielle. Evelyne et elle discutent notamment de ouija, de voyantes, de séances photo avec des personnes décédées et d'expériences étranges, quasi paranormales, qu'elles ont vécues.&lt;/p&gt;</description>
