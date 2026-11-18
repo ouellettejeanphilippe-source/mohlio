@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Nov 2026 18:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Nov 2026 18:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Nov 2026 20:00:00 -0500</pubDate>
+    <lastBuildDate>Sat, 14 Nov 2026 20:00:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -21,13 +21,13 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Entouré de trois panélistes à la langue bien pendue, Pierre Brassard revisite l'actualité et se fait un malin plaisir à passer les nouvelles de la semaine à la moulinette de son humour unique et décalé. C'est aussi une occasion pour les auditeurs de mesurer leurs connaissances à celles des participants!</itunes:summary>
     <item>
-      <title>Spéciale &lt;em&gt;Like-moi!&lt;/em&gt;</title>
+      <title>Spéciale Like-moi!</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Sonia Cordeau, Karine Gonthier-Hyndman et Marie-Soleil Dion, qui doivent répondre à des questions sur : les missives de PSPP, l'entrevue du petit Marcel, une croisière coquine, les cartes Pokémon, l'infidélité de l'heure et la vente du CF Montréal.&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1289641/speciale-like-moi-sonia-cordeau-karine-gonthier-hyndman-marie-soleil-dion</link>
-      <pubDate>Sat, 14 Nov 2026 18:00:00 +0000</pubDate>
-      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d8e89fde-f661-4de3-b30a-2c2a782c2b57/2026-11-14_11_26_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <pubDate>Sat, 14 Nov 2026 20:00:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/10599653-0f0b-4b63-aebe-be850b1b99d1/2026-11-14_20_00_00_repeterlaquestionbalado_0000.mp3" length="77314089" type="audio/mpeg" />
       <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d8e89fde-f661-4de3-b30a-2c2a782c2b57/2026-11-14_11_26_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
-      <itunes:duration>00:53:14</itunes:duration>
+      <itunes:duration>00:53:41</itunes:duration>
     </item>
     <item>
       <title>Les 90 ans de Radio-Canada, et le tourisme en Norvège</title>
