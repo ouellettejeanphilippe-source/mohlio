@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 11 Nov 2026 20:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 11 Nov 2026 20:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 18 Nov 2026 20:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Nov 2026 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/changement-de-ligne-balado-visuel-ohdio-88684.jpg</url>
       <title>Changement de ligne</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/changement-de-ligne-balado-visuel-ohdio-88684.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Changement de ligne</itunes:summary>
+    <item>
+      <title>Équipe Canada : la reconstruction</title>
+      <description>&lt;p&gt;Le nouveau visage de l'équipe canadienne s’est révélé lors du Championnat du monde de hockey féminin. Plusieurs jeunes ont obtenu leur chance et elles ont montré de belles choses. Mais, comme le veut l'adage, les joueuses étaient venues pour apprendre.&lt;/p&gt;&lt;p&gt;Ce championnat s’est de nouveau conclu par une finale Canada–États-Unis. Qu'en est-il de l'évolution des autres pays, comme la Suède, et même de la Tchéquie, maintenant menée par Kristýna Kaltounková?&lt;/p&gt;&lt;p&gt;Désormais, les yeux se tournent vers la LPHF, où les camps d'entraînement commencent.&lt;/p&gt;&lt;p&gt;Plusieurs nouveaux règlements seront testés, et de nouvelles joueuses sont ajoutées aux formations.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/13061/changement-de-ligne/1290345/equipe-canada-la-reconstruction</link>
+      <pubDate>Wed, 18 Nov 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0abe77a3-e6f4-4782-8e8c-3f4a09c7e9dd/2026-11-18_15_01_09_changementdeligne_0000_master.m3u8" length="45200000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0abe77a3-e6f4-4782-8e8c-3f4a09c7e9dd/2026-11-18_15_01_09_changementdeligne_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:47:05</itunes:duration>
+    </item>
     <item>
       <title>Les Canadiennes, trop fortes pour le groupe</title>
       <description>&lt;p&gt;Dans un nouveau décor, on revient sur le début du Championnat du monde, où le Canada enchaîne les victoires écrasantes tout en faisant place à de nouveaux visages. On discute du nouveau format du tournoi et de la saga des chandails d’Équipe Canada. On s’intéresse aussi aux quatre nouvelles équipes de la LPHF ainsi qu’à une campagne de Ringuette Québec pour améliorer le comportement de la foule envers les arbitres.&lt;/p&gt;</description>
