@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>19 novembre 1967 : la fondation du Mouvement souveraineté-association</title>
+      <description>&lt;p&gt;En 1967, une jeune Louise Harel couvre une conférence de presse qui annonce la fondation du Mouvement souveraineté-association par René Lévesque. Près de 60 ans plus tard, elle en discute avec Jean-Philippe. La vulgarisatrice scientifique Micha Horswill s’intéresse à l’Ordre de Jacques-Cartier, une société secrète fondée en 1926, à l’époque où les Canadiens français peinaient à accéder à des postes de pouvoir. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1289538/19-novembre-1967-la-fondation-du-mouvement-souverainete-association</link>
+      <pubDate>Thu, 19 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f7622e1f-a0c7-426b-a31e-352802c93ae8/2026-11-13_16_42_00_lhistoireestencorejeune_0000_master.m3u8" length="27200000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f7622e1f-a0c7-426b-a31e-352802c93ae8/2026-11-13_16_42_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:28:20</itunes:duration>
+    </item>
     <item>
       <title>18 novembre 1883 : la standardisation de l’heure</title>
       <description>&lt;p&gt;Dans le &lt;em&gt;Montreal Witness&lt;/em&gt;, un journal anglophone protestant, un éditorialiste est indigné de voir le peuple canadien-français se reproduire si rapidement, et prophétise que les Anglo-Saxons seront bientôt envahis! À pareille date sont aussi adoptés quatre fuseaux horaires en Amérique du Nord. Jean-Philippe discute avec le professeur d’histoire Harold Bérubé du rôle des compagnies de chemin de fer dans l’adoption de l’heure normale.&lt;/p&gt;</description>
