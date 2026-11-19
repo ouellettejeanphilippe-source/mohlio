@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Une rencontre à 3 en Chine</title>
+      <description>&lt;p&gt;Les yeux du monde sont tournés vers la Chine aujourd'hui où se tient une réunion officielle entre les trois leaders de la Russie, de la Chine et des États-Unis, dans le cadre du sommet de l'APEC.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242655/jeudi-19-novembre-2026</link>
+      <pubDate>Thu, 19 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/9bbca556-b42d-4d28-af44-e423c493e724/2026-11-19_05_06_00_alaunebaladoexterne_0000.mp3" length="33069139" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/9bbca556-b42d-4d28-af44-e423c493e724/2026-11-19_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:57</itunes:duration>
+    </item>
     <item>
       <title>Rencontre de Xi, Poutine et Trump au sommet de l'APEC</title>
       <description>&lt;p&gt;Le sommet de la Coopération économique Asie-Pacifique s'ouvre aujourd'hui à Shenzhen, en Chine. L'attention se tourne vers la rencontre entre les présidents russe, chinois et américain en marge du sommet.&lt;/p&gt;</description>

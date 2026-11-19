@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Nov 2026 10:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2026 10:00:00 +0000</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2026 10:00:00 +0000</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2026 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/ca-sexplique-balado-premiere.jpg</url>
       <title>Ça s'explique</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Un sujet, un invité et une quinzaine de minutes pour en jaser. Du mardi au jeudi et le samedi, c'est le rendez-vous matinal que propose Alexis De Lancer. Il va au-delà de la nouvelle pour mieux comprendre les grands enjeux d'actualité.New York Festivals Radio Awards (2024) : finaliste dans la catégorie du meilleur balado d'information</itunes:summary>
+    <item>
+      <title>Jusqu’où va la maltraitance animale dans les fermes d’élevage au Québec?</title>
+      <description>&lt;p&gt;Les lois et les normes sur le bien-être animal sont à géométrie variable au Québec. C’est ce que démontre une opération d’infiltration inédite de l’émission &lt;em&gt;Enquête&lt;/em&gt; menée dans plus d’une centaine de fermes d’élevage à la grandeur de la province. Elle lève le voile sur des pratiques d’une grande cruauté qui se perpétuent en tout respect des lois en place. La journaliste Marie-Pier Bouchard explique ce qui fait en sorte que des animaux d’élevage souffrent encore autant au Québec.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6108/ca-sexplique-balado-info-alexis-de-lancer/1290385/jusquou-va-la-maltraitance-animale-dans-les-fermes-delevage-au-quebec</link>
+      <pubDate>Thu, 19 Nov 2026 10:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e732fbbf-45ad-4578-959b-d4db2fac8d28/2026-11-18_16_56_00_casexplique_0000_master.m3u8" length="19040000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e732fbbf-45ad-4578-959b-d4db2fac8d28/2026-11-18_16_56_00_casexplique_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:19:50</itunes:duration>
+    </item>
     <item>
       <title>Paralysie aérienne aux États-Unis : un scénario possible au Canada?</title>
       <description>&lt;p&gt;La pagaille aérienne du vendredi 13 novembre aux États-Unis a mené à la plus longue suspension de vols à l'échelle nationale depuis les attentats terroristes du 11 septembre 2001. Pendant environ quatre heures, les décollages étaient formellement interdits.  Cette paralysie a entraîné plus de 16 000 annulations. Selon les autorités, une défectuosité liée au système de télécommunications est en cause. Est-ce qu’un tel scénario pourrait se produire au Canada? L'expert en aviation et chargé de cours John Gradek fait le point.&lt;/p&gt;</description>
