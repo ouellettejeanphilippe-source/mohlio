@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 18 Nov 2026 00:06:00 +0000</pubDate>
-    <lastBuildDate>Wed, 18 Nov 2026 00:06:00 +0000</lastBuildDate>
+    <pubDate>Thu, 19 Nov 2026 00:06:00 +0000</pubDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Mercredi 18 nov. 2026 : La désalinisation de l’eau de mer, et la détresse des vétérinaires</title>
+      <description>&lt;p&gt;La vitesse de pousse des ongles; la comparaison entre la culture en serre et l'agriculture biologique; la forte détresse psychologique des vétérinaires; et les technologies de désalinisation de l'eau de mer pour la rendre potable.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1242629/mercredi-18-nov-2026-la-desalinisation-de-leau-de-mer-et-la-detresse-des-veterinaires</link>
+      <pubDate>Thu, 19 Nov 2026 00:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4d042673-c75b-4832-ad95-b6552f06a875/2026-11-18_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4d042673-c75b-4832-ad95-b6552f06a875/2026-11-18_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
     <item>
       <title>Mardi 17 nov. 2026 : La taille maximale des animaux, et les rassemblements de coccinelles</title>
       <description>&lt;p&gt;L'optimisation des stratégies de reconstruction de génomes à grande échelle; les facteurs déterminant la taille maximale des animaux; le meilleur moyen pour se sécher les mains efficacement; et l'explication des rassemblements de coccinelles à l'automne.&lt;/p&gt;</description>
