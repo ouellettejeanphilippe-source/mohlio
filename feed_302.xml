@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Vers un accord entre Ottawa et Washington avant 2027?</title>
+      <description>&lt;p&gt;Ottawa tente de conclure un accord intérimaire avec l'administration Trump d'ici la fin de l'année. C'est ce qu'ont indiqué des sources à des journalistes de CBC. Le gouvernement de Mark Carney souhaite en arriver à une telle entente pour réduire les tarifs douaniers qui affectent les entreprises canadiennes.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242676/vendredi-20-novembre-2026</link>
+      <pubDate>Fri, 20 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/7f76260f-fda4-4362-8027-7a3feb725ca2/2026-11-20_05_06_00_alaunebaladoexterne_0000.mp3" length="33074782" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4e45081d-c67e-450f-9c51-df63d9933cac/2026-11-20_05_06_00_alaune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
     <item>
       <title>Une rencontre à 3 en Chine</title>
       <description>&lt;p&gt;Les yeux du monde sont tournés vers la Chine aujourd'hui où se tient une réunion officielle entre les trois leaders de la Russie, de la Chine et des États-Unis, dans le cadre du sommet de l'APEC.&lt;/p&gt;</description>
