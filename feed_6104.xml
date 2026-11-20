@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Nov 2026 17:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Nov 2026 17:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 20 Nov 2026 20:30:00 +0000</pubDate>
+    <lastBuildDate>Fri, 20 Nov 2026 20:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Lane Hutson : le guerrier chérubin</title>
+      <description>&lt;p&gt;Comment qualifier la lancée de Lane Hutson depuis deux semaines? Le défenseur a non seulement dominé en attaque, mais son jeu défensif s'est encore amélioré. Le jeune homme flotte maintenant dans la stratosphère du hockey. Il devient ainsi un élément central en fonction duquel les équipes adverses établissent leur plan de match. Que nous réserve Hutson comme autre surprise?&lt;/p&gt;&lt;p&gt;Alors que les deux gardiens du CH, Jakub Dobes et Jacob Fowler, sont en grande forme, on voit poindre le retour imminent de Samuel Montembeault.&lt;/p&gt;&lt;p&gt;Et à Pittsburgh, les derniers propos du directeur général sur la reconstruction de l'équipe créent des remous et font rêver les partisans et partisanes du Canadien.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1290976/lane-hutson-le-guerrier-cherubin</link>
+      <pubDate>Fri, 20 Nov 2026 20:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/4021f80d-ca82-438f-a141-f08f8d5e62c4/2026-11-20_15_01_03_tellementhockey_0000_master.m3u8" length="62672000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/4021f80d-ca82-438f-a141-f08f8d5e62c4/2026-11-20_15_01_03_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:05:17</itunes:duration>
+    </item>
     <item>
       <title>Du sable dans l’engrenage</title>
       <description>&lt;p&gt;Arrivé au premier quart de sa saison, le Canadien présente des indicateurs qui ne sont pas au beau fixe. Qui plus est, il doit se plier à un calendrier corsé ces jours-ci. Outre les blessures qui accablent le club, plusieurs joueurs de premier plan, dont Noah Dobson et Juraj Slafkovsky, ne performent pas à la hauteur des attentes. Faut-il s'inquiéter de cette tendance?&lt;/p&gt;&lt;p&gt;En Caroline, les Hurricanes détiendraient-ils la recette pour gagner éternellement, à l’ère des statistiques avancées?&lt;/p&gt;</description>
