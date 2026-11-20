@@ -130,7 +130,7 @@ jobs:
         env:
           PUBLISH_BRANCH: ${{ github.head_ref || github.ref_name }}
         run: |
-          python main.py \
+          python main.py --youtube \
             --watch --watch-minutes 240 --poll-seconds 180 \
             --on-change .github/publish.sh
 
