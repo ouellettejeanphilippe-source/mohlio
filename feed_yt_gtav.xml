@@ -14,7 +14,7 @@
       <title>Blaine County Radio</title>
       <description>Community radio for Blaine County. Hosted by Bobby June and Ron Jakowski.</description>
       <link>https://www.youtube.com/watch?v=HS1IG2uy1VE</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/blaine-county.mp3" length="78272000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=HS1IG2uy1VE" length="78272000" type="video/mp4" />
       <guid isPermaLink="false">youtube:HS1IG2uy1VE</guid>
       <itunes:duration>01:21:32</itunes:duration>
     </item>
@@ -22,7 +22,7 @@
       <title>Channel X</title>
       <description>Punk rock and hardcore. Hosted by Keith Morris.</description>
       <link>https://www.youtube.com/watch?v=3V0qZ-CQGAo</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/channel-x.mp3" length="31088000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=3V0qZ-CQGAo" length="31088000" type="video/mp4" />
       <guid isPermaLink="false">youtube:3V0qZ-CQGAo</guid>
       <itunes:duration>00:32:23</itunes:duration>
     </item>
@@ -30,7 +30,7 @@
       <title>East Los FM</title>
       <description>Mexican and Latin music. Hosted by DJ Camilo and Don Cheto.</description>
       <link>https://www.youtube.com/watch?v=1KUpWxqopww</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/east-los-fm.mp3" length="39456000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=1KUpWxqopww" length="39456000" type="video/mp4" />
       <guid isPermaLink="false">youtube:1KUpWxqopww</guid>
       <itunes:duration>00:41:06</itunes:duration>
     </item>
@@ -38,7 +38,7 @@
       <title>FlyLo FM</title>
       <description>Experimental electronic. Hosted by Flying Lotus.</description>
       <link>https://www.youtube.com/watch?v=NuNLliXEa_w</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/flylo-fm.mp3" length="39552000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=NuNLliXEa_w" length="39552000" type="video/mp4" />
       <guid isPermaLink="false">youtube:NuNLliXEa_w</guid>
       <itunes:duration>00:41:12</itunes:duration>
     </item>
@@ -46,7 +46,7 @@
       <title>Los Santos Rock Radio</title>
       <description>Classic rock hits. Hosted by Kenny Loggins.</description>
       <link>https://www.youtube.com/watch?v=Lnig3AI6pCw</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/ls-rock.mp3" length="87872000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=Lnig3AI6pCw" length="87872000" type="video/mp4" />
       <guid isPermaLink="false">youtube:Lnig3AI6pCw</guid>
       <itunes:duration>01:31:32</itunes:duration>
     </item>
@@ -54,7 +54,7 @@
       <title>Non-Stop-Pop FM</title>
       <description>Pop music. Hosted by Cara Delevingne.</description>
       <link>https://www.youtube.com/watch?v=YXFCBWbYZJ8</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/non-stop-pop.mp3" length="59520000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=YXFCBWbYZJ8" length="59520000" type="video/mp4" />
       <guid isPermaLink="false">youtube:YXFCBWbYZJ8</guid>
       <itunes:duration>01:02:00</itunes:duration>
     </item>
@@ -62,7 +62,7 @@
       <title>Radio Los Santos</title>
       <description>West coast hip-hop. Hosted by Big Boy.</description>
       <link>https://www.youtube.com/watch?v=6tQAiIs7xlg</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/radio-los-santos.mp3" length="52320000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=6tQAiIs7xlg" length="52320000" type="video/mp4" />
       <guid isPermaLink="false">youtube:6tQAiIs7xlg</guid>
       <itunes:duration>00:54:30</itunes:duration>
     </item>
@@ -70,7 +70,7 @@
       <title>Radio Mirror Park</title>
       <description>Indie and alternative. Hosted by Twin Shadow.</description>
       <link>https://www.youtube.com/watch?v=yi-FCo_tCiA</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/mirror-park.mp3" length="76112000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=yi-FCo_tCiA" length="76112000" type="video/mp4" />
       <guid isPermaLink="false">youtube:yi-FCo_tCiA</guid>
       <itunes:duration>01:19:17</itunes:duration>
     </item>
@@ -78,7 +78,7 @@
       <title>Rebel Radio</title>
       <description>Country and outlaw music. Hosted by Jesco White.</description>
       <link>https://www.youtube.com/watch?v=b4jYwqceCyM</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/rebel.mp3" length="37408000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=b4jYwqceCyM" length="37408000" type="video/mp4" />
       <guid isPermaLink="false">youtube:b4jYwqceCyM</guid>
       <itunes:duration>00:38:58</itunes:duration>
     </item>
@@ -86,7 +86,7 @@
       <title>Soulwax FM</title>
       <description>Electronic and dance. Hosted by Soulwax.</description>
       <link>https://www.youtube.com/watch?v=xTu264Rjrz0</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/soulwax.mp3" length="41072000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=xTu264Rjrz0" length="41072000" type="video/mp4" />
       <guid isPermaLink="false">youtube:xTu264Rjrz0</guid>
       <itunes:duration>00:42:47</itunes:duration>
     </item>
@@ -94,7 +94,7 @@
       <title>Space 103.2</title>
       <description>Funk and soul. Hosted by Bootsy Collins.</description>
       <link>https://www.youtube.com/watch?v=vxGpK2TDRbQ</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/space-103.mp3" length="51264000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=vxGpK2TDRbQ" length="51264000" type="video/mp4" />
       <guid isPermaLink="false">youtube:vxGpK2TDRbQ</guid>
       <itunes:duration>00:53:24</itunes:duration>
     </item>
@@ -102,7 +102,7 @@
       <title>The Blue Ark</title>
       <description>Reggae and dub. Hosted by Lee "Scratch" Perry.</description>
       <link>https://www.youtube.com/watch?v=ZnEHyQLF-Ag</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/blue-ark.mp3" length="50768000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=ZnEHyQLF-Ag" length="50768000" type="video/mp4" />
       <guid isPermaLink="false">youtube:ZnEHyQLF-Ag</guid>
       <itunes:duration>00:52:53</itunes:duration>
     </item>
@@ -110,7 +110,7 @@
       <title>The Lowdown 91.1</title>
       <description>Soul, Motown and R&amp;B classics. Hosted by Pam Grier.</description>
       <link>https://www.youtube.com/watch?v=thu2C4WArhA</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/lowdown.mp3" length="42336000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=thu2C4WArhA" length="42336000" type="video/mp4" />
       <guid isPermaLink="false">youtube:thu2C4WArhA</guid>
       <itunes:duration>00:44:06</itunes:duration>
     </item>
@@ -118,7 +118,7 @@
       <title>WCTR (West Coast Talk Radio)</title>
       <description>Talk radio: news, phone-ins and interviews.</description>
       <link>https://www.youtube.com/watch?v=L3fy8_U8tOo</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/wctr.mp3" length="89888000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=L3fy8_U8tOo" length="89888000" type="video/mp4" />
       <guid isPermaLink="false">youtube:L3fy8_U8tOo</guid>
       <itunes:duration>01:33:38</itunes:duration>
     </item>
@@ -126,7 +126,7 @@
       <title>Vinewood Boulevard Radio</title>
       <description>Garage rock and psychedelic. Hosted by Nate Williams and Stephen Pope.</description>
       <link>https://www.youtube.com/watch?v=63XrOu-hrw0</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/vinewood-blvd.mp3" length="40400000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=63XrOu-hrw0" length="40400000" type="video/mp4" />
       <guid isPermaLink="false">youtube:63XrOu-hrw0</guid>
       <itunes:duration>00:42:05</itunes:duration>
     </item>
@@ -134,7 +134,7 @@
       <title>West Coast Classics</title>
       <description>Classic West coast hip-hop. Hosted by DJ Pooh.</description>
       <link>https://www.youtube.com/watch?v=23n4M9ZLaTg</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/west-coast-classics.mp3" length="62880000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=23n4M9ZLaTg" length="62880000" type="video/mp4" />
       <guid isPermaLink="false">youtube:23n4M9ZLaTg</guid>
       <itunes:duration>01:05:30</itunes:duration>
     </item>
@@ -142,7 +142,7 @@
       <title>WorldWide FM</title>
       <description>World music and jazz. Hosted by Gilles Peterson.</description>
       <link>https://www.youtube.com/watch?v=UJ1H_yNHFF8</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/worldwide.mp3" length="61952000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=UJ1H_yNHFF8" length="61952000" type="video/mp4" />
       <guid isPermaLink="false">youtube:UJ1H_yNHFF8</guid>
       <itunes:duration>01:04:32</itunes:duration>
     </item>
@@ -150,7 +150,7 @@
       <title>blonded Los Santos 97.8 FM</title>
       <description>Eclectic mix curated by Frank Ocean.</description>
       <link>https://www.youtube.com/watch?v=-tVumJBaTWY</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/blonded.mp3" length="98240000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=-tVumJBaTWY" length="98240000" type="video/mp4" />
       <guid isPermaLink="false">youtube:-tVumJBaTWY</guid>
       <itunes:duration>01:42:20</itunes:duration>
     </item>
@@ -158,7 +158,7 @@
       <title>iFruit Radio</title>
       <description>Hip-hop and R&amp;B. Hosted by Danny Brown.</description>
       <link>https://www.youtube.com/watch?v=fpvJaphZ2_g</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/ifruit.mp3" length="83232000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=fpvJaphZ2_g" length="83232000" type="video/mp4" />
       <guid isPermaLink="false">youtube:fpvJaphZ2_g</guid>
       <itunes:duration>01:26:42</itunes:duration>
     </item>
@@ -166,7 +166,7 @@
       <title>Los Santos Underground Radio</title>
       <description>Underground electronic and dance. Hosted by The Black Madonna.</description>
       <link>https://www.youtube.com/watch?v=I2Xjuz-mnN0</link>
-      <enclosure url="https://github.com/ouellettejeanphilippe-source/mohlio/releases/download/youtube-audio/lsur.mp3" length="267760000" type="audio/mpeg" />
+      <enclosure url="https://www.youtube.com/watch?v=I2Xjuz-mnN0" length="267760000" type="video/mp4" />
       <guid isPermaLink="false">youtube:I2Xjuz-mnN0</guid>
       <itunes:duration>04:38:55</itunes:duration>
     </item>

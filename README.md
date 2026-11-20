@@ -1,163 +1,21 @@
-# mohlio — flux RSS pour les balados OHdio
+# mohlio
 
-Ce dépôt génère des flux RSS pour une liste d'émissions de Radio-Canada OHdio
-et les publie comme fichiers statiques, afin de pouvoir les écouter dans
-n'importe quelle application de balado.
+Utilitaires personnels de génération de fichiers XML statiques.
 
-Les flux sont servis ici :
-`https://ouellettejeanphilippe-source.github.io/mohlio/feed_<id>.xml`
-
-## À quelle vitesse un nouvel épisode arrive
-
-Quand une émission est attendue, ou le sera dans les **4 heures** qui suivent,
-le passage reste en place. Il dort jusqu'à l'ouverture de la fenêtre, puis
-**revérifie toutes les 3 minutes** jusqu'à ce que l'épisode paraisse. En dehors
-de ces fenêtres, un passage dure une quinzaine de secondes et se termine.
-
-Chaque épisode est **publié dès qu'il est capté**, pas à la fin de l'attente.
-Un passage qui attend deux émissions publie la première sans retenir sa
-parution jusqu'à ce que la seconde arrive.
-
-### Ce n'est pas le cadran qui décide
-
-GitHub livre une poignée de passages planifiés par jour, à des heures
-imprévisibles, quel que soit le nombre demandé. Mesuré avec 144 créneaux
-demandés par jour :
-
-| Jour | Passages livrés |
-|---|---|
-| lundi 14 sept. | 01:23, 06:35, 13:16, 18:40, 22:05 UTC |
-| mardi 15 sept. | 00:30, 05:15, 10:06 UTC |
-
-Les écarts vont de 2 h 24 à 6 h 42. Demander plus de créneaux ne les comble
-pas : 24 créneaux par jour produisaient le même nombre de passages. Pire, à
-partir du 21 septembre GitHub a cessé de livrer les 144 créneaux, sans
-désactiver le workflow. Le cadran suit maintenant **les heures de sortie** :
-un créneau environ 45 minutes avant chaque fenêtre (1 h 45 en heure
-d'hiver), plus un créneau de rattrapage la nuit, soit 5 à 6 créneaux par
-jour. Les tests vérifient que chaque horaire de `main.py` a son créneau.
-
-Le levier est donc la **durée que couvre chaque passage livré**, et les
-mesures le montrent directement :
-
-| Émission | Parution (HE) | Délai | Pourquoi |
-|---|---|---|---|
-| La journée | lun 14:30 | **10 min** | un passage était en vol |
-| Niquet | lun 08:00 | 77 min | aucun passage pendant 6 h 42 |
-| Moteur de recherche | lun 19:06 | 85 min | idem |
-| À la une | lun 05:06 | 251 min | passage livré 2 h 25 avant, anticipation de 2 h seulement |
-
-C'est ce dernier cas qui a fait passer le budget d'attente à 4 heures.
-
-### La limite qu'il faut connaître
-
-Ça ne rend pas les flux instantanés. Avec cinq livraisons par jour, il reste
-des plages qu'aucun passage ne couvre, et un épisode qui paraît dans une de ces
-plages attend la livraison suivante. Les combler demanderait un déclencheur qui
-part vraiment à l'heure, ce que le planificateur de GitHub n'est pas.
-
-### Heures de parution suivies
-
-Ces heures viennent de l'historique de publication de chaque flux. Elles
-servent **uniquement** à décider quand surveiller de près. Elles ne
-conditionnent jamais la vérification : chaque passage vérifie les douze
-émissions, donc une émission qui change d'horaire est quand même captée.
-
-| Émission | Jours | Heure (HE) | Fenêtre |
-|---|---|---|---|
-| À la une | lun-ven | 05:00 | 2 h |
-| Ça s'explique | mar-jeu, sam | 05:00 | 3 h |
-| Olivier Niquet 24/7 | lun-ven | 08:00 | 2 h 30 |
-| Décrypteurs | ven | 11:00 | 2 h 30 |
-| Pouvez-vous répéter la question? | sam | 13:00 | 2 h |
-| La journée (est encore jeune) | lun-sam | 14:25 | 2 h |
-| Changement de ligne | mer-jeu | 15:00 | 3 h |
-| L'histoire (est encore jeune) | lun-jeu | 18:25 | 3 h |
-| Moteur de recherche | lun-jeu | 19:00 | 2 h |
-
-Le bêtisier, Tellement hockey et Evelyne et Gabrielle font un podcast
-paraissent de façon irrégulière : ils n'ont pas d'horaire et sont captés par
-la vérification régulière.
-
-L'histoire (est encore jeune) est diffusée à 18 h à la télé et a paru en
-balado à 18 h 30 : l'horaire repose sur un seul épisode pour l'instant, d'où
-la fenêtre de 3 h. Sa version de 90 minutes du vendredi sur ICI Première n'a
-pas d'horaire ; si elle paraît en balado, la vérification régulière la capte.
-
-Les fenêtres sont calculées en heure de l'Est réelle par Python, donc le
-changement d'heure est géré sans aucune arithmétique de dates en shell.
-
-Si une émission rate deux parutions attendues d'affilée, le journal le signale
-au lieu de servir silencieusement un flux périmé.
-
-## Comment un flux est construit
-
-Trois sources sont combinées pour chaque émission. Aucune n'est complète à
-elle seule, alors elles sont fusionnées au lieu de se remplacer :
-
-1. **Le fichier `feed_<id>.xml` déjà dans le dépôt.** L'API amont n'expose
-   qu'une fenêtre glissante d'épisodes récents, et pour certaines émissions un
-   seul épisode périmé. Le fichier au dépôt est donc le seul endroit où
-   l'historique complet existe. Il sert aussi de cache des adresses déjà
-   résolues : un passage sans nouveauté ne fait aucun appel de validation.
-2. **La page OHdio de l'émission.** C'est la source qui voit un nouvel épisode
-   en premier, quelques minutes après sa parution, mais elle ne donne qu'un
-   identifiant média à résoudre vers une adresse HLS.
-3. **Le document RSS du balado.** Il est en retard sur la page, mais il porte
-   les MP3 progressifs, les tailles réelles et les métadonnées de l'émission.
-
-### Ce que la fusion garantit
-
-- Un épisode garde le **même `<guid>` toute sa vie**, même quand son fichier
-  passe de HLS à MP3. Aucun doublon n'apparaît dans votre application.
-- Un flux **ne perd jamais d'épisodes** parce qu'une source était lente,
-  partielle ou en panne.
-- Les fichiers sont écrits de façon **atomique** et **seulement quand leur
-  contenu a réellement changé**, donc un passage sans nouveauté ne produit
-  aucun commit.
-- Le **MP3 l'emporte toujours sur le HLS** pour un même épisode, parce que
-  plusieurs applications de balado ne savent pas lire un `.m3u8`.
-
-## Mise à jour manuelle
-
-Pour forcer une mise à jour immédiate, allez sur la
-**[page du workflow](https://github.com/ouellettejeanphilippe-source/mohlio/actions/workflows/update.yml)**,
-cliquez sur **Run workflow**, puis sur le bouton vert **Run workflow**.
-
-## Utilisation locale
+## Utilisation
 
 ```bash
 pip install -r requirements.txt
-
-python main.py                      # met à jour tous les flux, une seule passe
-python main.py --watch               # puis attend les épisodes attendus
-python main.py --shows niquet        # une seule émission
-python main.py --dry-run             # construit et valide sans rien écrire
-python main.py --verbose             # journalisation de débogage
+python main.py
 ```
-
-`--watch` accepte `--watch-minutes` (durée maximale de l'attente) et
-`--poll-seconds` (délai entre deux vérifications).
-
-`--dry-run` est aussi ce que le workflow exécute sur une pull request : les
-flux sont construits et validés, mais jamais écrits.
 
 ## Tests
 
 ```bash
-python -m unittest -v
+python -m unittest
 ```
 
-Les tests couvrent les garanties ci-dessus : stabilité des `guid`,
-dédoublonnage des deux versions d'une même diffusion, refus de rétrécir un
-flux, et écriture uniquement en cas de changement réel.
-
-## Prérequis
-
-- Python 3.11
-- `requests`
-
-## Journal de la dernière mise à jour
+## Journal
 
 <!-- RUN_LOG_START -->
 Last update: 2026-11-20 11:27 UTC
