@@ -220,6 +220,114 @@ SHOWS: tuple[Show, ...] = (
 
 SHOWS_BY_ID = {show.id: show for show in SHOWS}
 
+
+# ---------------------------------------------------------------------------
+# YouTube-sourced podcast feeds
+# ---------------------------------------------------------------------------
+# Static content hosted on GitHub Releases.  Each station is one episode.
+# Audio is downloaded once by youtube_setup.py and uploaded as a release
+# asset; the feed references the permanent download URL.
+
+YOUTUBE_AUDIO_TAG = "youtube-audio"
+YOUTUBE_AUDIO_BASE = (
+    "https://github.com/ouellettejeanphilippe-source/mohlio"
+    f"/releases/download/{YOUTUBE_AUDIO_TAG}"
+)
+
+
+@dataclass(frozen=True)
+class YouTubeStation:
+    video_id: str
+    slug: str
+    title: str
+    duration: int
+    description: str = ""
+
+    @property
+    def asset_url(self) -> str:
+        return f"{YOUTUBE_AUDIO_BASE}/{self.slug}.mp3"
+
+
+@dataclass(frozen=True)
+class YouTubeShow:
+    id: int
+    slug: str
+    title: str
+    description: str
+    language: str = "en"
+    image: str = ""
+    stations: tuple[YouTubeStation, ...] = ()
+    schedules: tuple[Schedule, ...] = ()
+
+    def schedule_for(self, moment: datetime) -> None:
+        return None
+
+    @property
+    def filename(self) -> str:
+        return f"feed_yt_{self.slug}.xml"
+
+    @property
+    def feed_url(self) -> str:
+        return f"{PUBLIC_BASE_URL}/{self.filename}"
+
+
+GTAV_RADIOS = YouTubeShow(
+    id=-1,
+    slug="gtav",
+    title="GTA V Radio",
+    description=(
+        "Les stations de radio complètes de Grand Theft Auto V : "
+        "musique, DJs, publicités et talk-shows."
+    ),
+    language="en",
+    stations=(
+        YouTubeStation("HS1IG2uy1VE", "blaine-county", "Blaine County Radio", 4892,
+                       "Community radio for Blaine County. Hosted by Bobby June and Ron Jakowski."),
+        YouTubeStation("3V0qZ-CQGAo", "channel-x", "Channel X", 1943,
+                       "Punk rock and hardcore. Hosted by Keith Morris."),
+        YouTubeStation("1KUpWxqopww", "east-los-fm", "East Los FM", 2466,
+                       "Mexican and Latin music. Hosted by DJ Camilo and Don Cheto."),
+        YouTubeStation("NuNLliXEa_w", "flylo-fm", "FlyLo FM", 2472,
+                       "Experimental electronic. Hosted by Flying Lotus."),
+        YouTubeStation("Lnig3AI6pCw", "ls-rock", "Los Santos Rock Radio", 5492,
+                       "Classic rock hits. Hosted by Kenny Loggins."),
+        YouTubeStation("YXFCBWbYZJ8", "non-stop-pop", "Non-Stop-Pop FM", 3720,
+                       "Pop music. Hosted by Cara Delevingne."),
+        YouTubeStation("6tQAiIs7xlg", "radio-los-santos", "Radio Los Santos", 3270,
+                       "West coast hip-hop. Hosted by Big Boy."),
+        YouTubeStation("yi-FCo_tCiA", "mirror-park", "Radio Mirror Park", 4757,
+                       "Indie and alternative. Hosted by Twin Shadow."),
+        YouTubeStation("b4jYwqceCyM", "rebel", "Rebel Radio", 2338,
+                       "Country and outlaw music. Hosted by Jesco White."),
+        YouTubeStation("xTu264Rjrz0", "soulwax", "Soulwax FM", 2567,
+                       "Electronic and dance. Hosted by Soulwax."),
+        YouTubeStation("vxGpK2TDRbQ", "space-103", "Space 103.2", 3204,
+                       "Funk and soul. Hosted by Bootsy Collins."),
+        YouTubeStation("ZnEHyQLF-Ag", "blue-ark", "The Blue Ark", 3173,
+                       "Reggae and dub. Hosted by Lee \"Scratch\" Perry."),
+        YouTubeStation("thu2C4WArhA", "lowdown", "The Lowdown 91.1", 2646,
+                       "Soul, Motown and R&B classics. Hosted by Pam Grier."),
+        YouTubeStation("L3fy8_U8tOo", "wctr", "WCTR (West Coast Talk Radio)", 5618,
+                       "Talk radio: news, phone-ins and interviews."),
+        YouTubeStation("63XrOu-hrw0", "vinewood-blvd", "Vinewood Boulevard Radio", 2525,
+                       "Garage rock and psychedelic. Hosted by Nate Williams and Stephen Pope."),
+        YouTubeStation("23n4M9ZLaTg", "west-coast-classics", "West Coast Classics", 3930,
+                       "Classic West coast hip-hop. Hosted by DJ Pooh."),
+        YouTubeStation("UJ1H_yNHFF8", "worldwide", "WorldWide FM", 3872,
+                       "World music and jazz. Hosted by Gilles Peterson."),
+        YouTubeStation("-tVumJBaTWY", "blonded", "blonded Los Santos 97.8 FM", 6140,
+                       "Eclectic mix curated by Frank Ocean."),
+        YouTubeStation("fpvJaphZ2_g", "ifruit", "iFruit Radio", 5202,
+                       "Hip-hop and R&B. Hosted by Danny Brown."),
+        YouTubeStation("I2Xjuz-mnN0", "lsur", "Los Santos Underground Radio", 16735,
+                       "Underground electronic and dance. Hosted by The Black Madonna."),
+    ),
+)
+
+YOUTUBE_SHOWS: tuple[YouTubeShow, ...] = (GTAV_RADIOS,)
+YOUTUBE_SHOWS_BY_SLUG = {show.slug: show for show in YOUTUBE_SHOWS}
+
+
 # ---------------------------------------------------------------------------
 # HTTP plumbing
 # ---------------------------------------------------------------------------
@@ -1236,6 +1344,56 @@ def process_show(show: Show, out_dir: str, dry_run: bool = False) -> ShowResult:
     return result
 
 
+def process_youtube_show(
+    show: YouTubeShow, out_dir: str, dry_run: bool = False
+) -> ShowResult:
+    """Build the feed for a YouTube-sourced show from its static definitions."""
+    result = ShowResult(show=show)
+    path = os.path.join(out_dir, show.filename)
+
+    episodes: list[Episode] = []
+    for station in show.stations:
+        episodes.append(
+            Episode(
+                guid=f"youtube:{station.video_id}",
+                title=station.title,
+                description=station.description,
+                duration=station.duration,
+                url=station.asset_url,
+                length=station.duration * ESTIMATED_BYTES_PER_SECOND,
+                mime="audio/mpeg",
+                link=f"https://www.youtube.com/watch?v={station.video_id}",
+            )
+        )
+
+    meta = ChannelMeta(
+        title=show.title,
+        description=show.description,
+        language=show.language,
+        image=show.image,
+    )
+
+    result.episode_count = len(episodes)
+    content = build_feed_xml(show, meta, episodes)
+    ET.fromstring(content)
+
+    if dry_run:
+        result.changed = content.encode("utf-8") != _read_bytes(path)
+        LOG.info("[yt:%s] dry run: %d episode(s)", show.slug, len(episodes))
+        return result
+
+    result.written = write_if_changed(path, content)
+    result.changed = result.written
+    LOG.info(
+        "[yt:%s] %s: %d episode(s)%s",
+        show.slug,
+        show.filename,
+        len(episodes),
+        " (updated)" if result.written else " (unchanged)",
+    )
+    return result
+
+
 def _read_bytes(path: str) -> bytes:
     try:
         with open(path, "rb") as handle:
@@ -1629,6 +1787,11 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         help="delay between two checks while watching (default: 180)",
     )
     parser.add_argument("--verbose", action="store_true", help="debug logging")
+    parser.add_argument(
+        "--youtube",
+        action="store_true",
+        help="also build feeds for YouTube-sourced shows (GTA V radios, etc.)",
+    )
     return parser.parse_args(argv)
 
 
@@ -1675,6 +1838,19 @@ def main(argv: Sequence[str] | None = None) -> int:
                 LOG.exception("[%s] unexpected failure", show.id)
                 results_by_slug[show.slug] = ShowResult(
                     show=show, error=f"unexpected failure: {exc}"
+                )
+
+    # YouTube-sourced feeds (static content, no watching needed).
+    if args.youtube:
+        for yt_show in YOUTUBE_SHOWS:
+            try:
+                results_by_slug[yt_show.slug] = process_youtube_show(
+                    yt_show, args.out_dir, args.dry_run
+                )
+            except Exception as exc:
+                LOG.exception("[yt:%s] unexpected failure", yt_show.slug)
+                results_by_slug[yt_show.slug] = ShowResult(
+                    show=yt_show, error=f"unexpected failure: {exc}"
                 )
 
     # Publish what the first pass found before settling in to wait.
