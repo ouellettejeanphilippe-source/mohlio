@@ -8,12 +8,21 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_yt_gtav.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://i.ytimg.com/vi/Lnig3AI6pCw/hqdefault.jpg</url>
+      <title>GTA V Radio</title>
+      <link>https://ouellettejeanphilippe-source.github.io/mohlio/feed_yt_gtav.xml</link>
+    </image>
+    <itunes:image href="https://i.ytimg.com/vi/Lnig3AI6pCw/hqdefault.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Les stations de radio complètes de Grand Theft Auto V : musique, DJs, publicités et talk-shows.</itunes:summary>
     <item>
       <title>Blaine County Radio</title>
       <description>Community radio for Blaine County. Hosted by Bobby June and Ron Jakowski.</description>
       <link>https://www.youtube.com/watch?v=HS1IG2uy1VE</link>
+      <pubDate>Tue, 17 Sep 2013 00:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=HS1IG2uy1VE" length="78272000" type="video/mp4" />
       <guid isPermaLink="false">youtube:HS1IG2uy1VE</guid>
       <itunes:duration>01:21:32</itunes:duration>
@@ -22,6 +31,7 @@
       <title>Channel X</title>
       <description>Punk rock and hardcore. Hosted by Keith Morris.</description>
       <link>https://www.youtube.com/watch?v=3V0qZ-CQGAo</link>
+      <pubDate>Mon, 16 Sep 2013 23:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=3V0qZ-CQGAo" length="31088000" type="video/mp4" />
       <guid isPermaLink="false">youtube:3V0qZ-CQGAo</guid>
       <itunes:duration>00:32:23</itunes:duration>
@@ -30,6 +40,7 @@
       <title>East Los FM</title>
       <description>Mexican and Latin music. Hosted by DJ Camilo and Don Cheto.</description>
       <link>https://www.youtube.com/watch?v=1KUpWxqopww</link>
+      <pubDate>Mon, 16 Sep 2013 22:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=1KUpWxqopww" length="39456000" type="video/mp4" />
       <guid isPermaLink="false">youtube:1KUpWxqopww</guid>
       <itunes:duration>00:41:06</itunes:duration>
@@ -38,6 +49,7 @@
       <title>FlyLo FM</title>
       <description>Experimental electronic. Hosted by Flying Lotus.</description>
       <link>https://www.youtube.com/watch?v=NuNLliXEa_w</link>
+      <pubDate>Mon, 16 Sep 2013 21:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=NuNLliXEa_w" length="39552000" type="video/mp4" />
       <guid isPermaLink="false">youtube:NuNLliXEa_w</guid>
       <itunes:duration>00:41:12</itunes:duration>
@@ -46,6 +58,7 @@
       <title>Los Santos Rock Radio</title>
       <description>Classic rock hits. Hosted by Kenny Loggins.</description>
       <link>https://www.youtube.com/watch?v=Lnig3AI6pCw</link>
+      <pubDate>Mon, 16 Sep 2013 20:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=Lnig3AI6pCw" length="87872000" type="video/mp4" />
       <guid isPermaLink="false">youtube:Lnig3AI6pCw</guid>
       <itunes:duration>01:31:32</itunes:duration>
@@ -54,6 +67,7 @@
       <title>Non-Stop-Pop FM</title>
       <description>Pop music. Hosted by Cara Delevingne.</description>
       <link>https://www.youtube.com/watch?v=YXFCBWbYZJ8</link>
+      <pubDate>Mon, 16 Sep 2013 19:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=YXFCBWbYZJ8" length="59520000" type="video/mp4" />
       <guid isPermaLink="false">youtube:YXFCBWbYZJ8</guid>
       <itunes:duration>01:02:00</itunes:duration>
@@ -62,6 +76,7 @@
       <title>Radio Los Santos</title>
       <description>West coast hip-hop. Hosted by Big Boy.</description>
       <link>https://www.youtube.com/watch?v=6tQAiIs7xlg</link>
+      <pubDate>Mon, 16 Sep 2013 18:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=6tQAiIs7xlg" length="52320000" type="video/mp4" />
       <guid isPermaLink="false">youtube:6tQAiIs7xlg</guid>
       <itunes:duration>00:54:30</itunes:duration>
@@ -70,6 +85,7 @@
       <title>Radio Mirror Park</title>
       <description>Indie and alternative. Hosted by Twin Shadow.</description>
       <link>https://www.youtube.com/watch?v=yi-FCo_tCiA</link>
+      <pubDate>Mon, 16 Sep 2013 17:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=yi-FCo_tCiA" length="76112000" type="video/mp4" />
       <guid isPermaLink="false">youtube:yi-FCo_tCiA</guid>
       <itunes:duration>01:19:17</itunes:duration>
@@ -78,6 +94,7 @@
       <title>Rebel Radio</title>
       <description>Country and outlaw music. Hosted by Jesco White.</description>
       <link>https://www.youtube.com/watch?v=b4jYwqceCyM</link>
+      <pubDate>Mon, 16 Sep 2013 16:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=b4jYwqceCyM" length="37408000" type="video/mp4" />
       <guid isPermaLink="false">youtube:b4jYwqceCyM</guid>
       <itunes:duration>00:38:58</itunes:duration>
@@ -86,6 +103,7 @@
       <title>Soulwax FM</title>
       <description>Electronic and dance. Hosted by Soulwax.</description>
       <link>https://www.youtube.com/watch?v=xTu264Rjrz0</link>
+      <pubDate>Mon, 16 Sep 2013 15:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=xTu264Rjrz0" length="41072000" type="video/mp4" />
       <guid isPermaLink="false">youtube:xTu264Rjrz0</guid>
       <itunes:duration>00:42:47</itunes:duration>
@@ -94,6 +112,7 @@
       <title>Space 103.2</title>
       <description>Funk and soul. Hosted by Bootsy Collins.</description>
       <link>https://www.youtube.com/watch?v=vxGpK2TDRbQ</link>
+      <pubDate>Mon, 16 Sep 2013 14:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=vxGpK2TDRbQ" length="51264000" type="video/mp4" />
       <guid isPermaLink="false">youtube:vxGpK2TDRbQ</guid>
       <itunes:duration>00:53:24</itunes:duration>
@@ -102,6 +121,7 @@
       <title>The Blue Ark</title>
       <description>Reggae and dub. Hosted by Lee "Scratch" Perry.</description>
       <link>https://www.youtube.com/watch?v=ZnEHyQLF-Ag</link>
+      <pubDate>Mon, 16 Sep 2013 13:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=ZnEHyQLF-Ag" length="50768000" type="video/mp4" />
       <guid isPermaLink="false">youtube:ZnEHyQLF-Ag</guid>
       <itunes:duration>00:52:53</itunes:duration>
@@ -110,6 +130,7 @@
       <title>The Lowdown 91.1</title>
       <description>Soul, Motown and R&amp;B classics. Hosted by Pam Grier.</description>
       <link>https://www.youtube.com/watch?v=thu2C4WArhA</link>
+      <pubDate>Mon, 16 Sep 2013 12:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=thu2C4WArhA" length="42336000" type="video/mp4" />
       <guid isPermaLink="false">youtube:thu2C4WArhA</guid>
       <itunes:duration>00:44:06</itunes:duration>
@@ -118,6 +139,7 @@
       <title>WCTR (West Coast Talk Radio)</title>
       <description>Talk radio: news, phone-ins and interviews.</description>
       <link>https://www.youtube.com/watch?v=L3fy8_U8tOo</link>
+      <pubDate>Mon, 16 Sep 2013 11:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=L3fy8_U8tOo" length="89888000" type="video/mp4" />
       <guid isPermaLink="false">youtube:L3fy8_U8tOo</guid>
       <itunes:duration>01:33:38</itunes:duration>
@@ -126,6 +148,7 @@
       <title>Vinewood Boulevard Radio</title>
       <description>Garage rock and psychedelic. Hosted by Nate Williams and Stephen Pope.</description>
       <link>https://www.youtube.com/watch?v=63XrOu-hrw0</link>
+      <pubDate>Mon, 16 Sep 2013 10:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=63XrOu-hrw0" length="40400000" type="video/mp4" />
       <guid isPermaLink="false">youtube:63XrOu-hrw0</guid>
       <itunes:duration>00:42:05</itunes:duration>
@@ -134,6 +157,7 @@
       <title>West Coast Classics</title>
       <description>Classic West coast hip-hop. Hosted by DJ Pooh.</description>
       <link>https://www.youtube.com/watch?v=23n4M9ZLaTg</link>
+      <pubDate>Mon, 16 Sep 2013 09:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=23n4M9ZLaTg" length="62880000" type="video/mp4" />
       <guid isPermaLink="false">youtube:23n4M9ZLaTg</guid>
       <itunes:duration>01:05:30</itunes:duration>
@@ -142,6 +166,7 @@
       <title>WorldWide FM</title>
       <description>World music and jazz. Hosted by Gilles Peterson.</description>
       <link>https://www.youtube.com/watch?v=UJ1H_yNHFF8</link>
+      <pubDate>Mon, 16 Sep 2013 08:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=UJ1H_yNHFF8" length="61952000" type="video/mp4" />
       <guid isPermaLink="false">youtube:UJ1H_yNHFF8</guid>
       <itunes:duration>01:04:32</itunes:duration>
@@ -150,6 +175,7 @@
       <title>blonded Los Santos 97.8 FM</title>
       <description>Eclectic mix curated by Frank Ocean.</description>
       <link>https://www.youtube.com/watch?v=-tVumJBaTWY</link>
+      <pubDate>Mon, 16 Sep 2013 07:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=-tVumJBaTWY" length="98240000" type="video/mp4" />
       <guid isPermaLink="false">youtube:-tVumJBaTWY</guid>
       <itunes:duration>01:42:20</itunes:duration>
@@ -158,6 +184,7 @@
       <title>iFruit Radio</title>
       <description>Hip-hop and R&amp;B. Hosted by Danny Brown.</description>
       <link>https://www.youtube.com/watch?v=fpvJaphZ2_g</link>
+      <pubDate>Mon, 16 Sep 2013 06:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=fpvJaphZ2_g" length="83232000" type="video/mp4" />
       <guid isPermaLink="false">youtube:fpvJaphZ2_g</guid>
       <itunes:duration>01:26:42</itunes:duration>
@@ -166,6 +193,7 @@
       <title>Los Santos Underground Radio</title>
       <description>Underground electronic and dance. Hosted by The Black Madonna.</description>
       <link>https://www.youtube.com/watch?v=I2Xjuz-mnN0</link>
+      <pubDate>Mon, 16 Sep 2013 05:00:00 +0000</pubDate>
       <enclosure url="https://www.youtube.com/watch?v=I2Xjuz-mnN0" length="267760000" type="video/mp4" />
       <guid isPermaLink="false">youtube:I2Xjuz-mnN0</guid>
       <itunes:duration>04:38:55</itunes:duration>

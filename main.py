@@ -268,6 +268,7 @@ GTAV_RADIOS = YouTubeShow(
     id=-1,
     slug="gtav",
     title="GTA V Radio",
+    image="https://i.ytimg.com/vi/Lnig3AI6pCw/hqdefault.jpg",
     description=(
         "Les stations de radio complètes de Grand Theft Auto V : "
         "musique, DJs, publicités et talk-shows."
@@ -1344,13 +1345,17 @@ def process_youtube_show(
     result = ShowResult(show=show)
     path = os.path.join(out_dir, show.filename)
 
+    # Podcast apps drop items without a date. Fixed, decreasing dates keep the
+    # file byte-stable between runs and the stations in their listed order.
+    base_date = datetime(2013, 9, 17, tzinfo=timezone.utc)
     episodes: list[Episode] = []
-    for station in show.stations:
+    for position, station in enumerate(show.stations):
         episodes.append(
             Episode(
                 guid=f"youtube:{station.video_id}",
                 title=station.title,
                 description=station.description,
+                published=base_date - timedelta(hours=position),
                 duration=station.duration,
                 url=station.watch_url,
                 mime="video/mp4",
