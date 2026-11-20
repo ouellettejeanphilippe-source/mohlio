@@ -224,15 +224,8 @@ SHOWS_BY_ID = {show.id: show for show in SHOWS}
 # ---------------------------------------------------------------------------
 # YouTube-sourced podcast feeds
 # ---------------------------------------------------------------------------
-# Static content hosted on GitHub Releases.  Each station is one episode.
-# Audio is downloaded once by youtube_setup.py and uploaded as a release
-# asset; the feed references the permanent download URL.
-
-YOUTUBE_AUDIO_TAG = "youtube-audio"
-YOUTUBE_AUDIO_BASE = (
-    "https://github.com/ouellettejeanphilippe-source/mohlio"
-    f"/releases/download/{YOUTUBE_AUDIO_TAG}"
-)
+# Each video is one episode. Enclosures point at the YouTube page itself:
+# nothing is downloaded or re-hosted, the podcast app plays it from YouTube.
 
 
 @dataclass(frozen=True)
@@ -244,8 +237,8 @@ class YouTubeStation:
     description: str = ""
 
     @property
-    def asset_url(self) -> str:
-        return f"{YOUTUBE_AUDIO_BASE}/{self.slug}.mp3"
+    def watch_url(self) -> str:
+        return f"https://www.youtube.com/watch?v={self.video_id}"
 
 
 @dataclass(frozen=True)
@@ -1359,10 +1352,9 @@ def process_youtube_show(
                 title=station.title,
                 description=station.description,
                 duration=station.duration,
-                url=station.asset_url,
-                length=station.duration * ESTIMATED_BYTES_PER_SECOND,
-                mime="audio/mpeg",
-                link=f"https://www.youtube.com/watch?v={station.video_id}",
+                url=station.watch_url,
+                mime="video/mp4",
+                link=station.watch_url,
             )
         )
 
