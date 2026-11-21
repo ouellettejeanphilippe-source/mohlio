@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Nov 2026 20:00:00 -0500</pubDate>
-    <lastBuildDate>Sat, 14 Nov 2026 20:00:00 -0500</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2026 18:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 21 Nov 2026 18:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Entouré de trois panélistes à la langue bien pendue, Pierre Brassard revisite l'actualité et se fait un malin plaisir à passer les nouvelles de la semaine à la moulinette de son humour unique et décalé. C'est aussi une occasion pour les auditeurs de mesurer leurs connaissances à celles des participants!</itunes:summary>
+    <item>
+      <title>La chauve-souris de Sorel-Tracy et James Bond</title>
+      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Pascal Cameron, Matthieu Pepper et Sophie Cadieux, qui doivent répondre à des questions sur : la nervosité de Doug Ford, la chauve-souris de Sorel-Tracy, le slogan démocrate en Alaska, le groupe Oasis, le nouveau James Bond, Séraffine, la vache ferrandaise, et le massacre de &lt;em&gt;Ô Canada&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1291107/pascal-cameron-matthieu-pepper-sophie-cadieux</link>
+      <pubDate>Sat, 21 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/3f1fcf2d-4c8a-43bf-92d5-12d9375df6ee/2026-11-21_11_51_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/3f1fcf2d-4c8a-43bf-92d5-12d9375df6ee/2026-11-21_11_51_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:14</itunes:duration>
+    </item>
     <item>
       <title>Spéciale Like-moi!</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Sonia Cordeau, Karine Gonthier-Hyndman et Marie-Soleil Dion, qui doivent répondre à des questions sur : les missives de PSPP, l'entrevue du petit Marcel, une croisière coquine, les cartes Pokémon, l'infidélité de l'heure et la vente du CF Montréal.&lt;/p&gt;</description>
