@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 20 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Samedi 21 nov. 2026 : Olivier Niquet en brochette</title>
+      <description>&lt;p&gt;Paul St-Pierre Plamondon et Mark Carney résument leur première rencontre qui a des allures de rendez-vous galant. Éric Duhaime condamne une publication sur Facebook d’un dirigeant de la FTQ qui dénigre la députée Éloïse Coulombe. Et Jeff Fillion affirme que les Québécois sont &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"les pires gages à marde qu'il n’y a pas en politique ","text":"les pires gages à marde qu'il n’y a pas en politique "}}"&gt;&lt;span lang="fr" title="Français"&gt;les pires gages à marde qu'il n’y a pas en politique&lt;/span&gt;&lt;/q&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1290969/samedi-21-nov-2026-olivier-niquet-en-brochette</link>
+      <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/75273bfc-7a8b-4cee-92d1-1ba1cdcc0f69/2026-11-20_14_41_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="36656000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/75273bfc-7a8b-4cee-92d1-1ba1cdcc0f69/2026-11-20_14_41_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:38:11</itunes:duration>
+    </item>
     <item>
       <title>Vendredi 20 nov. 2026 : Jean-Sébastien Girard, Philippe Couillard, Laurence Martin et Oliver Vinette</title>
       <description>&lt;p&gt;Jeannot envisage de faire un régime. Laurence Martin parle des départs dans l’entourage de Pierre Poilievre. Oliver Vinette présente les critiques à l'égard du nouveau James Bond. Et Philippe Couillard explique qu’il est possible de réparer le système de santé.&lt;/p&gt;</description>
