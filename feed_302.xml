@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Pas d'accord à la COP31</title>
+      <description>&lt;p&gt;La COP 31 sur le climat s'est terminée par un échec, en Turquie, après deux semaines de négociations et une prolongation record qui en a fait la plus longue de l'histoire.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242730/lundi-23-novembre-2026</link>
+      <pubDate>Mon, 23 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/e6a580c2-fd68-4331-b654-659df33583ed/2026-11-23_05_06_00_alaunebaladoexterne_0000.mp3" length="33095471" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/e6a580c2-fd68-4331-b654-659df33583ed/2026-11-23_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:58</itunes:duration>
+    </item>
     <item>
       <title>Vers un accord entre Ottawa et Washington avant 2027?</title>
       <description>&lt;p&gt;Ottawa tente de conclure un accord intérimaire avec l'administration Trump d'ici la fin de l'année. C'est ce qu'ont indiqué des sources à des journalistes de CBC. Le gouvernement de Mark Carney souhaite en arriver à une telle entente pour réduire les tarifs douaniers qui affectent les entreprises canadiennes.&lt;/p&gt;</description>

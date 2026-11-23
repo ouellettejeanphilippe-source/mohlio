@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Nov 2026 20:30:00 +0000</pubDate>
-    <lastBuildDate>Fri, 20 Nov 2026 20:30:00 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 11:50:00 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2026 11:50:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Dylan Larkin à Montréal</title>
+      <description>&lt;p&gt;Les partisans le réclamaient et le voici maintenant à Montréal. Kent Hughes a payé le gros prix pour obtenir l'ancien capitaine des Red Wings : Dylan Larkin. Outre des choix au repêchage, l'espoir Michael Hage, Samuel Montembeault et Kirby Dach prennent la route de Détroit. Qui ressort gagnant de cet échange? Est-ce que le Canadien a payé trop cher? Quel impact aura Larkin sur le club?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1291182/dylan-larkin-canadien-montreal-echange</link>
+      <pubDate>Mon, 23 Nov 2026 11:50:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/e94d3e09-46bb-4376-a9dc-7c959d5c2e21/2026-11-23_06_31_51_tellementhockey_0000_master.m3u8" length="32496000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/e94d3e09-46bb-4376-a9dc-7c959d5c2e21/2026-11-23_06_31_51_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:51</itunes:duration>
+    </item>
     <item>
       <title>Lane Hutson : le guerrier chérubin</title>
       <description>&lt;p&gt;Comment qualifier la lancée de Lane Hutson depuis deux semaines? Le défenseur a non seulement dominé en attaque, mais son jeu défensif s'est encore amélioré. Le jeune homme flotte maintenant dans la stratosphère du hockey. Il devient ainsi un élément central en fonction duquel les équipes adverses établissent leur plan de match. Que nous réserve Hutson comme autre surprise?&lt;/p&gt;&lt;p&gt;Alors que les deux gardiens du CH, Jakub Dobes et Jacob Fowler, sont en grande forme, on voit poindre le retour imminent de Samuel Montembeault.&lt;/p&gt;&lt;p&gt;Et à Pittsburgh, les derniers propos du directeur général sur la reconstruction de l'équipe créent des remous et font rêver les partisans et partisanes du Canadien.&lt;/p&gt;</description>
