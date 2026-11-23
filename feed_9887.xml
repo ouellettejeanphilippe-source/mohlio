@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 21 Nov 2026 12:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Lundi 23 nov. 2026 : Jean-Sébastien Girard, Simon-Olivier Lorange et Gérard Deltell</title>
+      <description>&lt;p&gt;Jean-Sébastien parle de son problème auditif. Simon-Olivier Lorange explique les conséquences liées à l'acquisition de Dylan Larkin par le Canadien. Et le très volubile député conservateur Gérard Deltell clame haut et fort qu’il continuera de faire de la politique longtemps. &lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1291352/acquisition-de-dylan-larkin-par-le-ch-quelles-consequences</link>
+      <pubDate>Mon, 23 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0dce860f-8299-4acd-9c15-0d235e3a5d24/2026-11-23_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="31936000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0dce860f-8299-4acd-9c15-0d235e3a5d24/2026-11-23_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:16</itunes:duration>
+    </item>
     <item>
       <title>Samedi 21 nov. 2026 : Olivier Niquet en brochette</title>
       <description>&lt;p&gt;Paul St-Pierre Plamondon et Mark Carney résument leur première rencontre qui a des allures de rendez-vous galant. Éric Duhaime condamne une publication sur Facebook d’un dirigeant de la FTQ qui dénigre la députée Éloïse Coulombe. Et Jeff Fillion affirme que les Québécois sont &lt;q data-attributes="{"lang":{"value":"fr","label":"Français"},"value":{"html":"les pires gages à marde qu'il n’y a pas en politique ","text":"les pires gages à marde qu'il n’y a pas en politique "}}"&gt;&lt;span lang="fr" title="Français"&gt;les pires gages à marde qu'il n’y a pas en politique&lt;/span&gt;&lt;/q&gt;.&lt;/p&gt;</description>
