@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 21 Nov 2026 02:30:00 +0000</pubDate>
-    <lastBuildDate>Sat, 21 Nov 2026 02:30:00 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>23 novembre 1970 : la fondation de &lt;em&gt;Charlie Hebdo&lt;/em&gt;</title>
+      <description>&lt;p&gt;Déjà en 1970, on pouvait lire dans le journal que la guerre tarifaire menaçait l’Alliance atlantique et que le Canada voulait se débarrasser de la tutelle américaine! Pierre Huet, ancien rédacteur en chef de la revue &lt;em&gt;Croc&lt;/em&gt;, parle du journal satirique français &lt;em&gt;Charlie Hebdo&lt;/em&gt;, et Félix Lemieux s’intéresse à Roald Dahl, auteur du roman &lt;em&gt;Charlie et la chocolaterie&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1291281/23-novembre-1970-la-fondation-de-charlie-hebdo</link>
+      <pubDate>Mon, 23 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/23621748-fdc0-4551-8778-732f585d71d9/2026-11-23_11_21_00_lhistoireestencorejeune_0000_master.m3u8" length="27360000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/23621748-fdc0-4551-8778-732f585d71d9/2026-11-23_11_21_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:28:30</itunes:duration>
+    </item>
     <item>
       <title>Le meilleur de la semaine du 16 novembre 2026</title>
       <description>&lt;p&gt;Voici un assemblage des quatre émissions diffusées cette semaine. Au menu : la première synthétisation du LSD, l’assermentation d’Arnold Schwarzenegger comme gouverneur de la Californie, la standardisation de l’heure et la fondation du Mouvement souveraineté-association par René Lévesque.&lt;/p&gt;</description>

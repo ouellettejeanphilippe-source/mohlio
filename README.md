@@ -18,7 +18,7 @@ python -m unittest
 ## Journal
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-23 20:13 UTC
+Last update: 2026-11-23 23:33 UTC
 
 ### Feeds
 
@@ -28,7 +28,7 @@ Last update: 2026-11-23 20:13 UTC
 - ✅ [evelyne](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml) — 14 episodes, latest 2026-11-16 16:30 ET
 - ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 92 episodes, latest 2026-11-21 06:00 ET
 - ✅ [gtav](https://ouellettejeanphilippe-source.github.io/mohlio/feed_yt_gtav.xml) — 20 episodes, latest unknown
-- ✅ [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 15 episodes, latest 2026-11-20 21:30 ET
+- 🆕 [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 16 episodes, latest 2026-11-23 18:30 ET
 - 🆕 [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 72 episodes, latest 2026-11-23 06:50 ET
 - 🆕 [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 113 episodes, latest 2026-11-23 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 99 episodes, latest 2026-11-23 08:00 ET
