@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Nov 2026 11:50:00 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2026 11:50:00 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Nov 2026 21:15:00 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Nov 2026 21:15:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>Avec Larkin, le Canadien vise la Coupe!</title>
+      <description>&lt;p&gt;Dylan Larkin a joué son premier match avec le Tricolore lundi. Malgré la défaite, l'ancien capitaine des Red Wings a démontré pourquoi Kent Hughes tenait tant à l’acquérir. Mais l'arrivée d'un joueur de premier plan change-t-elle la chimie dans le vestiaire? Est-ce le temps de parler de reconstruction à Toronto? Combien de temps Martin St-Louis sera-t-il conciliant à l’endroit de Juraj Slafkovský, qui connaît un pénible début de saison?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1291616/avec-larkin-le-canadien-vise-la-coupe</link>
+      <pubDate>Tue, 24 Nov 2026 21:15:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/9b7001fd-7f4f-4e10-b29c-8aa080d82ff4/2026-11-24_14_25_02_tellementhockey_0000_master.m3u8" length="62608000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/9b7001fd-7f4f-4e10-b29c-8aa080d82ff4/2026-11-24_14_25_02_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:05:13</itunes:duration>
+    </item>
     <item>
       <title>Dylan Larkin à Montréal</title>
       <description>&lt;p&gt;Les fans le réclamaient et le voici maintenant à Montréal. Kent Hughes a payé le gros prix pour obtenir l'ancien capitaine des Red Wings Dylan Larkin. Outre des choix au repêchage, l'espoir Michael Hage, Samuel Montembeault et Kirby Dach prennent la route de Détroit. Qui ressort gagnant de cet échange? Est-ce que le Canadien a payé trop cher? Quel effet aura Larkin sur le club?&lt;/p&gt;</description>
@@ -461,7 +470,8 @@
     </item>
     <item>
       <title>De l’électricité dans l’air</title>
-      <description>&lt;p&gt;Le deuxième match de la série entre le Lightning de Tampa Bay et les Canadiens de Montréal a été très robuste. Et après l'avalanche de pénalités, les accrochages, les escarmouches et la prolongation, il pourrait laisser des séquelles. Malgré des performances excitantes de plusieurs jeunes joueurs, dont Jakub Dobeš, les deux équipes sont à égalité dans la série, ayant chacune une victoire. Force est d'admettre qu'à partir d'ici, certains membres du Tricolore devront monter leur jeu d'un cran.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Le deuxième match de la série entre le Lightning de Tampa Bay et les Canadiens de Montréal a été très robuste. Et après l'avalanche de pénalités, les accrochages, les escarmouches et la prolongation, il pourrait laisser des séquelles. Malgré des performances excitantes de plusieurs jeunes joueurs, dont Jakub Dobeš, les deux équipes sont à égalité dans la série, ayant chacune une victoire. Force est d'admettre qu'à partir d'ici, certains membres du Tricolore devront monter leur jeu d'un cran.
+&lt;/p&gt;</description>
       <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1165996/de-lelectricite-dans-lair</link>
       <pubDate>Wed, 22 Apr 2026 10:55:00 +0000</pubDate>
       <enclosure url="https://rcavmedias-static.akamaized.net/hls/70b44753-5dd1-4a3a-98a2-6a5b86c62938/2026-04-22_06_15_02_tellementhockey_0000_master.m3u8" length="29152000" type="audio/mpeg" />
