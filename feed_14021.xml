@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>24 novembre 1883 : l’invention de la poubelle</title>
+      <description>&lt;p&gt;En 1883, c’est terminé : on ne peut plus jeter ses déchets dans la rue en France. Eugène Poubelle signe un avis public qui stipule que les propriétaires d’immeubles à Paris doivent fournir un réceptacle à leurs locataires pour leurs déchets. La géographe Jeanne-Hélène Jugie explique pourquoi l’opposition à cette nouvelle loi a été forte, et Timothée Bonnier Aird nous transporte en 1520, à Tenochtitlan, aujourd’hui Mexico, possiblement la première ville zéro déchet au monde.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1291283/24-novembre-1883-linvention-de-la-poubelle</link>
+      <pubDate>Tue, 24 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d5aebb83-7ae7-4864-ba57-80b70c36e65c/2026-11-23_11_22_00_lhistoireestencorejeune_0000_master.m3u8" length="29760000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d5aebb83-7ae7-4864-ba57-80b70c36e65c/2026-11-23_11_22_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:31:00</itunes:duration>
+    </item>
     <item>
       <title>23 novembre 1970 : la fondation de &lt;em&gt;Charlie Hebdo&lt;/em&gt;</title>
       <description>&lt;p&gt;Déjà en 1970, on pouvait lire dans le journal que la guerre tarifaire menaçait l’Alliance atlantique et que le Canada voulait se débarrasser de la tutelle américaine! Pierre Huet, ancien rédacteur en chef de la revue &lt;em&gt;Croc&lt;/em&gt;, parle du journal satirique français &lt;em&gt;Charlie Hebdo&lt;/em&gt;, et Félix Lemieux s’intéresse à Roald Dahl, auteur du roman &lt;em&gt;Charlie et la chocolaterie&lt;/em&gt;.&lt;/p&gt;</description>
