@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Nov 2026 21:30:00 +0000</pubDate>
-    <lastBuildDate>Mon, 16 Nov 2026 21:30:00 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2026 21:30:00 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2026 21:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg</url>
       <title>Evelyne et Gabrielle font un podcast</title>
@@ -18,6 +18,51 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/evelyne-ferron-gabrielle-caron-histoire-humour.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Evelyne et Gabrielle font un podcast</itunes:summary>
+    <item>
+      <title>Cléopâtre</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle rétablissent les faits sur la vie de Cléopâtre, reine mythique à propos de qui plusieurs légendes circulent. Polyglotte, érudite et persuasive, la souveraine s’associe politiquement à Jules César puis à Marc Antoine. Evelyne parle des circonstances de la mort de la reine d’Égypte qui ont grandement été romancées au fil du temps.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1290506/cleopatre-reine-egypte</link>
+      <pubDate>Mon, 23 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/dc0e153d-008d-4616-9cb4-c3f3def472fc/2026-11-17_14_22_42_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="43952000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/dc0e153d-008d-4616-9cb4-c3f3def472fc/2026-11-17_14_22_42_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:45:47</itunes:duration>
+    </item>
+    <item>
+      <title>Jack l’Éventreur</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle apportent un nouvel éclairage sur l’histoire sanglante de Jack l’Éventreur en s’attardant davantage sur les victimes que sur le célèbre tueur en série. Elles discutent de la pauvreté à Londres à la fin du 19e siècle, de la prostitution, de la violence envers les femmes et du quartier de Whitechapel.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1290504/jack-leventreur</link>
+      <pubDate>Mon, 23 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/c15bf2e2-c530-4b88-a4b0-304a65a97c76/2026-11-17_14_17_42_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="43104000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/c15bf2e2-c530-4b88-a4b0-304a65a97c76/2026-11-17_14_17_42_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:44:54</itunes:duration>
+    </item>
+    <item>
+      <title>Marie-Thérèse d’Autriche</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle sont fascinées par Marie-Thérèse d’Autriche, impératrice du Saint-Empire romain germanique. La souveraine est bien plus que la mère de Marie-Antoinette ou l’instigatrice du palais de Schönbrunn, elle est une habile stratège, mène plusieurs guerres et met au monde 16 enfants qu’elle place sur l’échiquier politique. Evelyne raconte comment l’impératrice en est aussi venue à vouloir combattre les vampires.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1290500/marie-therese-autriche</link>
+      <pubDate>Mon, 23 Nov 2026 21:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/37febd26-c788-4f44-bcb9-5b8897c7852b/2026-11-17_11_33_12_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="54656000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/37febd26-c788-4f44-bcb9-5b8897c7852b/2026-11-17_11_33_12_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:56:56</itunes:duration>
+    </item>
+    <item>
+      <title>Grosse-Île</title>
+      <description>&lt;p&gt;Evelyne et Gabrielle dressent le portrait de Grosse-Île, station sanitaire située dans l’estuaire du Saint-Laurent près de Montmagny. Son but : accueillir les populations immigrantes afin de prévenir la propagation de maladies ou d’épidémies. L’arrière-grand-mère irlandaise de Gabrielle y a d’ailleurs fait une quarantaine. De mystérieuses recherches secrètes s’y sont également tenues durant la Seconde Guerre mondiale.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1290502/grosse-ile</link>
+      <pubDate>Mon, 23 Nov 2026 21:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/65ee39f6-b75f-48cf-80dc-7b8b9fbcce0e/2026-11-17_13_17_35_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="43232000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/65ee39f6-b75f-48cf-80dc-7b8b9fbcce0e/2026-11-17_13_17_35_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:45:02</itunes:duration>
+    </item>
+    <item>
+      <title>Le saint suaire</title>
+      <description>&lt;p&gt;Le saint suaire a causé bien des cauchemars à Evelyne lorsqu’elle était enfant. Avec Gabrielle, elle parle du suaire de Turin – cette pièce de tissu qui recouvrait le Christ dans son tombeau –, de son origine, de sa légende, de son importance pour l’Église et même du mystère entourant le pénis de Jésus. Evelyne expose le débat entre les scientifiques et les ecclésiastiques pour authentifier et dater ce linceul sacré.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14015/evelyne-et-gabrielle-font-un-podcast/1290497/le-saint-suaire-turin</link>
+      <pubDate>Mon, 23 Nov 2026 21:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/0a383fb5-44ee-4a83-bdfd-c207afa34f95/2026-11-17_11_09_00_evelyneetgabriellepodcasthistoire_0000_master.m3u8" length="50576000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/0a383fb5-44ee-4a83-bdfd-c207afa34f95/2026-11-17_11_09_00_evelyneetgabriellepodcasthistoire_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:52:41</itunes:duration>
+    </item>
     <item>
       <title>Les vampires et les loups-garous</title>
       <description>&lt;p&gt;Les coanimatrices étudient les vampires et les loups-garous. Evelyne explique les diverses croyances à travers les âges en lien avec ces créatures effrayantes. Gabrielle et elle s’intéressent aussi à la bête du Gévaudan, au film &lt;em&gt;Entretien avec un vampire&lt;/em&gt;, à la légende de la chasse-galerie et à Vlad l'empaleur.&lt;/p&gt;</description>
