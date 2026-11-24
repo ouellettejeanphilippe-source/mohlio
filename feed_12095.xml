@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Nov 2026 13:00:00 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2026 13:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Nov 2026 13:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Nov 2026 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg</url>
       <title>Olivier Niquet 24/7 (en jaquette)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/olivier-niquet-247-en-jaquette-visuel-moteur.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Olivier Niquet 24/7 (en jaquette)</itunes:summary>
+    <item>
+      <title>Le serment au roi, et des examens de sexe biologique pour les sportives</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/balados/12095/olivier-niquet-24-7-en-jaquette/1291478/le-serment-au-roi-et-des-examens-de-sexes-biologiques-pour-les-sportives</link>
+      <pubDate>Tue, 24 Nov 2026 13:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/f25c74bd-8b00-4cca-9c91-999da425c055/2026-11-24_07_48_32_olivierniquet247enjaquetteohdio_0000_master.m3u8" length="23088000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/f25c74bd-8b00-4cca-9c91-999da425c055/2026-11-24_07_48_32_olivierniquet247enjaquetteohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:24:03</itunes:duration>
+    </item>
     <item>
       <title>L’IA dénude des personnalités québécoises, et Olivier Primeau remporte le match La revanche</title>
       <description />
