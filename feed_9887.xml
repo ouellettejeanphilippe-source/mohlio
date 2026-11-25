@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Mercredi 25 nov. 2026 : Louis Blouin et Guy Cormier</title>
+      <description>&lt;p&gt;Olivier recueille des réactions à l'interdiction de jouer à la tague à une école. Louis Blouin explique que Trump s’est possiblement placé en conflit d’intérêts en poussant Nvidia à réembaucher Jensen Huang. Et Guy Cormier parle de son saut en politique avec le PLC.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1291923/mercredi-25-nov-2026-louis-blouin-et-guy-cormier</link>
+      <pubDate>Wed, 25 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/6f70747c-c9a4-4316-ab58-d7de6cb8d7ef/2026-11-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="32048000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/6f70747c-c9a4-4316-ab58-d7de6cb8d7ef/2026-11-25_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:33:23</itunes:duration>
+    </item>
     <item>
       <title>Mardi 24 nov. 2026 : Chantal Hébert, et Simon et Tyler</title>
       <description>&lt;p&gt;Olivier nous fait écouter l’avocat ontarien Lawrence David, qui explique pourquoi il conteste la loi québécoise sur le serment au roi. Simon et Tyler croient que le manque de jeux vidéo engendre des guerres. Et Jean-Philippe réalise son rêve d’interviewer Chantal Hébert.&lt;/p&gt;</description>
