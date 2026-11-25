@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2026 23:30:00 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2026 23:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>25 novembre 1885 : la création du parc national de Banff</title>
+      <description>&lt;p&gt;Fin 19e, après la découverte de sources thermales par le personnel du chemin de fer Canadien Pacifique en Alberta (alors les Territoires du Nord-Ouest), la compagnie y voit l’occasion de s’enrichir. Le spécialiste de l’histoire intellectuelle François Pageau raconte comment le premier parc national du Canada s’est créé pour encourager le tourisme. Félix Lemieux parle de Joe DiMaggio, né le 25 novembre 1914, connu comme étant l’un des meilleurs joueurs de baseball au monde.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1291286/25-novembre-1885-la-creation-du-parc-national-de-banff</link>
+      <pubDate>Wed, 25 Nov 2026 23:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/801476cc-7d85-4e6c-8f58-b79244af0094/2026-11-23_11_23_00_lhistoireestencorejeune_0000_master.m3u8" length="28800000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/801476cc-7d85-4e6c-8f58-b79244af0094/2026-11-23_11_23_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:30:00</itunes:duration>
+    </item>
     <item>
       <title>24 novembre 1883 : l’invention de la poubelle</title>
       <description>&lt;p&gt;En 1883, c’est terminé : on ne peut plus jeter ses déchets dans la rue en France. Eugène Poubelle signe un avis public qui stipule que les propriétaires d’immeubles à Paris doivent fournir un réceptacle à leurs locataires pour leurs déchets. La géographe Jeanne-Hélène Jugie explique pourquoi l’opposition à cette nouvelle loi a été forte, et Timothée Bonnier Aird nous transporte en 1520, à Tenochtitlan, aujourd’hui Mexico, possiblement la première ville zéro déchet au monde.&lt;/p&gt;</description>
