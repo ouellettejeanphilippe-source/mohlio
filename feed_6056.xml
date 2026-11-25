@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Nov 2026 00:06:00 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2026 00:06:00 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2026 00:06:00 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:06:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/moteur-de-recherche-moteur-visuel-externe.jpg</url>
       <title>Moteur de recherche</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>En plus de Moteur en herbe, Matthieu Dugal et son équipe présentent Moteur de recherche, une émission conviviale axée sur vos questions en matière de consommation, de technologie, de science, d'environnement et de santé, et vous proposent les meilleures réponses.L'émission veut donner un sens au fouillis de liens et de résultats que vos questions génèrent lorsque vous effectuez une recherche sur Internet... parce que les algorithmes nous cachent autant de choses qu'ils nous en montrent.Moteur de recherche vous propose une infolettre remplie de sujets étonnants. Abonnez-vous!Aussi sur Tou.tv</itunes:summary>
+    <item>
+      <title>Mardi 24 novembre 2026</title>
+      <description />
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/moteur-de-recherche/episodes/1242758/mardi-24-novembre-2026</link>
+      <pubDate>Wed, 25 Nov 2026 00:06:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/30c24a35-7f6d-4d37-acc9-2c2248ad5209/2026-11-24_19_06_00_moteurderecherche_0000_master.m3u8" length="50880000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/30c24a35-7f6d-4d37-acc9-2c2248ad5209/2026-11-24_19_06_00_moteurderecherche_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:00</itunes:duration>
+    </item>
     <item>
       <title>Lundi 23 nov. 2026 : L’hypothèse d’une vie dans un trou noir, et la gestion des cadavres de fourmis</title>
       <description>&lt;p&gt;L'hypothèse d'une vie à l'intérieur d'un trou noir; les secrets de la création des grilles de sudoku; l'origine de la voix nasillarde des artistes country; et le sort des cadavres chez les fourmis.&lt;/p&gt;</description>
