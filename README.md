@@ -18,12 +18,12 @@ python -m unittest
 ## Journal
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-25 19:33 UTC
+Last update: 2026-11-25 21:17 UTC
 
 ### Feeds
 
 - ✅ [betisier](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6327.xml) — 10 episodes, latest 2025-12-29 06:00 ET
-- ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 33 episodes, latest 2026-11-18 15:00 ET
+- 🆕 [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 34 episodes, latest 2026-11-25 16:15 ET
 - ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 60 episodes, latest 2026-11-20 12:18 ET
 - ✅ [evelyne](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml) — 19 episodes, latest 2026-11-23 16:30 ET
 - ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 94 episodes, latest 2026-11-25 06:00 ET
