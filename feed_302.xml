@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Nov 2026 05:06:00 -0500</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2026 05:06:00 -0500</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2026 05:06:00 -0500</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2026 05:06:00 -0500</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/generateur-images/1x1/a-la-une-visuel-moteur-ohdio-gi.jpg</url>
       <title>À la une</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Mathieu Belhumeur est entouré de ses collaborateurs et collaboratrices pour présenter les principales nouvelles d'ici et d'ailleurs. Le tout sur un ton convivial. Un condensé de l'actualité pour bien démarrer la journée.</itunes:summary>
+    <item>
+      <title>Hausses de taxes municipales au Québec?</title>
+      <description>&lt;p&gt;Les municipalités du Québec vont-elles s'inspirer de la ville de Montréal, qui vient d'annoncer une hausse de taxes pour « assurer un entretien minimal des infrastructures et un maintien des services »?&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/premiere/emissions/nouvelles-info-matin-canada-monde-politique/episodes/1242782/mercredi-25-novembre-2026</link>
+      <pubDate>Wed, 25 Nov 2026 05:06:00 -0500</pubDate>
+      <enclosure url="https://rcavmedias-download.akamaized.net/mp3/eadd1d30-92b2-4148-a271-aeb56dd5fc35/2026-11-25_05_06_00_alaunebaladoexterne_0000.mp3" length="33113025" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-download.akamaized.net/mp3/eadd1d30-92b2-4148-a271-aeb56dd5fc35/2026-11-25_05_06_00_alaunebaladoexterne_0000.mp3?v=2</guid>
+      <itunes:duration>00:22:59</itunes:duration>
+    </item>
     <item>
       <title>Serment au roi : appel du gouvernement</title>
       <description>&lt;p&gt;Le gouvernement de Paul St-Pierre Plamondon va faire appel de la décision de la Cour supérieure du Québec qui rend obligatoire le serment au roi pour siéger à l'Assemblée nationale. C'est une décision qui pourrait empêcher la reprise des travaux parlementaires la semaine prochaine.&lt;/p&gt;</description>
