@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Nov 2026 19:30:00 +0000</pubDate>
-    <lastBuildDate>Wed, 25 Nov 2026 19:30:00 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Nov 2026 19:30:00 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Nov 2026 19:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/la-journee-est-encore-jeune-visuel-partenaire-externe.jpg</url>
       <title>La journée (est encore jeune)</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Jean-Philippe Wauthier et ses complices, dont le bel Olivier Niquet, passent l'actualité dans le tordeur, avec l'esprit mordant et affûté qu'on leur connaît. Évidemment, Jean-Sébastien Girard y fait quelques saucettes. Les fans de l'émission culte La soirée est (encore) jeune en retrouveront l'énergie, le plaisir et le côté juste assez piquant.Aussi sur Tou.tvRetrouvez les produits dérivés de La journée (est encore jeune) ici.</itunes:summary>
+    <item>
+      <title>Jeudi 26 nov. 2026 : Nathalie Petrowski, Hugo Dumas et Alexandre Curzi</title>
+      <description>&lt;p&gt;Nathalie Petrowski donne cinq raisons d’écouter de la musique québécoise. Hugo Dumas critique le film &lt;em&gt;Santa Claude&lt;/em&gt;, qui est « un petit peu n'importe quoi ». Et Alexandre Curzi explique pourquoi il se porte candidat pour le Bloc québécois et non le NPD ou le Parti québécois.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/9887/la-journee-est-encore-jeune/1292177/jeudi-26-nov-2026-nathalie-petrowski-hugo-dumas-et-alexandre-curzi</link>
+      <pubDate>Thu, 26 Nov 2026 19:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/8d8fbd16-307f-4736-8859-b7504a8849c4/2026-11-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8" length="32928000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/8d8fbd16-307f-4736-8859-b7504a8849c4/2026-11-26_14_30_00_lajourneeestencorejeuneohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:34:18</itunes:duration>
+    </item>
     <item>
       <title>Mercredi 25 nov. 2026 : Louis Blouin et Guy Cormier</title>
       <description>&lt;p&gt;Olivier recueille des réactions à l'interdiction de jouer à la tague à une école. Louis Blouin explique que Trump s’est possiblement placé en conflit d’intérêts en poussant Nvidia à réembaucher Jensen Huang. Et Guy Cormier parle de son saut en politique avec le PLC.&lt;/p&gt;</description>

@@ -18,7 +18,7 @@ python -m unittest
 ## Journal
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-26 13:14 UTC
+Last update: 2026-11-26 19:33 UTC
 
 ### Feeds
 
@@ -26,15 +26,15 @@ Last update: 2026-11-26 13:14 UTC
 - ✅ [changement](https://ouellettejeanphilippe-source.github.io/mohlio/feed_13061.xml) — 34 episodes, latest 2026-11-25 16:15 ET
 - ✅ [decrypteurs](https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml) — 60 episodes, latest 2026-11-20 12:18 ET
 - ✅ [evelyne](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14015.xml) — 19 episodes, latest 2026-11-23 16:30 ET
-- 🆕 [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 95 episodes, latest 2026-11-26 05:00 ET
+- ✅ [explique](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6108.xml) — 95 episodes, latest 2026-11-26 05:00 ET
 - ✅ [gtav](https://ouellettejeanphilippe-source.github.io/mohlio/feed_yt_gtav.xml) — 20 episodes, latest unknown
 - ✅ [histoire](https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml) — 18 episodes, latest 2026-11-25 18:30 ET
 - ✅ [hockey](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml) — 73 episodes, latest 2026-11-24 16:15 ET
-- ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 115 episodes, latest 2026-11-25 14:30 ET
-- 🆕 [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 102 episodes, latest 2026-11-26 08:00 ET
+- 🆕 [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 116 episodes, latest 2026-11-26 14:30 ET
+- ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 102 episodes, latest 2026-11-26 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 63 episodes, latest 2026-11-21 20:00 ET
 - ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 103 episodes, latest 2026-11-25 19:06 ET
-- 🆕 [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 403 episodes, latest 2026-11-26 05:06 ET
+- ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 403 episodes, latest 2026-11-26 05:06 ET
 
 ### Warnings
 
