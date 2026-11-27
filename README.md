@@ -18,7 +18,7 @@ python -m unittest
 ## Journal
 
 <!-- RUN_LOG_START -->
-Last update: 2026-11-26 23:33 UTC
+Last update: 2026-11-27 01:11 UTC
 
 ### Feeds
 
@@ -33,7 +33,7 @@ Last update: 2026-11-26 23:33 UTC
 - ✅ [journee](https://ouellettejeanphilippe-source.github.io/mohlio/feed_9887.xml) — 116 episodes, latest 2026-11-26 14:30 ET
 - ✅ [niquet](https://ouellettejeanphilippe-source.github.io/mohlio/feed_12095.xml) — 102 episodes, latest 2026-11-26 08:00 ET
 - ✅ [question](https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml) — 63 episodes, latest 2026-11-21 20:00 ET
-- ✅ [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 103 episodes, latest 2026-11-25 19:06 ET
+- 🆕 [recherche](https://ouellettejeanphilippe-source.github.io/mohlio/feed_6056.xml) — 104 episodes, latest 2026-11-26 19:06 ET
 - ✅ [une](https://ouellettejeanphilippe-source.github.io/mohlio/feed_302.xml) — 403 episodes, latest 2026-11-26 05:06 ET
 
 ### Warnings
