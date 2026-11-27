@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_6104.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Nov 2026 21:15:00 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2026 21:15:00 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Nov 2026 20:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Nov 2026 20:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg</url>
       <title>Tellement hockey</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/ohdio-balado-visuel-moteur-tellement-hockey-2026.jpeg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Tellement hockey</itunes:summary>
+    <item>
+      <title>La glissade du Canadien au classement finira-t-elle bientôt?</title>
+      <description>&lt;p&gt;Avec le défenseur Kaiden Guhle qui s'ajoute à la longue liste des blessés et l'avantage numérique qui manque de panache, faut-il commencer à s'inquiéter au sujet du Canadien de Montréal? De plus, les prochains adversaires du CH ne seront pas des équipes de bas de classement. La formation montréalaise affrontera au cours des prochains jours les Golden Knights de Las Vegas, le Mammoth de l’Utah, le Lightning de Tampa Bay, les Panthers de la Floride et les Sénateurs d’Ottawa.&lt;/p&gt;&lt;p&gt;Et on se demande quelles équipes qui se trouvent sous la barre des ,500 arriveront malgré tout à se qualifier pour les séries éliminatoires.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/6104/tellement-hockey-martin-leclerc-alexandre-coupal-gascon/1292450/la-glissade-du-canadien-au-classement-finira-t-elle-bientot</link>
+      <pubDate>Fri, 27 Nov 2026 20:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/14cc03c8-44da-47eb-acf3-e3d733078726/2026-11-27_14_08_54_tellementhockey_0000_master.m3u8" length="53040000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/14cc03c8-44da-47eb-acf3-e3d733078726/2026-11-27_14_08_54_tellementhockey_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:55:15</itunes:duration>
+    </item>
     <item>
       <title>Avec Larkin, le Canadien vise la Coupe!</title>
       <description>&lt;p&gt;Dylan Larkin a joué son premier match avec le Tricolore lundi. Malgré la défaite, l'ancien capitaine des Red Wings a démontré pourquoi Kent Hughes tenait tant à l’acquérir. Mais l'arrivée d'un joueur de premier plan change-t-elle la chimie dans le vestiaire? Est-ce le temps de parler de reconstruction à Toronto? Combien de temps Martin St-Louis sera-t-il conciliant à l’endroit de Juraj Slafkovský, qui connaît un pénible début de saison?&lt;/p&gt;</description>
