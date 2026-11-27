@@ -856,5 +856,353 @@ class WorkflowScheduleTests(unittest.TestCase):
         return False
 
 
+def upload(number, day, description="Une description", tags=("Funk", "Boogie")) -> dict:
+    """One upload as Mixcloud describes it in its own document."""
+    key = f"/bigcupparadio/show-{number}/"
+    return {
+        "key": key,
+        "url": f"https://www.mixcloud.com{key}",
+        "name": f"Show #{number}",
+        "created_time": f"2026-11-{day:02d}T17:39:54Z",
+        "audio_length": 3583,
+        "tags": [{"name": tag} for tag in tags],
+        "description": description,
+    }
+
+
+class FakeMixcloud:
+    """Stands in for ``main.mixcloud_get``: one profile and its uploads.
+
+    As on the real API, the listing does not carry the descriptions: each one
+    is only in the document of its own upload.
+    """
+
+    PICTURE = "https://thumbnailer.mixcloud.com/unsafe/640x640/profile/a/b/c"
+
+    def __init__(self, *uploads):
+        self.uploads = list(uploads)
+        self.requested = []
+        self.down = False
+        self.details_down = False
+
+    def details_requested(self) -> int:
+        return sum(1 for path in self.requested if "/show-" in path)
+
+    def __call__(self, url, params=None):
+        path = url.removeprefix(main.MIXCLOUD_API)
+        self.requested.append(path)
+        if self.down:
+            raise main.requests.ConnectionError("unreachable")
+        if path == "/bigcupparadio/":
+            return {
+                "name": "Big Cuppa Radio",
+                "biog": "Monthly show.\r\n\r\nFrom a basement.",
+                "pictures": {"640wx640h": self.PICTURE},
+            }
+        if path == "/bigcupparadio/cloudcasts/":
+            listed = [
+                {name: value for name, value in item.items() if name != "description"}
+                for item in self.uploads
+            ]
+            return {"data": listed, "paging": {}}
+        for item in self.uploads:
+            if item["key"] == path:
+                if self.details_down:
+                    raise main.requests.ConnectionError("unreachable")
+                return dict(item)
+        raise main.requests.HTTPError(f"404 for {path}")
+
+
+class MixcloudFeedTests(unittest.TestCase):
+    """A Mixcloud profile is a feed that grows and that an outage cannot harm."""
+
+    def setUp(self):
+        self.show = main.MixcloudShow("bigcupparadio", "test", "Titre provisoire")
+        self.api = FakeMixcloud(upload(2, 17), upload(1, 3))
+        original = main.mixcloud_get
+        main.mixcloud_get = self.api
+        self.addCleanup(setattr, main, "mixcloud_get", original)
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        self.directory = directory.name
+        self.path = os.path.join(self.directory, self.show.filename)
+
+    def run_once(self, **kwargs) -> main.ShowResult:
+        return main.process_mixcloud_show(self.show, self.directory, **kwargs)
+
+    def channel(self) -> ET.Element:
+        return ET.parse(self.path).getroot().find("channel")
+
+    def read(self) -> bytes:
+        with open(self.path, "rb") as handle:
+            return handle.read()
+
+    def test_each_upload_is_an_episode_that_points_at_its_mixcloud_page(self):
+        result = self.run_once()
+        self.assertTrue(result.written)
+        self.assertEqual((result.episode_count, result.new_episodes), (2, 2))
+        self.assertEqual(result.newest, datetime(2026, 11, 17, 17, 39, 54, tzinfo=UTC))
+        self.assertEqual(result.warnings, [])
+
+        channel = self.channel()
+        self.assertEqual(channel.findtext("title"), "Big Cuppa Radio")
+        self.assertEqual(channel.findtext("link"), "https://www.mixcloud.com/bigcupparadio/")
+        self.assertEqual(channel.findtext("language"), "en")
+        self.assertEqual(
+            channel.find("image").findtext("url"),
+            "https://thumbnailer.mixcloud.com/unsafe/1400x1400/profile/a/b/c",
+        )
+        newest, older = channel.findall("item")
+        page = "https://www.mixcloud.com/bigcupparadio/show-2/"
+        self.assertEqual(newest.findtext("title"), "Show #2")
+        self.assertEqual(newest.findtext("description"), "Une description")
+        self.assertEqual(newest.findtext("link"), page)
+        self.assertEqual(newest.find("enclosure").get("url"), page)
+        self.assertEqual(newest.findtext("guid"), "mixcloud:/bigcupparadio/show-2/")
+        self.assertEqual(
+            newest.findtext(f"{{{main.NS['itunes']}}}duration"), "00:59:43"
+        )
+        self.assertEqual(older.findtext("title"), "Show #1")
+
+    def test_an_unchanged_run_rewrites_nothing_and_asks_for_no_description(self):
+        self.run_once()
+        asked = self.api.details_requested()
+        self.assertEqual(asked, 2)
+
+        again = self.run_once()
+        self.assertFalse(again.written)
+        self.assertFalse(again.changed)
+        self.assertEqual(again.new_episodes, 0)
+        self.assertEqual(self.api.details_requested(), asked)
+
+    def test_a_new_upload_is_added_on_top_and_the_others_keep_their_guid(self):
+        self.run_once()
+        self.api.uploads.insert(0, upload(3, 25))
+
+        result = self.run_once()
+        self.assertTrue(result.written)
+        self.assertEqual((result.episode_count, result.new_episodes), (3, 1))
+        self.assertEqual(
+            [item.findtext("guid") for item in self.channel().findall("item")],
+            [f"mixcloud:/bigcupparadio/show-{number}/" for number in (3, 2, 1)],
+        )
+
+    def test_a_renamed_upload_is_the_same_episode_under_its_new_title(self):
+        self.run_once()
+        self.api.uploads[0]["name"] = "Show #2 (ft. Peggy)"
+
+        self.assertTrue(self.run_once().written)
+        newest = self.channel().find("item")
+        self.assertEqual(newest.findtext("title"), "Show #2 (ft. Peggy)")
+        self.assertEqual(newest.findtext("guid"), "mixcloud:/bigcupparadio/show-2/")
+        self.assertEqual(len(self.channel().findall("item")), 2)
+
+    def test_an_unreachable_api_leaves_the_feed_exactly_as_it_was(self):
+        self.run_once()
+        before = self.read()
+        self.api.down = True
+
+        with self.assertLogs(main.LOG, level="WARNING"):
+            result = self.run_once()
+        self.assertEqual(self.read(), before)
+        self.assertFalse(result.written)
+        self.assertEqual(result.error, "")
+        self.assertEqual(result.episode_count, 2)
+        self.assertEqual(len(result.warnings), 2)
+
+    def test_an_unreachable_api_and_no_feed_yet_is_an_error_not_an_empty_feed(self):
+        self.api.down = True
+        with self.assertLogs(main.LOG, level="WARNING"):
+            result = self.run_once()
+        self.assertTrue(result.error)
+        self.assertFalse(os.path.exists(self.path))
+
+    def test_an_upload_that_left_the_listing_stays_in_the_feed(self):
+        self.run_once()
+        del self.api.uploads[1]
+
+        result = self.run_once()
+        self.assertFalse(result.written)
+        self.assertEqual(result.episode_count, 2)
+
+    def test_a_description_that_could_not_be_read_is_asked_for_again(self):
+        self.api.details_down = True
+        with self.assertLogs(main.LOG, level="WARNING"):
+            result = self.run_once()
+        # The episodes are published all the same: a description is not worth
+        # holding an episode back for.
+        self.assertEqual(result.episode_count, 2)
+        self.assertEqual(len(result.warnings), 2)
+        self.assertEqual(self.channel().find("item").findtext("description"), "")
+
+        self.api.details_down = False
+        result = self.run_once()
+        self.assertTrue(result.written)
+        self.assertEqual(result.new_episodes, 0)
+        self.assertEqual(
+            self.channel().find("item").findtext("description"), "Une description"
+        )
+
+    def test_an_upload_without_a_description_is_described_by_its_genres(self):
+        self.api.uploads[0]["description"] = ""
+        self.run_once()
+        self.assertEqual(
+            self.channel().find("item").findtext("description"), "Funk, Boogie"
+        )
+        # Which settles it: it is not asked for again on every run.
+        asked = self.api.details_requested()
+        self.assertFalse(self.run_once().written)
+        self.assertEqual(self.api.details_requested(), asked)
+
+    def test_a_dry_run_reports_the_change_without_writing_it(self):
+        result = self.run_once(dry_run=True)
+        self.assertTrue(result.changed)
+        self.assertFalse(os.path.exists(self.path))
+
+    def test_carriage_returns_do_not_make_the_next_run_see_a_change(self):
+        self.api.uploads[0]["description"] = "Une ligne.\r\n\r\nUne autre."
+        self.run_once()
+        self.assertEqual(
+            self.channel().findtext("description"), "Monthly show.\n\nFrom a basement."
+        )
+        self.assertNotIn(b"\r", self.read())
+        self.assertFalse(self.run_once().written)
+
+
+class MixcloudApiTests(unittest.TestCase):
+    def setUp(self):
+        self.show = main.MixcloudShow("bigcupparadio", "test", "Titre provisoire")
+
+    def answer_with(self, pages: dict) -> list:
+        """Serve ``pages`` by address; return the list of addresses asked for."""
+        asked = []
+
+        def fake_get(url, params=None):
+            asked.append(url)
+            return pages[url]
+
+        original = main.mixcloud_get
+        main.mixcloud_get = fake_get
+        self.addCleanup(setattr, main, "mixcloud_get", original)
+        return asked
+
+    def test_the_listing_is_followed_page_after_page(self):
+        first = f"{main.MIXCLOUD_API}/bigcupparadio/cloudcasts/"
+        second = f"{first}?limit=100&until=2026-07-02+13%3A02%3A23"
+        asked = self.answer_with(
+            {
+                first: {"data": [upload(2, 17)], "paging": {"next": second}},
+                second: {"data": [upload(1, 3)], "paging": {}},
+            }
+        )
+        uploads = main.fetch_mixcloud_uploads(self.show)
+        self.assertEqual([item["name"] for item in uploads], ["Show #2", "Show #1"])
+        self.assertEqual(asked, [first, second])
+
+    def test_a_next_page_outside_the_api_is_never_followed(self):
+        first = f"{main.MIXCLOUD_API}/bigcupparadio/cloudcasts/"
+        asked = self.answer_with(
+            {
+                first: {
+                    "data": [upload(2, 17)],
+                    "paging": {"next": "https://api.mixcloud.com.example.net/x"},
+                }
+            }
+        )
+        self.assertEqual(len(main.fetch_mixcloud_uploads(self.show)), 1)
+        self.assertEqual(asked, [first])
+
+    def test_a_listing_without_data_is_an_error_rather_than_an_empty_profile(self):
+        first = f"{main.MIXCLOUD_API}/bigcupparadio/cloudcasts/"
+        self.answer_with({first: {"error": {"type": "RateLimitException"}}})
+        with self.assertRaises(ValueError):
+            main.fetch_mixcloud_uploads(self.show)
+
+    def test_an_episode_can_only_ever_point_at_mixcloud(self):
+        for key in (None, "", "show-1", "//evil.example.net/show-1/"):
+            with self.subTest(key=key):
+                self.assertIsNone(main.mixcloud_episode({"key": key, "name": "X"}))
+        found = main.mixcloud_episode(
+            {"key": "/bigcupparadio/show-1/", "url": "https://evil.example.net/"}
+        )
+        self.assertEqual(found.url, "https://www.mixcloud.com/bigcupparadio/show-1/")
+
+    def test_the_largest_picture_is_asked_for_at_podcast_size(self):
+        base = "https://thumbnailer.mixcloud.com/unsafe/{}/extaudio/2/d/d/6/18fd"
+        pictures = {
+            "large": base.format("300x300"),
+            "640wx640h": base.format("640x640"),
+            "1024wx1024h": base.format("1024x1024"),
+        }
+        self.assertEqual(main.mixcloud_artwork(pictures), base.format("1400x1400"))
+        self.assertEqual(main.mixcloud_artwork({}), "")
+        self.assertEqual(main.mixcloud_artwork(None), "")
+
+    def test_mixcloud_is_not_told_the_request_comes_from_radio_canada(self):
+        real = main._build_session()
+        sent = []
+
+        class Answer:
+            def raise_for_status(self):
+                pass
+
+            def json(self):
+                return {"data": []}
+
+        class Recorder:
+            def get(self, url, params=None, headers=None, timeout=None):
+                request = main.requests.Request("GET", url, params=params, headers=headers)
+                sent.append(real.prepare_request(request).headers)
+                return Answer()
+
+        original = main.session
+        main.session = Recorder
+        self.addCleanup(setattr, main, "session", original)
+
+        main.mixcloud_get(f"{main.MIXCLOUD_API}/bigcupparadio/")
+        self.assertIn("Referer", real.headers)
+        self.assertNotIn("Referer", sent[0])
+        self.assertNotIn("Origin", sent[0])
+        self.assertIn("User-Agent", sent[0])
+
+
+class OtherSourcesTests(unittest.TestCase):
+    """YouTube and Mixcloud feeds share the results table of the OHdio shows."""
+
+    def test_no_two_feeds_share_a_slug_or_a_file(self):
+        every = [*main.SHOWS, *main.YOUTUBE_SHOWS, *main.MIXCLOUD_SHOWS]
+        self.assertEqual(len({show.slug for show in every}), len(every))
+        self.assertEqual(len({show.filename for show in every}), len(every))
+
+    def test_mixcloud_feeds_are_only_built_when_asked_for(self):
+        built = []
+
+        def fake_show(show, out_dir, dry_run=False):
+            return main.ShowResult(show=show, episode_count=1)
+
+        def fake_mixcloud(show, out_dir, dry_run=False):
+            built.append(show.slug)
+            return main.ShowResult(show=show, episode_count=1)
+
+        for name, fake in (
+            ("process_show", fake_show),
+            ("process_mixcloud_show", fake_mixcloud),
+        ):
+            self.addCleanup(setattr, main, name, getattr(main, name))
+            setattr(main, name, fake)
+        self.addCleanup(setattr, main.logging, "basicConfig", main.logging.basicConfig)
+        main.logging.basicConfig = lambda **kwargs: None
+        # Keep the run out of the summary of the CI job that runs these tests.
+        for variable in ("GITHUB_OUTPUT", "GITHUB_STEP_SUMMARY"):
+            if variable in os.environ:
+                self.addCleanup(os.environ.__setitem__, variable, os.environ[variable])
+                del os.environ[variable]
+
+        self.assertEqual(main.main(["--shows", "une", "--dry-run"]), 0)
+        self.assertEqual(built, [])
+        self.assertEqual(main.main(["--shows", "une", "--dry-run", "--mixcloud"]), 0)
+        self.assertEqual(built, [show.slug for show in main.MIXCLOUD_SHOWS])
+
+
 if __name__ == "__main__":
     unittest.main()

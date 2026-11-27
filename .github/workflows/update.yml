@@ -112,7 +112,7 @@ jobs:
       # published files.
       - name: Validate feed generation
         if: github.event_name == 'pull_request'
-        run: python main.py --dry-run
+        run: python main.py --youtube --mixcloud --dry-run
 
       - name: Configure git
         if: github.event_name != 'pull_request'
@@ -130,7 +130,7 @@ jobs:
         env:
           PUBLISH_BRANCH: ${{ github.head_ref || github.ref_name }}
         run: |
-          python main.py --youtube \
+          python main.py --youtube --mixcloud \
             --watch --watch-minutes 240 --poll-seconds 180 \
             --on-change .github/publish.sh
 

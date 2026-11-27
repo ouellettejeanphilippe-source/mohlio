@@ -323,6 +323,54 @@ YOUTUBE_SHOWS_BY_SLUG = {show.slug: show for show in YOUTUBE_SHOWS}
 
 
 # ---------------------------------------------------------------------------
+# Mixcloud-sourced podcast feeds
+# ---------------------------------------------------------------------------
+# Each upload of a Mixcloud profile is one episode. As with YouTube, the
+# enclosures point at the Mixcloud page itself: nothing is downloaded or
+# re-hosted. Unlike the YouTube stations the list keeps growing, so it is read
+# from Mixcloud's public API on every run and merged with the feed on disk.
+
+MIXCLOUD_API = "https://api.mixcloud.com"
+MIXCLOUD_SITE = "https://www.mixcloud.com"
+MIXCLOUD_PAGE_SIZE = 100
+
+
+@dataclass(frozen=True)
+class MixcloudShow:
+    """One Mixcloud profile and the feed it is published as."""
+
+    username: str
+    slug: str
+    # Only used until the profile itself has been read once.
+    title: str
+    language: str = "en"
+    # Never watched: uploads follow no timetable, the regular runs pick them up.
+    schedules: tuple[Schedule, ...] = ()
+
+    @property
+    def id(self) -> str:
+        return f"mc:{self.slug}"
+
+    @property
+    def profile_url(self) -> str:
+        return f"{MIXCLOUD_SITE}/{self.username}/"
+
+    @property
+    def filename(self) -> str:
+        return f"feed_mc_{self.slug}.xml"
+
+    @property
+    def feed_url(self) -> str:
+        return f"{PUBLIC_BASE_URL}/{self.filename}"
+
+
+MIXCLOUD_SHOWS: tuple[MixcloudShow, ...] = (
+    # Monthly show, published whenever it is ready.
+    MixcloudShow("bigcupparadio", "bigcuppa", "Big Cuppa Radio"),
+)
+
+
+# ---------------------------------------------------------------------------
 # HTTP plumbing
 # ---------------------------------------------------------------------------
 
@@ -1091,6 +1139,138 @@ def fetch_podcast_rss(show: Show) -> tuple[ChannelMeta, list[Episode]]:
 
 
 # ---------------------------------------------------------------------------
+# Mixcloud - the public API
+# ---------------------------------------------------------------------------
+
+MIXCLOUD_LIMITER = RateLimiter(0.35)
+
+_MIXCLOUD_PICTURE_SIZE_RE = re.compile(r"/unsafe/\d+x\d+/")
+
+
+def mixcloud_get(url: str, params: dict | None = None) -> dict:
+    """Fetch one JSON document from the Mixcloud API; raise when it is not one."""
+    MIXCLOUD_LIMITER.wait()
+    response = session().get(
+        url,
+        params=params,
+        # The shared session presents every request as coming from a
+        # Radio-Canada page, which is nobody's business outside Radio-Canada.
+        headers={"Referer": None, "Origin": None},
+        timeout=TIMEOUT,
+    )
+    response.raise_for_status()
+    payload = response.json()
+    if not isinstance(payload, dict):
+        raise ValueError("unexpected answer from Mixcloud")
+    return payload
+
+
+def _plain_text(value) -> str:
+    """A Mixcloud text field, with the line endings an XML file keeps.
+
+    A parser reads ``\\r\\n`` back as ``\\n``, so a carriage return written to
+    a feed would make the next run see a change that is not one.
+    """
+    if not isinstance(value, str):
+        return ""
+    return clean_text(value).replace("\r\n", "\n").replace("\r", "\n")
+
+
+def mixcloud_artwork(pictures) -> str:
+    """Square artwork from a Mixcloud ``pictures`` object, or "" if absent.
+
+    Every entry is the same picture behind a thumbnailer that reads the size
+    from the address, so the largest one listed is asked for at podcast size.
+    """
+    if not isinstance(pictures, dict):
+        return ""
+    for name in ("1024wx1024h", "768wx768h", "640wx640h", "extra_large", "large"):
+        url = pictures.get(name)
+        if isinstance(url, str) and url.strip():
+            size = f"/unsafe/{ARTWORK_WIDTH}x{ARTWORK_WIDTH}/"
+            return _MIXCLOUD_PICTURE_SIZE_RE.sub(size, url.strip(), count=1)
+    return ""
+
+
+def fetch_mixcloud_profile(show: MixcloudShow) -> ChannelMeta:
+    profile = mixcloud_get(f"{MIXCLOUD_API}/{show.username}/")
+    name = _plain_text(profile.get("name"))
+    return ChannelMeta(
+        title=name,
+        description=_plain_text(profile.get("biog")),
+        image=mixcloud_artwork(profile.get("pictures")),
+        language=show.language,
+        author=name,
+    )
+
+
+def fetch_mixcloud_uploads(show: MixcloudShow) -> list[dict]:
+    """The uploads of a profile, newest first, as the API lists them."""
+    uploads: list[dict] = []
+    url = f"{MIXCLOUD_API}/{show.username}/cloudcasts/"
+    params: dict | None = {"limit": MIXCLOUD_PAGE_SIZE}
+    while len(uploads) < MAX_ITEMS:
+        payload = mixcloud_get(url, params)
+        data = payload.get("data")
+        if not isinstance(data, list):
+            raise ValueError("Mixcloud listing carries no data")
+        page = [item for item in data if isinstance(item, dict)]
+        uploads.extend(page)
+        paging = payload.get("paging")
+        following = paging.get("next") if isinstance(paging, dict) else None
+        # Stop on an empty page, and never follow a link that leaves the API.
+        if not page or not isinstance(following, str):
+            break
+        if not following.startswith(f"{MIXCLOUD_API}/"):
+            break
+        url, params = following, None
+    return uploads
+
+
+def mixcloud_episode(upload: dict) -> Episode | None:
+    """One listed upload as an episode, or None when it cannot be one.
+
+    The key is the upload's path on Mixcloud. It identifies the episode for
+    life and is what both its GUID and its address are built from, so an
+    episode can never point anywhere but at Mixcloud.
+    """
+    key = upload.get("key")
+    if not isinstance(key, str):
+        return None
+    key = key.strip()
+    if not key.startswith("/") or key.startswith("//"):
+        return None
+    page_url = f"{MIXCLOUD_SITE}{key}"
+    return Episode(
+        guid=f"mixcloud:{key}",
+        title=_plain_text(upload.get("name")),
+        published=parse_datetime(upload.get("created_time")),
+        duration=parse_duration(upload.get("audio_length")),
+        url=page_url,
+        link=page_url,
+    )
+
+
+def fetch_mixcloud_description(upload: dict, episode: Episode) -> str:
+    """The description of one upload, which only its own document carries.
+
+    Never empty once the document was read: an upload published without a
+    description gets its genres, so it is not asked for again on every run.
+    """
+    detail = mixcloud_get(f"{MIXCLOUD_API}{episode.guid.removeprefix('mixcloud:')}")
+    description = _plain_text(detail.get("description"))
+    if description:
+        return description
+    tags = upload.get("tags")
+    names = [
+        _plain_text(tag.get("name"))
+        for tag in (tags if isinstance(tags, list) else ())
+        if isinstance(tag, dict)
+    ]
+    return ", ".join(name for name in names if name) or episode.title
+
+
+# ---------------------------------------------------------------------------
 # Feed rendering
 # ---------------------------------------------------------------------------
 
@@ -1384,6 +1564,93 @@ def process_youtube_show(
     LOG.info(
         "[yt:%s] %s: %d episode(s)%s",
         show.slug,
+        show.filename,
+        len(episodes),
+        " (updated)" if result.written else " (unchanged)",
+    )
+    return result
+
+
+def process_mixcloud_show(
+    show: MixcloudShow, out_dir: str, dry_run: bool = False
+) -> ShowResult:
+    """Build the feed of a Mixcloud profile from the API and the feed on disk.
+
+    The feed on disk is the base and the API only ever adds to it or refreshes
+    it, so an API that is down, or that answers with half a listing, leaves
+    the feed exactly as it was.
+    """
+    result = ShowResult(show=show)
+    path = os.path.join(out_dir, show.filename)
+
+    meta, existing = read_existing_feed(path)
+    meta.link = show.profile_url
+    meta.language = show.language
+    by_guid: dict[str, Episode] = {episode.guid: episode for episode in existing}
+    LOG.info("[%s] %s: %d episode(s) on disk", show.id, show.title, len(by_guid))
+
+    try:
+        meta.merge(fetch_mixcloud_profile(show))
+    except (requests.RequestException, ValueError) as exc:
+        result.warnings.append(f"Mixcloud profile unavailable ({exc})")
+        LOG.warning("[%s] Mixcloud profile unavailable: %s", show.id, exc)
+
+    try:
+        uploads = fetch_mixcloud_uploads(show)
+        LOG.info("[%s] Mixcloud: %d upload(s)", show.id, len(uploads))
+    except (requests.RequestException, ValueError) as exc:
+        uploads = []
+        result.warnings.append(f"Mixcloud uploads unavailable ({exc})")
+        LOG.warning("[%s] Mixcloud uploads unavailable: %s", show.id, exc)
+
+    for upload in uploads:
+        episode = mixcloud_episode(upload)
+        if episode is None:
+            continue
+        known = by_guid.get(episode.guid)
+        if known is None:
+            result.new_episodes += 1
+        else:
+            episode.description = known.description
+            episode.published = episode.published or known.published
+            episode.duration = episode.duration or known.duration
+        if not episode.description:
+            # Read once, then kept from the feed on disk: a steady-state run
+            # costs two requests however long the feed is. Left empty when
+            # the request fails, which is what makes the next run ask again.
+            try:
+                episode.description = fetch_mixcloud_description(upload, episode)
+            except (requests.RequestException, ValueError) as exc:
+                result.warnings.append(f"no description for {episode.link} ({exc})")
+                LOG.warning("[%s] no description for %s: %s", show.id, episode.link, exc)
+        by_guid[episode.guid] = episode
+
+    oldest = datetime(1970, 1, 1, tzinfo=timezone.utc)
+    episodes = sorted(
+        by_guid.values(), key=lambda ep: ep.published or oldest, reverse=True
+    )[:MAX_ITEMS]
+
+    if not episodes:
+        result.error = "no episode available from Mixcloud"
+        LOG.error("[%s] %s", show.id, result.error)
+        return result
+
+    result.episode_count = len(episodes)
+    result.newest = next((ep.published for ep in episodes if ep.published), None)
+
+    content = build_feed_xml(show, meta, episodes)
+    ET.fromstring(content)
+
+    if dry_run:
+        result.changed = content.encode("utf-8") != _read_bytes(path)
+        LOG.info("[%s] dry run: %d episode(s)", show.id, len(episodes))
+        return result
+
+    result.written = write_if_changed(path, content)
+    result.changed = result.written
+    LOG.info(
+        "[%s] %s: %d episode(s)%s",
+        show.id,
         show.filename,
         len(episodes),
         " (updated)" if result.written else " (unchanged)",
@@ -1789,6 +2056,11 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="also build feeds for YouTube-sourced shows (GTA V radios, etc.)",
     )
+    parser.add_argument(
+        "--mixcloud",
+        action="store_true",
+        help="also build feeds for Mixcloud profiles (Big Cuppa Radio, etc.)",
+    )
     return parser.parse_args(argv)
 
 
@@ -1848,6 +2120,19 @@ def main(argv: Sequence[str] | None = None) -> int:
                 LOG.exception("[yt:%s] unexpected failure", yt_show.slug)
                 results_by_slug[yt_show.slug] = ShowResult(
                     show=yt_show, error=f"unexpected failure: {exc}"
+                )
+
+    # Mixcloud profiles: checked once per run, never watched.
+    if args.mixcloud:
+        for mc_show in MIXCLOUD_SHOWS:
+            try:
+                results_by_slug[mc_show.slug] = process_mixcloud_show(
+                    mc_show, args.out_dir, args.dry_run
+                )
+            except Exception as exc:
+                LOG.exception("[%s] unexpected failure", mc_show.id)
+                results_by_slug[mc_show.slug] = ShowResult(
+                    show=mc_show, error=f"unexpected failure: {exc}"
                 )
 
     # Publish what the first pass found before settling in to wait.
