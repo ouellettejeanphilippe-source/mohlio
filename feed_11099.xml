@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_11099.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Nov 2026 17:18:00 +0000</pubDate>
-    <lastBuildDate>Fri, 20 Nov 2026 17:18:00 +0000</lastBuildDate>
+    <pubDate>Fri, 27 Nov 2026 17:05:00 +0000</pubDate>
+    <lastBuildDate>Fri, 27 Nov 2026 17:05:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg</url>
       <title>Décrypteurs : le balado</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_300/v1/audio/balado/1x1/visuel-moteur-les-decrypteurs-balado-2026.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Décrypteurs : le balado</itunes:summary>
+    <item>
+      <title>Nvidia : « un gros scandale »</title>
+      <description>&lt;p&gt;L’entrepreneur Jensen Huang de retour aux commandes de l’entreprise technologique Nvidia; le virage à 180 degrés pour certains PDG des géants du numérique; l’intelligence artificielle au service de la nudification; l’entreprise Bell ciblée par une cyberattaque propulsée par l’intelligence artificielle; et l’utilisation de l’intelligence artificielle au cinéma dans le plus récent film du réalisateur David Fincher.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/11099/decrypteurs/1292397/nvidia-un-gros-scandale</link>
+      <pubDate>Fri, 27 Nov 2026 17:05:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/90171acf-2827-4b50-b9f3-a5fb04df3040/2026-11-27_11_30_00_decrypteurslebaladoohdio_0000_master.m3u8" length="55968000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/90171acf-2827-4b50-b9f3-a5fb04df3040/2026-11-27_11_30_00_decrypteurslebaladoohdio_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:58:18</itunes:duration>
+    </item>
     <item>
       <title>Panne informatique générale : démêler le vrai du faux</title>
       <description>&lt;p&gt;L’entrée fracassante en bourse de l’entreprise d’intelligence artificielle Anthropic; les rebondissements dans la saga de Jensen Huang, l’ex-dirigeant de l’entreprise technologique Nvidia; une réflexion sur les pannes en cascades et les craintes d’une panne informatique généralisée; une analyse des faux sites à potins; le point sur le projet de loi C-22; et une mise en garde contre les jouets connectés qui intègrent l’intelligence artificielle.&lt;/p&gt;</description>
