@@ -8,8 +8,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_14021.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Nov 2026 23:30:00 +0000</pubDate>
-    <lastBuildDate>Thu, 26 Nov 2026 23:30:00 +0000</lastBuildDate>
+    <pubDate>Sat, 28 Nov 2026 02:30:00 +0000</pubDate>
+    <lastBuildDate>Sat, 28 Nov 2026 02:30:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg</url>
       <title>L'histoire (est encore jeune)</title>
@@ -18,6 +18,15 @@
     <itunes:image href="https://images.radio-canada.ca/q_auto,w_1400/v1/audio/balado/1x1/lheej-visuel-moteur-balado-ohdio.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>L'histoire (est encore jeune)</itunes:summary>
+    <item>
+      <title>Le meilleur de la semaine du 23 novembre 2026</title>
+      <description>&lt;p&gt;Voici un assemblage des quatre émissions diffusées cette semaine. Au menu : la fondation de &lt;em&gt;Charlie Hebdo&lt;/em&gt;, l’invention de la poubelle, la création du parc national de Banff et la sortie du film &lt;em&gt;Casablanca&lt;/em&gt;.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/14021/lhistoire-est-encore-jeune/1292378/le-meilleur-de-la-semaine-du-23-novembre-2026</link>
+      <pubDate>Sat, 28 Nov 2026 02:30:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/cb60dfb2-0f28-4d36-b250-e6d5ec8a27b0/2026-11-27_10_27_00_lhistoireestencorejeune_0000_master.m3u8" length="79184000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/cb60dfb2-0f28-4d36-b250-e6d5ec8a27b0/2026-11-27_10_27_00_lhistoireestencorejeune_0000_master.m3u8?v=2</guid>
+      <itunes:duration>01:22:29</itunes:duration>
+    </item>
     <item>
       <title>26 novembre 1942 : la sortie du film&lt;em&gt; Casablanca&lt;/em&gt;</title>
       <description>&lt;p&gt;Malgré des décors en carton-pâte et un scénario écrit au fur et à mesure du tournage, &lt;em&gt;Casablanca&lt;/em&gt; trône au troisième rang des meilleurs films américains de l’histoire, selon l’American Film Institut. Le chroniqueur Marc Cassivi se penche sur ce film au tournage chaotique et au succès instantané. Magali Saint-Vincent en profite pour s’intéresser à l’invention du tourisme et à son âge d’or, où un vol direct Montréal-Casablanca était promu dans une publicité : &lt;q data-attributes="{&amp;quot;lang&amp;quot;:{&amp;quot;value&amp;quot;:&amp;quot;fr&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;Français&amp;quot;},&amp;quot;value&amp;quot;:{&amp;quot;html&amp;quot;:&amp;quot;À nous les jolies danseuses, le golf et les plages ensoleillées… &amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;À nous les jolies danseuses, le golf et les plages ensoleillées… &amp;quot;}}"&gt;&lt;span lang="fr" title="Français"&gt;À nous les jolies danseuses, le golf et les plages ensoleillées…&lt;/span&gt;&lt;/q&gt;&lt;/p&gt;</description>
