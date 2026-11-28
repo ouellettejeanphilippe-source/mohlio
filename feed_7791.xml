@@ -9,8 +9,8 @@
     <generator>mohlio</generator>
     <ttl>15</ttl>
     <atom:link href="https://ouellettejeanphilippe-source.github.io/mohlio/feed_7791.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 21 Nov 2026 20:00:00 -0500</pubDate>
-    <lastBuildDate>Sat, 21 Nov 2026 20:00:00 -0500</lastBuildDate>
+    <pubDate>Sat, 28 Nov 2026 18:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 28 Nov 2026 18:00:00 +0000</lastBuildDate>
     <image>
       <url>https://images.radio-canada.ca/w_1400,h_1400/v1/audio/partenaire-externe/1x1/pouvez-vous-repeter-la-question.jpg</url>
       <title>Pouvez-vous répéter la question?</title>
@@ -20,6 +20,15 @@
     <itunes:author>ICI Radio-Canada Première</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>Entouré de trois panélistes à la langue bien pendue, Pierre Brassard revisite l'actualité et se fait un malin plaisir à passer les nouvelles de la semaine à la moulinette de son humour unique et décalé. C'est aussi une occasion pour les auditeurs de mesurer leurs connaissances à celles des participants!</itunes:summary>
+    <item>
+      <title>Une spéciale en plein Salon du livre de Montréal!</title>
+      <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Simon Paré-Poupart, Charlotte Aubin et Jean-Philippe Baril Guérard, qui doivent répondre à des questions sur : les nouveaux habits de Louise Arbour, les sacrifices à faire selon Soraya Martinez Ferrada, le « grand entretien » de Paris, le câlin du premier ministre albanais, la mise en garde donnée par Paris Hilton, le Championnat du monde de l’œuf mayo et le secret du succès de Carlos Alcaraz.&lt;/p&gt;</description>
+      <link>https://ici.radio-canada.ca/ohdio/balados/7791/humour-quiz-jeu-pierre-brassard/1292622/speciale-salon-du-livre-montreal-simon-pare-poupart-charlotte-aubin-jean-philippe-baril-guerard</link>
+      <pubDate>Sat, 28 Nov 2026 18:00:00 +0000</pubDate>
+      <enclosure url="https://rcavmedias-static.akamaized.net/hls/d853908c-bcc4-472c-8e5c-d8f85875c3ba/2026-11-28_11_38_00_repeterlaquestionwweb_0000_master.m3u8" length="51104000" type="audio/mpeg" />
+      <guid isPermaLink="false">https://rcavmedias-static.akamaized.net/hls/d853908c-bcc4-472c-8e5c-d8f85875c3ba/2026-11-28_11_38_00_repeterlaquestionwweb_0000_master.m3u8?v=2</guid>
+      <itunes:duration>00:53:14</itunes:duration>
+    </item>
     <item>
       <title>La chauve-souris de Sorel-Tracy et James Bond</title>
       <description>&lt;p&gt;Cette semaine, Pierre Brassard reçoit Pascal Cameron, Matthieu Pepper et Sophie Cadieux, qui doivent répondre à des questions sur : la nervosité de Doug Ford, la chauve-souris de Sorel-Tracy, le slogan démocrate en Alaska, le groupe Oasis, le nouveau James Bond, Séraffine, la vache ferrandaise, et le massacre de Ô Canada.&lt;/p&gt;</description>
